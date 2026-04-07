@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RACING NEWS TR - Motorsporları Dünyası</title>
+    <meta name="description"
+        content="Türkiye'nin en kapsamlı motorsporları haber uygulaması. F1, MotoGP ve Milli Sporcularımız hakkında en güncel haberler.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800;900&family=Outfit:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Splash Screen -->
+    <div id="splash-screen" class="splash-screen">
+        <h1 class="splash-logo-text">RACING NEWS TR</h1>
+    </div>
+
+    <div id="app" class="app-container hidden">
+        <!-- Header -->
+        <header class="main-header">
+            <button id="menu-toggle" class="menu-btn" aria-label="Menü">
+                <div class="hamburger"></div>
+            </button>
+            <span class="header-logo-text">RACING NEWS TR</span>
+        </header>
+
+        <!-- Side Drawer -->
+        <nav id="side-drawer" class="side-drawer">
+            <div class="drawer-content">
+                <!-- Home Link -->
+                <div class="drawer-home-section" style="margin-bottom: 20px;">
+                    <a href="#" class="nav-link-home" data-view="home"
+                        style="font-size: 1.2rem; font-weight: 800; color: white; text-decoration: none; display: flex; align-items: center; gap: 10px;">
+                        ANASAYFA
+                    </a>
+                </div>
+
+                <div class="accordion">
+                    <!-- F1 -->
+                    <div class="accordion-item" id="f1-menu">
+                        <button class="accordion-header">Formula 1</button>
+                        <div class="accordion-body">
+                            <a href="#" class="nav-link" data-view="news" data-cat="f1">Haberler</a>
+                            <a href="#" class="nav-link" data-view="pilots" data-cat="f1">Pilotlar - Takımlar</a>
+                            <a href="#" class="nav-link" data-view="standings" data-cat="f1">Puan Tablosu</a>
+                            <a href="#" class="nav-link" data-view="calendar" data-cat="f1">Takvim</a>
+                        </div>
+                    </div>
+                    <!-- MotoGP -->
+                    <div class="accordion-item" id="motogp-menu">
+                        <button class="accordion-header">MotoGP</button>
+                        <div class="accordion-body">
+                            <a href="#" class="nav-link" data-view="news" data-cat="motogp">Haberler</a>
+                            <a href="#" class="nav-link" data-view="pilots" data-cat="motogp">Pilotlar - Takımlar</a>
+                            <a href="#" class="nav-link" data-view="standings" data-cat="motogp">Puan Tablosu</a>
+                            <a href="#" class="nav-link" data-view="calendar" data-cat="motogp">Takvim</a>
+                        </div>
+                    </div>
+                    <!-- Milli Sporcularımız -->
+                    <div class="accordion-item" id="milli-sporcularımız-menu">
+                        <button class="accordion-header">Milli Sporcularımız</button>
+                        <div class="accordion-body">
+                            <a href="#" class="nav-link" data-view="news" data-cat="milli sporcularımız">Haberler</a>
+                            <a href="#" class="nav-link" data-view="pilots" data-cat="milli sporcularımız">Milli
+                                Sporcularımız</a>
+                        </div>
+                        <div class="drawer-footer">
+                            <a href="#" class="nav-link-bottom" data-view="about">Hakkımızda</a>
+                        </div>
+                    </div>
+                </div>
+        </nav>
+        <div id="drawer-overlay" class="drawer-overlay"></div>
+
+        <!-- Notification Container -->
+        <div id="notification-container" class="notification-container"></div>
+        <div id="news-detail-overlay"
+            style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:white; z-index:9999; overflow-y:auto;">
+        </div>
+
+        <!-- Main Content -->
+        <main id="main-content" class="content-area">
+            <!-- Dynamic Content Injected Here -->
+            <section id="weekend-summary" class="weekend-summary">
+                <!-- Race Week Panel -->
+            </section>
+
+            <section id="track-info" class="track-info-section">
+                <!-- Track Details -->
+            </section>
+
+            <section id="main-news-feed" class="news-feed">
+                <h2 id="news-section-title" class="section-title">GÜNCEL HABERLER</h2>
+                <div id="news-container"></div>
+            </section>
+        </main>
+    </div>
+
+    <!-- JS Files -->
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+    <div id="news-detail-overlay"
+        style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:white; z-index:10000; overflow-y:auto;">
+    </div>
+</body>
+
+</html>
