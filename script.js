@@ -310,7 +310,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         let titleText = 'HABERLER';
         if (cat.toLowerCase() === 'f1') {
-            titleText = 'F1 HABERLERİ';
+            titleText = 'FORMULA 1 HABERLERİ';
         } else if (cat.toLowerCase() === 'motogp') {
             titleText = 'MOTOGP HABERLERİ';
         } else if (cat.toLowerCase() === 'milli sporcularımız') {
