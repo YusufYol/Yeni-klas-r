@@ -1,10 +1,10 @@
 const APP_DATA = {
-    "f1": {
+    "formula 1": {
         "news": [
             {
                 "id": 1,
                 "title": "MAX VERSTAPPEN EMEKLİ OLMAYI DÜŞÜNÜYOR!",
-                "cat": "f1",
+                "cat": "formula 1",
                 "date": "2026-03-29",
                 "content": "Dört kez dünya şampiyonu olan Max Verstappen, 2026 teknik regülasyonlarına yönelik artan memnuniyetsizliğini dile getirirken, Japonya Grand Prix'sinin ardından F1 geleceği ile ilgili birçok şeyi düşünmesi gerektiğini söylemişti.",
                 "img": "Resimler/max-verstappen-red-bull-racing (1).jpg"

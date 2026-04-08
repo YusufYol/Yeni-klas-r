@@ -309,7 +309,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const news = categoryData.news || [];
 
         let titleText = 'HABERLER';
-        if (cat.toLowerCase() === 'f1') {
+        if (cat.toLowerCase() === 'formula 1') {
             titleText = 'FORMULA 1 HABERLERİ';
         } else if (cat.toLowerCase() === 'motogp') {
             titleText = 'MOTOGP HABERLERİ';
