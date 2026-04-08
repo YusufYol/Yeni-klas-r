@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let normalizedCat = cat.toLowerCase().replace(/ı/g, 'i');
         // Handle "ındycar" vs "indycar"
         if (normalizedCat === 'indycar') return APP_DATA['indycar'];
+        if (normalizedCat === 'formula1' || normalizedCat === 'f1' || normalizedCat === 'formula 1') return APP_DATA['formula 1'];
         return APP_DATA[normalizedCat] || APP_DATA[cat.toLowerCase()] || {};
     }
 
@@ -309,7 +310,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const news = categoryData.news || [];
 
         let titleText = 'HABERLER';
-        if (cat.toLowerCase() === 'formula 1') {
+        const formattedCat = cat.toLowerCase().replace(/ı/g, 'i');
+        if (formattedCat === 'formula 1' || formattedCat === 'formula 1' || formattedCat === 'f1') {
             titleText = 'FORMULA 1 HABERLERİ';
         } else if (cat.toLowerCase() === 'motogp') {
             titleText = 'MOTOGP HABERLERİ';
