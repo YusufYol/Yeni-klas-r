@@ -588,7 +588,7 @@ document.addEventListener('DOMContentLoaded', () => {
         mainContent.innerHTML = `
             <button class="back-btn" onclick="window.history.back()">← GERİ DÖN</button>
             <div class="profile-header">
-                <img src="${team.img || ''}" class="profile-img">
+                <img src="${team.img || ''}" class="profile-img team-logo">
                 <div>
                     <h2>${team.name}</h2>
                 </div>
