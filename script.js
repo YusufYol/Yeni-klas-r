@@ -643,10 +643,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="about-social">
                     <span class="social-text">BİZİ TAKİP EDİN</span>
                     <div class="social-row">
-                        <a href="https://instagram.com" class="sm-link" target="_blank"><img src="Resimler/Instagram.png" alt="Instagram"></a>
-                        <a href="https://twitter.com" class="sm-link" target="_blank"><img src="Resimler/X.png" alt="X"></a>
-                        <a href="https://tiktok.com" class="sm-link" target="_blank"><img src="Resimler/Tiktok.png" alt="TikTok"></a>
-                        <a href="https://youtube.com" class="sm-link" target="_blank"><img src="Resimler/Youtube.png" alt="YouTube"></a>
+                        <a href="https://instagram.com" class="sm-link" target="_blank"><img src="Resimler/Sosyal Medya Logoları/Instagram.png" alt="Instagram"></a>
+                        <a href="https://twitter.com" class="sm-link" target="_blank"><img src="Resimler/Sosyal Medya Logoları/X.png" alt="X"></a>
+                        <a href="https://tiktok.com" class="sm-link" target="_blank"><img src="Resimler/Sosyal Medya Logoları/Tiktok.png" alt="TikTok"></a>
+                        <a href="https://youtube.com" class="sm-link" target="_blank"><img src="Resimler/Sosyal Medya Logoları/Youtube.png" alt="YouTube"></a>
                     </div>
                 </div>
             </div>
