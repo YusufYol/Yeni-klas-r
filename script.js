@@ -308,8 +308,17 @@ document.addEventListener('DOMContentLoaded', () => {
         const categoryData = getCategoryData(cat);
         const news = categoryData.news || [];
 
+        let titleText = 'HABERLER';
+        if (cat.toLowerCase() === 'f1') {
+            titleText = 'F1 HABERLERİ';
+        } else if (cat.toLowerCase() === 'motogp') {
+            titleText = 'MOTOGP HABERLERİ';
+        } else if (cat.toLowerCase() === 'milli sporcularımız') {
+            titleText = 'MİLLİ SPORCULARIMIZIN HABERLERİ';
+        }
+
         mainContent.innerHTML = `
-            <h2 class="section-title">${cat.toUpperCase()} HABERLERİ</h2>
+            <h2 class="section-title">${titleText}</h2>
             <div class="search-container">
                 <span class="search-icon">🔍</span>
                 <input type="text" id="news-search" class="search-input" placeholder="Haber başlığı veya içerik ara...">
