@@ -3,57 +3,49 @@ const APP_DATA = {
         "news": [
             {
                 "id": 1,
-                "title": "HABER: MAX VERSTAPPEN EMEKLİ OLMAYI DÜŞÜNÜYOR!",
+                "title": "MAX VERSTAPPEN EMEKLİ OLMAYI DÜŞÜNÜYOR!",
                 "cat": "f1",
                 "date": "2026-03-29",
                 "content": "Dört kez dünya şampiyonu olan Max Verstappen, 2026 teknik regülasyonlarına yönelik artan memnuniyetsizliğini dile getirirken, Japonya Grand Prix'sinin ardından F1 geleceği ile ilgili birçok şeyi düşünmesi gerektiğini söylemişti.",
                 "img": "Resimler/max-verstappen-red-bull-racing (1).jpg"
-            },
-            {
-                "id": 2,
-                "title": "HABER: COULTHARD: “RUSSELL, ANTONELLI'NIN ÖZGÜVENİNİ KIRMALI”",
-                "cat": "f1",
-                "date": "2026-04-04",
-                "content": "David Coulthard, George Russell’ın şampiyonluk şansını arttırabilmesi için takım arkadaşı Kimi Antonelli’nin özgüvenini “yavaş yavaş aşındırması” gerektiğini söyledi. Sezon öncesinde şampiyonluk favorileri arasında gösterilen George Russell, Antonelli’nin art arda gelen güçlü performansıyla darbe aldı. Genç pilot, sezonun ilk üç yarışında iki galibiyet elde ederek dikkatleri üzerine çekerken, Japonya Grand Prix’sindeki zaferiyle şampiyona liderliğine yükseldi ve bunu başaran en genç isim oldu. Antonelli, şu anda Russell’ın dokuz puan önünde yer alıyor.",
-                "img": "Resimler/Antonelli ve Russell.jpg"
             }
         ],
         "pilots": [
-            { "id": "verstappen", "name": "Max Verstappen #3", "team": "Oracle Red Bull Racing", "starts": 215, "wins": 76, "titles": 4, "img": "Resimler/Max Verstappen.png" },
-            { "id": "hadjar", "name": "Isack Hadjar #6", "team": "Oracle Red Bull Racing", "starts": 3, "wins": 0, "titles": 0, "img": "Resimler/Isack Hadjar.png" },
-            { "id": "hamilton", "name": "Lewıs Hamılton #44", "team": "Scuderia Ferrari HP", "starts": 362, "wins": 105, "titles": 7, "img": "Resimler/Lewis Hamilton.png" },
-            { "id": "leclerc", "name": "Charles Leclerc #16", "team": "Scuderia Ferrari HP", "starts": 158, "wins": 9, "titles": 0, "img": "Resimler/Charles Leclerc.png" },
-            { "id": "norris", "name": "Lando Norrıs #1", "team": "McLaren Formula 1 Team", "starts": 139, "wins": 12, "titles": 1, "img": "Resimler/Lando Norris.png" },
-            { "id": "piastri", "name": "Oscar Pıastrı #81", "team": "McLaren Formula 1 Team", "starts": 58, "wins": 10, "titles": 0, "img": "Resimler/Oscar Piastri.png" },
-            { "id": "russell", "name": "George Russell #63", "team": "Mercedes-AMG PETRONAS F1 Team", "starts": 138, "wins": 6, "titles": 0, "img": "Resimler/George Russell.png" },
-            { "id": "antonelli", "name": "Andrea Kımı Antonellı #12", "team": "Mercedes-AMG PETRONAS F1 Team", "starts": 3, "wins": 0, "titles": 0, "img": "Resimler/Andrea Kimi Antonelli.png" },
-            { "id": "alonso", "name": "Fernando Alonso #14", "team": "Aston Martin Aramco F1 Team", "starts": 412, "wins": 32, "titles": 2, "img": "Resimler/Fernando Alonso.png" },
-            { "id": "stroll", "name": "Lance Stroll #18", "team": "Aston Martin Aramco F1 Team", "starts": 178, "wins": 0, "titles": 0, "img": "Resimler/Lance Stroll.png" },
-            { "id": "gasly", "name": "Pıerre Gasly #10", "team": "BWT Alpine F1 Team", "starts": 161, "wins": 1, "titles": 0, "img": "Resimler/Pierre Gasly.png" },
-            { "id": "colapinto", "name": "Franco Colapınto #43", "team": "BWT Alpine F1 Team", "starts": 12, "wins": 0, "titles": 0, "img": "Resimler/Franco Colapinto.png" },
-            { "id": "albon", "name": "Alexander Albon #23", "team": "Williams Racing", "starts": 115, "wins": 0, "titles": 0, "img": "Resimler/Alexander Albon.png" },
-            { "id": "sainz", "name": "Carlos Saınz Jr. #55", "team": "Williams Racing", "starts": 218, "wins": 5, "titles": 0, "img": "Resimler/Carlos Sainz.png" },
-            { "id": "lawson", "name": "Lıam Lawson #30", "team": "Visa Cash App RB F1 Team", "starts": 25, "wins": 0, "titles": 0, "img": "Resimler/Liam Lawson.png" },
-            { "id": "lindblad", "name": "Arvıd Lındblad #41", "team": "Visa Cash App RB F1 Team", "starts": 3, "wins": 0, "titles": 0, "img": "Resimler/Arvid Lindblad.png" },
-            { "id": "bearman", "name": "Olıver Bearman #87", "team": "Haas F1 Team", "starts": 12, "wins": 0, "titles": 0, "img": "Resimler/Oliver Bearman.png" },
-            { "id": "ocon", "name": "Esteban Ocon #31", "team": "Haas F1 Team", "starts": 168, "wins": 1, "titles": 0, "img": "Resimler/Esteban Ocon.png" },
-            { "id": "hulkenberg", "name": "Nıco Hulkenberg #27", "team": "Audi F1 Team", "starts": 238, "wins": 0, "titles": 0, "img": "Resimler/Nico Hulkenberg.png" },
-            { "id": "bortoleto", "name": "Gabrıel Bortoleto #5", "team": "Audi F1 Team", "starts": 3, "wins": 0, "titles": 0, "img": "Resimler/Gabriel Bortoleto.png" },
-            { "id": "bottas", "name": "Valtterı Bottas #77", "team": "Cadillac Formula 1 Team", "starts": 255, "wins": 10, "titles": 0, "img": "Resimler/Valtteri Bottas.png" },
-            { "id": "perez", "name": "Sergıo Pérez #11", "team": "Cadillac Formula 1 Team", "starts": 292, "wins": 6, "titles": 0, "img": "Resimler/Sergio Perez.png" }
+            { "id": "verstappen", "name": "Max Verstappen #3", "team": "Oracle Red Bull Racing", "titles": 4, "img": "Resimler/Max Verstappen.png" },
+            { "id": "hadjar", "name": "Isack Hadjar #6", "team": "Oracle Red Bull Racing", "titles": 0, "img": "Resimler/Isack Hadjar.png" },
+            { "id": "hamilton", "name": "Lewıs Hamılton #44", "team": "Scuderia Ferrari HP", "titles": 7, "img": "Resimler/Lewis Hamilton.png" },
+            { "id": "leclerc", "name": "Charles Leclerc #16", "team": "Scuderia Ferrari HP", "titles": 0, "img": "Resimler/Charles Leclerc.png" },
+            { "id": "norris", "name": "Lando Norrıs #1", "team": "McLaren Formula 1 Team", "titles": 1, "img": "Resimler/Lando Norris.png" },
+            { "id": "piastri", "name": "Oscar Pıastrı #81", "team": "McLaren Formula 1 Team", "titles": 0, "img": "Resimler/Oscar Piastri.png" },
+            { "id": "russell", "name": "George Russell #63", "team": "Mercedes-AMG PETRONAS F1 Team", "titles": 0, "img": "Resimler/George Russell.png" },
+            { "id": "antonelli", "name": "Andrea Kımı Antonellı #12", "team": "Mercedes-AMG PETRONAS F1 Team", "titles": 0, "img": "Resimler/Andrea Kimi Antonelli.png" },
+            { "id": "alonso", "name": "Fernando Alonso #14", "team": "Aston Martin Aramco F1 Team", "titles": 2, "img": "Resimler/Fernando Alonso.png" },
+            { "id": "stroll", "name": "Lance Stroll #18", "team": "Aston Martin Aramco F1 Team", "titles": 0, "img": "Resimler/Lance Stroll.png" },
+            { "id": "gasly", "name": "Pıerre Gasly #10", "team": "BWT Alpine F1 Team", "titles": 0, "img": "Resimler/Pierre Gasly.png" },
+            { "id": "colapinto", "name": "Franco Colapınto #43", "team": "BWT Alpine F1 Team", "titles": 0, "img": "Resimler/Franco Colapinto.png" },
+            { "id": "albon", "name": "Alexander Albon #23", "team": "Williams Racing", "titles": 0, "img": "Resimler/Alexander Albon.png" },
+            { "id": "sainz", "name": "Carlos Saınz Jr. #55", "team": "Williams Racing", "titles": 0, "img": "Resimler/Carlos Sainz.png" },
+            { "id": "lawson", "name": "Lıam Lawson #30", "team": "Visa Cash App RB F1 Team", "titles": 0, "img": "Resimler/Liam Lawson.png" },
+            { "id": "lindblad", "name": "Arvıd Lındblad #41", "team": "Visa Cash App RB F1 Team", "titles": 0, "img": "Resimler/Arvid Lindblad.png" },
+            { "id": "bearman", "name": "Olıver Bearman #87", "team": "Haas F1 Team", "titles": 0, "img": "Resimler/Oliver Bearman.png" },
+            { "id": "ocon", "name": "Esteban Ocon #31", "team": "Haas F1 Team", "titles": 0, "img": "Resimler/Esteban Ocon.png" },
+            { "id": "hulkenberg", "name": "Nıco Hulkenberg #27", "team": "Audi F1 Team", "titles": 0, "img": "Resimler/Nico Hulkenberg.png" },
+            { "id": "bortoleto", "name": "Gabrıel Bortoleto #5", "team": "Audi F1 Team", "titles": 0, "img": "Resimler/Gabriel Bortoleto.png" },
+            { "id": "bottas", "name": "Valtterı Bottas #77", "team": "Cadillac Formula 1 Team", "titles": 0, "img": "Resimler/Valtteri Bottas.png" },
+            { "id": "perez", "name": "Sergıo Pérez #11", "team": "Cadillac Formula 1 Team", "titles": 0, "img": "Resimler/Sergio Perez.png" }
         ],
         "teams": [
-            { "id": "redbull", "name": "Oracle Red Bull Racıng", "starts": 412, "wins": 128, "titles": 6, "img": "Resimler/Red Bull.png" },
-            { "id": "ferrari", "name": "Scuderıa Ferrarı HP", "starts": 1102, "wins": 248, "titles": 16, "img": "Resimler/Ferrari.png" },
-            { "id": "mercedes", "name": "Mercedes-AMG PETRONAS F1 Team", "starts": 315, "wins": 129, "titles": 8, "img": "Resimler/Mercedes.png" },
-            { "id": "mclaren", "name": "McLaren F1 Team", "starts": 988, "wins": 195, "titles": 10, "img": "Resimler/McLaren.png" },
-            { "id": "aston", "name": "Aston Martın Aramco F1 Team", "starts": 88, "wins": 0, "titles": 0, "img": "Resimler/Aston Martin.png" },
-            { "id": "alpine", "name": "BWT Alpıne F1 Team", "starts": 85, "wins": 1, "titles": 0, "img": "Resimler/Alpine.png" },
-            { "id": "williams", "name": "Wıllıams Racing", "starts": 842, "wins": 114, "titles": 9, "img": "Resimler/Williams.png" },
-            { "id": "rb", "name": "Vısa Cash App RB F1 Team", "starts": 45, "wins": 0, "titles": 0, "img": "Resimler/RB.png" },
-            { "id": "haas", "name": "Haas F1 Team", "starts": 185, "wins": 0, "titles": 0, "img": "Resimler/Haas.png" },
-            { "id": "audi", "name": "Audı F1 Team", "starts": 3, "wins": 0, "titles": 0, "img": "Resimler/Audi.png" },
-            { "id": "cadillac", "name": "Cadıllac F1 Team", "starts": 3, "wins": 0, "titles": 0, "img": "Resimler/Cadillac.png" }
+            { "id": "redbull", "name": "Oracle Red Bull Racıng", "titles": 6, "img": "Resimler/Red Bull.png" },
+            { "id": "ferrari", "name": "Scuderıa Ferrarı HP", "titles": 16, "img": "Resimler/Ferrari.png" },
+            { "id": "mercedes", "name": "Mercedes-AMG PETRONAS F1 Team", "titles": 8, "img": "Resimler/Mercedes.png" },
+            { "id": "mclaren", "name": "McLaren F1 Team", "titles": 10, "img": "Resimler/McLaren.png" },
+            { "id": "aston", "name": "Aston Martın Aramco F1 Team", "titles": 0, "img": "Resimler/Aston Martin.png" },
+            { "id": "alpine", "name": "BWT Alpıne F1 Team", "titles": 0, "img": "Resimler/Alpine.png" },
+            { "id": "williams", "name": "Wıllıams Racing", "titles": 9, "img": "Resimler/Williams.png" },
+            { "id": "rb", "name": "Vısa Cash App RB F1 Team", "titles": 0, "img": "Resimler/RB.png" },
+            { "id": "haas", "name": "Haas F1 Team", "titles": 0, "img": "Resimler/Haas.png" },
+            { "id": "audi", "name": "Audı F1 Team", "titles": 0, "img": "Resimler/Audi.png" },
+            { "id": "cadillac", "name": "Cadıllac F1 Team", "titles": 0, "img": "Resimler/Cadillac.png" }
         ],
         "standings": {
             "pilots": [
@@ -199,7 +191,7 @@ const APP_DATA = {
         "news": [
             {
                 "id": 1,
-                "title": "Haber: Bagnaıa ve Marquez Arasındaki Büyük Rekabet",
+                "title": "Bagnaıa ve Marquez Arasındaki Büyük Rekabet",
                 "cat": "motogp",
                 "date": "2026-03-31",
                 "content": "Ducati takım arkadaşları arasındaki gerilim, 2026 sezonunun en çok konuşulan olayı olmaya aday.",
@@ -207,40 +199,40 @@ const APP_DATA = {
             }
         ],
         "pilots": [
-            { "id": "bagnaia", "name": "Francesco Bagnaıa #63", "team": "Ducati Lenovo Team", "starts": 125, "wins": 30, "titles": 2, "img": "Resimler/Francesco Bagnaia.png" },
-            { "id": "marquez_m", "name": "Marc Márquez #93", "team": "Ducati Lenovo Team", "starts": 265, "wins": 88, "titles": 8, "img": "Resimler/Marc Marquez.png" },
-            { "id": "martin", "name": "Jorge Martín #89", "team": "Aprilia Racing", "starts": 110, "wins": 15, "titles": 1, "img": "Resimler/Jorge Martin.png" },
-            { "id": "bezzecchi", "name": "Marco Bezzecchı #72", "team": "Aprilia Racing", "starts": 85, "wins": 4, "titles": 0, "img": "Resimler/Marco Bezzecchi.png" },
-            { "id": "acosta", "name": "Pedro Acosta #37", "team": "Red Bull KTM Factory Racing", "starts": 38, "wins": 3, "titles": 0, "img": "Resimler/Pedro Acosta.png" },
-            { "id": "binder", "name": "Brad Bınder #33", "team": "Red Bull KTM Factory Racing", "starts": 128, "wins": 3, "titles": 0, "img": "Resimler/Brad Binder.png" },
-            { "id": "bastianini", "name": "Enea Bastıanını #23", "team": "Red Bull KTM Tech3", "starts": 92, "wins": 7, "titles": 0, "img": "Resimler/Enea Bastianini.png" },
-            { "id": "vinales", "name": "Maverıck Vıñales #12", "team": "Red Bull KTM Tech3", "starts": 195, "wins": 11, "titles": 0, "img": "Resimler/Maverick Vinales.png" },
-            { "id": "quartararo", "name": "Fabıo Quartararo #20", "team": "Monster Energy Yamaha MotoGP", "starts": 145, "wins": 13, "titles": 1, "img": "Resimler/Fabio Quartararo.png" },
-            { "id": "rins", "name": "Alex Rıns #42", "team": "Monster Energy Yamaha MotoGP", "starts": 152, "wins": 6, "titles": 0, "img": "Resimler/Alex Rins.png" },
-            { "id": "miller", "name": "Jack Mıller #43", "team": "Prima Pramac Yamaha MotoGP", "starts": 182, "wins": 4, "titles": 0, "img": "Resimler/Jack Miller.png" },
-            { "id": "marquez_a", "name": "Alex Márquez #73", "team": "BK8 Gresini Racing MotoGP", "starts": 122, "wins": 0, "titles": 0, "img": "Resimler/Alex Marquez.png" },
-            { "id": "aldeguer", "name": "Fermín Aldeguer #54", "team": "BK8 Gresini Racing MotoGP", "starts": 3, "wins": 0, "titles": 0, "img": "Resimler/Fermin Aldeguer.png" },
-            { "id": "diggia", "name": "Fabıo Dı Gıannantonıo #49", "team": "Pertamina Enduro VR46", "starts": 88, "wins": 1, "titles": 0, "img": "Resimler/Fabio Di Giannantonio.png" },
-            { "id": "morbidelli", "name": "Franco Morbıdellı #21", "team": "Pertamina Enduro VR46", "starts": 135, "wins": 3, "titles": 0, "img": "Resimler/Franco Morbidelli.png" },
-            { "id": "marini", "name": "Luca Marını #10", "team": "Repsol Honda Team", "starts": 102, "wins": 0, "titles": 0, "img": "Resimler/Luca Marini.png" },
-            { "id": "mir", "name": "Joan Mır #36", "team": "Repsol Honda Team", "starts": 125, "wins": 1, "titles": 1, "img": "Resimler/Joan Mir.png" },
-            { "id": "zarco", "name": "Johann Zarco #5", "team": "Castrol Honda LCR", "starts": 182, "wins": 1, "titles": 0, "img": "Resimler/Johann Zarco.png" },
-            { "id": "raul", "name": "Raul Fernández #25", "team": "Trackhouse Racing", "starts": 88, "wins": 0, "titles": 0, "img": "Resimler/Raul Fernandez.png" },
-            { "id": "ogura", "name": "Aı Ogura #79", "team": "Trackhouse Racing", "starts": 3, "wins": 0, "titles": 0, "img": "Resimler/Ai Ogura.png" },
-            { "id": "toprak", "name": "Toprak Razgatlıoğlu #7", "team": "Prima Pramac Yamaha MotoGP", "starts": 3, "wins": 0, "titles": 0, "img": "Resimler/Toprak Razgatlıoğlu.png" }
+            { "id": "bagnaia", "name": "Francesco Bagnaıa #63", "team": "Ducati Lenovo Team", "titles": 2, "img": "Resimler/Francesco Bagnaia.png" },
+            { "id": "marquez_m", "name": "Marc Márquez #93", "team": "Ducati Lenovo Team", "titles": 8, "img": "Resimler/Marc Marquez.png" },
+            { "id": "martin", "name": "Jorge Martín #89", "team": "Aprilia Racing", "titles": 1, "img": "Resimler/Jorge Martin.png" },
+            { "id": "bezzecchi", "name": "Marco Bezzecchı #72", "team": "Aprilia Racing", "titles": 0, "img": "Resimler/Marco Bezzecchi.png" },
+            { "id": "acosta", "name": "Pedro Acosta #37", "team": "Red Bull KTM Factory Racing", "titles": 0, "img": "Resimler/Pedro Acosta.png" },
+            { "id": "binder", "name": "Brad Bınder #33", "team": "Red Bull KTM Factory Racing", "titles": 0, "img": "Resimler/Brad Binder.png" },
+            { "id": "bastianini", "name": "Enea Bastıanını #23", "team": "Red Bull KTM Tech3", "titles": 0, "img": "Resimler/Enea Bastianini.png" },
+            { "id": "vinales", "name": "Maverıck Vıñales #12", "team": "Red Bull KTM Tech3", "titles": 0, "img": "Resimler/Maverick Vinales.png" },
+            { "id": "quartararo", "name": "Fabıo Quartararo #20", "team": "Monster Energy Yamaha MotoGP", "titles": 1, "img": "Resimler/Fabio Quartararo.png" },
+            { "id": "rins", "name": "Alex Rıns #42", "team": "Monster Energy Yamaha MotoGP", "titles": 0, "img": "Resimler/Alex Rins.png" },
+            { "id": "miller", "name": "Jack Mıller #43", "team": "Prima Pramac Yamaha MotoGP", "titles": 0, "img": "Resimler/Jack Miller.png" },
+            { "id": "marquez_a", "name": "Alex Márquez #73", "team": "BK8 Gresini Racing MotoGP", "titles": 0, "img": "Resimler/Alex Marquez.png" },
+            { "id": "aldeguer", "name": "Fermín Aldeguer #54", "team": "BK8 Gresini Racing MotoGP", "titles": 0, "img": "Resimler/Fermin Aldeguer.png" },
+            { "id": "diggia", "name": "Fabıo Dı Gıannantonıo #49", "team": "Pertamina Enduro VR46", "titles": 0, "img": "Resimler/Fabio Di Giannantonio.png" },
+            { "id": "morbidelli", "name": "Franco Morbıdellı #21", "team": "Pertamina Enduro VR46", "titles": 0, "img": "Resimler/Franco Morbidelli.png" },
+            { "id": "marini", "name": "Luca Marını #10", "team": "Repsol Honda Team", "titles": 0, "img": "Resimler/Luca Marini.png" },
+            { "id": "mir", "name": "Joan Mır #36", "team": "Repsol Honda Team", "titles": 1, "img": "Resimler/Joan Mir.png" },
+            { "id": "zarco", "name": "Johann Zarco #5", "team": "Castrol Honda LCR", "titles": 0, "img": "Resimler/Johann Zarco.png" },
+            { "id": "raul", "name": "Raul Fernández #25", "team": "Trackhouse Racing", "titles": 0, "img": "Resimler/Raul Fernandez.png" },
+            { "id": "ogura", "name": "Aı Ogura #79", "team": "Trackhouse Racing", "titles": 0, "img": "Resimler/Ai Ogura.png" },
+            { "id": "toprak", "name": "Toprak Razgatlıoğlu #7", "team": "Prima Pramac Yamaha MotoGP", "titles": 0, "img": "Resimler/Toprak Razgatlıoğlu.png" }
         ],
         "teams": [
-            { "id": "ducati", "name": "Ducatı Lenovo Team", "starts": 385, "wins": 122, "titles": 3, "img": "Resimler/Ducati.png" },
-            { "id": "aprilia", "name": "Aprılıa Racıng", "starts": 215, "wins": 5, "titles": 0, "img": "Resimler/Aprilia.png" },
-            { "id": "ktm", "name": "Red Bull KTM Factory Racıng", "starts": 185, "wins": 8, "titles": 0, "img": "Resimler/KTM.png" },
-            { "id": "tech3", "name": "Red Bull KTM Tech3", "starts": 455, "wins": 3, "titles": 0, "img": "Resimler/KTM.png" },
-            { "id": "yamaha", "name": "Monster Energy Yamaha MotoGP", "starts": 512, "wins": 125, "titles": 18, "img": "Resimler/Monster Yamaha.png" },
-            { "id": "pramac", "name": "Prıma Pramac Yamaha MotoGP", "starts": 482, "wins": 18, "titles": 1, "img": "Resimler/Pramac Yamaha.png" },
-            { "id": "gresini", "name": "BK8 Gresını Racıng MotoGP", "starts": 352, "wins": 22, "titles": 0, "img": "Resimler/Gresini.png" },
-            { "id": "vr46", "name": "Pertamına Enduro VR46", "starts": 85, "wins": 4, "titles": 0, "img": "Resimler/VR46.png" },
-            { "id": "honda", "name": "Repsol Honda Team", "starts": 782, "wins": 158, "titles": 25, "img": "Resimler/Repsol Honda.png" },
-            { "id": "lcr", "name": "Castrol Honda LCR", "starts": 412, "wins": 4, "titles": 0, "img": "Resimler/Honda LCR.png" },
-            { "id": "trackhouse", "name": "Trackhouse Racıng", "starts": 45, "wins": 0, "titles": 0, "img": "Resimler/Trackhouse.png" }
+            { "id": "ducati", "name": "Ducatı Lenovo Team", "titles": 3, "img": "Resimler/Ducati.png" },
+            { "id": "aprilia", "name": "Aprılıa Racıng", "titles": 0, "img": "Resimler/Aprilia.png" },
+            { "id": "ktm", "name": "Red Bull KTM Factory Racıng", "titles": 0, "img": "Resimler/KTM.png" },
+            { "id": "tech3", "name": "Red Bull KTM Tech3", "titles": 0, "img": "Resimler/KTM.png" },
+            { "id": "yamaha", "name": "Monster Energy Yamaha MotoGP", "titles": 18, "img": "Resimler/Monster Yamaha.png" },
+            { "id": "pramac", "name": "Prıma Pramac Yamaha MotoGP", "titles": 1, "img": "Resimler/Pramac Yamaha.png" },
+            { "id": "gresini", "name": "BK8 Gresını Racıng MotoGP", "titles": 0, "img": "Resimler/Gresini.png" },
+            { "id": "vr46", "name": "Pertamına Enduro VR46", "titles": 0, "img": "Resimler/VR46.png" },
+            { "id": "honda", "name": "Repsol Honda Team", "titles": 25, "img": "Resimler/Repsol Honda.png" },
+            { "id": "lcr", "name": "Castrol Honda LCR", "titles": 0, "img": "Resimler/Honda LCR.png" },
+            { "id": "trackhouse", "name": "Trackhouse Racıng", "titles": 0, "img": "Resimler/Trackhouse.png" }
         ],
         "calendar": [
             { "round": 1, "gp": "Thailand Grand Prix", "country": "Tayland", "date": "27 Şubat-1 Mart", "track": "Buriram", "isoDate": "2026-02-27", "status": "Tamamlandı", "sessions": [{ "name": "Salı: 1. Antrenman", "time": "06:45" }, { "name": "Salı: Antrenman Seansı", "time": "11:00" }, { "name": "Çarşamba: Sıralama Turları 1", "time": "06:50" }, { "name": "Çarşamba: Sıralama Turları 2", "time": "11:00" }, { "name": "Çarşamba: Sprint Yarışı", "time": "11:00" }, { "name": "Cuma: Isınma Turları", "time": "06:40" }, { "name": "Cuma: Yarış", "time": "11:00" },] },
@@ -380,11 +372,23 @@ const APP_DATA = {
             ]
         }
     },
+    "haberler": {
+        "news": [
+            {
+                "id": 1,
+                "title": "AYHANCAN GÜVEN, WEC'TE İLK YARIŞINA ÇIKIYOR!",
+                "cat": "haberler",
+                "date": "2026-04-05",
+                "content": "Türkiye'nin gururu Ayhancan Güven, Dünya Dayanıklılık Şampiyonası'ndaki ilk yarışına çıkıyor! 19 Nisan tarihinde 6 HOURS IMOLA yarışı ile Porsche LMGT3 sınıfında mücadele edecek. Milli sporcumuza başarılar dileriz!",
+                "img": "Resimler/Ayhancan Güven.jpg"
+            },
+        ],
+    },
     "milli sporcularımız": {
         "news": [
             {
                 "id": 1,
-                "title": "HABER: AYHANCAN GÜVEN, WEC'TE İLK YARIŞINA ÇIKIYOR!",
+                "title": "AYHANCAN GÜVEN, WEC'TE İLK YARIŞINA ÇIKIYOR!",
                 "cat": "milli sporcularımız",
                 "date": "2026-04-05",
                 "content": "Türkiye'nin gururu Ayhancan Güven, Dünya Dayanıklılık Şampiyonası'ndaki ilk yarışına çıkıyor! 19 Nisan tarihinde 6 HOURS IMOLA yarışı ile Porsche LMGT3 sınıfında mücadele edecek. Milli sporcumuza başarılar dileriz!",
@@ -516,7 +520,7 @@ const CIRCUITS_DB = {
         "mostWinsPilot": "Sébastien Ogier (2 Galibiyet)", "mostWinsTeam": "Toyota (3 Galibiyet)",
         "description": "Hırvatistan Rallisi, Zagreb çevresindeki dar ve değişken asfalt etaplarıyla WRC'nin en zorlu asfalt mücadelelerinden biridir."
     },
-    "Jerez – Ángel Nıeto": {
+    "Jerez – Ángel Nieto": {
         "len": "4.428 km", "turns": "13", "drs": "Yok", "record": "1:36.168 (Francesco Bagnaia)",
         "opened": "1987", "firstWinner": "Wayne Gardner (1987)",
         "mostWinsPilot": "Valentino Rossi (9 Galibiyet)", "mostWinsTeam": "Honda (22 Galibiyet)",
@@ -524,7 +528,7 @@ const CIRCUITS_DB = {
     },
 };
 
-const TRACK_STATS = CIRCUITS_DB["Jerez – Ángel Nıeto"];
+const TRACK_STATS = CIRCUITS_DB["Jerez – Ángel Nieto"];
 
 // Dinamik veriler script.js tarafından güncellenecektir.
 let CURRENT_WEEKEND_DATA = null;

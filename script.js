@@ -567,10 +567,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             </div>
             <div class="stats-grid">
-                <div class="stat-item"><div class="stat-label">Yarış</div><div class="stat-value">${pilot.starts}</div></div>
-                <div class="stat-item"><div class="stat-label">Galibiyet</div><div class="stat-value">${pilot.wins}</div></div>
-                <div class="stat-item"><div class="stat-label">Podyum</div><div class="stat-value">${pilot.podium}</div></div>
-                <div class="stat-item"><div class="stat-label">Pole Pozisyonu</div><div class="stat-value">${pilot.pole}</div></div>
                 <div class="stat-item"><div class="stat-label">Şampiyonluk</div><div class="stat-value" style="color:var(--primary-red)">${pilot.titles}</div></div>
             </div>
         `;
@@ -587,8 +583,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             </div>
             <div class="stats-grid">
-                <div class="stat-item"><div class="stat-label">Yarış</div><div class="stat-value">${team.starts}</div></div>
-                <div class="stat-item"><div class="stat-label">Galibiyet</div><div class="stat-value">${team.wins}</div></div>
                 <div class="stat-item"><div class="stat-label">Şampiyonluk</div><div class="stat-value" style="color:var(--primary-red)">${team.titles}</div></div>
             </div>
         `;
