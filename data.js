@@ -41,7 +41,7 @@ const APP_DATA = {
             { "id": "mclaren", "name": "McLaren F1 Team", "titles": 10, "img": "Resimler/McLaren.png" },
             { "id": "aston", "name": "Aston Martın Aramco F1 Team", "titles": 0, "img": "Resimler/Aston Martin.png" },
             { "id": "alpine", "name": "BWT Alpıne F1 Team", "titles": 0, "img": "Resimler/Alpine.png" },
-            { "id": "williams", "name": "Wıllıams Racing", "titles": 9, "img": "Resimler/Williams.png" },
+            { "id": "williams", "name": "Wıllıams Racıng", "titles": 9, "img": "Resimler/Williams.png" },
             { "id": "rb", "name": "Vısa Cash App RB F1 Team", "titles": 0, "img": "Resimler/RB.png" },
             { "id": "haas", "name": "Haas F1 Team", "titles": 0, "img": "Resimler/Haas.png" },
             { "id": "audi", "name": "Audı F1 Team", "titles": 0, "img": "Resimler/Audi.png" },
