@@ -225,7 +225,7 @@ const APP_DATA = {
             { "id": "ducati", "name": "Ducatı Lenovo Team", "titles": 3, "img": "Resimler/Ducati.png" },
             { "id": "aprilia", "name": "Aprılıa Racıng", "titles": 0, "img": "Resimler/Aprilia.png" },
             { "id": "ktm", "name": "Red Bull KTM Factory Racıng", "titles": 0, "img": "Resimler/KTM.png" },
-            { "id": "tech3", "name": "Red Bull KTM Tech3", "titles": 0, "img": "Resimler/KTM.png" },
+            { "id": "tech3", "name": "Red Bull KTM Tech3", "titles": 0, "img": "Resimler/Tech3.png" },
             { "id": "yamaha", "name": "Monster Energy Yamaha MotoGP", "titles": 18, "img": "Resimler/Monster Yamaha.png" },
             { "id": "pramac", "name": "Prıma Pramac Yamaha MotoGP", "titles": 1, "img": "Resimler/Pramac Yamaha.png" },
             { "id": "gresini", "name": "BK8 Gresını Racıng MotoGP", "titles": 0, "img": "Resimler/Gresini.png" },
