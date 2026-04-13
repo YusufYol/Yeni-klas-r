@@ -294,7 +294,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const div = document.createElement('div');
         div.className = 'news-card';
         div.innerHTML = `
-            <img src="${news.img}" alt="news" class="news-img">
+            <div class="news-img-container">
+                <img src="${news.img}" alt="news" class="news-img">
+            </div>
             <div class="news-info">
                 <span class="news-cat">${news.cat}</span>
                 <h3 class="news-title">${news.title}</h3>
