@@ -212,6 +212,14 @@ const APP_DATA = {
                 "date": "2026-04-14",
                 "content": "MotoGP’de 2027 sezonuna hazırlıklar başlayarak, yeni teknik kurallara geçiş süreci iyice hız kazanmış durumda. KTM, Honda, Yamaha ve Ducati, 850cc motor konseptiyle geliştirdikleri prototip motosikletlerin testlerini tamamlayarak önemli bir aşamayı geride bıraktı.<br><br>Bilindiği üzere 2027 itibarıyla MotoGP’de 1000cc motorlar tarihe karışacak ve yerini 850cc makineler alacak. Bu değişim, takımların sadece motor performansını değil; aerodinami, ağırlık dağılımı ve yakıt verimliliği gibi birçok kritik unsuru yeniden düşünmesini gerektiriyor.<br><br>Testlerini tamamlayan üreticiler, pist üstünde topladıkları verilerle geliştirme sürecinde ciddi bir yol kat etmiş durumda. Özellikle Ducati’nin performans konusundaki iddialı yaklaşımı ve KTM’nin agresif geliştirme temposu öne çıkarken, Honda ile Yamaha’nın da son yıllardaki yeniden yapılanma sürecinde bu testlere büyük önem verdiği görülüyor.<br><br>Diğer yandan Aprilia tarafında henüz 850cc prototiple resmi bir test yapılmış değil. Bu durum, İtalyan üreticinin yeni döneme ne kadar hazır olduğu konusunda bazı soru işaretlerini de beraberinde getiriyor.",
                 "img": "Resimler/MotoGP Haberler/Pirelli.jpg"
+            },
+            {
+                "id": 2,
+                "title": "NICOLO BULEGA, MOTOGP İÇİN KOLTUK ARAYIŞINDA!",
+                "cat": "motogp",
+                "date": "2026-04-15",
+                "content": "Ducati’nin Nicolo Bulega’ya kapılarını kapatmasının ardından İtalyan sürücü, MotoGP’ye geçiş için alternatif seçenekleri değerlendirmeye başladı. Bulega’nın gündemindeki en ciddi opsiyonlardan biri ise Aprilia’nın uydu takımı Trackhouse.<br><br>Trackhouse cephesinde, Ai Ogura’nın Yamaha’ya olası bir geçiş yapması durumunda boşalabilecek koltuk dikkat çekiyor. Bu senaryo, Bulega için önemli bir fırsat yaratabilir.<br><br>Ancak mevcut durumda Trackhouse’un önceliği Nicolo Bulega değil. Bu nedenle İtalyan sürücünün MotoGP’ye geçiş süreci, takımın kararlarına ve sürücü pazarındaki gelişmelere bağlı olarak şekillenecek.",
+                "img": "Resimler/MotoGP Haberler/Bulega.png"
             }
         ],
         "pilots": [
