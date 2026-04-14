@@ -7,7 +7,7 @@ const APP_DATA = {
                 "cat": "formula 1",
                 "date": "2026-04-14",
                 "content": "Ferrari’nin FIA nezdindeki girişimi sonuç verdi ve FIA, Mercedes ile Red Bull Racing’in sıralama turlarında kullandığı tartışmalı hibrit yöntemini yasakladı.<br><br>Söz konusu sistemde takımlar, MGU-K ünitesini “teknik arıza” gerekçesiyle anlık kapatarak yönetmelikteki kademeli güç düşüşünü devre dışı bırakıyordu. Bu sayede tur sonuna kadar maksimum güçle devam eden araçlar, özellikle son sektörde 50-100 kW ekstra avantaj elde ediyordu.<br><br>Ancak bu yöntem sadece performans değil, güvenlik açısından da risk yarattı. Sistem kapatıldıktan sonra yaşanan ani yavaşlamalar, hızlı turdaki pilotlar için tehlikeli anlara neden oldu.<br><br>FIA’nın yeni teknik direktifine göre artık MGU-K sadece gerçek ve kanıtlanabilir arızalarda devre dışı bırakılabilecek. Performans amacı taşıyan her müdahale kural ihlali sayılacak ve telemetri verileriyle anlık olarak denetlenecek.<br><br>Bu karar, özellikle sıralama turlarında küçük farkların belirleyici olduğu dengeleri doğrudan etkileyebilir.",
-                "img": "Resimler/Formula 1 Haberler/Hibrit.png"
+                "img": "/Resimler/Formula 1 Haberler/Hibrit.png"
             },
             {
                 "id": 2,
@@ -15,7 +15,7 @@ const APP_DATA = {
                 "cat": "formula 1",
                 "date": "2026-04-14",
                 "content": "Max Verstappen’in kariyerindeki en kritik dönemeçlerden biri yaklaşırken, Gianpiero Lambiase cephesinden gelen haber Formula 1 dünyasında dengeleri sarsmış durumda. Red Bull’da yıllardır Verstappen’in yarış mühendisi olarak görev yapan ve “GP” lakabıyla tanınan Lambiase’nin, sözleşmesinin sona ermesinin ardından McLaren saflarına katılacak olması, sadece teknik bir transfer değil; aynı zamanda büyük bir kırılmanın habercisi olarak görülüyor.<br><br>Bu ayrılık, özellikle Verstappen’in geleceğiyle ilgili tartışmaların alevlendiği bir döneme denk gelmesi nedeniyle çok daha fazla anlam taşıyor. Hollandalı pilotun, Japonya Grand Prix’si sonrası yaptığı açıklamalarda Formula 1’e devam etme konusunda ciddi şüpheler taşıdığını belirtmesi zaten soru işaretlerini artırmıştı. Şimdi ise en güvendiği isimlerden birinin takımdan ayrılıyor olması, 2026 sonrası için Red Bull ihtimalini daha da zayıflatıyor.<br><br>Verstappen’in olası ayrılık senaryosunun arkasında yalnızca performans düşüşü yatmıyor. 2026’da yürürlüğe girecek yeni nesil hibrit güç üniteleri ve araç konsepti, pilotun uzun süredir eleştirdiği konuların başında geliyor. Daha fazla enerji geri kazanımı ve elektrik gücüne dayalı sistemlerin ön plana çıkması, Verstappen’in sürüş karakterine hitap etmeyen bir yapı olarak öne çıkıyor. Ancak takım içindeki değişim de en az teknik regülasyonlar kadar belirleyici bir faktör.<br><br>Son yıllarda Red Bull Racing içerisinde yaşanan ayrılıklar, bir dominasyon döneminin yavaş yavaş sona erdiğini gösteriyor. Takımın mimarlarından Adrian Newey’in ayrılığı, ardından sportif direktör Jonathan Wheatley’nin takımdan kopuşu ve şimdi de Lambiase’nin gidişi, Red Bull’un yapı taşlarının tek tek söküldüğünü ortaya koyuyor.<br><br>Bu süreçte dikkat çeken bir diğer detay ise McLaren’ın eski Red Bull kadrolarını adeta yeniden bir araya getirmesi. Lambiase, daha önce takımdan ayrılan mühendislerle tekrar aynı çatı altında buluşacak. Bu durum, sadece bir transfer zinciri değil, aynı zamanda güç dengesinin yavaş yavaş yer değiştirdiğinin de işareti olabilir.<br><br>Özetle, Lambiase’nin ayrılığı tek başına bir mühendis değişimi değil; Verstappen’in kariyer rotasını etkileyebilecek kadar büyük bir gelişme. Eğer Red Bull bu dağılma sürecini durduramazsa, Formula 1’in son yıllardaki en baskın hikayelerinden biri beklenenden çok daha erken sona erebilir.",
-                "img": "Resimler/Formula 1 Haberler/GP ve Max.png"
+                "img": "/Resimler/Formula 1 Haberler/GP ve Max.png"
             },
             {
                 "id": 3,
@@ -23,45 +23,45 @@ const APP_DATA = {
                 "cat": "formula 1",
                 "date": "2026-04-14",
                 "content": "Helmut Marko, halihazırda uygulanmaya başlayan 2026 Formula 1 regülasyonlarını sert sözlerle eleştirdi ve FIA’ya acil değişiklik çağrısında bulundu.<br><br>Marko, yeni kuralların padok içerisindeki atmosferi olumsuz etkilediğini belirtirken, başta Max Verstappen olmak üzere birçok pilotun mevcut durumdan memnun olmadığını ifade etti. Marko’ya göre yeni nesil güç üniteleri, sürüş hissiyatını ve rekabet dengesini istenmeyen bir noktaya taşıyor.<br><br>Deneyimli isim, özellikle elektrik gücünün ön plana çıkmasını eleştirdi. 2026 regülasyonlarıyla birlikte batarya kullanımının artması, içten yanmalı motorun rolünü görece geri plana iterken, Marko bu durumun Formula 1’in karakterine zarar verdiğini savunuyor. FIA’nın bu dengeyi yeniden kurması gerektiğini vurgulayan Marko, bataryanın etkisinin azaltılıp içten yanmalı motorun daha fazla ön plana çıkarılması gerektiğini söyledi.",
-                "img": "Resimler/Formula 1 Haberler/Marko.png"
+                "img": "/Resimler/Formula 1 Haberler/Marko.png"
             }
         ],
         "pilots": [
-            { "id": "verstappen", "name": "Max Verstappen #3", "team": "Oracle Red Bull Racing", "titles": 4, "img": "Resimler/Formula 1 Pilot ve Takımlar/Max Verstappen.png" },
-            { "id": "hadjar", "name": "Isack Hadjar #6", "team": "Oracle Red Bull Racing", "titles": 0, "img": "Resimler/Formula 1 Pilot ve Takımlar/Isack Hadjar.png" },
-            { "id": "hamilton", "name": "Lewıs Hamılton #44", "team": "Scuderia Ferrari HP", "titles": 7, "img": "Resimler/Formula 1 Pilot ve Takımlar/Lewis Hamilton.png" },
-            { "id": "leclerc", "name": "Charles Leclerc #16", "team": "Scuderia Ferrari HP", "titles": 0, "img": "Resimler/Formula 1 Pilot ve Takımlar/Charles Leclerc.png" },
-            { "id": "norris", "name": "Lando Norrıs #1", "team": "McLaren Formula 1 Team", "titles": 1, "img": "Resimler/Formula 1 Pilot ve Takımlar/Lando Norris.png" },
-            { "id": "piastri", "name": "Oscar Pıastrı #81", "team": "McLaren Formula 1 Team", "titles": 0, "img": "Resimler/Formula 1 Pilot ve Takımlar/Oscar Piastri.png" },
-            { "id": "russell", "name": "George Russell #63", "team": "Mercedes-AMG PETRONAS F1 Team", "titles": 0, "img": "Resimler/Formula 1 Pilot ve Takımlar/George Russell.png" },
-            { "id": "antonelli", "name": "Andrea Kımı Antonellı #12", "team": "Mercedes-AMG PETRONAS F1 Team", "titles": 0, "img": "Resimler/Formula 1 Pilot ve Takımlar/Andrea Kimi Antonelli.png" },
-            { "id": "alonso", "name": "Fernando Alonso #14", "team": "Aston Martin Aramco F1 Team", "titles": 2, "img": "Resimler/Formula 1 Pilot ve Takımlar/Fernando Alonso.png" },
-            { "id": "stroll", "name": "Lance Stroll #18", "team": "Aston Martin Aramco F1 Team", "titles": 0, "img": "Resimler/Formula 1 Pilot ve Takımlar/Lance Stroll.png" },
-            { "id": "gasly", "name": "Pıerre Gasly #10", "team": "BWT Alpine F1 Team", "titles": 0, "img": "Resimler/Formula 1 Pilot ve Takımlar/Pierre Gasly.png" },
-            { "id": "colapinto", "name": "Franco Colapınto #43", "team": "BWT Alpine F1 Team", "titles": 0, "img": "Resimler/Formula 1 Pilot ve Takımlar/Franco Colapinto.png" },
-            { "id": "albon", "name": "Alexander Albon #23", "team": "Williams Racing", "titles": 0, "img": "Resimler/Formula 1 Pilot ve Takımlar/Alexander Albon.png" },
-            { "id": "sainz", "name": "Carlos Saınz Jr. #55", "team": "Williams Racing", "titles": 0, "img": "Resimler/Formula 1 Pilot ve Takımlar/Carlos Sainz.png" },
-            { "id": "lawson", "name": "Lıam Lawson #30", "team": "Visa Cash App RB F1 Team", "titles": 0, "img": "Resimler/Formula 1 Pilot ve Takımlar/Liam Lawson.png" },
-            { "id": "lindblad", "name": "Arvıd Lındblad #41", "team": "Visa Cash App RB F1 Team", "titles": 0, "img": "Resimler/Formula 1 Pilot ve Takımlar/Arvid Lindblad.png" },
-            { "id": "bearman", "name": "Olıver Bearman #87", "team": "Haas F1 Team", "titles": 0, "img": "Resimler/Formula 1 Pilot ve Takımlar/Oliver Bearman.png" },
-            { "id": "ocon", "name": "Esteban Ocon #31", "team": "Haas F1 Team", "titles": 0, "img": "Resimler/Formula 1 Pilot ve Takımlar/Esteban Ocon.png" },
-            { "id": "hulkenberg", "name": "Nıco Hulkenberg #27", "team": "Audi F1 Team", "titles": 0, "img": "Resimler/Formula 1 Pilot ve Takımlar/Nico Hulkenberg.png" },
-            { "id": "bortoleto", "name": "Gabrıel Bortoleto #5", "team": "Audi F1 Team", "titles": 0, "img": "Resimler/Formula 1 Pilot ve Takımlar/Gabriel Bortoleto.png" },
-            { "id": "bottas", "name": "Valtterı Bottas #77", "team": "Cadillac Formula 1 Team", "titles": 0, "img": "Resimler/Formula 1 Pilot ve Takımlar/Valtteri Bottas.png" },
-            { "id": "perez", "name": "Sergıo Pérez #11", "team": "Cadillac Formula 1 Team", "titles": 0, "img": "Resimler/Formula 1 Pilot ve Takımlar/Sergio Perez.png" }
+            { "id": "verstappen", "name": "Max Verstappen #3", "team": "Oracle Red Bull Racing", "titles": 4, "img": "/Resimler/Formula 1 Pilot ve Takımlar/Max Verstappen.png" },
+            { "id": "hadjar", "name": "Isack Hadjar #6", "team": "Oracle Red Bull Racing", "titles": 0, "img": "/Resimler/Formula 1 Pilot ve Takımlar/Isack Hadjar.png" },
+            { "id": "hamilton", "name": "Lewıs Hamılton #44", "team": "Scuderia Ferrari HP", "titles": 7, "img": "/Resimler/Formula 1 Pilot ve Takımlar/Lewis Hamilton.png" },
+            { "id": "leclerc", "name": "Charles Leclerc #16", "team": "Scuderia Ferrari HP", "titles": 0, "img": "/Resimler/Formula 1 Pilot ve Takımlar/Charles Leclerc.png" },
+            { "id": "norris", "name": "Lando Norrıs #1", "team": "McLaren Formula 1 Team", "titles": 1, "img": "/Resimler/Formula 1 Pilot ve Takımlar/Lando Norris.png" },
+            { "id": "piastri", "name": "Oscar Pıastrı #81", "team": "McLaren Formula 1 Team", "titles": 0, "img": "/Resimler/Formula 1 Pilot ve Takımlar/Oscar Piastri.png" },
+            { "id": "russell", "name": "George Russell #63", "team": "Mercedes-AMG PETRONAS F1 Team", "titles": 0, "img": "/Resimler/Formula 1 Pilot ve Takımlar/George Russell.png" },
+            { "id": "antonelli", "name": "Andrea Kımı Antonellı #12", "team": "Mercedes-AMG PETRONAS F1 Team", "titles": 0, "img": "/Resimler/Formula 1 Pilot ve Takımlar/Andrea Kimi Antonelli.png" },
+            { "id": "alonso", "name": "Fernando Alonso #14", "team": "Aston Martin Aramco F1 Team", "titles": 2, "img": "/Resimler/Formula 1 Pilot ve Takımlar/Fernando Alonso.png" },
+            { "id": "stroll", "name": "Lance Stroll #18", "team": "Aston Martin Aramco F1 Team", "titles": 0, "img": "/Resimler/Formula 1 Pilot ve Takımlar/Lance Stroll.png" },
+            { "id": "gasly", "name": "Pıerre Gasly #10", "team": "BWT Alpine F1 Team", "titles": 0, "img": "/Resimler/Formula 1 Pilot ve Takımlar/Pierre Gasly.png" },
+            { "id": "colapinto", "name": "Franco Colapınto #43", "team": "BWT Alpine F1 Team", "titles": 0, "img": "/Resimler/Formula 1 Pilot ve Takımlar/Franco Colapinto.png" },
+            { "id": "albon", "name": "Alexander Albon #23", "team": "Williams Racing", "titles": 0, "img": "/Resimler/Formula 1 Pilot ve Takımlar/Alexander Albon.png" },
+            { "id": "sainz", "name": "Carlos Saınz Jr. #55", "team": "Williams Racing", "titles": 0, "img": "/Resimler/Formula 1 Pilot ve Takımlar/Carlos Sainz.png" },
+            { "id": "lawson", "name": "Lıam Lawson #30", "team": "Visa Cash App RB F1 Team", "titles": 0, "img": "/Resimler/Formula 1 Pilot ve Takımlar/Liam Lawson.png" },
+            { "id": "lindblad", "name": "Arvıd Lındblad #41", "team": "Visa Cash App RB F1 Team", "titles": 0, "img": "/Resimler/Formula 1 Pilot ve Takımlar/Arvid Lindblad.png" },
+            { "id": "bearman", "name": "Olıver Bearman #87", "team": "Haas F1 Team", "titles": 0, "img": "/Resimler/Formula 1 Pilot ve Takımlar/Oliver Bearman.png" },
+            { "id": "ocon", "name": "Esteban Ocon #31", "team": "Haas F1 Team", "titles": 0, "img": "/Resimler/Formula 1 Pilot ve Takımlar/Esteban Ocon.png" },
+            { "id": "hulkenberg", "name": "Nıco Hulkenberg #27", "team": "Audi F1 Team", "titles": 0, "img": "/Resimler/Formula 1 Pilot ve Takımlar/Nico Hulkenberg.png" },
+            { "id": "bortoleto", "name": "Gabrıel Bortoleto #5", "team": "Audi F1 Team", "titles": 0, "img": "/Resimler/Formula 1 Pilot ve Takımlar/Gabriel Bortoleto.png" },
+            { "id": "bottas", "name": "Valtterı Bottas #77", "team": "Cadillac Formula 1 Team", "titles": 0, "img": "/Resimler/Formula 1 Pilot ve Takımlar/Valtteri Bottas.png" },
+            { "id": "perez", "name": "Sergıo Pérez #11", "team": "Cadillac Formula 1 Team", "titles": 0, "img": "/Resimler/Formula 1 Pilot ve Takımlar/Sergio Perez.png" }
         ],
         "teams": [
-            { "id": "redbull", "name": "Oracle Red Bull Racıng", "titles": 6, "img": "Resimler/Formula 1 Pilot ve Takımlar/Red Bull.png" },
-            { "id": "ferrari", "name": "Scuderıa Ferrarı HP", "titles": 16, "img": "Resimler/Formula 1 Pilot ve Takımlar/Ferrari.png" },
-            { "id": "mercedes", "name": "Mercedes-AMG PETRONAS F1 Team", "titles": 8, "img": "Resimler/Formula 1 Pilot ve Takımlar/Mercedes.png" },
-            { "id": "mclaren", "name": "McLaren F1 Team", "titles": 10, "img": "Resimler/Formula 1 Pilot ve Takımlar/McLaren.png" },
-            { "id": "aston", "name": "Aston Martın Aramco F1 Team", "titles": 0, "img": "Resimler/Formula 1 Pilot ve Takımlar/Aston Martin.png" },
-            { "id": "alpine", "name": "BWT Alpıne F1 Team", "titles": 0, "img": "Resimler/Formula 1 Pilot ve Takımlar/Alpine.png" },
-            { "id": "williams", "name": "Wıllıams Racıng", "titles": 9, "img": "Resimler/Formula 1 Pilot ve Takımlar/Williams.png" },
-            { "id": "rb", "name": "Vısa Cash App RB F1 Team", "titles": 0, "img": "Resimler/Formula 1 Pilot ve Takımlar/RB.png" },
-            { "id": "haas", "name": "Haas F1 Team", "titles": 0, "img": "Resimler/Formula 1 Pilot ve Takımlar/Haas.png" },
-            { "id": "audi", "name": "Audı F1 Team", "titles": 0, "img": "Resimler/Formula 1 Pilot ve Takımlar/Audi.png" },
-            { "id": "cadillac", "name": "Cadıllac F1 Team", "titles": 0, "img": "Resimler/Formula 1 Pilot ve Takımlar/Cadillac.png" }
+            { "id": "redbull", "name": "Oracle Red Bull Racıng", "titles": 6, "img": "/Resimler/Formula 1 Pilot ve Takımlar/Red Bull.png" },
+            { "id": "ferrari", "name": "Scuderıa Ferrarı HP", "titles": 16, "img": "/Resimler/Formula 1 Pilot ve Takımlar/Ferrari.png" },
+            { "id": "mercedes", "name": "Mercedes-AMG PETRONAS F1 Team", "titles": 8, "img": "/Resimler/Formula 1 Pilot ve Takımlar/Mercedes.png" },
+            { "id": "mclaren", "name": "McLaren F1 Team", "titles": 10, "img": "/Resimler/Formula 1 Pilot ve Takımlar/McLaren.png" },
+            { "id": "aston", "name": "Aston Martın Aramco F1 Team", "titles": 0, "img": "/Resimler/Formula 1 Pilot ve Takımlar/Aston Martin.png" },
+            { "id": "alpine", "name": "BWT Alpıne F1 Team", "titles": 0, "img": "/Resimler/Formula 1 Pilot ve Takımlar/Alpine.png" },
+            { "id": "williams", "name": "Wıllıams Racıng", "titles": 9, "img": "/Resimler/Formula 1 Pilot ve Takımlar/Williams.png" },
+            { "id": "rb", "name": "Vısa Cash App RB F1 Team", "titles": 0, "img": "/Resimler/Formula 1 Pilot ve Takımlar/RB.png" },
+            { "id": "haas", "name": "Haas F1 Team", "titles": 0, "img": "/Resimler/Formula 1 Pilot ve Takımlar/Haas.png" },
+            { "id": "audi", "name": "Audı F1 Team", "titles": 0, "img": "/Resimler/Formula 1 Pilot ve Takımlar/Audi.png" },
+            { "id": "cadillac", "name": "Cadıllac F1 Team", "titles": 0, "img": "/Resimler/Formula 1 Pilot ve Takımlar/Cadillac.png" }
         ],
         "standings": {
             "pilots": [
@@ -211,44 +211,44 @@ const APP_DATA = {
                 "cat": "motogp",
                 "date": "2026-04-14",
                 "content": "MotoGP’de 2027 sezonuna hazırlıklar başlayarak, yeni teknik kurallara geçiş süreci iyice hız kazanmış durumda. KTM, Honda, Yamaha ve Ducati, 850cc motor konseptiyle geliştirdikleri prototip motosikletlerin testlerini tamamlayarak önemli bir aşamayı geride bıraktı.<br><br>Bilindiği üzere 2027 itibarıyla MotoGP’de 1000cc motorlar tarihe karışacak ve yerini 850cc makineler alacak. Bu değişim, takımların sadece motor performansını değil; aerodinami, ağırlık dağılımı ve yakıt verimliliği gibi birçok kritik unsuru yeniden düşünmesini gerektiriyor.<br><br>Testlerini tamamlayan üreticiler, pist üstünde topladıkları verilerle geliştirme sürecinde ciddi bir yol kat etmiş durumda. Özellikle Ducati’nin performans konusundaki iddialı yaklaşımı ve KTM’nin agresif geliştirme temposu öne çıkarken, Honda ile Yamaha’nın da son yıllardaki yeniden yapılanma sürecinde bu testlere büyük önem verdiği görülüyor.<br><br>Diğer yandan Aprilia tarafında henüz 850cc prototiple resmi bir test yapılmış değil. Bu durum, İtalyan üreticinin yeni döneme ne kadar hazır olduğu konusunda bazı soru işaretlerini de beraberinde getiriyor.",
-                "img": "Resimler/MotoGP Haberler/Pirelli.jpg"
+                "img": "/Resimler/MotoGP Haberler/Pirelli.jpg"
             }
         ],
         "pilots": [
-            { "id": "bagnaia", "name": "Francesco Bagnaıa #63", "team": "Ducati Lenovo Team", "titles": 2, "img": "Resimler/MotoGP Pilot ve Takımlar/Francesco Bagnaia.png" },
-            { "id": "marquez_m", "name": "Marc Márquez #93", "team": "Ducati Lenovo Team", "titles": 8, "img": "Resimler/MotoGP Pilot ve Takımlar/Marc Marquez.png" },
-            { "id": "martin", "name": "Jorge Martín #89", "team": "Aprilia Racing", "titles": 1, "img": "Resimler/MotoGP Pilot ve Takımlar/Jorge Martin.png" },
-            { "id": "bezzecchi", "name": "Marco Bezzecchı #72", "team": "Aprilia Racing", "titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/Marco Bezzecchi.png" },
-            { "id": "acosta", "name": "Pedro Acosta #37", "team": "Red Bull KTM Factory Racing", "titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/Pedro Acosta.png" },
-            { "id": "binder", "name": "Brad Bınder #33", "team": "Red Bull KTM Factory Racing", "titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/Brad Binder.png" },
-            { "id": "bastianini", "name": "Enea Bastıanını #23", "team": "Red Bull KTM Tech3", "titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/Enea Bastianini.png" },
-            { "id": "vinales", "name": "Maverıck Vıñales #12", "team": "Red Bull KTM Tech3", "titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/Maverick Vinales.png" },
-            { "id": "quartararo", "name": "Fabıo Quartararo #20", "team": "Monster Energy Yamaha MotoGP", "titles": 1, "img": "Resimler/MotoGP Pilot ve Takımlar/Fabio Quartararo.png" },
-            { "id": "rins", "name": "Alex Rıns #42", "team": "Monster Energy Yamaha MotoGP", "titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/Alex Rins.png" },
-            { "id": "miller", "name": "Jack Mıller #43", "team": "Prima Pramac Yamaha MotoGP", "titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/Jack Miller.png" },
-            { "id": "marquez_a", "name": "Alex Márquez #73", "team": "BK8 Gresini Racing MotoGP", "titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/Alex Marquez.png" },
-            { "id": "aldeguer", "name": "Fermín Aldeguer #54", "team": "BK8 Gresini Racing MotoGP", "titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/Fermin Aldeguer.png" },
-            { "id": "diggia", "name": "Fabıo Dı Gıannantonıo #49", "team": "Pertamina Enduro VR46", "titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/Fabio Di Giannantonio.png" },
-            { "id": "morbidelli", "name": "Franco Morbıdellı #21", "team": "Pertamina Enduro VR46", "titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/Franco Morbidelli.png" },
-            { "id": "marini", "name": "Luca Marını #10", "team": "Repsol Honda Team", "titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/Luca Marini.png" },
-            { "id": "mir", "name": "Joan Mır #36", "team": "Repsol Honda Team", "titles": 1, "img": "Resimler/MotoGP Pilot ve Takımlar/Joan Mir.png" },
-            { "id": "zarco", "name": "Johann Zarco #5", "team": "Castrol Honda LCR", "titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/Johann Zarco.png" },
-            { "id": "raul", "name": "Raul Fernández #25", "team": "Trackhouse Racing", "titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/Raul Fernandez.png" },
-            { "id": "ogura", "name": "Aı Ogura #79", "team": "Trackhouse Racing", "titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/Ai Ogura.png" },
-            { "id": "toprak", "name": "Toprak Razgatlıoğlu #7", "team": "Prima Pramac Yamaha MotoGP", "titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/Toprak Razgatlıoğlu.png" }
+            { "id": "bagnaia", "name": "Francesco Bagnaıa #63", "team": "Ducati Lenovo Team", "titles": 2, "img": "/Resimler/MotoGP Pilot ve Takımlar/Francesco Bagnaia.png" },
+            { "id": "marquez_m", "name": "Marc Márquez #93", "team": "Ducati Lenovo Team", "titles": 8, "img": "/Resimler/MotoGP Pilot ve Takımlar/Marc Marquez.png" },
+            { "id": "martin", "name": "Jorge Martín #89", "team": "Aprilia Racing", "titles": 1, "img": "/Resimler/MotoGP Pilot ve Takımlar/Jorge Martin.png" },
+            { "id": "bezzecchi", "name": "Marco Bezzecchı #72", "team": "Aprilia Racing", "titles": 0, "img": "/Resimler/MotoGP Pilot ve Takımlar/Marco Bezzecchi.png" },
+            { "id": "acosta", "name": "Pedro Acosta #37", "team": "Red Bull KTM Factory Racing", "titles": 0, "img": "/Resimler/MotoGP Pilot ve Takımlar/Pedro Acosta.png" },
+            { "id": "binder", "name": "Brad Bınder #33", "team": "Red Bull KTM Factory Racing", "titles": 0, "img": "/Resimler/MotoGP Pilot ve Takımlar/Brad Binder.png" },
+            { "id": "bastianini", "name": "Enea Bastıanını #23", "team": "Red Bull KTM Tech3", "titles": 0, "img": "/Resimler/MotoGP Pilot ve Takımlar/Enea Bastianini.png" },
+            { "id": "vinales", "name": "Maverıck Vıñales #12", "team": "Red Bull KTM Tech3", "titles": 0, "img": "/Resimler/MotoGP Pilot ve Takımlar/Maverick Vinales.png" },
+            { "id": "quartararo", "name": "Fabıo Quartararo #20", "team": "Monster Energy Yamaha MotoGP", "titles": 1, "img": "/Resimler/MotoGP Pilot ve Takımlar/Fabio Quartararo.png" },
+            { "id": "rins", "name": "Alex Rıns #42", "team": "Monster Energy Yamaha MotoGP", "titles": 0, "img": "/Resimler/MotoGP Pilot ve Takımlar/Alex Rins.png" },
+            { "id": "miller", "name": "Jack Mıller #43", "team": "Prima Pramac Yamaha MotoGP", "titles": 0, "img": "/Resimler/MotoGP Pilot ve Takımlar/Jack Miller.png" },
+            { "id": "marquez_a", "name": "Alex Márquez #73", "team": "BK8 Gresini Racing MotoGP", "titles": 0, "img": "/Resimler/MotoGP Pilot ve Takımlar/Alex Marquez.png" },
+            { "id": "aldeguer", "name": "Fermín Aldeguer #54", "team": "BK8 Gresini Racing MotoGP", "titles": 0, "img": "/Resimler/MotoGP Pilot ve Takımlar/Fermin Aldeguer.png" },
+            { "id": "diggia", "name": "Fabıo Dı Gıannantonıo #49", "team": "Pertamina Enduro VR46", "titles": 0, "img": "/Resimler/MotoGP Pilot ve Takımlar/Fabio Di Giannantonio.png" },
+            { "id": "morbidelli", "name": "Franco Morbıdellı #21", "team": "Pertamina Enduro VR46", "titles": 0, "img": "/Resimler/MotoGP Pilot ve Takımlar/Franco Morbidelli.png" },
+            { "id": "marini", "name": "Luca Marını #10", "team": "Repsol Honda Team", "titles": 0, "img": "/Resimler/MotoGP Pilot ve Takımlar/Luca Marini.png" },
+            { "id": "mir", "name": "Joan Mır #36", "team": "Repsol Honda Team", "titles": 1, "img": "/Resimler/MotoGP Pilot ve Takımlar/Joan Mir.png" },
+            { "id": "zarco", "name": "Johann Zarco #5", "team": "Castrol Honda LCR", "titles": 0, "img": "/Resimler/MotoGP Pilot ve Takımlar/Johann Zarco.png" },
+            { "id": "raul", "name": "Raul Fernández #25", "team": "Trackhouse Racing", "titles": 0, "img": "/Resimler/MotoGP Pilot ve Takımlar/Raul Fernandez.png" },
+            { "id": "ogura", "name": "Aı Ogura #79", "team": "Trackhouse Racing", "titles": 0, "img": "/Resimler/MotoGP Pilot ve Takımlar/Ai Ogura.png" },
+            { "id": "toprak", "name": "Toprak Razgatlıoğlu #7", "team": "Prima Pramac Yamaha MotoGP", "titles": 0, "img": "/Resimler/MotoGP Pilot ve Takımlar/Toprak Razgatlıoğlu.png" }
         ],
         "teams": [
-            { "id": "ducati", "name": "Ducatı Lenovo Team", "titles": 3, "img": "Resimler/MotoGP Pilot ve Takımlar/Ducati.png" },
-            { "id": "aprilia", "name": "Aprılıa Racıng", "titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/Aprilia.png" },
-            { "id": "ktm", "name": "Red Bull KTM Factory Racıng", "titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/KTM.png" },
-            { "id": "tech3", "name": "Red Bull KTM Tech3", "titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/Tech3.png" },
-            { "id": "yamaha", "name": "Monster Energy Yamaha MotoGP", "titles": 18, "img": "Resimler/MotoGP Pilot ve Takımlar/Monster Yamaha.png" },
-            { "id": "pramac", "name": "Prıma Pramac Yamaha MotoGP", "titles": 1, "img": "Resimler/MotoGP Pilot ve Takımlar/Pramac Yamaha.png" },
-            { "id": "gresini", "name": "BK8 Gresını Racıng MotoGP", "titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/Gresini.png" },
-            { "id": "vr46", "name": "Pertamına Enduro VR46", "titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/VR46.png" },
-            { "id": "honda", "name": "Repsol Honda Team", "titles": 25, "img": "Resimler/MotoGP Pilot ve Takımlar/Repsol Honda.png" },
-            { "id": "lcr", "name": "Castrol Honda LCR", "titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/Honda LCR.png" },
-            { "id": "trackhouse", "name": "Trackhouse Racıng", "titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/Trackhouse.png" }
+            { "id": "ducati", "name": "Ducatı Lenovo Team", "titles": 3, "img": "/Resimler/MotoGP Pilot ve Takımlar/Ducati.png" },
+            { "id": "aprilia", "name": "Aprılıa Racıng", "titles": 0, "img": "/Resimler/MotoGP Pilot ve Takımlar/Aprilia.png" },
+            { "id": "ktm", "name": "Red Bull KTM Factory Racıng", "titles": 0, "img": "/Resimler/MotoGP Pilot ve Takımlar/KTM.png" },
+            { "id": "tech3", "name": "Red Bull KTM Tech3", "titles": 0, "img": "/Resimler/MotoGP Pilot ve Takımlar/Tech3.png" },
+            { "id": "yamaha", "name": "Monster Energy Yamaha MotoGP", "titles": 18, "img": "/Resimler/MotoGP Pilot ve Takımlar/Monster Yamaha.png" },
+            { "id": "pramac", "name": "Prıma Pramac Yamaha MotoGP", "titles": 1, "img": "/Resimler/MotoGP Pilot ve Takımlar/Pramac Yamaha.png" },
+            { "id": "gresini", "name": "BK8 Gresını Racıng MotoGP", "titles": 0, "img": "/Resimler/MotoGP Pilot ve Takımlar/Gresini.png" },
+            { "id": "vr46", "name": "Pertamına Enduro VR46", "titles": 0, "img": "/Resimler/MotoGP Pilot ve Takımlar/VR46.png" },
+            { "id": "honda", "name": "Repsol Honda Team", "titles": 25, "img": "/Resimler/MotoGP Pilot ve Takımlar/Repsol Honda.png" },
+            { "id": "lcr", "name": "Castrol Honda LCR", "titles": 0, "img": "/Resimler/MotoGP Pilot ve Takımlar/Honda LCR.png" },
+            { "id": "trackhouse", "name": "Trackhouse Racıng", "titles": 0, "img": "/Resimler/MotoGP Pilot ve Takımlar/Trackhouse.png" }
         ],
         "calendar": [
             { "round": 1, "gp": "Thailand Grand Prix", "country": "Tayland", "date": "27 Şubat-1 Mart", "track": "Buriram", "isoDate": "2026-02-27", "status": "Tamamlandı", "sessions": [{ "name": "Salı: 1. Antrenman", "time": "06:45" }, { "name": "Salı: Antrenman Seansı", "time": "11:00" }, { "name": "Çarşamba: Sıralama Turları 1", "time": "06:50" }, { "name": "Çarşamba: Sıralama Turları 2", "time": "11:00" }, { "name": "Çarşamba: Sprint Yarışı", "time": "11:00" }, { "name": "Cuma: Isınma Turları", "time": "06:40" }, { "name": "Cuma: Yarış", "time": "11:00" }] },
@@ -396,7 +396,7 @@ const APP_DATA = {
                 "cat": "haberler",
                 "date": "2026-04-14",
                 "content": "2026 Türkiye Offroad Şampiyonası’nın ilk ayağı, Trabzon’da yoğun katılımla gerçekleştirildi.<br><br>Yoğun sis ve zaman zaman karın yerini yağmura bırakmasıyla daha da zorlaşan etaplarda, otomobil kategorisinde Şehmuz Oğuz üstün bir performans sergileyerek zirvede yer aldı. Onu Ahmet Köse ve ev sahibi Erdinç Türkmen takip etti.<br><br>SSV kategorisinde ise tüm zorluklara rağmen istikrarlı bir performans ortaya koyan Eren Alver birinciliği elde ederken, Ergün Çirkin ikinci, Adem Kalyon ise üçüncü sırada yer aldı.<br><br>Türkiye Offroad Şampiyonası, 9-10 Mayıs tarihlerinde Kahramanmaraş’ta tüm heyecanıyla devam edecek.",
-                "img": "Resimler/Haberler/Offroad.png"
+                "img": "/Resimler/Haberler/Offroad.png"
             },
             {
                 "id": 2,
@@ -404,7 +404,7 @@ const APP_DATA = {
                 "cat": "haberler",
                 "date": "2026-04-14",
                 "content": "Dayanıklılık yarışlarının zirvesi olarak kabul edilen FIA World Endurance Championship, yeni sezonda da üst düzey rekabete sahne olmaya hazırlanırken artık bu rekabette Türk pilotlar da yer alıyor.<br><br>2025 DTM şampiyonu Ayhancan Güven, sezon boyunca Manthey Racing çatısı altında, Manthey DK Engineering ekibinin 91 kapı numaralı aracıyla mücadele edecek. Porsche altyapısıyla uzun yıllardır başarılar elde eden ekip, bu sezon da LMGT3 sınıfında iddialı isimlerden biri olarak öne çıkıyor.<br><br>Bir diğer temsilcimiz Salih Yoluç ise dayanıklılık yarışlarının en prestijli organizasyonu olan 24 Hours of Le Mans zaferiyle tanınan tecrübesini piste taşımaya devam ediyor. Salih Yoluç, Racing Team Turkey adına kırmızı renkli Chevrolet Corvette Z06 LMGT3.R ile mücadele edecek.<br><br>Imola gibi eski tip, teknik ve hata kaldırmayan bir pistte sezonun açılması, takımlar için zorlu bir sınav anlamına geliyor.<br><br>6 saatlik bu zorlu maratonda pilotlarımızın performansını yakından takip edeceğiz.<br><br>Imola 6 Saat yarışı, 19 Nisan Pazar günü saat 14:00’te start alacak.",
-                "img": "Resimler/Haberler/Ayhancan ve Salih.png"
+                "img": "/Resimler/Haberler/Ayhancan ve Salih.png"
             }
         ]
     },
@@ -416,7 +416,7 @@ const APP_DATA = {
                 "cat": "milli sporcularımız",
                 "date": "2026-04-12",
                 "content": "Hırvatistan Rallisi'nde mücadele eden Türk ekipleri, elde ettikleri tarihi başarılarla şampiyonaya damga vurdu.<br><br>Castrol Ford Team Türkiye adına yarışan Ali Türkkan ve Oytun Albayrak ikilisi, organizasyonun en dikkat çeken isimleri oldu. Zorlu parkurlarda sergiledikleri üstün performansla hem JWRC hem de WRC3 kategorilerinde zirveye yerleşerek birinci oldular. Toplamda 4 özel etap galibiyetine imza atan ekip, bu sonuçla Gençler Şampiyonası’nda 43 puana ulaşarak genel klasmanda ikinci sıraya yerleşti.<br><br>Team Petrol Ofisi adına start alan Kerem Kazaz ve yardımcı pilotu Corentin Silvestre, istikrarlı sürüşlerini ödülle taçlandırdı. WRC3 klasmanında üçüncü olarak podyuma çıkan ikili, aynı zamanda JWRC kategorisini beşinci sırada tamamlayarak her iki alanda da kritik puanları hanesine yazdırdı.<br><br>GP Garage My Team adına yarışan Uğur Soylu ve Onur Vatansever ekibi, tecrübelerini başarıya dönüştürdü. WRC Masters kategorisinde ikinci sırayı alan ekip, Hırvatistan’dan kupa ve değerli puanlarla dönerek Türkiye’nin ralli arenasındaki gücünü bir kez daha kanıtladı.",
-                "img": "Resimler/Milli Sporcularımız Haberler/Milli.jpg"
+                "img": "/Resimler/Milli Sporcularımız Haberler/Milli.jpg"
             }
         ],
         "pilots": [

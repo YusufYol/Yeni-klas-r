@@ -77,9 +77,10 @@ function initAppEngine() {
             }
         };
 
-        const path = window.location.hash.substring(1) || 'home';
+        // Parse route from pathname (e.g., /news/f1 -> news, f1)
+        const path = window.location.pathname === '/' ? 'home' : window.location.pathname.substring(1);
         const parts = path.split('/');
-        const view = parts[0];
+        const view = parts[0] || 'home';
         const cat = parts[1] || 'f1';
         const round = parts[2] || null;
         handleRoute(view, cat, false, round);
@@ -119,7 +120,8 @@ function initAppEngine() {
 
         if (pushState) {
             const path = cat ? `${view}/${cat}${round ? `/${round}` : ''}` : view;
-            history.pushState({ view, cat, round }, "", `#${path}`);
+            const finalPath = path === 'home' ? '/' : `/${path}`;
+            history.pushState({ view, cat, round }, "", finalPath);
         }
 
         switch (view) {
@@ -697,10 +699,10 @@ function initAppEngine() {
                 <div class="about-social">
                     <span class="social-text">BİZİ TAKİP EDİN</span>
                     <div class="social-row">
-                        <a href="https://instagram.com" class="sm-link" target="_blank"><img src="Resimler/Sosyal Medya Logoları/Instagram.png" alt="Instagram"></a>
-                        <a href="https://twitter.com" class="sm-link" target="_blank"><img src="Resimler/Sosyal Medya Logoları/X.png" alt="X"></a>
-                        <a href="https://tiktok.com" class="sm-link" target="_blank"><img src="Resimler/Sosyal Medya Logoları/Tiktok.png" alt="TikTok"></a>
-                        <a href="https://youtube.com" class="sm-link" target="_blank"><img src="Resimler/Sosyal Medya Logoları/Youtube.png" alt="YouTube"></a>
+                        <a href="https://instagram.com" class="sm-link" target="_blank"><img src="/Resimler/Sosyal Medya Logoları/Instagram.png" alt="Instagram"></a>
+                        <a href="https://twitter.com" class="sm-link" target="_blank"><img src="/Resimler/Sosyal Medya Logoları/X.png" alt="X"></a>
+                        <a href="https://tiktok.com" class="sm-link" target="_blank"><img src="/Resimler/Sosyal Medya Logoları/Tiktok.png" alt="TikTok"></a>
+                        <a href="https://youtube.com" class="sm-link" target="_blank"><img src="/Resimler/Sosyal Medya Logoları/Youtube.png" alt="YouTube"></a>
                     </div>
                 </div>
             </div>

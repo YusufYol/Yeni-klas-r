@@ -2,12 +2,12 @@
 <html lang="tr">
 
 <head>
-    <link rel="icon" type="image/png" href="Resimler/Logo/Racing News TR.png">
+    <link rel="icon" type="image/png" href="/Resimler/Logo/Racing News TR Logo.jpeg">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RACING NEWS TR - Motorsporları Dünyası</title>
     <meta name="description"
-        content="Türkiye'nin en kapsamlı motorsporları haber uygulaması. F1, MotoGP ve Milli Sporcularımız hakkında en güncel haberler.">
+        content="Türkiye'nin en kapsamlı motorsporları haber sitesi. F1, MotoGP ve Milli Sporcularımız hakkında en güncel haberler.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -50,17 +50,34 @@
     <script>
         // Dosya Değişimlerini Anlık Yakalamak (Cache Buster)
         (function () {
+            // Check for redirect from 404.html
+            (function (l) {
+                if (l.search[1] === 'p') {
+                    var decoded = l.search.slice(1).split('&').map(function (s) {
+                        return s.replace(/~and~/g, '&');
+                    }).filter(function (s) {
+                        return s.slice(0, 2) === 'p=';
+                    })[0];
+                    if (decoded) {
+                        window.history.replaceState(null, null,
+                            l.pathname.slice(0, -1) + decoded.slice(2) +
+                            (l.hash || '')
+                        );
+                    }
+                }
+            }(window.location));
+
             const v = Date.now();
             // CSS Yükle
             const link = document.createElement('link');
             link.rel = 'stylesheet';
-            link.href = 'style.css?v=' + v;
+            link.href = '/style.css?v=' + v;
             document.head.appendChild(link);
 
             // JS Dosyalarını Yükle
             ['data.js', 'script.js'].forEach(src => {
                 const s = document.createElement('script');
-                s.src = src + '?v=' + v;
+                s.src = '/' + src + '?v=' + v;
                 s.async = false;
                 document.head.appendChild(s);
             });
