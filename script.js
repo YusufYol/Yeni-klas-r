@@ -77,8 +77,16 @@ function initAppEngine() {
             }
         };
 
-        // Parse route from pathname (e.g., /news/f1 -> news, f1)
-        const path = window.location.pathname === '/' ? 'home' : window.location.pathname.substring(1);
+        // Detect if running locally (file://) or on a server
+        const isLocal = window.location.protocol === 'file:';
+        let path = '';
+
+        if (isLocal) {
+            path = window.location.hash.substring(1) || 'home';
+        } else {
+            path = window.location.pathname === '/' ? 'home' : window.location.pathname.substring(1);
+        }
+
         const parts = path.split('/');
         const view = parts[0] || 'home';
         const cat = parts[1] || 'f1';
@@ -119,9 +127,15 @@ function initAppEngine() {
         window.scrollTo({ top: 0, behavior: 'smooth' });
 
         if (pushState) {
+            const isLocal = window.location.protocol === 'file:';
             const path = cat ? `${view}/${cat}${round ? `/${round}` : ''}` : view;
-            const finalPath = path === 'home' ? '/' : `/${path}`;
-            history.pushState({ view, cat, round }, "", finalPath);
+
+            if (isLocal) {
+                window.location.hash = path;
+            } else {
+                const finalPath = path === 'home' ? '/' : `/${path}`;
+                history.pushState({ view, cat, round }, "", finalPath);
+            }
         }
 
         switch (view) {
@@ -326,7 +340,7 @@ function initAppEngine() {
         div.className = 'news-card';
         div.innerHTML = `
             <div class="news-img-container">
-                <img src="${news.img}" alt="news" class="news-img">
+                <img src="${window.APP_ROOT}${news.img}" alt="news" class="news-img">
             </div>
             <div class="news-info">
                 <span class="news-cat">${news.cat}</span>
@@ -627,7 +641,7 @@ function initAppEngine() {
         mainContent.innerHTML = `
             <button class="back-btn" onclick="window.history.back()">← GERİ DÖN</button>
             <div class="profile-header">
-                <img src="${pilot.img || ''}" class="profile-img">
+                <img src="${window.APP_ROOT}${pilot.img || ''}" class="profile-img">
                 <div>
                     <h2>${pilot.name}</h2>
                     <p>${pilot.team}</p>
@@ -644,7 +658,7 @@ function initAppEngine() {
         mainContent.innerHTML = `
             <button class="back-btn" onclick="window.history.back()">← GERİ DÖN</button>
             <div class="profile-header">
-                <img src="${team.img || ''}" class="profile-img team-logo">
+                <img src="${window.APP_ROOT}${team.img || ''}" class="profile-img team-logo">
                 <div>
                     <h2>${team.name}</h2>
                 </div>
@@ -673,7 +687,7 @@ function initAppEngine() {
         mainContent.innerHTML = `
             <div class="news-detail-container">
                 <button class="back-btn" onclick="window.history.back()">← GERİ DÖN</button>
-                <img src="${news.img}" alt="news cover" class="news-detail-img">
+                <img src="${window.APP_ROOT}${news.img}" alt="news cover" class="news-detail-img">
                 <div class="news-detail-body">
                     <span class="news-detail-cat">${news.cat}</span>
                     <h1 class="news-detail-title">${news.title}</h1>
@@ -699,10 +713,10 @@ function initAppEngine() {
                 <div class="about-social">
                     <span class="social-text">BİZİ TAKİP EDİN</span>
                     <div class="social-row">
-                        <a href="https://instagram.com" class="sm-link" target="_blank"><img src="/Resimler/Sosyal Medya Logoları/Instagram.png" alt="Instagram"></a>
-                        <a href="https://twitter.com" class="sm-link" target="_blank"><img src="/Resimler/Sosyal Medya Logoları/X.png" alt="X"></a>
-                        <a href="https://tiktok.com" class="sm-link" target="_blank"><img src="/Resimler/Sosyal Medya Logoları/Tiktok.png" alt="TikTok"></a>
-                        <a href="https://youtube.com" class="sm-link" target="_blank"><img src="/Resimler/Sosyal Medya Logoları/Youtube.png" alt="YouTube"></a>
+                        <a href="https://instagram.com" class="sm-link" target="_blank"><img src="${window.APP_ROOT}Resimler/Sosyal Medya Logoları/Instagram.png" alt="Instagram"></a>
+                        <a href="https://twitter.com" class="sm-link" target="_blank"><img src="${window.APP_ROOT}Resimler/Sosyal Medya Logoları/X.png" alt="X"></a>
+                        <a href="https://tiktok.com" class="sm-link" target="_blank"><img src="${window.APP_ROOT}Resimler/Sosyal Medya Logoları/Tiktok.png" alt="TikTok"></a>
+                        <a href="https://youtube.com" class="sm-link" target="_blank"><img src="${window.APP_ROOT}Resimler/Sosyal Medya Logoları/Youtube.png" alt="YouTube"></a>
                     </div>
                 </div>
             </div>

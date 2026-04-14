@@ -2,7 +2,7 @@
 <html lang="tr">
 
 <head>
-    <link rel="icon" type="image/png" href="/Resimler/Logo/Racing News TR Logo.jpeg">
+    <link rel="icon" type="image/png" href="${window.APP_ROOT}Resimler/Logo/Racing News TR Logo.jpeg">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RACING NEWS TR - Motorsporları Dünyası</title>
@@ -50,6 +50,15 @@
     <script>
         // Dosya Değişimlerini Anlık Yakalamak (Cache Buster)
         (function () {
+            const v = Date.now();
+            const isLocal = window.location.protocol === 'file:';
+            const root = isLocal ? '' : '/';
+            window.APP_ROOT = root; // Global access for script.js
+
+            // Favicon dinamik ayarla
+            const favicon = document.querySelector('link[rel="icon"]');
+            if (favicon) favicon.href = root + 'Resimler/Logo/Racing News TR Logo.jpeg';
+
             // Check for redirect from 404.html
             (function (l) {
                 if (l.search[1] === 'p') {
@@ -67,17 +76,16 @@
                 }
             }(window.location));
 
-            const v = Date.now();
             // CSS Yükle
             const link = document.createElement('link');
             link.rel = 'stylesheet';
-            link.href = '/style.css?v=' + v;
+            link.href = root + 'style.css?v=' + v;
             document.head.appendChild(link);
 
             // JS Dosyalarını Yükle
             ['data.js', 'script.js'].forEach(src => {
                 const s = document.createElement('script');
-                s.src = '/' + src + '?v=' + v;
+                s.src = root + src + '?v=' + v;
                 s.async = false;
                 document.head.appendChild(s);
             });
