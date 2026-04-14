@@ -13,25 +13,6 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800;900&family=Outfit:wght@300;400;600&display=swap"
         rel="stylesheet">
-    <script>
-        // Dosya Değişimlerini Anlık Yakalamak (Cache Buster)
-        (function() {
-            const v = Date.now();
-            // CSS Yükle
-            const link = document.createElement('link');
-            link.rel = 'stylesheet';
-            link.href = 'style.css?v=' + v;
-            document.head.appendChild(link);
-            
-            // JS Dosyalarını Yükle
-            ['data.js', 'script.js'].forEach(src => {
-                const s = document.createElement('script');
-                s.src = src + '?v=' + v;
-                s.async = false;
-                document.head.appendChild(s);
-            });
-        })();
-    </script>
     <meta name="google-site-verification" content="google6b98a8d6251ccd1f.html" />
 </head>
 
@@ -130,6 +111,25 @@
         </main>
     </div>
 
+    <script>
+        // Dosya Değişimlerini Anlık Yakalamak (Cache Buster)
+        (function() {
+            const v = Date.now();
+            // CSS Yükle
+            const link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.href = 'style.css?v=' + v;
+            document.head.appendChild(link);
+            
+            // JS Dosyalarını Yükle
+            ['data.js', 'script.js'].forEach(src => {
+                const s = document.createElement('script');
+                s.src = src + '?v=' + v;
+                s.async = false;
+                document.body.appendChild(s);
+            });
+        })();
+    </script>
 </body>
 
 </html>

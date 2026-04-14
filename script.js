@@ -12,11 +12,14 @@ function initAppEngine() {
     function getCategoryData(cat) {
         if (!cat) return null;
         let c = cat.toLowerCase().trim();
+        // Türkçe karakterleri normalize et
         let normalized = c.replace(/ı/g, 'i').replace(/ş/g, 's').replace(/ğ/g, 'g').replace(/ç/g, 'c').replace(/ö/g, 'o').replace(/ü/g, 'u');
         
+        // F1 ve diğerleri için eşleşme kontrolü
         if (normalized === 'f1' || normalized === 'formula1' || normalized === 'formula 1') return APP_DATA['formula 1'];
+        if (normalized === 'motogp') return APP_DATA['motogp'];
         
-        return APP_DATA[c] || APP_DATA[normalized] || {};
+        return APP_DATA[cat] || APP_DATA[c] || APP_DATA[normalized] || {};
     }
 
     // Global Event Logic
@@ -284,9 +287,19 @@ function initAppEngine() {
     function renderAllNewsUI(container, titleElem) {
         const allNews = [];
         Object.keys(APP_DATA).forEach(cat => {
-            if (getCategoryData(cat).news) allNews.push(...getCategoryData(cat).news);
+            const catData = getCategoryData(cat);
+            if (catData && catData.news) {
+                allNews.push(...catData.news);
+            }
         });
-        allNews.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+        // Hata ayıklama için konsola yazdır
+        console.log("Toplam Yüklenen Haber Sayısı:", allNews.length);
+        if (allNews.length > 0) {
+            allNews.sort((a, b) => new Date(b.date) - new Date(a.date));
+            console.log("En Güncel Haber:", allNews[0].title);
+        }
+
         container.innerHTML = '';
         allNews.forEach(news => container.appendChild(createNewsCard(news)));
     }
