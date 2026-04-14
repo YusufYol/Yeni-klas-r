@@ -376,11 +376,11 @@ const APP_DATA = {
         "news": [
             {
                 "id": 1,
-                "title": "AYHANCAN GÜVEN, WEC'TE İLK YARIŞINA ÇIKIYOR!",
+                "title": "TÜRKİYE OFFROAD ŞAMPİYONASI’NIN İLK AYAĞI TAMAMLANDI!",
                 "cat": "haberler",
-                "date": "2026-04-05",
-                "content": "Türkiye'nin gururu Ayhancan Güven, Dünya Dayanıklılık Şampiyonası'ndaki ilk yarışına çıkıyor! 19 Nisan tarihinde 6 HOURS IMOLA yarışı ile Porsche LMGT3 sınıfında mücadele edecek. Milli sporcumuza başarılar dileriz!",
-                "img": "Resimler/Haberler/Ayhancan Güven.jpg"
+                "date": "2026-04-14",
+                "content": "2026 Türkiye Offroad Şampiyonası’nın ilk ayağı, Trabzon’da yoğun katılımla gerçekleştirildi.<br><br>Yoğun sis ve zaman zaman karın yerini yağmura bırakmasıyla daha da zorlaşan etaplarda, otomobil kategorisinde Şehmuz Oğuz üstün bir performans sergileyerek zirvede yer aldı. Onu Ahmet Köse ve ev sahibi Erdinç Türkmen takip etti.<br><br>SSV kategorisinde ise tüm zorluklara rağmen istikrarlı bir performans ortaya koyan Eren Alver birinciliği elde ederken, Ergün Çirkin ikinci, Adem Kalyon ise üçüncü sırada yer aldı.<br><br>Türkiye Offroad Şampiyonası, 9-10 Mayıs tarihlerinde Kahramanmaraş’ta tüm heyecanıyla devam edecek.",
+                "img": "Resimler/Haberler/Offroad.png"
             },
         ],
     },
