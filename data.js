@@ -397,6 +397,14 @@ const APP_DATA = {
                 "date": "2026-04-14",
                 "content": "2026 Türkiye Offroad Şampiyonası’nın ilk ayağı, Trabzon’da yoğun katılımla gerçekleştirildi.<br><br>Yoğun sis ve zaman zaman karın yerini yağmura bırakmasıyla daha da zorlaşan etaplarda, otomobil kategorisinde Şehmuz Oğuz üstün bir performans sergileyerek zirvede yer aldı. Onu Ahmet Köse ve ev sahibi Erdinç Türkmen takip etti.<br><br>SSV kategorisinde ise tüm zorluklara rağmen istikrarlı bir performans ortaya koyan Eren Alver birinciliği elde ederken, Ergün Çirkin ikinci, Adem Kalyon ise üçüncü sırada yer aldı.<br><br>Türkiye Offroad Şampiyonası, 9-10 Mayıs tarihlerinde Kahramanmaraş’ta tüm heyecanıyla devam edecek.",
                 "img": "Resimler/Haberler/Offroad.png"
+            },
+            {
+                "id": 2,
+                "title": "WEC 2026 Imola’da Başlıyor: Gözlerimiz Türk Pilotlarda",
+                "cat": "haberler",
+                "date": "2026-04-14",
+                "content": "Dayanıklılık yarışlarının zirvesi olarak kabul edilen FIA World Endurance Championship, yeni sezonda da üst düzey rekabete sahne olmaya hazırlanırken artık bu rekabette Türk pilotlar da yer alıyor.<br><br>2025 DTM şampiyonu Ayhancan Güven, sezon boyunca Manthey Racing çatısı altında, Manthey DK Engineering ekibinin 91 kapı numaralı aracıyla mücadele edecek. Porsche altyapısıyla uzun yıllardır başarılar elde eden ekip, bu sezon da LMGT3 sınıfında iddialı isimlerden biri olarak öne çıkıyor.<br><br>Bir diğer temsilcimiz Salih Yoluç ise dayanıklılık yarışlarının en prestijli organizasyonu olan 24 Hours of Le Mans zaferiyle tanınan tecrübesini piste taşımaya devam ediyor. Salih Yoluç, Racing Team Turkey adına kırmızı renkli Chevrolet Corvette Z06 LMGT3.R ile mücadele edecek.<br><br>Imola gibi eski tip, teknik ve hata kaldırmayan bir pistte sezonun açılması, takımlar için zorlu bir sınav anlamına geliyor.<br><br>6 saatlik bu zorlu maratonda pilotlarımızın performansını yakından takip edeceğiz.<br><br>Imola 6 Saat yarışı, 19 Nisan Pazar günü saat 14:00’te start alacak.",
+                "img": "Resimler/Haberler/Ayhancan ve Salih.png"
             }
         ]
     },
