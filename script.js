@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+function initAppEngine() {
     // UI Elements
     const splashScreen = document.getElementById('splash-screen');
     const appContainer = document.getElementById('app');
@@ -654,4 +654,10 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         `;
     }
-});
+}
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initAppEngine);
+} else {
+    initAppEngine();
+}
