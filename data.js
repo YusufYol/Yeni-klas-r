@@ -3,14 +3,6 @@ const APP_DATA = {
         "news": [
             {
                 "id": 1,
-                "title": "MAX VERSTAPPEN EMEKLİ OLMAYI DÜŞÜNÜYOR!",
-                "cat": "formula 1",
-                "date": "2026-03-29",
-                "content": "Dört kez dünya şampiyonu olan Max Verstappen, 2026 teknik regülasyonlarına yönelik artan memnuniyetsizliğini dile getirirken, Japonya Grand Prix'sinin ardından F1 geleceği ile ilgili birçok şeyi düşünmesi gerektiğini söylemişti.",
-                "img": "Resimler/Formula 1 Haberler/max-verstappen-red-bull-racing (1).jpg"
-            },
-            {
-                "id": 2,
                 "title": "FERRARI HAMLESİYLE HİBRİT AÇIĞI KAPATILDI!",
                 "cat": "formula 1",
                 "date": "2026-04-14",
@@ -18,12 +10,20 @@ const APP_DATA = {
                 "img": "Resimler/Formula 1 Haberler/Hibrit.png"
             },
             {
-                "id": 3,
+                "id": 2,
                 "title": "VERSTAPPEN’İN GELECEĞİ TEHLİKEDE: LAMBIASE’NİN AYRILIĞI RED BULL’U SARSTI!",
                 "cat": "formula 1",
                 "date": "2026-04-14",
                 "content": "Max Verstappen’in kariyerindeki en kritik dönemeçlerden biri yaklaşırken, Gianpiero Lambiase cephesinden gelen haber Formula 1 dünyasında dengeleri sarsmış durumda. Red Bull’da yıllardır Verstappen’in yarış mühendisi olarak görev yapan ve “GP” lakabıyla tanınan Lambiase’nin, sözleşmesinin sona ermesinin ardından McLaren saflarına katılacak olması, sadece teknik bir transfer değil; aynı zamanda büyük bir kırılmanın habercisi olarak görülüyor.<br><br>Bu ayrılık, özellikle Verstappen’in geleceğiyle ilgili tartışmaların alevlendiği bir döneme denk gelmesi nedeniyle çok daha fazla anlam taşıyor. Hollandalı pilotun, Japonya Grand Prix’si sonrası yaptığı açıklamalarda Formula 1’e devam etme konusunda ciddi şüpheler taşıdığını belirtmesi zaten soru işaretlerini artırmıştı. Şimdi ise en güvendiği isimlerden birinin takımdan ayrılıyor olması, 2026 sonrası için Red Bull ihtimalini daha da zayıflatıyor.<br><br>Verstappen’in olası ayrılık senaryosunun arkasında yalnızca performans düşüşü yatmıyor. 2026’da yürürlüğe girecek yeni nesil hibrit güç üniteleri ve araç konsepti, pilotun uzun süredir eleştirdiği konuların başında geliyor. Daha fazla enerji geri kazanımı ve elektrik gücüne dayalı sistemlerin ön plana çıkması, Verstappen’in sürüş karakterine hitap etmeyen bir yapı olarak öne çıkıyor. Ancak takım içindeki değişim de en az teknik regülasyonlar kadar belirleyici bir faktör.<br><br>Son yıllarda Red Bull Racing içerisinde yaşanan ayrılıklar, bir dominasyon döneminin yavaş yavaş sona erdiğini gösteriyor. Takımın mimarlarından Adrian Newey’in ayrılığı, ardından sportif direktör Jonathan Wheatley’nin takımdan kopuşu ve şimdi de Lambiase’nin gidişi, Red Bull’un yapı taşlarının tek tek söküldüğünü ortaya koyuyor.<br><br>Bu süreçte dikkat çeken bir diğer detay ise McLaren’ın eski Red Bull kadrolarını adeta yeniden bir araya getirmesi. Lambiase, daha önce takımdan ayrılan mühendislerle tekrar aynı çatı altında buluşacak. Bu durum, sadece bir transfer zinciri değil, aynı zamanda güç dengesinin yavaş yavaş yer değiştirdiğinin de işareti olabilir.<br><br>Özetle, Lambiase’nin ayrılığı tek başına bir mühendis değişimi değil; Verstappen’in kariyer rotasını etkileyebilecek kadar büyük bir gelişme. Eğer Red Bull bu dağılma sürecini durduramazsa, Formula 1’in son yıllardaki en baskın hikayelerinden biri beklenenden çok daha erken sona erebilir.",
                 "img": "Resimler/Formula 1 Haberler/GP ve Max.png"
+            },
+            {
+                "id": 3,
+                "title": "HELMUT MARKO'DAN 2026 REGÜLASYONLARINA SERT TEPKİ!",
+                "cat": "formula 1",
+                "date": "2026-04-14",
+                "content": "Helmut Marko, halihazırda uygulanmaya başlayan 2026 Formula 1 regülasyonlarını sert sözlerle eleştirdi ve FIA’ya acil değişiklik çağrısında bulundu.<br><br>Marko, yeni kuralların padok içerisindeki atmosferi olumsuz etkilediğini belirtirken, başta Max Verstappen olmak üzere birçok pilotun mevcut durumdan memnun olmadığını ifade etti. Marko’ya göre yeni nesil güç üniteleri, sürüş hissiyatını ve rekabet dengesini istenmeyen bir noktaya taşıyor.<br><br>Deneyimli isim, özellikle elektrik gücünün ön plana çıkmasını eleştirdi. 2026 regülasyonlarıyla birlikte batarya kullanımının artması, içten yanmalı motorun rolünü görece geri plana iterken, Marko bu durumun Formula 1’in karakterine zarar verdiğini savunuyor. FIA’nın bu dengeyi yeniden kurması gerektiğini vurgulayan Marko, bataryanın etkisinin azaltılıp içten yanmalı motorun daha fazla ön plana çıkarılması gerektiğini söyledi.",
+                "img": "Resimler/Formula 1 Haberler/Marko.png"
             }
         ],
         "pilots": [
