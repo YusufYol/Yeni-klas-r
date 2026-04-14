@@ -86,7 +86,7 @@ const APP_DATA = {
                 { "pos": 19, "name": "Valtteri Bottas #77", "team": "Cadillac F1 Team", "pts": 0 },
                 { "pos": 20, "name": "Sergio Perez #11", "team": "Cadillac F1 Team", "pts": 0 },
                 { "pos": 21, "name": "Fernando Alonso #14", "team": "Aston Martin Aramco F1 Team", "pts": 0 },
-                { "pos": 22, "name": "Lance Stroll #18", "team": "Aston Martin Aramco F1 Team", "pts": 0 },
+                { "pos": 22, "name": "Lance Stroll #18", "team": "Aston Martin Aramco F1 Team", "pts": 0 }
             ],
             "teams": [
                 { "pos": 1, "name": "Mercedes-AMG PETRONAS F1 Team", "pts": 135 },
@@ -99,7 +99,7 @@ const APP_DATA = {
                 { "pos": 8, "name": "Audi F1 Team", "pts": 2 },
                 { "pos": 9, "name": "Williams Racing", "pts": 2 },
                 { "pos": 10, "name": "Cadillac F1 Team", "pts": 0 },
-                { "pos": 11, "name": "Aston Martin Aramco F1 Team", "pts": 0 },
+                { "pos": 11, "name": "Aston Martin Aramco F1 Team", "pts": 0 }
             ]
         },
         "calendar": [
@@ -251,11 +251,11 @@ const APP_DATA = {
             { "id": "trackhouse", "name": "Trackhouse Racıng", "titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/Trackhouse.png" }
         ],
         "calendar": [
-            { "round": 1, "gp": "Thailand Grand Prix", "country": "Tayland", "date": "27 Şubat-1 Mart", "track": "Buriram", "isoDate": "2026-02-27", "status": "Tamamlandı", "sessions": [{ "name": "Salı: 1. Antrenman", "time": "06:45" }, { "name": "Salı: Antrenman Seansı", "time": "11:00" }, { "name": "Çarşamba: Sıralama Turları 1", "time": "06:50" }, { "name": "Çarşamba: Sıralama Turları 2", "time": "11:00" }, { "name": "Çarşamba: Sprint Yarışı", "time": "11:00" }, { "name": "Cuma: Isınma Turları", "time": "06:40" }, { "name": "Cuma: Yarış", "time": "11:00" },] },
-            { "round": 2, "gp": "Brazilian Grand Prix", "country": "Brezilya", "date": "18-20 Mart", "track": "Goiania", "isoDate": "2026-03-18", "status": "Tamamlandı", "sessions": [{ "name": "Cuma: 1. Antrenman", "time": "18:05" }, { "name": "Cuma: Ana Antrenman Seansı", "time": "22:00" }, { "name": "Cumartesi: 2.Antrenman Seansı", "time": "16:10" }, { "name": "Cumartesi: Sıralama Turları 1", "time": "16:50" }, { "name": "Cumartesi: Sıralama Turları 2", "time": "17:15" }, { "name": "Cumartesi: Sprint Yarışı", "time": "22:20" }, { "name": "Pazar: Isınma Turları", "time": "16:40" }, { "name": "Pazar: Yarış", "time": "21:00" },] },
-            { "round": 3, "gp": "Americas Grand Prix", "country": "ABD", "date": "27-29 Mart", "track": "Austin", "isoDate": "2026-03-27", "status": "Tamamlandı", "sessions": [{ "name": "Pazartesi: 1. Antrenman", "time": "18:45" }, { "name": "Pazartesi: Ana Antrenman Seansı", "time": "23:00" }, { "name": "Salı: 2.Antrenman Seansı", "time": "18:10" }, { "name": "Salı: Sıralama Turları 1", "time": "18:50" }, { "name": "Salı: Sıralama Turları 2", "time": "18:15" }, { "name": "Salı: Sprint Yarışı", "time": "23:10" }, { "name": "Çarşamba: Isınma Turları", "time": "18:40" }, { "name": "Çarşamba: Yarış", "time": "23:00" },] },
-            { "round": 4, "gp": "Spanish Grand Prix", "country": "İspanya", "date": "24-26 Nisan", "track": "Jerez – Ángel Nieto", "isoDate": "2026-04-24", "status": "Sıradaki", "sessions": [{ "name": "Cuma: 1. Antrenman", "time": "11:45" }, { "name": "Cuma: Ana Antrenman Seansı", "time": "16:00" }, { "name": "Cumartesi: 2.Antrenman Seansı", "time": "11:10" }, { "name": "Cumartesi: Sıralama Turları 1", "time": "11:50" }, { "name": "Cumartesi: Sıralama Turları 2", "time": "12:15" }, { "name": "Cumartesi: Sprint Yarışı", "time": "16:00" }, { "name": "Pazar: Isınma Turları", "time": "16:40" }, { "name": "Pazar: Yarış", "time": "15:00" },] },
-            { "round": 5, "gp": "French Grand Prix", "country": "Fransa", "date": "8-10 Mayıs", "track": "Le Mans", "isoDate": "2026-05-08", "status": "Bekliyor", "sessions": [{ "name": "Cuma: 1. Antrenman", "time": "11:45" }, { "name": "Cuma: Ana Antrenman Seansı", "time": "16:00" }, { "name": "Cumartesi: 2.Antrenman Seansı", "time": "11:10" }, { "name": "Cumartesi: Sıralama Turları 1", "time": "11:50" }, { "name": "Cumartesi: Sıralama Turları 2", "time": "12:15" }, { "name": "Cumartesi: Sprint Yarışı", "time": "16:00" }, { "name": "Pazar: Isınma Turları", "time": "10:40" }, { "name": "Pazar: Yarış", "time": "15:00" },] },
+            { "round": 1, "gp": "Thailand Grand Prix", "country": "Tayland", "date": "27 Şubat-1 Mart", "track": "Buriram", "isoDate": "2026-02-27", "status": "Tamamlandı", "sessions": [{ "name": "Salı: 1. Antrenman", "time": "06:45" }, { "name": "Salı: Antrenman Seansı", "time": "11:00" }, { "name": "Çarşamba: Sıralama Turları 1", "time": "06:50" }, { "name": "Çarşamba: Sıralama Turları 2", "time": "11:00" }, { "name": "Çarşamba: Sprint Yarışı", "time": "11:00" }, { "name": "Cuma: Isınma Turları", "time": "06:40" }, { "name": "Cuma: Yarış", "time": "11:00" }] },
+            { "round": 2, "gp": "Brazilian Grand Prix", "country": "Brezilya", "date": "18-20 Mart", "track": "Goiania", "isoDate": "2026-03-18", "status": "Tamamlandı", "sessions": [{ "name": "Cuma: 1. Antrenman", "time": "18:05" }, { "name": "Cuma: Ana Antrenman Seansı", "time": "22:00" }, { "name": "Cumartesi: 2.Antrenman Seansı", "time": "16:10" }, { "name": "Cumartesi: Sıralama Turları 1", "time": "16:50" }, { "name": "Cumartesi: Sıralama Turları 2", "time": "17:15" }, { "name": "Cumartesi: Sprint Yarışı", "time": "22:20" }, { "name": "Pazar: Isınma Turları", "time": "16:40" }, { "name": "Pazar: Yarış", "time": "21:00" }] },
+            { "round": 3, "gp": "Americas Grand Prix", "country": "ABD", "date": "27-29 Mart", "track": "Austin", "isoDate": "2026-03-27", "status": "Tamamlandı", "sessions": [{ "name": "Pazartesi: 1. Antrenman", "time": "18:45" }, { "name": "Pazartesi: Ana Antrenman Seansı", "time": "23:00" }, { "name": "Salı: 2.Antrenman Seansı", "time": "18:10" }, { "name": "Salı: Sıralama Turları 1", "time": "18:50" }, { "name": "Salı: Sıralama Turları 2", "time": "18:15" }, { "name": "Salı: Sprint Yarışı", "time": "23:10" }, { "name": "Çarşamba: Isınma Turları", "time": "18:40" }, { "name": "Çarşamba: Yarış", "time": "23:00" }] },
+            { "round": 4, "gp": "Spanish Grand Prix", "country": "İspanya", "date": "24-26 Nisan", "track": "Jerez – Ángel Nieto", "isoDate": "2026-04-24", "status": "Sıradaki", "sessions": [{ "name": "Cuma: 1. Antrenman", "time": "11:45" }, { "name": "Cuma: Ana Antrenman Seansı", "time": "16:00" }, { "name": "Cumartesi: 2.Antrenman Seansı", "time": "11:10" }, { "name": "Cumartesi: Sıralama Turları 1", "time": "11:50" }, { "name": "Cumartesi: Sıralama Turları 2", "time": "12:15" }, { "name": "Cumartesi: Sprint Yarışı", "time": "16:00" }, { "name": "Pazar: Isınma Turları", "time": "16:40" }, { "name": "Pazar: Yarış", "time": "15:00" }] },
+            { "round": 5, "gp": "French Grand Prix", "country": "Fransa", "date": "8-10 Mayıs", "track": "Le Mans", "isoDate": "2026-05-08", "status": "Bekliyor", "sessions": [{ "name": "Cuma: 1. Antrenman", "time": "11:45" }, { "name": "Cuma: Ana Antrenman Seansı", "time": "16:00" }, { "name": "Cumartesi: 2.Antrenman Seansı", "time": "11:10" }, { "name": "Cumartesi: Sıralama Turları 1", "time": "11:50" }, { "name": "Cumartesi: Sıralama Turları 2", "time": "12:15" }, { "name": "Cumartesi: Sprint Yarışı", "time": "16:00" }, { "name": "Pazar: Isınma Turları", "time": "10:40" }, { "name": "Pazar: Yarış", "time": "15:00" }] },
             { "round": 6, "gp": "Catalunya Grand Prix", "country": "İspanya", "date": "15-17 Mayıs", "track": "Barcelona", "isoDate": "2026-05-15", "status": "Bekliyor" },
             { "round": 7, "gp": "Italian Grand Prix", "country": "İtalya", "date": "29-31 Mayıs", "track": "Mugello", "isoDate": "2026-05-29", "status": "Bekliyor" },
             { "round": 8, "gp": "Hungarian Grand Prix", "country": "Macaristan", "date": "5-7 Haziran", "track": "Balaton Park", "isoDate": "2026-06-05", "status": "Bekliyor" },
@@ -371,7 +371,7 @@ const APP_DATA = {
                 { "pos": 20, "name": "Toprak Razgatlıoğlu #7", "team": "Prima Pramac Yamaha MotoGP", "pts": 1 },
                 { "pos": 21, "name": "Jack Miller #43", "team": "Prima Pramac Yamaha MotoGP", "pts": 0 },
                 { "pos": 22, "name": "Maverick Viñales #12", "team": "Red Bull KTM Tech3", "pts": 0 },
-                { "pos": 23, "name": "Michele Pirro #51", "team": "BK8 Gresini Racing MotoGP", "pts": 0 },
+                { "pos": 23, "name": "Michele Pirro #51", "team": "BK8 Gresini Racing MotoGP", "pts": 0 }
             ],
             "teams": [
                 { "pos": 1, "name": "Aprilia Racing", "pts": 158 },
@@ -397,8 +397,8 @@ const APP_DATA = {
                 "date": "2026-04-14",
                 "content": "2026 Türkiye Offroad Şampiyonası’nın ilk ayağı, Trabzon’da yoğun katılımla gerçekleştirildi.<br><br>Yoğun sis ve zaman zaman karın yerini yağmura bırakmasıyla daha da zorlaşan etaplarda, otomobil kategorisinde Şehmuz Oğuz üstün bir performans sergileyerek zirvede yer aldı. Onu Ahmet Köse ve ev sahibi Erdinç Türkmen takip etti.<br><br>SSV kategorisinde ise tüm zorluklara rağmen istikrarlı bir performans ortaya koyan Eren Alver birinciliği elde ederken, Ergün Çirkin ikinci, Adem Kalyon ise üçüncü sırada yer aldı.<br><br>Türkiye Offroad Şampiyonası, 9-10 Mayıs tarihlerinde Kahramanmaraş’ta tüm heyecanıyla devam edecek.",
                 "img": "Resimler/Haberler/Offroad.png"
-            },
-        ],
+            }
+        ]
     },
     "milli sporcularımız": {
         "news": [

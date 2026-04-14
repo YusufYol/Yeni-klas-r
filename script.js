@@ -10,16 +10,20 @@ function initAppEngine() {
 
     // 1. Data Helper
     function getCategoryData(cat) {
-        if (!cat) return null;
+        if (!cat) return {};
         let c = cat.toLowerCase().trim();
         // Türkçe karakterleri normalize et
         let normalized = c.replace(/ı/g, 'i').replace(/ş/g, 's').replace(/ğ/g, 'g').replace(/ç/g, 'c').replace(/ö/g, 'o').replace(/ü/g, 'u');
         
-        // F1 ve diğerleri için eşleşme kontrolü
-        if (normalized === 'f1' || normalized === 'formula1' || normalized === 'formula 1') return APP_DATA['formula 1'];
-        if (normalized === 'motogp') return APP_DATA['motogp'];
+        let data = APP_DATA[cat] || APP_DATA[c] || APP_DATA[normalized];
         
-        return APP_DATA[cat] || APP_DATA[c] || APP_DATA[normalized] || {};
+        // F1 ve diğerleri için eşleşme kontrolü
+        if (!data) {
+            if (normalized === 'f1' || normalized === 'formula1' || normalized === 'formula 1') data = APP_DATA['formula 1'];
+            if (normalized === 'motogp') data = APP_DATA['motogp'];
+        }
+
+        return data || {};
     }
 
     // Global Event Logic
@@ -296,7 +300,12 @@ function initAppEngine() {
         // Hata ayıklama için konsola yazdır
         console.log("Toplam Yüklenen Haber Sayısı:", allNews.length);
         if (allNews.length > 0) {
-            allNews.sort((a, b) => new Date(b.date) - new Date(a.date));
+            allNews.sort((a, b) => {
+                const dateCompare = new Date(b.date) - new Date(a.date);
+                if (dateCompare !== 0) return dateCompare;
+                // If dates are equal, sort by ID descending (assuming higher ID = newer)
+                return (b.id || 0) - (a.id || 0);
+            });
             console.log("En Güncel Haber:", allNews[0].title);
         }
 
@@ -352,7 +361,11 @@ function initAppEngine() {
             const filtered = news.filter(n =>
                 n.title.toLowerCase().includes(filter.toLowerCase()) ||
                 n.content.toLowerCase().includes(filter.toLowerCase())
-            ).sort((a, b) => new Date(b.date) - new Date(a.date));
+            ).sort((a, b) => {
+                const dateCompare = new Date(b.date) - new Date(a.date);
+                if (dateCompare !== 0) return dateCompare;
+                return (b.id || 0) - (a.id || 0);
+            });
 
             filtered.forEach(n => {
                 const card = createNewsCard(n);
@@ -441,23 +454,42 @@ function initAppEngine() {
     }
 
     function renderStandings(cat) {
-        const pStands = getCategoryData(cat).standings.pilots;
-        const tStands = getCategoryData(cat).standings.teams;
+        const categoryData = getCategoryData(cat);
+        const pStands = categoryData.standings?.pilots || [];
+        const tStands = categoryData.standings?.teams || [];
+
+        if (pStands.length === 0 && tStands.length === 0) {
+            mainContent.innerHTML = `
+                <h2 class="section-title">${cat.toUpperCase()} PUAN DURUMU</h2>
+                <p style="padding:20px; text-align:center; opacity:0.7;">Bu kategori için puan durumu bilgisi bulunmamaktadır.</p>
+                <div style="margin-top:20px; display:flex; justify-content:center">
+                    <button class="back-btn" onclick="window.history.back()">← GERİ DÖN</button>
+                </div>
+            `;
+            return;
+        }
+
         mainContent.innerHTML = `
             <h2 class="section-title">${cat.toUpperCase()} 2026 PUAN DURUMU</h2>
+            ${pStands.length > 0 ? `
             <h3>Pilotlar Klasmanı</h3>
             <div class="standings-table-container">
                 <table class="standings-table">
                     <thead><tr><th>Sıra</th><th>Pilot</th><th>Puan</th></tr></thead>
                     <tbody>${pStands.map(s => `<tr><td>${s.pos}</td><td><b>${s.name}</b><br><small>${s.team}</small></td><td>${s.pts}</td></tr>`).join('')}</tbody>
                 </table>
-            </div>
+            </div>` : ''}
+            
+            ${tStands.length > 0 ? `
             <h3 style="margin-top:30px">Takımlar Klasmanı</h3>
             <div class="standings-table-container">
                 <table class="standings-table">
                     <thead><tr><th>Sıra</th><th>Takım</th><th>Puan</th></tr></thead>
                     <tbody>${tStands.map(s => `<tr><td>${s.pos}</td><td><b>${s.name}</b></td><td>${s.pts}</td></tr>`).join('')}</tbody>
                 </table>
+            </div>` : ''}
+            <div style="margin-top:40px; display:flex; justify-content:center">
+                <button class="back-btn" onclick="window.history.back()">← GERİ DÖN</button>
             </div>
         `;
     }
