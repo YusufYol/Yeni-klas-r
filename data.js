@@ -400,7 +400,7 @@ const APP_DATA = {
             },
             {
                 "id": 2,
-                "title": "WEC 2026 Imola’da Başlıyor: Gözlerimiz Türk Pilotlarda",
+                "title": "WEC 2026 Imola’da Başlıyor: Gözlerimiz Türk Pilotlarda!",
                 "cat": "haberler",
                 "date": "2026-04-14",
                 "content": "Dayanıklılık yarışlarının zirvesi olarak kabul edilen FIA World Endurance Championship, yeni sezonda da üst düzey rekabete sahne olmaya hazırlanırken artık bu rekabette Türk pilotlar da yer alıyor.<br><br>2025 DTM şampiyonu Ayhancan Güven, sezon boyunca Manthey Racing çatısı altında, Manthey DK Engineering ekibinin 91 kapı numaralı aracıyla mücadele edecek. Porsche altyapısıyla uzun yıllardır başarılar elde eden ekip, bu sezon da LMGT3 sınıfında iddialı isimlerden biri olarak öne çıkıyor.<br><br>Bir diğer temsilcimiz Salih Yoluç ise dayanıklılık yarışlarının en prestijli organizasyonu olan 24 Hours of Le Mans zaferiyle tanınan tecrübesini piste taşımaya devam ediyor. Salih Yoluç, Racing Team Turkey adına kırmızı renkli Chevrolet Corvette Z06 LMGT3.R ile mücadele edecek.<br><br>Imola gibi eski tip, teknik ve hata kaldırmayan bir pistte sezonun açılması, takımlar için zorlu bir sınav anlamına geliyor.<br><br>6 saatlik bu zorlu maratonda pilotlarımızın performansını yakından takip edeceğiz.<br><br>Imola 6 Saat yarışı, 19 Nisan Pazar günü saat 14:00’te start alacak.",
