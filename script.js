@@ -290,10 +290,14 @@ function initAppEngine() {
 
     function renderAllNewsUI(container, titleElem) {
         const allNews = [];
+        let globalIdx = 0;
         Object.keys(APP_DATA).forEach(cat => {
             const catData = getCategoryData(cat);
             if (catData && catData.news) {
-                allNews.push(...catData.news);
+                catData.news.forEach(n => {
+                    n._tempIdx = globalIdx++;
+                    allNews.push(n);
+                });
             }
         });
 
@@ -303,8 +307,8 @@ function initAppEngine() {
             allNews.sort((a, b) => {
                 const dateCompare = new Date(b.date) - new Date(a.date);
                 if (dateCompare !== 0) return dateCompare;
-                // If dates are equal, sort by ID descending (assuming higher ID = newer)
-                return (b.id || 0) - (a.id || 0);
+                // If dates are equal, the one that appears later in the data file (later category or later in array) is "newer"
+                return b._tempIdx - a._tempIdx;
             });
             console.log("En Güncel Haber:", allNews[0].title);
         }
