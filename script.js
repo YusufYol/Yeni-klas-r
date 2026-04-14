@@ -11,16 +11,17 @@ function initAppEngine() {
     // 1. Data Helper
     function getCategoryData(cat) {
         if (!cat) return null;
-        let normalizedCat = cat.toLowerCase().replace(/ı/g, 'i');
-        // Handle "ındycar" vs "indycar"
-        if (normalizedCat === 'indycar') return APP_DATA['indycar'];
-        if (normalizedCat === 'formula1' || normalizedCat === 'f1' || normalizedCat === 'formula 1') return APP_DATA['formula 1'];
-        return APP_DATA[normalizedCat] || APP_DATA[cat.toLowerCase()] || {};
+        let c = cat.toLowerCase().trim();
+        let normalized = c.replace(/ı/g, 'i').replace(/ş/g, 's').replace(/ğ/g, 'g').replace(/ç/g, 'c').replace(/ö/g, 'o').replace(/ü/g, 'u');
+        
+        if (normalized === 'f1' || normalized === 'formula1' || normalized === 'formula 1') return APP_DATA['formula 1'];
+        
+        return APP_DATA[c] || APP_DATA[normalized] || {};
     }
 
     // Global Event Logic
     function getGlobalNextEvent() {
-        const today = new Date('2026-04-03'); // Mock today's date
+        const today = new Date(); // Dinamik güncel tarih
         const allEvents = [];
 
         Object.keys(APP_DATA).forEach(catKey => {

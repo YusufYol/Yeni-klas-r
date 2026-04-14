@@ -13,7 +13,25 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800;900&family=Outfit:wght@300;400;600&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=1.1">
+    <script>
+        // Dosya Değişimlerini Anlık Yakalamak (Cache Buster)
+        (function() {
+            const v = Date.now();
+            // CSS Yükle
+            const link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.href = 'style.css?v=' + v;
+            document.head.appendChild(link);
+            
+            // JS Dosyalarını Yükle
+            ['data.js', 'script.js'].forEach(src => {
+                const s = document.createElement('script');
+                s.src = src + '?v=' + v;
+                s.async = false;
+                document.head.appendChild(s);
+            });
+        })();
+    </script>
     <meta name="google-site-verification" content="google6b98a8d6251ccd1f.html" />
 </head>
 
@@ -91,7 +109,7 @@
         <!-- Notification Container -->
         <div id="notification-container" class="notification-container"></div>
         <div id="news-detail-overlay"
-            style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:white; z-index:9999; overflow-y:auto;">
+            style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:white; z-index:10000; overflow-y:auto;">
         </div>
 
         <!-- Main Content -->
@@ -112,22 +130,6 @@
         </main>
     </div>
 
-    <!-- JS Files Loader (Cache Buster) -->
-    <script>
-        (function () {
-            const version = Date.now();
-            const scripts = ['data.js', 'script.js'];
-            scripts.forEach(src => {
-                const s = document.createElement('script');
-                s.src = src + '?v=' + version;
-                s.async = false; // Sıralı yükleme için
-                document.head.appendChild(s);
-            });
-        })();
-    </script>
-    <div id="news-detail-overlay"
-        style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:white; z-index:10000; overflow-y:auto;">
-    </div>
 </body>
 
 </html>
