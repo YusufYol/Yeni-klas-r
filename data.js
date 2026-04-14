@@ -414,7 +414,7 @@ const APP_DATA = {
                 "id": 1,
                 "title": "DÜNYA RALLİ ŞAMPİYONASI’NDA TÜRK RÜZGARI!",
                 "cat": "milli sporcularımız",
-                "date": "2026-04-14",
+                "date": "2026-04-12",
                 "content": "Hırvatistan Rallisi'nde mücadele eden Türk ekipleri, elde ettikleri tarihi başarılarla şampiyonaya damga vurdu.<br><br>Castrol Ford Team Türkiye adına yarışan Ali Türkkan ve Oytun Albayrak ikilisi, organizasyonun en dikkat çeken isimleri oldu. Zorlu parkurlarda sergiledikleri üstün performansla hem JWRC hem de WRC3 kategorilerinde zirveye yerleşerek birinci oldular. Toplamda 4 özel etap galibiyetine imza atan ekip, bu sonuçla Gençler Şampiyonası’nda 43 puana ulaşarak genel klasmanda ikinci sıraya yerleşti.<br><br>Team Petrol Ofisi adına start alan Kerem Kazaz ve yardımcı pilotu Corentin Silvestre, istikrarlı sürüşlerini ödülle taçlandırdı. WRC3 klasmanında üçüncü olarak podyuma çıkan ikili, aynı zamanda JWRC kategorisini beşinci sırada tamamlayarak her iki alanda da kritik puanları hanesine yazdırdı.<br><br>GP Garage My Team adına yarışan Uğur Soylu ve Onur Vatansever ekibi, tecrübelerini başarıya dönüştürdü. WRC Masters kategorisinde ikinci sırayı alan ekip, Hırvatistan’dan kupa ve değerli puanlarla dönerek Türkiye’nin ralli arenasındaki gücünü bir kez daha kanıtladı.",
                 "img": "Resimler/Milli Sporcularımız Haberler/Milli.jpg"
             }
