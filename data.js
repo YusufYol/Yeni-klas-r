@@ -8,6 +8,14 @@ const APP_DATA = {
                 "date": "2026-03-29",
                 "content": "Dört kez dünya şampiyonu olan Max Verstappen, 2026 teknik regülasyonlarına yönelik artan memnuniyetsizliğini dile getirirken, Japonya Grand Prix'sinin ardından F1 geleceği ile ilgili birçok şeyi düşünmesi gerektiğini söylemişti.",
                 "img": "Resimler/Formula 1 Haberler/max-verstappen-red-bull-racing (1).jpg"
+            },
+            {
+                "id": 2,
+                "title": "FERRARI HAMLESİYLE HİBRİT AÇIĞI KAPATILDI!",
+                "cat": "formula 1",
+                "date": "2026-04-14",
+                "content": "Ferrari’nin FIA nezdindeki girişimi sonuç verdi ve FIA, Mercedes ile Red Bull Racing’in sıralama turlarında kullandığı tartışmalı hibrit yöntemini yasakladı.<br><br>Söz konusu sistemde takımlar, MGU-K ünitesini “teknik arıza” gerekçesiyle anlık kapatarak yönetmelikteki kademeli güç düşüşünü devre dışı bırakıyordu. Bu sayede tur sonuna kadar maksimum güçle devam eden araçlar, özellikle son sektörde 50-100 kW ekstra avantaj elde ediyordu.<br><br>Ancak bu yöntem sadece performans değil, güvenlik açısından da risk yarattı. Sistem kapatıldıktan sonra yaşanan ani yavaşlamalar, hızlı turdaki pilotlar için tehlikeli anlara neden oldu.<br><br>FIA’nın yeni teknik direktifine göre artık MGU-K sadece gerçek ve kanıtlanabilir arızalarda devre dışı bırakılabilecek. Performans amacı taşıyan her müdahale kural ihlali sayılacak ve telemetri verileriyle anlık olarak denetlenecek.<br><br>Bu karar, özellikle sıralama turlarında küçük farkların belirleyici olduğu dengeleri doğrudan etkileyebilir.",
+                "img": "Resimler/Formula 1 Haberler/Hibrit.png"
             }
         ],
         "pilots": [
