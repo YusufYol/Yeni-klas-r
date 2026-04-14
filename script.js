@@ -303,8 +303,11 @@ function initAppEngine() {
             allNews.sort((a, b) => {
                 const dateCompare = new Date(b.date) - new Date(a.date);
                 if (dateCompare !== 0) return dateCompare;
-                // Aynı gün içindeki haberlerde, ID'si büyük olan (genelde en son eklenen) en üstte olur
-                return (b.id || 0) - (a.id || 0);
+                
+                // Aynı gün içindeki haberlerde, ID'si büyük olan (enson eklenen) en üstte olur.
+                const idA = parseInt(a.id) || 0;
+                const idB = parseInt(b.id) || 0;
+                return idB - idA;
             });
             console.log("En Güncel Haber:", allNews[0].title);
         }
