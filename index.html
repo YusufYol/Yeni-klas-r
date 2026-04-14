@@ -113,14 +113,14 @@
 
     <script>
         // Dosya Değişimlerini Anlık Yakalamak (Cache Buster)
-        (function() {
+        (function () {
             const v = Date.now();
             // CSS Yükle
             const link = document.createElement('link');
             link.rel = 'stylesheet';
             link.href = 'style.css?v=' + v;
             document.head.appendChild(link);
-            
+
             // JS Dosyalarını Yükle
             ['data.js', 'script.js'].forEach(src => {
                 const s = document.createElement('script');
