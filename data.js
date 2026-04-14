@@ -441,6 +441,7 @@ const APP_DATA = {
             { "id": "vatansever", "name": "Onur Vatansever", "team": "GP Garage My Team (Ralli)" },
             { "id": "avcıoğlu", "name": "Orhan Avcıoğlu", "team": "Toksport WRT (Ralli)" },
             { "id": "tatar", "name": "Sertaç Tatar", "team": "GE Rally Raid Team (Off-Road)" },
+            { "id": "razgatlıoğlu", "name": "Toprak Razgatlıoğlu", "team": "Prima Pramac Yamaha Racing (MotoGP)" },
             { "id": "ülkü", "name": "Ümit Ülkü", "team": "Ülkü Motorsport (Türkiye Pist Şampiyonası)" },
             { "id": "ışık", "name": "Volkan Işık", "team": "GP Garage My Team (Ralli)" },
             { "id": "oskan", "name": "Yadel Oskan", "team": "Yadel Oskan Motorsport (Porsche GT3 Cup Challenge Eastern Europe)" },
