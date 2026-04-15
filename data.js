@@ -24,6 +24,14 @@ const APP_DATA = {
                 "date": "2026-04-14",
                 "content": "Helmut Marko, halihazırda uygulanmaya başlayan 2026 Formula 1 regülasyonlarını sert sözlerle eleştirdi ve FIA’ya acil değişiklik çağrısında bulundu.<br><br>Marko, yeni kuralların padok içerisindeki atmosferi olumsuz etkilediğini belirtirken, başta Max Verstappen olmak üzere birçok pilotun mevcut durumdan memnun olmadığını ifade etti. Marko’ya göre yeni nesil güç üniteleri, sürüş hissiyatını ve rekabet dengesini istenmeyen bir noktaya taşıyor.<br><br>Deneyimli isim, özellikle elektrik gücünün ön plana çıkmasını eleştirdi. 2026 regülasyonlarıyla birlikte batarya kullanımının artması, içten yanmalı motorun rolünü görece geri plana iterken, Marko bu durumun Formula 1’in karakterine zarar verdiğini savunuyor. FIA’nın bu dengeyi yeniden kurması gerektiğini vurgulayan Marko, bataryanın etkisinin azaltılıp içten yanmalı motorun daha fazla ön plana çıkarılması gerektiğini söyledi.",
                 "img": "Resimler/Formula 1 Haberler/Marko.png"
+            },
+            {
+                "id": 4,
+                "title": "MCLAREN VE MERCEDES NÜRBURGRING’DE PİSTE ÇIKTI!",
+                "cat": "formula 1",
+                "date": "2026-04-15",
+                "content": "Formula 1 ekiplerinden McLaren ve Mercedes, Pirelli’nin lastik geliştirme programı kapsamında Almanya’daki Nürburgring pistinde iki günlük test programını tamamladı. Takımlar, 2026 sezonu öncesinde lastik verilerini toplamak adına yoğun bir çalışma yürüttü.<br><br>McLaren cephesinde Oscar Piastri’nin ilk gün programı teknik bir sorun nedeniyle kısmen aksadı. Günün büyük bölümünü garajda geçirmek zorunda kalan Avustralyalı pilot, buna rağmen 65 tur atarak 1:35.096’lık en iyi derecesini elde etti. Takım, yaşanan soruna rağmen veri toplama sürecini sürdürmeyi başardı.<br><br>Mercedes tarafında ise George Russell oldukça verimli bir ilk günü geride bıraktı. Toplam 127 tur atan İngiliz pilot, 1:33.899’luk derecesiyle testlerin en dikkat çeken performanslarından birine imza attı.<br><br>Testin ikinci gününde ise genç yetenek Kimi Antonelli ile birlikte McLaren pilotu Lando Norris de piste çıkan isimler arasında yer aldı.",
+                "img": "Resimler/Formula 1 Haberler/Mercedes ve McLaren.jpeg"
             }
         ],
         "pilots": [
