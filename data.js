@@ -40,6 +40,14 @@ const APP_DATA = {
                 "date": "2026-04-16",
                 "content": "Pastor Maldonado, modern Formula 1 kurallarını hedef alan dikkat çekici açıklamalarda bulundu. 2012 yılında İspanya Grand Prix’sini kazanarak kariyerinin en büyük başarısına imza atan Venezuelalı pilot, günümüz yarış anlayışının geçmişe kıyasla çok daha kısıtlayıcı olduğunu savundu.<br><br>Maldonado, kendi döneminde pilotların araç üzerinde daha fazla kontrol sahibi olduğunu vurgulayarak şu ifadeleri kullandı:<br><br>“Benim zamanımda yönetim tamamen pilotun elindeydi. Lastikler aşındığında pit stop yapardık ve istediğimiz kadar zorlayabilirdik.”<br><br>1990’lı yıllardaki rekabet ortamına da değinen Maldonado, o dönemlerde daha mütevazı takımların bile başarı şansı yakalayabildiğini belirtti:<br><br>“90’larda, hatta bir Minardi pilotu bile puan toplayabilirdi. Ama şimdi bu çok daha zor.”<br><br>Pist limitleri konusunda da eleştirilerini dile getiren Maldonado, günümüz pist tasarımlarının hataya fazla tolerans tanıdığını ifade etti:<br><br>“Pist limitleri adil değil. Neden kaçış yollarına asfalt koyuyorlar? Eğer çim olsaydı, kimse dışarı çıkmazdı.”<br><br>Deneyimli isim, son olarak mevcut kuralların pilotların özgür sürüşünü kısıtladığını belirterek sözlerini noktaladı:<br><br>“Artık pilotların özgürce sürmesine izin verilmiyor.",
                 "img": "Resimler/Formula 1 Haberler/Maldonado.jpg"
+            },
+            {
+                "id": 6,
+                "title": "FORMULA 1 GRİDİNDE TAKIM SAYISI 12’YE ÇIKABİLİR!",
+                "cat": "formula 1",
+                "date": "2026-04-16",
+                "content": "Formula 1’de 2026 sezonuyla birlikte grid 11 takıma ulaşmışken, gözler şimdi olası 12. takım girişimlerine çevrilmiş durumda. Bu doğrultuda Meksikalı milyarder Rafael Villagómez, Hollanda merkezli Van Amersfoort Racing ve deneyimli takım yöneticisi Otmar Szafnauer ile birlikte yeni bir proje üzerinde çalışıyor.<br><br>Amaç, Formula 1’e 12. takım olarak katılmak ve genişleyen gridde yerini almak. Proje henüz resmi başvuru aşamasına gelmemiş olsa da, arkasındaki isimlerin motorsporları dünyasındaki geçmişi bu girişimi dikkat çekici kılıyor.<br><br>Özellikle Van Amersfoort Racing’in genç pilot yetiştirme konusundaki başarısı ve Szafnauer’in uzun yıllara dayanan Formula 1 tecrübesi, projenin en güçlü tarafları arasında gösteriliyor.<br><br>Ancak Formula 1 yönetimi ve FIA, yeni takımlar konusunda hâlâ oldukça katı. 2026 ile birlikte gelen yeni düzenin ardından, gridin daha da genişlemesi için finansal güç, teknik altyapı ve spora katma değer gibi kriterler her zamankinden daha kritik hale gelmiş durumda.",
+                "img": "Resimler/Formula 1 Haberler/F1 Haber.png"
             }
         ],
         "pilots": [
