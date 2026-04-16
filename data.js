@@ -32,6 +32,14 @@ const APP_DATA = {
                 "date": "2026-04-15",
                 "content": "Formula 1 ekiplerinden McLaren ve Mercedes, Pirelli’nin lastik geliştirme programı kapsamında Almanya’daki Nürburgring pistinde iki günlük test programını tamamladı. Takımlar, 2026 sezonu öncesinde lastik verilerini toplamak adına yoğun bir çalışma yürüttü.<br><br>McLaren cephesinde Oscar Piastri’nin ilk gün programı teknik bir sorun nedeniyle kısmen aksadı. Günün büyük bölümünü garajda geçirmek zorunda kalan Avustralyalı pilot, buna rağmen 65 tur atarak 1:35.096’lık en iyi derecesini elde etti. Takım, yaşanan soruna rağmen veri toplama sürecini sürdürmeyi başardı.<br><br>Mercedes tarafında ise George Russell oldukça verimli bir ilk günü geride bıraktı. Toplam 127 tur atan İngiliz pilot, 1:33.899’luk derecesiyle testlerin en dikkat çeken performanslarından birine imza attı.<br><br>Testin ikinci gününde ise genç yetenek Kimi Antonelli ile birlikte McLaren pilotu Lando Norris de piste çıkan isimler arasında yer aldı.",
                 "img": "Resimler/Formula 1 Haberler/Mercedes ve McLaren.jpeg"
+            },
+            {
+                "id": 5,
+                "title": "MALDONADO’DAN GÜNÜMÜZ FORMULA 1’İNE SERT ELEŞTİRİLER!",
+                "cat": "formula 1",
+                "date": "2026-04-16",
+                "content": "Pastor Maldonado, modern Formula 1 kurallarını hedef alan dikkat çekici açıklamalarda bulundu. 2012 yılında İspanya Grand Prix’sini kazanarak kariyerinin en büyük başarısına imza atan Venezuelalı pilot, günümüz yarış anlayışının geçmişe kıyasla çok daha kısıtlayıcı olduğunu savundu.<br><br>Maldonado, kendi döneminde pilotların araç üzerinde daha fazla kontrol sahibi olduğunu vurgulayarak şu ifadeleri kullandı:<br><br>“Benim zamanımda yönetim tamamen pilotun elindeydi. Lastikler aşındığında pit stop yapardık ve istediğimiz kadar zorlayabilirdik.”<br><br>1990’lı yıllardaki rekabet ortamına da değinen Maldonado, o dönemlerde daha mütevazı takımların bile başarı şansı yakalayabildiğini belirtti:<br><br>“90’larda, hatta bir Minardi pilotu bile puan toplayabilirdi. Ama şimdi bu çok daha zor.”<br><br>Pist limitleri konusunda da eleştirilerini dile getiren Maldonado, günümüz pist tasarımlarının hataya fazla tolerans tanıdığını ifade etti:<br><br>“Pist limitleri adil değil. Neden kaçış yollarına asfalt koyuyorlar? Eğer çim olsaydı, kimse dışarı çıkmazdı.”<br><br>Deneyimli isim, son olarak mevcut kuralların pilotların özgür sürüşünü kısıtladığını belirterek sözlerini noktaladı:<br><br>“Artık pilotların özgürce sürmesine izin verilmiyor.",
+                "img": "Resimler/Formula 1 Haberler/Maldonado.jpg"
             }
         ],
         "pilots": [
