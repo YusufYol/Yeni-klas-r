@@ -10,20 +10,47 @@ function initAppEngine() {
 
     // 1. Data Helper
     function getCategoryData(cat) {
-        if (!cat) return {};
-        let c = cat.toLowerCase().trim();
-        // Türkçe karakterleri normalize et
-        let normalized = c.replace(/ı/g, 'i').replace(/ş/g, 's').replace(/ğ/g, 'g').replace(/ç/g, 'c').replace(/ö/g, 'o').replace(/ü/g, 'u');
+        if (!cat) return { news: [], pilots: [], teams: [], standings: {}, calendar: [], resultsHistory: {} };
         
-        let data = APP_DATA[cat] || APP_DATA[c] || APP_DATA[normalized];
-        
-        // F1 ve diğerleri için eşleşme kontrolü
-        if (!data) {
-            if (normalized === 'f1' || normalized === 'formula1' || normalized === 'formula 1') data = APP_DATA['formula 1'];
-            if (normalized === 'motogp') data = APP_DATA['motogp'];
+        // URL'den gelen cat parametresini decode et
+        let decodedCat = cat;
+        try {
+            decodedCat = decodeURIComponent(cat).trim();
+        } catch (e) {
+            console.warn("Category decoding failed:", cat);
         }
 
-        return data || {};
+        // 1. Direkt eşleşme dene
+        if (APP_DATA[decodedCat]) return APP_DATA[decodedCat];
+
+        // 2. Normalizasyon fonksiyonu
+        const normalize = (str) => {
+            return str.toLowerCase()
+                      .replace(/ı/g, 'i')
+                      .replace(/ş/g, 's')
+                      .replace(/ğ/g, 'g')
+                      .replace(/ç/g, 'c')
+                      .replace(/ö/g, 'o')
+                      .replace(/ü/g, 'u')
+                      .replace(/[\s\-]+/g, '') // boşluk ve tireleri sil
+                      .trim();
+        };
+
+        const target = normalize(decodedCat);
+
+        // 3. Özel eşleşmeler (F1 vb kısaltmalar)
+        if (target === 'f1' || target === 'formula1') return APP_DATA['formula 1'];
+        if (target === 'motogp') return APP_DATA['motogp'];
+
+        // 4. Tüm anahtarları tarayarak normalize edilmiş hallerini karşılaştır
+        const keys = Object.keys(APP_DATA);
+        for (let key of keys) {
+            if (normalize(key) === target) {
+                return APP_DATA[key];
+            }
+        }
+
+        return { news: [], pilots: [], teams: [], standings: {}, calendar: [], resultsHistory: {} };
     }
 
     // Global Event Logic
@@ -85,6 +112,13 @@ function initAppEngine() {
             path = window.location.hash.substring(1) || 'home';
         } else {
             path = window.location.pathname === '/' ? 'home' : window.location.pathname.substring(1);
+        }
+
+        // URL'yi decode et (özellikle boşluklu kategoriler ve haber başlıkları için)
+        try {
+            path = decodeURIComponent(path);
+        } catch (e) {
+            console.warn("Path decoding failed:", path);
         }
 
         const parts = path.split('/');
@@ -637,7 +671,14 @@ function initAppEngine() {
     }
 
     function showPilotDetail(cat, id) {
-        const pilot = getCategoryData(cat).pilots.find(p => p.id === id);
+        const categoryData = getCategoryData(cat);
+        const pilot = (categoryData.pilots || []).find(p => p.id === id);
+        
+        if (!pilot) {
+            console.error("Pilot not found:", cat, id);
+            renderHome();
+            return;
+        }
         mainContent.innerHTML = `
             <button class="back-btn" onclick="window.history.back()">← GERİ DÖN</button>
             <div class="profile-header">
@@ -654,7 +695,14 @@ function initAppEngine() {
     }
 
     function showTeamDetail(cat, id) {
-        const team = getCategoryData(cat).teams.find(t => t.id === id);
+        const categoryData = getCategoryData(cat);
+        const team = (categoryData.teams || []).find(t => t.id === id);
+        
+        if (!team) {
+            console.error("Team not found:", cat, id);
+            renderHome();
+            return;
+        }
         mainContent.innerHTML = `
             <button class="back-btn" onclick="window.history.back()">← GERİ DÖN</button>
             <div class="profile-header">
@@ -681,8 +729,14 @@ function initAppEngine() {
     }
 
     function renderNewsDetail(cat, id) {
-        const news = getCategoryData(cat).news.find(n => n.id == id);
-        if (!news) return;
+        const categoryData = getCategoryData(cat);
+        const news = (categoryData.news || []).find(n => n.id == id);
+        
+        if (!news) {
+            console.error("News not found:", cat, id);
+            renderHome();
+            return;
+        }
 
         mainContent.innerHTML = `
             <div class="news-detail-container">
