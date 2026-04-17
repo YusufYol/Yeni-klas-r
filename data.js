@@ -75,17 +75,17 @@ const APP_DATA = {
             { "id": "perez", "name": "Sergıo Pérez #11", "team": "Cadillac Formula 1 Team", "titles": 0, "img": "Resimler/Formula 1 Pilot ve Takımlar/Sergio Perez.png" }
         ],
         "teams": [
-            { "id": "redbull", "name": "Oracle Red Bull Racıng", "titles": 6, "img": "Resimler/Formula 1 Pilot ve Takımlar/Red Bull.png" },
-            { "id": "ferrari", "name": "Scuderıa Ferrarı HP", "titles": 16, "img": "Resimler/Formula 1 Pilot ve Takımlar/Ferrari.png" },
-            { "id": "mercedes", "name": "Mercedes-AMG PETRONAS F1 Team", "titles": 8, "img": "Resimler/Formula 1 Pilot ve Takımlar/Mercedes.png" },
-            { "id": "mclaren", "name": "McLaren F1 Team", "titles": 10, "img": "Resimler/Formula 1 Pilot ve Takımlar/McLaren.png" },
-            { "id": "aston", "name": "Aston Martın Aramco F1 Team", "titles": 0, "img": "Resimler/Formula 1 Pilot ve Takımlar/Aston Martin.png" },
-            { "id": "alpine", "name": "BWT Alpıne F1 Team", "titles": 0, "img": "Resimler/Formula 1 Pilot ve Takımlar/Alpine.png" },
-            { "id": "williams", "name": "Wıllıams Racıng", "titles": 9, "img": "Resimler/Formula 1 Pilot ve Takımlar/Williams.png" },
-            { "id": "rb", "name": "Vısa Cash App RB F1 Team", "titles": 0, "img": "Resimler/Formula 1 Pilot ve Takımlar/RB.png" },
-            { "id": "haas", "name": "Haas F1 Team", "titles": 0, "img": "Resimler/Formula 1 Pilot ve Takımlar/Haas.png" },
-            { "id": "audi", "name": "Audı F1 Team", "titles": 0, "img": "Resimler/Formula 1 Pilot ve Takımlar/Audi.png" },
-            { "id": "cadillac", "name": "Cadıllac F1 Team", "titles": 0, "img": "Resimler/Formula 1 Pilot ve Takımlar/Cadillac.png" }
+            { "id": "redbull", "name": "Oracle Red Bull Racıng", "team titles": 6, "img": "Resimler/Formula 1 Pilot ve Takımlar/Red Bull.png" },
+            { "id": "ferrari", "name": "Scuderıa Ferrarı HP", "team titles": 16, "img": "Resimler/Formula 1 Pilot ve Takımlar/Ferrari.png" },
+            { "id": "mercedes", "name": "Mercedes-AMG PETRONAS F1 Team", "team titles": 8, "img": "Resimler/Formula 1 Pilot ve Takımlar/Mercedes.png" },
+            { "id": "mclaren", "name": "McLaren F1 Team", "team titles": 10, "img": "Resimler/Formula 1 Pilot ve Takımlar/McLaren.png" },
+            { "id": "aston", "name": "Aston Martın Aramco F1 Team", "team titles": 0, "img": "Resimler/Formula 1 Pilot ve Takımlar/Aston Martin.png" },
+            { "id": "alpine", "name": "BWT Alpıne F1 Team", "team titles": 3, "img": "Resimler/Formula 1 Pilot ve Takımlar/Alpine.png" },
+            { "id": "williams", "name": "Wıllıams Racıng", "team titles": 9, "img": "Resimler/Formula 1 Pilot ve Takımlar/Williams.png" },
+            { "id": "rb", "name": "Vısa Cash App RB F1 Team", "team titles": 0, "img": "Resimler/Formula 1 Pilot ve Takımlar/RB.png" },
+            { "id": "haas", "name": "Haas F1 Team", "team titles": 0, "img": "Resimler/Formula 1 Pilot ve Takımlar/Haas.png" },
+            { "id": "audi", "name": "Audı F1 Team", "team titles": 0, "img": "Resimler/Formula 1 Pilot ve Takımlar/Audi.png" },
+            { "id": "cadillac", "name": "Cadıllac F1 Team", "team titles": 0, "img": "Resimler/Formula 1 Pilot ve Takımlar/Cadillac.png" }
         ],
         "standings": {
             "pilots": [
@@ -256,7 +256,7 @@ const APP_DATA = {
         ],
         "pilots": [
             { "id": "bagnaia", "name": "Francesco Bagnaıa #63", "team": "Ducati Lenovo Team", "titles": 2, "img": "Resimler/MotoGP Pilot ve Takımlar/Francesco Bagnaia.png" },
-            { "id": "marquez_m", "name": "Marc Márquez #93", "team": "Ducati Lenovo Team", "titles": 8, "img": "Resimler/MotoGP Pilot ve Takımlar/Marc Marquez.png" },
+            { "id": "marquez_m", "name": "Marc Márquez #93", "team": "Ducati Lenovo Team", "titles": 7, "img": "Resimler/MotoGP Pilot ve Takımlar/Marc Marquez.png" },
             { "id": "martin", "name": "Jorge Martín #89", "team": "Aprilia Racing", "titles": 1, "img": "Resimler/MotoGP Pilot ve Takımlar/Jorge Martin.png" },
             { "id": "bezzecchi", "name": "Marco Bezzecchı #72", "team": "Aprilia Racing", "titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/Marco Bezzecchi.png" },
             { "id": "acosta", "name": "Pedro Acosta #37", "team": "Red Bull KTM Factory Racing", "titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/Pedro Acosta.png" },
@@ -278,17 +278,17 @@ const APP_DATA = {
             { "id": "toprak", "name": "Toprak Razgatlıoğlu #7", "team": "Prima Pramac Yamaha MotoGP", "titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/Toprak Razgatlıoğlu.png" }
         ],
         "teams": [
-            { "id": "ducati", "name": "Ducatı Lenovo Team", "titles": 3, "img": "Resimler/MotoGP Pilot ve Takımlar/Ducati.png" },
-            { "id": "aprilia", "name": "Aprılıa Racıng", "titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/Aprilia.png" },
-            { "id": "ktm", "name": "Red Bull KTM Factory Racıng", "titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/KTM.png" },
-            { "id": "tech3", "name": "Red Bull KTM Tech3", "titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/Tech3.png" },
-            { "id": "yamaha", "name": "Monster Energy Yamaha MotoGP", "titles": 18, "img": "Resimler/MotoGP Pilot ve Takımlar/Monster Yamaha.png" },
-            { "id": "pramac", "name": "Prıma Pramac Yamaha MotoGP", "titles": 1, "img": "Resimler/MotoGP Pilot ve Takımlar/Pramac Yamaha.png" },
-            { "id": "gresini", "name": "BK8 Gresını Racıng MotoGP", "titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/Gresini.png" },
-            { "id": "vr46", "name": "Pertamına Enduro VR46", "titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/VR46.png" },
-            { "id": "honda", "name": "Repsol Honda Team", "titles": 25, "img": "Resimler/MotoGP Pilot ve Takımlar/Repsol Honda.png" },
-            { "id": "lcr", "name": "Castrol Honda LCR", "titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/Honda LCR.png" },
-            { "id": "trackhouse", "name": "Trackhouse Racıng", "titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/Trackhouse.png" }
+            { "id": "ducati", "name": "Ducatı Lenovo Team", "team titles": 5, "constructor titles": 7, "img": "Resimler/MotoGP Pilot ve Takımlar/Ducati.png" },
+            { "id": "aprilia", "name": "Aprılıa Racıng", "team titles": 0, "constructor titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/Aprilia.png" },
+            { "id": "ktm", "name": "Red Bull KTM Factory Racıng", "team titles": 0, "constructor titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/KTM.png" },
+            { "id": "tech3", "name": "Red Bull KTM Tech3", "team titles": 0, "constructor titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/Tech3.png" },
+            { "id": "yamaha", "name": "Monster Energy Yamaha MotoGP", "team titles": 7, "constructor titles": 18, "img": "Resimler/MotoGP Pilot ve Takımlar/Monster Yamaha.png" },
+            { "id": "pramac", "name": "Prıma Pramac Yamaha MotoGP", "team titles": 1, "constructor titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/Pramac Yamaha.png" },
+            { "id": "gresini", "name": "BK8 Gresını Racıng MotoGP", "team titles": 0, "constructor titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/Gresini.png" },
+            { "id": "vr46", "name": "Pertamına Enduro VR46", "team titles": 0, "constructor titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/VR46.png" },
+            { "id": "honda", "name": "Repsol Honda Team", "team titles": 10, "constructor titles": 25, "img": "Resimler/MotoGP Pilot ve Takımlar/Repsol Honda.png" },
+            { "id": "lcr", "name": "Castrol Honda LCR", "team titles": 0, "constructor titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/Honda LCR.png" },
+            { "id": "trackhouse", "name": "Trackhouse Racıng", "team titles": 0, "constructor titles": 0, "img": "Resimler/MotoGP Pilot ve Takımlar/Trackhouse.png" }
         ],
         "calendar": [
             { "round": 1, "gp": "Thailand Grand Prix", "country": "Tayland", "date": "27 Şubat-1 Mart", "track": "Buriram", "isoDate": "2026-02-27", "status": "Tamamlandı", "sessions": [{ "name": "Salı: 1. Antrenman", "time": "06:45" }, { "name": "Salı: Antrenman Seansı", "time": "11:00" }, { "name": "Çarşamba: Sıralama Turları 1", "time": "06:50" }, { "name": "Çarşamba: Sıralama Turları 2", "time": "11:00" }, { "name": "Çarşamba: Sprint Yarışı", "time": "11:00" }, { "name": "Cuma: Isınma Turları", "time": "06:40" }, { "name": "Cuma: Yarış", "time": "11:00" }] },
