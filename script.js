@@ -97,10 +97,26 @@ function initAppEngine() {
     function initApp() {
         // Handle browser back button
         window.onpopstate = function (event) {
-            if (event.state) {
+            const isLocal = window.location.protocol === 'file:';
+            if (isLocal && window.location.hash) {
+                let path = window.location.hash.substring(1) || 'home';
+                try { path = decodeURIComponent(path); } catch (e) {}
+                const parts = path.split('/');
+                const view = parts[0] || 'home';
+                const cat = parts[1] || 'f1';
+                const round = parts[2] || null;
+                handleRoute(view, cat, false, round);
+            } else if (event.state) {
                 handleRoute(event.state.view, event.state.cat, false, event.state.round);
             } else {
-                handleRoute('home', 'f1', false);
+                // Determine path for initial server load
+                let path = window.location.pathname === '/' ? 'home' : window.location.pathname.substring(1);
+                try { path = decodeURIComponent(path); } catch (e) {}
+                const parts = path.split('/');
+                const view = parts[0] || 'home';
+                const cat = parts[1] || 'f1';
+                const round = parts[2] || null;
+                handleRoute(view, cat, false, round);
             }
         };
 
@@ -703,6 +719,18 @@ function initAppEngine() {
             renderHome();
             return;
         }
+
+        let statsHtml = '';
+        if (team["team titles"] !== undefined) {
+            statsHtml += `<div class="stat-item"><div class="stat-label">Takım Şampiyonluğu</div><div class="stat-value" style="color:var(--primary-red)">${team["team titles"]}</div></div>`;
+        }
+        if (team["constructor titles"] !== undefined) {
+            statsHtml += `<div class="stat-item"><div class="stat-label">Üretici Şampiyonluğu</div><div class="stat-value" style="color:var(--primary-red)">${team["constructor titles"]}</div></div>`;
+        }
+        if (team.titles !== undefined) {
+            statsHtml += `<div class="stat-item"><div class="stat-label">Şampiyonluk</div><div class="stat-value" style="color:var(--primary-red)">${team.titles}</div></div>`;
+        }
+
         mainContent.innerHTML = `
             <button class="back-btn" onclick="window.history.back()">← GERİ DÖN</button>
             <div class="profile-header">
@@ -712,7 +740,7 @@ function initAppEngine() {
                 </div>
             </div>
             <div class="stats-grid">
-                <div class="stat-item"><div class="stat-label">Şampiyonluk</div><div class="stat-value" style="color:var(--primary-red)">${team.titles}</div></div>
+                ${statsHtml}
             </div>
         `;
     }
