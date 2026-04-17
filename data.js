@@ -48,6 +48,14 @@ const APP_DATA = {
                 "date": "2026-04-16",
                 "content": "Formula 1’de 2026 sezonuyla birlikte grid 11 takıma ulaşmışken, gözler şimdi olası 12. takım girişimlerine çevrilmiş durumda. Bu doğrultuda Meksikalı milyarder Rafael Villagómez, Hollanda merkezli Van Amersfoort Racing ve deneyimli takım yöneticisi Otmar Szafnauer ile birlikte yeni bir proje üzerinde çalışıyor.<br><br>Amaç, Formula 1’e 12. takım olarak katılmak ve genişleyen gridde yerini almak. Proje henüz resmi başvuru aşamasına gelmemiş olsa da, arkasındaki isimlerin motorsporları dünyasındaki geçmişi bu girişimi dikkat çekici kılıyor.<br><br>Özellikle Van Amersfoort Racing’in genç pilot yetiştirme konusundaki başarısı ve Szafnauer’in uzun yıllara dayanan Formula 1 tecrübesi, projenin en güçlü tarafları arasında gösteriliyor.<br><br>Ancak Formula 1 yönetimi ve FIA, yeni takımlar konusunda hâlâ oldukça katı. 2026 ile birlikte gelen yeni düzenin ardından, gridin daha da genişlemesi için finansal güç, teknik altyapı ve spora katma değer gibi kriterler her zamankinden daha kritik hale gelmiş durumda.",
                 "img": "Resimler/Formula 1 Haberler/F1 Haber.png"
+            },
+            {
+                "id": 7,
+                "title": "GÜNEY KORE, FORMULA 1’E GERİ DÖNMEYE HAZIRLANIYOR!",
+                "cat": "formula 1",
+                "date": "2026-04-17",
+                "content": "Güney Kore, 2028 yılından itibaren Formula 1 takvimine yeniden dahil olmak için önemli bir adım atmaya hazırlanıyor. Gelen bilgilere göre ülke, organizasyonla 5 yıllık bir anlaşma yapmayı planlıyor.<br><br>Daha önce yarışlara ev sahipliği yapan Yeongam pisti yerine, bu kez çok daha iddialı bir proje gündemde. Yeni plan kapsamında yarışların, Güney Kore’nin modern ve dinamik şehirlerinden biri olan Incheon sokaklarında düzenlenmesi hedefleniyor.<br><br>Bu değişimle birlikte organizasyonun şehir merkezine entegre edilmesi, seyirci deneyiminin artırılması ve Formula 1’in daha geniş kitlelere ulaşması amaçlanıyor. Sokak yarışı konsepti, son yıllarda artan popülaritesiyle dikkat çekerken, Güney Kore’nin bu hamlesi de takvime farklı bir heyecan katabilir.<br><br>Eğer anlaşma resmiyet kazanırsa, Güney Kore uzun bir aranın ardından yeniden Formula 1 sahnesine dönecek ve Asya’daki yarış takvimine güçlü bir katkı sağlayacak.",
+                "img": "Resimler/Formula 1 Haberler/Güney Kore F1.png"
             }
         ],
         "pilots": [
