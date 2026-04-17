@@ -55,7 +55,7 @@ const APP_DATA = {
                 "cat": "formula 1",
                 "date": "2026-04-17",
                 "content": "Güney Kore, 2028 yılından itibaren Formula 1 takvimine yeniden dahil olmak için önemli bir adım atmaya hazırlanıyor. Gelen bilgilere göre ülke, organizasyonla 5 yıllık bir anlaşma yapmayı planlıyor.<br><br>Daha önce yarışlara ev sahipliği yapan Yeongam pisti yerine, bu kez çok daha iddialı bir proje gündemde. Yeni plan kapsamında yarışların, Güney Kore’nin modern ve dinamik şehirlerinden biri olan Incheon sokaklarında düzenlenmesi hedefleniyor.<br><br>Bu değişimle birlikte organizasyonun şehir merkezine entegre edilmesi, seyirci deneyiminin artırılması ve Formula 1’in daha geniş kitlelere ulaşması amaçlanıyor. Sokak yarışı konsepti, son yıllarda artan popülaritesiyle dikkat çekerken, Güney Kore’nin bu hamlesi de takvime farklı bir heyecan katabilir.<br><br>Eğer anlaşma resmiyet kazanırsa, Güney Kore uzun bir aranın ardından yeniden Formula 1 sahnesine dönecek ve Asya’daki yarış takvimine güçlü bir katkı sağlayacak.",
-                "img": "Resimler/Formula 1 Haberler/Güney Kore F1.png"
+                "img": "Resimler/Formula 1 Haberler/Güney Kore.png"
             }
         ],
         "pilots": [
