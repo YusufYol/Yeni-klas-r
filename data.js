@@ -56,6 +56,14 @@ const APP_DATA = {
                 "date": "2026-04-17",
                 "content": "Güney Kore, 2028 yılından itibaren Formula 1 takvimine yeniden dahil olmak için önemli bir adım atmaya hazırlanıyor. Gelen bilgilere göre ülke, organizasyonla 5 yıllık bir anlaşma yapmayı planlıyor.<br><br>Daha önce yarışlara ev sahipliği yapan Yeongam pisti yerine, bu kez çok daha iddialı bir proje gündemde. Yeni plan kapsamında yarışların, Güney Kore’nin modern ve dinamik şehirlerinden biri olan Incheon sokaklarında düzenlenmesi hedefleniyor.<br><br>Bu değişimle birlikte organizasyonun şehir merkezine entegre edilmesi, seyirci deneyiminin artırılması ve Formula 1’in daha geniş kitlelere ulaşması amaçlanıyor. Sokak yarışı konsepti, son yıllarda artan popülaritesiyle dikkat çekerken, Güney Kore’nin bu hamlesi de takvime farklı bir heyecan katabilir.<br><br>Eğer anlaşma resmiyet kazanırsa, Güney Kore uzun bir aranın ardından yeniden Formula 1 sahnesine dönecek ve Asya’daki yarış takvimine güçlü bir katkı sağlayacak.",
                 "img": "Resimler/Formula 1 Haberler/Güney Kore.png"
+            },
+            {
+                "id": 8,
+                "title": "RUSSELL: 'FORMULA 1, VERSTAPPEN’DEN DAHA BÜYÜK!'",
+                "cat": "formula 1",
+                "date": "2026-04-18",
+                "content": "George Russell, son açıklamalarında Max Verstappen üzerinden dikkat çeken değerlendirmelerde bulundu. İngiliz pilot, özellikle 2022 sezonundaki araç karakteristiği ve sürüş zorluklarına değinirken, Formula 1’in hiçbir pilotun önüne geçemeyecek kadar büyük bir organizasyon olduğunu vurguladı.<br><br>Russell, 2022’de yürürlüğe giren yeni teknik regülasyonlarla birlikte ortaya çıkan “porpoising” (zıplama) sorununa değinerek o dönemki sürüş deneyimini şu sözlerle anlattı:<br><br>'Formula 1, herhangi bir pilottan daha büyük.'<br><br>'2022’deki arabayı sürerken, inişli çıkışlı zıplamalar yüzünden hoşuma gitmiyordu. Hepimizin sırtını mahvediyordu.'<br><br>Yeni nesil araçların getirdiği bu zıplama problemi, sezonun ilk bölümünde neredeyse tüm takımları etkilerken, pilotlar ciddi fiziksel zorlanmalar yaşamıştı. Russell da bu sürecin grid genelinde rahatsızlık yarattığını açıkça dile getirdi.<br><br>İngiliz pilot, açıklamasının devamında araçların fiziksel yapısına da değinerek o dönemki otomobillerin büyük ve ağır olmasının sürüş keyfini düşürdüğünü ifade etti. Ancak burada yaptığı Verstappen göndermesi dikkat çekti:<br><br>'Araba büyüktü, ağırdı; ama o (Max) şikayet etmiyordu çünkü kazanıyordu.'<br><br>Bu sözler, başarıya ulaşan pilotların araç karakteristiklerine karşı daha toleranslı olabildiği yönündeki tartışmaları yeniden gündeme taşıdı. Verstappen’in o sezon dominant performansıyla şampiyonluğa ulaşması, bu yorumun altını dolduran önemli bir detay olarak öne çıkıyor.",
+                "img": "Resimler/Formula 1 Haberler/Russell.png"
             }
         ],
         "pilots": [
