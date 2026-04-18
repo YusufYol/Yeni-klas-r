@@ -493,6 +493,14 @@ const APP_DATA = {
                 "date": "2026-04-18 17:40",
                 "content": "6 Hours of Imola öncesinde gerçekleştirilen sıralama turlarında, Ferrari ev sahibi avantajını en iyi şekilde değerlendirdi.<br><br>İtalyan pilot Antonio Giovinazzi’nin kullandığı #51 numaralı Ferrari, son derece çekişmeli geçen seansta en hızlı turu atarak pole pozisyonunun sahibi oldu.<br><br>Seansın en yakın takipçisi, sadece 0.011 saniye farkla Toyota Gazoo Racing #8 olurken, bir diğer Ferrari olan #50 ise liderin 0.040 saniye gerisinde üçüncü sırayı elde etti.<br><br>Sıralama turlarının dikkat çeken performanslarından biri de Peugeot TotalEnergies #94’ten geldi. Fransız ekip, pole pozisyonundan yalnızca 0.073 saniye geride kalarak dördüncü sırayı aldı.<br><br>LMGT3 kategorisinde ise pole pozisyonu McLaren #10’un oldu. Lexus #78 ve #87 numaralı araçlar ise ilk üçü tamamladı.<br><br>Imola’da koşulacak yarış öncesinde Ferrari’nin pole performansı, İtalyan ekibi galibiyetin en güçlü adaylarından biri haline getirdi.",
                 "img": "Resimler/Haberler/Ferrari WEC Imola.png"
+            },
+            {
+                "id": 7,
+                "title": "VERSTAPPEN'İN DE BULUNDUĞU NLS YARIŞINDA BÜYÜK KAZA!",
+                "cat": "haberler",
+                "date": "2026-04-18 20:15",
+                "content": "Almanya’daki Nürburgring 24 Saat Yarışı hafta sonu öncesinde düzenlenen ilk eleme yarışında ciddi bir kaza meydana geldi. Seans, yaşanan olayın ardından kırmızı bayrakla durduruldu.<br><br>İlk bilgilere göre tam 7 araç büyük bir kazaya karıştı. Yarış yönetimi tarafından yapılan açıklamada, kazanın olası nedeninin araçlardan birinde meydana gelen yakıt sızıntısı olduğu ifade edildi. Olayın ardından pistte güvenlik önlemleri en üst seviyeye çıkarıldı.<br><br>Kazanın hemen ardından sağlık ekipleri hızla olay yerine sevk edilirken, yaralı pilotlara müdahale için ambulansın piste giriş yaptığı bildirildi. Pilotların sağlık durumlarına ilişkin henüz net bir açıklama yapılmış değil.<br><br>Öte yandan, Max Verstappen’in de bulunduğu seansta yaşanan bu olay, padokta büyük endişe yarattı.<br><br>Yetkililerden gelecek resmi açıklamalar beklenirken, gözler pilotların sağlık durumuna çevrilmiş durumda. Yarış dünyası, Nürburgring’den gelecek iyi haberleri umutla bekliyor.",
+                "img": "Resimler/Haberler/NLS.png"
             }
         ]
     },
