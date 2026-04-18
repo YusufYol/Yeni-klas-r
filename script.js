@@ -359,7 +359,10 @@ function initAppEngine() {
         Object.keys(APP_DATA).forEach(cat => {
             const catData = getCategoryData(cat);
             if (catData && catData.news) {
-                allNews.push(...catData.news);
+                const len = catData.news.length;
+                catData.news.forEach((n, idx) => {
+                    allNews.push({ ...n, _revIdx: len - idx });
+                });
             }
         });
 
@@ -367,10 +370,19 @@ function initAppEngine() {
         console.log("Toplam Yüklenen Haber Sayısı:", allNews.length);
         if (allNews.length > 0) {
             allNews.sort((a, b) => {
-                const dateCompare = new Date(b.date) - new Date(a.date);
+                let dateA = new Date(a.date);
+                let dateB = new Date(b.date);
+                if (isNaN(dateA.getTime())) dateA = new Date(0);
+                if (isNaN(dateB.getTime())) dateB = new Date(0);
+
+                const dateCompare = dateB - dateA;
                 if (dateCompare !== 0) return dateCompare;
                 
-                // Aynı gün içindeki haberlerde, ID'si büyük olan (enson eklenen) en üstte olur.
+                // Aynı güne eklenen haberler için, o kategoride en son eklenenler üstte olsun
+                const revCompare = (a._revIdx || 0) - (b._revIdx || 0); // 1 (en son) üstte olacak şekilde asc
+                if (revCompare !== 0) return revCompare;
+
+                // Hala eşitse ID'si büyük olan üste
                 const idA = parseInt(a.id) || 0;
                 const idB = parseInt(b.id) || 0;
                 return idB - idA;
@@ -388,6 +400,8 @@ function initAppEngine() {
     function createNewsCard(news) {
         const div = document.createElement('div');
         div.className = 'news-card';
+        // Extract only the date part format "YYYY-MM-DD" if it contains time
+        const displayDate = (news.date || '').split(' ')[0].split('T')[0];
         div.innerHTML = `
             <div class="news-img-container">
                 <img src="${window.APP_ROOT}${news.img}" alt="news" class="news-img">
@@ -395,7 +409,7 @@ function initAppEngine() {
             <div class="news-info">
                 <span class="news-cat">${news.cat}</span>
                 <h3 class="news-title">${news.title}</h3>
-                <span class="news-date">${news.date}</span>
+                <span class="news-date">${displayDate}</span>
             </div>
         `;
         div.onclick = () => handleRoute('news-detail', news.cat, true, news.id);
@@ -434,7 +448,12 @@ function initAppEngine() {
                 n.title.toLowerCase().includes(filter.toLowerCase()) ||
                 n.content.toLowerCase().includes(filter.toLowerCase())
             ).sort((a, b) => {
-                const dateCompare = new Date(b.date) - new Date(a.date);
+                let dateA = new Date(a.date);
+                let dateB = new Date(b.date);
+                if (isNaN(dateA.getTime())) dateA = new Date(0);
+                if (isNaN(dateB.getTime())) dateB = new Date(0);
+
+                const dateCompare = dateB - dateA;
                 if (dateCompare !== 0) return dateCompare;
                 return (b.id || 0) - (a.id || 0);
             });
@@ -766,6 +785,8 @@ function initAppEngine() {
             return;
         }
 
+        const displayDate = (news.date || '').split(' ')[0].split('T')[0];
+
         mainContent.innerHTML = `
             <div class="news-detail-container">
                 <button class="back-btn" onclick="window.history.back()">← GERİ DÖN</button>
@@ -773,7 +794,7 @@ function initAppEngine() {
                 <div class="news-detail-body">
                     <span class="news-detail-cat">${news.cat}</span>
                     <h1 class="news-detail-title">${news.title}</h1>
-                    <span class="news-detail-date">${news.date}</span>
+                    <span class="news-detail-date">${displayDate}</span>
                     <div class="news-detail-content">
                         ${news.content}
                     </div>
