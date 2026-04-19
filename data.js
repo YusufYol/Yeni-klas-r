@@ -509,6 +509,14 @@ const APP_DATA = {
                 "date": "2026-04-18 22:00",
                 "content": "Nürburgring 24 Saatleri hafta sonunda, ilk eleme yarışında yaşanan büyük kazada 7 araç birbirine girdi. İlk belirlemelere göre kazanın, araçlardan birinde yaşanan yakıt sızıntısı sonrası kontrolden çıkılmasıyla başladığı ifade edildi.<br><br>Kazada hayatını kaybeden Juha için motorsporları dünyası yasa boğulurken, Max Verstappen de yaşananların ardından açıklamalarda bulundu:<br><br>“Bugün yaşananlar karşısında şok oldum… Motor sporları hepimizin sevdiği bir şey, ancak böyle zamanlarda ne kadar tehlikeli olabileceğini bize hatırlatıyor. Juha’nın ailesine ve sevdiklerine en içten başsağlığı dileklerimi iletiyorum.”",
                 "img": "Resimler/Haberler/Max NLS.png"
+            },
+            {
+                "id": 9,
+                "title": "CAN ÖNCÜ UÇARAK BAŞLADI, PODYUMLA BİTİRDİ!",
+                "cat": "haberler",
+                "date": "2026-04-19 16:50",
+                "content": "Temsilcimiz Can Öncü, WSSP hafta sonuna damga vuran performansıyla dikkatleri üzerine çekti. Yarışa 12. sıradan başlayan milli sporcu, adeta kusursuz bir start alarak ilk virajda liderliğe kadar yükseldi.<br><br>Yarışın ilk bölümlerinde temposunu koruyarak ön grupta kalmayı başaran Öncü, güçlü rakiplerine karşı etkileyici bir mücadele sergiledi. Ancak bitime 6 tur kala yaşanan olayların ardından yarışta kırmızı bayrak kararı çıktı.<br><br>Seansın yeniden başlatılmamasıyla birlikte sonuçlar o ana göre belirlenirken, Can Öncü yarışı 3. sırada tamamlayarak podyuma çıkmayı başardı.",
+                "img": "Resimler/Haberler/Can.png"
             }
         ]
     },
