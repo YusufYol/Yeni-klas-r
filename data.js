@@ -501,6 +501,14 @@ const APP_DATA = {
                 "date": "2026-04-18 20:15",
                 "content": "Almanya’daki Nürburgring 24 Saat Yarışı hafta sonu öncesinde düzenlenen ilk eleme yarışında ciddi bir kaza meydana geldi. Seans, yaşanan olayın ardından kırmızı bayrakla durduruldu.<br><br>İlk bilgilere göre tam 7 araç büyük bir kazaya karıştı. Yarış yönetimi tarafından yapılan açıklamada, kazanın olası nedeninin araçlardan birinde meydana gelen yakıt sızıntısı olduğu ifade edildi. Olayın ardından pistte güvenlik önlemleri en üst seviyeye çıkarıldı.<br><br>Kazanın hemen ardından sağlık ekipleri hızla olay yerine sevk edilirken, yaralı pilotlara müdahale için ambulansın piste giriş yaptığı bildirildi. Pilotların sağlık durumlarına ilişkin henüz net bir açıklama yapılmış değil.<br><br>Öte yandan, Max Verstappen’in de bulunduğu seansta yaşanan bu olay, padokta büyük endişe yarattı.<br><br>Yetkililerden gelecek resmi açıklamalar beklenirken, gözler pilotların sağlık durumuna çevrilmiş durumda. Yarış dünyası, Nürburgring’den gelecek iyi haberleri umutla bekliyor.",
                 "img": "Resimler/Haberler/NLS.png"
+            },
+            {
+                "id": 8,
+                "title": "MAX VERSTAPPEN’DEN KAZA SONRASI İLK AÇIKLAMA GELDİ!",
+                "cat": "haberler",
+                "date": "2026-04-18 22:00",
+                "content": "Nürburgring 24 Saatleri hafta sonunda, ilk eleme yarışında yaşanan büyük kazada 7 araç birbirine girdi. İlk belirlemelere göre kazanın, araçlardan birinde yaşanan yakıt sızıntısı sonrası kontrolden çıkılmasıyla başladığı ifade edildi.<br><br>Kazada hayatını kaybeden Juha için motorsporları dünyası yasa boğulurken, Max Verstappen de yaşananların ardından açıklamalarda bulundu:<br><br>“Bugün yaşananlar karşısında şok oldum… Motor sporları hepimizin sevdiği bir şey, ancak böyle zamanlarda ne kadar tehlikeli olabileceğini bize hatırlatıyor. Juha’nın ailesine ve sevdiklerine en içten başsağlığı dileklerimi iletiyorum.”",
+                "img": "Resimler/Haberler/Max NLS.png"
             }
         ]
     },
