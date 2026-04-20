@@ -64,6 +64,14 @@ const APP_DATA = {
                 "date": "2026-04-18",
                 "content": "George Russell, son açıklamalarında Max Verstappen üzerinden dikkat çeken değerlendirmelerde bulundu. İngiliz pilot, özellikle 2022 sezonundaki araç karakteristiği ve sürüş zorluklarına değinirken, Formula 1’in hiçbir pilotun önüne geçemeyecek kadar büyük bir organizasyon olduğunu vurguladı.<br><br>Russell, 2022’de yürürlüğe giren yeni teknik regülasyonlarla birlikte ortaya çıkan “porpoising” (zıplama) sorununa değinerek o dönemki sürüş deneyimini şu sözlerle anlattı:<br><br>'Formula 1, herhangi bir pilottan daha büyük.'<br><br>'2022’deki arabayı sürerken, inişli çıkışlı zıplamalar yüzünden hoşuma gitmiyordu. Hepimizin sırtını mahvediyordu.'<br><br>Yeni nesil araçların getirdiği bu zıplama problemi, sezonun ilk bölümünde neredeyse tüm takımları etkilerken, pilotlar ciddi fiziksel zorlanmalar yaşamıştı. Russell da bu sürecin grid genelinde rahatsızlık yarattığını açıkça dile getirdi.<br><br>İngiliz pilot, açıklamasının devamında araçların fiziksel yapısına da değinerek o dönemki otomobillerin büyük ve ağır olmasının sürüş keyfini düşürdüğünü ifade etti. Ancak burada yaptığı Verstappen göndermesi dikkat çekti:<br><br>'Araba büyüktü, ağırdı; ama o (Max) şikayet etmiyordu çünkü kazanıyordu.'<br><br>Bu sözler, başarıya ulaşan pilotların araç karakteristiklerine karşı daha toleranslı olabildiği yönündeki tartışmaları yeniden gündeme taşıdı. Verstappen’in o sezon dominant performansıyla şampiyonluğa ulaşması, bu yorumun altını dolduran önemli bir detay olarak öne çıkıyor.",
                 "img": "Resimler/Formula 1 Haberler/Russell.png"
+            },
+            {
+                "id": 9,
+                "title": "FORMULA 1'DE KRİTİK GÜN: KARAR TAKIM PATRONLARININ ELİNDE!",
+                "cat": "formula 1",
+                "date": "2026-04-20 12:45",
+                "content": "Formula 1’de geleceği etkileyebilecek önemli bir karar sürecine girildi. FIA ile pilotlar arasında Cuma günü gerçekleştirilen toplantıda, son dönemde tartışma yaratan kurallar ve olası düzenlemeler kapsamlı şekilde masaya yatırıldı. Yapılan görüşmelerin ardından tarafların birçok başlıkta ortak noktada buluştuğu ve fikir ayrılıklarının büyük ölçüde giderildiği ifade ediliyor.<br><br>Ancak bu uzlaşı henüz resmiyet kazanmış değil. Mevcut regülasyonlar gereği, önerilen değişikliklerin yürürlüğe girebilmesi için takım patronlarının onayı gerekiyor. Bu doğrultuda bugün yapılacak toplantıda oylama gerçekleştirilecek ve alınacak kararlar, Formula 1’in kısa vadeli geleceği açısından belirleyici olacak.<br><br>Gözler şimdi takım patronlarının vereceği karara çevrilmiş durumda. Oylamadan çıkacak sonuç, hem kuralların şekillenmesinde hem de sezonun geri kalanında takımların stratejik yaklaşımında önemli rol oynayabilir.",
+                "img": "Resimler/Formula 1 Haberler/Karar.png"
             }
         ],
         "pilots": [
