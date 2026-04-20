@@ -72,6 +72,14 @@ const APP_DATA = {
                 "date": "2026-04-20 12:45",
                 "content": "Formula 1’de geleceği etkileyebilecek önemli bir karar sürecine girildi. FIA ile pilotlar arasında Cuma günü gerçekleştirilen toplantıda, son dönemde tartışma yaratan kurallar ve olası düzenlemeler kapsamlı şekilde masaya yatırıldı. Yapılan görüşmelerin ardından tarafların birçok başlıkta ortak noktada buluştuğu ve fikir ayrılıklarının büyük ölçüde giderildiği ifade ediliyor.<br><br>Ancak bu uzlaşı henüz resmiyet kazanmış değil. Mevcut regülasyonlar gereği, önerilen değişikliklerin yürürlüğe girebilmesi için takım patronlarının onayı gerekiyor. Bu doğrultuda bugün yapılacak toplantıda oylama gerçekleştirilecek ve alınacak kararlar, Formula 1’in kısa vadeli geleceği açısından belirleyici olacak.<br><br>Gözler şimdi takım patronlarının vereceği karara çevrilmiş durumda. Oylamadan çıkacak sonuç, hem kuralların şekillenmesinde hem de sezonun geri kalanında takımların stratejik yaklaşımında önemli rol oynayabilir.",
                 "img": "Resimler/Formula 1 Haberler/Karar.png"
+            },
+            {
+                "id": 10,
+                "title": "SON DAKİKA: FIA, F1 KURALLARINDA DEĞİŞİKLİĞE GİTTİ!",
+                "cat": "formula 1",
+                "date": "2026-04-20 19:45",
+                "content": "Uluslararası Otomobil Federasyonu (FIA), Formula 1 teknik kurallarında önemli değişiklikler yaptığını duyurdu. Açıklanan yeni düzenlemeler, özellikle enerji geri kazanım sistemi ve güç kullanımına yönelik kritik güncellemeler içeriyor.<br><br>Yapılan değişikliklere göre, araçlarda kullanılan maksimum süperklip gücü 250 kW’tan 350 kW’a yükseltildi. Bu artışın, sürücülerin düzlüklerde daha yüksek performans elde etmesini sağlarken, enerji yönetimi üzerindeki baskıyı azaltması bekleniyor.<br><br>Öte yandan maksimum kullanılabilir enerji miktarı 8 MJ’den 7 MJ’ye düşürüldü. FIA’nın bu adımı, yarış sırasında sürekli süperklip kullanımını sınırlayarak daha dengeli ve stratejik bir güç dağılımı oluşturmayı hedefliyor.<br><br>Yeni düzenlemelerle birlikte Formula 1’de enerji yönetimi stratejilerinin yeniden şekillenmesi ve takımlar arasındaki performans farklarının farklı bir boyuta taşınması öngörülüyor. Değişikliklerin sezon içindeki yarışlara nasıl yansıyacağı ise önümüzdeki etaplarda daha net ortaya çıkacak.",
+                "img": "Resimler/Formula 1 Haberler/FIA.png"
             }
         ],
         "pilots": [
