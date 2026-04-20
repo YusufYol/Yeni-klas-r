@@ -517,6 +517,14 @@ const APP_DATA = {
                 "date": "2026-04-19 16:50",
                 "content": "Temsilcimiz Can Öncü, WSSP hafta sonuna damga vuran performansıyla dikkatleri üzerine çekti. Yarışa 12. sıradan başlayan milli sporcu, adeta kusursuz bir start alarak ilk virajda liderliğe kadar yükseldi.<br><br>Yarışın ilk bölümlerinde temposunu koruyarak ön grupta kalmayı başaran Öncü, güçlü rakiplerine karşı etkileyici bir mücadele sergiledi. Ancak bitime 6 tur kala yaşanan olayların ardından yarışta kırmızı bayrak kararı çıktı.<br><br>Seansın yeniden başlatılmamasıyla birlikte sonuçlar o ana göre belirlenirken, Can Öncü yarışı 3. sırada tamamlayarak podyuma çıkmayı başardı.",
                 "img": "Resimler/Haberler/Can.png"
+            },
+            {
+                "id": 10,
+                "title": "ALEX PALOU, LONG BEACH GP'SİNİ KAZANDI!",
+                "cat": "haberler",
+                "date": "2026-04-20 03:00",
+                "content": "IndyCar’da sezonun en prestijli duraklarından biri olan Long Beach Grand Prix’sinde zafer, şampiyonluk mücadelesinin en güçlü isimlerinden Alex Palou’nun oldu. Hafta sonu boyunca sergilediği istikrarlı performansı yarışa da taşıyan Palou, strateji ve tempo anlamında rakiplerine üstünlük kurarak damalı bayrağı ilk sırada geçti.<br><br>Bu sonuçla birlikte İspanyol pilot, kariyerinde ilk kez Long Beach’te zafere ulaşırken aynı zamanda IndyCar şampiyona liderliğini de yeniden ele geçirdi. Sezonun kritik virajlarından biri olarak görülen bu yarış, şampiyona dengelerini bir kez daha değiştirdi.<br><br>Yarışı ikinci sırada Felix Rosenqvist tamamlarken, tecrübeli isim Scott Dixon ise podyumun son basamağında yer aldı. Özellikle Dixon’ın yarış içerisindeki yükselişi dikkat çekerken, Rosenqvist ise güçlü performansını podyumla taçlandırdı.<br><br>IndyCar’da heyecan tüm hızıyla devam ederken, Alex Palou’nun bu galibiyeti sezonun geri kalanı için önemli bir mesaj niteliği taşıyor. Şampiyonluk mücadelesinde ibre bir kez daha Palou’dan yana dönmüş durumda.",
+                "img": "Resimler/Haberler/Alex.png"
             }
         ]
     },
