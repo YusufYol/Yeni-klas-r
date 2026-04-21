@@ -80,6 +80,14 @@ const APP_DATA = {
                 "date": "2026-04-20 19:45",
                 "content": "Uluslararası Otomobil Federasyonu (FIA), Formula 1 teknik kurallarında önemli değişiklikler yaptığını duyurdu. Açıklanan yeni düzenlemeler, özellikle enerji geri kazanım sistemi ve güç kullanımına yönelik kritik güncellemeler içeriyor.<br><br>Yapılan değişikliklere göre, araçlarda kullanılan maksimum süperklip gücü 250 kW’tan 350 kW’a yükseltildi. Bu artışın, sürücülerin düzlüklerde daha yüksek performans elde etmesini sağlarken, enerji yönetimi üzerindeki baskıyı azaltması bekleniyor.<br><br>Öte yandan maksimum kullanılabilir enerji miktarı 8 MJ’den 7 MJ’ye düşürüldü. FIA’nın bu adımı, yarış sırasında sürekli süperklip kullanımını sınırlayarak daha dengeli ve stratejik bir güç dağılımı oluşturmayı hedefliyor.<br><br>Yeni düzenlemelerle birlikte Formula 1’de enerji yönetimi stratejilerinin yeniden şekillenmesi ve takımlar arasındaki performans farklarının farklı bir boyuta taşınması öngörülüyor. Değişikliklerin sezon içindeki yarışlara nasıl yansıyacağı ise önümüzdeki etaplarda daha net ortaya çıkacak.",
                 "img": "Resimler/Formula 1 Haberler/FIA.png"
+            },
+            {
+                "id": 11,
+                "title": "FERRARI BAŞTAN AŞAĞI YENİLENİYOR!",
+                "cat": "formula 1",
+                "date": "2026-04-21 14:00",
+                "content": "Formula 1’de sezonun kritik dönemine girilirken, Ferrari cephesinden dikkat çekici bir hamle geliyor. İtalyan ekip, aracını neredeyse baştan aşağı yenileyecek kapsamlı bir güncelleme paketi üzerinde çalışıyor.<br><br>Takımın gerçekleştireceği çekim gününde kullanılacak yeni parçalar da ortaya çıkmış durumda. Bu güncellemeler arasında Spec 2 taban, arka bölümde kapsamlı aerodinamik revizyonlar, arka kanat uç plakaları ve halo üzerine eklenen kanatçıklar yer alıyor. Bununla birlikte araçta ağırlık azaltmaya yönelik değişiklikler de dikkat çekiyor.<br><br>Ferrari’nin ön kanatta tamamen yeni bir tasarıma geçtiği, ayrıca “Macarena” olarak adlandırılan arka kanat yapısının da güncellendiği belirtiliyor. Tüm bu değişikliklere ek olarak hidrolik sistemde yapılan optimizasyonların, aracın genel performansına doğrudan katkı sağlaması bekleniyor.<br><br>Sezonun geri kalan bölümünde rekabet gücünü artırmayı hedefleyen Ferrari, bu kapsamlı paketle birlikte özellikle rakipleriyle arasındaki farkı kapatmayı amaçlıyor.",
+                "img": "Resimler/Formula 1 Haberler/Ferrari Test.png"
             }
         ],
         "pilots": [
