@@ -88,6 +88,14 @@ const APP_DATA = {
                 "date": "2026-04-21 14:00",
                 "content": "Formula 1’de sezonun kritik dönemine girilirken, Ferrari cephesinden dikkat çekici bir hamle geliyor. İtalyan ekip, aracını neredeyse baştan aşağı yenileyecek kapsamlı bir güncelleme paketi üzerinde çalışıyor.<br><br>Takımın gerçekleştireceği çekim gününde kullanılacak yeni parçalar da ortaya çıkmış durumda. Bu güncellemeler arasında Spec 2 taban, arka bölümde kapsamlı aerodinamik revizyonlar, arka kanat uç plakaları ve halo üzerine eklenen kanatçıklar yer alıyor. Bununla birlikte araçta ağırlık azaltmaya yönelik değişiklikler de dikkat çekiyor.<br><br>Ferrari’nin ön kanatta tamamen yeni bir tasarıma geçtiği, ayrıca “Macarena” olarak adlandırılan arka kanat yapısının da güncellendiği belirtiliyor. Tüm bu değişikliklere ek olarak hidrolik sistemde yapılan optimizasyonların, aracın genel performansına doğrudan katkı sağlaması bekleniyor.<br><br>Sezonun geri kalan bölümünde rekabet gücünü artırmayı hedefleyen Ferrari, bu kapsamlı paketle birlikte özellikle rakipleriyle arasındaki farkı kapatmayı amaçlıyor.",
                 "img": "Resimler/Formula 1 Haberler/Ferrari Test.png"
+            },
+            {
+                "id": 12,
+                "title": "MAX VERSTAPPEN ÇEKİM GÜNÜ İÇİN SİLVERSTONE’DA PİSTE ÇIKTI!",
+                "cat": "formula 1",
+                "date": "2026-04-22 20:45",
+                "content": "Formula 1’de yaklaşık bir aylık aranın ardından Max Verstappen ve Red Bull Racing, güncellenmiş Red Bull RB22 ile çekim günü kapsamında yeniden piste çıktı. Takımın gerçekleştirdiği bu özel sürüş, sezonun kritik bölümü öncesinde yapılan geliştirmelerin ilk kez sahada test edilmesi açısından büyük önem taşıyor.<br><br>Çekim gününde RB22 üzerinde denenen yeni parçaların özellikle şasi ve aerodinamik odaklı olduğu belirtiliyor. Red Bull cephesi, mevcut güç ünitesinin performansından genel anlamda memnun görünürken, gelişim çalışmalarını daha çok aracın denge, yere basma gücü ve genel sürüş karakteristiği üzerine yoğunlaştırmış durumda.<br><br>Motor tarafında bazı geliştirme alanları bulunsa da, takım içinde bu bölümün en büyük zayıflık olduğu yönünde bir görüş hakim değil. Bu nedenle teknik ekip, önceliği aerodinamik verimlilik ve şasi ayarlarına vererek pist üstünde daha istikrarlı ve hızlı bir paket oluşturmayı hedefliyor.<br><br>Verstappen’in gerçekleştirdiği bu sürüş, aynı zamanda yeni parçaların veri toplama sürecinin ilk adımı oldu. Elde edilen veriler doğrultusunda Red Bull’un önümüzdeki yarışlara daha rekabetçi bir araçla gelmesi bekleniyor.",
+                "img": "Resimler/Formula 1 Haberler/Max Verstappen Test.png"
             }
         ],
         "pilots": [
