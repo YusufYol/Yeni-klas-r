@@ -96,6 +96,14 @@ const APP_DATA = {
                 "date": "2026-04-22 20:45",
                 "content": "Formula 1’de yaklaşık bir aylık aranın ardından Max Verstappen ve Red Bull Racing, güncellenmiş Red Bull RB22 ile çekim günü kapsamında yeniden piste çıktı. Takımın gerçekleştirdiği bu özel sürüş, sezonun kritik bölümü öncesinde yapılan geliştirmelerin ilk kez sahada test edilmesi açısından büyük önem taşıyor.<br><br>Çekim gününde RB22 üzerinde denenen yeni parçaların özellikle şasi ve aerodinamik odaklı olduğu belirtiliyor. Red Bull cephesi, mevcut güç ünitesinin performansından genel anlamda memnun görünürken, gelişim çalışmalarını daha çok aracın denge, yere basma gücü ve genel sürüş karakteristiği üzerine yoğunlaştırmış durumda.<br><br>Motor tarafında bazı geliştirme alanları bulunsa da, takım içinde bu bölümün en büyük zayıflık olduğu yönünde bir görüş hakim değil. Bu nedenle teknik ekip, önceliği aerodinamik verimlilik ve şasi ayarlarına vererek pist üstünde daha istikrarlı ve hızlı bir paket oluşturmayı hedefliyor.<br><br>Verstappen’in gerçekleştirdiği bu sürüş, aynı zamanda yeni parçaların veri toplama sürecinin ilk adımı oldu. Elde edilen veriler doğrultusunda Red Bull’un önümüzdeki yarışlara daha rekabetçi bir araçla gelmesi bekleniyor.",
                 "img": "Resimler/Formula 1 Haberler/Max Verstappen Test.png"
+            },
+            {
+                "id": 13,
+                "title": "TÜRKİYE GRAND PRIX’İ GERİ DÖNÜYOR OLABİLİR: 7 YILLIK ANLAŞMA İDDİASI!",
+                "cat": "formula 1",
+                "date": "2026-04-23 00:55",
+                "content": "Türkiye, uzun bir aranın ardından yeniden Formula 1 takvimine dahil olmaya hazırlanıyor olabilir. Gelen son bilgilere göre, Türkiye Grand Prix’sinin geri dönüşü için önemli bir anlaşma sağlandı.<br><br>Sektör kaynaklarından biri olan Sekiz Silindir’in haberine göre, Formula 1 ile Türkiye arasında 7 yıllık bir anlaşma üzerinde uzlaşıya varıldı. İddialar doğruysa, bu anlaşma 2027 sezonundan itibaren yürürlüğe girecek ve Türkiye, uzun vadeli bir şekilde yeniden takvimde yer alacak.<br><br>Henüz resmi bir açıklama yapılmamış olsa da, duyurunun cuma günü gerçekleştirilmesi bekleniyor. Bu gelişme, özellikle İstanbul Park’ın yeniden Formula 1’e ev sahipliği yapma ihtimalini güçlendirirken, Türk motorsporları adına da büyük bir adım olarak değerlendiriliyor.<br><br>Bilindiği üzere Türkiye, son olarak pandemi döneminde geçici olarak takvime dahil edilmiş ve büyük ilgi görmüştü. Olası bu yeni anlaşma ise geçici dönüşlerin ötesine geçerek kalıcı bir yer edinilmesini sağlayabilir.<br><br>Resmi açıklamanın gelmesiyle birlikte sürecin tüm detaylarının netleşmesi bekleniyor.",
+                "img": "Resimler/Formula 1 Haberler/Türkiye.png"
             }
         ],
         "pilots": [
