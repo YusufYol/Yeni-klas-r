@@ -686,7 +686,7 @@ const CIRCUITS_DB = {
     "Miami": {
         "len": "5.412 km", "turns": "19", "drs": "3 Bölge", "record": "1:29.708 (Max Verstappen)",
         "opened": "2022", "firstWinner": "Max Verstappen (2022)",
-        "mostWinsPilot": "Max Verstappen (2 Galibiyet)", "mostWinsTeam": "Oracle Red Bull Racing - McLaren F1 Team(2 Galibiyet)",
+        "mostWinsPilot": "Max Verstappen (2 Galibiyet)", "mostWinsTeam": "Oracle Red Bull Racing - McLaren F1 Team (2 Galibiyet)",
         "description": "Hard Rock Stadyumu çevresindeki Miami International Autodrome, modern F1'in eğlence ve hızı birleştiren ikonik duraklarından biridir."
     },
     "Jeddah": {
