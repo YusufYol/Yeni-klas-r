@@ -104,14 +104,13 @@ const APP_DATA = {
                 "date": "2026-04-23 00:55",
                 "content": "Türkiye, uzun bir aranın ardından yeniden Formula 1 takvimine dahil olmaya hazırlanıyor olabilir. Gelen son bilgilere göre, Türkiye Grand Prix’sinin geri dönüşü için önemli bir anlaşma sağlandı.<br><br>Sektör kaynaklarından biri olan Sekiz Silindir’in haberine göre, Formula 1 ile Türkiye arasında 7 yıllık bir anlaşma üzerinde uzlaşıya varıldı. İddialar doğruysa, bu anlaşma 2027 sezonundan itibaren yürürlüğe girecek ve Türkiye, uzun vadeli bir şekilde yeniden takvimde yer alacak.<br><br>Henüz resmi bir açıklama yapılmamış olsa da, duyurunun cuma günü gerçekleştirilmesi bekleniyor. Bu gelişme, özellikle İstanbul Park’ın yeniden Formula 1’e ev sahipliği yapma ihtimalini güçlendirirken, Türk motorsporları adına da büyük bir adım olarak değerlendiriliyor.<br><br>Bilindiği üzere Türkiye, son olarak pandemi döneminde geçici olarak takvime dahil edilmiş ve büyük ilgi görmüştü. Olası bu yeni anlaşma ise geçici dönüşlerin ötesine geçerek kalıcı bir yer edinilmesini sağlayabilir.<br><br>Resmi açıklamanın gelmesiyle birlikte sürecin tüm detaylarının netleşmesi bekleniyor.",
                 "img": "Resimler/Formula 1 Haberler/Türkiye.png"
-            }
+            },
             {
                 "id": 14,
                 "title": "TÜRKİYE GRAND PRIX TEKRARDAN TÜRKİYE'DE: RESMİ AÇIKLAMA GELİYOR!",
                 "cat": "formula 1",
                 "date": "2026-04-24 13:39",
-                "content": "Formula 1, uzun bir aranın ardından yeniden Türkiye’ye dönüyor. Gün içerisinde yapılması beklenen resmi açıklamayla birlikte Türkiye Grand Prix’sinin takvime dahil edilmesi kesinleşecek<br><br>Cumhurbaşkanı Recep Tayyip Erdoğan, saat 15.00'te Dolmabahçe'de düzenlenecek Türkiye GP tanıtım organizasyonuna katılacak. Organizasyonun detaylarının bu etkinlikte paylaşılması bekleniyor.<br><br>Tanıtım etkinliği kapsamında Formula 1 pilotu Yuki Tsunoda, İstanbul'da özel bir gösteri sürüşü gerçekleştirecek. Etkinlik Galataport ile Dolmabahçe arasında düzenlenecek ve start, Cumhurbaşkanı Recep Tayyip Erdoğan tarafından verilecek.<br><br>Türkiye'nin yeniden Formula 1 takvimine dahil olması, hem motorsporları hem de ülkenin uluslararası organizasyonlardaki yeri açısından büyük önem arz ediyor."
-",
+                "content": "Formula 1, uzun bir aranın ardından yeniden Türkiye’ye dönüyor. Gün içerisinde yapılması beklenen resmi açıklamayla birlikte Türkiye Grand Prix’sinin takvime dahil edilmesi kesinleşecek<br><br>Cumhurbaşkanı Recep Tayyip Erdoğan, saat 15.00'te Dolmabahçe'de düzenlenecek Türkiye GP tanıtım organizasyonuna katılacak. Organizasyonun detaylarının bu etkinlikte paylaşılması bekleniyor.<br><br>Tanıtım etkinliği kapsamında Formula 1 pilotu Yuki Tsunoda, İstanbul'da özel bir gösteri sürüşü gerçekleştirecek. Etkinlik Galataport ile Dolmabahçe arasında düzenlenecek ve start, Cumhurbaşkanı Recep Tayyip Erdoğan tarafından verilecek.<br><br>Türkiye'nin yeniden Formula 1 takvimine dahil olması, hem motorsporları hem de ülkenin uluslararası organizasyonlardaki yeri açısından büyük önem arz ediyor.",
                 "img": "Resimler/Formula 1 Haberler/Türkiye2.png"
             }
         ],
