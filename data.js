@@ -319,7 +319,7 @@ const APP_DATA = {
             },
             {
                 "id": 4,
-                "title": "MARC MARQUEZ, JEREZ'DE POLE POZİSYONU İLE ZİRVEYE DÖNDÜ!",
+                "title": "MARC MÁRQUEZ, JEREZ'DE POLE POZİSYONU İLE ZİRVEYE DÖNDÜ!",
                 "cat": "motogp",
                 "date": "2026-04-25 14:20",
                 "content": "MotoGP’de sezonun dikkat çeken anlarından biri Jerez’de yaşandı. Marc Márquez, 2025 Macaristan Grand Prix’nden bu yana ilk kez pole pozisyonunu elde ederek güçlü bir geri dönüşe imza attı. İspanyol pilot, bu sonuçla birlikte kariyerinin 75. pole pozisyonuna ulaşarak önemli bir kilometre taşını da geride bıraktı.<br><br>Sıralama turlarında gösterdiği performansla rakiplerine üstünlük kuran Márquez’in arkasında ikinci sırada Johann Zarco yer alırken, üçüncülüğü ise Fabio Di Giannantonio elde etti.<br><br>Öte yandan temsilcimiz Toprak Razgatlıoğlu, seansı 19. sırada tamamladı.",
