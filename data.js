@@ -316,6 +316,14 @@ const APP_DATA = {
                 "date": "2026-04-16 18:30",
                 "content": "Superbike’ta mücadele eden Nicolo Bulega, MotoGP hedefinden vazgeçmediğini bir kez daha net bir şekilde dile getirdi. Çocukluk hayali olan MotoGP için çalışmalarını sürdürdüklerini belirten pilot, geleceğinin ise büyük ölçüde MotoGP padokunda yaşanacak gelişmelere bağlı olduğunu ifade etti.<br><br>MotoGP’deki koltuk dengelerinin henüz tam anlamıyla netleşmediğini vurgulayan Bulega, bu sürecin kendi kariyer planlamasında belirleyici rol oynadığını söyledi. MotoGP’ye geçişin kolay olmadığını kabul eden isim, buna rağmen fırsatların tamamen ortadan kalkmadığını ve hâlâ değerlendirdiği birden fazla seçeneğin bulunduğunu belirtti.<br><br>Superbike’ta olmaktan memnun olduğunu da sözlerine ekleyen pilot, mevcut seride rekabet etmekten keyif aldığını ancak nihai hedefinin değişmediğini dile getirdi. MotoGP’ye geçiş için yoğun şekilde çalıştıklarını ifade eden sürücü, önümüzdeki dönemde şartların nasıl şekilleneceğinin belirleyici olacağını söyledi.<br><br>Öte yandan, planların istenildiği gibi ilerlememesi durumunda Superbike’ta kalmanın da güçlü bir seçenek olduğunu belirten Nicolo Bulega, kariyerine mevcut seride devam etme ihtimalini de göz ardı etmedi.<br><br>MotoGP’de önümüzdeki süreçte yaşanacak sürücü hareketliliği, Nicolo Bulega’nın geleceği açısından kritik rol oynayacak.",
                 "img": "Resimler/MotoGP Haberler/Nicolo Bulega.jpg"
+            },
+            {
+                "id": 4,
+                "title": "MARC MARQUEZ, JEREZ'DE POLE POZİSYONU İLE ZİRVEYE DÖNDÜ!",
+                "cat": "motogp",
+                "date": "2026-04-25 14:20",
+                "content": "MotoGP’de sezonun dikkat çeken anlarından biri Jerez’de yaşandı. Marc Márquez, 2025 Macaristan Grand Prix’nden bu yana ilk kez pole pozisyonunu elde ederek güçlü bir geri dönüşe imza attı. İspanyol pilot, bu sonuçla birlikte kariyerinin 75. pole pozisyonuna ulaşarak önemli bir kilometre taşını da geride bıraktı.<br><br>Sıralama turlarında gösterdiği performansla rakiplerine üstünlük kuran Márquez’in arkasında ikinci sırada Johann Zarco yer alırken, üçüncülüğü ise Fabio Di Giannantonio elde etti.<br><br>Öte yandan temsilcimiz Toprak Razgatlıoğlu, seansı 19. sırada tamamladı.",
+                "img": "Resimler/MotoGP Haberler/Marc pole.png"
             }
         ],
         "pilots": [
