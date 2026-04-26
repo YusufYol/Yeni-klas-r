@@ -141,7 +141,18 @@ function initAppEngine() {
         const view = parts[0] || 'home';
         const cat = parts[1] || 'f1';
         const round = parts[2] || null;
-        handleRoute(view, cat, false, round);
+
+        // Direkt link ile gelindiyse history stack oluştur
+        if (view !== 'home' && !window.history.state) {
+            if (isLocal) {
+                window.history.replaceState({ view: 'home', cat: null, round: null }, null, window.location.pathname + '#home');
+            } else {
+                window.history.replaceState({ view: 'home', cat: null, round: null }, "", window.APP_ROOT || '/');
+            }
+            handleRoute(view, cat, true, round);
+        } else {
+            handleRoute(view, cat, false, round);
+        }
 
         setupNavigation();
         setupAccordions();
