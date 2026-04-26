@@ -55,7 +55,7 @@ function initAppEngine() {
 
     // Global Event Logic
     function getGlobalNextEvent() {
-        const today = new Date(); // Dinamik güncel tarih
+        const now = new Date(); // Dinamik güncel tarih
         const allEvents = [];
 
         Object.keys(APP_DATA).forEach(catKey => {
@@ -72,9 +72,43 @@ function initAppEngine() {
             }
         });
 
-        // Filter for upcoming "Sıradaki" events and sort by date
-        const upcoming = allEvents.filter(e => e.status === "Sıradaki" && new Date(e.isoDate) >= today);
-        upcoming.sort((a, b) => new Date(a.isoDate) - new Date(b.isoDate));
+        // Etkinliklerin bitiş zamanlarını hesapla
+        allEvents.forEach(e => {
+            let raceHour = 23;
+            let raceMinute = 59;
+            
+            if (e.sessions && e.sessions.length > 0) {
+                // Ana yarışı bul
+                const raceSession = e.sessions.find(s => s.name.toLowerCase().includes('yarış') && !s.name.toLowerCase().includes('sprint') && !s.name.toLowerCase().includes('sıralama'));
+                const sessionToUse = raceSession || e.sessions[e.sessions.length - 1];
+                
+                if (sessionToUse && sessionToUse.time) {
+                    const timeParts = sessionToUse.time.split(':');
+                    if (timeParts.length >= 2) {
+                        raceHour = parseInt(timeParts[0], 10);
+                        raceMinute = parseInt(timeParts[1], 10);
+                    }
+                }
+            }
+            
+            const parts = e.isoDate.split('-');
+            if (parts.length === 3) {
+                const year = parseInt(parts[0], 10);
+                const month = parseInt(parts[1], 10) - 1;
+                const day = parseInt(parts[2], 10);
+                
+                e.endDateTime = new Date(year, month, day, raceHour, raceMinute, 0);
+                // Yarış saatinden 3 saat sonrasına kadar ekranda kalması için 3 saat ekle
+                e.endDateTime.setHours(e.endDateTime.getHours() + 3);
+            } else {
+                e.endDateTime = new Date(e.isoDate); 
+                e.endDateTime.setHours(23, 59, 59);
+            }
+        });
+
+        // Sadece "Sıradaki" ve bitiş zamanı şu andan büyük olanları filtrele, sonra tarihe göre sırala
+        const upcoming = allEvents.filter(e => e.status === "Sıradaki" && e.endDateTime > now);
+        upcoming.sort((a, b) => a.endDateTime - b.endDateTime);
 
         return upcoming[0] || null;
     }
