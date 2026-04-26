@@ -581,6 +581,14 @@ const APP_DATA = {
                 "date": "2026-04-20 03:00",
                 "content": "IndyCar’da sezonun en prestijli duraklarından biri olan Long Beach Grand Prix’sinde zafer, şampiyonluk mücadelesinin en güçlü isimlerinden Alex Palou’nun oldu. Hafta sonu boyunca sergilediği istikrarlı performansı yarışa da taşıyan Palou, strateji ve tempo anlamında rakiplerine üstünlük kurarak damalı bayrağı ilk sırada geçti.<br><br>Bu sonuçla birlikte İspanyol pilot, kariyerinde ilk kez Long Beach’te zafere ulaşırken aynı zamanda IndyCar şampiyona liderliğini de yeniden ele geçirdi. Sezonun kritik virajlarından biri olarak görülen bu yarış, şampiyona dengelerini bir kez daha değiştirdi.<br><br>Yarışı ikinci sırada Felix Rosenqvist tamamlarken, tecrübeli isim Scott Dixon ise podyumun son basamağında yer aldı. Özellikle Dixon’ın yarış içerisindeki yükselişi dikkat çekerken, Rosenqvist ise güçlü performansını podyumla taçlandırdı.<br><br>IndyCar’da heyecan tüm hızıyla devam ederken, Alex Palou’nun bu galibiyeti sezonun geri kalanı için önemli bir mesaj niteliği taşıyor. Şampiyonluk mücadelesinde ibre bir kez daha Palou’dan yana dönmüş durumda.",
                 "img": "Resimler/Haberler/Alex.png"
+            },
+            {
+                "id": 11,
+                "title": "SÉBASTIEN OGIER, KANARYA ADALARI'NDA RALLİSİNDE ZAFERE ULAŞTI!",
+                "cat": "haberler",
+                "date": "2026-04-26 18:15",
+                "content": "Sébastien Ogier, Kanarya Adaları Rallisi’nde etkileyici bir performans sergileyerek zafere ulaştı. Tecrübeli Fransız pilot, hafta sonu boyunca gösterdiği istikrarlı sürüşle rakiplerine üstünlük kurmayı başardı ve yarışı ilk sırada tamamladı.<br><br>Toyota Gazoo Racing açısından ise yarış adeta gövde gösterisine sahne oldu. Takım, podyumun tamamını alarak büyük bir başarıya imza attı. Elfyn Evans ikinci sırada finiş görürken, genç pilot Sami Pajari ise üçüncü olarak kariyeri adına önemli bir sonuç elde etti.<br><br>Bu sonuçla birlikte Toyota, markalar klasmanındaki gücünü bir kez daha ortaya koyarken, Ogier de şampiyona mücadelesindeki iddiasını sürdürdü.",
+                "img": "Resimler/Haberler/Ogier.png"
             }
         ]
     },
