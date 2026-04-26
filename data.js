@@ -335,7 +335,7 @@ const APP_DATA = {
             },
             {
                 "id": 5,
-                "title": "JEREZ’DE GALİYET ALEX MARQUEZ’E GİDİYOR!: MARQUEZ’DEN KORKUNÇ KAZA!",
+                "title": "JEREZ’DE GALİYET ÁLEX MÁRQUEZ’E GİDİYOR! : MARC MÁRQUEZ’DEN KORKUNÇ KAZA!",
                 "cat": "motogp",
                 "date": "2026-04-26 18:20",
                 "content": "Álex Márquez, İspanya’da damalı bayrağı ilk sırada görerek kariyerinin en dikkat çekici zaferlerinden birine imza attı. Yarışın kritik anında ağabeyi Marc Márquez’i geride bırakan Álex, sonrasında tempoyu tamamen kontrol altına alarak farkı açtı ve yarışı domine ederek kazandı.<br><br>Yarışın kırılma anlarından biri ise Marc Márquez’in yaşadığı kazaydı. Yüksek hızlı bir virajda kontrolünü kaybeden deneyimli pilot, yere düşerek yarış dışı kaldı ve mücadeleye erken veda etti.<br><br>Podyumda Álex Márquez’in ardından Marco Bezzecchi ikinci sırayı alırken, Fabio Di Giannantonio üçüncü olarak yarışı tamamladı.<br><br>Temsilcimiz Toprak Razgatlıoğlu ise zorlu geçen yarışta 19. sırada finiş görerek hafta sonunu tamamladı.",
