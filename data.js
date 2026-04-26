@@ -112,6 +112,14 @@ const APP_DATA = {
                 "date": "2026-04-24 13:39",
                 "content": "Formula 1, uzun bir aranın ardından yeniden Türkiye’ye dönüyor. Gün içerisinde yapılması beklenen resmi açıklamayla birlikte Türkiye Grand Prix’sinin takvime dahil edilmesi kesinleşecek<br><br>Cumhurbaşkanı Recep Tayyip Erdoğan, saat 15.00'te Dolmabahçe'de düzenlenecek Türkiye GP tanıtım organizasyonuna katılacak. Organizasyonun detaylarının bu etkinlikte paylaşılması bekleniyor.<br><br>Tanıtım etkinliği kapsamında Formula 1 pilotu Yuki Tsunoda, İstanbul'da özel bir gösteri sürüşü gerçekleştirecek. Etkinlik Galataport ile Dolmabahçe arasında düzenlenecek ve start, Cumhurbaşkanı Recep Tayyip Erdoğan tarafından verilecek.<br><br>Türkiye'nin yeniden Formula 1 takvimine dahil olması, hem motorsporları hem de ülkenin uluslararası organizasyonlardaki yeri açısından büyük önem arz ediyor.",
                 "img": "Resimler/Formula 1 Haberler/Türkiye2.png"
+            },
+            {
+                "id": 15,
+                "title": "HORNER’DAN MARQUEZ-VERSTAPPEN BENZETMESİ!",
+                "cat": "formula 1",
+                "date": "2026-04-26 18:25",
+                "content": "Christian Horner, MotoGP dünyasının en başarılı isimlerinden biri olan Marc Márquez hakkında dikkat çeken bir açıklamada bulundu.<br><br>Red Bull Racing takım patronu, Márquez’e duyduğu hayranlığı açıkça dile getirirken, İspanyol pilotu Formula 1’in yıldızı Max Verstappen ile kıyasladı. Horner, “Marc Márquez’in büyük bir hayranıyım, o MotoGP’nin Verstappen’i” ifadelerini kullandı.<br><br>Bu benzetme, Márquez’in agresif sürüş tarzı, yarış içindeki kararlılığı ve zorlu anlarda gösterdiği üstün performansla öne çıkmasına gönderme olarak yorumlandı. Tıpkı Verstappen gibi Márquez de pist üzerindeki dominant yapısı ve kazanma hırsıyla kendi disiplininde fark yaratan isimler arasında gösteriliyor.<br><br>Horner’ın bu sözleri, iki farklı motor sporları dalının zirvesindeki isimler arasında yapılan dikkat çekici bir karşılaştırma olarak öne çıktı.",
+                "img": "Resimler/Formula 1 Haberler/Christian Horner.png"
             }
         ],
         "pilots": [
