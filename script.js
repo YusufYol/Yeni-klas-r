@@ -178,12 +178,31 @@ function initAppEngine() {
 
         // Direkt link ile gelindiyse history stack oluştur
         if (view !== 'home' && !window.history.state) {
-            if (isLocal) {
-                window.history.replaceState({ view: 'home', cat: null, round: null }, null, window.location.pathname + '#home');
-            } else {
-                window.history.replaceState({ view: 'home', cat: null, round: null }, "", window.APP_ROOT || '/');
-            }
-            handleRoute(view, cat, true, round);
+            window.isDirectLink = true;
+            window.currentView = view;
+            window.currentCat = cat;
+            window.currentRound = round;
+            window.currentPathStr = path;
+            
+            const injectHistoryOnce = () => {
+                if (!window.isDirectLink) return;
+                window.isDirectLink = false;
+                
+                if (isLocal) {
+                    window.history.replaceState({ view: 'home', cat: null, round: null }, null, window.location.pathname + '#home');
+                    window.history.pushState({ view: window.currentView, cat: window.currentCat, round: window.currentRound }, null, window.location.pathname + '#' + window.currentPathStr);
+                } else {
+                    const currentUrl = window.location.pathname + window.location.search + window.location.hash;
+                    window.history.replaceState({ view: 'home', cat: null, round: null }, "", window.APP_ROOT || '/');
+                    window.history.pushState({ view: window.currentView, cat: window.currentCat, round: window.currentRound }, "", currentUrl);
+                }
+            };
+
+            document.addEventListener('touchstart', injectHistoryOnce, { once: true, passive: true });
+            document.addEventListener('scroll', injectHistoryOnce, { once: true, passive: true });
+            document.addEventListener('mousedown', injectHistoryOnce, { once: true, passive: true });
+
+            handleRoute(view, cat, false, round);
         } else {
             handleRoute(view, cat, false, round);
         }
@@ -393,7 +412,7 @@ function initAppEngine() {
                 </div>
 
                 <div style="margin-top:40px; display:flex; justify-content:center">
-                    <button class="back-btn" onclick="window.history.back()">← GERİ DÖN</button>
+                    <button class="back-btn" onclick="window.goBack()">← GERİ DÖN</button>
                 </div>
             </div>
         `;
@@ -599,7 +618,7 @@ function initAppEngine() {
                 <h2 class="section-title">${cat.toUpperCase()} PUAN DURUMU</h2>
                 <p style="padding:20px; text-align:center; opacity:0.7;">Bu kategori için puan durumu bilgisi bulunmamaktadır.</p>
                 <div style="margin-top:20px; display:flex; justify-content:center">
-                    <button class="back-btn" onclick="window.history.back()">← GERİ DÖN</button>
+                    <button class="back-btn" onclick="window.goBack()">← GERİ DÖN</button>
                 </div>
             `;
             return;
@@ -625,7 +644,7 @@ function initAppEngine() {
                 </table>
             </div>` : ''}
             <div style="margin-top:40px; display:flex; justify-content:center">
-                <button class="back-btn" onclick="window.history.back()">← GERİ DÖN</button>
+                <button class="back-btn" onclick="window.goBack()">← GERİ DÖN</button>
             </div>
         `;
     }
@@ -688,6 +707,15 @@ function initAppEngine() {
     window.handleRoute = handleRoute;
     window.showPilotDetail = showPilotDetail;
     window.showTeamDetail = showTeamDetail;
+    
+    window.goBack = function() {
+        if (window.isDirectLink) {
+            window.isDirectLink = false;
+            handleRoute('home', null, true);
+        } else {
+            window.history.back();
+        }
+    };
 
     function renderResults(cat, round = null) {
         let results = [];
@@ -710,7 +738,7 @@ function initAppEngine() {
         const circuitInfo = gpInfo ? `${gpInfo.track} Pisti | ${gpInfo.date}` : '';
 
         mainContent.innerHTML = `
-            <button class="back-btn" onclick="window.history.back()">← GERİ DÖN</button>
+            <button class="back-btn" onclick="window.goBack()">← GERİ DÖN</button>
             <h2 class="section-title">${title}</h2>
             <div class="results-circuit-info">${circuitInfo}</div>
             
@@ -760,7 +788,7 @@ function initAppEngine() {
             return;
         }
         mainContent.innerHTML = `
-            <button class="back-btn" onclick="window.history.back()">← GERİ DÖN</button>
+            <button class="back-btn" onclick="window.goBack()">← GERİ DÖN</button>
             <div class="profile-header">
                 <img src="${window.APP_ROOT}${pilot.img || ''}" class="profile-img">
                 <div>
@@ -796,7 +824,7 @@ function initAppEngine() {
         }
 
         mainContent.innerHTML = `
-            <button class="back-btn" onclick="window.history.back()">← GERİ DÖN</button>
+            <button class="back-btn" onclick="window.goBack()">← GERİ DÖN</button>
             <div class="profile-header">
                 <img src="${window.APP_ROOT}${team.img || ''}" class="profile-img team-logo">
                 <div>
@@ -834,7 +862,7 @@ function initAppEngine() {
 
         mainContent.innerHTML = `
             <div class="news-detail-container">
-                <button class="back-btn" onclick="window.history.back()">← GERİ DÖN</button>
+                <button class="back-btn" onclick="window.goBack()">← GERİ DÖN</button>
                 <img src="${window.APP_ROOT}${news.img}" alt="news cover" class="news-detail-img">
                 <div class="news-detail-body">
                     <span class="news-detail-cat">${news.cat}</span>
