@@ -324,6 +324,14 @@ const APP_DATA = {
                 "date": "2026-04-25 14:20",
                 "content": "MotoGP’de sezonun dikkat çeken anlarından biri Jerez’de yaşandı. Marc Márquez, 2025 Macaristan Grand Prix’nden bu yana ilk kez pole pozisyonunu elde ederek güçlü bir geri dönüşe imza attı. İspanyol pilot, bu sonuçla birlikte kariyerinin 75. pole pozisyonuna ulaşarak önemli bir kilometre taşını da geride bıraktı.<br><br>Sıralama turlarında gösterdiği performansla rakiplerine üstünlük kuran Márquez’in arkasında ikinci sırada Johann Zarco yer alırken, üçüncülüğü ise Fabio Di Giannantonio elde etti.<br><br>Öte yandan temsilcimiz Toprak Razgatlıoğlu, seansı 19. sırada tamamladı.",
                 "img": "Resimler/MotoGP Haberler/Marc pole.png"
+            },
+            {
+                "id": 5,
+                "title": "JEREZ’DE GALİYET ALEX MARQUEZ’E GİDİYOR!: MARQUEZ’DEN KORKUNÇ KAZA!",
+                "cat": "motogp",
+                "date": "2026-04-26 18:20",
+                "content": "Álex Márquez, İspanya’da damalı bayrağı ilk sırada görerek kariyerinin en dikkat çekici zaferlerinden birine imza attı. Yarışın kritik anında ağabeyi Marc Márquez’i geride bırakan Álex, sonrasında tempoyu tamamen kontrol altına alarak farkı açtı ve yarışı domine ederek kazandı.<br><br>Yarışın kırılma anlarından biri ise Marc Márquez’in yaşadığı kazaydı. Yüksek hızlı bir virajda kontrolünü kaybeden deneyimli pilot, yere düşerek yarış dışı kaldı ve mücadeleye erken veda etti.<br><br>Podyumda Álex Márquez’in ardından Marco Bezzecchi ikinci sırayı alırken, Fabio Di Giannantonio üçüncü olarak yarışı tamamladı.<br><br>Temsilcimiz Toprak Razgatlıoğlu ise zorlu geçen yarışta 19. sırada finiş görerek hafta sonunu tamamladı.",
+                "img": "Resimler/MotoGP Haberler/Alex Marquez.png"
             }
         ],
         "pilots": [
