@@ -600,7 +600,7 @@ const APP_DATA = {
             },
             {
                 "id": 11,
-                "title": "SÉBASTIEN OGIER, KANARYA ADALARI'NDA RALLİSİNDE ZAFERE ULAŞTI!",
+                "title": "SÉBASTIEN OGIER, KANARYA ADALARI RALLİSİNDE ZAFERE ULAŞTI!",
                 "cat": "haberler",
                 "date": "2026-04-26 18:15",
                 "content": "Sébastien Ogier, Kanarya Adaları Rallisi’nde etkileyici bir performans sergileyerek zafere ulaştı. Tecrübeli Fransız pilot, hafta sonu boyunca gösterdiği istikrarlı sürüşle rakiplerine üstünlük kurmayı başardı ve yarışı ilk sırada tamamladı.<br><br>Toyota Gazoo Racing açısından ise yarış adeta gövde gösterisine sahne oldu. Takım, podyumun tamamını alarak büyük bir başarıya imza attı. Elfyn Evans ikinci sırada finiş görürken, genç pilot Sami Pajari ise üçüncü olarak kariyeri adına önemli bir sonuç elde etti.<br><br>Bu sonuçla birlikte Toyota, markalar klasmanındaki gücünü bir kez daha ortaya koyarken, Ogier de şampiyona mücadelesindeki iddiasını sürdürdü.",
