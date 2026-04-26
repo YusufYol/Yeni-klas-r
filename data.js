@@ -115,7 +115,7 @@ const APP_DATA = {
             },
             {
                 "id": 15,
-                "title": "HORNER’DAN MARQUEZ-VERSTAPPEN BENZETMESİ!",
+                "title": "HORNER’DAN MARC MÁRQUEZ-MAX VERSTAPPEN BENZETMESİ!",
                 "cat": "formula 1",
                 "date": "2026-04-26 18:25",
                 "content": "Christian Horner, MotoGP dünyasının en başarılı isimlerinden biri olan Marc Márquez hakkında dikkat çeken bir açıklamada bulundu.<br><br>Red Bull Racing takım patronu, Márquez’e duyduğu hayranlığı açıkça dile getirirken, İspanyol pilotu Formula 1’in yıldızı Max Verstappen ile kıyasladı. Horner, “Marc Márquez’in büyük bir hayranıyım, o MotoGP’nin Verstappen’i” ifadelerini kullandı.<br><br>Bu benzetme, Márquez’in agresif sürüş tarzı, yarış içindeki kararlılığı ve zorlu anlarda gösterdiği üstün performansla öne çıkmasına gönderme olarak yorumlandı. Tıpkı Verstappen gibi Márquez de pist üzerindeki dominant yapısı ve kazanma hırsıyla kendi disiplininde fark yaratan isimler arasında gösteriliyor.<br><br>Horner’ın bu sözleri, iki farklı motor sporları dalının zirvesindeki isimler arasında yapılan dikkat çekici bir karşılaştırma olarak öne çıktı.",
