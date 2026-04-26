@@ -780,7 +780,7 @@ const CIRCUITS_DB = {
     },
 };
 
-const TRACK_STATS = CIRCUITS_DB["Jerez – Ángel Nieto"];
+const TRACK_STATS = CIRCUITS_DB["Miami"];
 
 // Dinamik veriler script.js tarafından güncellenecektir.
 let CURRENT_WEEKEND_DATA = null;
