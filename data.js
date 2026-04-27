@@ -632,6 +632,14 @@ const APP_DATA = {
                 "date": "2026-04-26 18:15",
                 "content": "Sébastien Ogier, Kanarya Adaları Rallisi’nde etkileyici bir performans sergileyerek zafere ulaştı. Tecrübeli Fransız pilot, hafta sonu boyunca gösterdiği istikrarlı sürüşle rakiplerine üstünlük kurmayı başardı ve yarışı ilk sırada tamamladı.<br><br>Toyota Gazoo Racing açısından ise yarış adeta gövde gösterisine sahne oldu. Takım, podyumun tamamını alarak büyük bir başarıya imza attı. Elfyn Evans ikinci sırada finiş görürken, genç pilot Sami Pajari ise üçüncü olarak kariyeri adına önemli bir sonuç elde etti.<br><br>Bu sonuçla birlikte Toyota, markalar klasmanındaki gücünü bir kez daha ortaya koyarken, Ogier de şampiyona mücadelesindeki iddiasını sürdürdü.",
                 "img": "Resimler/Haberler/Ogier.png"
+            },
+            {
+                "id": 12,
+                "title": "AYHANCAN GÜVEN'İN NÜRBURGRİNG 24'TEKİ TAKIM ARKADAŞLARI BELLİ OLDU!",
+                "cat": "haberler",
+                "date": "2026-04-27 21:10",
+                "content": "Dayanıklılık yarışlarının en zorlu sınavlarından biri olan Nürburgring 24 Hours, bu yıl da üst düzey rekabete sahne olmaya hazırlanırken, Türk motorsporları severlerin gözü pistte olacak. Motorsporları dünyasında “Yeşil Cehennem” olarak anılan Nordschleife’de, Porsche fabrika pilotu Ayhancan Güven bir kez daha start alacak.<br><br>Manthey Racing adına yarışacak olan Ayhancan, 911 kapı numaralı Porsche 911 GT3 R direksiyonunda piste çıkacak. Temsilcimize bu zorlu mücadelede, dayanıklılık yarışlarının tecrübeli isimlerinden Kevin Estre ve Thomas Preining eşlik edecek.<br><br>Öte yandan bu sezon birçok GT yarışında görmeye alıştığımız dört kez Formula 1 dünya şampiyonu Max Verstappen de Nürburgring 24 Saat’te piste çıkmaya hazırlanıyor. Hollandalı pilotun da galibiyet mücadelesinde yer alması bekleniyor.<br><br>Farklı sınıflardan çok sayıda aracın aynı anda mücadele ettiği yarış, yoğun trafik, değişken hava koşulları ve gece sürüşü gibi zorluklarıyla öne çıkıyor. Nürburgring 24 Saat, bu yıl 14-17 Mayıs tarihleri arasında düzenlenecek.",
+                "img": "Resimler/Haberler/Ayhancan Güven.png"
             }
         ]
     },
