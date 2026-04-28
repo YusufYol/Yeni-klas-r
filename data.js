@@ -123,12 +123,20 @@ const APP_DATA = {
             },
             {
                 "id": 16,
-                "title": "IŞIKLAR ARANIN ARDINDAN TEKRAR YEŞİLE DÖNÜYOR. FORMULA 1 MIAMI GP'YLE GERİ DÖNÜYOR!",
+                "title": "TÜRKİYE GP, 19 EYLÜL 2027’DE GERÇEKLEŞTİRİLEBİLİR!",
                 "cat": "formula 1",
                 "date": "2026-04-28 21:15",
+                "content": "Türk motor sporları severlerinin beklediği haber geçtiğimiz cuma günü gelmişti; 2021 sezonundaki yarışın ardından sessizliğe gömülen İstanbul Park'ta motor seslerini 2027 sezonunda duyabileceğimiz açıklanmıştı. Bu geri dönüş geçici bir misafirlik olmayacak — 2031 sezonuna kadar İstanbul Park, Formula 1'e ev sahipliği yapacak.<br><br>Resmi kararın ardından izleyicilerin aklında bir soru daha canlandı: 'Yarış ne zaman düzenlenecek ? Resmi takvim henüz açıklanmadı; ancak PlanetF1'e göre lojistik açıdan Türkiye GP'sinin Azerbaycan GP'sinden hemen önce düzenlenmesi en mantıklı seçenek. Bu da bizi Eylül ayının ikinci haftasına, muhtemelen 19 Eylül 2027'ye götürüyor.<br><br>TOSFED Başkanı Eren Üçlertoprağı'nın yaptığı açıklamaları da göz önünde bulundurarak Formula 1 yönetiminin resmi açıklamasını beklemek en doğru yol olacak. Şimdilik biraz daha bekleyeceğiz ama geri sayım başladı.",
+                "img": "Resimler/Formula 1 Haberler/İstanbul Park.png"
+            },
+            {
+                "id": 17,
+                "title": "IŞIKLAR ARANIN ARDINDAN TEKRAR YEŞİLE DÖNÜYOR. FORMULA 1 MIAMI GP'YLE GERİ DÖNÜYOR!",
+                "cat": "formula 1",
+                "date": "2026-04-28 21:20",
                 "content": "Formula 1 2026 sezonuna kaldığı yerden devam ediyor. Bahreyn ve Suudi Arabistan Gp'lerinin iptalinden dolayı oluşan 1 aylık aranın ardından bu hafta Miami GP ile pistlere geri dönecek.<br><br>Formula 1 sezona Avustralya GP ile başladı. Yeni kurallarla birlikte takımların ve pilotların bu yeniliklere ne kadar uyum sağlayabildiklerini gördük. Aston Martin, Cadillac ve Redbull için işler çok iyi gitmese de Max Verstappen 20. sıradan başladığı yarışı 6. olarak bitirdi. McLaren, Ferrari ve Mercedes yine mücadelenin içindeydi. Russell ve Leclerc arasında nefes kesen anlar yaşandı. Avustralya’dan birincilikle ayrılan ise Mercedes ile George Russell olmuştu.<br><br>Çin GP'ye Ferrari “Macarena” kanadıyla döndü. Aston Martin için işler Çin GP'de de kötü gitti. Verstappen bu araçların kullanılamıyor olduğunu ve mutsuz olduğunu söyleyerek yine çok konuşuldu. Hamilton da Ferrari kariyerindeki ilk podyumuna çıktı. Çin GP'nin parlayanı ise çaylak Kimi Antonelli oldu. Pole pozisyonunu kazanan Kimi Antonelli en genç pole pozisyonu alan pilot olarak adını tarihe yazdırdı. Bu rekor daha önce Sebastian Vettel'e aitti. Çin Gp'de Mercedes Kimi Antonelli'yle birinci oldu.<br><br>Japonya GP’de McLaren yarışa daha fazla dahil oldu. Antrenman seanslarında ki başarısından sonra podyuma Oscar Piastri ile geri döndü. Leclerc'in iki aracı geride bıraktığı an nefes kesti. Max Verstappen Formula 1'den keyif almadığını sürekli söyleyerek emeklilik iddialarının tekrar ortaya çıkmasına sebep oldu. Aston Martin ise araçta hala sorunlar olduğunu gösterdi. Japonya GP’nin galibi ise yine genç pilot Kimi Antonelli oldu.<br><br>Üç yarışın sonunda pilotlar şampiyonasında Kimi Antonelli 72 puanla lider. Antonelli’nin hemen arkasında ise ondan 9 puan geride olan takım arkadaşı George Russell var. Onları da Charles Leclerc ve Lewis Hamilton takip ediyor.<br><br>Formula 1'de bu hafta Miami GP’yle yarışlara hız kesmeden devam edilecek. 1 Mayıs Cuma günü saat 19:00’da 1. antrenman seansı ve ardından 23:30'da sprint sıralama seansı yapılacak. 2 Mayıs Cumartesi sprint seansı 19:00’da ve sıralama turları 23:00’da yapılırken yarış ise 3 Mayıs Pazar günü 23:00’da başlayacak.",
                 "img": "Resimler/Formula 1 Haberler/Miami.png"
-            }
+            },
         ],
         "pilots": [
             { "id": "verstappen", "name": "Max Verstappen #3", "team": "Oracle Red Bull Racing", "titles": 4, "img": "Resimler/Formula 1 Pilot ve Takımlar/Max Verstappen.png" },
