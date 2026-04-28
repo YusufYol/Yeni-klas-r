@@ -340,6 +340,14 @@ const APP_DATA = {
                 "date": "2026-04-26 18:20",
                 "content": "Álex Márquez, İspanya’da damalı bayrağı ilk sırada görerek kariyerinin en dikkat çekici zaferlerinden birine imza attı. Yarışın kritik anında ağabeyi Marc Márquez’i geride bırakan Álex, sonrasında tempoyu tamamen kontrol altına alarak farkı açtı ve yarışı domine ederek kazandı.<br><br>Yarışın kırılma anlarından biri ise Marc Márquez’in yaşadığı kazaydı. Yüksek hızlı bir virajda kontrolünü kaybeden deneyimli pilot, yere düşerek yarış dışı kaldı ve mücadeleye erken veda etti.<br><br>Podyumda Álex Márquez’in ardından Marco Bezzecchi ikinci sırayı alırken, Fabio Di Giannantonio üçüncü olarak yarışı tamamladı.<br><br>Temsilcimiz Toprak Razgatlıoğlu ise zorlu geçen yarışta 19. sırada finiş görerek hafta sonunu tamamladı.",
                 "img": "Resimler/MotoGP Haberler/Alex Marquez.png"
+            },
+            {
+                "id": 6,
+                "title": "YAMAHA, FABIO QUARTARARO'NUN MEDYA ÖNÜNDE KONUŞMASINI KISITLAMAYA HAZIRLANIYOR!",
+                "cat": "motogp",
+                "date": "2026-04-28 21:10",
+                "content": "MotoGP dünyası, Yamaha ve yıldız pilotu Fabio Quartararo arasındaki gerilimle çalkalanıyor. Bir süredir Yamaha M1’in performans yetersizliğini her fırsatta sert bir dille eleştiren Fransız pilotun, artık Japon devinin sabrını taşırdığı iddia ediliyor. Takım yönetiminin, markanın imajını korumak adına Quartararo’nun medya önündeki açıklamalarına yönelik bir kısıtlama getirmeye hazırlandığı konuşuluyor. 'El Diablo'nun bitmek bilmeyen teknik şikayetlerinin ve agresif tavırlarının, takım içindeki motivasyonu olumsuz etkilediği ve kurumsal iletişim stratejisine zarar verdiği düşünülüyor.<br><br>Öte yandan, bu krizin yankıları sadece Yamaha garajıyla sınırlı kalmıyor. Gelecek sezon Honda koltuğuna oturması beklenen Quartararo’nun mevcut tutumu, iddialara göre Honda cephesinde de ciddi bir huzursuzluk yaratmış durumda. Japon mühendislik kültürünün 'sorunları kapalı kapılar ardında çözme' geleneğine aykırı hareket eden Quartararo’nun, henüz transfer gerçekleşmeden sergilediği bu açık sözlü tavır, Honda yönetiminde 'kontrol edilmesi zor bir pilot' imajı oluşturmaya başladı. Hem Yamaha ile iplerin kopma noktasına gelmesi hem de olası yeni durağı Honda’daki bu ön yargılar, şampiyon pilotun kariyerinde zorlu bir viraja girdiğinin sinyallerini veriyor.",
+                "img": "Resimler/MotoGP Haberler/Fabio.png"
             }
         ],
         "pilots": [
