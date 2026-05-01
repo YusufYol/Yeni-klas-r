@@ -144,6 +144,14 @@ const APP_DATA = {
                 "date": "2026-05-01 13:40",
                 "content": "Red Bull Racing ile Adidas arasında uzun süredir konuşulan sponsorluk anlaşmasının kısa süre içerisinde resmi olarak duyurulması bekleniyor. Gelen bilgilere göre Alman spor giyim devi, 2027 sezonundan itibaren takımın resmi giyim sponsoru olacak.<br><br>Anlaşmanın finansal boyutunun ise oldukça dikkat çekici olduğu ifade ediliyor. Yıllık en az 25 milyon dolar değerinde olduğu belirtilen bu iş birliği, Adidas’ın Formula 1’deki diğer büyük anlaşmalarıyla aynı seviyede konumlanıyor. Marka daha önce Mercedes ve Audi ile de benzer ölçekli anlaşmalara imza atmıştı.<br><br>Red Bull Racing cephesinde bu anlaşmanın, takımın ticari gücünü ve küresel marka değerini daha da yukarı taşıması bekleniyor. Aynı zamanda Formula 1’de artan ticari rekabetin bir göstergesi olarak da değerlendirilen bu hamle, sporun büyüyen ekonomik hacmini bir kez daha gözler önüne seriyor.<br><br>Resmi açıklamanın önümüzdeki günlerde yapılması beklenirken, anlaşmanın detaylarının da duyuruyla birlikte netleşmesi bekleniyor.",
                 "img": "Resimler/Formula 1 Haberler/Red Bull Racing.png"
+            },
+            {
+                "id": 19,
+                "title": "ASTON MARTİN, SUZUKA'DAKİ GÜNCELLEMEYİ MIAMI'YE GETİRMİYOR!",
+                "cat": "formula 1",
+                "date": "2026-05-01 13:50",
+                "content": "Aston Martin, Suzuka’da titreşim sorunlarını azaltmak amacıyla tanıttığı direksiyon kolonu güncellemesini Miami’ye getirmeme kararı aldı.<br><br>Japonya’da kullanılan bu parçanın geçici bir çözüm olduğu değerlendirilirken, elde edilen veriler doğrultusunda Miami’de ihtiyaç duyulmayacağı düşünülüyor. Takım, farklı bir kurulumla piste çıkarak performansını korumayı hedefliyor.<br><br>Öte yandan, Honda tarafından sağlanan çözümlerin yeterli olacağına güveniliyor. Bu nedenle direksiyon kolonu güncellemesinin Miami’de kullanılmasına gerek duyulmadığı ifade ediliyor.<br><br>Bu hamle, Aston Martin’in sorunlara daha kalıcı çözümler bulma yaklaşımını ortaya koyarken, Miami’deki performansları merakla bekleniyor.",
+                "img": "Resimler/Formula 1 Haberler/Aston.png"
             }
         ],
         "pilots": [
