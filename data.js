@@ -152,6 +152,14 @@ const APP_DATA = {
                 "date": "2026-05-01 13:50",
                 "content": "Aston Martin, Suzuka’da titreşim sorunlarını azaltmak amacıyla tanıttığı direksiyon kolonu güncellemesini Miami’ye getirmeme kararı aldı.<br><br>Japonya’da kullanılan bu parçanın geçici bir çözüm olduğu değerlendirilirken, elde edilen veriler doğrultusunda Miami’de ihtiyaç duyulmayacağı düşünülüyor. Takım, farklı bir kurulumla piste çıkarak performansını korumayı hedefliyor.<br><br>Öte yandan, Honda tarafından sağlanan çözümlerin yeterli olacağına güveniliyor. Bu nedenle direksiyon kolonu güncellemesinin Miami’de kullanılmasına gerek duyulmadığı ifade ediliyor.<br><br>Bu hamle, Aston Martin’in sorunlara daha kalıcı çözümler bulma yaklaşımını ortaya koyarken, Miami’deki performansları merakla bekleniyor.",
                 "img": "Resimler/Formula 1 Haberler/Aston.png"
+            },
+            {
+                "id": 20,
+                "title": "MERCEDES, MIAMI'DE TEMKİNLİ: BÜYÜK GÜNCELLEMELER MONTREAL'E SAKLANIYOR!",
+                "cat": "formula 1",
+                "date": "2026-05-01 14:00",
+                "content": "Mercedes, Miami hafta sonunda rakiplerinden farklı bir strateji izliyor. Alman ekip, bu yarışa yalnızca küçük çaplı güncellemeler getirirken, asıl geliştirme paketini Montreal’e saklama kararı aldı.<br><br>Takımın bu yaklaşımı, sezon içerisindeki gelişim planını daha verimli kullanma hedefinin bir parçası olarak görülüyor. Miami’de sınırlı yeniliklerle piste çıkacak olan ekip, performans artışını daha büyük ve kapsamlı güncellemelerle Kanada’da elde etmeyi amaçlıyor.<br><br>Mercedes cephesi ayrıca Miami ile Montreal arasındaki üç haftalık arayı da maksimum verimle değerlendirmeyi planlıyor. Bu süreçte aracın mevcut potansiyelini daha iyi anlamak ve ek performans kazanımı sağlamak için yoğun bir çalışma programı yürütülecek.<br><br>Bu strateji, kısa vadede büyük sıçramalar yerine daha planlı ve sürdürülebilir bir gelişim hedeflendiğini gösterirken, Montreal’de getirilecek paket şimdiden merak konusu olmuş durumda.",
+                "img": "Resimler/Formula 1 Haberler/Mercedes.png"
             }
         ],
         "pilots": [
