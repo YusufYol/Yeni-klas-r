@@ -184,6 +184,14 @@ const APP_DATA = {
                 "date": "2026-05-02 20:00",
                 "content": "Formula 1’de rekabet her geçen yarış daha da kızışırken, McLaren ve Ferrari cephesinden gelen son gelişmeler paddock’ta büyük yankı uyandırdı. İki köklü ekip, hafta sonuna getirdikleri yeni güncelleme paketleriyle özellikle aerodinamik alanda önemli bir sıçrama gerçekleştirdi.<br><br>Edinilen bilgilere göre McLaren ve Ferrari’nin mevcut paketleri, Mercedes’in en güncel versiyonuna kıyasla 0.4 ila 0.5 saniye arasında performans avantajı sağlıyor. Bu fark, modern Formula 1’de oldukça kritik bir gelişme olarak değerlendiriliyor.<br><br>Aerodinamik Kazanç Yarışın Kaderini Değiştirebilir.<br><br>Her iki takımın da özellikle yere basma kuvveti ve hava akışı yönetimi konusunda ciddi ilerleme kaydettiği belirtiliyor. Bu gelişmeler, sadece tek tur performansını değil, aynı zamanda yarış temposunu da doğrudan etkileyebilecek seviyede.<br><br>Ferrari tarafı, bu pistte McLaren’ın güçlü olmasını zaten öngörüyordu. Ancak iki takımın da bu kadar net bir performans artışı yakalaması, dengeleri tamamen değiştirebilecek bir senaryo ortaya koyuyor.<br><br>Mercedes İçin Alarm Zilleri Çalıyor.<br><br>Yaşanan bu gelişmelerin ardından gözler Mercedes’e çevrildi. Sezona güçlü başlayan Alman ekip, rakiplerinin hızlı gelişimi karşısında geri düşme riskiyle karşı karşıya.<br><br>Kulise yansıyan yorumlara göre Mercedes’in planladığı büyük güncellemeleri daha fazla erteleme şansı kalmadı. Aksi takdirde takım, şampiyona mücadelesinde geri planda kalabilir.",
                 "img": "Resimler/Formula 1 Haberler/Mercedes-AMG Petronas.png"
+            },
+            {
+                "id": 24,
+                "title": "NORRIS MIAMI’DE SAHNEDE: SPRINT YARIŞINI KAZANDI!",
+                "cat": "formula 1",
+                "date": "2026-05-02 20:30",
+                "content": "Lando Norris, Miami’de gerçekleştirilen sprint yarışında üstün bir performans sergileyerek damalı bayrağı ilk sırada gördü. Hafta sonu boyunca piste olan uyumunu net şekilde gösteren genç pilot, starttan itibaren kontrolü elinde tutarak zirveyi kimseye bırakmadı.<br><br>McLaren adına çifte podyum sevinci yaşanırken, Oscar Piastri yarışı ikinci sırada tamamladı ve takımına önemli puanlar kazandırdı. İngiliz ekibin sprint yarışındaki temposu, ana yarış öncesinde rakiplerine ciddi bir mesaj verdi.<br><br>Öte yandan Charles Leclerc ile temsil edilen Ferrari cephesi, sprint yarışında beklenen performansı tam anlamıyla ortaya koyamadı. Monakolu pilot yarışı üçüncü sırada bitirse de, takımın genel temposu McLaren’in gerisinde kaldı.<br><br>Sprint yarışının ardından gözler şimdi ana yarışa çevrilmiş durumda. McLaren’ın güçlü formunu sürdürüp sürdüremeyeceği ve Ferrari’nin yarış temposunda nasıl bir karşılık vereceği merakla bekleniyor.",
+                "img": "Resimler/Formula 1 Haberler/Lando Norris Sprint.png"
             }
         ],
         "pilots": [
