@@ -176,6 +176,14 @@ const APP_DATA = {
                 "date": "2026-05-02 00:30",
                 "content": "Formula 1’de Miami hafta sonunda sprint sıralama turları dikkat çekici bir senaryoya sahne oldu. Son üç yarışta hızlı ve dominant bir performans sergileyen Mercedes, hafta sonuna beklenen başlangıcı yapamadı.<br><br>Sprint sıralama turlarında Charles Leclerc, SQ3’e kadar olan bölümde seansın en hızlı ismi olarak öne çıktı ve Ferrari adına güçlü bir görüntü çizdi. Ancak final bölümünde işler tamamen değişti.<br><br>SQ3’te McLaren pilotları sahneye çıktı. Lando Norris attığı turla sprint pole pozisyonunu alırken, takım arkadaşı Oscar Piastri de üst sıralarda yer alarak takımına çifte başarı getirdi. Mercedes’in genç ismi Kimi Antonelli ise ikinci sırayı alarak dikkat çekti.<br><br>Seansın en kritik anında temposunu koruyamayan Leclerc, güçlü başladığı sıralama seansını dördüncü sırada tamamlamak zorunda kaldı.<br><br>Sprint yarışı öncesinde McLaren’in yükselen formu dikkat çekerken, Mercedes’in yarış temposuyla nasıl karşılık vereceği merak konusu.",
                 "img": "Resimler/Formula 1 Haberler/Lando Norris.png"
+            },
+            {
+                "id": 23,
+                "title": "MCLAREN VE FERRARİ'DEN GÜÇ GÖSTERGESİ: MERCEDES BASKI ALTINDA!",
+                "cat": "formula 1",
+                "date": "2026-05-02 20:00",
+                "content": "Formula 1’de rekabet her geçen yarış daha da kızışırken, McLaren ve Ferrari cephesinden gelen son gelişmeler paddock’ta büyük yankı uyandırdı. İki köklü ekip, hafta sonuna getirdikleri yeni güncelleme paketleriyle özellikle aerodinamik alanda önemli bir sıçrama gerçekleştirdi.<br><br>Edinilen bilgilere göre McLaren ve Ferrari’nin mevcut paketleri, Mercedes’in en güncel versiyonuna kıyasla 0.4 ila 0.5 saniye arasında performans avantajı sağlıyor. Bu fark, modern Formula 1’de oldukça kritik bir gelişme olarak değerlendiriliyor.<br><br>Aerodinamik Kazanç Yarışın Kaderini Değiştirebilir.<br><br>Her iki takımın da özellikle yere basma kuvveti ve hava akışı yönetimi konusunda ciddi ilerleme kaydettiği belirtiliyor. Bu gelişmeler, sadece tek tur performansını değil, aynı zamanda yarış temposunu da doğrudan etkileyebilecek seviyede.<br><br>Ferrari tarafı, bu pistte McLaren’ın güçlü olmasını zaten öngörüyordu. Ancak iki takımın da bu kadar net bir performans artışı yakalaması, dengeleri tamamen değiştirebilecek bir senaryo ortaya koyuyor.<br><br>Mercedes İçin Alarm Zilleri Çalıyor.<br><br>Yaşanan bu gelişmelerin ardından gözler Mercedes’e çevrildi. Sezona güçlü başlayan Alman ekip, rakiplerinin hızlı gelişimi karşısında geri düşme riskiyle karşı karşıya.<br><br>Kulise yansıyan yorumlara göre Mercedes’in planladığı büyük güncellemeleri daha fazla erteleme şansı kalmadı. Aksi takdirde takım, şampiyona mücadelesinde geri planda kalabilir.",
+                "img": "Resimler/Formula 1 Haberler/Mercedes-AMG Petronas.png"
             }
         ],
         "pilots": [
