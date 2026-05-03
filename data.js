@@ -390,7 +390,7 @@ const APP_DATA = {
                 { "pos": 2, "pilot": "Lando Norris #1", "team": "McLaren F1 Team", "time": "1:33'22.537", "gap": "+3.264", "pts": 18, "laps": 57, "fastest": false, "status": "Finished" },
                 { "pos": 3, "pilot": "Oscar Piastri #81", "team": "McLaren F1 Team", "time": "1:33'46.365", "gap": "27.092", "pts": 15, "laps": 57, "fastest": false, "status": "Finished" },
                 { "pos": 4, "pilot": "George Russell #63", "team": "Mercedes-AMG F1 Team", "time": "1:34'02.324", "gap": "43.051", "pts": 12, "laps": 57, "fastest": false, "status": "Finished" },
-                { "pos": 5, "pilot": "Max Verstappen #3", "team": "Oracle Red Bull Racing", "time": "1:34'03.222", "gap": "43.949", "pts": 10, "laps": 57, "fastest": false, "status": "Finished" },
+                { "pos": 5, "pilot": "Max Verstappen #3", "team": "Oracle Red Bull Racing", "time": "1:34'08.222", "gap": "48.949", "pts": 10, "laps": 57, "fastest": false, "status": "Finished" },
                 { "pos": 6, "pilot": "Lewis Hamilton #44", "team": "Scuderia Ferrari HP", "time": "1:34'13.026", "gap": "+53.753", "pts": 8, "laps": 57, "fastest": false, "status": "Finished" },
                 { "pos": 7, "pilot": "Franco Colapinto #43", "team": "BWT Alpine F1 Team", "time": "1:34'21.144", "gap": "+1'01.871", "pts": 6, "laps": 57, "fastest": false, "status": "Finished" },
                 { "pos": 8, "pilot": "Charles Leclerc #16", "team": "Scuderia Ferrari HP", "time": "1:34'23.518", "gap": "+1'04.245", "pts": 4, "laps": 57, "fastest": false, "status": "Finished" },
