@@ -192,6 +192,14 @@ const APP_DATA = {
                 "date": "2026-05-02 20:30",
                 "content": "Lando Norris, Miami’de gerçekleştirilen sprint yarışında üstün bir performans sergileyerek damalı bayrağı ilk sırada gördü. Hafta sonu boyunca piste olan uyumunu net şekilde gösteren genç pilot, starttan itibaren kontrolü elinde tutarak zirveyi kimseye bırakmadı.<br><br>McLaren adına çifte podyum sevinci yaşanırken, Oscar Piastri yarışı ikinci sırada tamamladı ve takımına önemli puanlar kazandırdı. İngiliz ekibin sprint yarışındaki temposu, ana yarış öncesinde rakiplerine ciddi bir mesaj verdi.<br><br>Öte yandan Charles Leclerc ile temsil edilen Ferrari cephesi, sprint yarışında beklenen performansı tam anlamıyla ortaya koyamadı. Monakolu pilot yarışı üçüncü sırada bitirse de, takımın genel temposu McLaren’in gerisinde kaldı.<br><br>Sprint yarışının ardından gözler şimdi ana yarışa çevrilmiş durumda. McLaren’ın güçlü formunu sürdürüp sürdüremeyeceği ve Ferrari’nin yarış temposunda nasıl bir karşılık vereceği merakla bekleniyor.",
                 "img": "Resimler/Formula 1 Haberler/Lando Norris Sprint.png"
+            },
+            {
+                "id": 25,
+                "title": "FIA, OLUMSUZ HAVA KOŞULLARI NEDENİYLE MIAMI GRAND PRİX'NİN YARIŞ SAATİNİ 3 SAAT GERİYE ÇEKTİ!",
+                "cat": "formula 1",
+                "date": "2026-05-03 12:00",
+                "content": "Formula 1 dünyasının merakla beklediği Miami Grand Prix’si öncesinde, bölgedeki olumsuz hava koşulları nedeniyle kritik bir program değişikliğine gidildi. FIA ve yarış organizatörleri tarafından yapılan resmi açıklamaya göre, normal şartlarda TSİ 23:00’te başlaması planlanan büyük yarış, bölgede beklenen şiddetli fırtına, yıldırım riski ve gök gürültülü sağanak yağış ihtimaline karşı TSİ 20:00’ye çekildi.<br><br>Florida eyaletinin katı güvenlik protokolleri gereği, pist çevresinde tespit edilen olası şimşek aktivitelerinin yarışı uzun süre durdurma riski taşıması, bu kararın alınmasındaki en büyük etken oldu. Yarışın kesintisiz bir şekilde tamamlanmasını ve hem pilotların hem de izleyicilerin güvenliğini önceliklendiren organizasyon, start saatini 3 saat öne alarak hava muhalefetinden etkilenmeyecek en uygun zaman dilimini hedefliyor. Formula 1 heyecanı, güncellenen saatiyle bu akşam 20:00’den itibaren ekranlarda olacak.",
+                "img": "Resimler/Formula 1 Haberler/Miami Grand Prix Yarış Saati.png"
             }
         ],
         "pilots": [
