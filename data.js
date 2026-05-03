@@ -906,9 +906,15 @@ const CIRCUITS_DB = {
         "mostWinsPilot": "Valentino Rossi (9 Galibiyet)", "mostWinsTeam": "Honda (22 Galibiyet)",
         "description": "İspanya’nın güneşi altında parlayan Jerez - Ángel Nieto pisti, MotoGP takviminin en ikonik ve teknik duraklarından biridir."
     },
+    "Le Mans": {
+        "len": "4.185 km", "turns": "14", "drs": "Yok", "record": "1:29.324 (Fabio Quartararo)",
+        "opened": "1969", "firstWinner": "Giacomo Agostini (1969)",
+        "mostWinsPilot": "Jorge Lorenzo (6 Galibiyet)", "mostWinsTeam": "Honda (15 Galibiyet)",
+        "description": "Le Mans pisti, sert frenleme noktaları ve 'dur-kalk' karakteriyle pilotların fiziksel sınırlarını zorlayan, sıkça değişen hava koşullarıyla her an sürprizlere açık, MotoGP takviminin en ikonik ve teknik duraklarından biridir."
+    },
 };
 
-const TRACK_STATS = CIRCUITS_DB["Miami"];
+const TRACK_STATS = CIRCUITS_DB["Le Mans"];
 
 // Dinamik veriler script.js tarafından güncellenecektir.
 let CURRENT_WEEKEND_DATA = null;
