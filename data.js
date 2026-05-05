@@ -216,6 +216,14 @@ const APP_DATA = {
                 "date": "2026-05-04 00:10",
                 "content": "Miami Grand Prix’sinde damalı bayrak dalgalandıktan sonra hakem odasından gelen kararlar, yarışın resmi sonucunu değiştirdi. Yarışın sonlarına doğru spin atarak pist sınırlarını birçok kez ihlal ettiği için 'pitten geçme' (Drive-Through) cezası alan Charles Leclerc, bu cezayı yarış esnasında çekemediği için bitiş süresine 20 saniye eklenmesiyle sarsıldı. Son turlarda hasarlı aracıyla verdiği büyük mücadelenin ardından finişi 6. sırada gören Monakolu pilot, bu ağır cezanın etkisiyle 8. sıraya kadar geriledi. Leclerc’in bu düşüşüyle birlikte, Lewis Hamilton 6. sıraya, Franco Colapinto ise 7. sıraya yükseldi.<br><br>Günün diğer cezasıda Max Verstappen'e geldi. Hollandalı pilot, pit çıkışındaki beyaz çizgiyi kesmesi nedeniyle 5 saniye ceza yedi. Arkasındaki pilotla fark fazla olduğundan dolayı sıralamada yeri değişmedi ve yarışı 5. sırada tamamladı.",
                 "img": "Resimler/Formula 1 Haberler/Miami Leclerc.png"
+            },
+            {
+                "id": 28,
+                "title": "10 YIL ÖNCE BUGÜN MAX EMILIAN VERSTAPPEN, RED BULL'A İMZA ATTI VE BİR DEVİR BAŞLAMIŞ OLDU!",
+                "cat": "formula 1",
+                "date": "2026-05-05 23:00",
+                "content": "10 yıl önce bugün Max Emilian Verstappen, Redbull Racing’e imzasını artı ve bir devir başlamış oldu. Bu imzadan sadece 10 gün sonra henüz 18 yaşındayken Barcelona’da tarih yazdı ve İspanya Grand Prix’ini kazanarak Redbull’da ki ilk galibiyetini aldı. O gün “F1 tarihinin en genç yarış kazanan pilotu unvanını aldı” ve bu bir devrin, bir hikayenin başlangıcı oldu.<br><br>2017-2020 yılları arasında Mercedes dominasyonu zirvedeydi. 2017’de Verstappen mekanik sorunlar nedeniyle 7 kere yarış dışı kalmıştı. Yine de sezonu iki zaferle kapattı. 2018 yılında gösterdiği azimle ve Daniel Ricciardo’nun takımdan ayrılmasıyla takımın bir numarası oldu. 2019’da Macaristan’da kariyerinin ilk pole pozisyonunu aldı. 2020 yılında da Mercedes’lerle mücadele edebilen tek isimdi. O, asfaltın asi çocuğuydu.<br><br>2021 yılında Abu Dhabi’de, dramatik sezon finalinde şampiyonluk son turda geldi. Max Verstappen, Redbull’u şampiyon yaptı.<br><br>Sonrasında üst üste 4 dünya şampiyonluğu , bir sezonda 19 galibiyet , üst üste 10 yarış galibiyeti gibi rekorlara imza attı. Max ve Redbull artık birdi.  10 yılda 214 yarış, 48 pole pozisyonu , 127 podyum, 71 galibiyet, 4 şampiyonluk yaşadı.<br><br>Şampiyonluklarıyla, rekorlarıyla , hırsıyla ve tabi ki de unutulmaz açıklamalarıyla Max Emilian Verstappen Redbull’un efsanesi oldu.",
+                "img": "Resimler/Formula 1 Haberler/Max Red Bull.png"
             }
         ],
         "pilots": [
