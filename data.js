@@ -224,6 +224,14 @@ const APP_DATA = {
                 "date": "2026-05-05 23:00",
                 "content": "10 yıl önce bugün Max Emilian Verstappen, Redbull Racing’e imzasını artı ve bir devir başlamış oldu. Bu imzadan sadece 10 gün sonra henüz 18 yaşındayken Barcelona’da tarih yazdı ve İspanya Grand Prix’ini kazanarak Redbull’da ki ilk galibiyetini aldı. O gün “F1 tarihinin en genç yarış kazanan pilotu unvanını aldı” ve bu bir devrin, bir hikayenin başlangıcı oldu.<br><br>2017-2020 yılları arasında Mercedes dominasyonu zirvedeydi. 2017’de Verstappen mekanik sorunlar nedeniyle 7 kere yarış dışı kalmıştı. Yine de sezonu iki zaferle kapattı. 2018 yılında gösterdiği azimle ve Daniel Ricciardo’nun takımdan ayrılmasıyla takımın bir numarası oldu. 2019’da Macaristan’da kariyerinin ilk pole pozisyonunu aldı. 2020 yılında da Mercedes’lerle mücadele edebilen tek isimdi. O, asfaltın asi çocuğuydu.<br><br>2021 yılında Abu Dhabi’de, dramatik sezon finalinde şampiyonluk son turda geldi. Max Verstappen, Redbull’u şampiyon yaptı.<br><br>Sonrasında üst üste 4 dünya şampiyonluğu , bir sezonda 19 galibiyet , üst üste 10 yarış galibiyeti gibi rekorlara imza attı. Max ve Redbull artık birdi.  10 yılda 214 yarış, 48 pole pozisyonu , 127 podyum, 71 galibiyet, 4 şampiyonluk yaşadı.<br><br>Şampiyonluklarıyla, rekorlarıyla , hırsıyla ve tabi ki de unutulmaz açıklamalarıyla Max Emilian Verstappen Redbull’un efsanesi oldu.",
                 "img": "Resimler/Formula 1 Haberler/Max Red Bull.png"
+            },
+            {
+                "id": 29,
+                "title": "FERRARI MOTOR KONUSUNDA DÜĞMEYE BASTI: MARANELLO'DA GÜÇ OPERASYONU BAŞLADI! ",
+                "cat": "formula 1",
+                "date": "2026-05-06 20:00",
+                "content": "Ferrari, Formula 1 dünyasında dengeleri değiştirecek hamle için motor tarafında düğmeye çoktan bastı. Takımın bu sezonki temsilcisi SF-26’nın, özellikle Mercedes motoru kullanan rakiplerine karşı sergilediği güç açığı verilerde net bir şekilde görülüyor. Pist üzerindeki mücadelede rakipler, virajlarda araçlarını ve lastiklerini çok daha az zorlamalarına rağmen, düzlüklerdeki hız avantajıyla Ferrari ile olan farkı zahmetsizce kapatabiliyor. Bu durum, Maranello merkezli ekibi teknik anlamda radikal bir güncelleme yapmaya zorladı.<br><br>Ancak bu gelişim süreci sadece mühendislik başarısıyla sınırlı kalmayacak; FIA’nın sağladığı özel taviz sonrası yeni parçaların kullanımı için detaylı bir onay süreci işletilecek. Homologasyon süreci öncesinde her parçanın teknik incelemeden geçmesi gerekirken, Ferrari cephesinde tüm planlar en ince ayrıntısına kadar yapılmış durumda. Eğer süreç öngörüldüğü gibi sorunsuz ilerlerse, Şahlanan At’ın yeni güç ünitesini Belçika GP’den itibaren kullanmaya başlaması ve sezonun geri kalanında güç dengelerini yeniden belirlemesi bekleniyor.",
+                "img": "Resimler/Formula 1 Haberler/Ferrari Kanada.png"
             }
         ],
         "pilots": [
