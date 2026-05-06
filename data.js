@@ -227,11 +227,19 @@ const APP_DATA = {
             },
             {
                 "id": 29,
-                "title": "FERRARI MOTOR KONUSUNDA DÜĞMEYE BASTI: MARANELLO'DA GÜÇ OPERASYONU BAŞLADI! ",
+                "title": "FERRARI MOTOR KONUSUNDA DÜĞMEYE BASTI: MARANELLO'DA GÜÇ OPERASYONU BAŞLADI!",
                 "cat": "formula 1",
                 "date": "2026-05-06 20:00",
                 "content": "Ferrari, Formula 1 dünyasında dengeleri değiştirecek hamle için motor tarafında düğmeye çoktan bastı. Takımın bu sezonki temsilcisi SF-26’nın, özellikle Mercedes motoru kullanan rakiplerine karşı sergilediği güç açığı verilerde net bir şekilde görülüyor. Pist üzerindeki mücadelede rakipler, virajlarda araçlarını ve lastiklerini çok daha az zorlamalarına rağmen, düzlüklerdeki hız avantajıyla Ferrari ile olan farkı zahmetsizce kapatabiliyor. Bu durum, Maranello merkezli ekibi teknik anlamda radikal bir güncelleme yapmaya zorladı.<br><br>Ancak bu gelişim süreci sadece mühendislik başarısıyla sınırlı kalmayacak; FIA’nın sağladığı özel taviz sonrası yeni parçaların kullanımı için detaylı bir onay süreci işletilecek. Homologasyon süreci öncesinde her parçanın teknik incelemeden geçmesi gerekirken, Ferrari cephesinde tüm planlar en ince ayrıntısına kadar yapılmış durumda. Eğer süreç öngörüldüğü gibi sorunsuz ilerlerse, Şahlanan At’ın yeni güç ünitesini Belçika GP’den itibaren kullanmaya başlaması ve sezonun geri kalanında güç dengelerini yeniden belirlemesi bekleniyor.",
                 "img": "Resimler/Formula 1 Haberler/Ferrari Kanada.png"
+            },
+            {
+                "id": 30,
+                "title": "TÜRKİYE GP’Sİ BU SEZON GERÇEKLEŞEBİLİR!",
+                "cat": "formula 1",
+                "date": "2026-05-06 20:10",
+                "content": "Formula 1 dünyasında Türkiye’yi heyecanlandıran haber, doğrudan en üst merciden geldi.<br><br>FIA Başkanı Mohammed Ben Sulayem, yaptığı son açıklamalarla Türkiye’nin yeniden Formula 1 takvimine dahil olabileceğinin güçlü sinyallerini verdi. Özellikle bölgedeki jeopolitik durumlar veya operasyonel nedenlerle Bahreyn veya Suudi Arabistan yarışlarının bu sezon takvimde yer alamama ihtimali, rotanın yeniden İstanbul’a kırılmasına neden oldu. FIA’nın bu alternatif planı, Türkiye GP’nin sadece bir ihtimal değil, masadaki en ciddi aday olduğunu gösteriyor.<br><br>Ben Sulayem’in 'Bahreyn ya da Suudi Arabistan yarışları düzenlenemezse bu sezon Türkiye’ye dönebiliriz' şeklindeki açık beyanı, İstanbul Park’ın yeniden motor sesleriyle yankılanması için kapıları ardına kadar araladı. Takvimin lojistik bütünlüğünü korumak ve boşlukları en kaliteli pistlerle doldurmak isteyen Formula 1 yönetimi için Türkiye, geçmişteki başarılı organizasyonlarıyla en güvenilir liman olarak görülüyor. Eğer süreç bu yönde ilerlerse, Türk yarışseverler bu sezon beklenmedik bir sürprizle Formula 1 heyecanını canlı olarak yerinde izleme fırsatı yakalayabilir.",
+                "img": "Resimler/Formula 1 Haberler/İstanbul Park 2.png"
             }
         ],
         "pilots": [
