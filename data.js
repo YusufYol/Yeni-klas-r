@@ -923,7 +923,7 @@ const CIRCUITS_DB = {
     "Imola": {
         "len": "4.909 km", "turns": "19", "drs": "1 Bölge", "record": "1:15.484 (Lewis Hamilton)",
         "opened": "1953", "firstWinner": "Nelson Piquet (1980)",
-        "mostWinsPilot": "Michael Schumacher (7 Galibiyet)", "mostWinsTeam": "Ferrari (8 Galibiyet)",
+        "mostWinsPilot": "Michael Schumacher (7 Galibiyet)", "mostWinsTeam": "Williams ve Ferrari (8 Galibiyet)",
         "description": "Autodromo Enzo e Dino Ferrari, İtalya'nın motor sporları kalbinde yer alan klasik ve dar yapılı efsanevi bir pisttir."
     },
     "Miami": {
@@ -970,7 +970,7 @@ const CIRCUITS_DB = {
     },
 };
 
-const TRACK_STATS = CIRCUITS_DB["Le Mans"];
+const TRACK_STATS = CIRCUITS_DB["Imola"];
 
 // Dinamik veriler script.js tarafından güncellenecektir.
 let CURRENT_WEEKEND_DATA = null;
