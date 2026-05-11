@@ -1350,7 +1350,8 @@ h3,
 
     .hero-news-summary {
         font-size: 0.95rem;
-        -webkit-line-clamp: 3; /* Show a bit more summary if possible */
+        -webkit-line-clamp: 3;
+        line-clamp: 3; /* Show a bit more summary if possible */
     }
 
     /* Top Race Banner Optimization */
