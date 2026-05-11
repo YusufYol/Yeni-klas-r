@@ -1276,3 +1276,119 @@ h3,
     filter: drop-shadow(0 0 5px #e10600);
     /* Kırmızı parlama */
 }
+
+/* --- ADSENSE STYLING --- */
+.ad-container {
+    width: 100%;
+    margin: 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    min-height: 90px;
+    background: rgba(0, 0, 0, 0.02);
+    border-radius: 8px;
+}
+
+.ad-label {
+    display: block;
+    text-align: center;
+    font-size: 0.6rem;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.ad-feed-container {
+    margin: 20px 0;
+    padding: 0 10px;
+}
+
+.ad-content-container {
+    margin: 30px 0;
+    padding: 15px;
+    background: #fdfdfd;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+/* --- MOBILE OPTIMIZATIONS --- */
+@media (max-width: 768px) {
+    :root {
+        --header-height: 55px;
+    }
+
+    .app-container {
+        padding-top: var(--header-height);
+    }
+
+    .side-drawer {
+        width: 85%; /* Wider on mobile */
+    }
+
+    .section-title {
+        font-size: 1.3rem;
+        margin-bottom: 15px;
+    }
+
+    /* Hero News Card Optimization */
+    .hero-news-card {
+        aspect-ratio: 1 / 1.1; /* Taller on mobile for better visibility */
+        margin-bottom: 20px;
+    }
+
+    .hero-news-overlay {
+        padding: 60px 20px 20px; /* More bottom-heavy gradient padding */
+    }
+
+    .hero-news-title {
+        font-size: 1.6rem; /* Larger, more readable title */
+        line-height: 1.1;
+        margin-bottom: 10px;
+    }
+
+    .hero-news-summary {
+        font-size: 0.95rem;
+        -webkit-line-clamp: 3; /* Show a bit more summary if possible */
+    }
+
+    /* Top Race Banner Optimization */
+    .top-race-banner {
+        padding: 15px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .banner-left {
+        width: 100%;
+    }
+
+    .banner-title {
+        font-size: 0.85rem;
+    }
+
+    .banner-session {
+        font-size: 1rem;
+    }
+
+    .banner-right {
+        align-self: flex-end;
+        font-size: 0.8rem;
+        opacity: 0.6;
+    }
+
+    /* Standard News Cards */
+    .news-card {
+        gap: 12px;
+    }
+
+    .news-img-container {
+        flex: 0 0 110px; /* Slightly smaller images on mobile to give room for title */
+    }
+
+    .news-title {
+        font-size: 0.95rem;
+    }
+}

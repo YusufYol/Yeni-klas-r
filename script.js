@@ -8,6 +8,57 @@ function initAppEngine() {
     const mainContent = document.getElementById('main-content');
     const notificationContainer = document.getElementById('notification-container');
 
+    // --- AdSense Helpers ---
+    function getAdHTML(type = 'display') {
+        const clientID = 'ca-pub-6510717509739190';
+        let slotID = ''; // User should provide specific slot IDs for better performance
+        
+        // Defaulting to auto-sized responsive ads
+        let adContent = `
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="${clientID}"
+                 data-ad-slot="${slotID}"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+        `;
+
+        if (type === 'feed') {
+            adContent = `
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-format="fluid"
+                     data-ad-layout-key="-fb+5w+4e-db+86"
+                     data-ad-client="${clientID}"
+                     data-ad-slot="${slotID}"></ins>
+            `;
+        }
+
+        return `
+            <div class="ad-container ad-${type}-container">
+                <span class="ad-label">REKLAM</span>
+                ${adContent}
+            </div>
+        `;
+    }
+
+    function triggerAds() {
+        try {
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        } catch (e) {
+            console.error("AdSense push failed:", e);
+        }
+    }
+
+    function refreshAds() {
+        // Find all new ad tags and push them
+        const ads = document.querySelectorAll('.adsbygoogle:not([data-adsbygoogle-status])');
+        ads.forEach(() => {
+            triggerAds();
+        });
+    }
+
+
     // 1. Data Helper
     function getCategoryData(cat) {
         if (!cat) return { news: [], pilots: [], teams: [], standings: {}, calendar: [], resultsHistory: {} };
@@ -289,6 +340,9 @@ function initAppEngine() {
             default:
                 renderHome();
         }
+
+        // Refresh AdSense ads for new content
+        setTimeout(refreshAds, 300);
     }
 
     // 3. Renderers
@@ -298,6 +352,7 @@ function initAppEngine() {
         mainContent.innerHTML = `
             <div id="home-top-banner-container"></div>
             <div id="hero-news-container"></div>
+            ${getAdHTML('display')}
             <section id="main-news-feed" class="news-feed">
                 <h2 id="news-section-title" class="section-title">GÜNCEL HABERLER</h2>
                 <div id="news-container"></div>
@@ -505,9 +560,23 @@ function initAppEngine() {
                 heroContainer.appendChild(createHeroNewsCard(heroNews));
                 
                 // Render remaining news
-                allNews.slice(1).forEach(news => container.appendChild(createNewsCard(news)));
+                allNews.slice(1).forEach((news, idx) => {
+                    container.appendChild(createNewsCard(news));
+                    if ((idx + 1) % 4 === 0) {
+                        const adDiv = document.createElement('div');
+                        adDiv.innerHTML = getAdHTML('feed');
+                        container.appendChild(adDiv);
+                    }
+                });
             } else {
-                allNews.forEach(news => container.appendChild(createNewsCard(news)));
+                allNews.forEach((news, idx) => {
+                    container.appendChild(createNewsCard(news));
+                    if ((idx + 1) % 4 === 0) {
+                        const adDiv = document.createElement('div');
+                        adDiv.innerHTML = getAdHTML('feed');
+                        container.appendChild(adDiv);
+                    }
+                });
             }
         }
     }
@@ -598,10 +667,15 @@ function initAppEngine() {
                 return (b.id || 0) - (a.id || 0);
             });
 
-            filtered.forEach(n => {
+            filtered.forEach((n, idx) => {
                 const card = createNewsCard(n);
                 card.classList.add('fade-in');
                 container.appendChild(card);
+                if ((idx + 1) % 4 === 0) {
+                    const adDiv = document.createElement('div');
+                    adDiv.innerHTML = getAdHTML('feed');
+                    container.appendChild(adDiv);
+                }
             });
         };
 
@@ -940,6 +1014,7 @@ function initAppEngine() {
             <div class="news-detail-container">
                 <button class="back-btn" onclick="window.goBack()">← GERİ DÖN</button>
                 <img src="${window.APP_ROOT}${news.img}" alt="news cover" class="news-detail-img">
+                ${getAdHTML('display')}
                 <div class="news-detail-body">
                     <span class="news-detail-cat">${news.cat}</span>
                     <h1 class="news-detail-title">${news.title}</h1>
@@ -948,6 +1023,7 @@ function initAppEngine() {
                         ${news.content}
                     </div>
                 </div>
+                ${getAdHTML('display')}
             </div>
         `;
     }
