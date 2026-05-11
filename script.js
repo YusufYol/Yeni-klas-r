@@ -296,68 +296,115 @@ function initAppEngine() {
         const nextEvent = getGlobalNextEvent();
 
         mainContent.innerHTML = `
-            <section id="weekend-summary" class="weekend-summary"></section>
-            <section id="track-info" class="track-info-section"></section>
+            <div id="home-top-banner-container"></div>
+            <div id="hero-news-container"></div>
             <section id="main-news-feed" class="news-feed">
                 <h2 id="news-section-title" class="section-title">GÜNCEL HABERLER</h2>
                 <div id="news-container"></div>
             </section>
         `;
-        renderWeekendUI(document.getElementById('weekend-summary'), document.getElementById('track-info'), nextEvent);
-        renderAllNewsUI(document.getElementById('news-container'), document.getElementById('news-section-title'));
+        
+        renderHomeTopBanner(document.getElementById('home-top-banner-container'), nextEvent);
+        renderAllNewsUI(document.getElementById('news-container'), document.getElementById('news-section-title'), document.getElementById('hero-news-container'));
     }
 
-    function renderWeekendUI(containerSummary, containerTrack, event) {
+    function renderHomeTopBanner(container, event) {
+        if (!container) return;
+        if (!event) {
+            container.innerHTML = '';
+            return;
+        }
+
+        // Find the main race session
+        const raceSession = event.sessions?.find(s => s.name.toLowerCase().includes('yarış') && !s.name.toLowerCase().includes('sprint') && !s.name.toLowerCase().includes('sıralama')) || event.sessions?.[event.sessions.length - 1];
+
+        container.innerHTML = `
+            <div class="top-race-banner" id="top-race-banner-click">
+                <div class="banner-left">
+                    <span class="banner-title">${event.gp} (${event.category})</span>
+                    <span class="banner-session">Pazar: Yarış ${raceSession ? raceSession.time : ''}</span>
+                </div>
+                <div class="banner-right">
+                    ${event.isoDate}
+                </div>
+            </div>
+            <div id="weekend-summary-modal" style="display:none; margin-bottom:25px"></div>
+        `;
+
+
+        document.getElementById('top-race-banner-click').onclick = () => {
+            const modal = document.getElementById('weekend-summary-modal');
+            if (modal.style.display === 'none') {
+                renderWeekendUI(modal, null, event, true);
+                modal.style.display = 'block';
+                modal.scrollIntoView({ behavior: 'smooth' });
+            } else {
+                modal.style.display = 'none';
+            }
+        };
+    }
+
+
+    function renderWeekendUI(containerSummary, containerTrack, event, isModal = false) {
         if (!event) return;
 
         const trackStats = CIRCUITS_DB[event.track] || CIRCUITS_DB["Sakhir"];
         const sessions = event.sessions || [];
 
-        containerSummary.innerHTML = `
-            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 15px;">
-                <div style="display:flex; align-items:center; gap:12px; height:24px">
-                    <span class="tag" style="background:var(--primary-red); color:white; padding:0 12px; height:24px; display:inline-flex; align-items:center; border-radius:12px; font-weight:800; font-size:0.7rem; line-height:1">${event.category}</span>
-                    <span style="color:var(--primary-red); font-weight:800; font-size:0.65rem; text-transform:uppercase; letter-spacing:1px; display:inline-flex; align-items:center; height:100%">Hafta Sonu Programı</span>
+        const summaryContent = `
+            <div class="weekend-summary" style="margin-bottom: ${isModal ? '0' : '20px'}">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 15px;">
+                    <div style="display:flex; align-items:center; gap:12px; height:24px">
+                        <span class="tag" style="background:var(--primary-red); color:white; padding:0 12px; height:24px; display:inline-flex; align-items:center; border-radius:12px; font-weight:800; font-size:0.7rem; line-height:1">${event.category}</span>
+                        <span style="color:var(--primary-red); font-weight:800; font-size:0.65rem; text-transform:uppercase; letter-spacing:1px; display:inline-flex; align-items:center; height:100%">Hafta Sonu Programı</span>
+                    </div>
+                    <span style="font-size:0.75rem; color:#666; font-weight:600">${event.isoDate}</span>
                 </div>
-                <span style="font-size:0.75rem; color:#666; font-weight:600">${event.isoDate}</span>
-            </div>
-            <h2 class="weekend-title" style="font-size:1.6rem; margin-top:10px">${event.gp}</h2>
-            <p class="news-date" style="font-size:0.9rem; opacity:0.8; margin-bottom:15px">${event.track}, ${event.country}</p>
-            
-            <div style="background:rgba(255,255,255,0.05); border-radius:12px; padding:10px; border:1px solid rgba(255,255,255,0.1)">
-                <ul class="weekend-sessions">
-                    ${sessions.map(s => `
-                        <li class="session-item ${s.status === 'Tamamlandı' ? 'completed' : ''}" style="display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px solid rgba(255,255,255,0.05)">
-                            <span style="font-size:0.85rem; font-weight:600">${s.name}</span>
-                            <span style="font-size:0.85rem; font-weight:700; color:var(--primary-red)">${s.time}</span>
-                        </li>
-                    `).join('')}
-                </ul>
+                <h2 class="weekend-title" style="font-size:1.6rem; margin-top:10px">${event.gp}</h2>
+                <p class="news-date" style="font-size:0.9rem; opacity:0.8; margin-bottom:15px">${event.track}, ${event.country}</p>
+                
+                <div style="background:rgba(255,255,255,0.05); border-radius:12px; padding:10px; border:1px solid rgba(0,0,0,0.05)">
+                    <ul class="weekend-sessions">
+                        ${sessions.map(s => `
+                            <li class="session-item ${s.status === 'Tamamlandı' ? 'completed' : ''}" style="display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px solid rgba(0,0,0,0.05)">
+                                <span style="font-size:0.85rem; font-weight:600">${s.name}</span>
+                                <span style="font-size:0.85rem; font-weight:700; color:var(--primary-red)">${s.time}</span>
+                            </li>
+                        `).join('')}
+                    </ul>
+                </div>
+
+                <!-- Track Preview Section -->
+                <div class="track-preview-box">
+                    <div class="track-preview-header">
+                        <span class="track-preview-title">Pist Detayı</span>
+                        <span class="tag" style="margin-bottom:0; font-size:0.6rem; opacity:0.7">BİLGİ</span>
+                    </div>
+                    <div style="font-size:0.85rem; margin-bottom:10px; font-weight:700">${event.track}</div>
+                    <div class="track-preview-stats">
+                        <span><span style="opacity:0.6">Mesafe:</span> ${trackStats.len}</span>
+                        <span><span style="opacity:0.6">Viraj:</span> ${trackStats.turns}</span>
+                    </div>
+                    <button class="track-preview-btn" id="go-to-track-detail">TÜM PİST DETAYLARINI GÖR</button>
+                </div>
             </div>
         `;
 
-        containerTrack.innerHTML = `
-            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:15px">
-                <h3 style="margin:0; font-size:1.1rem">${event.track} Detayları</h3>
-                <span class="tag" style="background:rgba(255,255,255,0.1); font-size:0.6rem">PİST BİLGİSİ</span>
-            </div>
-            <div style="font-size:0.85rem; opacity:0.9; margin-bottom:15px">
-                <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px">
-                    <p style="margin:2px 0"><span style="opacity:0.6">Mesafe:</span> <b>${trackStats.len}</b></p>
-                    <p style="margin:2px 0"><span style="opacity:0.6">Viraj:</span> <b>${trackStats.turns}</b></p>
-                    <p style="margin:2px 0"><span style="opacity:0.6">Rekor:</span> <b>${trackStats.record}</b></p>
-                    <p style="margin:2px 0"><span style="opacity:0.6">Açılış:</span> <b>${trackStats.opened}</b></p>
-                </div>
-            </div>
-            <button class="btn-details" id="track-detail-btn" style="width:100%; padding:12px; border-radius:10px; background:white; color:black; font-weight:700; border:none; cursor:pointer">Pist Detaylarını Gör</button>
-        `;
+        if (containerSummary) {
+            containerSummary.innerHTML = summaryContent;
+            document.getElementById('go-to-track-detail').onclick = (e) => {
+                e.stopPropagation();
+                window.currentTrackEvent = event;
+                handleRoute('track-detail', event.category.toLowerCase());
+            };
+        }
 
-        document.getElementById('track-detail-btn').onclick = () => {
-            // Store current context for track-detail view
-            window.currentTrackEvent = event;
-            handleRoute('track-detail', event.category.toLowerCase());
-        };
+        if (containerTrack) {
+            containerTrack.innerHTML = ''; // Homepage'den kaldırıyoruz çünkü özetin içinde
+            containerTrack.style.display = 'none';
+        }
     }
+
 
     function renderTrackDetail(cat) {
         const event = window.currentTrackEvent || getGlobalNextEvent();
@@ -418,7 +465,7 @@ function initAppEngine() {
         `;
     }
 
-    function renderAllNewsUI(container, titleElem) {
+    function renderAllNewsUI(container, titleElem, heroContainer = null) {
         const allNews = [];
         Object.keys(APP_DATA).forEach(cat => {
             const catData = getCategoryData(cat);
@@ -430,8 +477,6 @@ function initAppEngine() {
             }
         });
 
-        // Hata ayıklama için konsola yazdır
-        console.log("Toplam Yüklenen Haber Sayısı:", allNews.length);
         if (allNews.length > 0) {
             allNews.sort((a, b) => {
                 let dateA = new Date(a.date);
@@ -442,24 +487,55 @@ function initAppEngine() {
                 const dateCompare = dateB - dateA;
                 if (dateCompare !== 0) return dateCompare;
                 
-                // Aynı güne eklenen haberler için, o kategoride en son eklenenler üstte olsun
-                const revCompare = (a._revIdx || 0) - (b._revIdx || 0); // 1 (en son) üstte olacak şekilde asc
+                const revCompare = (a._revIdx || 0) - (b._revIdx || 0);
                 if (revCompare !== 0) return revCompare;
 
-                // Hala eşitse ID'si büyük olan üste
                 const idA = parseInt(a.id) || 0;
                 const idB = parseInt(b.id) || 0;
                 return idB - idA;
             });
-            console.log("En Güncel Haber:", allNews[0].title);
         }
 
         if (container) {
             container.innerHTML = '';
-            // Anasayfada sadece son 15-20 haberi gösterelim veya hepsini gösterelim (kullanıcı isteğine göre)
-            allNews.forEach(news => container.appendChild(createNewsCard(news)));
+            
+            if (heroContainer && allNews.length > 0) {
+                const heroNews = allNews[0];
+                heroContainer.innerHTML = '';
+                heroContainer.appendChild(createHeroNewsCard(heroNews));
+                
+                // Render remaining news
+                allNews.slice(1).forEach(news => container.appendChild(createNewsCard(news)));
+            } else {
+                allNews.forEach(news => container.appendChild(createNewsCard(news)));
+            }
         }
     }
+
+    function createHeroNewsCard(news) {
+        const div = document.createElement('div');
+        div.className = 'hero-news-card';
+        
+        // Get first line of content
+        let summary = news.content || '';
+        if (summary.includes('<br>')) {
+            summary = summary.split('<br>')[0];
+        } else if (summary.length > 150) {
+            summary = summary.substring(0, 150) + '...';
+        }
+
+        div.innerHTML = `
+            <img src="${window.APP_ROOT}${news.img}" alt="hero news" class="hero-news-img">
+            <div class="hero-news-overlay">
+                <span class="hero-news-cat">${news.cat}</span>
+                <h2 class="hero-news-title">${news.title}</h2>
+                <p class="hero-news-summary">${summary}</p>
+            </div>
+        `;
+        div.onclick = () => handleRoute('news-detail', news.cat, true, news.id);
+        return div;
+    }
+
 
     function createNewsCard(news) {
         const div = document.createElement('div');
