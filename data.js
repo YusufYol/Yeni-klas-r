@@ -922,7 +922,7 @@ const CIRCUITS_DB = {
     },
     "Imola": {
         "len": "4.909 km", "turns": "19", "drs": "1 Bölge", "record": "1:15.484 (Lewis Hamilton)",
-        "opened": "1953", "firstWinner": "Nelson Piquet (1980)",
+        "opened": "1980", "firstWinner": "Nelson Piquet (1980)",
         "mostWinsPilot": "Michael Schumacher (7 Galibiyet)", "mostWinsTeam": "Williams ve Ferrari (8 Galibiyet)",
         "description": "Autodromo Enzo e Dino Ferrari, İtalya'nın motor sporları kalbinde yer alan klasik ve dar yapılı efsanevi bir pisttir."
     },
@@ -968,9 +968,15 @@ const CIRCUITS_DB = {
         "mostWinsPilot": "Jorge Lorenzo (6 Galibiyet)", "mostWinsTeam": "Honda (15 Galibiyet)",
         "description": "Le Mans pisti, sert frenleme noktaları ve 'dur-kalk' karakteriyle pilotların fiziksel sınırlarını zorlayan, sıkça değişen hava koşullarıyla her an sürprizlere açık, MotoGP takviminin en ikonik ve teknik duraklarından biridir."
     },
+    "Barcelona": {
+        "len": "4.657 km", "turns": "14", "drs": "Yok", "record": "1:37.536 (Alex Marquez)",
+        "opened": "1992", "firstWinner": "Wayne Rainey (1992)",
+        "mostWinsPilot": "Valentino Rossi (7 Galibiyet)", "mostWinsTeam": "Honda (11 Galibiyet)",
+        "description": "Uzun düzlüğü, teknik viraj kombinasyonları ve değişken rüzgar şartlarıyla hem lastik yönetimi hem de aerodinamik verimlilik açısından MotoGP takviminin en komple sınavlarından biri olarak kabul edilir."
+    },
 };
 
-const TRACK_STATS = CIRCUITS_DB["Imola"];
+const TRACK_STATS = CIRCUITS_DB["Barcelona"];
 
 // Dinamik veriler script.js tarafından güncellenecektir.
 let CURRENT_WEEKEND_DATA = null;
