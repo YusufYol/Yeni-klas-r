@@ -58,6 +58,17 @@ function initAppEngine() {
         });
     }
 
+    // --- Date Formatter ---
+    function formatDate(dateStr) {
+        if (!dateStr) return '';
+        // "YYYY-MM-DD ..." formatını "GG.AA.YYYY" yap
+        const parts = dateStr.split(' ')[0].split('-');
+        if (parts.length === 3) {
+            return `${parts[2]}.${parts[1]}.${parts[0]}`;
+        }
+        return dateStr;
+    }
+
 
     // 1. Data Helper
     function getCategoryData(cat) {
@@ -380,7 +391,7 @@ function initAppEngine() {
                     <span class="banner-session">Pazar: Yarış ${raceSession ? raceSession.time : ''}</span>
                 </div>
                 <div class="banner-right">
-                    ${event.isoDate}
+                    ${formatDate(event.isoDate)}
                 </div>
             </div>
             <div id="weekend-summary-modal" style="display:none; margin-bottom:25px"></div>
@@ -413,7 +424,7 @@ function initAppEngine() {
                         <span class="tag" style="background:var(--primary-red); color:white; padding:0 12px; height:24px; display:inline-flex; align-items:center; border-radius:12px; font-weight:800; font-size:0.7rem; line-height:1">${event.category}</span>
                         <span style="color:var(--primary-red); font-weight:800; font-size:0.65rem; text-transform:uppercase; letter-spacing:1px; display:inline-flex; align-items:center; height:100%">Hafta Sonu Programı</span>
                     </div>
-                    <span style="font-size:0.75rem; color:#666; font-weight:600">${event.isoDate}</span>
+                    <span style="font-size:0.75rem; color:#666; font-weight:600">${formatDate(event.isoDate)}</span>
                 </div>
                 <h2 class="weekend-title" style="font-size:1.6rem; margin-top:10px">${event.gp}</h2>
                 <p class="news-date" style="font-size:0.9rem; opacity:0.8; margin-bottom:15px">${event.track}, ${event.country}</p>
@@ -618,7 +629,7 @@ function initAppEngine() {
             <div class="news-info">
                 <span class="news-cat">${news.cat}</span>
                 <h3 class="news-title">${news.title}</h3>
-                <span class="news-date">${displayDate}</span>
+                <span class="news-date">${formatDate(news.date)}</span>
             </div>
         `;
         div.onclick = () => handleRoute('news-detail', news.cat, true, news.id);
@@ -1008,7 +1019,17 @@ function initAppEngine() {
             return;
         }
 
-        const displayDate = (news.date || '').split(' ')[0].split('T')[0];
+        const displayDate = formatDate(news.date);
+
+        const authorHtml = news.author ? `
+            <div class="news-author-section">
+                <img src="${window.APP_ROOT}${news.authorImg}" alt="${news.author}" class="author-avatar">
+                <div class="author-info">
+                    <span class="author-label">Haber Yazarı</span>
+                    <span class="author-name">${news.author}</span>
+                </div>
+            </div>
+        ` : '';
 
         mainContent.innerHTML = `
             <div class="news-detail-container">
@@ -1019,6 +1040,7 @@ function initAppEngine() {
                     <span class="news-detail-cat">${news.cat}</span>
                     <h1 class="news-detail-title">${news.title}</h1>
                     <span class="news-detail-date">${displayDate}</span>
+                    ${authorHtml}
                     <div class="news-detail-content">
                         ${news.content}
                     </div>

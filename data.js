@@ -246,6 +246,8 @@ const APP_DATA = {
                 "title": "MAX VERSTAPPEN LE MANS İÇİN FORD İLE TEMAS HALİNDE!",
                 "cat": "formula 1",
                 "date": "2026-05-11 20:00",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png",
                 "content": "Dünya şampiyonu Max Verstappen’in Formula 1 dışındaki maceraları yeni bir boyut kazanıyor. Ford Performance patronu Mark Rushbrook, Hollandalı pilot ile gelecekteki Hypercar projeleri hakkında düzenli görüşmeler yaptıklarını resmen açıkladı.<br><br>Verstappen’in yalnızca yarışmak değil, dünyanın en prestijli dayanıklılık yarışı olan Le Mans 24 Saat'te genel klasman galibiyetine ulaşmak istediğini belirten Rushbrook, bu ortaklığın her iki taraf için de büyük bir potansiyel taşıdığını vurguladı.",
                 "img": "Resimler/Formula 1 Haberler/Max Ford.png"
             },
@@ -254,6 +256,8 @@ const APP_DATA = {
                 "title": "FERRARI’NİN 2026’DAKİ ANA PROBLEMLERİNDEN BİRİ TURBO OLABİLİR!",
                 "cat": "formula 1",
                 "date": "2026-05-12 21:00",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png",
                 "content": "2026 Formula 1 teknik yönetmelikleri yaklaşırken, güç üniteleri arasındaki felsefe farkları netleşmeye başladı. Ferrari’nin, rakipleri Mercedes ve Red Bull-Ford’a kıyasla yaklaşık 10 mm daha küçük çaplı bir Garrett turbo konfigürasyonunu tercih ettiği öğrenildi. MGU-H sisteminin artık kullanılmayacağı yeni dönemde bu tercih, İtalyan ekibine özellikle düşük devirlerde ve duruştan kalkış anlarında (race starts) büyük bir avantaj sağlıyor. Küçük turbo, daha az egzoz gazıyla çok daha hızlı devirlenerek 'turbo gecikmesini' (turbo lag) minimize ediyor ve bataryanın şarj edilme verimliliğini artırıyor.<br><br>Ancak bu kompakt tasarımın bir bedeli var. Ferrari mühendisleri, küçük turbonun yüksek devirlerde nefesinin kesilmesi nedeniyle rakiplerine kıyasla yaklaşık 7 beygir gücü civarında bir kayıp yaşayabileceğini öngörüyor. Mercedes ve Red Bull daha büyük pervanelerle yüksek hızlarda maksimum güç üretimine odaklanırken, Ferrari'nin bu 'verimlilik odaklı' yaklaşımı, özellikle startlarda ve viraj çıkışlarındaki ivmelenmede fark yaratmayı hedefliyor. Maranello'nun bu teknik tercihi, 2026'nın batarya yönetimine dayalı yeni yarış karakterinde ya dahiyane bir strateji ya da düzlük hızında bir dezavantaj olarak tarihe geçecek.",
                 "img": "Resimler/Formula 1 Haberler/Ferrari.png"
             }
@@ -846,6 +850,8 @@ const APP_DATA = {
                 "title": "İTALYA'DA ALP AKSOY FIRTINASI: GENÇ YILDIZIMIZ ŞAMPİYONA LİDERİ!",
                 "cat": "haberler",
                 "date": "2026-05-12 20:00",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/yusuf-yol.png",
                 "content": "Genç yeteneğimiz Alp Aksoy, 2026 İtalya F4 Şampiyonası’nın Misano World Circuit’te düzenlenen açılış haftasına damgasını vurdu. Prema Racing koltuğunda ilk hafta sonuna çıkan temsilcimiz, sergilediği kusursuz performansla hem pilotlar klasmanında hem de çaylaklar (rookie) kategorisinde şampiyona liderliğine yükseldi. Hafta sonunu iki birincilik ve bir üçüncülükle tamamlayan Alp, kazandığı 82 puanla rakiplerine şimdiden gözdağı verdi.<br><br>Cumartesi günü gerçekleştirilen ilk yarışta damalı bayrağı ilk sırada görerek sezona zaferle başlayan Aksoy, Pazar günkü final yarışında da liderliğini korumayı başardı. Özellikle ıslak ve değişken pist koşullarında gösterdiği olgun sürüş ve rakiplerinin baskısına karşı koyduğu soğukkanlı savunma, uluslararası otoritelerden tam not aldı. Hafta sonu boyunca podyumdan inmeyen Alp Aksoy, şampiyonluk yolundaki en büyük adaylardan biri olduğunu kanıtlayarak İtalya’dan lider unvanıyla ayrıldı.",
                 "img": "Resimler/Haberler/Alp Aksoy.png"
             }
