@@ -248,6 +248,14 @@ const APP_DATA = {
                 "date": "2026-05-11 20:00",
                 "content": "Dünya şampiyonu Max Verstappen’in Formula 1 dışındaki maceraları yeni bir boyut kazanıyor. Ford Performance patronu Mark Rushbrook, Hollandalı pilot ile gelecekteki Hypercar projeleri hakkında düzenli görüşmeler yaptıklarını resmen açıkladı.<br><br>Verstappen’in yalnızca yarışmak değil, dünyanın en prestijli dayanıklılık yarışı olan Le Mans 24 Saat'te genel klasman galibiyetine ulaşmak istediğini belirten Rushbrook, bu ortaklığın her iki taraf için de büyük bir potansiyel taşıdığını vurguladı.",
                 "img": "Resimler/Formula 1 Haberler/Max Ford.png"
+            },
+            {
+                "id": 32,
+                "title": "FERRARI’NİN 2026’DAKİ ANA PROBLEMLERİNDEN BİRİ TURBO OLABİLİR!",
+                "cat": "formula 1",
+                "date": "2026-05-12 21:00",
+                "content": "2026 Formula 1 teknik yönetmelikleri yaklaşırken, güç üniteleri arasındaki felsefe farkları netleşmeye başladı. Ferrari’nin, rakipleri Mercedes ve Red Bull-Ford’a kıyasla yaklaşık 10 mm daha küçük çaplı bir Garrett turbo konfigürasyonunu tercih ettiği öğrenildi. MGU-H sisteminin artık kullanılmayacağı yeni dönemde bu tercih, İtalyan ekibine özellikle düşük devirlerde ve duruştan kalkış anlarında (race starts) büyük bir avantaj sağlıyor. Küçük turbo, daha az egzoz gazıyla çok daha hızlı devirlenerek 'turbo gecikmesini' (turbo lag) minimize ediyor ve bataryanın şarj edilme verimliliğini artırıyor.<br><br>Ancak bu kompakt tasarımın bir bedeli var. Ferrari mühendisleri, küçük turbonun yüksek devirlerde nefesinin kesilmesi nedeniyle rakiplerine kıyasla yaklaşık 7 beygir gücü civarında bir kayıp yaşayabileceğini öngörüyor. Mercedes ve Red Bull daha büyük pervanelerle yüksek hızlarda maksimum güç üretimine odaklanırken, Ferrari'nin bu 'verimlilik odaklı' yaklaşımı, özellikle startlarda ve viraj çıkışlarındaki ivmelenmede fark yaratmayı hedefliyor. Maranello'nun bu teknik tercihi, 2026'nın batarya yönetimine dayalı yeni yarış karakterinde ya dahiyane bir strateji ya da düzlük hızında bir dezavantaj olarak tarihe geçecek.",
+                "img": "Resimler/Formula 1 Haberler/Ferrari.png"
             }
         ],
         "pilots": [
