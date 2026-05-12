@@ -832,6 +832,14 @@ const APP_DATA = {
                 "date": "2026-04-27 21:10",
                 "content": "Dayanıklılık yarışlarının en zorlu sınavlarından biri olan Nürburgring 24 Hours, bu yıl da üst düzey rekabete sahne olmaya hazırlanırken, Türk motorsporları severlerin gözü pistte olacak. Motorsporları dünyasında “Yeşil Cehennem” olarak anılan Nordschleife’de, Porsche fabrika pilotu Ayhancan Güven bir kez daha start alacak.<br><br>Manthey Racing adına yarışacak olan Ayhancan, 911 kapı numaralı Porsche 911 GT3 R direksiyonunda piste çıkacak. Temsilcimize bu zorlu mücadelede, dayanıklılık yarışlarının tecrübeli isimlerinden Kevin Estre ve Thomas Preining eşlik edecek.<br><br>Öte yandan bu sezon birçok GT yarışında görmeye alıştığımız dört kez Formula 1 dünya şampiyonu Max Verstappen de Nürburgring 24 Saat’te piste çıkmaya hazırlanıyor. Hollandalı pilotun da galibiyet mücadelesinde yer alması bekleniyor.<br><br>Farklı sınıflardan çok sayıda aracın aynı anda mücadele ettiği yarış, yoğun trafik, değişken hava koşulları ve gece sürüşü gibi zorluklarıyla öne çıkıyor. Nürburgring 24 Saat, bu yıl 14-17 Mayıs tarihleri arasında düzenlenecek.",
                 "img": "Resimler/Haberler/Ayhancan Güven.png"
+            },
+            {
+                "id": 13,
+                "title": "İTALYA'DA ALP AKSOY FIRTINASI: GENÇ YILDIZIMIZ ŞAMPİYONA LİDERİ!",
+                "cat": "haberler",
+                "date": "2026-05-12 20:00",
+                "content": "Genç yeteneğimiz Alp Aksoy, 2026 İtalya F4 Şampiyonası’nın Misano World Circuit’te düzenlenen açılış haftasına damgasını vurdu. Prema Racing koltuğunda ilk hafta sonuna çıkan temsilcimiz, sergilediği kusursuz performansla hem pilotlar klasmanında hem de çaylaklar (rookie) kategorisinde şampiyona liderliğine yükseldi. Hafta sonunu iki birincilik ve bir üçüncülükle tamamlayan Alp, kazandığı 82 puanla rakiplerine şimdiden gözdağı verdi.<br><br>Cumartesi günü gerçekleştirilen ilk yarışta damalı bayrağı ilk sırada görerek sezona zaferle başlayan Aksoy, Pazar günkü final yarışında da liderliğini korumayı başardı. Özellikle ıslak ve değişken pist koşullarında gösterdiği olgun sürüş ve rakiplerinin baskısına karşı koyduğu soğukkanlı savunma, uluslararası otoritelerden tam not aldı. Hafta sonu boyunca podyumdan inmeyen Alp Aksoy, şampiyonluk yolundaki en büyük adaylardan biri olduğunu kanıtlayarak İtalya’dan lider unvanıyla ayrıldı.",
+                "img": "Resimler/Haberler/Alp Aksoy.png"
             }
         ]
     },
