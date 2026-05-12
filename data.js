@@ -851,7 +851,7 @@ const APP_DATA = {
                 "cat": "haberler",
                 "date": "2026-05-12 20:00",
                 "author": "Yusuf Yol",
-                "authorImg": "Resimler/yusuf-yol.png",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png",
                 "content": "Genç yeteneğimiz Alp Aksoy, 2026 İtalya F4 Şampiyonası’nın Misano World Circuit’te düzenlenen açılış haftasına damgasını vurdu. Prema Racing koltuğunda ilk hafta sonuna çıkan temsilcimiz, sergilediği kusursuz performansla hem pilotlar klasmanında hem de çaylaklar (rookie) kategorisinde şampiyona liderliğine yükseldi. Hafta sonunu iki birincilik ve bir üçüncülükle tamamlayan Alp, kazandığı 82 puanla rakiplerine şimdiden gözdağı verdi.<br><br>Cumartesi günü gerçekleştirilen ilk yarışta damalı bayrağı ilk sırada görerek sezona zaferle başlayan Aksoy, Pazar günkü final yarışında da liderliğini korumayı başardı. Özellikle ıslak ve değişken pist koşullarında gösterdiği olgun sürüş ve rakiplerinin baskısına karşı koyduğu soğukkanlı savunma, uluslararası otoritelerden tam not aldı. Hafta sonu boyunca podyumdan inmeyen Alp Aksoy, şampiyonluk yolundaki en büyük adaylardan biri olduğunu kanıtlayarak İtalya’dan lider unvanıyla ayrıldı.",
                 "img": "Resimler/Haberler/Alp Aksoy.png"
             }
