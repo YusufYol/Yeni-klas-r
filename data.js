@@ -240,6 +240,14 @@ const APP_DATA = {
                 "date": "2026-05-06 20:10",
                 "content": "Formula 1 dünyasında Türkiye’yi heyecanlandıran haber, doğrudan en üst merciden geldi.<br><br>FIA Başkanı Mohammed Ben Sulayem, yaptığı son açıklamalarla Türkiye’nin yeniden Formula 1 takvimine dahil olabileceğinin güçlü sinyallerini verdi. Özellikle bölgedeki jeopolitik durumlar veya operasyonel nedenlerle Bahreyn veya Suudi Arabistan yarışlarının bu sezon takvimde yer alamama ihtimali, rotanın yeniden İstanbul’a kırılmasına neden oldu. FIA’nın bu alternatif planı, Türkiye GP’nin sadece bir ihtimal değil, masadaki en ciddi aday olduğunu gösteriyor.<br><br>Ben Sulayem’in 'Bahreyn ya da Suudi Arabistan yarışları düzenlenemezse bu sezon Türkiye’ye dönebiliriz' şeklindeki açık beyanı, İstanbul Park’ın yeniden motor sesleriyle yankılanması için kapıları ardına kadar araladı. Takvimin lojistik bütünlüğünü korumak ve boşlukları en kaliteli pistlerle doldurmak isteyen Formula 1 yönetimi için Türkiye, geçmişteki başarılı organizasyonlarıyla en güvenilir liman olarak görülüyor. Eğer süreç bu yönde ilerlerse, Türk yarışseverler bu sezon beklenmedik bir sürprizle Formula 1 heyecanını canlı olarak yerinde izleme fırsatı yakalayabilir.",
                 "img": "Resimler/Formula 1 Haberler/İstanbul Park 2.png"
+            },
+            {
+                "id": 31,
+                "title": "MAX VERSTAPPEN LE MANS İÇİN FORD İLE TEMAS HALİNDE!",
+                "cat": "formula 1",
+                "date": "2026-05-11 20:00",
+                "content": "Dünya şampiyonu Max Verstappen’in Formula 1 dışındaki maceraları yeni bir boyut kazanıyor. Ford Performance patronu Mark Rushbrook, Hollandalı pilot ile gelecekteki Hypercar projeleri hakkında düzenli görüşmeler yaptıklarını resmen açıkladı.<br><br>Verstappen’in yalnızca yarışmak değil, dünyanın en prestijli dayanıklılık yarışı olan Le Mans 24 Saat'te genel klasman galibiyetine ulaşmak istediğini belirten Rushbrook, bu ortaklığın her iki taraf için de büyük bir potansiyel taşıdığını vurguladı.",
+                "img": "Resimler/Formula 1 Haberler/Max Ford.png"
             }
         ],
         "pilots": [
