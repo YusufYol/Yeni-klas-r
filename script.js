@@ -1075,15 +1075,46 @@ function initAppEngine() {
 
     // --- Notification System ---
     function initNotificationSystem() {
+        const ntfPrompt = document.getElementById('ntf-prompt');
+        const ntfConfirm = document.getElementById('ntf-prompt-confirm');
+        const ntfCancel = document.getElementById('ntf-prompt-cancel');
+
         // 1. Service Worker Registration
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register(`${window.APP_ROOT}sw.js`)
-                .then(reg => console.log('SW Registered'))
+                .then(reg => {
+                    console.log('SW Registered');
+                    checkAndShowPrompt();
+                })
                 .catch(err => console.warn('SW Registration Failed', err));
+        }
+
+        function checkAndShowPrompt() {
+            if (!("Notification" in window)) return;
+
+            // Don't show if already granted or denied
+            if (Notification.permission !== 'default') {
+                if (Notification.permission === 'granted') checkNewNews();
+                return;
+            }
+
+            // Don't show if user dismissed it in this session (or recently)
+            const lastDismissed = localStorage.getItem('ntf_prompt_dismissed');
+            const now = Date.now();
+            if (lastDismissed && (now - parseInt(lastDismissed)) < 1000 * 60 * 60 * 24) { // 24 hours
+                return;
+            }
+
+            // Show prompt after a small delay (or after splash screen)
+            setTimeout(() => {
+                ntfPrompt.classList.remove('hidden');
+            }, 3000);
         }
 
         // 2. Check for New News
         const checkNewNews = () => {
+            if (Notification.permission !== 'granted') return;
+
             let latestNews = null;
             Object.keys(APP_DATA).forEach(cat => {
                 const catNews = APP_DATA[cat].news || [];
@@ -1099,11 +1130,7 @@ function initAppEngine() {
                 if (parseInt(latestNews.id) > parseInt(lastSeenId)) {
                     // Update last seen ID when news is detected
                     localStorage.setItem('last_seen_news_id', latestNews.id);
-
-                    // If permission granted, show browser notification
-                    if (Notification.permission === 'granted') {
-                        showBrowserNotification(latestNews);
-                    }
+                    showBrowserNotification(latestNews);
                 }
             }
         };
@@ -1114,23 +1141,39 @@ function initAppEngine() {
                     registration.showNotification(news.title, {
                         body: 'Yeni bir haber eklendi! Detaylar için tıklayın.',
                         icon: `${window.APP_ROOT}Resimler/Logo/Racing News TR Logo.jpeg`,
-                        data: { url: window.location.origin + window.APP_ROOT + '#news-detail/' + encodeURIComponent(news.cat) + '/' + news.id },
-                        vibrate: [200, 100, 200]
+                        data: { url: window.location.origin + window.APP_ROOT + (window.location.protocol === 'file:' ? '#' : '') + 'news-detail/' + encodeURIComponent(news.cat) + '/' + news.id },
+                        vibrate: [200, 100, 200],
+                        badge: `${window.APP_ROOT}Resimler/Logo/Racing News TR Logo.jpeg`
                     });
                 });
             }
         };
 
-        // Trigger native browser notification prompt
-        if (Notification.permission === 'default') {
-            Notification.requestPermission().then(permission => {
-                if (permission === 'granted') {
-                    checkNewNews();
-                }
-            });
-        } else {
-            checkNewNews();
+        // Handle Prompt Actions
+        if (ntfConfirm) {
+            ntfConfirm.onclick = () => {
+                Notification.requestPermission().then(permission => {
+                    ntfPrompt.classList.add('hidden');
+                    if (permission === 'granted') {
+                        checkNewNews();
+                        new Notification("Başarılı!", {
+                            body: "Bildirimler başarıyla açıldı.",
+                            icon: `${window.APP_ROOT}Resimler/Logo/Racing News TR Logo.jpeg`
+                        });
+                    }
+                });
+            };
         }
+
+        if (ntfCancel) {
+            ntfCancel.onclick = () => {
+                ntfPrompt.classList.add('hidden');
+                localStorage.setItem('ntf_prompt_dismissed', Date.now().toString());
+            };
+        }
+
+        // Periodically check for new news while the app is open
+        setInterval(checkNewNews, 60000); // Every minute
     }
 
     // Helper for back navigation
