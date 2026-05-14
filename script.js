@@ -1075,40 +1075,45 @@ function initAppEngine() {
 
     // --- Notification System ---
     function initNotificationSystem() {
-        const ntfPrompt = document.getElementById('ntf-prompt');
-        const ntfConfirm = document.getElementById('ntf-prompt-confirm');
-        const ntfCancel = document.getElementById('ntf-prompt-cancel');
-
         // 1. Service Worker Registration
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register(`${window.APP_ROOT}sw.js`)
                 .then(reg => {
                     console.log('SW Registered');
-                    checkAndShowPrompt();
+                    setupNativePrompt();
                 })
                 .catch(err => console.warn('SW Registration Failed', err));
         }
 
-        function checkAndShowPrompt() {
+        function setupNativePrompt() {
             if (!("Notification" in window)) return;
 
-            // Don't show if already granted or denied
+            // If permission is already handled, just check for news
             if (Notification.permission !== 'default') {
                 if (Notification.permission === 'granted') checkNewNews();
                 return;
             }
 
-            // Don't show if user dismissed it in this session (or recently)
-            const lastDismissed = localStorage.getItem('ntf_prompt_dismissed');
-            const now = Date.now();
-            if (lastDismissed && (now - parseInt(lastDismissed)) < 1000 * 60 * 60 * 24) { // 24 hours
-                return;
-            }
+            // To support iPhone (iOS) and modern browsers, we must wait for a user interaction.
+            // This will trigger the native browser "site wants to send you notifications" message.
+            const triggerPrompt = () => {
+                if (Notification.permission === 'default') {
+                    Notification.requestPermission().then(permission => {
+                        console.log('Notification permission:', permission);
+                        if (permission === 'granted') {
+                            checkNewNews();
+                        }
+                    });
+                }
+                // Remove listeners after first interaction
+                document.removeEventListener('click', triggerPrompt);
+                document.removeEventListener('touchstart', triggerPrompt);
+                window.removeEventListener('scroll', triggerPrompt);
+            };
 
-            // Show prompt after a small delay (or after splash screen)
-            setTimeout(() => {
-                ntfPrompt.classList.remove('hidden');
-            }, 3000);
+            document.addEventListener('click', triggerPrompt);
+            document.addEventListener('touchstart', triggerPrompt);
+            window.addEventListener('scroll', triggerPrompt);
         }
 
         // 2. Check for New News
@@ -1148,29 +1153,6 @@ function initAppEngine() {
                 });
             }
         };
-
-        // Handle Prompt Actions
-        if (ntfConfirm) {
-            ntfConfirm.onclick = () => {
-                Notification.requestPermission().then(permission => {
-                    ntfPrompt.classList.add('hidden');
-                    if (permission === 'granted') {
-                        checkNewNews();
-                        new Notification("Başarılı!", {
-                            body: "Bildirimler başarıyla açıldı.",
-                            icon: `${window.APP_ROOT}Resimler/Logo/Racing News TR Logo.jpeg`
-                        });
-                    }
-                });
-            };
-        }
-
-        if (ntfCancel) {
-            ntfCancel.onclick = () => {
-                ntfPrompt.classList.add('hidden');
-                localStorage.setItem('ntf_prompt_dismissed', Date.now().toString());
-            };
-        }
 
         // Periodically check for new news while the app is open
         setInterval(checkNewNews, 60000); // Every minute
