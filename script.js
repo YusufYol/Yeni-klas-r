@@ -271,7 +271,7 @@ function initAppEngine() {
 
         setupNavigation();
         setupAccordions();
-
+        initNotificationSystem(); // Initialize notifications
     }
 
     // 2. Navigation & Routing
@@ -1072,6 +1072,75 @@ function initAppEngine() {
             </div>
         `;
     }
+
+    // --- Notification System ---
+    function initNotificationSystem() {
+        // 1. Service Worker Registration
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register(`${window.APP_ROOT}sw.js`)
+                .then(reg => console.log('SW Registered'))
+                .catch(err => console.warn('SW Registration Failed', err));
+        }
+
+        // 2. Check for New News
+        const checkNewNews = () => {
+            let latestNews = null;
+            Object.keys(APP_DATA).forEach(cat => {
+                const catNews = APP_DATA[cat].news || [];
+                catNews.forEach(n => {
+                    if (!latestNews || parseInt(n.id) > parseInt(latestNews.id)) {
+                        latestNews = n;
+                    }
+                });
+            });
+
+            if (latestNews) {
+                const lastSeenId = localStorage.getItem('last_seen_news_id') || 0;
+                if (parseInt(latestNews.id) > parseInt(lastSeenId)) {
+                    // Update last seen ID when news is detected
+                    localStorage.setItem('last_seen_news_id', latestNews.id);
+
+                    // If permission granted, show browser notification
+                    if (Notification.permission === 'granted') {
+                        showBrowserNotification(latestNews);
+                    }
+                }
+            }
+        };
+
+        const showBrowserNotification = (news) => {
+            if ('serviceWorker' in navigator && Notification.permission === 'granted') {
+                navigator.serviceWorker.ready.then(registration => {
+                    registration.showNotification(news.title, {
+                        body: 'Yeni bir haber eklendi! Detaylar için tıklayın.',
+                        icon: `${window.APP_ROOT}Resimler/Logo/Racing News TR Logo.jpeg`,
+                        data: { url: window.location.origin + window.APP_ROOT + '#news-detail/' + encodeURIComponent(news.cat) + '/' + news.id },
+                        vibrate: [200, 100, 200]
+                    });
+                });
+            }
+        };
+
+        // Trigger native browser notification prompt
+        if (Notification.permission === 'default') {
+            Notification.requestPermission().then(permission => {
+                if (permission === 'granted') {
+                    checkNewNews();
+                }
+            });
+        } else {
+            checkNewNews();
+        }
+    }
+
+    // Helper for back navigation
+    window.goBack = function() {
+        if (window.history.length > 1) {
+            window.history.back();
+        } else {
+            handleRoute('home');
+        }
+    };
 }
 
 if (document.readyState === 'loading') {
