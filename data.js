@@ -864,6 +864,16 @@ const APP_DATA = {
                 "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png",
                 "content": "Genç yeteneğimiz Alp Aksoy, 2026 İtalya F4 Şampiyonası’nın Misano World Circuit’te düzenlenen açılış haftasına damgasını vurdu. Prema Racing koltuğunda ilk hafta sonuna çıkan temsilcimiz, sergilediği kusursuz performansla hem pilotlar klasmanında hem de çaylaklar (rookie) kategorisinde şampiyona liderliğine yükseldi. Hafta sonunu iki birincilik ve bir üçüncülükle tamamlayan Alp, kazandığı 82 puanla rakiplerine şimdiden gözdağı verdi.<br><br>Cumartesi günü gerçekleştirilen ilk yarışta damalı bayrağı ilk sırada görerek sezona zaferle başlayan Aksoy, Pazar günkü final yarışında da liderliğini korumayı başardı. Özellikle ıslak ve değişken pist koşullarında gösterdiği olgun sürüş ve rakiplerinin baskısına karşı koyduğu soğukkanlı savunma, uluslararası otoritelerden tam not aldı. Hafta sonu boyunca podyumdan inmeyen Alp Aksoy, şampiyonluk yolundaki en büyük adaylardan biri olduğunu kanıtlayarak İtalya’dan lider unvanıyla ayrıldı.",
                 "img": "Resimler/Haberler/Alp Aksoy.png"
+            },
+            {
+                "id": 14,
+                "title": "DEV BULUŞMA BAŞLIYOR: AYHANCAN GÜVEN VE MAX VERSTAPPEN NÜRBURGRİNG 24 SAAT İÇİN PİSTTE!",
+                "cat": "haberler",
+                "date": "2026-05-13 15:30",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png",
+                "content": "Dünyanın en zorlu dayanıklılık yarışlarından biri olan Nürburgring 24 Saat için geri sayım sona erdi. Hafta sonu öncesinde padokta en çok merak edilen iki araç, özel tasarımlarıyla pistteki yerini aldı. Temsilcimiz Ayhancan Güven, Manthey Racing’in efsanevi sarı-yeşil renkleriyle özdeşleşen 'Grello' lakaplı Porsche 911 GT3 R (#911) ile zafer arayacak. Ayhancan'a bu zorlu görevde tecrübeli isimler Kevin Estre ve Thomas Preining eşlik edecek.<br><br>Hafta sonunun bir diğer büyük odağı ise Formula 1 şampiyonu Max Verstappen. Hollandalı pilotun kendi takımı Verstappen Racing adına yarışacağı, çarpıcı bir Red Bull tasarımına sahip Mercedes-AMG GT3’ü (#3), geçtiğimiz saatlerde Nürburgring garajında ilk kez görüntülendi. Verstappen, Winward Racing desteğiyle piste çıkacak olan bu araçta direksiyonu Dani Juncadella, Jules Gounon ve Lucas Auer gibi yıldızlarla paylaşacak. Hem Ayhancan hem de Verstappen’in araçlarının piste inişiyle birlikte, 25.3 kilometrelik devasa parkurda büyük rekabetin fitili ateşlenmiş oldu.",
+                "img": "Resimler/Haberler/Ayhancan ve Max.png"
             }
         ]
     },
