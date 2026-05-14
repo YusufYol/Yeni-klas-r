@@ -263,7 +263,7 @@ const APP_DATA = {
             },
             {
                 "id": 33,
-                "title": "TÜRKİYE OTOMOBİL SPORLARI FEDERASYONU BAŞKANI EREN ÜÇLERTOPRAĞI, TRT SPOR’A ÖZEL AÇIKLAMALARDA BULUNDU: “SÜRECİ YAKINDAN TAKİP EDİYORUZ!”",
+                "title": "TÜRKİYE OTOMOBİL SPORLARI FEDERASYONU BAŞKANI EREN ÜÇLERTOPRAĞI: “SÜRECİ YAKINDAN TAKİP EDİYORUZ!”",
                 "cat": "formula 1",
                 "date": "2026-05-14 10:00",
                 "author": "Yusuf Yol",
