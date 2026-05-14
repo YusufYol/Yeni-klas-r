@@ -526,6 +526,8 @@ const APP_DATA = {
                 "title": "DUCATI KARARINI VERDİ: MARC MÁRQUEZ’İN YERİNE ŞİMDİLİK BAŞKA BİR SÜRÜCÜ GETİRİLMEYECEK!",
                 "cat": "motogp",
                 "date": "2026-05-13 15:00",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png",
                 "content": "MotoGP’de şampiyonluk mücadelesi veren Marc Marquez’in Fransa GP hafta sonunda yaşadığı talihsizlik, Ducati Lenovo Team’in planlarını değiştirdi. Le Mans’daki sprint yarışında geçirdiği sert kaza sonrası sağ ayağında kırık tespit edilen İspanyol yıldız, başarılı bir ameliyat süreci geçirmesine rağmen pistlerden bir süre uzak kalacak. Gözler Marquez'in yerine kimin geçeceğine çevrilmişken, İtalyan üretici radikal bir kararla Barcelona’daki Katalonya GP’de sadece Francesco Bagnaia ile yarışacağını duyurdu.<br><br>Ducati yönetiminden yapılan açıklamada, mevcut koşullar altında Marquez’in yerine geçici bir sürücü getirilmesinin planlanmadığı ve ekibin tüm odağının son şampiyon Bagnaia üzerinde olacağı belirtildi. Ancak bu kararın şimdilik 'geçici' olduğu da vurgulanan detaylar arasında. Eğer Marquez’in iyileşme süreci öngörülenden daha uzun sürerse, sezonun geri kalanında Ducati koltuğu için farklı isimlerin kapısının çalınabileceği belirtiliyor. Motor sporları dünyası, yedi kez dünya şampiyonunun ne zaman sahalara döneceğini ve Ducati’nin tek tabanca kalacağı bu kritik virajı nasıl döneceğini merakla bekliyor.",
                 "img": "Resimler/MotoGP Haberler/Marc Marquez Sakatlık.png"
             }
