@@ -1401,15 +1401,15 @@ h3,
     }
 
     .hero-news-title {
-        font-size: 1.6rem; /* Larger, more readable title */
-        line-height: 1.1;
-        margin-bottom: 10px;
+        font-size: 1.3rem; /* Reduced from 1.6rem */
+        line-height: 1.15;
+        margin-bottom: 6px;
     }
 
     .hero-news-summary {
-        font-size: 0.95rem;
-        -webkit-line-clamp: 3;
-        line-clamp: 3; /* Show a bit more summary if possible */
+        font-size: 0.85rem; /* Reduced from 0.95rem */
+        -webkit-line-clamp: 2; /* Reduced from 3 */
+        line-clamp: 2;
     }
 
     /* Top Race Banner Optimization */
