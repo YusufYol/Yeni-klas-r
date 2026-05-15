@@ -333,7 +333,22 @@
                 const currentContent = decodeURIComponent(escape(atob(dataResponse.content)));
                 
                 // Extract JSON from "const APP_DATA = { ... };"
-                const jsonStr = currentContent.replace(/const APP_DATA = /, '').replace(/;$/, '');
+                const startMarker = "const APP_DATA = ";
+                const endMarker = "};";
+                
+                const startIndex = currentContent.indexOf(startMarker);
+                if (startIndex === -1) throw new Error("Veri yapısı (APP_DATA) bulunamadı.");
+                
+                // İlk }; işaretini bul (APP_DATA'nın sonu)
+                // Not: Nesne içindeki }; yapılarını atlamak için daha dikkatli bakıyoruz
+                const contentAfterStart = currentContent.substring(startIndex + startMarker.length);
+                
+                // APP_DATA nesnesinin bittiği ana }; işaretini bulalım
+                // data.js formatına göre bu genellikle satır başında veya tek başına olur
+                const endIndex = contentAfterStart.indexOf("\n};"); 
+                const finalEndIndex = endIndex !== -1 ? endIndex + 1 : contentAfterStart.indexOf("};");
+
+                const jsonStr = contentAfterStart.substring(0, finalEndIndex + 1);
                 const appData = JSON.parse(jsonStr);
 
                 // Create new news item
@@ -367,8 +382,11 @@
                 // Add to top and sort (actually unshift is enough if site sorts by date, but let's be sure)
                 appData[cat].news.unshift(newNews);
                 
-                // Final string
-                const newFileContent = "const APP_DATA = " + JSON.stringify(appData, null, 4) + ";";
+                // Final string - Dosyanın başını ve sonunu koruyarak birleştiriyoruz
+                const beforeAppData = currentContent.substring(0, startIndex);
+                const afterAppData = contentAfterStart.substring(finalEndIndex + 2); // }; kısmından sonrasını al
+
+                const newFileContent = beforeAppData + "const APP_DATA = " + JSON.stringify(appData, null, 4) + ";" + afterAppData;
 
                 await githubRequest('contents/data.js', 'PUT', {
                     message: `Yeni Haber Eklendi: ${title}`,
@@ -404,7 +422,10 @@
             const user = localStorage.getItem('gh_user');
             const repo = localStorage.getItem('gh_repo');
             
-            const url = `https://api.github.com/repos/${user}/${repo}/${path}`;
+            // Boşlukları ve özel karakterleri URL'e uygun hale getiriyoruz
+            const encodedPath = path.split('/').map(segment => encodeURIComponent(segment)).join('/');
+            const url = `https://api.github.com/repos/${user}/${repo}/${encodedPath}`;
+            
             const headers = {
                 'Authorization': `token ${token}`,
                 'Accept': 'application/vnd.github.v3+json',
