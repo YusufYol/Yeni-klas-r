@@ -334,22 +334,26 @@
                 
                 // Extract JSON from "const APP_DATA = { ... };"
                 const startMarker = "const APP_DATA = ";
-                const endMarker = "};";
-                
                 const startIndex = currentContent.indexOf(startMarker);
                 if (startIndex === -1) throw new Error("Veri yapısı (APP_DATA) bulunamadı.");
                 
-                // İlk }; işaretini bul (APP_DATA'nın sonu)
-                // Not: Nesne içindeki }; yapılarını atlamak için daha dikkatli bakıyoruz
                 const contentAfterStart = currentContent.substring(startIndex + startMarker.length);
                 
                 // APP_DATA nesnesinin bittiği ana }; işaretini bulalım
-                // data.js formatına göre bu genellikle satır başında veya tek başına olur
-                const endIndex = contentAfterStart.indexOf("\n};"); 
-                const finalEndIndex = endIndex !== -1 ? endIndex + 1 : contentAfterStart.indexOf("};");
+                // data.js dosyanızda nesne }; ile bitiyor.
+                const endIndex = contentAfterStart.indexOf("};");
+                if (endIndex === -1) throw new Error("Veri yapısının sonu bulunamadı.");
 
-                const jsonStr = contentAfterStart.substring(0, finalEndIndex + 1);
-                const appData = JSON.parse(jsonStr);
+                const jsonStr = contentAfterStart.substring(0, endIndex + 1).trim();
+                
+                // JavaScript objesi olarak güvenli bir şekilde parse et (JSON.parse virgüllerde hata verir)
+                let appData;
+                try {
+                    appData = new Function("return " + jsonStr)();
+                } catch (e) {
+                    console.error("Parse hatası:", e);
+                    throw new Error("Veri okunurken hata oluştu. Lütfen data.js formatını kontrol edin.");
+                }
 
                 // Create new news item
                 const now = new Date();
@@ -384,7 +388,8 @@
                 
                 // Final string - Dosyanın başını ve sonunu koruyarak birleştiriyoruz
                 const beforeAppData = currentContent.substring(0, startIndex);
-                const afterAppData = contentAfterStart.substring(finalEndIndex + 2); // }; kısmından sonrasını al
+                const semicolonIndex = contentAfterStart.indexOf(";", endIndex);
+                const afterAppData = contentAfterStart.substring(semicolonIndex + 1); 
 
                 const newFileContent = beforeAppData + "const APP_DATA = " + JSON.stringify(appData, null, 4) + ";" + afterAppData;
 
