@@ -914,6 +914,16 @@ const APP_DATA = {
                 "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png",
                 "content": "Dünyanın en zorlu dayanıklılık yarışlarından biri olan Nürburgring 24 Saat için geri sayım sona erdi. Hafta sonu öncesinde padokta en çok merak edilen iki araç, özel tasarımlarıyla pistteki yerini aldı. Temsilcimiz Ayhancan Güven, Manthey Racing’in efsanevi sarı-yeşil renkleriyle özdeşleşen 'Grello' lakaplı Porsche 911 GT3 R (#911) ile zafer arayacak. Ayhancan'a bu zorlu görevde tecrübeli isimler Kevin Estre ve Thomas Preining eşlik edecek.<br><br>Hafta sonunun bir diğer büyük odağı ise Formula 1 şampiyonu Max Verstappen. Hollandalı pilotun kendi takımı Verstappen Racing adına yarışacağı, çarpıcı bir Red Bull tasarımına sahip Mercedes-AMG GT3’ü (#3), geçtiğimiz saatlerde Nürburgring garajında ilk kez görüntülendi. Verstappen, Winward Racing desteğiyle piste çıkacak olan bu araçta direksiyonu Dani Juncadella, Jules Gounon ve Lucas Auer gibi yıldızlarla paylaşacak. Hem Ayhancan hem de Verstappen’in araçlarının piste inişiyle birlikte, 25.3 kilometrelik devasa parkurda büyük rekabetin fitili ateşlenmiş oldu.",
                 "img": "Resimler/Haberler/Ayhancan ve Max.png"
+            },
+            {
+                "id": 15,
+                "title": "NÜRBURGRING 24 SAAT’TE GÖZLER AYHANCAN VE VERSTAPPEN’DE!",
+                "cat": "haberler",
+                "date": "2026-05-15 17:30",
+                "author": "Emre Boz",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Emre Boz.png",
+                "content": "Ayhancan Güven ve Max Verstappen, bu hafta sonu gerçekleştirilecek Nürburgring 24 Saat yarışına üst sıralardan başlama hakkı kazandı.<br><br>Temsilcimiz Ayhancan Güven’in yer aldığı Manthey EMA ekibinde direksiyon başındaki Thomas Preining, TQ3 seansını liderin 2.816 saniye gerisinde 8. sırada tamamladı. Böylelikle Ayhancan Güven, dünyanın en zorlu dayanıklılık yarışlarından biri olarak gösterilen Nürburgring 24 Saat yarışına 8. sıradan başlayacak.<br><br>Öte yandan Max Verstappen’in ilk kez mücadele edeceği Nürburgring 24 Saat yarışında da dikkat çekici bir sonuç geldi. Hollandalı pilotun takım arkadaşı Daniel Juncadella, TQ3 seansını liderin 0.882 saniye gerisinde 4. sırada noktaladı. Böylece Verstappen’in ekibi yarışa ikinci çizgiden başlama hakkını elde etti.<br><br>Yoğun ilginin olduğu organizasyonda gözler şimdi hem Ayhancan Güven’in performansında hem de Max Verstappen’in ilk Nürburgring 24 Saat deneyiminde olacak.",
+                "img": "Resimler/Haberler/Ayhancan ve Verstappen.png"
             }
         ]
     },
