@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Racing News TR - Admin Panel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #e10600;
+            --bg: #0b0b0b;
+            --card-bg: #1a1a1a;
+            --text: #ffffff;
+            --text-dim: #b0b0b0;
+            --accent: #2d2d2d;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 500px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            font-size: 1.5rem;
+            letter-spacing: 1px;
+            color: var(--primary);
+        }
+
+        .card {
+            background: var(--card-bg);
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            border: 1px solid var(--accent);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: var(--text-dim);
+            font-size: 0.9rem;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            background: var(--bg);
+            border: 1px solid var(--accent);
+            padding: 12px;
+            border-radius: 8px;
+            color: var(--text);
+            font-size: 1rem;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        input:focus, select:focus, textarea:focus {
+            border-color: var(--primary);
+        }
+
+        textarea {
+            height: 150px;
+            resize: vertical;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 15px;
+            border: none;
+            border-radius: 8px;
+            font-weight: 800;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: transform 0.2s, background 0.3s;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+
+        .btn-primary:active {
+            transform: scale(0.98);
+        }
+
+        .btn-secondary {
+            background: var(--accent);
+            color: white;
+            margin-top: 10px;
+        }
+
+        #login-screen, #admin-form {
+            display: none;
+        }
+
+        .status {
+            margin-top: 15px;
+            padding: 10px;
+            border-radius: 8px;
+            text-align: center;
+            font-size: 0.9rem;
+            display: none;
+        }
+
+        .status.success { background: #1b4332; color: #74c69d; display: block; }
+        .status.error { background: #5a1818; color: #ff8b8b; display: block; }
+        .status.loading { background: #1a1a1a; color: #ffd166; display: block; }
+
+        .image-preview {
+            width: 100%;
+            height: 200px;
+            background: var(--bg);
+            border: 2px dashed var(--accent);
+            border-radius: 8px;
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .image-preview img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+        }
+
+        .hidden { display: none; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>RNTR ADMIN PANEL</h1>
+        </header>
+
+        <!-- Login Screen -->
+        <div id="login-screen" class="card">
+            <p style="margin-bottom: 20px; text-align: center; color: var(--text-dim);">Devam etmek için erişim token'ınızı girin.</p>
+            <div class="form-group">
+                <label>GitHub Personal Access Token</label>
+                <input type="password" id="gh-token" placeholder="ghp_xxxxxxxxxxxx">
+            </div>
+            <div class="form-group">
+                <label>GitHub Kullanıcı Adı</label>
+                <input type="text" id="gh-username" placeholder="yusufyol">
+            </div>
+            <div class="form-group">
+                <label>Repo Adı</label>
+                <input type="text" id="gh-repo" placeholder="Yeni-klas-r">
+            </div>
+            <button class="btn btn-primary" onclick="login()">Giriş Yap</button>
+            <p style="font-size: 0.7rem; color: var(--text-dim); margin-top: 15px; text-align: center;">Token'ınız tarayıcıda güvenli bir şekilde saklanacaktır.</p>
+        </div>
+
+        <!-- Admin Form -->
+        <div id="admin-form" class="card">
+            <div class="form-group">
+                <label>Kategori</label>
+                <select id="news-category">
+                    <option value="formula 1">Formula 1</option>
+                    <option value="motogp">MotoGP</option>
+                    <option value="milli sporcularımız">Milli Sporcularımız</option>
+                    <option value="haberler">Haberler</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Haber Başlığı</label>
+                <input type="text" id="news-title" placeholder="Başlık girin...">
+            </div>
+
+            <div class="form-group">
+                <label>Haber İçeriği (Satır başları için &lt;br&gt; kullanın)</label>
+                <textarea id="news-content" placeholder="Haber metnini buraya yazın..."></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>Fotoğraf Seç</label>
+                <input type="file" id="news-image" accept="image/*" onchange="previewImage(this)">
+                <div class="image-preview" id="image-preview">
+                    <span style="color: var(--accent);">Görsel Seçilmedi</span>
+                </div>
+            </div>
+
+            <button class="btn btn-primary" id="publish-btn" onclick="publishNews()">Haberi Yayınla</button>
+            <button class="btn btn-secondary" onclick="logout()">Çıkış Yap</button>
+            
+            <div id="status-msg" class="status"></div>
+        </div>
+    </div>
+
+    <script>
+        // Folder mapping
+        const CATEGORY_FOLDERS = {
+            "formula 1": "Resimler/Formula 1 Haberler/",
+            "motogp": "Resimler/MotoGP Haberler/",
+            "milli sporcularımız": "Resimler/Milli Sporcularımız Haberler/",
+            "haberler": "Resimler/Haberler/"
+        };
+
+        // Initialize UI
+        const token = localStorage.getItem('gh_token');
+        if (token) {
+            document.getElementById('admin-form').style.display = 'block';
+        } else {
+            document.getElementById('login-screen').style.display = 'block';
+        }
+
+        function login() {
+            const token = document.getElementById('gh-token').value;
+            const user = document.getElementById('gh-username').value;
+            const repo = document.getElementById('gh-repo').value;
+            
+            if (!token || !user || !repo) {
+                alert('Lütfen tüm alanları doldurun.');
+                return;
+            }
+
+            localStorage.setItem('gh_token', token);
+            localStorage.setItem('gh_user', user);
+            localStorage.setItem('gh_repo', repo);
+            
+            location.reload();
+        }
+
+        function logout() {
+            localStorage.clear();
+            location.reload();
+        }
+
+        function previewImage(input) {
+            const preview = document.getElementById('image-preview');
+            if (input.files && input.files[0]) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    preview.innerHTML = `<img src="${e.target.result}">`;
+                }
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        async function publishNews() {
+            const btn = document.getElementById('publish-btn');
+            const status = document.getElementById('status-msg');
+            
+            const title = document.getElementById('news-title').value;
+            const content = document.getElementById('news-content').value;
+            const cat = document.getElementById('news-category').value;
+            const imageFile = document.getElementById('news-image').files[0];
+
+            if (!title || !content || !imageFile) {
+                showStatus('Lütfen tüm alanları doldurun.', 'error');
+                return;
+            }
+
+            btn.disabled = true;
+            showStatus('Haber yayınlanıyor... Lütfen bekleyin.', 'loading');
+
+            try {
+                const token = localStorage.getItem('gh_token');
+                const user = localStorage.getItem('gh_user');
+                const repo = localStorage.getItem('gh_repo');
+
+                // 1. Upload Image
+                const timestamp = Date.now();
+                const fileName = `${timestamp}_${imageFile.name.replace(/\s/g, '_')}`;
+                const folderPath = CATEGORY_FOLDERS[cat];
+                const fullImagePath = folderPath + fileName;
+                
+                const base64Image = await toBase64(imageFile);
+                const imageData = base64Image.split(',')[1];
+
+                await githubRequest(`contents/${fullImagePath}`, 'PUT', {
+                    message: `Haber Görseli: ${title}`,
+                    content: imageData
+                });
+
+                // 2. Update data.js
+                const dataResponse = await githubRequest('contents/data.js', 'GET');
+                const sha = dataResponse.sha;
+                const currentContent = decodeURIComponent(escape(atob(dataResponse.content)));
+                
+                // Extract JSON from "const APP_DATA = { ... };"
+                const jsonStr = currentContent.replace(/const APP_DATA = /, '').replace(/;$/, '');
+                const appData = JSON.parse(jsonStr);
+
+                // Create new news item
+                const now = new Date();
+                const dateStr = now.getFullYear() + '-' + 
+                               String(now.getMonth() + 1).padStart(2, '0') + '-' + 
+                               String(now.getDate()).padStart(2, '0') + ' ' + 
+                               String(now.getHours()).padStart(2, '0') + ':' + 
+                               String(now.getMinutes()).padStart(2, '0');
+
+                // Find next ID
+                let maxId = 0;
+                Object.values(appData).forEach(category => {
+                    if (category.news) {
+                        category.news.forEach(n => { if (n.id > maxId) maxId = n.id; });
+                    }
+                });
+
+                const newId = maxId + 1;
+                const newNews = {
+                    id: newId,
+                    title: title,
+                    cat: cat,
+                    date: dateStr,
+                    content: content.replace(/\n/g, '<br>'),
+                    img: fullImagePath,
+                    author: "Yusuf Yol",
+                    authorImg: "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+                };
+
+                // Add to top and sort (actually unshift is enough if site sorts by date, but let's be sure)
+                appData[cat].news.unshift(newNews);
+                
+                // Final string
+                const newFileContent = "const APP_DATA = " + JSON.stringify(appData, null, 4) + ";";
+
+                await githubRequest('contents/data.js', 'PUT', {
+                    message: `Yeni Haber Eklendi: ${title}`,
+                    content: btoa(unescape(encodeURIComponent(newFileContent))),
+                    sha: sha
+                });
+
+                showStatus('Haber başarıyla yayınlandı! 1-2 dakika içinde sitede görünecektir.', 'success');
+                resetForm();
+            } catch (err) {
+                console.error(err);
+                showStatus('Hata oluştu: ' + err.message, 'error');
+            } finally {
+                btn.disabled = false;
+            }
+        }
+
+        function showStatus(msg, type) {
+            const status = document.getElementById('status-msg');
+            status.textContent = msg;
+            status.className = 'status ' + type;
+        }
+
+        function resetForm() {
+            document.getElementById('news-title').value = '';
+            document.getElementById('news-content').value = '';
+            document.getElementById('news-image').value = '';
+            document.getElementById('image-preview').innerHTML = '<span style="color: var(--accent);">Görsel Seçilmedi</span>';
+        }
+
+        async function githubRequest(path, method, body = null) {
+            const token = localStorage.getItem('gh_token');
+            const user = localStorage.getItem('gh_user');
+            const repo = localStorage.getItem('gh_repo');
+            
+            const url = `https://api.github.com/repos/${user}/${repo}/${path}`;
+            const headers = {
+                'Authorization': `token ${token}`,
+                'Accept': 'application/vnd.github.v3+json',
+                'Content-Type': 'application/json'
+            };
+
+            const options = { method, headers };
+            if (body) options.body = JSON.stringify(body);
+
+            const response = await fetch(url, options);
+            if (!response.ok) {
+                const errorData = await response.json();
+                throw new Error(errorData.message || 'GitHub isteği başarısız.');
+            }
+            return response.json();
+        }
+
+        function toBase64(file) {
+            return new Promise((resolve, reject) => {
+                const reader = new FileReader();
+                reader.readAsDataURL(file);
+                reader.onload = () => resolve(reader.result);
+                reader.onerror = error => reject(error);
+            });
+        }
+    </script>
+</body>
+</html>
