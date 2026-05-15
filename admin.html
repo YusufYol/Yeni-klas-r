@@ -194,6 +194,19 @@
             </div>
 
             <div class="form-group">
+                <label>Haber Yazarı</label>
+                <select id="news-author">
+                    <option value="Yusuf Yol">Yusuf Yol</option>
+                    <option value="Emre Boz">Emre Boz</option>
+                    <option value="Burak Yasul">Burak Yasul</option>
+                    <option value="Özge Yılmaz">Özge Yılmaz</option>
+                    <option value="Azra Şahin">Azra Şahin</option>
+                    <option value="Diğer">Diğer (Elle Yaz)</option>
+                </select>
+                <input type="text" id="news-author-custom" placeholder="Yazar adını girin..." style="display:none; margin-top:10px;">
+            </div>
+
+            <div class="form-group">
                 <label>Haber Başlığı</label>
                 <input type="text" id="news-title" placeholder="Başlık girin...">
             </div>
@@ -226,6 +239,12 @@
             "milli sporcularımız": "Resimler/Milli Sporcularımız Haberler/",
             "haberler": "Resimler/Haberler/"
         };
+
+        // Author custom logic
+        document.getElementById('news-author').addEventListener('change', function() {
+            const customInput = document.getElementById('news-author-custom');
+            customInput.style.display = this.value === 'Diğer' ? 'block' : 'none';
+        });
 
         // Initialize UI
         const token = localStorage.getItem('gh_token');
@@ -275,9 +294,13 @@
             const title = document.getElementById('news-title').value;
             const content = document.getElementById('news-content').value;
             const cat = document.getElementById('news-category').value;
+            const authorSelect = document.getElementById('news-author').value;
+            const authorCustom = document.getElementById('news-author-custom').value;
             const imageFile = document.getElementById('news-image').files[0];
 
-            if (!title || !content || !imageFile) {
+            let authorName = authorSelect === 'Diğer' ? authorCustom : authorSelect;
+
+            if (!title || !content || !imageFile || !authorName) {
                 showStatus('Lütfen tüm alanları doldurun.', 'error');
                 return;
             }
@@ -337,8 +360,8 @@
                     date: dateStr,
                     content: content.replace(/\n/g, '<br>'),
                     img: fullImagePath,
-                    author: "Yusuf Yol",
-                    authorImg: "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+                    author: authorName,
+                    authorImg: `Resimler/Haber Yazarı Fotoğrafları/${authorName}.png`
                 };
 
                 // Add to top and sort (actually unshift is enough if site sorts by date, but let's be sure)
