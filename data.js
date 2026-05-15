@@ -560,6 +560,16 @@ const APP_DATA = {
                 "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Emre Boz.png",
                 "content": "Katalonya’daki ilk serbest antrenman seansı tamamlandı. MotoGP’de hafta sonunun ilk resmi seansında en hızlı isim Alex Marquez oldu.<br><br>Seans sırasında Jorge Martin ve Pedro Acosta kaza yaşadı. Jorge Martin’in kazasının ardından kısa süreli bir sarsıntı yaşadığı görülse de sağlık durumunun iyi olduğu belirtildi.<br><br>Seansın temposunu belirleyen Alex Marquez, attığı hızlı turla ilk antrenman seansını zirvede tamamlamayı başardı.<br><br>Hava sıcaklığının ideal seviyelerin altında olması sürücülerin piste adapte olmasını zorlaştırırken, temsilcimiz Toprak Razgatlıoğlu seansı 22. sırada noktaladı.<br><br>MotoGP’de Katalonya hafta sonu bugün TSİ 16.00’da gerçekleştirilecek Antrenman Seansı ile devam edecek.",
                 "img": "Resimler/MotoGP Haberler/Alex Barcelona.png"
+            },
+            {
+                "id": 10,
+                "title": "KATALONYA’DA ANTRENMAN SEANSI TAMAMLANDI: PEDRO ACOSTA LİDER, İKİ YAMAHA DOĞRUDAN Q2’DE!",
+                "cat": "motogp",
+                "date": "2026-05-15 17:00",
+                "author": "Emre Boz",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Emre Boz.png",
+                "content": "Katalonya’daki Antrenman Seansı tamamlandı. Günün en hızlı ismi Pedro Acosta olurken, seans sonunda doğrudan Q2’ye kalan isimler de belli oldu.<br><br>Pramac Yamaha pilotu Jack Miller seansı 9. sırada tamamlarken, Yamaha’nın fabrika pilotu Fabio Quartararo ise 10. sırayı aldı. Böylece her iki sürücü de doğrudan Q2’ye kalmaya hak kazandı.<br><br>Temsilcimiz Toprak Razgatlıoğlu ise seansı 19. sırada tamamladı.<br><br>MotoGP’de Katalonya hafta sonu yarın gerçekleştirilecek sıralama turları ve sprint yarışıyla devam edecek.",
+                "img": "Resimler/MotoGP Haberler/Pedro Acosta.png"
             }
         ],
         "pilots": [
