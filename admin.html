@@ -189,23 +189,22 @@
 
         <!-- Login Screen -->
         <div id="login-screen" class="card">
-            <p style="margin-bottom: 20px; text-align: center; color: var(--text-dim);">Devam etmek için erişim
-                token'ınızı girin.</p>
-            <div class="form-group">
-                <label>GitHub Personal Access Token</label>
-                <input type="password" id="gh-token" placeholder="ghp_xxxxxxxxxxxx">
+            <div style="text-align: center; margin-bottom: 20px;">
+                <h2 style="color: var(--text); margin-bottom: 5px;">Racing News Türkiye</h2>
+                <p style="color: var(--text-dim); font-size: 0.9rem;">Haber Yönetim Paneli</p>
             </div>
+            
             <div class="form-group">
-                <label>GitHub Kullanıcı Adı</label>
-                <input type="text" id="gh-username" placeholder="yusufyol">
+                <label>Erişim Anahtarı (Token)</label>
+                <input type="password" id="gh-token" placeholder="Erişim anahtarınızı yapıştırın...">
             </div>
-            <div class="form-group">
-                <label>Repo Adı</label>
-                <input type="text" id="gh-repo" placeholder="Yeni-klas-r">
-            </div>
-            <button class="btn btn-primary" onclick="login()">Giriş Yap</button>
-            <p style="font-size: 0.7rem; color: var(--text-dim); margin-top: 15px; text-align: center;">Token'ınız
-                tarayıcıda güvenli bir şekilde saklanacaktır.</p>
+
+            <!-- Arka planda kullanılacak gizli alanlar (isteğe bağlı, ama login fonksiyonunda sabitlemek daha temiz) -->
+            <button class="btn btn-primary" onclick="login()">Panele Giriş Yap</button>
+            
+            <p style="font-size: 0.7rem; color: var(--text-dim); margin-top: 15px; text-align: center;">
+                Güvenli giriş için size verilen özel anahtarı kullanın.
+            </p>
         </div>
 
         <!-- Admin Form -->
@@ -284,11 +283,12 @@
 
         function login() {
             const token = document.getElementById('gh-token').value;
-            const user = document.getElementById('gh-username').value;
-            const repo = document.getElementById('gh-repo').value;
+            // Sabit GitHub Bilgileri
+            const user = "YusufYol";
+            const repo = "Yeni-klas-r";
 
-            if (!token || !user || !repo) {
-                alert('Lütfen tüm alanları doldurun.');
+            if (!token) {
+                alert('Lütfen erişim anahtarınızı (token) girin.');
                 return;
             }
 
