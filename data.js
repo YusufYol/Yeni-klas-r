@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 37,
+                "title": "MARKO: \"VERSTAPPEN AYRILSA BİLE F1 YENİ YILDIZINI BULUR\"",
+                "cat": "formula 1",
+                "date": "2026-05-16 11:32",
+                "content": "Red Bull'un danışmanı Helmut Marko, Max Verstappen'in Formula 1'den ayrılması durumunda sporun büyük bir kayıp yaşayacağını kabul etse de F1'in her zaman kendi kahramanlarını yaratacağına inanıyor. Medyaya verdiği demeçte spora olan güvenini dile getiren Marko, \"Max'in ayrılışı kesinlikle büyük bir kayıp olurdu ama sporun doğası böyledir. Birisi gider, yenisi gelir ve bir yıldıza dönüşür. Ancak buradaki asıl mesele sadece Max'in bu durumdan hoşlanıp hoşlanmaması değil; mesele tamamen yarışmanın kendisiyle ilgili\" ifadelerini kullandı. Red Bull, Verstappen'in olası bir ayrılık kararı alması ihtimaline karşı B planını da hazırlamış durumda; iddialara göre takım, Hollandalı pilotun yerini doldurabilmek için McLaren'ın genç yeteneği Oscar Piastri'yi şimdiden radarında tutuyor.<br><br>Helmut Marko'nun tek endişesi Verstappen'in geleceği değil. Deneyimli yönetici, 2026 yılında devreye girecek yeni teknik kurallar konusunda da ciddi çekinceler taşıyor. Mevcut araç özellikleriyle pistlerde eski heyecanı ve \"saf yarışı\" yakalamanın çok zor olduğunu vurgulayan Marko, \"Kısa vadeli çözümler, motor sporlarının zirvesini yeniden rayına oturtmak için pek yeterli değil. Saf yarış ruhuna ne ölçüde dönebiliriz, gerçekten bilmiyorum\" diyerek endişelerini dile getirdi. Öte yandan Marko, FIA Başkanı Mohammed Ben Sulayem'in 2030 yılına kadar V8 motorların pistlere geri dönebileceğine yönelik yeşil ışık yakmasını büyük bir memnuniyetle karşılıyor ve daha geleneksel, safkan yarış motorlarına dönüş umudunu \"Ne kadar erken gelirse o kadar iyi\" sözleriyle özetliyor.<br><br>Dört dünya şampiyonluğu bulunan Max Verstappen de 2026 kurallarından duyduğu hoşnutsuzluğu gizlemiyor. Özellikle Miami GP simülasyonları ve ayarlamalarından sonra düşüncelerini paylaşan Hollandalı pilot, \"Pistte daha hızlı olabilmek için hâlâ bazı noktalarda bilerek yavaşlamanız gerekiyor. Bu kesinlikle benim görmek istediğim tarzda bir yarış dinamizmi değil; bu sistem sürücüyü hâlâ cezalandırıyor\" dedi. Formula 1'in mevcut atmosferinden ve yeni kuralların getireceği belirsizliklerden sıkılan Verstappen, rotasını Nürburgring 24 Saat gibi efsanevi dayanıklılık (endurance) yarışlarına çevirmeye başladı. Red Bull'un bu sezon yaşadığı teknik gerileme ve zorluklar, Verstappen'i şampiyona liderliğinden uzaklaştırarak şu anda puan durumunda yedinci sıraya kadar düşürmüş durumda. Bu durum, yeni kurallar altında yarışmanın mantıklı olup olmadığını sorgulayan Hollandalı pilotun F1'deki geleceğini her zamankinden daha belirsiz hale getiriyor.",
+                "img": "Resimler/Formula 1 Haberler/1778920346953_1000043740.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 36,
                 "title": "LEWIS HAMILTON, FERNANDO ALONSO’NUN MERCEDES’E GELMESİNİ İSTEMEDİ!",
                 "cat": "formula 1",
