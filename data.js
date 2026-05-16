@@ -1973,6 +1973,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 39,
+                "title": "KATALONYA SPRINT YARIŞINDA ZAFER ÁLEX MÁRQUEZ'İN!",
+                "cat": "motogp",
+                "date": "2026-05-16 17:14",
+                "content": "MotoGP Katalonya Grand Prix'si heyecanı, nefes kesen Sprint yarışı ile başladı. Büyük bir çekişmeye sahne olan yarışı podyumun en üst basamağında tamamlayan isim Alex Marquez oldu. Yarış boyunca sergilediği üstün performansla rakiplerini geride bırakan Marquez, Katalonya'da zaferini ilan etti. Yarışta ikincilik kürsüsüne Pedro Acosta çıkarken, podyumun son basamağını ise yarışı üçüncü sırada tamamlayan Fabio Di Giannantonio tamamladı.<br><br>Temsilcimiz Toprak Razgatlıoğlu ise zorlu pist şartlarında elinden gelenin en iyisini yaparak yarışı 17. sırada noktaladı.",
+                "img": "Resimler/MotoGP Haberler/1778940850728_1000043746.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 38,
                 "title": "KATALONYA’DA 2. SERBEST ANTRENMAN TAMAMLANDI: JOAN MIR SEANSIN ZİRVESİNDE!",
                 "cat": "motogp",
