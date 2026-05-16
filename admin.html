@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Racing News TR - Admin Panel</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Outfit:wght@300;400;600&display=swap"
+        rel="stylesheet">
     <style>
         :root {
             --primary: #e10600;
@@ -53,7 +56,7 @@
             background: var(--card-bg);
             padding: 25px;
             border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
             border: 1px solid var(--accent);
         }
 
@@ -69,7 +72,9 @@
             font-size: 0.9rem;
         }
 
-        input, select, textarea {
+        input,
+        select,
+        textarea {
             width: 100%;
             background: var(--bg);
             border: 1px solid var(--accent);
@@ -81,7 +86,9 @@
             transition: border-color 0.3s;
         }
 
-        input:focus, select:focus, textarea:focus {
+        input:focus,
+        select:focus,
+        textarea:focus {
             border-color: var(--primary);
         }
 
@@ -117,7 +124,8 @@
             margin-top: 10px;
         }
 
-        #login-screen, #admin-form {
+        #login-screen,
+        #admin-form {
             display: none;
         }
 
@@ -130,9 +138,23 @@
             display: none;
         }
 
-        .status.success { background: #1b4332; color: #74c69d; display: block; }
-        .status.error { background: #5a1818; color: #ff8b8b; display: block; }
-        .status.loading { background: #1a1a1a; color: #ffd166; display: block; }
+        .status.success {
+            background: #1b4332;
+            color: #74c69d;
+            display: block;
+        }
+
+        .status.error {
+            background: #5a1818;
+            color: #ff8b8b;
+            display: block;
+        }
+
+        .status.loading {
+            background: #1a1a1a;
+            color: #ffd166;
+            display: block;
+        }
 
         .image-preview {
             width: 100%;
@@ -153,9 +175,12 @@
             object-fit: cover;
         }
 
-        .hidden { display: none; }
+        .hidden {
+            display: none;
+        }
     </style>
 </head>
+
 <body>
     <div class="container">
         <header>
@@ -164,7 +189,8 @@
 
         <!-- Login Screen -->
         <div id="login-screen" class="card">
-            <p style="margin-bottom: 20px; text-align: center; color: var(--text-dim);">Devam etmek için erişim token'ınızı girin.</p>
+            <p style="margin-bottom: 20px; text-align: center; color: var(--text-dim);">Devam etmek için erişim
+                token'ınızı girin.</p>
             <div class="form-group">
                 <label>GitHub Personal Access Token</label>
                 <input type="password" id="gh-token" placeholder="ghp_xxxxxxxxxxxx">
@@ -178,7 +204,8 @@
                 <input type="text" id="gh-repo" placeholder="Yeni-klas-r">
             </div>
             <button class="btn btn-primary" onclick="login()">Giriş Yap</button>
-            <p style="font-size: 0.7rem; color: var(--text-dim); margin-top: 15px; text-align: center;">Token'ınız tarayıcıda güvenli bir şekilde saklanacaktır.</p>
+            <p style="font-size: 0.7rem; color: var(--text-dim); margin-top: 15px; text-align: center;">Token'ınız
+                tarayıcıda güvenli bir şekilde saklanacaktır.</p>
         </div>
 
         <!-- Admin Form -->
@@ -203,7 +230,8 @@
                     <option value="Azra Şahin">Azra Şahin</option>
                     <option value="Diğer">Diğer (Elle Yaz)</option>
                 </select>
-                <input type="text" id="news-author-custom" placeholder="Yazar adını girin..." style="display:none; margin-top:10px;">
+                <input type="text" id="news-author-custom" placeholder="Yazar adını girin..."
+                    style="display:none; margin-top:10px;">
             </div>
 
             <div class="form-group">
@@ -212,7 +240,7 @@
             </div>
 
             <div class="form-group">
-                <label>Haber İçeriği (Satır başları için &lt;br&gt; kullanın)</label>
+                <label>Haber İçeriği</label>
                 <textarea id="news-content" placeholder="Haber metnini buraya yazın..."></textarea>
             </div>
 
@@ -226,7 +254,7 @@
 
             <button class="btn btn-primary" id="publish-btn" onclick="publishNews()">Haberi Yayınla</button>
             <button class="btn btn-secondary" onclick="logout()">Çıkış Yap</button>
-            
+
             <div id="status-msg" class="status"></div>
         </div>
     </div>
@@ -241,7 +269,7 @@
         };
 
         // Author custom logic
-        document.getElementById('news-author').addEventListener('change', function() {
+        document.getElementById('news-author').addEventListener('change', function () {
             const customInput = document.getElementById('news-author-custom');
             customInput.style.display = this.value === 'Diğer' ? 'block' : 'none';
         });
@@ -258,7 +286,7 @@
             const token = document.getElementById('gh-token').value;
             const user = document.getElementById('gh-username').value;
             const repo = document.getElementById('gh-repo').value;
-            
+
             if (!token || !user || !repo) {
                 alert('Lütfen tüm alanları doldurun.');
                 return;
@@ -267,7 +295,7 @@
             localStorage.setItem('gh_token', token);
             localStorage.setItem('gh_user', user);
             localStorage.setItem('gh_repo', repo);
-            
+
             location.reload();
         }
 
@@ -280,7 +308,7 @@
             const preview = document.getElementById('image-preview');
             if (input.files && input.files[0]) {
                 const reader = new FileReader();
-                reader.onload = function(e) {
+                reader.onload = function (e) {
                     preview.innerHTML = `<img src="${e.target.result}">`;
                 }
                 reader.readAsDataURL(input.files[0]);
@@ -290,7 +318,7 @@
         async function publishNews() {
             const btn = document.getElementById('publish-btn');
             const status = document.getElementById('status-msg');
-            
+
             const title = document.getElementById('news-title').value;
             const content = document.getElementById('news-content').value;
             const cat = document.getElementById('news-category').value;
@@ -318,7 +346,7 @@
                 const fileName = `${timestamp}_${imageFile.name.replace(/\s/g, '_')}`;
                 const folderPath = CATEGORY_FOLDERS[cat];
                 const fullImagePath = folderPath + fileName;
-                
+
                 const base64Image = await toBase64(imageFile);
                 const imageData = base64Image.split(',')[1];
 
@@ -331,21 +359,21 @@
                 const dataResponse = await githubRequest('contents/data.js', 'GET');
                 const sha = dataResponse.sha;
                 const currentContent = decodeURIComponent(escape(atob(dataResponse.content)));
-                
+
                 // Extract JSON from "const APP_DATA = { ... };"
                 const startMarker = "const APP_DATA = ";
                 const startIndex = currentContent.indexOf(startMarker);
                 if (startIndex === -1) throw new Error("Veri yapısı (APP_DATA) bulunamadı.");
-                
+
                 const contentAfterStart = currentContent.substring(startIndex + startMarker.length);
-                
+
                 // APP_DATA nesnesinin bittiği ana }; işaretini bulalım
                 // data.js dosyanızda nesne }; ile bitiyor.
                 const endIndex = contentAfterStart.indexOf("};");
                 if (endIndex === -1) throw new Error("Veri yapısının sonu bulunamadı.");
 
                 const jsonStr = contentAfterStart.substring(0, endIndex + 1).trim();
-                
+
                 // JavaScript objesi olarak güvenli bir şekilde parse et (JSON.parse virgüllerde hata verir)
                 let appData;
                 try {
@@ -357,11 +385,11 @@
 
                 // Create new news item
                 const now = new Date();
-                const dateStr = now.getFullYear() + '-' + 
-                               String(now.getMonth() + 1).padStart(2, '0') + '-' + 
-                               String(now.getDate()).padStart(2, '0') + ' ' + 
-                               String(now.getHours()).padStart(2, '0') + ':' + 
-                               String(now.getMinutes()).padStart(2, '0');
+                const dateStr = now.getFullYear() + '-' +
+                    String(now.getMonth() + 1).padStart(2, '0') + '-' +
+                    String(now.getDate()).padStart(2, '0') + ' ' +
+                    String(now.getHours()).padStart(2, '0') + ':' +
+                    String(now.getMinutes()).padStart(2, '0');
 
                 // Find next ID
                 let maxId = 0;
@@ -385,11 +413,11 @@
 
                 // Add to top and sort (actually unshift is enough if site sorts by date, but let's be sure)
                 appData[cat].news.unshift(newNews);
-                
+
                 // Final string - Dosyanın başını ve sonunu koruyarak birleştiriyoruz
                 const beforeAppData = currentContent.substring(0, startIndex);
                 const semicolonIndex = contentAfterStart.indexOf(";", endIndex);
-                const afterAppData = contentAfterStart.substring(semicolonIndex + 1); 
+                const afterAppData = contentAfterStart.substring(semicolonIndex + 1);
 
                 const newFileContent = beforeAppData + "const APP_DATA = " + JSON.stringify(appData, null, 4) + ";" + afterAppData;
 
@@ -426,11 +454,11 @@
             const token = localStorage.getItem('gh_token');
             const user = localStorage.getItem('gh_user');
             const repo = localStorage.getItem('gh_repo');
-            
+
             // Boşlukları ve özel karakterleri URL'e uygun hale getiriyoruz
             const encodedPath = path.split('/').map(segment => encodeURIComponent(segment)).join('/');
             const url = `https://api.github.com/repos/${user}/${repo}/${encodedPath}`;
-            
+
             const headers = {
                 'Authorization': `token ${token}`,
                 'Accept': 'application/vnd.github.v3+json',
@@ -458,4 +486,5 @@
         }
     </script>
 </body>
+
 </html>
