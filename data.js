@@ -4139,6 +4139,16 @@ const APP_DATA = {
     "haberler": {
         "news": [
             {
+                "id": 41,
+                "title": "AYHANCAN GÜVEN’İN YARIŞI TALİHSİZ BİR ŞEKİLDE BİTTİ!",
+                "cat": "haberler",
+                "date": "2026-05-17 00:34",
+                "content": "Kevin Estre’nin yaşadığı talihsiz kaza, temsilcimiz Ayhancan Güven’in Nürburgring 24 Saat yarışındaki mücadelesini erken bitirdi.<br><br>Yarışın ilk bölümünde güçlü bir tempo yakalayan takım, pistte yaşanan yağ sızıntısının ardından büyük bir şok yaşadı. Porsche pilotu Kevin Estre, kaygan zeminde aracının kontrolünü kaybederek bariyerlere çarptı. Yaşanan kaza sonrası araç ağır hasar alırken ekip yarış dışı kaldı.<br><br>Böylelikle temsilcimiz Ayhancan Güven’in Nürburgring 24 Saat macerası da beklenenden çok daha erken sona ermiş oldu.<br><br>Ayhancan Güven, Red Bull Türkiye’ye verdiği röportajda yaşananlarla ilgili şu ifadeleri kullandı:<br><br>“Maalesef istemediğimiz bir noktadayız, yarış dışı kaldık…”<br><br>Nürburgring’de değişken hava ve zorlu pist şartları birçok ekibi zorlamaya devam ederken, yaşanan bu talihsiz olay yarışın en dikkat çeken anlarından biri oldu.",
+                "img": "Resimler/Haberler/1778967293103_IMG_7539.jpeg",
+                "author": "Emre Boz",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Emre Boz.png"
+            },
+            {
                 "id": 40,
                 "title": "NÜRBURGRİNG 24 SAAT'TE BÜYÜK ŞANSSIZLIK: AYHANCAN GÜVEN VE MANTHEY YARIŞ DIŞI!",
                 "cat": "haberler",
