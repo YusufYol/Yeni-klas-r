@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 36,
+                "title": "LEWIS HAMILTON, FERNANDO ALONSO’NUN MERCEDES’E GELMESİNİ İSTEMEDİ!",
+                "cat": "formula 1",
+                "date": "2026-05-16 11:00",
+                "content": "Eski Ferrari ve Mercedes teknik direktörü Aldo Costa, Fernando Alonso’nun 2016 yılında Mercedes’e transfer olma ihtimali hakkında dikkat çekici açıklamalarda bulundu.<br><br>Terruzzi Raconta podcastine konuşan Costa, Nico Rosberg’in Formula 1’den emekli olmasının ardından Mercedes’in Fernando Alonso seçeneğini değerlendirdiğini ancak takım içerisinde bu transfere ciddi bir karşı çıkış olduğunu söyledi.<br><br>Costa’nın açıklamasına göre Lewis Hamilton başta olmak üzere birçok önemli isim Alonso transferine sıcak bakmadı:<br><br>“Mercedes’te Alonso’nun transferi konuşulduğunda buna karşı çıkan bir zincir vardı. Dieter Zetsche, Hamilton ve diğer herkes transfere karşı çıktı.”<br><br>İtalyan mühendis ayrıca Alonso’nun çalışma tarzına dair de dikkat çekici ifadeler kullandı. Costa, İspanyol pilotun saf hız ve sürüş yeteneği açısından olağanüstü olduğunu belirtirken takım içindeki yaklaşımının zaman zaman sorun yarattığını söyledi.<br><br>“Eğer sadece sürüşe ve aracın gelişimine odaklansaydı mükemmel olurdu. Muhtemelen yedi veya sekiz şampiyonluğu olurdu.”<br><br>“Takımı organizasyon açısından yönlendirmeye çalışıyor ve bazı anlaşmazlıklar da burada ortaya çıkıyor.”<br><br>Fernando Alonso, Rosberg’in emekliliğinin ardından Mercedes koltuğuyla anılmış olsa da Alman ekip sonunda Valtteri Bottas ile anlaşmıştı.",
+                "img": "Resimler/Formula 1 Haberler/1778918420879_IMG_7522.jpeg",
+                "author": "Emre Boz",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Emre Boz.png"
+            },
+            {
                 "id": 35,
                 "title": "HORNER VE WOLFF, ALPINE SAHİPLİĞİ SAVAŞINDA KARŞI KARŞIYA!",
                 "cat": "formula 1",
