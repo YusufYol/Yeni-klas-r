@@ -178,6 +178,80 @@
         .hidden {
             display: none;
         }
+
+        .news-list {
+            margin-top: 30px;
+            border-top: 1px solid var(--accent);
+            padding-top: 20px;
+        }
+        .news-list-title {
+            font-size: 1rem;
+            margin-bottom: 15px;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .news-item {
+            background: var(--bg);
+            border: 1px solid var(--accent);
+            border-radius: 8px;
+            padding: 10px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .news-item img {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+        .news-item-info {
+            flex: 1;
+            min-width: 0;
+        }
+        .news-item-title {
+            font-size: 0.8rem;
+            font-weight: 600;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin-bottom: 2px;
+        }
+        .news-item-meta {
+            font-size: 0.7rem;
+            color: var(--text-dim);
+        }
+        .news-item-actions {
+            display: flex;
+            gap: 5px;
+        }
+        .action-btn {
+            padding: 6px 10px;
+            border-radius: 4px;
+            border: none;
+            cursor: pointer;
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        .btn-edit { background: #3a86ff; color: white; }
+        .btn-delete { background: #e63946; color: white; }
+        
+        .edit-mode-indicator {
+            background: #ffb703;
+            color: #000;
+            padding: 8px;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            font-weight: 800;
+            margin-bottom: 15px;
+            text-align: center;
+            display: none;
+            font-family: 'Montserrat', sans-serif;
+        }
     </style>
 </head>
 
@@ -209,6 +283,10 @@
 
         <!-- Admin Form -->
         <div id="admin-form" class="card">
+            <div id="edit-indicator" class="edit-mode-indicator">
+                HABER DÜZENLEME MODU
+            </div>
+
             <div class="form-group">
                 <label>Kategori</label>
                 <select id="news-category">
@@ -252,9 +330,17 @@
             </div>
 
             <button class="btn btn-primary" id="publish-btn" onclick="publishNews()">Haberi Yayınla</button>
-            <button class="btn btn-secondary" onclick="logout()">Çıkış Yap</button>
+            <button class="btn btn-secondary" id="cancel-btn" onclick="cancelEdit()" style="display: none;">Düzenlemeyi İptal Et</button>
+            <button class="btn btn-secondary" id="logout-btn" onclick="logout()">Çıkış Yap</button>
 
             <div id="status-msg" class="status"></div>
+
+            <div class="news-list" id="news-list-container">
+                <div class="news-list-title">Son Haberler</div>
+                <div id="news-items">
+                    <p style="text-align: center; color: var(--text-dim); font-size: 0.8rem;">Haberler yükleniyor...</p>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -267,6 +353,10 @@
             "haberler": "Resimler/Haberler/"
         };
 
+        let editingId = null;
+        let editingCat = null;
+        let currentAppData = null;
+
         // Author custom logic
         document.getElementById('news-author').addEventListener('change', function () {
             const customInput = document.getElementById('news-author-custom');
@@ -277,13 +367,13 @@
         const token = localStorage.getItem('gh_token');
         if (token) {
             document.getElementById('admin-form').style.display = 'block';
+            loadNewsList();
         } else {
             document.getElementById('login-screen').style.display = 'block';
         }
 
         function login() {
             const token = document.getElementById('gh-token').value;
-            // Sabit GitHub Bilgileri
             const user = "YusufYol";
             const repo = "Yeni-klas-r";
 
@@ -315,10 +405,159 @@
             }
         }
 
+        async function getAppData() {
+            const dataResponse = await githubRequest('contents/data.js', 'GET');
+            const sha = dataResponse.sha;
+            const currentContent = decodeURIComponent(escape(atob(dataResponse.content)));
+
+            const startMarker = "const APP_DATA = ";
+            const startIndex = currentContent.indexOf(startMarker);
+            if (startIndex === -1) throw new Error("Veri yapısı (APP_DATA) bulunamadı.");
+
+            const contentAfterStart = currentContent.substring(startIndex + startMarker.length);
+            const endIndex = contentAfterStart.indexOf("};");
+            if (endIndex === -1) throw new Error("Veri yapısının sonu bulunamadı.");
+
+            const jsonStr = contentAfterStart.substring(0, endIndex + 1).trim();
+            
+            let appData;
+            try {
+                appData = new Function("return " + jsonStr)();
+            } catch (e) {
+                console.error("Parse hatası:", e);
+                throw new Error("Veri okunurken hata oluştu.");
+            }
+
+            return { appData, sha, fullContent: currentContent, startIndex, endIndex: startIndex + startMarker.length + endIndex + 2 };
+        }
+
+        async function saveAppData(appData, sha, originalContent, startIndex, endIndex, message) {
+            const beforeAppData = originalContent.substring(0, startIndex);
+            const afterAppData = originalContent.substring(endIndex);
+            const newFileContent = beforeAppData + "const APP_DATA = " + JSON.stringify(appData, null, 4) + ";" + afterAppData;
+
+            await githubRequest('contents/data.js', 'PUT', {
+                message: message,
+                content: btoa(unescape(encodeURIComponent(newFileContent))),
+                sha: sha
+            });
+        }
+
+        async function loadNewsList() {
+            const listContainer = document.getElementById('news-items');
+            try {
+                const { appData } = await getAppData();
+                currentAppData = appData;
+                
+                let allNews = [];
+                Object.keys(appData).forEach(cat => {
+                    if (appData[cat].news) {
+                        appData[cat].news.forEach(n => {
+                            allNews.push({ ...n, categoryKey: cat });
+                        });
+                    }
+                });
+
+                // Sort by ID descending (newest first)
+                allNews.sort((a, b) => b.id - a.id);
+
+                // Show only last 15
+                const displayNews = allNews.slice(0, 15);
+
+                if (displayNews.length === 0) {
+                    listContainer.innerHTML = '<p style="text-align: center; color: var(--text-dim); font-size: 0.8rem;">Henüz haber bulunmuyor.</p>';
+                    return;
+                }
+
+                listContainer.innerHTML = displayNews.map(n => `
+                    <div class="news-item">
+                        <img src="${n.img}" onerror="this.src='https://via.placeholder.com/50x50?text=Yok'">
+                        <div class="news-item-info">
+                            <div class="news-item-title">${n.title}</div>
+                            <div class="news-item-meta">${n.cat.toUpperCase()} | ${n.date}</div>
+                        </div>
+                        <div class="news-item-actions">
+                            <button class="action-btn btn-edit" onclick="editNews('${n.categoryKey}', ${n.id})">Düzenle</button>
+                            <button class="action-btn btn-delete" onclick="deleteNews('${n.categoryKey}', ${n.id})">Sil</button>
+                        </div>
+                    </div>
+                `).join('');
+
+            } catch (err) {
+                console.error(err);
+                listContainer.innerHTML = `<p style="text-align: center; color: #ff8b8b; font-size: 0.8rem;">Yükleme hatası: ${err.message}</p>`;
+            }
+        }
+
+        function editNews(cat, id) {
+            if (!currentAppData) return;
+            const newsItem = currentAppData[cat].news.find(n => n.id === id);
+            if (!newsItem) return;
+
+            editingId = id;
+            editingCat = cat;
+
+            // Fill form
+            document.getElementById('news-category').value = newsItem.cat;
+            document.getElementById('news-title').value = newsItem.title;
+            document.getElementById('news-content').value = newsItem.content.replace(/<br>/g, '\n');
+            
+            const authors = ["Yusuf Yol", "Emre Boz", "Burak Yasul", "Özge Yılmaz", "Azra Şahin"];
+            if (authors.includes(newsItem.author)) {
+                document.getElementById('news-author').value = newsItem.author;
+                document.getElementById('news-author-custom').style.display = 'none';
+            } else {
+                document.getElementById('news-author').value = 'Diğer';
+                document.getElementById('news-author-custom').value = newsItem.author;
+                document.getElementById('news-author-custom').style.display = 'block';
+            }
+
+            document.getElementById('image-preview').innerHTML = `<img src="${newsItem.img}">`;
+            
+            // UI changes
+            document.getElementById('publish-btn').textContent = 'Haber Güncelle';
+            document.getElementById('cancel-btn').style.display = 'block';
+            document.getElementById('edit-indicator').style.display = 'block';
+            
+            // Scroll to top
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function cancelEdit() {
+            editingId = null;
+            editingCat = null;
+            resetForm();
+            document.getElementById('publish-btn').textContent = 'Haberi Yayınla';
+            document.getElementById('cancel-btn').style.display = 'none';
+            document.getElementById('edit-indicator').style.display = 'none';
+        }
+
+        async function deleteNews(cat, id) {
+            if (!confirm('Bu haberi silmek istediğinize emin misiniz?')) return;
+
+            showStatus('Haber siliniyor...', 'loading');
+            try {
+                const { appData, sha, fullContent, startIndex, endIndex } = await getAppData();
+                
+                const newsIndex = appData[cat].news.findIndex(n => n.id === id);
+                if (newsIndex === -1) throw new Error("Haber bulunamadı.");
+
+                const title = appData[cat].news[newsIndex].title;
+                appData[cat].news.splice(newsIndex, 1);
+
+                await saveAppData(appData, sha, fullContent, startIndex, endIndex, `Haber Silindi: ${title}`);
+                
+                showStatus('Haber başarıyla silindi.', 'success');
+                loadNewsList();
+                if (editingId === id) cancelEdit();
+            } catch (err) {
+                console.error(err);
+                showStatus('Silme hatası: ' + err.message, 'error');
+            }
+        }
+
         async function publishNews() {
             const btn = document.getElementById('publish-btn');
-            const status = document.getElementById('status-msg');
-
             const title = document.getElementById('news-title').value;
             const content = document.getElementById('news-content').value;
             const cat = document.getElementById('news-category').value;
@@ -328,110 +567,94 @@
 
             let authorName = authorSelect === 'Diğer' ? authorCustom : authorSelect;
 
-            if (!title || !content || !imageFile || !authorName) {
+            if (!title || !content || !authorName || (!imageFile && !editingId)) {
                 showStatus('Lütfen tüm alanları doldurun.', 'error');
                 return;
             }
 
             btn.disabled = true;
-            showStatus('Haber yayınlanıyor... Lütfen bekleyin.', 'loading');
+            showStatus(editingId ? 'Haber güncelleniyor...' : 'Haber yayınlanıyor...', 'loading');
 
             try {
-                const token = localStorage.getItem('gh_token');
-                const user = localStorage.getItem('gh_user');
-                const repo = localStorage.getItem('gh_repo');
+                let fullImagePath = null;
 
-                // 1. Upload Image
-                const timestamp = Date.now();
-                const fileName = `${timestamp}_${imageFile.name.replace(/\s/g, '_')}`;
-                const folderPath = CATEGORY_FOLDERS[cat];
-                const fullImagePath = folderPath + fileName;
+                // 1. Image handling
+                if (imageFile) {
+                    const timestamp = Date.now();
+                    const fileName = `${timestamp}_${imageFile.name.replace(/\s/g, '_')}`;
+                    const folderPath = CATEGORY_FOLDERS[cat];
+                    fullImagePath = folderPath + fileName;
 
-                const base64Image = await toBase64(imageFile);
-                const imageData = base64Image.split(',')[1];
+                    const base64Image = await toBase64(imageFile);
+                    const imageData = base64Image.split(',')[1];
 
-                await githubRequest(`contents/${fullImagePath}`, 'PUT', {
-                    message: `Haber Görseli: ${title}`,
-                    content: imageData
-                });
-
-                // 2. Update data.js
-                const dataResponse = await githubRequest('contents/data.js', 'GET');
-                const sha = dataResponse.sha;
-                const currentContent = decodeURIComponent(escape(atob(dataResponse.content)));
-
-                // Extract JSON from "const APP_DATA = { ... };"
-                const startMarker = "const APP_DATA = ";
-                const startIndex = currentContent.indexOf(startMarker);
-                if (startIndex === -1) throw new Error("Veri yapısı (APP_DATA) bulunamadı.");
-
-                const contentAfterStart = currentContent.substring(startIndex + startMarker.length);
-
-                // APP_DATA nesnesinin bittiği ana }; işaretini bulalım
-                // data.js dosyanızda nesne }; ile bitiyor.
-                const endIndex = contentAfterStart.indexOf("};");
-                if (endIndex === -1) throw new Error("Veri yapısının sonu bulunamadı.");
-
-                const jsonStr = contentAfterStart.substring(0, endIndex + 1).trim();
-
-                // JavaScript objesi olarak güvenli bir şekilde parse et (JSON.parse virgüllerde hata verir)
-                let appData;
-                try {
-                    appData = new Function("return " + jsonStr)();
-                } catch (e) {
-                    console.error("Parse hatası:", e);
-                    throw new Error("Veri okunurken hata oluştu. Lütfen data.js formatını kontrol edin.");
+                    await githubRequest(`contents/${fullImagePath}`, 'PUT', {
+                        message: `Haber Görseli: ${title}`,
+                        content: imageData
+                    });
                 }
 
-                // Create new news item
-                const now = new Date();
-                const dateStr = now.getFullYear() + '-' +
-                    String(now.getMonth() + 1).padStart(2, '0') + '-' +
-                    String(now.getDate()).padStart(2, '0') + ' ' +
-                    String(now.getHours()).padStart(2, '0') + ':' +
-                    String(now.getMinutes()).padStart(2, '0');
+                // 2. Data handling
+                const { appData, sha, fullContent, startIndex, endIndex } = await getAppData();
 
-                // Find next ID
-                let maxId = 0;
-                Object.values(appData).forEach(category => {
-                    if (category.news) {
-                        category.news.forEach(n => { if (n.id > maxId) maxId = n.id; });
+                if (editingId) {
+                    // Update existing
+                    const newsItem = appData[editingCat].news.find(n => n.id === editingId);
+                    if (!newsItem) throw new Error("Düzenlenecek haber bulunamadı.");
+
+                    // If category changed, move it
+                    if (editingCat !== cat) {
+                        const index = appData[editingCat].news.findIndex(n => n.id === editingId);
+                        appData[editingCat].news.splice(index, 1);
+                        appData[cat].news.unshift(newsItem);
                     }
-                });
 
-                const newId = maxId + 1;
-                const newNews = {
-                    id: newId,
-                    title: title,
-                    cat: cat,
-                    date: dateStr,
-                    content: content.replace(/\n/g, '<br>'),
-                    img: fullImagePath,
-                    author: authorName,
-                    authorImg: `Resimler/Haber Yazarı Fotoğrafları/${authorName}.png`
-                };
+                    newsItem.title = title;
+                    newsItem.cat = cat;
+                    newsItem.content = content.replace(/\n/g, '<br>');
+                    newsItem.author = authorName;
+                    newsItem.authorImg = `Resimler/Haber Yazarı Fotoğrafları/${authorName}.png`;
+                    if (fullImagePath) newsItem.img = fullImagePath;
 
-                // Add to top and sort (actually unshift is enough if site sorts by date, but let's be sure)
-                appData[cat].news.unshift(newNews);
+                    await saveAppData(appData, sha, fullContent, startIndex, endIndex, `Haber Güncellendi: ${title}`);
+                    showStatus('Haber başarıyla güncellendi!', 'success');
+                } else {
+                    // Create new
+                    let maxId = 0;
+                    Object.values(appData).forEach(category => {
+                        if (category.news) {
+                            category.news.forEach(n => { if (n.id > maxId) maxId = n.id; });
+                        }
+                    });
 
-                // Final string - Dosyanın başını ve sonunu koruyarak birleştiriyoruz
-                const beforeAppData = currentContent.substring(0, startIndex);
-                const semicolonIndex = contentAfterStart.indexOf(";", endIndex);
-                const afterAppData = contentAfterStart.substring(semicolonIndex + 1);
+                    const now = new Date();
+                    const dateStr = now.getFullYear() + '-' +
+                        String(now.getMonth() + 1).padStart(2, '0') + '-' +
+                        String(now.getDate()).padStart(2, '0') + ' ' +
+                        String(now.getHours()).padStart(2, '0') + ':' +
+                        String(now.getMinutes()).padStart(2, '0');
 
-                const newFileContent = beforeAppData + "const APP_DATA = " + JSON.stringify(appData, null, 4) + ";" + afterAppData;
+                    const newNews = {
+                        id: maxId + 1,
+                        title: title,
+                        cat: cat,
+                        date: dateStr,
+                        content: content.replace(/\n/g, '<br>'),
+                        img: fullImagePath,
+                        author: authorName,
+                        authorImg: `Resimler/Haber Yazarı Fotoğrafları/${authorName}.png`
+                    };
 
-                await githubRequest('contents/data.js', 'PUT', {
-                    message: `Yeni Haber Eklendi: ${title}`,
-                    content: btoa(unescape(encodeURIComponent(newFileContent))),
-                    sha: sha
-                });
+                    appData[cat].news.unshift(newNews);
+                    await saveAppData(appData, sha, fullContent, startIndex, endIndex, `Yeni Haber Eklendi: ${title}`);
+                    showStatus('Haber başarıyla yayınlandı!', 'success');
+                }
 
-                showStatus('Haber başarıyla yayınlandı! 1-2 dakika içinde sitede görünecektir.', 'success');
-                resetForm();
+                cancelEdit();
+                loadNewsList();
             } catch (err) {
                 console.error(err);
-                showStatus('Hata oluştu: ' + err.message, 'error');
+                showStatus('İşlem hatası: ' + err.message, 'error');
             } finally {
                 btn.disabled = false;
             }
@@ -441,6 +664,9 @@
             const status = document.getElementById('status-msg');
             status.textContent = msg;
             status.className = 'status ' + type;
+            if (type === 'success') {
+                setTimeout(() => { status.className = 'status'; }, 5000);
+            }
         }
 
         function resetForm() {
@@ -448,6 +674,9 @@
             document.getElementById('news-content').value = '';
             document.getElementById('news-image').value = '';
             document.getElementById('image-preview').innerHTML = '<span style="color: var(--accent);">Görsel Seçilmedi</span>';
+            document.getElementById('news-author-custom').value = '';
+            document.getElementById('news-author-custom').style.display = 'none';
+            document.getElementById('news-author').value = 'Yusuf Yol';
         }
 
         async function githubRequest(path, method, body = null) {
@@ -455,7 +684,6 @@
             const user = localStorage.getItem('gh_user');
             const repo = localStorage.getItem('gh_repo');
 
-            // Boşlukları ve özel karakterleri URL'e uygun hale getiriyoruz
             const encodedPath = path.split('/').map(segment => encodeURIComponent(segment)).join('/');
             const url = `https://api.github.com/repos/${user}/${repo}/${encodedPath}`;
 
