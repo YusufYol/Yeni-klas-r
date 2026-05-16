@@ -1973,6 +1973,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 38,
+                "title": "KATALONYA’DA 2. SERBEST ANTRENMAN TAMAMLANDI: JOAN MIR SEANSIN ZİRVESİNDE!",
+                "cat": "motogp",
+                "date": "2026-05-16 11:58",
+                "content": "MotoGP’de Katalonya Grand Prix’si hafta sonunda 2. Serbest Antrenman seansı tamamlandı. Seansın en hızlı ismi Honda pilotu Joan Mir oldu.<br><br>KTM pilotu Pedro Acosta seansı ikinci sırada tamamlarken, VR46 Ducati sürücüsü Fabio Di Giannantonio ise üçüncü sırayı elde etti.<br><br>Takımlar seans boyunca özellikle yarış temposu ve lastik performansı üzerine çalışmalar gerçekleştirdi.<br><br>Temsilcimiz Toprak Razgatlıoğlu ise 2. Serbest Antrenman seansını 18. sırada noktaladı.<br><br>MotoGP’de Katalonya Grand Prix’si hafta sonu sıralama turları ve sprint yarışıyla devam edecek.",
+                "img": "Resimler/MotoGP Haberler/1778921933525_IMG_7528.jpeg",
+                "author": "Emre Boz",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Emre Boz.png"
+            },
+            {
                 "id": 1,
                 "title": "DEV MARKALAR 2027 TESTLERİNİ TAMAMLADI: APRILIA’DA ŞİMDİLİK SES YOK!",
                 "cat": "motogp",
