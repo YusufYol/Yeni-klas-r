@@ -2207,6 +2207,13 @@ const APP_DATA = {
                 "img": "Resimler/MotoGP Pilot ve Takımlar/Johann Zarco.png"
             },
             {
+                "id": "moreira",
+                "name": "Diogo Moreira #11",
+                "team": "Castrol Honda LCR",
+                "titles": 0,
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Diogo Moreira.png"
+            },
+            {
                 "id": "raul",
                 "name": "Raul Fernández #25",
                 "team": "Trackhouse Racing",
