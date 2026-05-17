@@ -300,8 +300,9 @@ function initAppEngine() {
                             // Only apply JS positioning if it's mobile (window width <= 768)
                             if (window.innerWidth <= 768 && content) {
                                 const rect = parent.getBoundingClientRect();
+                                const headerRect = document.querySelector('.main-header').getBoundingClientRect();
                                 content.style.position = 'fixed';
-                                content.style.top = rect.bottom + 'px';
+                                content.style.top = headerRect.bottom + 'px';
                                 // Center it horizontally relative to the item
                                 const contentWidth = 180; // from CSS width
                                 let leftPos = rect.left + (rect.width / 2) - (contentWidth / 2);

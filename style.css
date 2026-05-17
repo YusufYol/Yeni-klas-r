@@ -225,13 +225,13 @@ h3,
     .nav-item {
         white-space: nowrap;
     }
-    
     .dropdown-content {
         position: fixed;
         transform: none;
-        border-radius: 8px;
+        border-radius: 0 0 8px 8px; /* Flat top to blend with header */
         z-index: 2000;
         width: 180px;
+        box-shadow: 0px 8px 16px rgba(0,0,0,0.3);
     }
 }
 
@@ -1430,5 +1430,14 @@ h3,
 
     .news-title {
         font-size: 0.95rem;
+    }
+
+    /* About Page Mobile Fix */
+    .about-page-wrapper {
+        min-height: auto; /* Remove 100vh dependency */
+    }
+    
+    .about-social {
+        margin-top: 40px; /* Fixed space below text instead of pushing to bottom edge */
     }
 }
