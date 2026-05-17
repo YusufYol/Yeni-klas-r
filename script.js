@@ -277,8 +277,31 @@ function initAppEngine() {
                 e.preventDefault();
                 const view = link.dataset.view;
                 const cat = link.dataset.cat;
+                
+                // If it's a dropdown toggle (no view defined), toggle its active state
+                if (!view) {
+                    const parent = link.closest('.nav-item.dropdown');
+                    if (parent) {
+                        const isActive = parent.classList.contains('active');
+                        document.querySelectorAll('.nav-item.dropdown').forEach(d => d.classList.remove('active'));
+                        if (!isActive) {
+                            parent.classList.add('active');
+                        }
+                    }
+                    return;
+                }
+                
+                // Close dropdowns upon navigation
+                document.querySelectorAll('.nav-item.dropdown').forEach(d => d.classList.remove('active'));
                 handleRoute(view, cat);
             });
+        });
+
+        // Close dropdowns if clicking outside
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.nav-item.dropdown')) {
+                document.querySelectorAll('.nav-item.dropdown').forEach(d => d.classList.remove('active'));
+            }
         });
 
         document.querySelector('.header-logo-text').addEventListener('click', () => {

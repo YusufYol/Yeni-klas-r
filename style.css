@@ -162,7 +162,8 @@ h3,
     overflow: hidden;
 }
 
-.nav-item.dropdown:hover .dropdown-content {
+.nav-item.dropdown:hover .dropdown-content,
+.nav-item.dropdown.active .dropdown-content {
     display: block;
 }
 
