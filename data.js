@@ -4149,16 +4149,6 @@ const APP_DATA = {
                 "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Emre Boz.png"
             },
             {
-                "id": 40,
-                "title": "NÜRBURGRİNG 24 SAAT'TE BÜYÜK ŞANSSIZLIK: AYHANCAN GÜVEN VE MANTHEY YARIŞ DIŞI!",
-                "cat": "haberler",
-                "date": "2026-05-16 21:21",
-                "content": "Dünyanın en prestijli ve zorlu dayanıklılık yarışlarından biri olan Nürburgring 24 Saat Yarışı, temsilcimiz Ayhancan Güven ve takımı Manthey için talihsiz bir şekilde noktalandı. Yeşil Cehennem'de galibiyet parolasıyla piste çıkan ekip, yarışın henüz ilk 4 saati tamamlanmak üzereyken büyük bir şanssızlık yaşadı.<br><br>Ayhancan Güven'in takım arkadaşı, deneyimli pilot Kevin Estre direksiyon başındayken, önlerindeki başka bir araçtan piste akan yağ tabakası Manthey Porsche'sinin kontrolünü kaybetmesine neden oldu. Kayganlaşan zeminde spin atarak bariyerlere çarpan ve ağır hasar alan araç, bu görünmez kaza sonucunda yarış dışı kaldı. Zafere giden yolda güçlü bir tempoya sahip olan Ayhancan Güven ve ekibi, tamamen kontrolleri dışında gelişen bu talihsiz olayla Nürburgring 24 Saat macerasından bu yıl da galibiyetsiz ayrılmak zorunda kaldı.",
-                "img": "Resimler/Haberler/1778955705892_1000043755.jpg",
-                "author": "Yusuf Yol",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
-            },
-            {
                 "id": 1,
                 "title": "TÜRKİYE OFFROAD ŞAMPİYONASI’NIN İLK AYAĞI TAMAMLANDI!",
                 "cat": "haberler",
