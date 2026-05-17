@@ -162,7 +162,12 @@ h3,
     overflow: hidden;
 }
 
-.nav-item.dropdown:hover .dropdown-content,
+@media (hover: hover) {
+    .nav-item.dropdown:hover .dropdown-content {
+        display: block;
+    }
+}
+
 .nav-item.dropdown.active .dropdown-content {
     display: block;
 }
@@ -223,12 +228,10 @@ h3,
     
     .dropdown-content {
         position: fixed;
-        top: 95px; /* Appx mobile header height */
-        left: 0;
-        width: 100%;
         transform: none;
-        border-radius: 0;
+        border-radius: 8px;
         z-index: 2000;
+        width: 180px;
     }
 }
 

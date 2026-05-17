@@ -283,16 +283,51 @@ function initAppEngine() {
                     const parent = link.closest('.nav-item.dropdown');
                     if (parent) {
                         const isActive = parent.classList.contains('active');
-                        document.querySelectorAll('.nav-item.dropdown').forEach(d => d.classList.remove('active'));
+                        document.querySelectorAll('.nav-item.dropdown').forEach(d => {
+                            d.classList.remove('active');
+                            const content = d.querySelector('.dropdown-content');
+                            if (content) {
+                                content.style.position = '';
+                                content.style.left = '';
+                                content.style.top = '';
+                                content.style.transform = '';
+                            }
+                        });
+                        
                         if (!isActive) {
                             parent.classList.add('active');
+                            const content = parent.querySelector('.dropdown-content');
+                            // Only apply JS positioning if it's mobile (window width <= 768)
+                            if (window.innerWidth <= 768 && content) {
+                                const rect = parent.getBoundingClientRect();
+                                content.style.position = 'fixed';
+                                content.style.top = rect.bottom + 'px';
+                                // Center it horizontally relative to the item
+                                const contentWidth = 180; // from CSS width
+                                let leftPos = rect.left + (rect.width / 2) - (contentWidth / 2);
+                                // Keep it within screen bounds
+                                if (leftPos < 10) leftPos = 10;
+                                if (leftPos + contentWidth > window.innerWidth - 10) {
+                                    leftPos = window.innerWidth - contentWidth - 10;
+                                }
+                                content.style.left = leftPos + 'px';
+                                content.style.width = contentWidth + 'px';
+                            }
                         }
                     }
                     return;
                 }
-                
                 // Close dropdowns upon navigation
-                document.querySelectorAll('.nav-item.dropdown').forEach(d => d.classList.remove('active'));
+                document.querySelectorAll('.nav-item.dropdown').forEach(d => {
+                    d.classList.remove('active');
+                    const content = d.querySelector('.dropdown-content');
+                    if (content) {
+                        content.style.position = '';
+                        content.style.left = '';
+                        content.style.top = '';
+                        content.style.transform = '';
+                    }
+                });
                 handleRoute(view, cat);
             });
         });
@@ -300,7 +335,16 @@ function initAppEngine() {
         // Close dropdowns if clicking outside
         document.addEventListener('click', (e) => {
             if (!e.target.closest('.nav-item.dropdown')) {
-                document.querySelectorAll('.nav-item.dropdown').forEach(d => d.classList.remove('active'));
+                document.querySelectorAll('.nav-item.dropdown').forEach(d => {
+                    d.classList.remove('active');
+                    const content = d.querySelector('.dropdown-content');
+                    if (content) {
+                        content.style.position = '';
+                        content.style.left = '';
+                        content.style.top = '';
+                        content.style.transform = '';
+                    }
+                });
             }
         });
 
