@@ -2526,7 +2526,7 @@ const APP_DATA = {
                 "date": "15-17 Mayıs",
                 "track": "Barcelona",
                 "isoDate": "2026-05-17",
-                "status": "Sıradaki",
+                "status": "Tamamlandı",
                 "sessions": [
                     {
                         "name": "Cuma: 1. Antrenman",
@@ -2569,7 +2569,41 @@ const APP_DATA = {
                 "date": "29-31 Mayıs",
                 "track": "Mugello",
                 "isoDate": "2026-05-31",
-                "status": "Bekliyor"
+                "status": "Sıradaki",
+                "sessions": [
+                    {
+                        "name": "Cuma: 1. Antrenman",
+                        "time": "11:45"
+                    },
+                    {
+                        "name": "Cuma: Ana Antrenman Seansı",
+                        "time": "16:00"
+                    },
+                    {
+                        "name": "Cumartesi: 2.Antrenman Seansı",
+                        "time": "11:10"
+                    },
+                    {
+                        "name": "Cumartesi: Sıralama Turları 1",
+                        "time": "11:50"
+                    },
+                    {
+                        "name": "Cumartesi: Sıralama Turları 2",
+                        "time": "12:15"
+                    },
+                    {
+                        "name": "Cumartesi: Sprint Yarışı",
+                        "time": "16:00"
+                    },
+                    {
+                        "name": "Pazar: Isınma Turları",
+                        "time": "10:40"
+                    },
+                    {
+                        "name": "Pazar: Yarış",
+                        "time": "15:00"
+                    }
+                ]
             },
             {
                 "round": 8,
@@ -4642,14 +4676,20 @@ const CIRCUITS_DB = {
         "description": "Le Mans pisti, sert frenleme noktaları ve 'dur-kalk' karakteriyle pilotların fiziksel sınırlarını zorlayan, sıkça değişen hava koşullarıyla her an sürprizlere açık, MotoGP takviminin en ikonik ve teknik duraklarından biridir."
     },
     "Barcelona": {
-        "len": "4.657 km", "turns": "14", "drs": "Yok", "record": "1:37.536 (Alex Marquez)",
+        "len": "4.657 km", "turns": "14", "drs": "Yok", "record": "1:37.536 (Álex Márquez)",
         "opened": "1992", "firstWinner": "Wayne Rainey (1992)",
         "mostWinsPilot": "Valentino Rossi (7 Galibiyet)", "mostWinsTeam": "Honda (11 Galibiyet)",
         "description": "Uzun düzlüğü, teknik viraj kombinasyonları ve değişken rüzgar şartlarıyla hem lastik yönetimi hem de aerodinamik verimlilik açısından MotoGP takviminin en komple sınavlarından biri olarak kabul edilir."
     },
+    "Mugello": {
+        "len": "5.245 km", "turns": "15", "drs": "Yok", "record": "1:44.169 (Álex Márquez)",
+        "opened": "1976", "firstWinner": "Barry Sheene (1976)",
+        "mostWinsPilot": "Valentino Rossi (7 Galibiyet)", "mostWinsTeam": "Honda (16 Galibiyet)",
+        "description": "Toskana'nın büyüleyici tepeleri arasına kurulu Mugello, adeta bir hız tapınağını andıran 1.1 kilometrelik devasa düzlüğü, kör tepeleri ve yüksek süratli akıcı virajlarıyla pilotların cesaretini ve motosikletlerin sınırlarını en uç noktaya kadar zorlayan ikonik bir pisttir."
+    },
 };
 
-const TRACK_STATS = CIRCUITS_DB["Barcelona"];
+const TRACK_STATS = CIRCUITS_DB["Mugello"];
 
 // Dinamik veriler script.js tarafından güncellenecektir.
 let CURRENT_WEEKEND_DATA = null;
