@@ -29,7 +29,7 @@ self.addEventListener('notificationclick', function(event) {
 
 // Future-proofing for real Push API
 self.addEventListener('push', function(event) {
-    let data = { title: 'Racing News TR', body: 'Yeni bir gelişme var!', url: '/' };
+    let data = { title: 'Racing News TÜRKİYE', body: 'Yeni bir gelişme var!', url: '/' };
     if (event.data) {
         try {
             data = event.data.json();

@@ -115,143 +115,109 @@ h3,
     font-weight: 800;
 }
 
-.menu-btn {
-    background: none;
-    border: none;
-    cursor: pointer;
-    width: 30px;
-    height: 30px;
+/* Header Navigation */
+.header-nav {
+    display: flex;
+    align-items: center;
+    margin: 0 auto; /* Centers the nav in the remaining space */
+    gap: 20px;
+    height: 100%;
 }
 
-.hamburger {
-    width: 25px;
-    height: 3px;
-    background-color: var(--secondary-white);
+.nav-item {
     position: relative;
-    border-radius: 2px;
-}
-
-.hamburger::before,
-.hamburger::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 3px;
-    background-color: var(--secondary-white);
-    border-radius: 2px;
-    left: 0;
-}
-
-.hamburger::before {
-    top: -8px;
-}
-
-.hamburger::after {
-    bottom: -8px;
-}
-
-/* Side Drawer */
-.side-drawer {
-    position: fixed;
-    top: 0;
-    left: -100%;
-    /* Hidden off-screen left */
-    width: 50%;
-    height: 100vh;
-    background-color: var(--primary-red);
-    z-index: 1001;
-    transition: left var(--transition-speed) cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 2px 0 15px rgba(0, 0, 0, 0.3);
-}
-
-.side-drawer.active {
-    left: 0;
-}
-
-.drawer-content {
-    padding: 80px 20px 20px;
     height: 100%;
     display: flex;
-    flex-direction: column;
+    align-items: center;
 }
 
-.drawer-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 1000;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity var(--transition-speed);
-}
-
-.drawer-overlay.active {
-    opacity: 1;
-    visibility: visible;
-}
-
-/* Accordion */
-.accordion-item {
-    margin-bottom: 25px;
-}
-
-.accordion-header {
-    width: 100%;
-    text-align: left;
-    background: none;
-    border: none;
+.nav-link-top {
     color: var(--secondary-white);
-    font-size: 1.1rem;
+    text-decoration: none;
+    font-size: 0.85rem;
     font-weight: 700;
-    padding: 10px 0;
     text-transform: uppercase;
-    letter-spacing: 1px;
     cursor: pointer;
-}
-
-.accordion-body {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease-out;
-    padding-left: 10px;
-}
-
-.accordion-item.active .accordion-body {
-    max-height: 200px;
-    margin-top: 10px;
-}
-
-.nav-link {
-    display: block;
-    color: rgba(255, 255, 255, 0.8);
-    text-decoration: none;
-    padding: 8px 0;
-    font-size: 0.95rem;
     transition: color 0.2s;
+    letter-spacing: 0.5px;
 }
 
-.nav-link:hover {
-    color: var(--secondary-white);
-}
-
-.drawer-footer {
-    margin-top: auto;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-    padding-top: 20px;
-}
-
-.nav-link-bottom {
-    color: var(--secondary-white);
-    text-decoration: none;
-    font-weight: 600;
-    transition: opacity 0.2s;
-}
-
-.nav-link-bottom:hover {
+.nav-link-top:hover {
+    color: var(--light-grey);
     opacity: 0.8;
+}
+
+/* Dropdowns */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: var(--header-height);
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--primary-red);
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+    z-index: 1002;
+    border-radius: 0 0 8px 8px;
+    overflow: hidden;
+}
+
+.nav-item.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content .nav-link {
+    color: var(--secondary-white);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: background-color 0.2s;
+    text-align: center;
+}
+
+.dropdown-content .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Responsive adjustment for header nav (can wrap or scroll on small screens) */
+@media (max-width: 768px) {
+    .main-header {
+        flex-direction: column;
+        height: auto;
+        padding: 15px 0 5px 0;
+    }
+    
+    .app-container {
+        padding-top: 100px; /* Adjust padding for taller mobile header */
+    }
+    
+    .header-logo-text {
+        margin-bottom: 10px;
+        margin-left: 0;
+        font-size: 1.2rem;
+    }
+    
+    .header-nav {
+        margin-left: 0;
+        width: 100%;
+        overflow-x: auto;
+        padding-bottom: 10px;
+        justify-content: flex-start;
+        -webkit-overflow-scrolling: touch;
+        gap: 15px;
+        padding: 0 15px 10px 15px;
+    }
+    
+    .nav-item {
+        white-space: nowrap;
+    }
+    
+    .dropdown-content {
+        left: 0;
+        transform: none;
+    }
 }
 
 #notification-settings {

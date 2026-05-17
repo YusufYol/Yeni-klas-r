@@ -11,7 +11,7 @@
     <link rel="manifest" href="manifest.json">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="Racing News TR">
+    <meta name="apple-mobile-web-app-title" content="Racing News TÜRKİYE">
     <link rel="apple-touch-icon" href="Resimler/Logo/Racing News TR Logo.jpeg">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6510717509739190"
         crossorigin="anonymous"></script>
@@ -103,72 +103,53 @@
 
     <!-- Splash Screen -->
     <div id="splash-screen" class="splash-screen">
-        <h1 class="splash-logo-text">RACING NEWS TR</h1>
+        <h1 class="splash-logo-text">RACING NEWS TÜRKİYE</h1>
     </div>
 
     <div id="app" class="app-container hidden">
         <!-- Header -->
         <header class="main-header">
-            <button id="menu-toggle" class="menu-btn" aria-label="Menü">
-                <div class="hamburger"></div>
-            </button>
-            <span class="header-logo-text">RACING NEWS TR</span>
+            <span class="header-logo-text">RACING NEWS TÜRKİYE</span>
+            <nav class="header-nav">
+                <div class="nav-item">
+                    <a href="#" class="nav-link-top" data-view="home">ANASAYFA</a>
+                </div>
+                <div class="nav-item dropdown">
+                    <span class="nav-link-top">FORMULA 1</span>
+                    <div class="dropdown-content">
+                        <a href="#" class="nav-link" data-view="news" data-cat="formula 1">Haberler</a>
+                        <a href="#" class="nav-link" data-view="pilots" data-cat="formula 1">Pilotlar - Takımlar</a>
+                        <a href="#" class="nav-link" data-view="standings" data-cat="formula 1">Puan Tablosu</a>
+                        <a href="#" class="nav-link" data-view="calendar" data-cat="formula 1">Takvim</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <span class="nav-link-top">MOTOGP</span>
+                    <div class="dropdown-content">
+                        <a href="#" class="nav-link" data-view="news" data-cat="motogp">Haberler</a>
+                        <a href="#" class="nav-link" data-view="pilots" data-cat="motogp">Pilotlar - Takımlar</a>
+                        <a href="#" class="nav-link" data-view="standings" data-cat="motogp">Puan Tablosu</a>
+                        <a href="#" class="nav-link" data-view="calendar" data-cat="motogp">Takvim</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <span class="nav-link-top">HABERLER</span>
+                    <div class="dropdown-content">
+                        <a href="#" class="nav-link" data-view="news" data-cat="haberler">Haberler</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <span class="nav-link-top">MİLLİ SPORCULARIMIZ</span>
+                    <div class="dropdown-content">
+                        <a href="#" class="nav-link" data-view="news" data-cat="milli sporcularımız">Haberler</a>
+                        <a href="#" class="nav-link" data-view="pilots" data-cat="milli sporcularımız">Milli Sporcularımız</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class="nav-link-top" data-view="about">HAKKIMIZDA</a>
+                </div>
+            </nav>
         </header>
-
-        <!-- Side Drawer -->
-        <nav id="side-drawer" class="side-drawer">
-            <div class="drawer-content">
-                <!-- Home Link -->
-                <div class="drawer-home-section" style="margin-bottom: 20px;">
-                    <a href="#" class="nav-link-home" data-view="home"
-                        style="font-size: 1.2rem; font-weight: 800; color: white; text-decoration: none; display: flex; align-items: center; gap: 10px;">
-                        ANASAYFA
-                    </a>
-                </div>
-
-                <div class="accordion">
-                    <!-- Formula 1 -->
-                    <div class="accordion-item" id="formula 1-menu">
-                        <button class="accordion-header">Formula 1</button>
-                        <div class="accordion-body">
-                            <a href="#" class="nav-link" data-view="news" data-cat="formula 1">Haberler</a>
-                            <a href="#" class="nav-link" data-view="pilots" data-cat="formula 1">Pilotlar - Takımlar</a>
-                            <a href="#" class="nav-link" data-view="standings" data-cat="formula 1">Puan Tablosu</a>
-                            <a href="#" class="nav-link" data-view="calendar" data-cat="formula 1">Takvim</a>
-                        </div>
-                    </div>
-                    <!-- MotoGP -->
-                    <div class="accordion-item" id="motogp-menu">
-                        <button class="accordion-header">MotoGP</button>
-                        <div class="accordion-body">
-                            <a href="#" class="nav-link" data-view="news" data-cat="motogp">Haberler</a>
-                            <a href="#" class="nav-link" data-view="pilots" data-cat="motogp">Pilotlar - Takımlar</a>
-                            <a href="#" class="nav-link" data-view="standings" data-cat="motogp">Puan Tablosu</a>
-                            <a href="#" class="nav-link" data-view="calendar" data-cat="motogp">Takvim</a>
-                        </div>
-                    </div>
-                    <!-- Haberler -->
-                    <div class="accordion-item" id="haberler-menu">
-                        <button class="accordion-header">Haberler</button>
-                        <div class="accordion-body">
-                            <a href="#" class="nav-link" data-view="news" data-cat="haberler">Haberler</a>
-                        </div>
-                    </div>
-                    <!-- Milli Sporcularımız -->
-                    <div class="accordion-item" id="milli-sporcularımız-menu">
-                        <button class="accordion-header">Milli Sporcularımız</button>
-                        <div class="accordion-body">
-                            <a href="#" class="nav-link" data-view="news" data-cat="milli sporcularımız">Haberler</a>
-                            <a href="#" class="nav-link" data-view="pilots" data-cat="milli sporcularımız">Milli
-                                Sporcularımız</a>
-                        </div>
-                    </div>
-                    <div class="drawer-footer">
-                        <a href="#" class="nav-link-bottom" data-view="about">Hakkımızda</a>
-                    </div>
-                </div>
-        </nav>
-        <div id="drawer-overlay" class="drawer-overlay"></div>
 
         <!-- Notification Container -->
         <div id="notification-container" class="notification-container"></div>

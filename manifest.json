@@ -1,6 +1,6 @@
 {
   "name": "Racing News Türkiye",
-  "short_name": "Racing News TR",
+  "short_name": "Racing News TÜRKİYE",
   "description": "Türkiye'nin en kapsamlı motorsporları haber sitesi. F1, MotoGP, WEC, Indycar ve Milli Sporcularımız hakkında en güncel haberler.",
   "start_url": "./index.html",
   "display": "standalone",
@@ -28,14 +28,14 @@
       "sizes": "512x512",
       "type": "image/jpeg",
       "form_factor": "wide",
-      "label": "Racing News TR Desktop"
+      "label": "Racing News TÜRKİYE Desktop"
     },
     {
       "src": "Resimler/Logo/Racing News TR Logo.jpeg",
       "sizes": "512x512",
       "type": "image/jpeg",
       "form_factor": "narrow",
-      "label": "Racing News TR Mobile"
+      "label": "Racing News TÜRKİYE Mobile"
     }
   ]
 }

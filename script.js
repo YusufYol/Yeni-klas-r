@@ -2,9 +2,6 @@ function initAppEngine() {
     // UI Elements
     const splashScreen = document.getElementById('splash-screen');
     const appContainer = document.getElementById('app');
-    const menuToggle = document.getElementById('menu-toggle');
-    const sideDrawer = document.getElementById('side-drawer');
-    const drawerOverlay = document.getElementById('drawer-overlay');
     const mainContent = document.getElementById('main-content');
     const notificationContainer = document.getElementById('notification-container');
 
@@ -270,26 +267,16 @@ function initAppEngine() {
         }
 
         setupNavigation();
-        setupAccordions();
         initNotificationSystem(); // Initialize notifications
     }
 
     // 2. Navigation & Routing
-    function toggleDrawer() {
-        sideDrawer.classList.toggle('active');
-        drawerOverlay.classList.toggle('active');
-    }
-
     function setupNavigation() {
-        menuToggle.addEventListener('click', toggleDrawer);
-        drawerOverlay.addEventListener('click', toggleDrawer);
-
-        document.querySelectorAll('.nav-link, .nav-link-bottom, .nav-link-home').forEach(link => {
+        document.querySelectorAll('.nav-link, .nav-link-bottom, .nav-link-home, .nav-link-top').forEach(link => {
             link.addEventListener('click', (e) => {
                 e.preventDefault();
                 const view = link.dataset.view;
                 const cat = link.dataset.cat;
-                if (sideDrawer.classList.contains('active')) toggleDrawer();
                 handleRoute(view, cat);
             });
         });
@@ -384,14 +371,47 @@ function initAppEngine() {
         // Find the main race session
         const raceSession = event.sessions?.find(s => s.name.toLowerCase().includes('yarış') && !s.name.toLowerCase().includes('sprint') && !s.name.toLowerCase().includes('sıralama')) || event.sessions?.[event.sessions.length - 1];
 
+        // Find previous event
+        let prevEventHtml = '';
+        if (event.category) {
+            const catData = getCategoryData(event.category.toLowerCase());
+            if (catData && catData.calendar) {
+                const now = new Date();
+                const pastEvents = catData.calendar.filter(e => {
+                    if (e.status !== "Tamamlandı") return false;
+                    const parts = e.isoDate.split('-');
+                    let eDate = new Date();
+                    if (parts.length === 3) {
+                        eDate = new Date(parts[0], parts[1]-1, parts[2]);
+                    } else {
+                        eDate = new Date(e.isoDate);
+                    }
+                    return eDate < now;
+                });
+                if (pastEvents.length > 0) {
+                    pastEvents.sort((a, b) => new Date(b.isoDate) - new Date(a.isoDate));
+                    const prevEvent = pastEvents[0];
+                    if (prevEvent) {
+                        prevEventHtml = `<span style="cursor:pointer; color:#777; font-weight:700; font-size:0.75rem; text-decoration:none; transition: color 0.2s;" onmouseover="this.style.color='var(--primary-red)'" onmouseout="this.style.color='#777'" onclick="handleRoute('results', '${event.category.toLowerCase()}', true, '${prevEvent.round || prevEvent.track}')">ÖNCEKİ YARIŞ SONUÇLARI &gt;</span>`;
+                    }
+                }
+            }
+        }
+
         container.innerHTML = `
-            <div class="top-race-banner" id="top-race-banner-click">
-                <div class="banner-left">
-                    <span class="banner-title">${event.gp} (${event.category})</span>
-                    <span class="banner-session">Pazar: Yarış ${raceSession ? raceSession.time : ''}</span>
+            <div class="top-race-wrapper" style="border: 1px solid rgba(0,0,0,0.1); border-radius: 12px; margin-bottom: 20px; overflow: hidden; background: white; box-shadow: 0 4px 10px rgba(0,0,0,0.03);">
+                <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; padding: 12px 15px; border-bottom: 1px solid rgba(0,0,0,0.05); background: #fdfdfd;">
+                    <span style="color: var(--primary-red); font-size: 0.8rem; font-weight: 800; text-transform: uppercase;">HAFTA SONU TAKVİMİ</span>
+                    ${prevEventHtml}
                 </div>
-                <div class="banner-right">
-                    ${formatDate(event.isoDate)}
+                <div class="top-race-banner-content" id="top-race-banner-click" style="padding: 15px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+                    <div class="banner-left" style="display: flex; flex-direction: column;">
+                        <span class="banner-title" style="font-size: 0.95rem; font-weight: 800; color: var(--asphalt-black); text-transform: uppercase; margin-bottom: 4px;">${event.gp} (${event.category})</span>
+                        <span class="banner-session" style="font-size: 0.85rem; font-weight: 600; color: #666;">Pazar: Yarış ${raceSession ? raceSession.time : ''}</span>
+                    </div>
+                    <div class="banner-right" style="font-size: 0.85rem; font-weight: 700; color: #888;">
+                        ${formatDate(event.isoDate)}
+                    </div>
                 </div>
             </div>
             <div id="weekend-summary-modal" style="display:none; margin-bottom:25px"></div>
