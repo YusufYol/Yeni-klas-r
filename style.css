@@ -190,13 +190,13 @@ h3,
     }
     
     .app-container {
-        padding-top: 100px; /* Adjust padding for taller mobile header */
+        padding-top: 130px; /* Adjust padding for taller mobile header and extra space below it */
     }
     
     .header-logo-text {
-        margin-bottom: 10px;
+        margin-bottom: 5px;
         margin-left: 0;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
     
     .header-nav {
@@ -208,6 +208,13 @@ h3,
         -webkit-overflow-scrolling: touch;
         gap: 15px;
         padding: 0 15px 10px 15px;
+        /* Hide scrollbar */
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+    
+    .header-nav::-webkit-scrollbar {
+        display: none;
     }
     
     .nav-item {
