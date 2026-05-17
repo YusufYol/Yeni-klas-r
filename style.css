@@ -187,15 +187,15 @@ h3,
     .main-header {
         flex-direction: column;
         height: auto;
-        padding: 15px 0 5px 0;
+        padding: 15px 0 15px 0; /* 15px top and bottom */
     }
     
     .app-container {
-        padding-top: 130px; /* Adjust padding for taller mobile header and extra space below it */
+        padding-top: 110px; /* Header height (~95px) + 15px spacing */
     }
     
     .header-logo-text {
-        margin-bottom: 5px;
+        margin-bottom: 15px; /* Equal space between logo and nav */
         margin-left: 0;
         font-size: 1.3rem;
     }
@@ -204,11 +204,10 @@ h3,
         margin-left: 0;
         width: 100%;
         overflow-x: auto;
-        padding-bottom: 10px;
         justify-content: flex-start;
         -webkit-overflow-scrolling: touch;
         gap: 15px;
-        padding: 0 15px 10px 15px;
+        padding: 0 15px 0 15px;
         /* Hide scrollbar */
         scrollbar-width: none;
         -ms-overflow-style: none;
@@ -223,8 +222,13 @@ h3,
     }
     
     .dropdown-content {
+        position: fixed;
+        top: 95px; /* Appx mobile header height */
         left: 0;
+        width: 100%;
         transform: none;
+        border-radius: 0;
+        z-index: 2000;
     }
 }
 
@@ -1352,9 +1356,7 @@ h3,
         --header-height: 55px;
     }
 
-    .app-container {
-        padding-top: var(--header-height);
-    }
+    /* Removed duplicate .app-container padding-top */
 
     .side-drawer {
         width: 85%; /* Wider on mobile */
