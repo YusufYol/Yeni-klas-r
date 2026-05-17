@@ -2208,7 +2208,7 @@ const APP_DATA = {
             },
             {
                 "id": "moreira",
-                "name": "Dıogo Moreira #11",
+                "name": "Dıogo Moreıra #11",
                 "team": "Castrol Honda LCR",
                 "titles": 0,
                 "img": "Resimler/MotoGP Pilot ve Takımlar/Diogo Moreira.png"
