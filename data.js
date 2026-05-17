@@ -808,10 +808,10 @@ const APP_DATA = {
             },
             {
                 "round": 7,
-                "gp": "Emilia Romagna GP",
-                "country": "İtalya",
+                "gp": "Canadian Grand Prix",
+                "country": "Kanada",
                 "date": "22-24 Mayıs",
-                "track": "Imola",
+                "track": "Circuit Gilles-Villeneuve",
                 "isoDate": "2026-05-24",
                 "status": "Sıradaki",
                 "sessions": [
@@ -4878,12 +4878,6 @@ const CIRCUITS_DB = {
         "mostWinsPilot": "Marc Márquez (MotoGP - 2 Galibiyet)", "mostWinsTeam": "Yamaha (MotoGP - 10 Galibiyet)",
         "description": "Katar'daki Lusail pisti, gece aydınlatması altında düzenlenen yarışlarıyla hem F1 hem de MotoGP takvimlerine ihtişam katar."
     },
-    "Imola": {
-        "len": "4.909 km", "turns": "19", "drs": "1 Bölge", "record": "1:15.484 (Lewis Hamilton)",
-        "opened": "1980", "firstWinner": "Nelson Piquet (1980)",
-        "mostWinsPilot": "Michael Schumacher (7 Galibiyet)", "mostWinsTeam": "Williams ve Ferrari (8 Galibiyet)",
-        "description": "Autodromo Enzo e Dino Ferrari, İtalya'nın motor sporları kalbinde yer alan klasik ve dar yapılı efsanevi bir pisttir."
-    },
     "Miami": {
         "len": "5.412 km", "turns": "19", "drs": "3 Bölge", "record": "1:29.708 (Max Verstappen)",
         "opened": "2022", "firstWinner": "Max Verstappen (2022)",
@@ -4938,9 +4932,15 @@ const CIRCUITS_DB = {
         "mostWinsPilot": "Valentino Rossi (7 Galibiyet)", "mostWinsTeam": "Honda (16 Galibiyet)",
         "description": "Toskana'nın büyüleyici tepeleri arasına kurulu Mugello, adeta bir hız tapınağını andıran 1.1 kilometrelik devasa düzlüğü, kör tepeleri ve yüksek süratli akıcı virajlarıyla pilotların cesaretini ve motosikletlerin sınırlarını en uç noktaya kadar zorlayan ikonik bir pisttir."
     },
+    "Circuit Gilles-Villeneuve": {
+        "len": "4,361 km", "turns": "14", "record": "1:13.078 (Valtteri Bottas)",
+        "opened": "1978", "firstWinner": "Gilles Villeneuve (1978)",
+        "mostWinsPilot": "Michael Schumacher ve Lewis Hamilton (7 Galibiyet)", "mostWinsTeam": "Ferrari (14 Galibiyet)",
+        "description": "Montreal'de bir nehir adasında yer alan, yüksek hız düzlükleri, sert frenleme noktaları ve ünlü 'Şampiyonlar Duvarı' ile tanınan Circuit Gilles-Villeneuve, hem pilotların sınırlarını zorlayan hem de bolca geçiş imkanı sunan yarı cadde pisti karakterinde ikonik bir Formula 1 pistidir."
+    },
 };
 
-const TRACK_STATS = CIRCUITS_DB["Mugello"];
+const TRACK_STATS = CIRCUITS_DB["Circuit Gilles-Villeneuve"];
 
 // Dinamik veriler script.js tarafından güncellenecektir.
 let CURRENT_WEEKEND_DATA = null;
