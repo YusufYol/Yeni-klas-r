@@ -1978,7 +1978,7 @@ const APP_DATA = {
                 "cat": "motogp",
                 "date": "2026-05-21 16:16",
                 "content": "Katalunya Grand Prix'sinde yaşadığı korkutucu kazayla yürekleri ağza getiren Gresini Racing sürücüsü Alex Marquez'den kötü haber geldi. Kazanın ardından sağ köprücük kemiğindeki kırık nedeniyle başarılı bir operasyon geçiren ve C7 omurunda ufak bir çatlak tespit edilen İspanyol pilotun tedavi süreci devam ediyor.<br><br>Takımdan yapılan son açıklamaya göre Marquez, tam olarak sağlığına kavuşabilmek adına pistlerden bir süre uzak kalacak. Bu doğrultuda başarılı sürücü, takvimin heyecanla beklenen iki önemli ayağı olan İtalya ve Macaristan GP'lerinde griddeki yerini alamayacak. Marquez'in haziran ayının sonundaki Çekya GP'si ile pistlere dönmesi hedeflenirken, Gresini ekibi bu süreçte sürücüsünün tamamen iyileşmesine odaklanmış durumda.",
-                "img": "Resimler/MotoGP Haberler/1779369410964_1000043949.jpg",
+                "img": "Resimler/MotoGP Haberler/1779369707122_1000043952.jpg",
                 "author": "Yusuf Yol",
                 "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
             },
