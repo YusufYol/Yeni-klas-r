@@ -1973,6 +1973,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 44,
+                "title": "MOTOGP'DE YEDEK MOTORSİKLETLER YASAKLANIYOR MU ?",
+                "cat": "motogp",
+                "date": "2026-05-21 16:46",
+                "content": "MotoGP dünyası, maliyetleri düşürmek adına son yılların en radikal kural değişikliği fısıltısıyla çalkalanıyor. Kulislere düşen iddialara göre, 2027 yılındaki büyük teknik regülasyon yönetmeliğiyle birlikte pilotların garajdaki ikinci (yedek) motosiklet hakkının elinden alınması planlanıyor.<br><br>Takımların devasa bütçelerini dizginlemeyi amaçlayan bu hamle, yürürlüğe girerse hafta sonu stratejilerini tamamen değiştirecek. Şu an için sadece bir söylenti olan ve yürürlüğe girmesi için üreticiler (MSMA), Dorna ve FIM gibi tüm paydaşların oy birliğiyle onay vermesi gereken bu \"tek motosiklet\" kuralı, özellikle bütçesi kısıtlı uydu takımlarına nefes aldırabilir. Ancak bu durum, yarış içinde yağmur başladığında yapılan \"flag-to-flag\" motosiklet değişimlerini nasıl etkileyecek ve antrenmanlarda kaza yapan pilotların seansa dönmesini nasıl engelleyecek? Cevabı merakla beklenen bu soru, padoğu uzun süre meşgul edeceğe benziyor.",
+                "img": "Resimler/MotoGP Haberler/1779371157621_1000043958.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 43,
                 "title": "ÁLEX MÁRQUEZ, İTALYA VE MACARİSTAN GP'Yİ KAÇIRACAK!",
                 "cat": "motogp",
