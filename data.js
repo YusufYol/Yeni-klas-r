@@ -4464,6 +4464,16 @@ const APP_DATA = {
     "haberler": {
         "news": [
             {
+                "id": 46,
+                "title": "NASCAR'IN YAŞAYAN EFSANESİ 41 YAŞINDA HAYATINI KAYBETTİ!",
+                "cat": "haberler",
+                "date": "2026-05-22 09:39",
+                "content": "Motor sporları dünyası, tarihinin en büyük şoklarından birini yaşıyor. NASCAR'ın ulusal serilerinde elde ettiği 234 galibiyetle tarihin en çok kazanan ismi olan, 2 kez Cup Series şampiyonu ve aktif yarış kariyerine devam eden efsane pilot Kyle Busch, 41 yaşında hayatını kaybetti.<br><br>Sabah saatlerinde aniden rahatsızlanarak hastaneye kaldırılan ve tedavi altına alınan yıldız pilotun, yapılan tüm müdahalelere rağmen kurtarılamadığı açıklandı. Henüz resmi olarak sebebi belirtilmeyen bu ani ve gizemli rahatsızlık, başta sadık taraftar kitlesi \"Rowdy Nation\" olmak üzere tüm motor sporları camiasını derin bir yasa boğdu. NASCAR ve Richard Childress Racing ailesi, yaptıkları ortak açıklamada efsanevi sürücünün kaybından dolayı büyük bir üzüntü duyduklarını belirterek ailesine başsağlığı diledi.",
+                "img": "Resimler/Haberler/1779431968643_1000043970.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 41,
                 "title": "AYHANCAN GÜVEN’İN YARIŞI TALİHSİZ BİR ŞEKİLDE BİTTİ!",
                 "cat": "haberler",
