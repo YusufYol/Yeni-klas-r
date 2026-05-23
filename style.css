@@ -91,6 +91,13 @@ h3,
 .app-container {
     padding-top: var(--header-height);
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-area {
+    flex: 1 0 auto;
+    padding-bottom: 30px;
 }
 
 /* Header */
@@ -1440,4 +1447,84 @@ h3,
     .about-social {
         margin-top: 40px; /* Fixed space below text instead of pushing to bottom edge */
     }
+}
+
+/* --- FOOTER STYLES --- */
+.main-footer {
+    background: #0a0a0a;
+    padding: 30px 20px;
+    border-top: 2px solid var(--primary-red);
+    text-align: center;
+    margin-top: auto;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.nav-link-bottom {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.nav-link-bottom:hover {
+    color: var(--primary-red);
+}
+
+.footer-copyright {
+    color: #666;
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+
+/* Policy Content Styles */
+.policy-container {
+    padding: 20px;
+    width: 92%;
+    max-width: 800px;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.policy-container h1, .policy-container h2 {
+    color: var(--asphalt-black);
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.policy-container p {
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.policy-container ul {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    color: #444;
+    line-height: 1.6;
+}
+
+.contact-box {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.contact-email {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--primary-red);
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
 }

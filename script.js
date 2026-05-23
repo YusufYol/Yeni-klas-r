@@ -400,6 +400,15 @@ function initAppEngine() {
             case 'about':
                 renderAbout();
                 break;
+            case 'privacy':
+                renderPrivacy();
+                break;
+            case 'terms':
+                renderTerms();
+                break;
+            case 'contact':
+                renderContact();
+                break;
             case 'home':
                 renderHome();
                 break;
@@ -648,6 +657,7 @@ function initAppEngine() {
                 const idB = parseInt(b.id) || 0;
                 return idB - idA;
             });
+            allNews.splice(10); // Limit to last 10 news
         }
 
         if (container) {
@@ -1157,6 +1167,56 @@ function initAppEngine() {
                         <a href="https://youtube.com" class="sm-link" target="_blank"><img src="${window.APP_ROOT}Resimler/Sosyal Medya Logoları/Youtube.png" alt="YouTube"></a>
                     </div>
                 </div>
+            </div>
+        `;
+    }
+
+    function renderPrivacy() {
+        mainContent.innerHTML = `
+            <div class="policy-container fade-in">
+                <h1>Gizlilik Politikası</h1>
+                <p>Racing News Türkiye olarak ziyaretçilerimizin gizliliğine önem veriyoruz. Bu sayfa, web sitemizi ziyaretiniz sırasında toplanan kişisel verilerin nasıl kullanıldığını ve korunduğunu açıklamaktadır.</p>
+                
+                <h2>Google AdSense ve Çerezler (Cookies)</h2>
+                <ul>
+                    <li>Üçüncü taraf satıcılar (Google dahil), kullanıcıların web sitemize veya diğer web sitelerine yaptıkları önceki ziyaretleri temel alan reklamlar yayınlamak için çerezleri (cookies) kullanır.</li>
+                    <li>Google'ın reklam çerezlerini kullanması, Google ve iş ortaklarının kullanıcılarımıza, sitemize ve/veya internetteki diğer sitelere yaptıkları ziyaretleri temel alan reklamlar sunmasına olanak tanır.</li>
+                    <li>Kullanıcılar, <a href="https://myadcenter.google.com/" target="_blank" rel="noopener noreferrer">Reklam Merkezi</a>'ni ziyaret ederek kişiselleştirilmiş reklamcılığı devre dışı bırakabilirler.</li>
+                </ul>
+
+                <h2>Toplanan Bilgiler</h2>
+                <p>Web sitemiz standart sunucu günlükleri tutmaktadır. Bu günlükler; IP adresleri, tarayıcı türü, internet servis sağlayıcısı, yönlendirme/çıkış sayfaları, platform türü, tarih/saat damgası ve tıklama sayısı gibi verileri içerir. Bu bilgiler eğilimleri analiz etmek, siteyi yönetmek, kullanıcının site içindeki hareketlerini izlemek ve genel demografik bilgileri toplamak amacıyla kullanılır. Bu veriler kişisel olarak tanımlanabilir bilgilerle ilişkilendirilmez.</p>
+
+                <h2>Dış Bağlantılar</h2>
+                <p>Racing News Türkiye, içeriğindeki haber ve yazılarda farklı internet adreslerine bağlantılar verebilir. Sitemiz, link verdiği sitelerin içeriklerinden veya gizlilik prensiplerinden sorumlu değildir.</p>
+            </div>
+        `;
+    }
+
+    function renderTerms() {
+        mainContent.innerHTML = `
+            <div class="policy-container fade-in">
+                <h1>Kullanım Koşulları</h1>
+                <p>Racing News Türkiye web sitesine ("Site") erişerek ve kullanarak, aşağıdaki kullanım koşullarını kabul etmiş sayılırsınız.</p>
+                
+                <h2>Telif Hakkı ve İçerik Kullanımı</h2>
+                <p>Sitemizde yer alan tüm metinler, grafikler, logolar, resimler ve yazılımlar Racing News Türkiye'ye aittir veya lisanslıdır. Sitemizdeki içerikler, kişisel ve ticari olmayan kullanım amaçlarıyla okunabilir ve paylaşılabilir. Ancak, içeriklerimizin kopyalanması, çoğaltılması veya ticari amaçla kullanılması önceden yazılı izin alınmaksızın yasaktır.</p>
+
+                <h2>Sorumluluk Reddi</h2>
+                <p>Sitemizde sunulan haberler, bilgiler ve istatistikler yalnızca genel bilgilendirme amacı taşır. Racing News Türkiye, sitedeki bilgilerin doğruluğu, güncelliği veya eksiksizliği konusunda hiçbir garanti vermez. Site kullanımından doğabilecek doğrudan veya dolaylı zararlardan sitemiz sorumlu tutulamaz.</p>
+
+                <h2>Değişiklik Hakkı</h2>
+                <p>Racing News Türkiye, bu "Kullanım Koşulları" metnini dilediği zaman önceden haber vermeksizin değiştirme hakkını saklı tutar. Değişiklikler sitede yayınlandığı andan itibaren geçerlilik kazanır.</p>
+            </div>
+        `;
+    }
+
+    function renderContact() {
+        mainContent.innerHTML = `
+            <div class="policy-container contact-box fade-in">
+                <h1>İletişim</h1>
+                <p>Görüş, öneri ve reklam teklifleriniz için bizimle iletişime geçebilirsiniz.</p>
+                <a href="mailto:rntadobe@gmail.com" class="contact-email">rntadobe@gmail.com</a>
             </div>
         `;
     }
