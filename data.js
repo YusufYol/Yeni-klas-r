@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 47,
+                "title": "GEORGE RUSSELL İLK SIRAYA GERİ DÖNDÜ: MERCEDESLER SPRINT SIRALAMADA ZİRVEDE!",
+                "cat": "formula 1",
+                "date": "2026-05-23 08:59",
+                "content": "Kanada GP hafta sonu, heyecan dolu bir sprint sıralama turlarına sahne oldu. Seans içindeki büyük git geller ve değişen dengelerin ardından, geçen yıl buradaki ana yarışı kazanarak harika bir hatıra bırakan Mercedes pilotu George Russell, bir kez daha sahneye çıktı ve Sprint Pole pozisyonunu kapmayı başardı. Gümüş Oklar için harika geçen seansı, Russell'ın takım arkadaşı Kimi Antonelli ikinci sırayı alarak taçlandırdı. Onların hemen arkasında ise McLaren pilotları yer aldı; Lando Norris üçüncü, takım arkadaşı Oscar Piastri ise dördüncü cebe yerleşti. Gridin beşinci sırasında Lewis Hamilton kendine yer bulurken, Ferrari'den Charles Leclerc altıncı, Red Bull pilotu Max Verstappen ise hayal kırıklığı yaratan bir seansın ardından ancak yedinci olabildi.<br><br>Sıralama turlarının en şanssız anı ise SQ1'de kaza yapan Fernando Alonso yaşadı. Bu kaza nedeniyle SQ2'de tur atamayan ve elenmekten kurtulamayan tecrübeli pilot, Aston Martin'in sezon genelindeki formsuz grafiğini bir kez daha gözler önüne serdi ve takım yine beklentilerin altında kaldı.",
+                "img": "Resimler/Formula 1 Haberler/1779515971869_1000043983.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 45,
                 "title": "LEWIS HAMILTON EMEKLİLİK İDDİALARINI NET BİR ŞEKİLDE REDDETTİ!",
                 "cat": "formula 1",
