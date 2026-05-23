@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 50,
+                "title": "MAX VERSTAPPEN’DEN EMEKLİLİK AÇIKLAMASI: “BU ŞEKİLDE DEVAM EDEMEM”",
+                "cat": "formula 1",
+                "date": "2026-05-24 02:00",
+                "content": "Formula 1 dünya şampiyonu Max Verstappen, 2027 sezonu için planlanan kural değişiklikleriyle ilgili yaptığı açıklamada dikkat çeken ifadeler kullandı. Hollandalı pilot, mevcut durumun devam etmesi halinde Formula 1’de uzun süre kalmak istemediğini belirtti.<br><br>Verstappen, özellikle 2027 için gündemde olan bazı değişikliklerin engellenmesi ihtimali hakkında konuşurken mental olarak bu tempoyu sürdüremeyeceğini söyledi.<br><br>Red Bull pilotu açıklamasında şu ifadeleri kullandı:<br><br>“Bu böyle devam ederse gelecek sezon çok uzun geçecek ve bu benim istediğim bir şey değil. Mental olarak maalesef bu şekilde devam edemem. Bu asla mümkün değil.”<br><br>Son dönemde Formula 1’in yoğun takvimi ve sporun giderek değişen yapısı hakkında sık sık görüş belirten Verstappen’in bu açıklamaları, geleceğiyle ilgili soru işaretlerini yeniden gündeme getirdi.<br><br>Daha önce de Formula 1 dışında farklı projelerle ilgilenmek istediğini söyleyen Verstappen’in kariyer planlaması hakkındaki sözleri padokta büyük yankı uyandırdı.",
+                "img": "Resimler/Formula 1 Haberler/1779577248882_IMG_7724.jpeg",
+                "author": "Emre Boz",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Emre Boz.png"
+            },
+            {
                 "id": 49,
                 "title": "GEORGE RUSSELL KANADA’DA POLE POZİSYONUNDA!",
                 "cat": "formula 1",
