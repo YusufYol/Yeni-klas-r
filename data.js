@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 49,
+                "title": "GEORGE RUSSELL KANADA’DA POLE POZİSYONUNDA!",
+                "cat": "formula 1",
+                "date": "2026-05-24 00:16",
+                "content": "Kanada Grand Prix’sinde ana yarışın sıralama turları nefes kesen anlara sahne oldu ve pazar günkü büyük yarış öncesi grid şekillendi. Hafta sonunun tartışmasız en formda ismi, Sprint Pole pozisyonunu alıp Sprint yarışını kazandıktan sonra, muazzam bir başarıya daha imza atarak üst üste üçüncü kez ana yarış pole pozisyonunun sahibi oldu. Q3’ün ilk bölümünde istediği turu atamayarak hayranlarını heyecanlandırsa da, eline geçen ikinci şansı kusursuz kullandı ve harika bir dereceyle zirveye yerleşti. Onun hemen arkasında, takım arkadaşı Kimi Antonelli ikinci sırayı alarak takımına ilk çizgiyi getirirken; McLaren pilotları Lando Norris ve Oscar Piastri sırasıyla üçüncü ve dördüncü sıraları elde ederek güçlü bir takipçi grubu oluşturdu.<br><br>Ferrari cephesinde ise sıralama turları büyük bir hayal kırıklığıyla noktalandı. Seansın ilk bölümünde harika bir grafik çizen ve ikinci sıraya kadar yükselen Lewis Hamilton, son turundaki ufak bir hata nedeniyle derecesini geliştiremedi ve pazar günkü yarışa beşinci sıradan başlama hakkı kazandı. Takım arkadaşı Charles Leclerc ise zorlu geçen hafta sonunu tersine çeviremeyerek ancak 8. sırayı alabildi. Red Bull tarafı ise Sprint seanslarına kıyasla daha derli toplu bir görüntü sergiledi; Max Verstappen seansı altıncı sırada tamamlarken, genç yetenek Isack Hadjar 7. sırada kaldı.<br><br>Tüm bu dinamikler ve grid dizilimi, pazar günü saat 23.00’te başlayacak Kanada Grand Prix’si öncesinde motor sporları tutkunlarına harika ve bol geçişli bir yarış vadediyor.",
+                "img": "Resimler/Formula 1 Haberler/1779571010523_1000044000.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 48,
                 "title": "ANTONELLI-RUSSELL SPRINT DÜELLOSUNDA KAZANAN GEORGE RUSSELL!",
                 "cat": "formula 1",
