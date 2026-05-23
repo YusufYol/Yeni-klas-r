@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 48,
+                "title": "ANTONELLI-RUSSELL SPRINT DÜELLOSUNDA KAZANAN GEORGE RUSSELL!",
+                "cat": "formula 1",
+                "date": "2026-05-23 20:38",
+                "content": "Kanada’da gerçekleştirilen heyecan dolu Sprint yarışı, Formula 1 severlere unutulmaz anlar yaşattı. Sprint pole pozisyonundan başlayan George Russell, baştan sona büyük bir direnç göstererek galibiyete uzanmayı başardı. Yarışın en dikkat çeken hikayesi ise Russell ile genç yetenek Kimi Antonelli arasındaki kıyasıya rekabet oldu. Antonelli’nin yer yer gerçekleştirdiği son derece cesur ataklar ve Russell’ın bu ataklara verdiği sert yanıtlar, Formula 1 dünyasına hafızalardan silinmeyen efsanevi Rosberg-Hamilton kapışmasını anımsattı.<br><br>Ancak ikili arasındaki bu nefes kesen liderlik mücadelesi, Antonelli’ye pahalıya patladı; yaşanan yoğun çekişme sırasında momentum kaybeden genç pilot, yerini Lando Norris’e kaptırarak üçüncülüğe geriledi. Yarışın kalan bölümünde Russell’ı yakalayan ve liderlik için baskı kuran Norris ise kendisinden beklenen geçiş hamlelerini yapamayınca yarışı ikinci sırada noktalamak zorunda kaldı.<br><br>Yarışın arka sıralarında ve diğer favori takımlarda da dramatik anlar hakim oldu. McLaren'ın bir diğer pilotu Oscar Piastri yarışı 4. sırada tamamlamayı başarırken, Ferrari pilotu Charles Leclerc beşinci, Lewis Hamilton ise altıncı oldu. Son iki tura kadar yarışı 4. sırada götüren Hamilton, Piastri’nin agresif atağı karşısında yerini kaybetmekle kalmadı, aynı zamanda kaybettiği momentum yüzünden takım arkadaşı Leclerc’e de geçilmekten kurtulamadı.<br><br>Red Bull cephesi için ise adeta kabus gibi bir başlangıç oldu. Takımın genç ismi Isack Hadjar yaşadığı teknik bir problem nedeniyle yarışa erken veda etmek zorunda kalırken, Max Verstappen tempo yakalamakta zorlandığı yarışı adeta rölantide götürerek ancak yedinci sırada bitirebildi. Bu sonuçlarla birlikte Red Bull, Kanada hafta sonuna hiç de hayal ettiği gibi bir başlangıç yapamamış oldu.",
+                "img": "Resimler/Formula 1 Haberler/1779557879572_1000043998.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 47,
                 "title": "GEORGE RUSSELL İLK SIRAYA GERİ DÖNDÜ: MERCEDESLER SPRINT SIRALAMADA ZİRVEDE!",
                 "cat": "formula 1",
