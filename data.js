@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 51,
+                "title": "KANADA’DA DA İNANILMAZ YARIŞIN KAZANANI KIMI ANTONELLI OLUYOR!",
+                "cat": "formula 1",
+                "date": "2026-05-25 01:25",
+                "content": "Kanada Grand Prix’si, şüphesiz sezonun şu ana kadarki en heyecanlı ve unutulmaz mücadelelerinden birine sahne oldu. Yarışa damgasını vuran isim, Mercedes’in genç yeteneği Kimi Antonelli oldu; üst üste dördüncü galibiyetini alarak şampiyona liderliğini perçinledi. Podyumun ikinci basamağında ise Ferrari koltuğunda hafta sonu boyunca harika bir performans sergileyen Lewis Hamilton yer aldı. Ferrari kariyerinin en iyi sonucuna ulaşan ve bu sezon ikinci kez podyuma çıkan Hamilton, uzun süredir bu anı bekleyen Tifosileri adeta sevince boğdu. Hafta sonu boyunca genel olarak zorlanan bir Red Bull izlesek de, hem Sprint yarışında hem de ana yarışta iyi bir direnç gösteren Max Verstappen üçüncü sırayı alarak bu sezonki ilk podyum sevincini yaşadı. Ferrari’nin diğer pilotu Charles Leclerc ise beklentilerin uzağında kaldığı sönük hafta sonunu dördüncü sırada tamamlayabildi.<br><br>Yarışın trajik kahramanı ise şüphesiz Mercedes pilotu George Russell oldu. Yarışa pole pozisyonundan başlayan ve ilk virajda liderliği kaybetmesine rağmen pes etmeyerek yerini geri alan Russell, takım arkadaşı Antonelli ile cesurca, kıyasıya bir tekerlek tekerleğe mücadele ettiler. Ancak aracında yaşanan beklenmedik bir arıza nedeniyle yarış dışı kaldı.<br><br>McLaren cephesinde ise tam anlamıyla bir strateji felaketi yaşandı. Yarış öncesi çiseleyen hafif yağmura aldanarak, herkesin aksine intermediate lastikleriyle başlama riski alan İngiliz ekibi, bu kararın sonucunu çok ağır ödedi. Daha ilk iki turun ardından pite gelerek kuru zemin lastiklerine geçmek zorunda kalan pilotlar gridin arka sıralarına düştüler. Bu kaosun içinde gerilerden yükselmeye çalışan Oscar Piastri, Alexander Albon’a atak yaparken temas yaşadı; bu temas Albon’u yarış dışı bırakırken, ön kanadı kırılan Piastri’ye 10 saniye ceza getirdi. Lastik kurbanı olan diğer McLaren pilotu Lando Norris ise yarışın ortalarına doğru tıpkı Russell gibi mekanik bir sorun yaşayarak bitiş çizgisini göremedi.<br><br>Dramanın, cesur atakların ve strateji savaşlarının zirve yaptığı Kanada’da kartlar yeniden dağıtılırken, Formula 1 dünyası bir sonraki yarışta yaşanacak aksiyonu şimdiden sabırsızlıkla beklemeye başladı.",
+                "img": "Resimler/Formula 1 Haberler/1779661516980_1000044029.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 50,
                 "title": "MAX VERSTAPPEN’DEN EMEKLİLİK AÇIKLAMASI: “BU ŞEKİLDE DEVAM EDEMEM”",
                 "cat": "formula 1",
