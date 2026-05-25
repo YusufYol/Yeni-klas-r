@@ -873,7 +873,7 @@ const APP_DATA = {
                 "date": "22-24 Mayıs",
                 "track": "Circuit Gilles-Villeneuve",
                 "isoDate": "2026-05-24",
-                "status": "Sıradaki",
+                "status": "Tamamlandı",
                 "sessions": [
                     {
                         "name": "Cuma: 1. Antrenman",
