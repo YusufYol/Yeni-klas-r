@@ -602,85 +602,85 @@ const APP_DATA = {
                     "pos": 1,
                     "name": "Andrea Kimi Antonelli #12",
                     "team": "Mercedes-AMG PETRONAS F1 Team",
-                    "pts": 100
+                    "pts": 131
                 },
                 {
                     "pos": 2,
                     "name": "George Russell #63",
                     "team": "Mercedes-AMG PETRONAS F1 Team",
-                    "pts": 80
+                    "pts": 88
                 },
                 {
                     "pos": 3,
                     "name": "Charles Leclerc #16",
                     "team": "Scuderia Ferrari HP",
-                    "pts": 59
+                    "pts": 75
                 },
                 {
                     "pos": 4,
-                    "name": "Lando Norris #1",
-                    "team": "McLaren F1 Team",
-                    "pts": 51
+                    "name": "Lewis Hamilton #44",
+                    "team": "Scuderia Ferrari HP",
+                    "pts": 72
                 },
                 {
                     "pos": 5,
-                    "name": "Lewis Hamilton #44",
-                    "team": "Scuderia Ferrari HP",
-                    "pts": 51
+                    "name": "Lando Norris #1",
+                    "team": "McLaren F1 Team",
+                    "pts": 58
                 },
                 {
                     "pos": 6,
                     "name": "Oscar Piastri #81",
                     "team": "McLaren F1 Team",
-                    "pts": 43
+                    "pts": 48
                 },
                 {
                     "pos": 7,
                     "name": "Max Verstappen #3",
                     "team": "Oracle Red Bull Racing",
-                    "pts": 26
+                    "pts": 43
                 },
                 {
                     "pos": 8,
-                    "name": "Oliver Berman #87",
-                    "team": "Haas F1 Team",
-                    "pts": 17
+                    "name": "Pierre Gasly #10",
+                    "team": "BWT Alpine F1 Team",
+                    "pts": 20
                 },
                 {
                     "pos": 9,
-                    "name": "Pierre Gasly #10",
-                    "team": "BWT Alpine F1 Team",
-                    "pts": 16
+                    "name": "Oliver Berman #87",
+                    "team": "Haas F1 Team",
+                    "pts": 18
                 },
                 {
                     "pos": 10,
                     "name": "Liam Lawson #30",
                     "team": "Visa Cash App RB F1 Team",
-                    "pts": 10
+                    "pts": 16
                 },
                 {
                     "pos": 11,
                     "name": "Franco Colapinto #43",
                     "team": "BWT Alpine F1 Team",
-                    "pts": 7
+                    "pts": 15
                 },
                 {
                     "pos": 12,
-                    "name": "Arvid Lindblad #41",
-                    "team": "Visa Cash App RB F1 Team",
-                    "pts": 4
+                    "name": "Isack Hadjar #6",
+                    "team": "Oracle Red Bull Racing",
+                    "pts": 14
                 },
                 {
                     "pos": 13,
-                    "name": "Isack Hadjar #6",
-                    "team": "Oracle Red Bull Racing",
-                    "pts": 4
+                    "name": "Carlos Sainz Jr. #55",
+                    "team": "Williams Racing",
+                    "pts": 6
                 },
                 {
                     "pos": 14,
-                    "name": "Carlos Sainz Jr. #55",
-                    "team": "Williams Racing",
-                    "pts": 4
+                    "name": "Arvid Lindblad #41",
+                    "team": "Visa Cash App RB F1 Team",
+                    "pts": 5
                 },
                 {
                     "pos": 15,
@@ -720,57 +720,57 @@ const APP_DATA = {
                 },
                 {
                     "pos": 21,
-                    "name": "Fernando Alonso #14",
+                    "name": "Lance Stroll #18",
                     "team": "Aston Martin Aramco F1 Team",
                     "pts": 0
                 },
                 {
                     "pos": 22,
-                    "name": "Lance Stroll #18",
+                    "name": "Fernando Alonso #14",
                     "team": "Aston Martin Aramco F1 Team",
                     "pts": 0
-                }
+                },
             ],
             "teams": [
                 {
                     "pos": 1,
                     "name": "Mercedes-AMG PETRONAS F1 Team",
-                    "pts": 180
+                    "pts": 219
                 },
                 {
                     "pos": 2,
                     "name": "Scuderia Ferrari HP",
-                    "pts": 110
+                    "pts": 147
                 },
                 {
                     "pos": 3,
                     "name": "McLaren F1 Team",
-                    "pts": 94
+                    "pts": 106
                 },
                 {
                     "pos": 4,
                     "name": "Oracle Red Bull Racing",
-                    "pts": 30
+                    "pts": 57
                 },
                 {
                     "pos": 5,
                     "name": "BWT Alpine F1 Team",
-                    "pts": 23
+                    "pts": 35
                 },
                 {
                     "pos": 6,
-                    "name": "Haas F1 Team",
-                    "pts": 18
+                    "name": "Visa Cash App RB F1 Team",
+                    "pts": 21
                 },
                 {
                     "pos": 7,
-                    "name": "Visa Cash App RB F1 Team",
-                    "pts": 14
+                    "name": "Haas F1 Team",
+                    "pts": 19
                 },
                 {
                     "pos": 8,
                     "name": "Williams Racing",
-                    "pts": 5
+                    "pts": 7
                 },
                 {
                     "pos": 9,
@@ -904,7 +904,29 @@ const APP_DATA = {
                 "date": "05-07 Haziran",
                 "track": "Monaco",
                 "isoDate": "2026-06-07",
-                "status": "Bekliyor"
+                "status": "Sıradaki",
+                "sessions": [
+                    {
+                        "name": "Cuma: 1. Antrenman",
+                        "time": "14:30"
+                    },
+                    {
+                        "name": "Cuma: 2. Antrenman",
+                        "time": "18:00"
+                    },
+                    {
+                        "name": "Cumartesi: 3. Antrenman",
+                        "time": "13:30"
+                    },
+                    {
+                        "name": "Cumartesi: Sıralama Turları",
+                        "time": "17:00"
+                    },
+                    {
+                        "name": "Pazar: Yarış",
+                        "time": "16:00"
+                    }
+                ]
             },
             {
                 "round": 9,
@@ -2026,6 +2048,250 @@ const APP_DATA = {
                     "laps": 4,
                     "fastest": false,
                     "status": "NC"
+                }
+            ],
+            "7": [
+                {
+                    "pos": 1,
+                    "pilot": "Andrea Kimi Antonelli #12",
+                    "team": "Mercedes-AMG F1 Team",
+                    "time": "1:28'15.758",
+                    "gap": "-",
+                    "pts": 25,
+                    "laps": 68,
+                    "fastest": true,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 2,
+                    "pilot": "Lewis Hamilton #44",
+                    "team": "Scuderia Ferrari HP",
+                    "time": "1:28'26.526",
+                    "gap": "+10.768",
+                    "pts": 18,
+                    "laps": 68,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 3,
+                    "pilot": "Max Verstappen #3",
+                    "team": "Oracle Red Bull Racing",
+                    "time": "1:28'27.034",
+                    "gap": "11.276",
+                    "pts": 15,
+                    "laps": 68,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 4,
+                    "pilot": "Charles Leclerc #16",
+                    "team": "Scuderia Ferrari HP",
+                    "time": "1:28'59.909",
+                    "gap": "44.151",
+                    "pts": 12,
+                    "laps": 68,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 5,
+                    "pilot": "Isack Hadjar #6",
+                    "team": "Oracle Red Bull Racing",
+                    "time": "1:28'20.791",
+                    "gap": "+1 Tur",
+                    "pts": 10,
+                    "laps": 67,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 6,
+                    "pilot": "Franco Colapinto",
+                    "team": "BWT Alpine F1 Team",
+                    "time": "1:28'35.268",
+                    "gap": "+1 Tur",
+                    "pts": 8,
+                    "laps": 67,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 7,
+                    "pilot": "Liam Lawson #30",
+                    "team": "Visa Cash App RB F1 Team",
+                    "time": "1:28'49.993",
+                    "gap": "+1 Tur",
+                    "pts": 6,
+                    "laps": 67,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 8,
+                    "pilot": "Pierre Gasly #10",
+                    "team": "BWT Alpine F1 Team",
+                    "time": "1:28'50.330",
+                    "gap": "+1 Tur",
+                    "pts": 4,
+                    "laps": 67,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 9,
+                    "pilot": "Carlos Sainz Jr. #55",
+                    "team": "Williams Racing",
+                    "time": "1:29'13.772",
+                    "gap": "+1 Tur",
+                    "pts": 2,
+                    "laps": 67,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 10,
+                    "pilot": "Oliver Bearman #87",
+                    "team": "Haas F1 Team",
+                    "time": "1:29'14.807",
+                    "gap": "+1 Tur",
+                    "pts": 1,
+                    "laps": 67,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 11,
+                    "pilot": "Oscar Piastri #81",
+                    "team": "McLaren F1 Team",
+                    "time": "1:28'28.457",
+                    "gap": "+2 Tur",
+                    "pts": 0,
+                    "laps": 66,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 12,
+                    "pilot": "Nico Hulkenberg #27",
+                    "team": "Audi F1 Team",
+                    "time": "1:28'29.940",
+                    "gap": "+2 Tur",
+                    "pts": 0,
+                    "laps": 66,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 13,
+                    "pilot": "Gabriel Bortoleto #5",
+                    "team": "Audi F1 Team",
+                    "time": "1:28'36.914",
+                    "gap": "+2 Tur",
+                    "pts": 0,
+                    "laps": 66,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 14,
+                    "pilot": "Esteban Ocon #31",
+                    "team": "Haas F1 Team",
+                    "time": "1:29'24.393",
+                    "gap": "+2 Tur",
+                    "pts": 0,
+                    "laps": 66,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 15,
+                    "pilot": "Lance Stroll #18",
+                    "team": "Aston Martin Aramco F1 Team",
+                    "time": "1:28'34.155",
+                    "gap": "+4 Tur",
+                    "pts": 0,
+                    "laps": 64,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 16,
+                    "pilot": "Valtteri Bottas #77",
+                    "team": "Cadillac F1 Team",
+                    "time": "1:29'09.148",
+                    "gap": "+4 Tur",
+                    "pts": 0,
+                    "laps": 64,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": "DNF",
+                    "pilot": "Sergio Perez #11",
+                    "team": "Cadillac F1 Team",
+                    "time": "53'36.890",
+                    "gap": "+29 Tur",
+                    "pts": 0,
+                    "laps": 39,
+                    "fastest": false,
+                    "status": "DNF"
+                },
+                {
+                    "pos": "DNF",
+                    "pilot": "Lando Norris #4",
+                    "team": "McLaren F1 Team",
+                    "time": "50'53.221",
+                    "gap": "+30 Tur",
+                    "pts": 0,
+                    "laps": 38,
+                    "fastest": false,
+                    "status": "DNF"
+                },
+                {
+                    "pos": "DNF",
+                    "pilot": "George Russell #63",
+                    "team": "Mercedes-AMG Petronas F1 Team",
+                    "time": "37'11.054",
+                    "gap": "+39 Tur",
+                    "pts": 0,
+                    "laps": 29,
+                    "fastest": false,
+                    "status": "DNF"
+                },
+                {
+                    "pos": "DNF",
+                    "pilot": "Fernando Alonso #14",
+                    "team": "Aston Martin Aramco F1 Team",
+                    "time": "31'30.980",
+                    "gap": "+45 Tur",
+                    "pts": 0,
+                    "laps": 23,
+                    "fastest": false,
+                    "status": "DNF"
+                },
+                {
+                    "pos": "DNF",
+                    "pilot": "Alexander Albon #23",
+                    "team": "Williams Racing",
+                    "time": "14'56.653",
+                    "gap": "+57 Tur",
+                    "pts": 0,
+                    "laps": 11,
+                    "fastest": false,
+                    "status": "DNF"
+                },
+                {
+                    "pos": "DNF",
+                    "pilot": "Arvid Lindblad #39",
+                    "team": "Visa Cash App RB F1 Team",
+                    "time": "0",
+                    "gap": "+68 Tur",
+                    "pts": 0,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "DNF"
                 }
             ]
         }
@@ -5040,7 +5306,7 @@ const CIRCUITS_DB = {
     },
 };
 
-const TRACK_STATS = CIRCUITS_DB["Circuit Gilles-Villeneuve"];
+const TRACK_STATS = CIRCUITS_DB["Mugello"];
 
 // Dinamik veriler script.js tarafından güncellenecektir.
 let CURRENT_WEEKEND_DATA = null;
