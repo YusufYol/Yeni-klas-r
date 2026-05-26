@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 52,
+                "title": "FERRARI’NİN İLK ELEKTRİKLİ OTOMOBİLİ HAMILTON VE LECLERC TANITTI!",
+                "cat": "formula 1",
+                "date": "2026-05-26 12:32",
+                "content": "Ferrari, markanın tarihindeki ilk tamamen elektrikli otomobili olan Luce modelini resmi olarak tanıttı. Yaklaşık 640.000 dolarlık fiyatıyla dikkat çeken model, Ferrari’nin elektrikli geleceğe attığı en büyük adımlardan biri oldu.<br><br>Tanıtımda otomobilin üzerindeki örtüyü Ferrari Formula 1 pilotları Charles Leclerc ve Lewis Hamilton birlikte kaldırdı. Bu an, markanın hem pistlerdeki hem de yol otomobillerindeki yeni dönemini simgeleyen özel bir görüntü olarak öne çıktı.<br><br>Ferrari Luce, dört elektrik motoruyla birlikte 1.000 beygirin üzerinde güç üretebiliyor. “Boost” modunda maksimum performans sunan otomobil, 0’dan 100 km/s hıza yalnızca 2,5 saniyede ulaşabiliyor.<br><br>Luce’nin açıklanan teknik özellikleri arasında 530 kilometreye kadar menzil, 310 km/s’nin üzerinde maksimum hız ve gelişmiş dört tekerlekten çekiş sistemi yer alıyor. Model, Ferrari’nin klasik performans karakterini tamamen elektrikli bir altyapıyla birleştirmeyi hedefliyor.<br><br>Ferrari’nin ilk elektrikli otomobili olan Luce’nin teslimatlarının 2026’nın sonlarına doğru başlaması bekleniyor.",
+                "img": "Resimler/Formula 1 Haberler/1779787938966_IMG_7763.jpeg",
+                "author": "Emre Boz",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Emre Boz.png"
+            },
+            {
                 "id": 51,
                 "title": "KANADA’DA İNANILMAZ YARIŞIN KAZANANI KIMI ANTONELLI OLUYOR!",
                 "cat": "formula 1",
@@ -729,7 +739,7 @@ const APP_DATA = {
                     "name": "Fernando Alonso #14",
                     "team": "Aston Martin Aramco F1 Team",
                     "pts": 0
-                },
+                }
             ],
             "teams": [
                 {
