@@ -4790,6 +4790,16 @@ const APP_DATA = {
     "haberler": {
         "news": [
             {
+                "id": 53,
+                "title": "MICK SCHUMACHER, INDY 500'DE \"YILIN ÇAYLAK SÜRÜCÜSÜ\" SEÇİLDİ!",
+                "cat": "haberler",
+                "date": "2026-05-26 16:20",
+                "content": "Dünyanın en prestijli motor sporları organizasyonlarından biri olan Indianapolis 500 (Indy 500) yarışlarında muazzam bir başarı hikayesi yazıldı. Bir dönem Formula 1 koltuğunda büyük umutlarla yarışan ancak şanssızlıklar ve takım dinamikleri nedeniyle padoğunda hedeflediği, o hep beklenen ikonik performansa bir türlü ulaşamayan Mick Schumacher, kariyerinde yepyeni ve parlak bir sayfa açtı.<br><br>Amerika'nın efsanevi oval pistinde adeta küllerinden doğan Alman pilot, gösterdiği üstün cesaret, agresif ama olgun sürüş tarzı ve kısa sürede sağladığı adaptasyonla otoritelerden tam not alarak \"Indy 500 Yılın Çaylak Sürücüsü\" (Rookie of the Year) seçildi. F1'deki zorlu günlerin ardından gelen bu tarihi başarı, Schumacher isminin saf yeteneğini ve pes etmeyen karakterini tüm dünyaya bir kez daha kanıtlamış oldu.<br><br>Rahal Letterman Lanigan Racing adına yarışan Mick, 27. sıradan başladığı mücadelede harika bir tırmanış performansı sergileyerek yarışı 18. sırada tamamlamayı başardı. Pistteki diğer 3 çaylak rakibine karşı sergilediği bu istikrarlı ve soğukkanlı sürüşün yanı sıra, uzman jüri tarafından pist dışındaki medya ilişkileri ve yarışa kattığı pozitif etkiyle de takdir topladı. Alınan bu özel unvanla birlikte 50.000 dolarlık ödülün de sahibi olan Schumacher, Formula 1'deki baskı dolu geçen iki yılın ardından okyanusun diğer tarafında kelimenin tam anlamıyla harika bir geri dönüş hikayesine imza attı.",
+                "img": "Resimler/Haberler/1779801656670_1000044114.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 46,
                 "title": "NASCAR'IN YAŞAYAN EFSANESİ 41 YAŞINDA HAYATINI KAYBETTİ!",
                 "cat": "haberler",
