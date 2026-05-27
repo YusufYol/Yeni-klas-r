@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 54,
+                "title": "VALTTERI BOTTAS, MONACO GP'DEN SONRA TAKIMDAN AYRILABİLİR!",
+                "cat": "formula 1",
+                "date": "2026-05-27 11:10",
+                "content": "Sky Italia’nın haberine göre, Formula 1’in yeni takımı Cadillac, Monaco GP’sinin ardından radikal bir hamleye hazırlanıyor. Sezon başında büyük umutlarla Sergio Perez ile birlikte takıma katılan Valtteri Bottas, beklenen performansın çok uzağında kalması nedeniyle takımdan gönderilme tehlikesiyle karşı karşıya.<br><br>​Bu sene spora yeni adım atan Cadillac takımı adına henüz her iki pilot da puan barajını aşmayı başaramadı. Ancak Sergio Perez, aracın limitlerini zorlayarak en azından puan barajına yaklaşan ve mücadeleci bir grafik çizen taraf oldu. Valtteri Bottas ise takım arkadaşının aksine hem yarış temposunda hem de sıralama turlarında Perez’in oldukça gerisinde kaldı. Şu ana kadar hiçbir yarışta varlık gösteremeyen ve gridin arkalarına düşen deneyimli pilot Bottas, bu zayıf performansından dolayı hayal kırıklığı yarattı. <br><br>Monaco GP’sinin ardından Bottas'ı göndermeyi planladığı iddia edilen takımın, bu koltuk için düşündüğü en güçlü aday ise IndyCar’ın başarılı ismi Colton Herta. Cadillac'ın bu hamleyle rekabetçi ve mücadeleci bir takım haline dönmek istiyor.",
+                "img": "Resimler/Formula 1 Haberler/1779869438897_1000044160.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 52,
                 "title": "FERRARI’NİN İLK ELEKTRİKLİ OTOMOBİLİ HAMILTON VE LECLERC TANITTI!",
                 "cat": "formula 1",
