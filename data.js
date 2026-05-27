@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 55,
+                "title": "ALPINE, GUCCI İLE SPONSORLUK ANLAŞMASI YAPTI!",
+                "cat": "formula 1",
+                "date": "2026-05-27 17:48",
+                "content": "Formula 1 dünyasında taşları yerinden oynatacak, hız ve lüksü daha önce hiç olmadığı bir boyutta bir araya getirecek devrim niteliğinde bir iş birliği resmiyet kazandı. Pistlerin köklü ve iddialı ekiplerinden Alpine, yüksek modanın ikonik küresel gücü Gucci ile tarihi bir sponsorluk anlaşmasına imza attı. Bu stratejik ortaklıkla birlikte takım, gelecek sezondan itibaren pistlerde Gucci Racing Formula One Team adıyla boy gösterecek.<br><br>Bu değişim sadece isimle de sınırlı kalmıyor; motor sporlarının mühendislik dehası, Gucci'nin zamansız ve avangart tasarım estetiğiyle padoğa taşınıyor. Gelecek sezondan itibaren takımın tüm kimliği, yarış tulumları ve en önemlisi de asfalta inecek olan yeni nesil F1 araçları, tamamen Gucci’nin ikonik renk paleti ve asil çizgileriyle yeniden yorumlanacak.<br><br>Saf hızın, İtalyan lüksü ve yüksek modanın büyüleyici vizyonuyla harmanlanacağı bu yeni dönem, hem motor sporları tutkunları hem de moda dünyası için padoğun en şık ve en çok konuşulan hikayesi olmaya aday.",
+                "img": "Resimler/Formula 1 Haberler/1779893302172_1000044189.png",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 54,
                 "title": "VALTTERI BOTTAS, MONACO GP'DEN SONRA TAKIMDAN AYRILABİLİR!",
                 "cat": "formula 1",
