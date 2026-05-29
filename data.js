@@ -2329,6 +2329,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 56,
+                "title": "MUGELLO’DA İLK ANTRENMAN TAMAMLANDI: Dİ GIANNANTONIO ZİRVEDE",
+                "cat": "motogp",
+                "date": "2026-05-29 13:12",
+                "content": "MotoGP İtalya Grand Prix’si hafta sonunun ilk serbest antrenman seansı Mugello Pisti’nde tamamlandı. VR46 Racing Team sürücüsü Fabio Di Giannantonio, 1:46.242’lik turuyla seansın en hızlı ismi oldu.<br><br>Jorge Martin, liderin 0.369 saniye gerisinde ikinci sırayı elde ederken, Ai Ogura üçüncü sırada yer aldı. İlk beşi Maverick Viñales ve milli sporcumuz Toprak Razgatlıoğlu'nun takım arkadaşı Jack Miller tamamladı.<br><br>Bir yarışlık aranın ardından pistlere geri dönen Marc Marquez, 1:47.419’luk derecesiyle seansı 15. sırada tamamladı. Ducati Lenovo Team sürücüsü Francesco Bagnaia ise sekizinci sırada yer aldı.<br><br>MotoGP kariyerindeki ilk Mugello hafta sonuna çıkan milli sporcumuz Toprak Razgatlıoğlu ise seansı 21. sırada tamamladı. Toprak, lider Fabio Di Giannantonio’nun 1.823 saniye gerisinde kaldı ve hafta sonunun geri kalanında motosiklete uyum sağlamaya devam edecek.<br><br>Mugello’da MotoGP heyecanı gün içerisinde gerçekleştirilecek diğer seanslarla devam edecek.",
+                "img": "Resimler/MotoGP Haberler/1780049554462_IMG_7857.jpeg",
+                "author": "Emre Boz",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Emre Boz.png"
+            },
+            {
                 "id": 44,
                 "title": "MOTOGP'DE YEDEK MOTORSİKLETLER YASAKLANIYOR MU ?",
                 "cat": "motogp",
