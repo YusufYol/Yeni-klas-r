@@ -3,7 +3,7 @@ const APP_DATA = {
         "news": [
             {
                 "id": 57,
-                "title": "İDDİA: FERRARI İÇİN ADUO KARARI YOLDA",
+                "title": "İDDİA: FERRARI İÇİN ADUO KARARI YOLDA!",
                 "cat": "formula 1",
                 "date": "2026-05-29 13:25",
                 "content": "İtalyan gazeteci Giuliano Duchessa'nın paylaştığı bilgilere göre Ferrari'nin ADUO alması bekleniyor. Duchessa, elde edilen verilerin oldukça net göründüğünü belirtirken, nihai kararın FIA tarafından verileceğini ifade etti.<br><br>Paylaşılan bilgilere göre şu an için belirsizliğini koruyan konu, Ferrari'nin alacağı ADUO'nun seviyesinin ne olacağı. FIA'nın yapacağı değerlendirmenin ardından bunun Seviye 1 mi yoksa Seviye 2 mi olacağı netleşecek.<br><br>Konuyla ilgili olarak FIA tarafından henüz resmi bir açıklama yapılmazken, motorsporları kulislerinde kararın kısa süre içerisinde açıklanabileceği konuşuluyor.<br><br>Ferrari cephesinden de şu ana kadar iddialarla ilgili herhangi bir resmi yorum gelmedi.<br><br>Gelişmeler geldikçe aktarmaya devam edeceğiz.",
