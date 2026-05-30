@@ -2339,6 +2339,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 58,
+                "title": "MARCO BEZZECCHI, REKOR TURLA BİRLİKTE ZİRVEYE GERİ DÖNDÜ!",
+                "cat": "motogp",
+                "date": "2026-05-30 13:54",
+                "content": "Mugello’da gerçekleştirilen MotoGP sıralama turları, pist üstündeki büyük heyecan ve sürprizlerle nefesleri kesti. Günün ilk seansı olan Q1’de harika bir tempo yakalayan Raul Fernandez ilk sırayı alarak adını bir üst seansa yazdırırken, onu genç yetenek Pedro Acosta ikinci sıradan takip etti; seansı üçüncü tamamlayan isim ise Ai Ogura oldu. Temsilcimiz Toprak ise şanssız bir kaza yaparak Q1’i 20. sırada tamamlamak zorunda kaldı.<br><br>Heyecanın zirveye ulaştığı Q2 seansında ise adeta bir rekor yarışı yaşandı. Harika bir tur çıkaran Marco Bezzecchi, kırdığı pist rekoruyla pole pozisyonunun sahibi olmayı başardı. Q1’deki liderliğini Q2’ye de taşıyan ve harika bir gün geçiren Raul Fernandez ikinci sırayı alırken, şampiyonluk mücadelesinin güçlü isimlerinden Jorge Martin ise üçüncülüğü kaparak ilk çizgiyi tamamladı. Çekişmeli, bol aksiyonlu ve seyir zevki yüksek geçen bu sıralama turlarının ardından gözler, bugün saat 16.00’da başlayacak olan büyük heyecana, yani Sprint Yarışı’na çevrildi.",
+                "img": "Resimler/MotoGP Haberler/1780138486634_1000044267.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 56,
                 "title": "MUGELLO’DA İLK ANTRENMAN TAMAMLANDI: Dİ GIANNANTONIO ZİRVEDE",
                 "cat": "motogp",
