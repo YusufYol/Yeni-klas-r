@@ -2339,6 +2339,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 60,
+                "title": "MARCO BEZZECCHI, KENDİ EVİNDE KAZANDI!",
+                "cat": "motogp",
+                "date": "2026-05-31 16:23",
+                "content": "Mugello’da gerçekleştirilen İtalya Grand Prix’si, İtalyan sürücülerin gövde gösterisine sahne olan, nefes kesici bir mücadeleyle tamamlandı. Kendi evinde muazzam bir performans sergileyen İtalyan pilot Marco Bezzecchi, damalı bayrağı ilk sırada görerek podyumun zirvesine çıktı ve yerel taraftarlara büyük bir coşku yaşattı. Yarışı ikinci sırada tamamlayan Jorge Martin podyumun diğer basamağını kaparken, Aprilia takımı ise double podyum yaparak hafta sonunun en başarılı ekiplerinden biri oldu. Podyumun üçüncü basamağında yer alan bir diğer İtalyan Francesco Bagnaia ise evindeki yarışı podyumla taçlandırarak taraftarlarını gururlandırdı.<br><br>Yarışın ilk 10 sırasındaki diğer mücadeleler de en az liderlik savaşı kadar hareketliydi. Bu sezon yükselen form grafiğiyle dikkat çeken Ai Ogura yarışı dördüncü sırada bitirirken, hafta sonu boyunca güçlü bir görüntü çizen ancak bunu podyumla süsleyemeyen Fabio Di Giannantonio beşinci oldu. Onları sırasıyla altıncı sırada Pedro Acosta ve sakatlıktan güçlü bir dönüş yapan tecrübeli isim Marc Marquez yedinci olarak takip etti. Sprint yarışının galibi Trackhouse sürücüsü Raul Fernandez ana yarışta sekizinci sırada kalırken, dokuzuncu sırayı Fermin Aldeguer, ilk 10’un son basamağını ise Diogo Moreira aldı.<br><br>Temsilcimiz Toprak Razgatlıoğlu ise zorlu mücadeleyi, tecrübeli takım arkadaşı Jack Miller’ın hemen arkasında 16. sırada tamamladı.<br><br>Motorsporları tutkunlarının gözü şimdi sezonun bir sonraki durağına çevrildi. Takvimin 9. yarışı olan ve büyük bir heyecanla beklenen Macaristan Grand Prix'si, 5-7 Haziran tarihlerinde gerçekleştirilecek.",
+                "img": "Resimler/MotoGP Haberler/1780233833473_1000044338.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 59,
                 "title": "İTALYA'DA SPRİNT YARIŞINI KAZANAN İSİM RAUL FERNÁNDEZ OLDU!",
                 "cat": "motogp",
