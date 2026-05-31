@@ -5682,7 +5682,7 @@ const CIRCUITS_DB = {
         "len": "3,337 km", "turns": "19", "record": "1:09.954 (Lando Norris)",
         "opened": "1950", "firstWinner": "Juan Manuel Fangio (1950)",
         "mostWinsPilot": "Ayrton Senna (6 Galibiyet)", "mostWinsTeam": "McLaren F1 Team (16 Galibiyet)",
-        "description": "Monako'nun dar ve göz alıcı sokaklarında hataya yer bırakmayan bariyerlerin arasında adeta bir tarih ve prestij şöleni sunan Monaco GP, Formula 1 dünyasının en ikonik ve büyüleyici mücevheridir."
+        "description": "Monaco'nun dar ve göz alıcı sokaklarında hataya yer bırakmayan bariyerlerin arasında adeta bir tarih ve prestij şöleni sunan Monaco GP, Formula 1 dünyasının en ikonik ve büyüleyici mücevheridir."
     },
     "Balaton Park": {
         "len": "4,075 km", "turns": "17", "record": "1:37.699 (Marc Márquez)",
