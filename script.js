@@ -167,7 +167,14 @@ function initAppEngine() {
 
         // Sadece "Sıradaki" ve bitiş zamanı şu andan büyük olanları filtrele, sonra tarihe göre sırala
         const upcoming = allEvents.filter(e => e.status === "Sıradaki" && e.endDateTime > now);
-        upcoming.sort((a, b) => a.endDateTime - b.endDateTime);
+        upcoming.sort((a, b) => {
+            // Aynı tarihe denk gelen yarışlarda Formula 1'i öne al
+            if (a.isoDate === b.isoDate) {
+                if (a.category === 'FORMULA 1' && b.category !== 'FORMULA 1') return -1;
+                if (b.category === 'FORMULA 1' && a.category !== 'FORMULA 1') return 1;
+            }
+            return a.endDateTime - b.endDateTime;
+        });
 
         return upcoming[0] || null;
     }
