@@ -5692,7 +5692,7 @@ const CIRCUITS_DB = {
     },
 };
 
-const TRACK_STATS = CIRCUITS_DB["Balaton Park"];
+const TRACK_STATS = CIRCUITS_DB["Monaco"];
 
 // Dinamik veriler script.js tarafından güncellenecektir.
 let CURRENT_WEEKEND_DATA = null;
