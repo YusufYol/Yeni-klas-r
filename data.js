@@ -5684,9 +5684,15 @@ const CIRCUITS_DB = {
         "mostWinsPilot": "Ayrton Senna (6 Galibiyet)", "mostWinsTeam": "McLaren F1 Team (16 Galibiyet)",
         "description": "Monako'nun dar ve göz alıcı sokaklarında hataya yer bırakmayan bariyerlerin arasında adeta bir tarih ve prestij şöleni sunan Monaco GP, Formula 1 dünyasının en ikonik ve büyüleyici mücevheridir."
     },
+    "Balaton Park": {
+        "len": "4,075 km", "turns": "17", "record": "1:37.699 (Marc Márquez)",
+        "opened": "2025", "firstWinner": "Marc Márquez (2025)",
+        "mostWinsPilot": "Marc Márquez (1 Galibiyet)", "mostWinsTeam": "Ducati Lenovo Team (1 Galibiyet)",
+        "description": "Balaton Gölü yakınlarında konumlanan Balaton Park, akıcı yüksek hızlı virajları, teknik şikanları ve yön değişimleriyle sürücülerin sınırlarını zorlayan, 33 yıl aradan sonra MotoGP coşkusunu Macaristan'a geri getiren son teknoloji bir motor sporları merkezidir."
+    },
 };
 
-const TRACK_STATS = CIRCUITS_DB["Monaco"];
+const TRACK_STATS = CIRCUITS_DB["Balaton Park"];
 
 // Dinamik veriler script.js tarafından güncellenecektir.
 let CURRENT_WEEKEND_DATA = null;
