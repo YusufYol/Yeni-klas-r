@@ -2379,6 +2379,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 65,
+                "title": "BAGNAIA’DAN GAZETECİYE TEPKİ: “ÖZEL HAYATA SAYGI GÖSTERİLMELİ”",
+                "cat": "motogp",
+                "date": "2026-06-03 14:15",
+                "content": "MotoGP Dünya Şampiyonu Francesco Bagnaia, baba olacağı yönündeki haberlerin izni olmadan yayımlanmasına tepki gösterdi.<br><br>Macaristan Grand Prix'si hafta sonunda konuşan İtalyan sürücü, bu bilgiyi kamuoyuyla paylaşma kararının kendisine ait olması gerektiğini vurgulayarak bir gazetecinin davranışını eleştirdi.<br><br>Bagnaia, konuyla ilgili yaptığı açıklamada şu ifadeleri kullandı:<br><br>\"Sinirlendim. Özel hayata saygı gösterilmesi gerektiğini düşünüyorum.\"<br><br>İtalyan pilot, padoka yalnızca belirli yarışlar için gelen bir gazetecinin haberi yayımlama kararı aldığını belirterek bunun doğru olmadığını söyledi.<br><br>\"Buraya ara sıra gelen bir gazeteci bunu yayımlamaya karar verdi. Bunun doğru olduğunu düşünmüyorum. Gazeteciler, sürücülerin ve insanların kararlarına saygı göstermeli.\"<br><br>Öte yandan Bagnaia, haberi daha önceden bilmesine rağmen paylaşmayan MotoGP medya mensuplarına da teşekkür etti.<br><br>\"Padoktaki tüm gazetecilere teşekkür etmek istiyorum. Birçoğu bunu uzun zamandır biliyordu ve hiçbir şey söylemedi.\"<br><br>Bagnaia'nın açıklamaları, spor dünyasında sporcuların özel yaşamlarının ne ölçüde haberleştirilmesi gerektiği konusundaki tartışmaları yeniden gündeme getirdi.<br>",
+                "img": "Resimler/MotoGP Haberler/1780485329787_IMG_7931.jpeg",
+                "author": "Emre Boz",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Emre Boz.png"
+            },
+            {
                 "id": 60,
                 "title": "MARCO BEZZECCHI, KENDİ EVİNDE KAZANDI!",
                 "cat": "motogp",
