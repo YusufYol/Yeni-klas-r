@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 61,
+                "title": "FERRARI, CHARLES LECLERC İLE SÖZLEŞME YENİLEDİ!",
+                "cat": "formula 1",
+                "date": "2026-06-03 10:20",
+                "content": "Ferrari, Formula 1 pilotu Charles Leclerc ile olan sözleşmesini uzattığını resmen duyurdu. İtalyan ekip, yeni anlaşmanın süresini açıklamazken, Monakolu pilotun önümüzdeki yıllarda da Maranello merkezli takımın bir parçası olmaya devam edeceğini doğruladı.<br><br>2019 sezonunda Ferrari'ye katılan Leclerc, takımın son yıllardaki en önemli isimlerinden biri haline gelirken, kırmızı tulumla birçok zafer ve pole pozisyonuna imza attı. Ferrari yönetimi, genç yaşına rağmen takımın lider isimlerinden biri olan Leclerc ile uzun vadeli bir gelecek planı oluşturmayı hedefliyor.<br><br>Sözleşme yenilemesinin ardından açıklamalarda bulunan Leclerc, Ferrari'nin kendisi için yalnızca bir yarış takımı olmadığını vurguladı.<br><br>“Benim için bir takımdan çok daha fazlası olan Scuderia Ferrari ile yoluma devam edeceğim için son derece mutluyum. Burası çocukluğumdan beri hep sevdiğim, parçası olmanın hayalini kurduğum ve yıllar içinde benim için ikinci bir aile haline gelen takım oldu.” ifadelerini kullandı.<br><br>Ferrari altyapısında yetişen ve uzun yıllardır takımın geleceği olarak görülen Leclerc'in yeni anlaşması, taraftarlar tarafından da büyük bir memnuniyetle karşılandı. Monakolu pilot, önümüzdeki sezonlarda Ferrari ile dünya şampiyonluğu hedefini sürdürmeye devam edecek.<br><br>Ferrari ve Charles Leclerc arasındaki yeni sözleşme, takımın uzun vadeli istikrar planlarının önemli bir parçası olarak görülüyor.",
+                "img": "Resimler/Formula 1 Haberler/1780471248361_IMG_7926.jpeg",
+                "author": "Emre Boz",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Emre Boz.png"
+            },
+            {
                 "id": 57,
                 "title": "İDDİA: FERRARI İÇİN ADUO KARARI YOLDA!",
                 "cat": "formula 1",
