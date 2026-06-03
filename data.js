@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 66,
+                "title": "LANDO NORRIS: \"MONACO'DA POLE POZİSYONUNUN FAVORİSİ FERRARİ\"",
+                "cat": "formula 1",
+                "date": "2026-06-04 00:46",
+                "content": "McLaren pilotu Lando Norris, Monaco Grand Prix'si öncesinde yaptığı açıklamalarda Ferrari'nin hafta sonunun en güçlü takımlarından biri olacağını düşündüğünü belirtti. Britanyalı pilot, özellikle yavaş virajlardaki performansları nedeniyle İtalyan ekibini pole pozisyonunun favorisi olarak gösterdi.<br><br>Monaco'nun kendine özgü yapısının Ferrari'ye avantaj sağlayabileceğini ifade eden Norris, takımın düşük hızdaki virajlarda rakiplerine kıyasla daha güçlü göründüğünü söyledi.<br><br>\"Bence Ferrari pole pozisyonunda olacak. Yavaş virajlardaki performansları geri kalan takımlara göre açıkça daha iyi.\" diyen Norris, Ferrari'nin dar ve teknik Monaco sokaklarında önemli bir avantaja sahip olabileceğini dile getirdi.<br><br>McLaren pilotu ayrıca Monaco hafta sonu için heyecanlı olduğunu da belirtti. Geçtiğimiz sezon burada güçlü bir sonuç elde ettiğini hatırlatan Norris, yarışın kendisi için özel bir yere sahip olduğunu söyledi.<br><br>\"Monaco'ya gitmek için çok heyecanlıyım. Geçen yıl orada harika bir sonuç elde ettim ve bu, kariyerimin en iyi ve en heyecan verici hafta sonlarından biriydi.\" ifadelerini kullandı.<br><br>Ancak Norris, McLaren'in mevcut performansıyla ilgili temkinli konuşmayı tercih etti. Takımın sezon boyunca zorlandığı alanların hâlâ var olduğunu belirten Britanyalı sürücü, Monaco'nun bu sorunları bir anda ortadan kaldırmayacağını düşündüğünü söyledi.<br><br>\"Zorlandığımız alanları düşündüğümüzde, Monaco'da bir anda mükemmel olacağımızı düşünmemizi sağlayacak hiçbir şey yok.\" diyen Norris, hafta sonuna gerçekçi beklentilerle yaklaştıklarını vurguladı.<br><br>Formula 1 takviminin en prestijli yarışlarından biri olan Monaco Grand Prix'sinde Ferrari'nin tek tur performansı ve pole mücadelesindeki konumu, hafta sonunun en çok konuşulan konularından biri olmaya aday görünüyor.",
+                "img": "Resimler/Formula 1 Haberler/1780523194371_IMG_7945.jpeg",
+                "author": "Emre Boz",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Emre Boz.png"
+            },
+            {
                 "id": 64,
                 "title": "ASTON MARTIN, ALEX ALBON İLE İLGİLENİYOR!",
                 "cat": "formula 1",
