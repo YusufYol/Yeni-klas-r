@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 64,
+                "title": "ASTON MARTIN, ALEX ALBON İLE İLGİLENİYOR!",
+                "cat": "formula 1",
+                "date": "2026-06-03 14:11",
+                "content": "Formula 1 pilot piyasasında dikkat çekici bir iddia gündeme geldi. RacingNews365'in haberine göre Aston Martin, Williams pilotu Alex Albon ile olası bir gelecek transferi için iletişime geçti.<br><br>Haberde, Aston Martin'in mevcut sürücü kadrosunda yakın gelecekte bir değişiklik planlamadığı belirtilirken, Albon seçeneğinin yalnızca Fernando Alonso'nun takımda devam etmemesi durumunda değerlendirilebileceği ifade edildi.<br><br>İddialara göre Silverstone merkezli ekip, geleceğe yönelik alternatiflerini değerlendirirken Albon'un durumunu yakından takip ediyor. Williams'ta sergilediği performansla dikkat çeken Taylandlı pilot, son yıllarda pilot piyasasının en çok ilgi gören isimlerinden biri haline geldi.<br><br>Öte yandan Aston Martin'in Albon'a ilgi gösteren tek takım olmadığı belirtiliyor. Alpine ve Audi'nin de Williams pilotunun durumunu takip ettiği ve olası fırsatları değerlendirdiği öne sürülüyor.<br><br>Alex Albon'un Williams ile sözleşmesi devam ederken, önümüzdeki yıllarda pilot piyasasında yaşanabilecek hareketlilik nedeniyle birçok takımın şimdiden olası seçenekler üzerinde çalışmaya başladığı ifade ediliyor.",
+                "img": "Resimler/Formula 1 Haberler/1780485074086_IMG_7929.jpeg",
+                "author": "Emre Boz",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Emre Boz.png"
+            },
+            {
                 "id": 63,
                 "title": "ASTON MARTİN, MONACO GP İÇİN ÖZEL RENK DÜZENİNİ TANITTI!",
                 "cat": "formula 1",
