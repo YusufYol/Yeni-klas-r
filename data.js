@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 62,
+                "title": "MCLAREN, 1000. YARIŞINA ÖZEL RENK DÜZENİNİ TANITTI!",
+                "cat": "formula 1",
+                "date": "2026-06-03 12:41",
+                "content": "Formula 1 tarihinin en köklü ve başarılı ekiplerinden biri olan McLaren F1 Team, motor sporları dünyasında eşi benzeri az görülen tarihi bir milada imza atmaya hazırlanıyor. İngiliz üretici, 5-7 Haziran tarihlerinde gerçekleştirilecek olan ikonik Monaco Grand Prix'si ile Formula 1'deki 1000. yarışına çıkacağını duyurdu. Bu olağanüstü başarıyı taçlandırmak isteyen McLaren F1 Team, yarış tutkunlarını heyecanlandıran çok özel bir renk düzeni tanıttı. Takımın kurucusu Bruce McLaren'ın 1966 yılında yine Monaco sokaklarında ilk F1 yarışına çıkmasının tam 60 yıl sonrasına denk gelen bu anlamlı buluşma, görkemli bir görsel şölene dönüşecek.<br><br>Bu özel tasarım, McLaren'ın ikonikleşen \"metalik papaya turuncusu\" ile asil bir \"antrasit\" siyah rengi harmanlıyor. Aracın yan tarafında gururla taşınacak olan devasa bir \"1000\" logosunun yanı sıra, tasarımın derinliklerinde gizli detaylar yer alıyor.<br><br>Tasarım; McLaren'ın ilk yarışından tarihi zaferlerine, şampiyonluklarından ünlü Üçlü Taç (Triple Crown) başarısına ve kırdıkları dünya rekoru pit stopuna kadar altmış yıllık zengin tarihten unutulmaz anlara saygı duruşunda bulunuyor. Takımın \"McLaren Never Quits\" (McLaren Asla Vazgeçmez) felsefesini simgeleyen ve pilotların tulumlarına da yansıtılan bu büyüleyici tasarım, Monaco'nun sokaklarında görsel şölene sahip olacak.",
+                "img": "Resimler/Formula 1 Haberler/1780479714904_1000044406.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 61,
                 "title": "FERRARI, CHARLES LECLERC İLE SÖZLEŞME YENİLEDİ!",
                 "cat": "formula 1",
