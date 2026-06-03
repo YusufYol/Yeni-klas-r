@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 63,
+                "title": "ASTON MARTİN, MONACO GP İÇİN ÖZEL RENK DÜZENİNİ TANITTI!",
+                "cat": "formula 1",
+                "date": "2026-06-03 13:39",
+                "content": "Formula 1 dünyasının en estetik ve prestijli takımlarından biri olan Aston Martin Aramco F1 Team, motor sporlarının mücevheri konumundaki ikonik Monaco Grand Prix'si için büyüleyici bir hamleye imza attı. Monako sokaklarının eşsiz ihtişamına ve tarihi dokusuna ayak uydurmak isteyen İngiliz üretici, bu özel hafta sonuna özel olarak tasarlanan yeni renk düzenini (livery) yarış tutkunlarının beğenisine sundu.<br><br>Takımın alametifarikası olan geleneksel \"Britanya Yarış Yeşili\" (British Racing Green), Monako'nun lüks ve parıltılı atmosferini yansıtan özel dokunuşlarla yeniden yorumlandı.<br><br>Görsel bir şölen sunan bu tasarım, aracın aerodinamik hatlarını vurgulayan agresif çizgiler ve Monako gece hayatı ile denizinin esintilerini taşıyan özel detaylarla bezendi. Aston Martin'in lüks otomotiv mirasını ve pistlerdeki hız tutkusunu mükemmel bir şekilde harmanlayan bu özel görünüm, hem yerel sponsorların ve iş birliklerinin şıklığını ön plana çıkarıyor hem de her köşesi tarih kokan Monako pistinde görsel bir imza bırakmayı hedefliyor.<br><br>Lance Stroll ve Fernando Alonso'nun pilotajında Monte Carlo sokaklarını turlayacak olan bu özel tasarım aracı, şimdiden hafta sonunun en çok konuşulan ve fotoğraflanan detaylarından biri olmaya aday.",
+                "img": "Resimler/Formula 1 Haberler/1780483142020_1000044409.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 62,
                 "title": "MCLAREN, 1000. YARIŞINA ÖZEL RENK DÜZENİNİ TANITTI!",
                 "cat": "formula 1",
