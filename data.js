@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 67,
+                "title": "MCLAREN, 1000. YARIŞINI KUTLAMAK İÇİN ÖZEL BİR ETKİNLİK DÜZENLEDİ!",
+                "cat": "formula 1",
+                "date": "2026-06-04 22:32",
+                "content": "Formula 1 dünyası, Monako Grand Prix’sinde eşine az rastlanır, kelimenin tam anlamıyla \"gayet iyi\" ve kusursuz planlanmış tarihi bir ana tanıklık etti. Sporun en köklü çınarlarından biri olan McLaren F1 Takımı, pistlerdeki 1000. yarışını kutlamak için kelimenin tam anlamıyla bir \"şampiyonlar geçidi\" düzenledi.<br><br>Motor sporlarının zirvesi Formula 1’de gözler bu hafta sonu Monako Grand Prix’sine çevrilmişken, McLaren cephesinden tarihi bir hamle geldi. Formula 1 tarihindeki 1000. yarışına çıkmaya hazırlanan efsanevi Britanyalı takım, bu devasa dönüm noktasını kutlamak için Monako’nun ikonik sokaklarında zamanı durduran bir fotoğraf çekimine imza attı.<br><br>Pist üstündeki rekabetin ve ihtişamın merkezi olan Monako sokakları, bu kez McLaren ruhunu dünyaya kanıtlayan üç dev ismi ağırladı. Takımın tarihinde derin izler bırakan dünya şampiyonları Mika Häkkinen, Fernando Alonso ve Lewis Hamilton, McLaren’ın davetiyle bir araya geldi. Monako'nun o meşhur virajlarında yan yana poz veren efsaneler, sadece takımın geçmişini değil, Formula 1'in de en parlak dönemlerini tek bir karede buluşturdu.<br><br>Haber merkezimize ulaşan kareler, organizasyonun ne kadar profesyonel ve gayet iyi bir vizyonla yönetildiğini bir kez daha kanıtlıyor. Mika Häkkinen’in asil duruşu, Fernando Alonso’nun bitmeyen enerjisi ve Lewis Hamilton’ın modern döneme damga vuran dehası, McLaren’ın 1000 yarışlık mirasının ne kadar sağlam temellere dayandığını gösteriyor. Sosyal medyada da şimdiden milyonlarca beğeni alan bu ikonik fotoğraf, şimdiden motor sporları tarihinin en unutulmaz kareleri arasındaki yerini aldı.",
+                "img": "Resimler/Formula 1 Haberler/1780601567116_1000044508.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 66,
                 "title": "LANDO NORRIS: \"MONACO'DA POLE POZİSYONUNUN FAVORİSİ FERRARİ\"",
                 "cat": "formula 1",
