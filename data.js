@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 68,
+                "title": "LAS VEGAS GP, 2037 YILINA KADAR TAKVİMDE YER ALACAK!",
+                "cat": "formula 1",
+                "date": "2026-06-05 01:52",
+                "content": "Motor sporlarının zirvesi Formula 1, takvimin en göz kamaştırıcı ve yüksek profilli duraklarından biri olan Las Vegas Grand Prix’sinin geleceğini uzun vadeli bir anlaşmayla güvence altına aldı ve en az 2037 yılına kadar F1 takviminde yer almaya devam edecek.<br><br>Formula 1 yönetimi, Las Vegas Grand Prix’si için tarihi bir karara imza attı. Mevcut sözleşmenin 10 yıl daha uzatılması konusunda tam mutabakata varıldı. Bu dev anlaşmayla birlikte, sporun en prestijli ve en çok konuşulan yarışlarından biri olan Las Vegas, 2037 yılına kadar dünya çapındaki milyonlarca yarış severi ağırlamaya devam edecek.<br><br>​İlk kez 2023 yılında takvime dahil olan ve o dönemden bu yana hem organizasyon yapısı hem de sunduğu görsel şölenle ezber bozan Las Vegas GP, kısa sürede sporun ticari ve popülerlik anlamında amiral gemisi haline geldi.<br><br>Bu uzun vadeli hamle, Formula 1’in özellikle Kuzey Amerika pazarındaki hakimiyetini devam ettirme isteğinin en net göstergesi olarak kabul ediliyor. Austin ve Miami’nin ardından Amerika’daki üçüncü yarış olarak takvime giren Las Vegas, yeni sözleşmesiyle birlikte motor sporları dünyasının kalbinin attığı en lüks ve en görkemli merkezlerinden biri olmayı sürdürecek.",
+                "img": "Resimler/Formula 1 Haberler/1780613527800_1000044512.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 67,
                 "title": "MCLAREN, 1000. YARIŞINI KUTLAMAK İÇİN ÖZEL BİR ETKİNLİK DÜZENLEDİ!",
                 "cat": "formula 1",
