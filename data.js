@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 69,
+                "title": "MONACO'DA İLK ANTRENMAN SEANSINDA CHARLES LECLERC ZİRVEDE!",
+                "cat": "formula 1",
+                "date": "2026-06-05 15:54",
+                "content": "Formula 1 dünyasının en prestijli yarışlarından olan Monako Grand Prix'si, büyük bir heyecanla başladı. Hafta sonunun ilk antrenman seansında gözler, kendi evinde yarışan Charles Leclerc’in üzerindeydi. Ferrari pilotu, harika bir tempo yakalayarak seansın en hızlı turuna imza attı ve seansı zirvede tamamladı. Hafta sonuna güçlü bir başlangıç yapmak isteyen Ferrari, Leclerc'in bu performansıyla Monako hafta sonuna adeta gözdağı vererek başladı. Leclerc’in hemen arkasında ise seansı ikinci sırada tamamlayan Lewis Hamilton yer aldı.<br><br>Seansın üçüncülük koltuğuna, Red Bull'dan Max Verstappen yerleşti. Ancak Red Bull garajında işler tamamen yolunda gitmedi. Verstappen’in takım arkadaşı Isack Hadjar, seansın ortalarına doğru kontrolü kaybedip spin atarak kaza yaptı. Bu kazanın ardından pistte kırmızı bayraklar sallandı ve seans bir süreliğine durduruldu. Görevlilerin pisti hızlıca temizlemesinin ardından, heyecan kısa bir gecikmeyle de olsa kaldığı yerden devam etti.<br><br>Mercedes cephesinde ise istikrarlı bir grafik çizildi. Şampiyona lideri Kimi Antonelli seansı 4. sırada noktalarken, takım arkadaşı George Russell hemen arkasında 5. sıranın sahibi oldu. Hafta sonunun en dikkat çeken takımlarından biri ise şüphesiz McLaren’dı. Formula 1'deki 1000. yarışına özel ve göz alıcı bir renk düzeniyle Monako'ya gelen takım, hafta sonuna güçlü başlamak istediler. Ancak, McLaren pilotları Lando Norris 6. sırada, Oscar Piastri ise 8. sırada kendilerine yer bulabildi.<br><br>Monako'da heyecan dozajı düşmeden devam ediyor. İlk seanstaki bu çekişmeli tablonun ardından gözler günün bir sonraki randevusuna çevrildi; 2. Antrenman seansı saat 18.00'de kaldığı yerden devam edecek.",
+                "img": "Resimler/Formula 1 Haberler/1780664038659_1000044523.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 68,
                 "title": "LAS VEGAS GP, 2037 YILINA KADAR TAKVİMDE YER ALACAK!",
                 "cat": "formula 1",
