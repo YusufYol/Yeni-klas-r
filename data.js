@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 70,
+                "title": "MONACO GP'DE İKİNCİ ANTRENMAN SEANSINDA LEWIS HAMILTON ZİRVEDE!",
+                "cat": "formula 1",
+                "date": "2026-06-05 19:19",
+                "content": "Formula 1 heyecanı, motor sporlarının zirvesi Monaco Grand Prix’sinde gerçekleştirilen ikinci antrenman seansıyla tüm hızıyla devam ediyor. İlk seanstaki güçlü performansını koruyan Ferrari, bu seansta da ilk iki sırayı kimseye kaptırmayarak hafta sonunun en iddialı takımlarından biri olduğunu kanıtladı. İlk seansı ikinci sırada noktalayan Lewis Hamilton, ikinci seansta vites artırarak en hızlı tura imza attı ve zirvenin yeni sahibi oldu. Kendi evinde yarışan Monacolu pilot Charles Leclerc ise ilk seanstaki liderliğinin ardından bu kez ikinci sırada kendine yer buldu. Red Bull pilotu Max Verstappen ise istikrarını koruyarak ilk seansta olduğu gibi ikinci antrenman seansında da üçüncü sırada tamamladı.<br><br>Red Bull'un bir diğer pilotu Isack Hadjar ise ilk seansta yaptığı kaza nedeniyle turları tamamlayamamıştı. Ama mekanikerlerin yoğun ve hummalı çalışması sonucu aracının yetişmesiyle piste çıktı ve seansı 6. sırada bitirmeyi başardı. Mercedes cephesinde ise istikrar hakimdi; gümüş oklar ilk seansta olduğu gibi yine 4 ve 5. sırada tamamladılar. Şampiyona lideri Kimi Antonelli 4. sırayı alırken, takım arkadaşı George Russell hemen arkasında 5. sırada yer aldı.<br><br>Monaco’da beklentilerin altında kalan takım ise McLaren oldu. İngiliz ekibinde Lando Norris, seansın henüz başında yaşadığı mekanik arıza nedeniyle sadece 2 tur atabildi ve seansı 19. sırada tamamlayarak şanssız bir günü geride bıraktı. Takım arkadaşı Oscar Piastri ise nispeten daha temiz bir seans geçirerek 7. sırada yer buldu.<br><br>İlk seansta Hadjar’ın kazasıyla sallanan kırmızı bayraklar, ikinci seansta da kendini gösterdi. Cadillac pilotu Sergio Perez’in aracının frenlerinden yükselen dumanlar nedeniyle pist kenarında durması, seansın bir süreliğine durdurulmasına ve kırmızı bayrak çıkmasına neden oldu.<br><br>Monaco Grand Prix’sinde heyecan Cumartesi günü yapılacak kritik seanslarla devam edecek. Pilotlar ilk olarak saat 13.30’da 3. Antrenman seansı için piste çıkacak, ardından saat 17.00’de dar Monaco caddelerinde grid dizilimini belirleyecek olan nefes kesici Sıralama Turları başlayacak.",
+                "img": "Resimler/Formula 1 Haberler/1780676353325_1000044529.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 69,
                 "title": "MONACO'DA İLK ANTRENMAN SEANSINDA CHARLES LECLERC ZİRVEDE!",
                 "cat": "formula 1",
