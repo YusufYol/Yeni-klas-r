@@ -2439,6 +2439,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 74,
+                "title": "MARC MÁRQUEZ, MACARİSTAN GP'DE SPRİNT YARIŞINI KAZANDI!",
+                "cat": "motogp",
+                "date": "2026-06-06 16:34",
+                "content": "MotoGP dünyası, Macaristan’da tarihi anlardan birine tanıklık etti. Yaşadığı ağır sakatlıkların ardından geçtiğimiz hafta Mugello’da pistlere yeniden adım atan İspanyol pilot Marc Marquez, muhteşem geri dönüşünü adeta taçlandırdı. Hafta sonuna fırtına gibi başlayan Marquez, hem pole pozisyonunu söküp aldı hem de kariyerinin 18. Sprint yarışı galibiyetine ulaşarak damalı bayrağı ilk sırada gördü. Yarışa ikinci sıradan başlayan genç yetenek Pedro Acosta, istikrarlı performansını koruyarak mücadeleyi yine ikinci sırada tamamladı. Podyumun son basamağında ise şampiyona lideri Marco Bezzecchi yer aldı.<br><br>Öte yandan, gururumuz Toprak Razgatlıoğlu da pistte harika bir mücadele verdi. Yarışa 18. sıradan başlamasına rağmen müthiş bir tırmanış gerçekleştiren temsilcimiz, finiş çizgisini 13. sırada geçerek bu yarışta en iyi Yamaha pilotu olmayı başardı.<br><br>Macaristan’daki büyük heyecan, yarın saat 15.00’te başlayacak ana yarışla devam edecek.",
+                "img": "Resimler/MotoGP Haberler/1780752855100_1000044570.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 72,
                 "title": "MARC MÁRQUEZ, POLE POZİSYONU İLE GERİ DÖNDÜ!",
                 "cat": "motogp",
