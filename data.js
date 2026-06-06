@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 76,
+                "title": "MERCEDES'TE HEDEF MAX VERSTAPPEN!",
+                "cat": "formula 1",
+                "date": "2026-06-06 23:25",
+                "content": "Formula 1 dünyası, önümüzdeki sezonların sürücü kadrolarını şekillendirebilecek devasa bir iddiayla çalkalanıyor. Hollandalı 4 kez şampiyon Max Verstappen’e yakınlığıyla tanınan ve padoktan aldığı güvenilir bilgilerle bilinen ünlü gazeteci Erik van Haren, Mercedes kampından sızan çarpıcı bir sözleşme detayını açığa çıkardı. İddiaya göre George Russell'ın Mercedes ile olan mevcut sözleşmesinde, genç takım arkadaşı Kimi Antonelli'nin performans olarak gerisinde kalması durumunda takımın tek taraflı fesih hakkını kullanabileceği özel bir madde bulunuyor.<br><br>F1 çevrelerinde şimdiden \"Verstappen Maddesi\" olarak adlandırılan bu özel durum, Russell üzerindeki baskıyı hat safhaya çıkarmış durumda.<br><br>Sözleşmedeki bu gizli kapının arkasında ise tamamen Toto Wolff'un uzun vadeli planları yatıyor. Mercedes takım patronu, Red Bull'un mevcut performans dalgalanmalarından ve şampiyonluk mücadelesindeki kan kaybından yararlanarak Max Verstappen'i gümüş okların koltuğuna oturtmayı hedefliyor. Verstappen ise Red Bull ile olan geleceği ve sözleşme uzatıp uzatmayacağı konusunda henüz net bir karar vermiş değil; hatta kariyerine ve Formula 1'deki geleceğine dair kararları aceleye getirmeyeceğini her fırsatta vurguluyor. Wolff'un planı, genç İtalyan yetenek Kimi Antonelli’nin takımı tek başına sırtlayabileceğini görmesi halinde, Russell'ı Verstappen hamlesi için feda etmek üzerine kurulu.<br><br>Öte yandan, bu pilot sirkülasyonunun yaratacağı domino etkisi sadece Mercedes ve Red Bull ile sınırlı kalmayacak gibi görünüyor. Padoktaki güçlü dedikodulara göre, Verstappen’in Red Bull'daki performans çıkış maddelerini aktif ederek takımdan ayrılması durumunda, Avusturyalı ekibin B planı hazır. Red Bull yönetiminin, Verstappen'den boşalacak olan koltuk için McLaren'ın pilotu Oscar Piastri’yi radarına aldığı ve şimdiden bir hamle hazırlığı içinde olduğu belirtiliyor.<br><br>F1 sürücü pazarını tamamen kilitleyen bu üçlü denklem, önümüzdeki aylarda takımların ve pilotların atacağı adımlarla çok daha sıcak bir savaşa dönüşecek.",
+                "img": "Resimler/Formula 1 Haberler/1780777511699_1000044585.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 75,
                 "title": "MONACO'DA KIMI ANTONELLI POLE'DE!",
                 "cat": "formula 1",
