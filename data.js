@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 75,
+                "title": "MONACO'DA KIMI ANTONELLI POLE'DE!",
+                "cat": "formula 1",
+                "date": "2026-06-06 18:34",
+                "content": "Formula 1’de sezonun en ikonik ve hata affetmeyen duraklarından biri olan Monaco Grand Prix'sinde nefes kesen sıralama turları tamamlandı. Dar sokakları ve zorlu virajlarıyla pilotların sınırlarını zorlayan Monako’da, şampiyona lideri Kimi Antonelli kusursuz performansını sürdürerek üst üste 4. pole pozisyonunu kazanmayı başardı ve pazar günkü yarış öncesi dev bir avantaj elde etti.<br><br>Hafta sonu boyunca nispeten ortalama bir grafik çizen Red Bull ve Max Verstappen ikilisi ise sıralama turlarının son anlarında adeta küllerinden doğdu. Hollandalı pilot, çıkardığı harika turla sıralamayı ikinci sırada tamamlayarak ilk çizgiyi kaptı. Hafta sonunun favorilerinden olan ve antrenman turlarında domine bir görüntü sergileyen Ferrari’de ise Lewis Hamilton, pole pozisyonunu kaçırarak üçüncü sırada kaldı. İtalyan takımından pole ve galibiyet beklentisi yüksek olsa da geçiş yapmanın neredeyse imkansız olduğu bu dar pistte Ferrari'nin yarışı kazanıp kazanamayacağı büyük bir merak konusu. Ferrari'de kendi evinde yarışan Charles Leclerc ise bir türlü istediği temiz turu atamayarak hayal kırıklığıyla dördüncü sırada kaldı.<br><br>Sıralama turlarının diğer dikkat çeken performanslarında ise Red Bull'un genç pilotu Isack Hadjar beşinci sırayı alarak güçlü bir pozisyon elde etti. Mercedes pilotu George Russell için ise işler pek yolunda gitmedi; Q2’de elenme tehlikesi atlatan Britanyalı pilot, istediği turları bir türlü bir araya getiremeyerek altıncı sırada kaldı. Hafta sonunun gerisinde kalan McLaren cephesinde Oscar Piastri 7, Lando Norris ise 8. sırayı paylaşırken; ilk 10’u tamamlayan isimler Alpine’den Pierre Gasly ve Racing Bulls'tan Liam Lawson oldu.<br><br>Monaco’da büyük heyecana sahne olacak dev yarış, pazar günü saat 16.00’da başlayacak.",
+                "img": "Resimler/Formula 1 Haberler/1780760078129_1000044581.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 73,
                 "title": "MONACO GP'DE 3. ANTRENMAN SEANSINDA KIMI ANTONELLI ZİRVEDE!",
                 "cat": "formula 1",
