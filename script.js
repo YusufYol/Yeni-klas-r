@@ -179,20 +179,11 @@ function initAppEngine() {
         return upcoming[0] || null;
     }
 
-    // 2. Splash Screen Logic
-    setTimeout(() => {
-        if (splashScreen) {
-            splashScreen.style.opacity = '0';
-            setTimeout(() => {
-                splashScreen.style.display = 'none';
-                appContainer.classList.remove('hidden');
-                initApp();
-            }, 500);
-        } else {
-            appContainer.classList.remove('hidden');
-            initApp();
-        }
-    }, 2000);
+    // 2. Splash Screen Removed for AdSense Compliance
+    if (appContainer) {
+        appContainer.classList.remove('hidden');
+    }
+    initApp();
 
     function initApp() {
         // Handle browser back button
