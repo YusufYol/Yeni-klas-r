@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 73,
+                "title": "MONACO GP'DE 3. ANTRENMAN SEANSINDA KIMI ANTONELLI ZİRVEDE!",
+                "cat": "formula 1",
+                "date": "2026-06-06 15:09",
+                "content": "Formula 1’de sezonun en ikonik duraklarından biri olan Monaco Grand Prix'sinde 3. antrenman seansı büyük bir heyecana sahne oldu. Zorlu cadde pistindeki son provayı, şampiyona lideri Kimi Antonelli zirvede tamamlayarak sıralama turları öncesi gövde gösterisi yaptı. Mercedes pilotunun hemen arkasında ise Ferrari sürücüleri yer aldı. Kendi evinde yarışan Charles Leclerc ikinci sırayı alırken, takım arkadaşı Lewis Hamilton üçüncü oldu ve İtalyan ekibi hafta sonundaki güçlü performansını sürdürerek yine bir \"double\" imza attı. Seansı Antonelli'nin takım arkadaşı George Russell dördüncü sırada bitirirken, Red Bull pilotu Max Verstappen beşinci sırada kendine yer buldu. Verstappen'in takım arkadaşı Isack Hadjar ise seansı 8. sırada noktaladı. McLaren cephesinde Oscar Piastri 6. olurken, Lando Norris ancak 9. sırayı alabildi.<br><br>Monaco’nun affetmeyen dar sokakları ilk iki seansın ardından bu seansta da kırmızı bayrağa neden oldu. Seansın sonlarına doğru Haas pilotu Oliver Bearman'ın bariyerlere çarparak kaza yapması üzerine kırmızı bayrak sallandı. Kısa süre içinde pist temizlendi ama süre kısıtlı olduğu için pilotlar hızlı tur denemediler ve bu şekilde seans tamamlandı.<br><br>Monaco GP’sinde heyecan dalgası, bugün saat 17.00’de başlayacak olan kritik sıralama turları ile devam edecek. Podyumun ve stratejinin kaderini belirleyecek büyük ana yarış ise Pazar günü saat 16.00’da start alacak.",
+                "img": "Resimler/Formula 1 Haberler/1780747786662_1000044568.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 70,
                 "title": "MONACO GP'DE İKİNCİ ANTRENMAN SEANSINDA LEWIS HAMILTON ZİRVEDE!",
                 "cat": "formula 1",
