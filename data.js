@@ -2429,6 +2429,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 72,
+                "title": "MARC MÁRQUEZ, POLE POZİSYONU İLE GERİ DÖNDÜ!",
+                "cat": "motogp",
+                "date": "2026-06-06 14:57",
+                "content": "MotoGP dünya şampiyonasında sezonun heyecan dolu duraklarından biri olan Macaristan GP sıralama turlarında, unutulmaz bir hikaye yaşandı. Geçtiğimiz sezondan sarkan omuz sakatlığının üzerine, bu yıl yaşadığı talihsiz kazada ayağını da kıran ve her iki bölgeden de ciddi ameliyatlar geçiren Marc Marquez, pistlere muhteşem bir geri dönüş yaptı. İtalya GP (Mugello) ile yeniden motorunun başına geçen İspanyol pilot, geri dönüşünün henüz ikinci yarışında Balaton Park pistinde pole pozisyonunu kapmayı başardı. Sıralama turlarında ilk turundaki kazasına rağmen pes etmeyen Marquez, harika bir dereceyle ilk sırayı cebine koydu. Marquez'in hemen arkasında, bu sezonun dikkat çeken ismi Pedro Acosta ikinci sırayı alırken, BK8 Gresini Racing sürücüsü Fermin Aldeguer ise üçüncü olarak ön çizgiyi tamamladı.<br><br>Şampiyona liderliğini elinde bulunduran Aprilia pilotu Marco Bezzecchi, zorlu geçen seansın ardından yarışa ancak 6. sıradan başlama hakkı elde edebildi. Öte yandan, gridde ülkemizi gururla temsil eden milli motosikletçimiz Toprak Razgatlıoğlu, şanssız bir seans geçirdi. Sıralama turlarının ilk bölümünde (Q1) elenen temsilcimiz, yarışlara 18. sıradan başlayacak.<br><br>Macaristan GP'sinde heyecan fırtınası, bugün saat 16.00'da koşulacak olan kritik Sprint yarışı ile başlayacak. Büyük puan mücadelesinin yaşanacağı ana yarış ise Pazar günü saat 15.00'te start alacak. Sakatlıktan dönen Marquez'in zirvede yer aldığı bu hafta sonunda, şampiyona lideri Bezzecchi'nin yükseliş mücadelesi ve Toprak Razgatlıoğlu'nun gerilerden yapacağı ataklar yarışları şimdiden büyük bir kördüğüme dönüştürüyor.",
+                "img": "Resimler/MotoGP Haberler/1780747077167_1000044567.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 65,
                 "title": "BAGNAIA’DAN GAZETECİYE TEPKİ: “ÖZEL HAYATA SAYGI GÖSTERİLMELİ”",
                 "cat": "motogp",
