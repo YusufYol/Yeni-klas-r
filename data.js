@@ -2687,7 +2687,7 @@ const APP_DATA = {
                 },
                 {
                     "pos": "DNF",
-                    "pilot": "Lando Norris #4",
+                    "pilot": "Lando Norris #1",
                     "team": "McLaren F1 Team",
                     "time": "56'36.709",
                     "gap": "+35 Tur",
@@ -2720,7 +2720,7 @@ const APP_DATA = {
                 },
                 {
                     "pos": "DNF",
-                    "pilot": "Max Verstappen #1",
+                    "pilot": "Max Verstappen #3",
                     "team": "Oracle Red Bull Racing",
                     "time": "0",
                     "gap": "+78 Tur",
