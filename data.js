@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 78,
+                "title": "ANDREA KIMI ANTONELLI, ÜST ÜSTE 5. KEZ YARIŞ KAZANDI!",
+                "cat": "formula 1",
+                "date": "2026-06-07 18:55",
+                "content": "Monaco Grand Prix'sinde heyecan dolu bir yarışı geride bıraktık. Hafta sonuna damgasını vuran şampiyona lideri Kimi Antonelli, liderliği bir an bile bırakmadığı yarışı en hızlı tur atarak üst üste 5. zaferine ulaştı. Genç İtalyan yıldız, bu muazzam birincilikle birlikte aynı zamanda Monaco GP tarihinde galibiyet alan en genç pilot unvanını da eline geçirmiş oldu ve en genç Grand Slam yapan pilot oldu. Sıralama turlarında 3. cebi alan ve hafta sonu boyunca harika bir performans sergileyen Ferrari pilotu Lewis Hamilton ise damalı bayrağı ikinci sırada görerek üst üste ikinci kez podyumun ikinci basamağına çıkmayı başardı.<br><br>Podyumun son basamağı için ise tam bir taktik ve ceza savaşı yaşandı. Alpine pilotu Pierre Gasly yarışı pist üstünde üçüncü sırada bitirmesine rağmen, aldığı 5 saniyelik ceza nedeniyle podyumu kaybetti. Bu durum, yarış boyunca aracındaki güç kaybından şikayet eden Red Bull pilotu Isack Hadjar'a yaradı ve telsiz serzenişlerine rağmen Hadjar üçüncülüğü cebe indirdi. Red Bull'un diğer koltuğundaki Max Verstappen ise daha start verilmeden motor sorunu yaşayarak yarış dışı kaldı ve büyük bir şok yaşadı.<br><br>Formula 1 tarihindeki 1000. yarışına özel bir renk düzeni, galibiyet ve podyum hedefiyle gelen McLaren cephesi ise Monaco'dan hayal kırıklığıyla ayrıldı. Hafta sonu boyunca beklentilerin altında kalan takımda Lando Norris batarya sorunuyla geriye düşerek yarış dışı kalırken, Oscar Piastri ancak dördüncü sırada finiş görebildi. Mercedes'in diğer pilotu George Russell ise pitten geçme cezası alarak 13. sıraya kadar geriledi ve yarışı puan barajının dışında tamamladı.<br><br>Yarışın asıl büyük kaosu ise son turlarda patlak verdi. Lance Stroll'ün son virajda kaza yapmasıyla güvenlik aracı piste girdi ve neredeyse tüm grid pit alanına yöneldi. Güvenlik aracının ardından yeniden start verileceği sırada, tam da Stroll'ün kaza yaptığı noktada bu kez Ferrari pilotu Charles Leclerc kaza yaptı. Önce güvenlik aracı, ardından da kırmızı bayrak kararı çıktı. Hakemlerin ve pist görevlilerinin olay yerindeki incelemelerinin ardından yarış, durarak start formatıyla yeniden başladı ve nefes kesen Monaco hafta sonu bu olaylı finişle noktalandı.<br><br>Formula 1'de bir sonraki durak, 12-14 Haziran tarihlerinde gerçekleştirilecek olan Barcelona-Catalunya yarışı olacak.",
+                "img": "Resimler/Formula 1 Haberler/1780847713651_1000044623.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 76,
                 "title": "MERCEDES'TE HEDEF MAX VERSTAPPEN!",
                 "cat": "formula 1",
