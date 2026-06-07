@@ -872,20 +872,20 @@ const APP_DATA = {
                 },
                 {
                     "pos": 18,
-                    "name": "Sergio Perez #11",
-                    "team": "Cadillac F1 Team",
+                    "name": "Fernando Alonso #14",
+                    "team": "Aston Martin Aramco F1 Team",
                     "pts": 1
                 },
                 {
                     "pos": 19,
-                    "name": "Nico Hülkenberg #27",
-                    "team": "Audi F1 Team",
+                    "name": "Sergio Perez #11",
+                    "team": "Cadillac F1 Team",
                     "pts": 0
                 },
                 {
                     "pos": 20,
-                    "name": "Fernando Alonso #14",
-                    "team": "Aston Martin Aramco F1 Team",
+                    "name": "Nico Hülkenberg #27",
+                    "team": "Audi F1 Team",
                     "pts": 0
                 },
                 {
@@ -949,12 +949,12 @@ const APP_DATA = {
                 },
                 {
                     "pos": 10,
-                    "name": "Cadillac F1 Team",
+                    "name": "Aston Martin Aramco F1 Team",
                     "pts": 1
                 },
                 {
                     "pos": 11,
-                    "name": "Aston Martin Aramco F1 Team",
+                    "name": "Cadillac F1 Team",
                     "pts": 0
                 }
             ]
@@ -2588,10 +2588,10 @@ const APP_DATA = {
                 },
                 {
                     "pos": 10,
-                    "pilot": "Sergio Perez #11",
-                    "team": "Cadillac F1 Team",
-                    "time": "2:24'10.396",
-                    "gap": "39.153",
+                    "pilot": "Fernando Alonso #14",
+                    "team": "Aston Martin Aramco F1 Team",
+                    "time": "2:24'13.142",
+                    "gap": "41.899",
                     "pts": 1,
                     "laps": 78,
                     "fastest": false,
@@ -2599,17 +2599,6 @@ const APP_DATA = {
                 },
                 {
                     "pos": 11,
-                    "pilot": "Fernando Alonso #14",
-                    "team": "Aston Martin Aramco F1 Team",
-                    "time": "2:24'13.142",
-                    "gap": "41.899",
-                    "pts": 0,
-                    "laps": 78,
-                    "fastest": false,
-                    "status": "Finished"
-                },
-                {
-                    "pos": 12,
                     "pilot": "Gabriel Bortoleto #5",
                     "team": "Audi F1 Team",
                     "time": "2:24'13.991",
@@ -2620,7 +2609,7 @@ const APP_DATA = {
                     "status": "Finished"
                 },
                 {
-                    "pos": 13,
+                    "pos": 12,
                     "pilot": "George Russell #63",
                     "team": "Mercedes-AMG F1 Team",
                     "time": "2:24'14.596",
@@ -2631,7 +2620,7 @@ const APP_DATA = {
                     "status": "Finished"
                 },
                 {
-                    "pos": 14,
+                    "pos": 13,
                     "pilot": "Nico Hulkenberg #27",
                     "team": "Audi F1 Team",
                     "time": "2:24'15.345",
@@ -2642,11 +2631,22 @@ const APP_DATA = {
                     "status": "Finished"
                 },
                 {
-                    "pos": 15,
+                    "pos": 14,
                     "pilot": "Franco Colapinto #43",
                     "team": "Alpine F1 Team",
                     "time": "2:24'20.207",
                     "gap": "48.964",
+                    "pts": 0,
+                    "laps": 78,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 15,
+                    "pilot": "Sergio Perez #11",
+                    "team": "Cadillac F1 Team",
+                    "time": "2:24'20.396",
+                    "gap": "49.153",
                     "pts": 0,
                     "laps": 78,
                     "fastest": false,
