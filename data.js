@@ -772,37 +772,37 @@ const APP_DATA = {
                     "pos": 1,
                     "name": "Andrea Kimi Antonelli #12",
                     "team": "Mercedes-AMG PETRONAS F1 Team",
-                    "pts": 131
+                    "pts": 156
                 },
                 {
                     "pos": 2,
+                    "name": "Lewis Hamilton #44",
+                    "team": "Scuderia Ferrari HP",
+                    "pts": 90
+                },
+                {
+                    "pos": 3,
                     "name": "George Russell #63",
                     "team": "Mercedes-AMG PETRONAS F1 Team",
                     "pts": 88
                 },
                 {
-                    "pos": 3,
+                    "pos": 4,
                     "name": "Charles Leclerc #16",
                     "team": "Scuderia Ferrari HP",
                     "pts": 75
                 },
                 {
-                    "pos": 4,
-                    "name": "Lewis Hamilton #44",
-                    "team": "Scuderia Ferrari HP",
-                    "pts": 72
-                },
-                {
                     "pos": 5,
-                    "name": "Lando Norris #1",
+                    "name": "Oscar Piastri #81",
                     "team": "McLaren F1 Team",
-                    "pts": 58
+                    "pts": 60
                 },
                 {
                     "pos": 6,
-                    "name": "Oscar Piastri #81",
+                    "name": "Lando Norris #1",
                     "team": "McLaren F1 Team",
-                    "pts": 48
+                    "pts": 58
                 },
                 {
                     "pos": 7,
@@ -812,91 +812,91 @@ const APP_DATA = {
                 },
                 {
                     "pos": 8,
-                    "name": "Pierre Gasly #10",
-                    "team": "BWT Alpine F1 Team",
-                    "pts": 20
+                    "name": "Isack Hadjar #6",
+                    "team": "Oracle Red Bull Racing",
+                    "pts": 29
                 },
                 {
                     "pos": 9,
+                    "name": "Liam Lawson #30",
+                    "team": "Visa Cash App RB F1 Team",
+                    "pts": 26
+                },
+                {
+                    "pos": 10,
+                    "name": "Pierre Gasly #10",
+                    "team": "BWT Alpine F1 Team",
+                    "pts": 26
+                },
+                {
+                    "pos": 11,
                     "name": "Oliver Berman #87",
                     "team": "Haas F1 Team",
                     "pts": 18
                 },
                 {
-                    "pos": 10,
-                    "name": "Liam Lawson #30",
-                    "team": "Visa Cash App RB F1 Team",
-                    "pts": 16
-                },
-                {
-                    "pos": 11,
+                    "pos": 12,
                     "name": "Franco Colapinto #43",
                     "team": "BWT Alpine F1 Team",
                     "pts": 15
                 },
                 {
-                    "pos": 12,
-                    "name": "Isack Hadjar #6",
-                    "team": "Oracle Red Bull Racing",
-                    "pts": 14
+                    "pos": 13,
+                    "name": "Arvid Lindblad #41",
+                    "team": "Visa Cash App RB F1 Team",
+                    "pts": 13
                 },
                 {
-                    "pos": 13,
+                    "pos": 14,
                     "name": "Carlos Sainz Jr. #55",
                     "team": "Williams Racing",
                     "pts": 6
                 },
                 {
-                    "pos": 14,
-                    "name": "Arvid Lindblad #41",
-                    "team": "Visa Cash App RB F1 Team",
-                    "pts": 5
-                },
-                {
                     "pos": 15,
-                    "name": "Gabriel Bortoleto #5",
-                    "team": "Audi F1 Team",
-                    "pts": 2
+                    "name": "Alexander Albon #23",
+                    "team": "Williams Racing",
+                    "pts": 5
                 },
                 {
                     "pos": 16,
                     "name": "Esteban Ocon #31",
                     "team": "Haas F1 Team",
-                    "pts": 1
+                    "pts": 3
                 },
                 {
                     "pos": 17,
-                    "name": "Alexander Albon #23",
-                    "team": "Williams Racing",
-                    "pts": 1
+                    "name": "Gabriel Bortoleto #5",
+                    "team": "Audi F1 Team",
+                    "pts": 2
                 },
                 {
                     "pos": 18,
+                    "name": "Sergio Perez #11",
+                    "team": "Cadillac F1 Team",
+                    "pts": 1
+                },
+                {
+                    "pos": 19,
                     "name": "Nico Hülkenberg #27",
                     "team": "Audi F1 Team",
                     "pts": 0
                 },
                 {
-                    "pos": 19,
+                    "pos": 20,
+                    "name": "Fernando Alonso #14",
+                    "team": "Aston Martin Aramco F1 Team",
+                    "pts": 0
+                },
+                {
+                    "pos": 21,
                     "name": "Valtteri Bottas #77",
                     "team": "Cadillac F1 Team",
                     "pts": 0
                 },
                 {
-                    "pos": 20,
-                    "name": "Sergio Perez #11",
-                    "team": "Cadillac F1 Team",
-                    "pts": 0
-                },
-                {
-                    "pos": 21,
-                    "name": "Lance Stroll #18",
-                    "team": "Aston Martin Aramco F1 Team",
-                    "pts": 0
-                },
-                {
                     "pos": 22,
-                    "name": "Fernando Alonso #14",
+                    "name": "Lance Stroll #18",
                     "team": "Aston Martin Aramco F1 Team",
                     "pts": 0
                 }
@@ -905,42 +905,42 @@ const APP_DATA = {
                 {
                     "pos": 1,
                     "name": "Mercedes-AMG PETRONAS F1 Team",
-                    "pts": 219
+                    "pts": 244
                 },
                 {
                     "pos": 2,
                     "name": "Scuderia Ferrari HP",
-                    "pts": 147
+                    "pts": 165
                 },
                 {
                     "pos": 3,
                     "name": "McLaren F1 Team",
-                    "pts": 106
+                    "pts": 118
                 },
                 {
                     "pos": 4,
                     "name": "Oracle Red Bull Racing",
-                    "pts": 57
+                    "pts": 72
                 },
                 {
                     "pos": 5,
                     "name": "BWT Alpine F1 Team",
-                    "pts": 35
+                    "pts": 41
                 },
                 {
                     "pos": 6,
                     "name": "Visa Cash App RB F1 Team",
-                    "pts": 21
+                    "pts": 39
                 },
                 {
                     "pos": 7,
                     "name": "Haas F1 Team",
-                    "pts": 19
+                    "pts": 21
                 },
                 {
                     "pos": 8,
                     "name": "Williams Racing",
-                    "pts": 7
+                    "pts": 11
                 },
                 {
                     "pos": 9,
@@ -950,7 +950,7 @@ const APP_DATA = {
                 {
                     "pos": 10,
                     "name": "Cadillac F1 Team",
-                    "pts": 0
+                    "pts": 1
                 },
                 {
                     "pos": 11,
@@ -1074,7 +1074,7 @@ const APP_DATA = {
                 "date": "05-07 Haziran",
                 "track": "Monaco",
                 "isoDate": "2026-06-07",
-                "status": "Sıradaki",
+                "status": "Tamamlandı",
                 "sessions": [
                     {
                         "name": "Cuma: 1. Antrenman",
@@ -1105,7 +1105,29 @@ const APP_DATA = {
                 "date": "12-14 Haziran",
                 "track": "Barcelona-Catalunya",
                 "isoDate": "2026-06-14",
-                "status": "Bekliyor"
+                "status": "Sıradaki",
+                "sessions": [
+                    {
+                        "name": "Cuma: 1. Antrenman",
+                        "time": "14:30"
+                    },
+                    {
+                        "name": "Cuma: 2. Antrenman",
+                        "time": "18:00"
+                    },
+                    {
+                        "name": "Cumartesi: 3. Antrenman",
+                        "time": "13:30"
+                    },
+                    {
+                        "name": "Cumartesi: Sıralama Turları",
+                        "time": "17:00"
+                    },
+                    {
+                        "name": "Pazar: Yarış",
+                        "time": "16:00"
+                    }
+                ]
             },
             {
                 "round": 10,
@@ -2463,6 +2485,250 @@ const APP_DATA = {
                     "fastest": false,
                     "status": "DNF"
                 }
+            ],
+            "8": [
+                {
+                    "pos": 1,
+                    "pilot": "Andrea Kimi Antonelli #12",
+                    "team": "Mercedes-AMG F1 Team",
+                    "time": "2:23'31.243",
+                    "gap": "-",
+                    "pts": 25,
+                    "laps": 78,
+                    "fastest": true,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 2,
+                    "pilot": "Lewis Hamilton #44",
+                    "team": "Scuderia Ferrari HP",
+                    "time": "2:23'37.514",
+                    "gap": "+6.271",
+                    "pts": 18,
+                    "laps": 78,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 3,
+                    "pilot": "Isack Hadjar #6",
+                    "team": "Oracle Red Bull Racing",
+                    "time": "2:23'54.637",
+                    "gap": "23.394",
+                    "pts": 15,
+                    "laps": 78,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 4,
+                    "pilot": "Oscar Piastri #81",
+                    "team": "McLaren F1 Team",
+                    "time": "2:23'55.504",
+                    "gap": "24.261",
+                    "pts": 12,
+                    "laps": 78,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 5,
+                    "pilot": "Liam Lawson #30",
+                    "team": "Visa Cash App RB F1 Team",
+                    "time": "2:23'57.796",
+                    "gap": "26.553",
+                    "pts": 10,
+                    "laps": 78,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 6,
+                    "pilot": "Arvid Lindblad #41",
+                    "team": "Visa Cash App RB F1 Team",
+                    "time": "2:24'00.253",
+                    "gap": "29.010",
+                    "pts": 8,
+                    "laps": 78,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 7,
+                    "pilot": "Pierre Gasly #10",
+                    "team": "BWT Alpine F1 Team",
+                    "time": "2:24'01.612",
+                    "gap": "30.369",
+                    "pts": 6,
+                    "laps": 78,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 8,
+                    "pilot": "Alexander Albon #23",
+                    "team": "Williams Racing",
+                    "time": "2:24'04.656",
+                    "gap": "33.413",
+                    "pts": 4,
+                    "laps": 78,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 9,
+                    "pilot": "Esteban Ocon #31",
+                    "team": "Haas F1 Team",
+                    "time": "2:24'08.383",
+                    "gap": "37.140",
+                    "pts": 2,
+                    "laps": 78,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 10,
+                    "pilot": "Sergio Perez #11",
+                    "team": "Cadillac F1 Team",
+                    "time": "2:24'10.396",
+                    "gap": "39.153",
+                    "pts": 1,
+                    "laps": 78,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 11,
+                    "pilot": "Fernando Alonso #14",
+                    "team": "Aston Martin Aramco F1 Team",
+                    "time": "2:24'13.142",
+                    "gap": "41.899",
+                    "pts": 0,
+                    "laps": 78,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 12,
+                    "pilot": "Gabriel Bortoleto #5",
+                    "team": "Audi F1 Team",
+                    "time": "2:24'13.991",
+                    "gap": "42.748",
+                    "pts": 0,
+                    "laps": 78,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 13,
+                    "pilot": "George Russell #63",
+                    "team": "Mercedes-AMG F1 Team",
+                    "time": "2:24'14.596",
+                    "gap": "43.353",
+                    "pts": 0,
+                    "laps": 78,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 14,
+                    "pilot": "Nico Hulkenberg #27",
+                    "team": "Audi F1 Team",
+                    "time": "2:24'15.345",
+                    "gap": "44.102",
+                    "pts": 0,
+                    "laps": 78,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 15,
+                    "pilot": "Franco Colapinto #43",
+                    "team": "Alpine F1 Team",
+                    "time": "2:24'20.207",
+                    "gap": "48.964",
+                    "pts": 0,
+                    "laps": 78,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": "DNF",
+                    "pilot": "Carlos Sainz Jr. #55",
+                    "team": "Williams Racing",
+                    "time": "2:13'32.889",
+                    "gap": "+8 Tur",
+                    "pts": 0,
+                    "laps": 70,
+                    "fastest": false,
+                    "status": "DNF"
+                },
+                {
+                    "pos": "DNF",
+                    "pilot": "Charles Leclerc #16",
+                    "team": "Scuderia Ferrari HP",
+                    "time": "1:25'42.849",
+                    "gap": "+14 Tur",
+                    "pts": 0,
+                    "laps": 64,
+                    "fastest": false,
+                    "status": "DNF"
+                },
+                {
+                    "pos": "DNF",
+                    "pilot": "Lance Stroll #18",
+                    "team": "Aston Martin Aramco",
+                    "time": "1:15'16.761",
+                    "gap": "+22 Tur",
+                    "pts": 0,
+                    "laps": 56,
+                    "fastest": false,
+                    "status": "DNF"
+                },
+                {
+                    "pos": "DNF",
+                    "pilot": "Lando Norris #4",
+                    "team": "McLaren F1 Team",
+                    "time": "56'36.709",
+                    "gap": "+35 Tur",
+                    "pts": 0,
+                    "laps": 43,
+                    "fastest": false,
+                    "status": "DNF"
+                },
+                {
+                    "pos": "DNF",
+                    "pilot": "Oliver Bearman #87",
+                    "team": "Haas F1 Team",
+                    "time": "36'57.098",
+                    "gap": "+51 Tur",
+                    "pts": 0,
+                    "laps": 27,
+                    "fastest": false,
+                    "status": "DNF"
+                },
+                {
+                    "pos": "DNF",
+                    "pilot": "Valtteri Bottas #77",
+                    "team": "Cadillac F1 Team",
+                    "time": "21'03.117",
+                    "gap": "+63 Tur",
+                    "pts": 0,
+                    "laps": 15,
+                    "fastest": false,
+                    "status": "DNF"
+                },
+                {
+                    "pos": "DNF",
+                    "pilot": "Max Verstappen #1",
+                    "team": "Oracle Red Bull Racing",
+                    "time": "0",
+                    "gap": "+78 Tur",
+                    "pts": 0,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "DNF"
+                }
             ]
         }
     },
@@ -3225,7 +3491,7 @@ const APP_DATA = {
                 "date": "05-07 Haziran",
                 "track": "Balaton Park",
                 "isoDate": "2026-06-07",
-                "status": "Sıradaki",
+                "status": "Tamamlandı",
                 "sessions": [
                     {
                         "name": "Cuma: 1. Antrenman",
@@ -3268,7 +3534,41 @@ const APP_DATA = {
                 "date": "19-21 Haziran",
                 "track": "Brno",
                 "isoDate": "2026-06-21",
-                "status": "Bekliyor"
+                "status": "Sıradaki",
+                "sessions": [
+                    {
+                        "name": "Cuma: 1. Antrenman",
+                        "time": "11:45"
+                    },
+                    {
+                        "name": "Cuma: Ana Antrenman Seansı",
+                        "time": "16:00"
+                    },
+                    {
+                        "name": "Cumartesi: 2.Antrenman Seansı",
+                        "time": "11:10"
+                    },
+                    {
+                        "name": "Cumartesi: Sıralama Turları 1",
+                        "time": "11:50"
+                    },
+                    {
+                        "name": "Cumartesi: Sıralama Turları 2",
+                        "time": "12:15"
+                    },
+                    {
+                        "name": "Cumartesi: Sprint Yarışı",
+                        "time": "16:00"
+                    },
+                    {
+                        "name": "Pazar: Isınma Turları",
+                        "time": "10:40"
+                    },
+                    {
+                        "name": "Pazar: Yarış",
+                        "time": "15:00"
+                    }
+                ]
             },
             {
                 "round": 10,
@@ -5085,6 +5385,250 @@ const APP_DATA = {
                     "fastest": false,
                     "status": "DNF"
                 }
+            ],
+            "8": [
+                {
+                    "pos": 1,
+                    "pilot": "Marc Marquez #93",
+                    "team": "Ducati Lenovo Team",
+                    "time": "42'55.325",
+                    "gap": "-",
+                    "pts": 25,
+                    "laps": 26,
+                    "fastest": true,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 2,
+                    "pilot": "Pedro Acosta #37",
+                    "team": "Red Bull KTM Factory Racing",
+                    "time": "42'56.668",
+                    "gap": "+1.343",
+                    "pts": 20,
+                    "laps": 26,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 3,
+                    "pilot": "Francesco Bagnaia #63",
+                    "team": "Ducati Lenovo Team",
+                    "time": "43'06.957",
+                    "gap": "+11.632",
+                    "pts": 16,
+                    "laps": 26,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 4,
+                    "pilot": "Ai Ogura #79",
+                    "team": "Trackhouse Racing",
+                    "time": "43'10.864",
+                    "gap": "+15.539",
+                    "pts": 13,
+                    "laps": 26,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 5,
+                    "pilot": "Luca Marini #10",
+                    "team": "Repsol Honda Team",
+                    "time": "43'13.994",
+                    "gap": "+18.669",
+                    "pts": 11,
+                    "laps": 26,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 6,
+                    "pilot": "Diego Moreira #11",
+                    "team": "Castrol Honda LCR",
+                    "time": "43'17.119",
+                    "gap": "+21.794",
+                    "pts": 10,
+                    "laps": 26,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 7,
+                    "pilot": "Iker Lecuona #27",
+                    "team": "BK8 Gresini Racing MotoGP",
+                    "time": "43'18.140",
+                    "gap": "+22.815",
+                    "pts": 9,
+                    "laps": 26,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 8,
+                    "pilot": "Jack Miller #43",
+                    "team": "Prima Pramac Yamaha MotoGP",
+                    "time": "43'18.608",
+                    "gap": "+23.283",
+                    "pts": 8,
+                    "laps": 26,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 9,
+                    "pilot": "Enea Bastianini #23",
+                    "team": "Red Bull KTM Tech 3",
+                    "time": "43'19.816",
+                    "gap": "+24.491",
+                    "pts": 7,
+                    "laps": 26,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 10,
+                    "pilot": "Brad Binder #33",
+                    "team": "Red Bull KTM Factory Racing",
+                    "time": "43'19.926",
+                    "gap": "+24.601",
+                    "pts": 6,
+                    "laps": 26,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 11,
+                    "pilot": "Toprak Razgatlıoglu #7",
+                    "team": "Prima Pramac Yamaha MotoGP",
+                    "time": "43'20.460",
+                    "gap": "+25.135",
+                    "pts": 5,
+                    "laps": 26,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 12,
+                    "pilot": "Fabio Di Giannantonio #49",
+                    "team": "Pertamina Enduro VR46",
+                    "time": "43'23.711",
+                    "gap": "+28.386",
+                    "pts": 4,
+                    "laps": 26,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 13,
+                    "pilot": "Alex Rins #42",
+                    "team": "Monster Energy Yamaha MotoGP",
+                    "time": "43'24.532",
+                    "gap": "+29.207",
+                    "pts": 3,
+                    "laps": 26,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 14,
+                    "pilot": "Franco Morbidelli #21",
+                    "team": "Pertamina Enduro VR46",
+                    "time": "43'26.658",
+                    "gap": "+31.333",
+                    "pts": 2,
+                    "laps": 26,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 15,
+                    "pilot": "Maverick Viñales #12",
+                    "team": "Red Bull KTM Tech 3",
+                    "time": "43'43.861",
+                    "gap": "+48.536",
+                    "pts": 1,
+                    "laps": 26,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 16,
+                    "pilot": "Cal Crutchlow #35",
+                    "team": "Castrol Honda LCR",
+                    "time": "43'49.929",
+                    "gap": "+54.604",
+                    "pts": 0,
+                    "laps": 26,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": "DNF",
+                    "pilot": "Fabio Quartararo #20",
+                    "team": "Monster Energy Yamaha MotoGP",
+                    "time": "37'33.951",
+                    "gap": "+4 Tur",
+                    "pts": 0,
+                    "laps": 22,
+                    "fastest": false,
+                    "status": "DNF"
+                },
+                {
+                    "pos": "DNF",
+                    "pilot": "Joan Mir #36",
+                    "team": "Repsol Honda Team",
+                    "time": "23'22.687",
+                    "gap": "+12 Tur",
+                    "pts": 0,
+                    "laps": 14,
+                    "fastest": false,
+                    "status": "DNF"
+                },
+                {
+                    "pos": "DNF",
+                    "pilot": "Fermin Aldeguer #54",
+                    "team": "BK8 Gresini Racing MotoGP",
+                    "time": "3.485",
+                    "gap": "+26 Tur",
+                    "pts": 0,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "DNF"
+                },
+                {
+                    "pos": "DNF",
+                    "pilot": "Marco Bezzecchi #72",
+                    "team": "Aprilia Racing",
+                    "time": "3.672",
+                    "gap": "26 Tur",
+                    "pts": 0,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "DNF"
+                },
+                {
+                    "pos": "DNF",
+                    "pilot": "Raul Fernandez #25",
+                    "team": "Trackhouse Racing",
+                    "time": "3.740",
+                    "gap": "26 Tur",
+                    "pts": 0,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "DNF"
+                },
+                {
+                    "pos": "DNF",
+                    "pilot": "Jorge Martin #89",
+                    "team": "Aprilia Racing",
+                    "time": "3.851",
+                    "gap": "26 Tur",
+                    "pts": 0,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "DNF"
+                }
             ]
         },
         "standings": {
@@ -5093,49 +5637,49 @@ const APP_DATA = {
                     "pos": 1,
                     "name": "Marco Bezzecchi #72",
                     "team": "Aprilia Racing",
-                    "pts": 173
+                    "pts": 180
                 },
                 {
                     "pos": 2,
                     "name": "Jorge Martin #89",
                     "team": "Aprilia Racing",
-                    "pts": 156
+                    "pts": 160
                 },
                 {
                     "pos": 3,
                     "name": "Fabio Di Giannantonio #49",
                     "team": "Pertamina Enduro VR46",
-                    "pts": 134
+                    "pts": 138
                 },
                 {
                     "pos": 4,
                     "name": "Pedro Acosta #37",
                     "team": "Red Bull KTM Factory Racing",
-                    "pts": 103
+                    "pts": 132
                 },
                 {
                     "pos": 5,
-                    "name": "Ai Ogura #79",
-                    "team": "Trackhouse MotoGP Team",
-                    "pts": 92
+                    "name": "Marc Marquez #93",
+                    "team": "Ducati Lenovo Team",
+                    "pts": 108
                 },
                 {
                     "pos": 6,
-                    "name": "Raul Fernandez #25",
+                    "name": "Ai Ogura #79",
                     "team": "Trackhouse MotoGP Team",
-                    "pts": 87
+                    "pts": 105
                 },
                 {
                     "pos": 7,
                     "name": "Francesco Bagnaia #63",
                     "team": "Ducati Lenovo Team",
-                    "pts": 82
+                    "pts": 99
                 },
                 {
                     "pos": 8,
-                    "name": "Marc Marquez #93",
-                    "team": "Ducati Lenovo Team",
-                    "pts": 71
+                    "name": "Raul Fernandez #25",
+                    "team": "Trackhouse MotoGP Team",
+                    "pts": 93
                 },
                 {
                     "pos": 9,
@@ -5147,31 +5691,31 @@ const APP_DATA = {
                     "pos": 10,
                     "name": "Fermin Aldeguer #54",
                     "team": "BK8 Gresini Racing MotoGP",
-                    "pts": 59
+                    "pts": 64
                 },
                 {
                     "pos": 11,
                     "name": "Luca Marini #10",
                     "team": "Repsol Honda Team",
-                    "pts": 46
+                    "pts": 57
                 },
                 {
                     "pos": 12,
-                    "name": "Brad Binder #33",
-                    "team": "Red Bull KTM Factory Racing",
-                    "pts": 42
+                    "name": "Enea Bastianini #23",
+                    "team": "Red Bull KTM Tech3",
+                    "pts": 48
                 },
                 {
                     "pos": 13,
-                    "name": "Enea Bastianini #23",
-                    "team": "Red Bull KTM Tech3",
-                    "pts": 39
+                    "name": "Brad Binder #33",
+                    "team": "Red Bull KTM Factory Racing",
+                    "pts": 48
                 },
                 {
                     "pos": 14,
                     "name": "Franco Morbidelli #21",
                     "team": "Pertamina Enduro VR46",
-                    "pts": 38
+                    "pts": 40
                 },
                 {
                     "pos": 15,
@@ -5181,15 +5725,15 @@ const APP_DATA = {
                 },
                 {
                     "pos": 16,
-                    "name": "Johann Zarco #5",
+                    "name": "Diogo Moreira #11",
                     "team": "Castrol Honda LCR",
-                    "pts": 34
+                    "pts": 36
                 },
                 {
                     "pos": 17,
-                    "name": "Diogo Moreira #11",
+                    "name": "Johann Zarco #5",
                     "team": "Castrol Honda LCR",
-                    "pts": 23
+                    "pts": 34
                 },
                 {
                     "pos": 18,
@@ -5201,52 +5745,58 @@ const APP_DATA = {
                     "pos": 19,
                     "name": "Alex Rins #42",
                     "team": "Monster Energy Yamaha MotoGP Team",
-                    "pts": 9
+                    "pts": 12
                 },
                 {
                     "pos": 20,
-                    "name": "Maverick Viñales #12",
-                    "team": "Red Bull KTM Tech3",
-                    "pts": 5
+                    "name": "Jack Miller #43",
+                    "team": "Prima Pramac Yamaha MotoGP",
+                    "pts": 11
                 },
                 {
                     "pos": 21,
-                    "name": "Augusto Fernandez #47",
-                    "team": "Yamaha Factory Racing",
-                    "pts": 4
+                    "name": "Iker Lecuona #27",
+                    "team": "BK8 Gresini Racing MotoGP",
+                    "pts": 9
                 },
                 {
                     "pos": 22,
                     "name": "Toprak Razgatlıoğlu #7",
                     "team": "Prima Pramac Yamaha MotoGP",
-                    "pts": 4
+                    "pts": 9
                 },
                 {
                     "pos": 23,
-                    "name": "Jack Miller #43",
-                    "team": "Prima Pramac Yamaha MotoGP",
-                    "pts": 3
+                    "name": "Maverick Viñales #12",
+                    "team": "Red Bull KTM Tech3",
+                    "pts": 6
                 },
                 {
                     "pos": 24,
-                    "name": "Jonas Folger #94",
-                    "team": "Red Bull KTM Tech3",
-                    "pts": 0
+                    "name": "Augusto Fernandez #47",
+                    "team": "Yamaha Factory Racing",
+                    "pts": 4
                 },
                 {
                     "pos": 25,
-                    "name": "Michele Pirro #51",
-                    "team": "BK8 Gresini Racing MotoGP",
-                    "pts": 0
-                },
-                {
-                    "pos": 26,
                     "name": "Cal Crutchlow #35",
                     "team": "Castrol Honda LCR",
                     "pts": 0
                 },
                 {
+                    "pos": 26,
+                    "name": "Jonas Folger #94",
+                    "team": "Red Bull KTM Tech3",
+                    "pts": 0
+                },
+                {
                     "pos": 27,
+                    "name": "Michele Pirro #51",
+                    "team": "BK8 Gresini Racing MotoGP",
+                    "pts": 0
+                },
+                {
+                    "pos": 28,
                     "name": "Lorenzo Savadori #32",
                     "team": "Aprilia Racing",
                     "pts": 0
@@ -5256,57 +5806,57 @@ const APP_DATA = {
                 {
                     "pos": 1,
                     "name": "Aprilia Racing",
-                    "pts": 329
+                    "pts": 340
                 },
                 {
                     "pos": 2,
-                    "name": "Trackhouse Racing",
-                    "pts": 179
+                    "name": "Ducati Lenovo Team",
+                    "pts": 207
                 },
                 {
                     "pos": 3,
-                    "name": "Pertamina Enduro VR46",
-                    "pts": 172
+                    "name": "Trackhouse Racing",
+                    "pts": 198
                 },
                 {
                     "pos": 4,
-                    "name": "Ducati Lenovo Team",
-                    "pts": 153
+                    "name": "Red Bull KTM Factory Racing",
+                    "pts": 180
                 },
                 {
                     "pos": 5,
-                    "name": "Red Bull KTM Factory Racing",
-                    "pts": 145
+                    "name": "Pertamina Enduro VR46",
+                    "pts": 178
                 },
                 {
                     "pos": 6,
                     "name": "BK8 Gresini Racing MotoGP",
-                    "pts": 126
+                    "pts": 140
                 },
                 {
                     "pos": 7,
                     "name": "Repsol Honda Team",
-                    "pts": 61
+                    "pts": 72
                 },
                 {
                     "pos": 8,
                     "name": "Castrol Honda LCR",
-                    "pts": 57
+                    "pts": 70
                 },
                 {
                     "pos": 9,
-                    "name": "Monster Energy Yamaha MotoGP Team",
-                    "pts": 46
+                    "name": "Red Bull KTM Tech3",
+                    "pts": 54
                 },
                 {
                     "pos": 10,
-                    "name": "Red Bull KTM Tech3",
-                    "pts": 44
+                    "name": "Monster Energy Yamaha MotoGP Team",
+                    "pts": 49
                 },
                 {
                     "pos": 11,
                     "name": "Prima Pramac Yamaha MotoGP",
-                    "pts": 7
+                    "pts": 20
                 }
             ]
         }
@@ -5870,9 +6420,15 @@ const CIRCUITS_DB = {
         "mostWinsPilot": "Marc Márquez (1 Galibiyet)", "mostWinsTeam": "Ducati Lenovo Team (1 Galibiyet)",
         "description": "Balaton Gölü yakınlarında konumlanan Balaton Park, akıcı yüksek hızlı virajları, teknik şikanları ve yön değişimleriyle sürücülerin sınırlarını zorlayan, 33 yıl aradan sonra MotoGP coşkusunu Macaristan'a geri getiren son teknoloji bir motor sporları merkezidir."
     },
+    "Catalunya": {
+        "len": "4.657 km", "turns": "14", "record": "1:11.383 (Lando Norris)",
+        "opened": "1991", "firstWinner": "Nigel Mansell (1991)",
+        "mostWinsPilot": "Michael Schumacher ve Lewis Hamilton (6 Galibiyet)", "mostWinsTeam": "Scuderia Ferrari HP (8 Galibiyet)",
+        "description": "Uzun düzlüğü, teknik viraj kombinasyonları ve aerodinamik verimliliği sonuna kadar test eden yapısıyla Barcelona-Catalunya, Formula 1 dünyasında bir aracın saf performansını ve dengesini ölçen en net pistlerdendir."
+    },
 };
 
-const TRACK_STATS = CIRCUITS_DB["Monaco"];
+const TRACK_STATS = CIRCUITS_DB["Catalunya"];
 
 // Dinamik veriler script.js tarafından güncellenecektir.
 let CURRENT_WEEKEND_DATA = null;
