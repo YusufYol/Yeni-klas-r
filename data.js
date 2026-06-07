@@ -2459,6 +2459,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 77,
+                "title": "MARC MÁRQUEZ, MACARİSTAN'DA 100. GRAND PRIX ZAFERİNİ KAZANDI!",
+                "cat": "motogp",
+                "date": "2026-06-07 16:04",
+                "content": "MotoGP dünyası, Macaristan Grand Prix’sinde unutulmaz ve tarihe geçen anlara sahne oldu. Hafta sonuna tamamen ambargo koyan Marc Marquez, pole pozisyonundan başladığı yarışı kazanarak kariyerinin 100. Grand Prix zaferini ilan etti. Dünkü sprint yarışındaki galibiyetinin ardından ana yarışta da podyumun zirvesine çıkan Marquez, adeta küllerinden doğduğunu kanıtladı. Özellikle omuz ve ayak sakatlıklarının ardından \"Yarış sonunu getirebilir mi, getirse de geride kalır mı?\" şüphelerine, yarış boyunca üst üste attığı en hızlı turlarla pistte cevap veren deneyimli pilot, muazzam bir geri dönüş hikayesine imza attı. Yarışın büyük bölümünde liderlik mücadelesi veren genç pilot Pedro Acosta ise harika bir performans sergileyerek Marquez'i geçmeyi başarsa da, arka lastikteki yumuşak hamur tercihinin kurbanı oldu. Lastiklerinin bitmesiyle Marquez’in tecrübesine boyun eğen Acosta, yarışı ikinci sırada tamamladı ve podyuma çıkıp yarış kazanamama şanssızlığını 13. kez tekrarlamış oldu. Podyumun son basamağını ise Francesco Bagnaia kaptı ve böylece Ducati ekibi çifte podyum sevinci yaşadı.<br><br>Yarışın kaderini tayin eden en dramatik anlar ise start çizgisinde yaşandı. İlk virajdaki frenleme noktasında motosikletini durduramayan Jorge Martin, büyük bir zincirleme kazaya sebebiyet vererek Fermin Aldeguer, Marco Bezzecchi, Raul Fernandez ve Fabio Di Giannantonio’yu kendisiyle birlikte dışarı taşıdı. Kazaya karışan isimlerden Di Giannantonio büyük bir dirençle piste dönüp yarışı 12. sırada bitirmeyi başarsa da, şampiyonluk mücadelesinin zirvesindeki iki ismin yarış dışı kalması şampiyona liderlik tablosundaki dengeleri tamamen değiştirdi ve rekabeti bambaşka bir boyuta taşıdı.<br><br>Öte yandan temsilcimiz Toprak Razgatlıoğlu, 18. sıradan başladığı bu olaylı ve zorlu yarışta harika bir yükseliş grafiği çizerek damalı bayrağı 11. sırada görmeyi başardı. Temsilcimiz, bu sonuçla birlikte bu sezonki en iyi yarış derecesini elde ederek bizleri gururlandırdı.",
+                "img": "Resimler/MotoGP Haberler/1780837488222_1000044614.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 74,
                 "title": "MARC MÁRQUEZ, MACARİSTAN GP'DE SPRİNT YARIŞINI KAZANDI!",
                 "cat": "motogp",
