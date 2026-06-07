@@ -6420,7 +6420,7 @@ const CIRCUITS_DB = {
         "mostWinsPilot": "Marc Márquez (1 Galibiyet)", "mostWinsTeam": "Ducati Lenovo Team (1 Galibiyet)",
         "description": "Balaton Gölü yakınlarında konumlanan Balaton Park, akıcı yüksek hızlı virajları, teknik şikanları ve yön değişimleriyle sürücülerin sınırlarını zorlayan, 33 yıl aradan sonra MotoGP coşkusunu Macaristan'a geri getiren son teknoloji bir motor sporları merkezidir."
     },
-    "Catalunya": {
+    "Barcelona-Catalunya": {
         "len": "4.657 km", "turns": "14", "record": "1:11.383 (Lando Norris)",
         "opened": "1991", "firstWinner": "Nigel Mansell (1991)",
         "mostWinsPilot": "Michael Schumacher ve Lewis Hamilton (6 Galibiyet)", "mostWinsTeam": "Scuderia Ferrari HP (8 Galibiyet)",
@@ -6428,7 +6428,7 @@ const CIRCUITS_DB = {
     },
 };
 
-const TRACK_STATS = CIRCUITS_DB["Catalunya"];
+const TRACK_STATS = CIRCUITS_DB["Barcelona-Catalunya"];
 
 // Dinamik veriler script.js tarafından güncellenecektir.
 let CURRENT_WEEKEND_DATA = null;
