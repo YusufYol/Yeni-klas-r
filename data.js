@@ -878,19 +878,19 @@ const APP_DATA = {
                 },
                 {
                     "pos": 19,
-                    "name": "Sergio Perez #11",
-                    "team": "Cadillac F1 Team",
-                    "pts": 0
-                },
-                {
-                    "pos": 20,
                     "name": "Nico Hülkenberg #27",
                     "team": "Audi F1 Team",
                     "pts": 0
                 },
                 {
-                    "pos": 21,
+                    "pos": 20,
                     "name": "Valtteri Bottas #77",
+                    "team": "Cadillac F1 Team",
+                    "pts": 0
+                },
+                {
+                    "pos": 21,
+                    "name": "Sergio Perez #11",
                     "team": "Cadillac F1 Team",
                     "pts": 0
                 },
