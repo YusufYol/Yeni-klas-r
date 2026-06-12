@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 81,
+                "title": "PIERRE GASLY'NİN PODYUMU GERİ VERİLDİ!",
+                "cat": "formula 1",
+                "date": "2026-06-12 15:25",
+                "content": "Formula 1 dünyası, son yılların en sıra dışı hakem kararlarından birine sahne oldu ve Monaco Grand Prix'sinin nihai sonuçları masa başında tamamen değişti. Hatırlanacağı üzere kaotik geçen Monte Carlo sokaklarındaki yarışı Alpine pilotu Pierre Gasly üçüncü sırada tamamlamış, ancak pitte hız sınırını aştığı gerekçesiyle üst üste aldığı iki adet 5 saniyelik (toplamda 10 saniye) zaman cezası nedeniyle 7. sıraya kadar gerilemişti. Bu cezanın ardından Red Bull'un genç pilotu Isack Hadjar podyuma yükselmişti. Ancak Alpine takımının komiserler kuruluna sunduğu \"Yeniden İnceleme Hakkı\" (Right of Review) talebi, Barcelona-Catalunya GP hafta sonunun hemen öncesinde Formula 1 camiasında ses getirdi.<br><br>FIA ve Formula One Management (FOM) tarafından yapılan detaylı incelemeler, Monaco pit alanındaki resmi zamanlama sisteminde (telemetri döngüleri arasındaki mesafe ölçümünde) ciddi bir hata olduğunu ortaya çıkardı. Sistemin mesafeyi yanlış hesapladığı ve Gasly'nin hızını gerçekte olduğundan daha yüksek gösterdiği resmi olarak doğrulandı. Bu teknik hatanın kabul edilmesinin ardından FIA komiserleri, Pierre Gasly'ye verilen iki cezayı da tamamen iptal etti. Alınan bu kararla birlikte Gasly Monaco GP üçüncülüğünü ve podyumunu geri alırken, podyum kutlamalarına katılan Isack Hadjar ise resmi olarak 4. sıraya gerilemiş oldu.",
+                "img": "Resimler/Formula 1 Haberler/1781267110268_1000044758.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 80,
                 "title": "FERNANDO ALONSO, EMEKLİLİK SİNYALİ VERDİ!",
                 "cat": "formula 1",
