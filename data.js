@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 80,
+                "title": "FERNANDO ALONSO, EMEKLİLİK SİNYALİ VERDİ!",
+                "cat": "formula 1",
+                "date": "2026-06-12 14:28",
+                "content": "Formula 1 dünyasının en ikonik isimlerinden Fernando Alonso, Barselona pistinde duygusal ve çarpıcı bir emeklilik sinyali verdi. Hafta sonu gerçekleştirilecek yarış öncesinde açıklamalarda bulunan iki kez dünya şampiyonu pilot, takvimin değişen yapısı ve Barselona'nın sonraki yıllarda dönemsel olarak yer alacak olması nedeniyle, bu yarışın F1 kariyerindeki son Barselona GP'si olabileceğini belirtti. Geleceğine dair kararı henüz netleştirmediğini ifade eden İspanyol efsane, \"Aklımda kesin bir şey yok. Devam edip etmeyeceğime yaz arasından sonra karar vereceğim\" diyerek önümüzdeki ayları işaret etti. Bu açıklama, motorsporları dünyasında bir devrin daha sonuna yaklaşıldığının en net habercisi oldu.<br><br>Dünyanın çok yönlü yarışçılarından biri olan Fernando Alonso, sadece Formula 1 pistlerinde değil, motorsporlarının her alanında adını altın harflerle yazdırdı. \"Üçlü Taç\" (Triple Crown) unvanını kovalayan nadir pilotlardan biri olan Alonso, Formula 1'e ara verdiği dönemde Dayanıklılık Şampiyonası'na (WEC) geçiş yaparak efsanevi Le Mans 24 Saat yarışını iki kez (2018, 2019) kazandı ve WEC Dünya Şampiyonu oldu. Amerika'nın ünlü Indianapolis 500 yarışında liderlik koltuğuna oturarak hızını kanıtlayan pilot, dünyanın en zorlu rallisi kabul edilen Dakar Rallisi'nde de direksiyon sallayarak çöllerin üstesinden gelebileceğini herkese gösterdi.<br><br>Çocukken hayal ettiğinden çok daha fazlasını başardığını ve kariyeriyle tamamen barış içinde olduğunu söyleyen efsane pilot, Aston Martin koltuğunda geçirdiği bu zorlu sezonun ardından pistlere veda etse bile arkasında asla silinmeyecek bir miras bırakacak gibi görünüyor.",
+                "img": "Resimler/Formula 1 Haberler/1781263727389_1000044753.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 78,
                 "title": "ANDREA KIMI ANTONELLI, ÜST ÜSTE 5. KEZ YARIŞ KAZANDI!",
                 "cat": "formula 1",
