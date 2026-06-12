@@ -5864,6 +5864,16 @@ const APP_DATA = {
     "haberler": {
         "news": [
             {
+                "id": 79,
+                "title": "LE MANS 24 SAAT YARIŞINDA POLE BMW'YE GEÇTİ!",
+                "cat": "haberler",
+                "date": "2026-06-12 08:53",
+                "content": "Dünyanın en prestijli motor sporları organizasyonlarından biri olan FIA Dünya Dayanıklılık Şampiyonası'nın (WEC) zirve noktası Le Mans 24 Saat yarışında, sıralama turları tarihi anlara sahne oldu. Her bir turu tam 13.626 kilometre uzunluğunda olan efsanevi De la Sarthe Pisti'nde, pole pozisyonu mücadelesinin verildiği Hyperpole seansında adeta saliselerin savaşı yaşandı. 38 numaralı Hertz Team JOTA Cadillac pilotu Jack Aitken, son turunda en yakın rakibini sadece +0.005 saniye gibi motor sporları tarihinde eşine az rastlanır cüzi bir farkla geride bırakarak ilk sırayı elde etti. Ancak seansın ardından devreye giren yarış komiserleri, 38 numaralı Cadillac ekibine seans başında pit alanındaki prosedürlere uymadıkları gerekçesiyle ceza verdi. En hızlı tur zamanı silinen Cadillac gerilere düşerken, pole pozisyonu resmi olarak Dries Vanthoor’un direksiyonunda olduğu 15 numaralı BMW M Team WRT ekibine geçti.<br><br>Toplamda 62 aracın ve dünyanın en elit 186 pilotunun 24 saat boyunca mekanik, fiziksel ve zihinsel sınırları zorlayacağı bu devasa maratonda, gözümüz LMGT3 kategorisinde ülkemizi gururla temsil eden milli pilotlarımızda olacak. Kariyerinde ilk kez bu efsanevi yarışta boy göstermeye hazırlanan Ayhancan Güven, Manthey EMA takımıyla birlikte Porsche 911 GT3 R direksiyonunda takımı ile harika bir performans sergiledi. Yoğun trafiğe ve zorlu pist şartlarına rağmen temiz turlar atmayı başaran Manthey EMA takımı, devasa maratona 9. sıradan başlama hakkı elde ederek podyum mücadelesi için oldukça güçlü bir pozisyon kaptı.<br><br>Öte yandan, daha önce bu pistte yarışmış olan bir diğer temsilcimiz Salih Yoluç ve takımı Racing Team Turkey ekibi ise sıralama turlarında şanssız bir an yaşadı. Seans sonrası yapılan teknik kontrollerde araçta tespit edilen bir kural ihlali nedeniyle Salih Yoluç'un ekibi gridin gerisine düşürülerek yarışa 25. sıradan başlama cezası aldı. Her ne kadar gerilerden başlayacak olsa da, takımların 24 saat sonunda ortalama 5.000 kilometrenin üzerinde mesafe katettiği bu zorlu dayanıklılık testinde stratejinin, mekanik dayanıklılığın ve hatasız sürüşün önemi çok büyük.<br><br>Cumartesi günü TSİ 17.00'de başlayacak bu devasa yarışta her iki temsilcimize de şimdiden başarılar diliyoruz.",
+                "img": "Resimler/Haberler/1781243598241_1000044750.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 71,
                 "title": "NASCAR EFSANESİ NED JARRETT 93 YAŞINDA HAYATINI KAYBETTİ!",
                 "cat": "haberler",
