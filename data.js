@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 82,
+                "title": "GEORGE RUSSELL, POLE POZİSYONU İLE GERİ DÖNDÜ!",
+                "cat": "formula 1",
+                "date": "2026-06-13 20:19",
+                "content": "Formula 1 Barcelona-Catalunya Grand Prix'sinde sıralama turları nefes kesen bir mücadeleye sahne oldu. Son 4-5 yarıştır takım arkadaşının gerisinde kalan ve eleştirilerin odak noktası haline gelen Mercedes pilotu George Russell, İspanya'da muazzam bir geri dönüşe imza attı. Üzerindeki tüm baskıyı ve eleştirileri harika bir turlu susturan Britanyalı pilot, damalı bayrağı ilk sırada görerek \"Pole\" pozisyonunun sahibi oldu. Pazar günkü büyük yarış öncesi ilk cebi kapan Russell, adeta küllerinden doğduğunun mesajını verdi.<br><br>Sıralama turlarının ikinci ise Lewis Hamilton oldu. İtalyan ekibiyle bu sezonun en iyi sıralama sonuçlarından birini alan Hamilton, Russell'ın hemen arkasında ikinci sırayı kaptı. Tecrübeli pilotun bu performansı, Barcelona'da hem Ferrari garajına hem de tribünleri dolduran Tifosiye galibiyet için adeta bir umut ışığı yaktı. Mercedes'in genç yıldızı ve şampiyona lideri Kimi Antonelli ise üçüncü sırayı alarak gridin ilk çizgisinde kendine yer buldu.<br><br>Hafta sonu boyunca güçlü bir grafik çizen McLaren takımında son şampiyon Lando Norris, gridde kendine ancak dördüncü sırada yer bulabildi. Red Bull pilotu Max Verstappen ise Q3'te elinden geleni yapmasına rağmen beşinci sırada kaldı ve üçüncü çizgide yer aldı. Gridin altıncı sırasına Isack Hadjar yerleşirken, yedinci cep McLaren'ın diğer pilotu Oscar Piastri'nin oldu.<br><br>Sıralama turlarının asıl şoku ve hayal kırıklığı ise Charles Leclerc ile yaşandı. Q3 seansının bitimine yaklaşık 8 dakika kala kontrolü kaybeden Monacolu pilot, sert bir şekilde bariyerlere çarparak çakıl havuzunda kaldı. Kazanın ardından kırmızı bayrak sallandı ve seans bir süreliğine durduruldu. Aracın kaldırılmasının ardından turlar kaldığı yerden devam etse de Leclerc için fatura ağır oldu. Monaco'daki yarış kazasının ardından üst üste ikinci kez kaza yapan Leclerc, Barcelona'daki ana yarışa 10. sıradan başlamak zorunda kalacak.<br><br>Formula 1 heyecan dolu Barcelona yarışı ile devam edecek. Büyük yarış, Pazar günü saat 16.00’da kırmızı ışıkların sönmesiyle başlayacak.",
+                "img": "Resimler/Formula 1 Haberler/1781371171871_1000044830.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 81,
                 "title": "PIERRE GASLY'NİN PODYUMU GERİ VERİLDİ!",
                 "cat": "formula 1",
