@@ -1145,7 +1145,7 @@ const APP_DATA = {
                 "date": "12-14 Haziran",
                 "track": "Barcelona-Catalunya",
                 "isoDate": "2026-06-14",
-                "status": "Sıradaki",
+                "status": "Tamamlandı",
                 "sessions": [
                     {
                         "name": "Cuma: 1. Antrenman",
