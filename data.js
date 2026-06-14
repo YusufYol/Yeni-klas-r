@@ -590,6 +590,16 @@ const APP_DATA = {
                 "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png",
                 "content": "Dünyanın en prestijli ve zorlu dayanıklılık yarışlarından biri olan Le Mans 24 Saat'te ülkemizi gururla temsil eden başarılı pilotumuz Ayhancan Güven, büyük bir şanssızlık yaşadı. Yarışın zorlu şartlarında podyum mücadelesi veren ve sergilediği üstün performansla dikkatleri üzerine çeken Güven, aracın direksiyon mekanizmasında meydana gelen ani bir teknik arıza nedeniyle kontrolü kaybetti. Bu beklenmedik problem sonucunda yüksek hızda bariyerlere çarparak kaza yapan milli sporcumuz, büyük bir tehlike atlattı.<br><br>Kazanın ardından hem Ayhancan Güven'in hem de takımının yoğun çabalarına rağmen araçtaki hasarın büyüklüğü nedeniyle yarışa devam etmek mümkün olmadı. Gece gündüz demeden büyük bir emekle hazırlanan tüm takım, bu teknik talihsizliğin ardından yarış dışı (DNF) kalarak Le Mans macerasına erken veda etmek zorunda kaldı.<br><br>Teknik arızalar motor sporlarının doğasında olsa da, pistte gösterdiğin harika mücadele ve Türk bayrağını Le Mans gibi dev bir arenada dalgalandırman bizler için her zaman büyük bir gurur kaynağı. Bir sonraki yarışta çok daha güçlü döneceğine inancımız tam.",
                 "img": "Resimler/Haberler/Le Mans Ayhancan.png"
+            },
+            {
+                "id": 36,
+                "title": "LE MANS 24 SAAT YARIŞINI TOYOTA GAZOO RACING KAZANDI! ",
+                "cat": "haberler",
+                "date": "2026-06-14 15:30",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png",
+                "content": "Dünyanın en prestijli dayanıklılık yarışı olan Le Mans 24 Saat, bu yıl da motor sporları tutkunlarına unutulmaz anlar yaşattı. Zorlu geçen 24 saatin ardından damalı bayrağı ilk sırada gören 7 numaralı Toyota takımı, muhteşem bir strateji ve dayanıklılık örneği sergileyerek podyumun zirvesine çıkmayı başardı. Yarışa pole pozisyonunda başlayarak büyük bir avantaj elde eden BMW takımı, Toyota'nın amansız baskısına direnerek yarışı ikinci sırada tamamladı. Podyumun son basamağını ise liderin takım arkadaşı olan diğer Toyota ekibi doldurarak Japon üreticiye çifte podyum sevinci yaşattı. Yarış severleri ekran başına kilitleyen bu zirve mücadelesi, son ana kadar nefes kesti.<br><br>Dünya devlerinin sahne aldığı bu dev arenada mücadele eden milli gururlarımız ise pistte karışık duygular yaşadı. LMGT3 sınıfında podyum mücadelesi veren başarılı pilotumuz Ayhancan Güven, aracının direksiyon mekanizmasında meydana gelen ani bir teknik arıza nedeniyle kontrolü kaybederek bariyerlere çarptı. Yarışta güvenlik aracının girmesine de neden olan bu şanssız kazanın ardından Ayhancan ve takımı yarış dışı (DNF) kalarak organizasyona erken veda etmek zorunda kaldı. Pistteki diğer temsilcimiz Salih Yoluç ise istikrarlı ve güçlü performansıyla göz doldurdu. Takımıyla birlikte harika bir dayanıklılık dersi veren Yoluç, zorlu rakipler arasından sıyrılarak yarışı 6. sırada bitirmeyi başardı ve ülkemizi gururlandırdı.",
+                "img": "Resimler/Haberler/Toyota.png"
             }
         ],
         "pilots": [
