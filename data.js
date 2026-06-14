@@ -580,6 +580,16 @@ const APP_DATA = {
                 "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png",
                 "content": "Formula 1 dünyasının isimlerinden Juan Pablo Montoya, Christian Horner’ın spora olası dönüşü ve Red Bull ile olan bağları hakkında çarpıcı açıklamalarda bulundu. Horner’ın tecrübesinin padok için büyük bir değer olduğunu vurgulayan Montoya, buna rağmen Red Bull’un kurumsal gururunun eski takım patronunun geri dönüşüne engel teşkil edebileceğini savundu. Kolombiyalı pilot, Horner gibi bir liderin Alpine, Aston Martin veya Haas gibi yeniden yapılanma sürecindeki takımlar için 'tek doğru cevap' olabileceğini belirterek; bu tür bir hamlenin ilgili takımları hızla üst sıralara taşıyabileceğini ifade etti.<br><br>Geri dönüşlerin spora kattığı ivmeyi Flavio Briatore üzerinden örneklendiren Montoya, Briatore’nin yirmi yıllık bir aradan sonra Alpine’e dönmesiyle birlikte takımın performansının gözle görülür şekilde arttığını ve stratejik hamlelerin hızlandığını hatırlattı. FIA Başkanı Mohammed Ben Sulayem de bu tartışmalara katılarak Horner’a olan desteğini açıkça dile getirdi. Horner ile düzenli olarak iletişimde olduğunu ve onun 'temiz bir kalbe' sahip olduğunu belirten Ben Sulayem, İngiliz yöneticinin Formula 1’e dönme arzusunu hissettiğini ve geri döndüğünde sanki sadece kısa bir tatile çıkmış gibi kaldığı yerden devam edeceğine inandığını sözlerine ekledi.",
                 "img": "Resimler/Formula 1 Haberler/Horner Montoya.png"
+            },
+            {
+                "id": 35,
+                "title": "LE MANS 24 SAAT YARIŞINDA AYHANCAN GÜVEN ŞANSSIZ BİR KAZA İLE YARIŞ DIŞI KALDI!",
+                "cat": "haberler",
+                "date": "2026-06-14 15:00",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png",
+                "content": "Dünyanın en prestijli ve zorlu dayanıklılık yarışlarından biri olan Le Mans 24 Saat'te ülkemizi gururla temsil eden başarılı pilotumuz Ayhancan Güven, büyük bir şanssızlık yaşadı. Yarışın zorlu şartlarında podyum mücadelesi veren ve sergilediği üstün performansla dikkatleri üzerine çeken Güven, aracın direksiyon mekanizmasında meydana gelen ani bir teknik arıza nedeniyle kontrolü kaybetti. Bu beklenmedik problem sonucunda yüksek hızda bariyerlere çarparak kaza yapan milli sporcumuz, büyük bir tehlike atlattı.<br><br>Kazanın ardından hem Ayhancan Güven'in hem de takımının yoğun çabalarına rağmen araçtaki hasarın büyüklüğü nedeniyle yarışa devam etmek mümkün olmadı. Gece gündüz demeden büyük bir emekle hazırlanan tüm takım, bu teknik talihsizliğin ardından yarış dışı (DNF) kalarak Le Mans macerasına erken veda etmek zorunda kaldı.<br><br>Teknik arızalar motor sporlarının doğasında olsa da, pistte gösterdiğin harika mücadele ve Türk bayrağını Le Mans gibi dev bir arenada dalgalandırman bizler için her zaman büyük bir gurur kaynağı. Bir sonraki yarışta çok daha güçlü döneceğine inancımız tam.",
+                "img": "Resimler/Haberler/Le Mans Ayhancan.png"
             }
         ],
         "pilots": [
