@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 83,
+                "title": "LEWIS HAMILTON, FERRARİ İLE İLK GALİBİYETİNİ ALDI!",
+                "cat": "formula 1",
+                "date": "2026-06-14 18:01",
+                "content": "Formula 1 dünyası, Barcelona Catalunya Pisti’nde tarihi ve duygu dolu bir İspanya Grand Prix’sini geride bıraktı. Yarışa ikinci sıradan başlayan Ferrari pilotu Lewis Hamilton, harika bir stratejiyle damalı bayrağı ilk sırada görerek kariyerinin 106. galibiyetine imza attı. Geçtiğimiz yıl İtalyan takımına katılan ancak podyum dahi elde edemediği için sert eleştirilerin hedefi olan, hatta \"eski formunda olmadığı\" iddia edilen Britanyalı pilot, bu zaferle adeta küllerinden doğdu. Bu sezon, gelişiminde kendi payı olan yeni araca ve değişen rejenerasyon sistemine tamamen adapte olduğunu kanıtlayan 7 kez dünya şampiyonu, üst üste üçüncü podyumunu (ilk ikisi ikincilik olmak üzere) bu kez podyumun en üst basamağıyla taçlandırdı. 3 pit stop stratejisiyle zafere uzanan Hamilton, aynı zamanda yarışın en hızlı turunu da attı. Bu sonuçla Hamilton, Barcelona’daki 7. zaferini kutlarken; Ferrari cephesi ve tutkulu Tifosiler, 2024 Meksika GP’sinden sonraki ilk galibiyetini, Hamilton ise 2024 Belçika GP’sinden sonraki ilk birinciliğin coşkusunu yaşadı.<br><br>Yarışın podyumunu tamamlayan diğer isimler ise zirve mücadelesinin ne kadar çetin geçtiğini gözler önüne serdi. Mücadeleye pole pozisyonunda başlayan Mercedes pilotu George Russell, yarışı iyi idare etmesine rağmen yerini koruyamadı ve podyumun ikinci basamağında yer aldı. Hafta sonu boyunca oldukça güçlü bir grafik çizen McLaren takımında ise Lando Norris, üçüncülüğü elde ederek takımı adına önemli puan aldı. McLaren’ın diğer genç yeteneği Oscar Piastri ise yarışı 5. sırada noktalayarak takımına değerli puanlar kazandırdı. Red Bull cephesinde ise Max Verstappen podyumun uzağında kalarak yarışı 4. bitirirken, takım arkadaşı Isack Hadjar ise 6. sırada finiş görerek istikrarlı bir performans sergiledi.<br><br>Catalonya'da yarışın kaderini belirleyen ve stratejileri altüst eden dramatik anlar da yaşandı. Fernando Alonso’nun spin atmasıyla devreye giren Sanal Güvenlik Aracı (VSC) griddeki tüm hesapları değiştirirken, yarışın son bölümlerine doğru heyecan tavan yaptı. Şampiyona lideri Kimi Antonelli, aracında meydana gelen teknik bir sorun nedeniyle yarış dışı kalırken; Ferrari’nin diğer pilotu Charles Leclerc de direksiyonunda yaşadığı mekanik problem sebebiyle finiş göremedi. Büyük sürprizlerin, hayal kırıklıklarının ve tarihi bir geri dönüşün sahne aldığı İspanya GP, Lewis Hamilton ve Ferrari’nin görkemli zaferiyle Formula 1 tarihinin unutulmaz yarışları arasındaki yerini aldı.",
+                "img": "Resimler/Formula 1 Haberler/1781449271913_1000045011.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 82,
                 "title": "GEORGE RUSSELL, POLE POZİSYONU İLE GERİ DÖNDÜ!",
                 "cat": "formula 1",
