@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 84,
+                "title": "GEORGE RUSSELL İÇİN ALPINE İDDİALARI SÖYLENİYOR!",
+                "cat": "formula 1",
+                "date": "2026-06-17 10:54",
+                "content": "Formula 1 padokunda taşlar yerinden oynamaya başlıyor ve transfer kazanı bu kez oldukça çılgın bir domino etkisini işaret ediyor. Alpine'in patronu Flavio Briatore'nin, Mercedes cephesinde yaşanabilecek olası bir ayrılığı yakından takip ettiği ve gözünü George Russell’a diktiği konuşuluyor. İddialara göre Russell’ın sözleşmesinde, \"sezonu takım arkadaşının gerisinde bitirmesi durumunda sözleşmenin tek taraflı feshedilebilmesine\" olanak tanıyan özel bir madde bulunuyor. Şu anki güncel tabloda takım arkadaşının gerisinde kalan Britanyalı pilot için bu maddenin devreye girme ihtimali, padoktaki diğer büyük hamlelerin de önünü açıyor.<br><br>Bu senaryoyu asıl alevlendiren unsur ise Red Bull’da mutlu olmadığı bilinen ve geleceği uzun süredir belirsizliğini koruyan Max Verstappen. Hollandalı pilot cephesinden doğrudan resmi bir açıklama gelmemiş olsa da Mercedes patronu Toto Wolff’un, her fırsatta Verstappen’in babası ve menajerlik ekibiyle dirsek temasında olduğu sır değil. Eğer Russell’ın sözleşmesindeki fesih maddesi geçerli kılınır ve Verstappen boşalan Mercedes koltuğuna geçiş yaparsa, Flavio Briatore bu dev fırsatı kaçırmayarak Russell’ı hemen Alpine bünyesine katmayı planlıyor.<br><br>Şimdilik tamamen iddialardan ve padok dedikodularından ibaret olan bu durum, önümüzdeki dönemin çok daha sıcak ve hareketli geçeceğinin en net habercisi.",
+                "img": "Resimler/Formula 1 Haberler/1781682843637_1000045079.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 83,
                 "title": "LEWIS HAMILTON, FERRARİ İLE İLK GALİBİYETİNİ ALDI!",
                 "cat": "formula 1",
