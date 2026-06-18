@@ -6180,6 +6180,16 @@ const APP_DATA = {
     "haberler": {
         "news": [
             {
+                "id": 85,
+                "title": "TOSFED VE KATAR OTOMOBİL FEDERASYONU ARASINDA İŞ BİRLİĞİ İÇİN ANLAŞMA SAĞLANDI!",
+                "cat": "haberler",
+                "date": "2026-06-18 20:58",
+                "content": "Türkiye Otomobil Sporları Federasyonu (TOSFED) ile Katar Otomobil ve Motosiklet Federasyonu (QMMF) arasında motor sporlarının geleceğini şekillendirecek tarihi bir iş birliği protokolü imzalandı. Formula 1 ve MotoGP gibi dünyanın en prestijli dev organizasyonlarına başarıyla ev sahipliği yapmış olan Katar’ın büyük tecrübesi, bu stratejik ortaklıkla birlikte Türk motor sporlarına taşınıyor.<br><br>Anlaşma kapsamında her iki ülkenin modern pistleri ve ikonik şehirleri, uluslararası düzeyde büyük organizasyonlara ev sahipliği yapmaya hazırlanıyor.<br><br>Bu tarihi adım, sadece organizasyon düzeyinde kalmayarak pistlerde büyük bir rekabetin de fitilini ateşleyecek; Türk ve Katarlı yetenekli sürücüler, düzenlenecek ortak turnuvalarda kozlarını paylaşarak direksiyon başında yeteneklerini sergileyecekler.<br><br>Türk motor sporcularının uluslararası arenadaki görünürlüğünü ve rekabet gücünü maksimuma çıkaracak olan bu stratejik hamle, ülkemizin küresel motor sporları haritasında çok daha hızlı ve güçlü bir ivme kazanmasına öncülük edecek.",
+                "img": "Resimler/Haberler/1781805497615_1000045152.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 81,
                 "title": "LE MANS 24 SAAT YARIŞINI TOYOTA GAZOO RACING KAZANDI! ",
                 "cat": "haberler",
