@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 86,
+                "title": "CARLOS SAINZ, GELECEK İÇİN AUDI'Yİ DÜŞÜNÜYOR!",
+                "cat": "formula 1",
+                "date": "2026-06-18 21:10",
+                "content": "​Formula 1 padoğu, Carlos Sainz Jr.’ın geleceğine dair ortaya atılan çarpıcı bir iddiayla çalkalanıyor. Büyük umutlarla katıldığı Williams takımının performansından ve yeni teknik kurallarla başlayan sezondaki aracının geride kalmasından memnun olmayan İspanyol pilotun, gözünü gelecek için Audi projesine çevirdiği konuşuluyor.<br><br>Geçtiğimiz yıl yarışan Kick Sauber takımını tamamen devralarak bu sezon ilk kez Formula 1 gridine kendi motoru ve güç ünitesiyle \"fabrika takımı\" olarak adım atan Audi, aslında ilk senesinde düşük beklentilerle karşılanmıştı. Ancak Alman devinin, sıfırdan ürettiği motor ve şasi paketiyle orta sıralarda beklentilerin üzerinde istikrarlı bir grafik çizmesi ve Q3 mücadelelerine ortak olması tüm dikkatleri üzerine çekti. Williams’ın gridin arkalarında zor bir dönemden geçmesiyle birlikte Sainz’ın bu seçeneği ciddi şekilde değerlendirdiği iddia ediliyor.<br><br>Öte yandan, bu muhtemel hamlenin önünde çok büyük bir kontrat engeli bulunuyor. Audi’nin mevcut pilotları Nico Hülkenberg ve Gabriel Bortoleto’nun 2027 sezonunu da kapsayan resmi sözleşmelerinin bulunması, Sainz’ın bu düşüncesini teoride oldukça zorlaştırıyor. Henüz resmi makamlardan gelen kesinleşmiş bir karar olmasa da Williams içindeki bu huzursuzluk ve Audi'nin yükselen grafiği, Formula 1 severler arasında şimdiden heyecan dolu bir transfer spekülasyonunun fitilini ateşlemiş durumda.",
+                "img": "Resimler/Formula 1 Haberler/1781806216226_1000045153.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 84,
                 "title": "GEORGE RUSSELL İÇİN ALPINE İDDİALARI SÖYLENİYOR!",
                 "cat": "formula 1",
