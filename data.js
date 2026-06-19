@@ -6400,6 +6400,16 @@ const APP_DATA = {
     "milli sporcularımız": {
         "news": [
             {
+                "id": 87,
+                "title": "ALİ TÜRKKAN VE OYTUN ALBAYRAK WRC2 ARACI İLE WRC SAHNESİNE ÇIKIYOR!",
+                "cat": "milli sporcularımız",
+                "date": "2026-06-19 20:56",
+                "content": "Türk motor sporları tarihinde yeni bir dönemin kapıları aralanıyor! Geçtiğimiz yıllarda elde ettikleri uluslararası başarılarla göğsümüzü kabartan şampiyon pilotumuz Ali Türkkan ve deneyimli co-pilotu Oytun Albayrak, kariyerlerinde dev bir adım atarak dünyanın en prestijli motor sporları arenası olan WRC (Dünya Ralli Şampiyonası) sahnesine çıkıyor.<br><br>Ülkemizi ve bayrağımızı WRC arenasının en zorlu basamaklarından biri olan WRC2 kategorisinde temsil edecek olan ikili, bu büyük serüvenin ilk startını ralli dünyasının en kırıcı ve köklü yarışlarından biri kabul edilen efsanevi Yunanistan Akropolis Rallisi ile veriyor.<br><br>Güçlü WRC2 araçlarının direksiyonunda, hız ve stratejiyi harmanlayarak dünya devlerine karşı mücadele edecek olan milli sporcularımız, hem podyum hedefiyle gaza basacak hem de Türkiye'nin motor sporlarındaki gücünü tüm dünyaya bir kez daha kanıtlayacak.<br><br>Bu tarihi yolculukta Ali Türkkan ve Oytun Albayrak'a başarılar diliyoruz ",
+                "img": "Resimler/Milli Sporcularımız Haberler/1781891783585_1000045187.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 1,
                 "title": "DÜNYA RALLİ ŞAMPİYONASI’NDA TÜRK RÜZGARI!",
                 "cat": "milli sporcularımız",
