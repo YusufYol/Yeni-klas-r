@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>SEO Oluşturucu Aracı</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    <style>
+        body { font-family: sans-serif; padding: 20px; text-align: center; background: #f4f4f4; }
+        .box { background: white; padding: 30px; border-radius: 10px; max-width: 600px; margin: 0 auto; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        button { padding: 15px 30px; font-size: 1.2rem; cursor: pointer; background: #e10600; color: white; border: none; border-radius: 5px; font-weight: bold; }
+        button:hover { background: #b00500; }
+        p { font-size: 1.1rem; color: #333; }
+        #log { margin-top: 20px; text-align: left; background: #222; color: #0f0; padding: 10px; border-radius: 5px; max-height: 200px; overflow-y: auto; font-family: monospace; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>SEO & AdSense Onay Aracı</h1>
+        <p>Bilgisayarınızda Node.js yüklü olmadığı için bu işlemi tarayıcı üzerinden yapacağız.</p>
+        <p>Aşağıdaki butona tıkladığınızda sistem <b>data.js</b> dosyasını okuyacak ve statik HTML sayfalarınızı (news-detail klasörü) ve sitemap.xml dosyanızı içeren bir ZIP dosyası indirecektir.</p>
+        <button id="generateBtn">Haber HTML Dosyalarını Üret ve İndir</button>
+        <div id="log"></div>
+    </div>
+
+    <!-- Data.js ve Index.html'i çekmek için -->
+    <script src="data.js"></script>
+    <script>
+        const logEl = document.getElementById('log');
+        function log(msg) {
+            logEl.innerHTML += `<div>> ${msg}</div>`;
+            logEl.scrollTop = logEl.scrollHeight;
+        }
+
+        function escapeHtml(unsafe) {
+            if (!unsafe) return '';
+            return unsafe
+                 .replace(/&/g, "&amp;")
+                 .replace(/</g, "&lt;")
+                 .replace(/>/g, "&gt;")
+                 .replace(/"/g, "&quot;")
+                 .replace(/'/g, "&#039;");
+        }
+
+        document.getElementById('generateBtn').addEventListener('click', async () => {
+            log("İşlem başlatılıyor...");
+            if (typeof APP_DATA === 'undefined') {
+                log("HATA: data.js yüklenemedi veya APP_DATA bulunamadı.");
+                return;
+            }
+
+            try {
+                log("index.html şablonu okunuyor...");
+                const response = await fetch('index.html');
+                const indexTemplate = await response.text();
+
+                const zip = new JSZip();
+                
+                const sitemapUrls = [];
+                const baseUrl = 'https://racingnewstr.com';
+
+                sitemapUrls.push(`    <url>
+        <loc>${baseUrl}/</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>`);
+
+                let allNews = [];
+
+                Object.keys(APP_DATA).forEach(catKey => {
+                    const catData = APP_DATA[catKey];
+                    if (catData && catData.news) {
+                        catData.news.forEach(newsItem => {
+                            allNews.push(newsItem);
+                            const catSlug = catKey;
+                            const newsId = newsItem.id;
+                            const relPath = `news-detail/${catSlug}/${newsId}`;
+                            
+                            const pageTitle = `${newsItem.title} - Racing News Türkiye`;
+                            let summary = newsItem.content || '';
+                            if (summary.includes('<br>')) {
+                                summary = summary.split('<br>')[0];
+                            } else if (summary.length > 150) {
+                                summary = summary.substring(0, 150) + '...';
+                            }
+                            summary = summary.replace(/<[^>]*>?/gm, '');
+
+                            const ogImage = newsItem.img ? `${baseUrl}/${newsItem.img}` : `${baseUrl}/Resimler/Logo/Racing News TR Logo.jpeg`;
+
+                            const staticContent = `
+                                <div class="static-content" style="padding: 20px; max-width: 800px; margin: 0 auto; color: white;">
+                                    <h1 style="font-size: 2rem; margin-bottom: 10px;">${escapeHtml(newsItem.title)}</h1>
+                                    <p style="color: #ccc; margin-bottom: 20px;">${escapeHtml(newsItem.date)} | Kategori: ${escapeHtml(newsItem.cat)}</p>
+                                    <img src="/${escapeHtml(newsItem.img)}" alt="${escapeHtml(newsItem.title)}" style="max-width: 100%; border-radius: 8px; margin-bottom: 20px;">
+                                    <div style="font-size: 1.1rem; line-height: 1.6;">
+                                        ${newsItem.content}
+                                    </div>
+                                </div>
+                            `;
+
+                            let html = indexTemplate;
+                            html = html.replace(/<title>.*?<\/title>/, `<title>${escapeHtml(pageTitle)}</title>`);
+                            html = html.replace(/<meta name="description".*?>/, `<meta name="description" content="${escapeHtml(summary)}">`);
+                            
+                            const ogTags = `
+    <meta property="og:title" content="${escapeHtml(pageTitle)}">
+    <meta property="og:description" content="${escapeHtml(summary)}">
+    <meta property="og:image" content="${ogImage}">
+    <meta property="og:url" content="${baseUrl}/${relPath}">
+    <meta property="og:type" content="article">
+                            `;
+                            html = html.replace('</head>', `${ogTags}\n</head>`);
+                            html = html.replace(/(<main id="main-content" class="content-area">)[\s\S]*?(<\/main>)/, `$1\n${staticContent}\n$2`);
+                            html = html.replace('href="manifest.json"', 'href="/manifest.json"');
+                            html = html.replace('href="Resimler/Logo/Racing News TR Logo.jpeg"', 'href="/Resimler/Logo/Racing News TR Logo.jpeg"');
+
+                            // Klasör yapısıyla ZIP'e ekle
+                            zip.file(`${relPath}/index.html`, html);
+                            log(`${relPath}/index.html oluşturuldu.`);
+
+                            sitemapUrls.push(`    <url>
+        <loc>${baseUrl}/${encodeURI(relPath)}</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>`);
+                        });
+                    }
+                });
+
+                allNews.sort((a, b) => new Date(b.date) - new Date(a.date));
+                const topNews = allNews.slice(0, 10);
+
+                let rootStaticContent = '<div style="display:none;" id="seo-static-news">';
+                topNews.forEach(n => {
+                    rootStaticContent += `
+                        <article>
+                            <h2><a href="/news-detail/${encodeURIComponent(n.cat)}/${n.id}">${escapeHtml(n.title)}</a></h2>
+                            <p>${escapeHtml(n.date)}</p>
+                            <div>${n.content}</div>
+                        </article>
+                    `;
+                });
+                rootStaticContent += '</div>';
+
+                let rootHtml = indexTemplate;
+                rootHtml = rootHtml.replace(/(<main id="main-content" class="content-area">)/, `$1\n${rootStaticContent}`);
+                rootHtml = rootHtml.replace('href="manifest.json"', 'href="/manifest.json"');
+                rootHtml = rootHtml.replace('href="Resimler/Logo/Racing News TR Logo.jpeg"', 'href="/Resimler/Logo/Racing News TR Logo.jpeg"');
+                
+                zip.file(`index.html`, rootHtml);
+                log(`Root index.html SEO için güncellendi ve ZIP'e eklendi.`);
+
+                const sitemapContent = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${sitemapUrls.join('\n')}
+</urlset>`;
+                zip.file(`sitemap.xml`, sitemapContent);
+                log(`sitemap.xml oluşturuldu.`);
+
+                log("ZIP dosyası hazırlanıyor...");
+                const content = await zip.generateAsync({type:"blob"});
+                saveAs(content, "seo-dosyalari.zip");
+                log("ZIP İndirildi! Lütfen içindeki dosyaları proje klasörünüze çıkartın (varolanları değiştirin).");
+
+            } catch (err) {
+                log("HATA: " + err.message);
+            }
+        });
+    </script>
+</body>
+</html>
