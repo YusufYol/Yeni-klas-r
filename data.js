@@ -3061,6 +3061,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 90,
+                "title": "MARC MÁRQUEZ, ÇEKYA GP'Yİ KAZANDI!",
+                "cat": "motogp",
+                "date": "2026-06-21 16:12",
+                "content": "MotoGP Çekya Grand Prix'si, motor sporları tarihinin en etkileyici geri dönüş hikayelerinden birine sahne oldu. Yaşadığı ağır sakatlıklar ve geçirdiği zorlu ameliyatların ardından şüpheleri boşa çıkararak pistlere dönen İspanyol pilot Marc Marquez, Macaristan GP'nin ardından Çekya’nın ikonik Brno Pisti’nde de damgalı finişi ilk sırada geçerek üst üste ikinci zaferini elde etti. Sakatlıklarla boğuştuğu kabus gibi dönemlerin ardından adeta pistte uçan Marquez, efsanevi formuna yeniden kavuştuğunu tüm dünyaya ilan ederken, taraftarlarına da unutulmaz bir yarış izletti.<br><br>Hafta sonu boyunca yaşanan olaylar ve şampiyona lideri Marco Bezzecchi’nin diskalifiye edilerek yarış dışı kalması, şampiyonluk mücadelesindeki kartların yeniden dağıtılmasına yol açtı. Liderin yokluğunu kusursuz bir taktikle fırsata çeviren Marc Marquez, aldığı 25 tam puanla şampiyonadaki puan farkını 40'a indirerek zirve takibini iyice kızıştırdı. Yarışa pole pozisyonundan başlayarak hafta sonu boyunca harika bir grafik çizen Trackhouse sürücüsü Ai Ogura, tüm çabalarına rağmen Marquez'in hızına yanıt veremedi ve podyumun ikinci basamağında kaldı. Yarışı üçüncü sırada noktalayan Francesco Bagnaia ise takım arkadaşıyla birlikte podyumu tamamlayarak Ducati'ye çifte podyum sevinci yaşattı.<br><br>Öte yandan, MotoGP’deki gururumuz ve temsilcimiz Toprak Razgatlıoğlu, Brno Pisti'nin zorlu şartlarında Pramac Yamaha’sıyla pes etmeyen bir karakter ortaya koydu. Gridin gerilerinden başladığı mücadelede son ana kadar savaşan Toprak, damgalı finişi 14. sırada görmeyi başararak hanesine değerli puanlar yazdırmayı başardı. Marquez’in adeta gövde gösterisi yaptığı ve şampiyonluk fitilini ateşlediği Çekya GP’sinin ardından, şampiyonanın sonraki duraklarında mücadelenin çok daha sert geçeceği şimdiden kesinleşti.",
+                "img": "Resimler/MotoGP Haberler/1782047564896_1000045241.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 89,
                 "title": "MARCO BEZZECCHI, ÇEKYA GP'DEN DİSKALİFİYE EDİLDİ!",
                 "cat": "motogp",
