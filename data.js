@@ -3061,6 +3061,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 88,
+                "title": "ÇEKYA'DA SPRİNT GALİBİ FRANCESCO BAGNAIA OLDU!",
+                "cat": "motogp",
+                "date": "2026-06-21 11:30",
+                "content": "MotoGP heyecanı Çekya’nın efsanevi Brno Pisti'nde tüm hızıyla devam ediyor. Hafta sonunun ilk büyük randevusu olan Sprint yarışı, pist üstünde nefes kesen anlara ve taktik savaşlarına sahne oldu. Yarışın başından itibaren ağırlığını koyan ve kusursuz bir sürüş çıkaran İtalyan pilot Francesco Bagnaia, rakiplerine şans tanımayarak damgalı finişi ilk sırada geçti ve Sprint yarışının galibi olmayı başardı.<br><br>Podyum mücadelesinde ise hem sürpriz hem de deneyim ön plandaydı. Trackhouse takımının genç ve yetenekli sürücüsü Ai Ogura, gösterdiği harika performansla yarışı ikinci sırada tamamlayarak büyük bir başarıya imza attı. Podyumun üçüncü basamağı ise gridin en deneyimli ve agresif isimlerinden biri olan İspanyol pilot Marc Marquez’e gitti. Öte yandan pistteki gururumuz Toprak Razgatlıoğlu, zorlu şartlara rağmen elinden gelenin en iyisini yaparak yarışı 11. sırada noktaladı ve finiş çizgisini geçen en iyi Yamaha sürücüsü olarak kalitesini bir kez daha kanıtladı.<br><br>Sprint yarışındaki bu heyecanlı provanın ardından, şimdi tüm gözler bugün TSİ 15:00 başlayacak olan büyük ana yarışa çevrildi. Bagnaia elde ettiği bu zaferle moral depolarken, Ogura ve Marquez podyumun zirvesini zorlamak, temsilcimiz Toprak Razgatlıoğlu ise Yamaha'sıyla daha da üst sıralara tırmanmak için start alacak. Brno Pisti’nde galibin kim olacağını belirleyecek olan dev yarış, motor sporları tutkunlarına unutulmaz anlar yaşatmaya aday.",
+                "img": "Resimler/MotoGP Haberler/1782030607483_1000045235.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 77,
                 "title": "MARC MÁRQUEZ, MACARİSTAN'DA 100. GRAND PRIX ZAFERİNİ KAZANDI!",
                 "cat": "motogp",
