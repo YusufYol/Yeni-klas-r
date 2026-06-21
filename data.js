@@ -3061,6 +3061,36 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 90,
+                "title": "MARC MÁRQUEZ, ÇEKYA GP'Yİ KAZANDI!",
+                "cat": "motogp",
+                "date": "2026-06-21 16:12",
+                "content": "MotoGP Çekya Grand Prix'si, motor sporları tarihinin en etkileyici geri dönüş hikayelerinden birine sahne oldu. Yaşadığı ağır sakatlıklar ve geçirdiği zorlu ameliyatların ardından şüpheleri boşa çıkararak pistlere dönen İspanyol pilot Marc Marquez, Macaristan GP'nin ardından Çekya’nın ikonik Brno Pisti’nde de damgalı finişi ilk sırada geçerek üst üste ikinci zaferini elde etti. Sakatlıklarla boğuştuğu kabus gibi dönemlerin ardından adeta pistte uçan Marquez, efsanevi formuna yeniden kavuştuğunu tüm dünyaya ilan ederken, taraftarlarına da unutulmaz bir yarış izletti.<br><br>Hafta sonu boyunca yaşanan olaylar ve şampiyona lideri Marco Bezzecchi’nin diskalifiye edilerek yarış dışı kalması, şampiyonluk mücadelesindeki kartların yeniden dağıtılmasına yol açtı. Liderin yokluğunu kusursuz bir taktikle fırsata çeviren Marc Marquez, aldığı 25 tam puanla şampiyonadaki puan farkını 40'a indirerek zirve takibini iyice kızıştırdı. Yarışa pole pozisyonundan başlayarak hafta sonu boyunca harika bir grafik çizen Trackhouse sürücüsü Ai Ogura, tüm çabalarına rağmen Marquez'in hızına yanıt veremedi ve podyumun ikinci basamağında kaldı. Yarışı üçüncü sırada noktalayan Francesco Bagnaia ise takım arkadaşıyla birlikte podyumu tamamlayarak Ducati'ye çifte podyum sevinci yaşattı.<br><br>Öte yandan, MotoGP’deki gururumuz ve temsilcimiz Toprak Razgatlıoğlu, Brno Pisti'nin zorlu şartlarında Pramac Yamaha’sıyla pes etmeyen bir karakter ortaya koydu. Gridin gerilerinden başladığı mücadelede son ana kadar savaşan Toprak, damgalı finişi 14. sırada görmeyi başararak hanesine değerli puanlar yazdırmayı başardı. Marquez’in adeta gövde gösterisi yaptığı ve şampiyonluk fitilini ateşlediği Çekya GP’sinin ardından, şampiyonanın sonraki duraklarında mücadelenin çok daha sert geçeceği şimdiden kesinleşti.",
+                "img": "Resimler/MotoGP Haberler/1782047564896_1000045241.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
+                "id": 89,
+                "title": "MARCO BEZZECCHI, ÇEKYA GP'DEN DİSKALİFİYE EDİLDİ!",
+                "cat": "motogp",
+                "date": "2026-06-21 11:41",
+                "content": "MotoGP Çekya Grand Prix’sinde, pist üstündeki heyecanın önüne geçen ve şampiyona dinamiklerini kökten sarsacak skandal bir olay yaşandı. Hafta sonunun ilk büyük randevusunda, 3. virajda kaza yaparak çakıl havuza gömülen şampiyona lideri Marco Bezzecchi, yarış sonrasında spor dünyasını ayağa kaldıran bir cezayla karşı karşıya kaldı. Aprilia pilotu, düştükten sonra motosikletini kaldırmak ve pist dışına taşımak için yardıma gelen pist görevlilerine (hakem heyetine) yönelik sergilediği agresif tavırlar ve fiziksel müdahale nedeniyle hafta sonunun kalanından tamamen men edildi. Çakıl havuzundaki görevlilerden birinin motoru kaldırırken kazara gazı açması üzerine sinirlenen Bezzecchi’nin hakemi sertçe itmesi, FIM Hakem Kurulu tarafından affedilmedi. Aprilia takımının cezaya karşı yaptığı jet itiraz da reddedilince, şampiyona lideri bugün koşulacak ana yarış dahil hafta sonunun tamamından ihraç edildi.<br><br>Bu karar motor sporları dünyasında çok büyük bir tepki dalgasına yol açarken, İtalyan pilot pazar sabahı sosyal medya hesapları üzerinden resmi bir açıklama yayınlayarak herkesten özür diledi. Yaşananların ardından derin bir üzüntü duyduğunu belirten Bezzecchi, açıklamasında şu ifadelere yer verdi:<br><br>​\"Hakeme karşı sergilediğim davranıştan dolayı tüm MotoGP camiasından özür dilerim. Pist hakemlerinin bizim güvenliğimizi sağlamak için ne kadar büyük bir özveri ve fedakarlıkla çalıştığını biliyorum, bu yüzden ayrıca çok üzgünüm. Bu davranışın hiçbir şekilde yaşanmaması gerekirdi ve hiçbir bahanesi olamaz. Başta Aprilia Racing olmak üzere herkesten ve tüm hayranlarımdan özür dilerim.\" İtalyan sürücünün bu halka açık mesaj öncesinde, bizzat olaya karışan pist görevlisinin yanına giderek şahsen de özür dilediği bildirildi.<br><br>Yapılan bu resmi özre rağmen hakem heyetinin diskalifiye kararı değişmedi ve bu durum, yarışseverler ile otoriteler tarafından şampiyonluk yarışı adına dönüm noktası olarak yorumlandı. Zorlu şartlarda çalışan görevlilere uygulanan bu şiddet sosyal medyada çokça eleştirilmeye devam ederken, Bezzecchi şampiyonluk yolunda çok ağır bir yara almış oldu. Şimdi tüm gözler, liderin yokluğunda bugün TSİ 15:00'te başlayacak olan büyük ana yarışa çevrildi. Sprint galibi Francesco Bagnaia elde ettiği bu avantajla liderlik koltuğuna göz dikerken, rakipleri Ai Ogura ve Marc Marquez podyumun zirvesini zorlamak, temsilcimiz Toprak Razgatlıoğlu ise Yamaha'sıyla daha da üst sıralara tırmanmak için start alacak.",
+                "img": "Resimler/MotoGP Haberler/1782031259865_1000045238.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
+                "id": 88,
+                "title": "ÇEKYA'DA SPRİNT GALİBİ FRANCESCO BAGNAIA OLDU!",
+                "cat": "motogp",
+                "date": "2026-06-21 11:30",
+                "content": "MotoGP heyecanı Çekya’nın efsanevi Brno Pisti'nde tüm hızıyla devam ediyor. Hafta sonunun ilk büyük randevusu olan Sprint yarışı, pist üstünde nefes kesen anlara ve taktik savaşlarına sahne oldu. Yarışın başından itibaren ağırlığını koyan ve kusursuz bir sürüş çıkaran İtalyan pilot Francesco Bagnaia, rakiplerine şans tanımayarak damgalı finişi ilk sırada geçti ve Sprint yarışının galibi olmayı başardı.<br><br>Podyum mücadelesinde ise hem sürpriz hem de deneyim ön plandaydı. Trackhouse takımının genç ve yetenekli sürücüsü Ai Ogura, gösterdiği harika performansla yarışı ikinci sırada tamamlayarak büyük bir başarıya imza attı. Podyumun üçüncü basamağı ise gridin en deneyimli ve agresif isimlerinden biri olan İspanyol pilot Marc Marquez’e gitti. Öte yandan pistteki gururumuz Toprak Razgatlıoğlu, zorlu şartlara rağmen elinden gelenin en iyisini yaparak yarışı 11. sırada noktaladı ve finiş çizgisini geçen en iyi Yamaha sürücüsü olarak kalitesini bir kez daha kanıtladı.<br><br>Sprint yarışındaki bu heyecanlı provanın ardından, şimdi tüm gözler bugün TSİ 15:00'te başlayacak olan büyük ana yarışa çevrildi. Bagnaia elde ettiği bu zaferle moral depolarken, Ogura ve Marquez podyumun zirvesini zorlamak, temsilcimiz Toprak Razgatlıoğlu ise Yamaha'sıyla daha da üst sıralara tırmanmak için start alacak. Brno Pisti’nde galibin kim olacağını belirleyecek olan dev yarış, motor sporları tutkunlarına unutulmaz anlar yaşatmaya aday.",
+                "img": "Resimler/MotoGP Haberler/1782030607483_1000045235.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 77,
                 "title": "MARC MÁRQUEZ, MACARİSTAN'DA 100. GRAND PRIX ZAFERİNİ KAZANDI!",
                 "cat": "motogp",
