@@ -3061,6 +3061,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 91,
+                "title": "MARC MÁRQUEZ, SÖZLEŞMESİNİ 2028 YILINA KADAR UZATTI!",
+                "cat": "motogp",
+                "date": "2026-06-23 13:33",
+                "content": "MotoGP dünyasında taşlar yerinden oynuyor ve İtalyan devi Ducati, şampiyon pilotuyla geleceğini güvence altına alıyor. Ducati Lenovo Takımı, motor sporları tarihinin en büyük efsanelerinden biri olan Marc Márquez’in sözleşmesini 2028 sezonunun sonuna kadar uzattığını resmen açıkladı. 7 dünya şampiyonluğu ve rekorlara dayanan devasa bir ortaklık kuran İspanyol pilot, bu imzayla birlikte Ducati'nin yeni dönemdeki mutlak lideri olduğunu bir kez daha kanıtladı. Kariyerinde 100'ün üzerinde podyum zirvesi ve 76 pole pozisyonu gibi kırılması güç istatistikleri barındıran \"Karınca\", kırmızı tulumla tarih yazmaya devam ediyor.<br><br>Márquez'in bu sözleşmeyi hak ediş hikayesi ise tam bir küllerinden doğuş destanı. Sakatlıklarla boğuştuğu zorlu bir dönemin ardından, omuz ve ayak bölgesinden geçirdiği iki büyük ameliyata rağmen pistlere inanılmaz bir hırsla geri döndü. Henüz geri dönüşünün ikinci yarışı olan Macaristan GP’sinde (Balaton Park) podyumun zirvesine çıkarak kariyerinin 100. Grand Prix zaferini ilan etti. Bu tarihi eşikten sonra gerçekleştirilen Çekya GP’sinde (Brno) de rakiplerine şans tanımayarak üst üste ikinci zaferini kazanan Márquez, şampiyonluk yarışındaki iddiasını tüm dünyaya en agresif şekilde hatırlatmış oldu.<br><br>Bu tarihi imza, sadece bugünün değil, MotoGP'nin geleceğinin de rengini belli ediyor. Özellikle 2027 yılında devreye girecek olan yeni teknik kurallar ve motor yönetmelikleri öncesinde Márquez gibi deneyimli, pes etmeyen ve vizyoner bir şampiyonu takımda tutmak, Ducati’ye rakipleri karşısında devasa bir stratejik avantaj sağlıyor. Yarışseverleri heyecanlandıran bu uzun soluklu ortaklık, pistlerdeki \"Kırmızı\" dominasyonunun ve şampiyonluk serilerinin önümüzdeki yıllarda da hız kesmeden devam edeceğinin en net habercisi.",
+                "img": "Resimler/MotoGP Haberler/1782210778186_1000045336.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 90,
                 "title": "MARC MÁRQUEZ, ÇEKYA GP'Yİ KAZANDI!",
                 "cat": "motogp",
