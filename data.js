@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 92,
+                "title": "GEORGE RUSSELL, MERCEDES'TE KALACAK!",
+                "cat": "formula 1",
+                "date": "2026-06-25 15:07",
+                "content": "Formula 1 transfer pazarında taşlar yerinden oynamaya devam ederken, İtalyan basınından gridin geleceğini tamamen değiştirecek çarpıcı bir iddia geldi. Corriere della Sera'nın paylaştığı bilgilere göre Mercedes, George Russell’ın sözleşmesindeki opsiyonu tarafların ortak kararıyla devreye sokmaya hazırlanıyor. Gümüş Oklar'ın bu kritik hamleyi önümüzdeki Avusturya Grand Prix'si hafta sonunda resmiyete kavuşturması bekleniyor.<br><br>Bu gelişmeyle birlikte Alman üretici, gelecek sezonlar için pilot kadrosundaki istikrarı erkenden garantilemiş olacak. Takımın, George Russell ve genç yetenek Andrea Kimi Antonelli ikilisini bozmayarak önümüzdeki süreçte de yoluna aynı pilot kadrosuyla devam etmesi öngörülüyor. Mercedes'in bu hamlesi, hem takımdaki iç dengeleri koruma hem de uzun vadeli yapılanma planlarını sağlama alma niyetini açıkça ortaya koyuyor.<br><br>Madalyonun diğer yüzünde ise bu kararın transfer piyasasındaki domino etkisi yer alıyor. Uzun süredir Red Bull’daki geleceği belirsizliğini koruyan ve adı sık sık Mercedes ile anılan Max Verstappen için bu hamle tüm planları bozabilir. Geleceğine dair kararı merakla beklenen Hollandalı pilot için Mercedes seçeneği, Russell'ın kalıcı olmasıyla birlikte en azından 2027 sezonuna kadar tamamen ortadan kalkmış görünüyor.",
+                "img": "Resimler/Formula 1 Haberler/1782389246003_1000045416.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 86,
                 "title": "CARLOS SAINZ, GELECEK İÇİN AUDI'Yİ DÜŞÜNÜYOR!",
                 "cat": "formula 1",
