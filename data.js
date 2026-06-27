@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 93,
+                "title": "AVUSTURYA GP'DE GEORGE RUSSELL POLE'DE!",
+                "cat": "formula 1",
+                "date": "2026-06-27 18:17",
+                "content": "Formula 1’de sezonun en heyecanlı hafta sonlarından biri Avusturya Grand Prix’sinde yaşanıyor. Red Bull Ring pistinde gerçekleştirilen sıralama turları, son ana kadar nefes kesen bir çekişmeye sahne oldu. Mercedes pilotu George Russell, rakiplerini geride bırakarak pole pozisyonunun sahibi oldu. Russell’ın hemen arkasında Ferrari pilotu Charles Leclerc ikinci sırayı alırken, gridin üçüncü sırasına ise bir diğer Ferrari pilotu Lewis Hamilton yerleşti.<br><br>Sıralama turlarının kaderini belirleyen asıl büyük olay ise üçüncü bölümde (Q3) yaşandı. Red Bull pilotu Max Verstappen’in talihsiz bir şekilde spin atması sonucu pistte bir anda çifte sarı bayraklar sallanmaya başladı. Tam o esnada kendi hızlı turunu atmakta olan George Russell, önündeki tehlikeyi ve bayrakları fark ederek ayağını gazdan çekti. Bu zorunlu yavaşlamaya rağmen muazzam bir derece elde etmeyi başaran İngiliz pilot, liderliği kimseye kaptırmadı.<br><br>Russell'ın çifte sarı bayraklar altındaki bu turu, seansın ardından hakemler tarafından hemen incelemeye alındı. Yapılan telemetri incelemelerinin ardından Russell’ın kurallara uygun şekilde yavaşladığı tespit edildi ve pole pozisyonu resmiyet kazandı. Verstappen'in kazası nedeniyle çıkan bayraklar yüzünden birçok pilot son hızlı turlarını tamamlayamazken, seans da bu kaosla birlikte noktalanmış oldu. Avusturya GP'de büyük yarış, yarın saat 16.00’da başlayacak.",
+                "img": "Resimler/Formula 1 Haberler/1782573476651_1000045616.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 92,
                 "title": "GEORGE RUSSELL, MERCEDES'TE KALACAK!",
                 "cat": "formula 1",
