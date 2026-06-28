@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 95,
+                "title": "AVUSTURYA'DA ZAFER GEORGE RUSSELL'IN!",
+                "cat": "formula 1",
+                "date": "2026-06-28 17:57",
+                "content": "Formula 1 Avusturya Grand Prix'si, Spielberg pistinde nefes kesen bir mücadeleye sahne oldu. Yarışa pole pozisyonundan başlayan Mercedes pilotu George Russell, damalı bayrağı ilk sırada görerek podyumun zirvesine çıktı. Sıralama turlarının üçüncü seansında (Q3) kaza yaparak yarışa 5. sıradan başlamak zorunda kalan Max Verstappen ise muazzam bir geri dönüşe imza attı. Yarış içinde Max Verstappen ve Lewis Hamilton, tıpkı eski unutulmaz günlerdeki gibi teker teker, pistte harika bir kapışmaya tutuştular; podyum mücadelesinin ardından Verstappen yarışı ikinci sırada tamamlamayı başardı. Podyumun son basamağını ise istikrarlı performansını sürdüren ve şampiyona liderliğini koruyan genç yetenek Kimi Antonelli aldı.<br><br>Hafta sonunun en çok dikkat çeken diğer detayı ise zirve mücadelesi vermesi beklenen devlerin yaşadığı hayal kırıklığı oldu. Yarışa 3. sıradan başlayan Lewis Hamilton 3 pit-stop yapmasına rağmen damalı bayrağı 5. sırada görebildi. Ferrari'nin bir diğer pilotu Charles Leclerc ise adeta kabus gibi bir gün geçirdi ve 2. cepten start aldığı mücadelede temponun gerisinde kalarak ancak 8. sırada finiş görebildi. Bu sonuçlarla birlikte Ferrari takımı, Avusturya'dan beklediğinin çok uzağında ayrılmış oldu.<br><br>Benzer bir senaryo podyum hedefleyen McLaren cephesinde de yaşandı. Oscar Piastri 7. sıradan başladığı yarışta iyi bir ritim yakalayıp 4. sıraya kadar yükselerek takımının tesellisi olurken, 6. sıradan kalkan takım arkadaşı Lando Norris ise verimli bir gün geçiremedi ve yarışı 7. sırada tamamladı. Red Bull'un bir diğer pilotu Isack Hadjar ise 8. başladığı yarışı 6. sırada bitirerek istikrarlı bir sürüşle takımı adına değerli puanları hanesine yazdırmayı başardı.<br><br>Avusturya'daki bu heyecan dolu mücadelenin ardından Formula 1 padoğu hiç hız kesmeden Britanya'ya taşınıyor. Sezonun bir sonraki yarışı, motor sporlarının mabedi olarak kabul edilen tarihi Silverstone pistinde gerçekleştirilecek. Takımların ve pilotların şampiyonluk yolundaki amansız mücadelesi, 3-5 Temmuz tarihleri arasında hız tutkunlarını ekran başına kilitleyecek.",
+                "img": "Resimler/Formula 1 Haberler/1782658628714_1000045695.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 94,
                 "title": "MAX VERSTAPPEN: \"ARABA TAMAMEN KONTROLDEN ÇIKTI!\"",
                 "cat": "formula 1",
