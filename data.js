@@ -2,6 +2,46 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 95,
+                "title": "AVUSTURYA'DA ZAFER GEORGE RUSSELL'IN!",
+                "cat": "formula 1",
+                "date": "2026-06-28 17:57",
+                "content": "Formula 1 Avusturya Grand Prix'si, Spielberg pistinde nefes kesen bir mücadeleye sahne oldu. Yarışa pole pozisyonundan başlayan Mercedes pilotu George Russell, damalı bayrağı ilk sırada görerek podyumun zirvesine çıktı. Sıralama turlarının üçüncü seansında (Q3) kaza yaparak yarışa 5. sıradan başlamak zorunda kalan Max Verstappen ise muazzam bir geri dönüşe imza attı. Yarış içinde Max Verstappen ve Lewis Hamilton, tıpkı eski unutulmaz günlerdeki gibi teker teker, pistte harika bir kapışmaya tutuştular; podyum mücadelesinin ardından Verstappen yarışı ikinci sırada tamamlamayı başardı. Podyumun son basamağını ise istikrarlı performansını sürdüren ve şampiyona liderliğini koruyan genç yetenek Kimi Antonelli aldı.<br><br>Hafta sonunun en çok dikkat çeken diğer detayı ise zirve mücadelesi vermesi beklenen devlerin yaşadığı hayal kırıklığı oldu. Yarışa 3. sıradan başlayan Lewis Hamilton 3 pit-stop yapmasına rağmen damalı bayrağı 5. sırada görebildi. Ferrari'nin bir diğer pilotu Charles Leclerc ise adeta kabus gibi bir gün geçirdi ve 2. cepten start aldığı mücadelede temponun gerisinde kalarak ancak 8. sırada finiş görebildi. Bu sonuçlarla birlikte Ferrari takımı, Avusturya'dan beklediğinin çok uzağında ayrılmış oldu.<br><br>Benzer bir senaryo podyum hedefleyen McLaren cephesinde de yaşandı. Oscar Piastri 7. sıradan başladığı yarışta iyi bir ritim yakalayıp 4. sıraya kadar yükselerek takımının tesellisi olurken, 6. sıradan kalkan takım arkadaşı Lando Norris ise verimli bir gün geçiremedi ve yarışı 7. sırada tamamladı. Red Bull'un bir diğer pilotu Isack Hadjar ise 8. başladığı yarışı 6. sırada bitirerek istikrarlı bir sürüşle takımı adına değerli puanları hanesine yazdırmayı başardı.<br><br>Avusturya'daki bu heyecan dolu mücadelenin ardından Formula 1 padoğu hiç hız kesmeden Britanya'ya taşınıyor. Sezonun bir sonraki yarışı, motor sporlarının mabedi olarak kabul edilen tarihi Silverstone pistinde gerçekleştirilecek. Takımların ve pilotların şampiyonluk yolundaki amansız mücadelesi, 3-5 Temmuz tarihleri arasında hız tutkunlarını ekran başına kilitleyecek.",
+                "img": "Resimler/Formula 1 Haberler/1782658628714_1000045695.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
+                "id": 94,
+                "title": "MAX VERSTAPPEN: \"ARABA TAMAMEN KONTROLDEN ÇIKTI!\"",
+                "cat": "formula 1",
+                "date": "2026-06-27 20:42",
+                "content": "Avusturya Grand Prix'si sıralama turlarının son bölümünde (Q3) spin atarak seansın kaderini değiştiren Max Verstappen, yaşanan kazanın ardından çarpıcı açıklamalarda bulundu. Son hızlı turunda ne olduğunu tam olarak anlayamadığını belirten Verstappen, daha 6. viraja girerken epey tuhaf bir aşırı kayma yaşadığını ve orada ciddi zaman kaybettiğini dile getirdi. Son sektörde hatasını telafi edebilecek marjı olduğunu düşünerek direksiyonu çevirdiğini söyleyen Verstappen, aracın anında ve tamamen kontrolden çıktığını, durumu düzeltmek için hamle yapmaya bile fırsat bulamadığını belirtti.<br><br>Yaşanan bu durumun çok sıra dışı olduğunu vurgulayan Hollandalı pilot, kazanın arkasında teknik bir problem olabileceğinden şüpheleniyor. Muhabirin \"Belki de arabayı fazla zorladın?\" şeklindeki sorusuna net bir dille karşı çıkan Verstappen, sürüş hatası ihtimalini kesinlikle reddetti. Yarış kariyeri boyunca limitleri zorladığı her zaman bu tarz anlar olabileceğini ve bir pilot olarak bunu genelde düzeltebildiğini ifade eden Max, ancak bu seferki olayın çok farklı olduğunu, arka kanadın zamanında kapanıp kapanmadığını takım olarak mutlaka kontrol etmeleri gerektiğini altını çizerek belirtti.<br><br>Verstappen'in kontrolü kaybetmesiyle pistte bir anda çifte sarı bayraklar sallanırken, bu durum arkadan gelen diğer pilotların turlarını da doğrudan etkiledi. Tam o esnada kendi hızlı turunda olan Mercedes pilotu George Russell, önündeki tehlikeyi fark ederek kurallar gereği ayağını gazdan çekti. Bu zorunlu yavaşlamaya rağmen muazzam bir derece elde etmeyi başaran İngiliz pilot pole pozisyonunu kaparken, Verstappen'in yaşadığı bu gizemli spin Red Bull garajında yarış öncesi büyük bir soru işareti yarattı.",
+                "img": "Resimler/Formula 1 Haberler/1782582162154_1000045638.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
+                "id": 93,
+                "title": "AVUSTURYA GP'DE GEORGE RUSSELL POLE'DE!",
+                "cat": "formula 1",
+                "date": "2026-06-27 18:17",
+                "content": "Formula 1’de sezonun en heyecanlı hafta sonlarından biri Avusturya Grand Prix’sinde yaşanıyor. Red Bull Ring pistinde gerçekleştirilen sıralama turları, son ana kadar nefes kesen bir çekişmeye sahne oldu. Mercedes pilotu George Russell, rakiplerini geride bırakarak pole pozisyonunun sahibi oldu. Russell’ın hemen arkasında Ferrari pilotu Charles Leclerc ikinci sırayı alırken, gridin üçüncü sırasına ise bir diğer Ferrari pilotu Lewis Hamilton yerleşti.<br><br>Sıralama turlarının kaderini belirleyen asıl büyük olay ise üçüncü bölümde (Q3) yaşandı. Red Bull pilotu Max Verstappen’in talihsiz bir şekilde spin atması sonucu pistte bir anda çifte sarı bayraklar sallanmaya başladı. Tam o esnada kendi hızlı turunu atmakta olan George Russell, önündeki tehlikeyi ve bayrakları fark ederek ayağını gazdan çekti. Bu zorunlu yavaşlamaya rağmen muazzam bir derece elde etmeyi başaran İngiliz pilot, liderliği kimseye kaptırmadı.<br><br>Russell'ın çifte sarı bayraklar altındaki bu turu, seansın ardından hakemler tarafından hemen incelemeye alındı. Yapılan telemetri incelemelerinin ardından Russell’ın kurallara uygun şekilde yavaşladığı tespit edildi ve pole pozisyonu resmiyet kazandı. Verstappen'in kazası nedeniyle çıkan bayraklar yüzünden birçok pilot son hızlı turlarını tamamlayamazken, seans da bu kaosla birlikte noktalanmış oldu. Avusturya GP'de büyük yarış, yarın saat 16.00’da başlayacak.",
+                "img": "Resimler/Formula 1 Haberler/1782573476651_1000045616.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
+                "id": 92,
+                "title": "GEORGE RUSSELL, MERCEDES'TE KALACAK!",
+                "cat": "formula 1",
+                "date": "2026-06-25 15:07",
+                "content": "Formula 1 transfer pazarında taşlar yerinden oynamaya devam ederken, İtalyan basınından gridin geleceğini tamamen değiştirecek çarpıcı bir iddia geldi. Corriere della Sera'nın paylaştığı bilgilere göre Mercedes, George Russell’ın sözleşmesindeki opsiyonu tarafların ortak kararıyla devreye sokmaya hazırlanıyor. Gümüş Oklar'ın bu kritik hamleyi önümüzdeki Avusturya Grand Prix'si hafta sonunda resmiyete kavuşturması bekleniyor.<br><br>Bu gelişmeyle birlikte Alman üretici, gelecek sezonlar için pilot kadrosundaki istikrarı erkenden garantilemiş olacak. Takımın, George Russell ve genç yetenek Andrea Kimi Antonelli ikilisini bozmayarak önümüzdeki süreçte de yoluna aynı pilot kadrosuyla devam etmesi öngörülüyor. Mercedes'in bu hamlesi, hem takımdaki iç dengeleri koruma hem de uzun vadeli yapılanma planlarını sağlama alma niyetini açıkça ortaya koyuyor.<br><br>Madalyonun diğer yüzünde ise bu kararın transfer piyasasındaki domino etkisi yer alıyor. Uzun süredir Red Bull’daki geleceği belirsizliğini koruyan ve adı sık sık Mercedes ile anılan Max Verstappen için bu hamle tüm planları bozabilir. Geleceğine dair kararı merakla beklenen Hollandalı pilot için Mercedes seçeneği, Russell'ın kalıcı olmasıyla birlikte en azından 2027 sezonuna kadar tamamen ortadan kalkmış görünüyor.",
+                "img": "Resimler/Formula 1 Haberler/1782389246003_1000045416.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 86,
                 "title": "CARLOS SAINZ, GELECEK İÇİN AUDI'Yİ DÜŞÜNÜYOR!",
                 "cat": "formula 1",
@@ -3326,6 +3366,16 @@ const APP_DATA = {
     },
     "motogp": {
         "news": [
+            {
+                "id": 91,
+                "title": "MARC MÁRQUEZ, SÖZLEŞMESİNİ 2028 YILINA KADAR UZATTI!",
+                "cat": "motogp",
+                "date": "2026-06-23 13:33",
+                "content": "MotoGP dünyasında taşlar yerinden oynuyor ve İtalyan devi Ducati, şampiyon pilotuyla geleceğini güvence altına alıyor. Ducati Lenovo Takımı, motor sporları tarihinin en büyük efsanelerinden biri olan Marc Márquez’in sözleşmesini 2028 sezonunun sonuna kadar uzattığını resmen açıkladı. 7 dünya şampiyonluğu ve rekorlara dayanan devasa bir ortaklık kuran İspanyol pilot, bu imzayla birlikte Ducati'nin yeni dönemdeki mutlak lideri olduğunu bir kez daha kanıtladı. Kariyerinde 100'ün üzerinde podyum zirvesi ve 76 pole pozisyonu gibi kırılması güç istatistikleri barındıran \"Karınca\", kırmızı tulumla tarih yazmaya devam ediyor.<br><br>Márquez'in bu sözleşmeyi hak ediş hikayesi ise tam bir küllerinden doğuş destanı. Sakatlıklarla boğuştuğu zorlu bir dönemin ardından, omuz ve ayak bölgesinden geçirdiği iki büyük ameliyata rağmen pistlere inanılmaz bir hırsla geri döndü. Henüz geri dönüşünün ikinci yarışı olan Macaristan GP’sinde (Balaton Park) podyumun zirvesine çıkarak kariyerinin 100. Grand Prix zaferini ilan etti. Bu tarihi eşikten sonra gerçekleştirilen Çekya GP’sinde (Brno) de rakiplerine şans tanımayarak üst üste ikinci zaferini kazanan Márquez, şampiyonluk yarışındaki iddiasını tüm dünyaya en agresif şekilde hatırlatmış oldu.<br><br>Bu tarihi imza, sadece bugünün değil, MotoGP'nin geleceğinin de rengini belli ediyor. Özellikle 2027 yılında devreye girecek olan yeni teknik kurallar ve motor yönetmelikleri öncesinde Márquez gibi deneyimli, pes etmeyen ve vizyoner bir şampiyonu takımda tutmak, Ducati’ye rakipleri karşısında devasa bir stratejik avantaj sağlıyor. Yarışseverleri heyecanlandıran bu uzun soluklu ortaklık, pistlerdeki \"Kırmızı\" dominasyonunun ve şampiyonluk serilerinin önümüzdeki yıllarda da hız kesmeden devam edeceğinin en net habercisi.",
+                "img": "Resimler/MotoGP Haberler/1782210778186_1000045336.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
             {
                 "id": 90,
                 "title": "MARC MÁRQUEZ, ÇEKYA GP'Yİ KAZANDI!",
