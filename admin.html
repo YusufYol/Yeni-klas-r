@@ -285,7 +285,8 @@
         <div id="admin-form" class="card">
             <div style="display:flex; margin-bottom:20px; gap:10px;">
                 <button class="btn btn-primary" id="tab-news" style="padding:10px; font-size:0.8rem;" onclick="switchTab('news')">HABERLER</button>
-                <button class="btn btn-secondary" id="tab-calendar" style="padding:10px; font-size:0.8rem; margin-top:0;" onclick="switchTab('calendar')">TAKVİM & SONUÇLAR</button>
+                <button class="btn btn-secondary" id="tab-calendar" style="padding:10px; font-size:0.8rem; margin-top:0;" onclick="switchTab('calendar')">TAKVİM & SONUÇ</button>
+                <button class="btn btn-secondary" id="tab-standings" style="padding:10px; font-size:0.8rem; margin-top:0;" onclick="switchTab('standings')">PUAN DURUMU</button>
             </div>
             
             <div id="status-msg" class="status"></div>
@@ -374,12 +375,36 @@
                     
                     <div id="results-form-container" style="margin-top:20px; padding-top:20px; border-top:1px solid var(--accent);">
                         <h3 style="font-size:1rem; margin-bottom:15px; color:var(--text-dim);">Yarış Sonuçları</h3>
-                        <p style="font-size:0.8rem; color:var(--text-dim); margin-bottom:15px;">İlk 20 pilotu seçerek sonuçları hızlıca girebilirsiniz. Puanlar otomatik olarak atanacaktır. Sütunları boş bırakabilirsiniz.</p>
+                        <p style="font-size:0.8rem; color:var(--text-dim); margin-bottom:15px;">İlk 22 pilotu seçerek sonuçları hızlıca girebilirsiniz. Puanlar otomatik olarak atanacaktır. Sütunları boş bırakabilirsiniz.</p>
                         <div id="results-rows"></div>
                     </div>
                     
                     <button class="btn btn-primary" style="margin-top:20px;" onclick="saveRaceData()">Yarış Verilerini Kaydet</button>
                 </div>
+            </div>
+
+            <div id="standings-section" style="display:none;">
+                <div class="form-group">
+                    <label>Kategori</label>
+                    <select id="std-category" onchange="loadStandingsForm()">
+                        <option value="formula 1">Formula 1</option>
+                        <option value="motogp">MotoGP</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Sıralama Türü</label>
+                    <select id="std-type" onchange="loadStandingsForm()">
+                        <option value="pilots">Pilot Sıralaması</option>
+                        <option value="teams">Takım Sıralaması</option>
+                    </select>
+                </div>
+
+                <div id="standings-form-container" style="margin-top:20px; padding-top:20px; border-top:1px solid var(--accent);">
+                    <h3 style="font-size:1rem; margin-bottom:15px; color:var(--text-dim);" id="std-form-title">Puan Durumu</h3>
+                    <div id="standings-rows"></div>
+                </div>
+                
+                <button class="btn btn-primary" style="margin-top:20px;" onclick="saveStandingsData()">Sıralamayı Kaydet</button>
             </div>
 
             <button class="btn btn-secondary" id="logout-btn" onclick="logout()" style="margin-top:20px;">Çıkış Yap</button>
@@ -786,22 +811,25 @@
 
         // --- TAKVİM & SONUÇ YÖNETİMİ ---
         function switchTab(tab) {
+            document.getElementById('news-section').style.display = 'none';
+            document.getElementById('calendar-section').style.display = 'none';
+            document.getElementById('standings-section').style.display = 'none';
+            
+            document.getElementById('tab-news').className = 'btn btn-secondary';
+            document.getElementById('tab-calendar').className = 'btn btn-secondary';
+            document.getElementById('tab-standings').className = 'btn btn-secondary';
+
             if (tab === 'news') {
                 document.getElementById('news-section').style.display = 'block';
-                document.getElementById('calendar-section').style.display = 'none';
                 document.getElementById('tab-news').className = 'btn btn-primary';
-                document.getElementById('tab-calendar').className = 'btn btn-secondary';
-            } else {
-                document.getElementById('news-section').style.display = 'none';
+            } else if (tab === 'calendar') {
                 document.getElementById('calendar-section').style.display = 'block';
-                document.getElementById('tab-news').className = 'btn btn-secondary';
                 document.getElementById('tab-calendar').className = 'btn btn-primary';
-                
-                if (!currentAppData) {
-                    loadNewsList(); // App data'yı yükle
-                } else {
-                    loadCalendarRaces();
-                }
+                if (!currentAppData) loadNewsList(); else loadCalendarRaces();
+            } else if (tab === 'standings') {
+                document.getElementById('standings-section').style.display = 'block';
+                document.getElementById('tab-standings').className = 'btn btn-primary';
+                if (!currentAppData) loadNewsList().then(() => loadStandingsForm()); else loadStandingsForm();
             }
         }
 
@@ -850,7 +878,7 @@
             const ptsArray = [25, 18, 15, 12, 10, 8, 6, 4, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
             
             let html = '';
-            for (let i = 0; i < 20; i++) {
+            for (let i = 0; i < 22; i++) {
                 const pos = i + 1;
                 const existing = existingResults[i] || {};
                 
@@ -922,7 +950,7 @@
                 let results = [];
                 let hasResults = false;
                 
-                for (let i = 1; i <= 20; i++) {
+                for (let i = 1; i <= 22; i++) {
                     const selectElem = document.getElementById('res-pilot-' + i);
                     const selectedOption = selectElem.options[selectElem.selectedIndex];
                     const pilotVal = selectElem.value;
@@ -975,6 +1003,117 @@
 
                 await saveAppData(appData, sha, fullContent, startIndex, endIndex, `Round ${round} Verileri Güncellendi`);
                 showStatus('Yarış sonuçları ve takvim başarıyla güncellendi!', 'success');
+                
+                // Reload data
+                const newData = await getAppData();
+                currentAppData = newData.appData;
+                
+            } catch (err) {
+                console.error(err);
+                showStatus('Güncelleme hatası: ' + err.message, 'error');
+            } finally {
+                btn.disabled = false;
+            }
+        }
+
+        // --- PUAN DURUMU (STANDINGS) YÖNETİMİ ---
+        function loadStandingsForm() {
+            if (!currentAppData) return;
+            const cat = document.getElementById('std-category').value;
+            const type = document.getElementById('std-type').value; // 'pilots' or 'teams'
+            const container = document.getElementById('standings-rows');
+            const titleElem = document.getElementById('std-form-title');
+            
+            container.innerHTML = '';
+            
+            if (!currentAppData[cat].standings) {
+                currentAppData[cat].standings = { pilots: [], teams: [] };
+            }
+            
+            const currentStandings = currentAppData[cat].standings[type] || [];
+            const dataList = type === 'pilots' ? (currentAppData[cat].pilots || []) : (currentAppData[cat].teams || []);
+            const rowCount = type === 'pilots' ? 22 : 11;
+            
+            titleElem.textContent = type === 'pilots' ? 'Pilot Sıralaması' : 'Takım Sıralaması';
+
+            let html = '';
+            for (let i = 0; i < rowCount; i++) {
+                const pos = i + 1;
+                const existing = currentStandings[i] || {};
+                
+                let selectOptions = '<option value="">Seçiniz...</option>';
+                dataList.forEach(item => {
+                    const itemText = (type === 'pilots' && item.number) ? `${item.name} #${item.number}` : item.name;
+                    const selected = existing.name && existing.name.includes(item.name) ? 'selected' : '';
+                    const teamAttr = (type === 'pilots' && item.team) ? `data-team="${item.team}"` : '';
+                    selectOptions += `<option value="${item.id}" ${teamAttr} ${selected}>${itemText}</option>`;
+                });
+                
+                const pts = existing.pts !== undefined ? existing.pts : 0;
+                const team = existing.team || '';
+
+                html += `
+                    <div class="result-row" style="background:var(--bg); border:1px solid var(--accent); padding:10px; border-radius:8px; margin-bottom:10px;">
+                        <div style="font-weight:700; margin-bottom:5px; color:var(--primary);">Sıra ${pos}</div>
+                        <div style="display:flex; gap:10px;">
+                            <select id="std-sel-${pos}" style="flex:3;" onchange="updateStandingsTeam('${type}', ${pos}, this)">
+                                ${selectOptions}
+                            </select>
+                            <input type="number" id="std-pts-${pos}" style="flex:1;" placeholder="Puan" value="${pts}">
+                        </div>
+                        <input type="hidden" id="std-team-${pos}" value="${team}">
+                    </div>
+                `;
+            }
+            container.innerHTML = html;
+        }
+
+        function updateStandingsTeam(type, pos, selectElem) {
+            if (type !== 'pilots') return;
+            const selectedOption = selectElem.options[selectElem.selectedIndex];
+            const team = selectedOption.getAttribute('data-team');
+            document.getElementById('std-team-' + pos).value = team || '';
+        }
+
+        async function saveStandingsData() {
+            if (!currentAppData) return;
+            const cat = document.getElementById('std-category').value;
+            const type = document.getElementById('std-type').value;
+
+            const btn = event.target;
+            btn.disabled = true;
+            showStatus('Sıralama güncelleniyor...', 'loading');
+
+            try {
+                const { appData, sha, fullContent, startIndex, endIndex } = await getAppData();
+                
+                if (!appData[cat].standings) appData[cat].standings = { pilots: [], teams: [] };
+
+                const rowCount = type === 'pilots' ? 22 : 11;
+                let newStandings = [];
+
+                for (let i = 1; i <= rowCount; i++) {
+                    const selectElem = document.getElementById('std-sel-' + i);
+                    const selectedOption = selectElem.options[selectElem.selectedIndex];
+                    const val = selectElem.value;
+                    
+                    if (val) {
+                        const nameText = selectedOption.textContent; // pilot or team name
+                        const pts = parseInt(document.getElementById('std-pts-' + i).value) || 0;
+                        
+                        let itemObj = { pos: i, name: nameText, pts: pts };
+                        if (type === 'pilots') {
+                            itemObj.team = document.getElementById('std-team-' + i).value;
+                        }
+                        
+                        newStandings.push(itemObj);
+                    }
+                }
+                
+                appData[cat].standings[type] = newStandings;
+
+                await saveAppData(appData, sha, fullContent, startIndex, endIndex, `${cat} ${type} Puan Durumu Güncellendi`);
+                showStatus('Puan durumu başarıyla kaydedildi!', 'success');
                 
                 // Reload data
                 const newData = await getAppData();
