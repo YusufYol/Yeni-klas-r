@@ -6590,7 +6590,7 @@ const APP_DATA = {
                     "laps": 1,
                     "fastest": false,
                     "status": "DNF"
-                },
+                }
             ],
             "10": [
                 {
@@ -7069,6 +7069,17 @@ const APP_DATA = {
     },
     "haberler": {
         "news": [
+            {
+                "id": 96,
+                "title": "DÜNYANIN EN PRESTİJLİ DAYANIKLILIK YARIŞINDA SPA 24 SAAT HEYECANI TAMAMLANDI!",
+                "cat": "haberler",
+                "date": "2026-06-29 22:05",
+                "content": "Motor sporları dünyasının en köklü ve zorlu dayanıklılık mücadelelerinden biri olan CrowdStrike Spa 24 Saat yarışı, Belçika'nın ikonik Spa-Francorchamps pistinde nefes kesen anlara sahne oldu. Gün boyu değişen hava koşulları, yoğun trafik ve strateji savaşlarıyla geçen 24 saatlik maratonun ardından damalı bayrağı ilk sırada görmeyi başaran ekip, No. 80 Lionspeed GP Porsche pilotları Ricardo Feller, Thomas Preining ve Bastian Buus oldu. Motor değişimi nedeniyle yarışa pit alanından, yani gridin en arkasından başlamak zorunda kalan ekip, kusursuz pit stop stratejileri ve harika bir geri dönüş hikayesiyle podyumun zirvesine çıkmayı başardı.<br><br>24 saat boyunca liderliğin defalarca el değiştirdiği yarışta, özellikle pazar sabahı gerçekleşen üst sıra mücadeleleri izleyicilere büyük bir seyir zevki sundu. Mercedes-AMG, Ferrari, BMW ve Porsche ekiplerinin podyum için tekerlek tekerleğe verdiği amansız savaşta dayanıklılık ve minimum hata belirleyici unsurlar oldu. Eau Rouge ve Radillon gibi pistin en ikonik virajlarında yapılan cesur ataklar yarışı adeta bir taktik savaşına çevirirken, hem mekanikerlerin pit alanındaki kusursuz performansı hem de pilotların 24 saat boyunca koruduğu yüksek tempo heyecanı son saniyelere kadar zirvede tuttu.<br><br>Bu zorlu ve devasa organizasyonda göğsümüzü kabartan anlar ise gururumuz Ayhancan Güven’den geldi. #22 Schumacher CLRT Porsche direksiyonunda Matt Campbell ve Frédéric Makowiecki ile birlikte harika bir performans sergileyen temsilcimiz, yarışın favorileri arasında yer aldı. Pist üzerinde şanssız temaslar ve şasi hasarı nedeniyle zaman cezaları alarak geriye düşmelerine rağmen pes etmeyen ekip, muazzam bir geri dönüşe imza attı. Yarış boyu liderlik grubunu kovalayan ve temposuyla pistin en dikkat çeken isimlerinden biri olan Ayhancan Güven ve takımı, podyumu kıl payı kaçırarak yarışı genel klasmanda 4. sırada tamamlamayı başardı. Temsilcemiz, her zamanki gibi hızı ve agresif sürüşüyle dünya sahnesinde Türkiye'yi gururla temsil etti.",
+                "img": "Resimler/Haberler/1782759946026_1000045778.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png",
+                "customBadge": "SPA 24 SAAT"
+            },
             {
                 "id": 85,
                 "title": "TOSFED VE KATAR OTOMOBİL FEDERASYONU ARASINDA İŞ BİRLİĞİ YAPILDI!",
