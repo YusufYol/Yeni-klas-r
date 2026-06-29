@@ -283,18 +283,27 @@
 
         <!-- Admin Form -->
         <div id="admin-form" class="card">
-            <div id="edit-indicator" class="edit-mode-indicator">
-                HABER DÜZENLEME MODU
+            <div style="display:flex; margin-bottom:20px; gap:10px;">
+                <button class="btn btn-primary" id="tab-news" style="padding:10px; font-size:0.8rem;" onclick="switchTab('news')">HABERLER</button>
+                <button class="btn btn-secondary" id="tab-calendar" style="padding:10px; font-size:0.8rem; margin-top:0;" onclick="switchTab('calendar')">TAKVİM & SONUÇLAR</button>
             </div>
+            
+            <div id="status-msg" class="status"></div>
+
+            <div id="news-section">
+                <div id="edit-indicator" class="edit-mode-indicator">
+                    HABER DÜZENLEME MODU
+                </div>
 
             <div class="form-group">
                 <label>Kategori</label>
-                <select id="news-category">
+                <select id="news-category" onchange="checkCategory()">
                     <option value="formula 1">Formula 1</option>
                     <option value="motogp">MotoGP</option>
                     <option value="milli sporcularımız">Milli Sporcularımız</option>
                     <option value="haberler">Haberler</option>
                 </select>
+                <input type="text" id="news-custom-badge" placeholder="Özel Kategori Adı (Örn: INDYCAR, WEC)" style="display:none; margin-top:10px;">
             </div>
 
             <div class="form-group">
@@ -331,16 +340,49 @@
 
             <button class="btn btn-primary" id="publish-btn" onclick="publishNews()">Haberi Yayınla</button>
             <button class="btn btn-secondary" id="cancel-btn" onclick="cancelEdit()" style="display: none;">Düzenlemeyi İptal Et</button>
-            <button class="btn btn-secondary" id="logout-btn" onclick="logout()">Çıkış Yap</button>
-
-            <div id="status-msg" class="status"></div>
-
-            <div class="news-list" id="news-list-container">
-                <div class="news-list-title">Son Haberler</div>
-                <div id="news-items">
-                    <p style="text-align: center; color: var(--text-dim); font-size: 0.8rem;">Haberler yükleniyor...</p>
+                <div class="news-list" id="news-list-container">
+                    <div class="news-list-title">Son Haberler</div>
+                    <div id="news-items">
+                        <p style="text-align: center; color: var(--text-dim); font-size: 0.8rem;">Haberler yükleniyor...</p>
+                    </div>
                 </div>
             </div>
+
+            <div id="calendar-section" style="display:none;">
+                <div class="form-group">
+                    <label>Kategori</label>
+                    <select id="cal-category" onchange="loadCalendarRaces()">
+                        <option value="formula 1">Formula 1</option>
+                        <option value="motogp">MotoGP</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Yarış (Round)</label>
+                    <select id="cal-race" onchange="loadRaceDetails()">
+                        <option value="">Lütfen kategori seçin...</option>
+                    </select>
+                </div>
+                <div id="race-details-container" style="display:none;">
+                    <div class="form-group">
+                        <label>Yarış Durumu</label>
+                        <select id="cal-status">
+                            <option value="Sıradaki">Sıradaki</option>
+                            <option value="Tamamlandı">Tamamlandı</option>
+                            <option value="İptal">İptal</option>
+                        </select>
+                    </div>
+                    
+                    <div id="results-form-container" style="margin-top:20px; padding-top:20px; border-top:1px solid var(--accent);">
+                        <h3 style="font-size:1rem; margin-bottom:15px; color:var(--text-dim);">Yarış Sonuçları</h3>
+                        <p style="font-size:0.8rem; color:var(--text-dim); margin-bottom:15px;">İlk 20 pilotu seçerek sonuçları hızlıca girebilirsiniz. Puanlar otomatik olarak atanacaktır. Sütunları boş bırakabilirsiniz.</p>
+                        <div id="results-rows"></div>
+                    </div>
+                    
+                    <button class="btn btn-primary" style="margin-top:20px;" onclick="saveRaceData()">Yarış Verilerini Kaydet</button>
+                </div>
+            </div>
+
+            <button class="btn btn-secondary" id="logout-btn" onclick="logout()" style="margin-top:20px;">Çıkış Yap</button>
         </div>
     </div>
 
@@ -356,6 +398,18 @@
         let editingId = null;
         let editingCat = null;
         let currentAppData = null;
+
+        // Custom Category logic
+        function checkCategory() {
+            const catSelect = document.getElementById('news-category');
+            const customBadge = document.getElementById('news-custom-badge');
+            if (catSelect.value === 'haberler') {
+                customBadge.style.display = 'block';
+            } else {
+                customBadge.style.display = 'none';
+                customBadge.value = '';
+            }
+        }
 
         // Author custom logic
         document.getElementById('news-author').addEventListener('change', function () {
@@ -502,6 +556,13 @@
             document.getElementById('news-title').value = newsItem.title;
             document.getElementById('news-content').value = newsItem.content.replace(/<br>/g, '\n');
             
+            checkCategory(); // show/hide custom badge
+            if (newsItem.cat === 'haberler' && newsItem.customBadge) {
+                document.getElementById('news-custom-badge').value = newsItem.customBadge;
+            } else {
+                document.getElementById('news-custom-badge').value = '';
+            }
+            
             const authors = ["Yusuf Yol", "Emre Boz", "Burak Yasul", "Özge Yılmaz", "Azra Şahin"];
             if (authors.includes(newsItem.author)) {
                 document.getElementById('news-author').value = newsItem.author;
@@ -561,6 +622,7 @@
             const title = document.getElementById('news-title').value;
             const content = document.getElementById('news-content').value;
             const cat = document.getElementById('news-category').value;
+            const customBadge = document.getElementById('news-custom-badge').value;
             const authorSelect = document.getElementById('news-author').value;
             const authorCustom = document.getElementById('news-author-custom').value;
             const imageFile = document.getElementById('news-image').files[0];
@@ -611,6 +673,11 @@
 
                     newsItem.title = title;
                     newsItem.cat = cat;
+                    if (cat === 'haberler' && customBadge) {
+                        newsItem.customBadge = customBadge;
+                    } else {
+                        delete newsItem.customBadge;
+                    }
                     newsItem.content = content.replace(/\n/g, '<br>');
                     newsItem.author = authorName;
                     newsItem.authorImg = `Resimler/Haber Yazarı Fotoğrafları/${authorName}.png`;
@@ -644,6 +711,9 @@
                         author: authorName,
                         authorImg: `Resimler/Haber Yazarı Fotoğrafları/${authorName}.png`
                     };
+                    if (cat === 'haberler' && customBadge) {
+                        newNews.customBadge = customBadge;
+                    }
 
                     appData[cat].news.unshift(newNews);
                     await saveAppData(appData, sha, fullContent, startIndex, endIndex, `Yeni Haber Eklendi: ${title}`);
@@ -677,6 +747,7 @@
             document.getElementById('news-author-custom').value = '';
             document.getElementById('news-author-custom').style.display = 'none';
             document.getElementById('news-author').value = 'Yusuf Yol';
+            document.getElementById('news-custom-badge').value = '';
         }
 
         async function githubRequest(path, method, body = null) {
@@ -711,6 +782,210 @@
                 reader.onload = () => resolve(reader.result);
                 reader.onerror = error => reject(error);
             });
+        }
+
+        // --- TAKVİM & SONUÇ YÖNETİMİ ---
+        function switchTab(tab) {
+            if (tab === 'news') {
+                document.getElementById('news-section').style.display = 'block';
+                document.getElementById('calendar-section').style.display = 'none';
+                document.getElementById('tab-news').className = 'btn btn-primary';
+                document.getElementById('tab-calendar').className = 'btn btn-secondary';
+            } else {
+                document.getElementById('news-section').style.display = 'none';
+                document.getElementById('calendar-section').style.display = 'block';
+                document.getElementById('tab-news').className = 'btn btn-secondary';
+                document.getElementById('tab-calendar').className = 'btn btn-primary';
+                
+                if (!currentAppData) {
+                    loadNewsList(); // App data'yı yükle
+                } else {
+                    loadCalendarRaces();
+                }
+            }
+        }
+
+        function loadCalendarRaces() {
+            if (!currentAppData) return;
+            const cat = document.getElementById('cal-category').value;
+            const races = currentAppData[cat].calendar || [];
+            
+            const raceSelect = document.getElementById('cal-race');
+            raceSelect.innerHTML = '<option value="">Yarış Seçin...</option>';
+            
+            races.forEach((r, idx) => {
+                raceSelect.innerHTML += `<option value="${r.round}">Round ${r.round} - ${r.gp}</option>`;
+            });
+            
+            document.getElementById('race-details-container').style.display = 'none';
+        }
+
+        function loadRaceDetails() {
+            const cat = document.getElementById('cal-category').value;
+            const round = document.getElementById('cal-race').value;
+            
+            if (!round) {
+                document.getElementById('race-details-container').style.display = 'none';
+                return;
+            }
+            
+            const race = currentAppData[cat].calendar.find(r => r.round == round);
+            if (!race) return;
+            
+            document.getElementById('cal-status').value = race.status;
+            document.getElementById('race-details-container').style.display = 'block';
+            
+            buildResultsForm(cat, round);
+        }
+
+        function buildResultsForm(cat, round) {
+            const pilots = currentAppData[cat].pilots || [];
+            const resultsHistory = currentAppData[cat].resultsHistory || {};
+            const existingResults = resultsHistory[round] || [];
+            
+            const container = document.getElementById('results-rows');
+            container.innerHTML = '';
+            
+            // Sabit Puanlar: 25, 18, 15, 12, 10, 8, 6, 4, 2, 1
+            const ptsArray = [25, 18, 15, 12, 10, 8, 6, 4, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+            
+            let html = '';
+            for (let i = 0; i < 20; i++) {
+                const pos = i + 1;
+                const existing = existingResults[i] || {};
+                
+                let pilotOptions = '<option value="">Pilot Seçin...</option>';
+                pilots.forEach(p => {
+                    const pilotText = p.number ? `${p.name} #${p.number}` : p.name;
+                    const selected = existing.pilot && existing.pilot.includes(p.name) ? 'selected' : '';
+                    pilotOptions += `<option value="${p.id}" data-pilot="${pilotText}" data-team="${p.team}" ${selected}>${pilotText}</option>`;
+                });
+                
+                const pts = existing.pts !== undefined ? existing.pts : ptsArray[i];
+                const timeGap = existing.time !== undefined ? existing.time : (existing.gap || '');
+                const status = existing.status || 'Finished';
+                
+                html += `
+                    <div class="result-row" style="background:var(--bg); border:1px solid var(--accent); padding:10px; border-radius:8px; margin-bottom:10px;">
+                        <div style="font-weight:700; margin-bottom:5px; color:var(--primary);">P${pos}</div>
+                        
+                        <div style="display:flex; gap:10px; margin-bottom:5px;">
+                            <select id="res-pilot-${pos}" style="flex:2;" onchange="updateTeam(${pos}, this)">
+                                ${pilotOptions}
+                            </select>
+                            <input type="text" id="res-pts-${pos}" style="flex:1;" placeholder="Puan" value="${pts}">
+                        </div>
+                        
+                        <div style="display:flex; gap:10px;">
+                            <input type="text" id="res-time-${pos}" style="flex:2;" placeholder="Zaman / Fark" value="${timeGap}">
+                            <select id="res-status-${pos}" style="flex:1;">
+                                <option value="Finished" ${status==='Finished'?'selected':''}>Finished</option>
+                                <option value="DNF" ${status==='DNF'?'selected':''}>DNF</option>
+                                <option value="DNS" ${status==='DNS'?'selected':''}>DNS</option>
+                                <option value="NC" ${status==='NC'?'selected':''}>NC</option>
+                            </select>
+                        </div>
+                        <input type="hidden" id="res-team-${pos}" value="${existing.team || ''}">
+                    </div>
+                `;
+            }
+            container.innerHTML = html;
+        }
+
+        function updateTeam(pos, selectElem) {
+            const selectedOption = selectElem.options[selectElem.selectedIndex];
+            const team = selectedOption.getAttribute('data-team');
+            document.getElementById('res-team-' + pos).value = team || '';
+        }
+
+        async function saveRaceData() {
+            if (!currentAppData) return;
+            const cat = document.getElementById('cal-category').value;
+            const round = document.getElementById('cal-race').value;
+            
+            if (!round) return;
+
+            const btn = event.target;
+            btn.disabled = true;
+            showStatus('Yarış verileri güncelleniyor...', 'loading');
+
+            try {
+                const { appData, sha, fullContent, startIndex, endIndex } = await getAppData();
+                
+                // 1. Status Güncelle
+                const race = appData[cat].calendar.find(r => r.round == round);
+                if (race) {
+                    race.status = document.getElementById('cal-status').value;
+                }
+                
+                // 2. Sonuçları Topla (Eğer Sıradaki değilse veya pilot seçilmişse)
+                let results = [];
+                let hasResults = false;
+                
+                for (let i = 1; i <= 20; i++) {
+                    const selectElem = document.getElementById('res-pilot-' + i);
+                    const selectedOption = selectElem.options[selectElem.selectedIndex];
+                    const pilotVal = selectElem.value;
+                    
+                    if (pilotVal) {
+                        hasResults = true;
+                        const pilotText = selectedOption.getAttribute('data-pilot');
+                        const team = document.getElementById('res-team-' + i).value;
+                        const pts = parseInt(document.getElementById('res-pts-' + i).value) || 0;
+                        const timeGap = document.getElementById('res-time-' + i).value;
+                        const status = document.getElementById('res-status-' + i).value;
+                        
+                        let posVal = i;
+                        if (status === 'DNF' || status === 'NC' || status === 'DNS') {
+                            posVal = status; // pos: "DNF" gibi
+                        }
+                        
+                        let gap = '';
+                        let time = '';
+                        if (i === 1) {
+                            time = timeGap;
+                            gap = '-';
+                        } else {
+                            if (timeGap.includes(':')) {
+                                time = timeGap;
+                                gap = '+X'; // Tam fark hesaplanamazsa
+                            } else {
+                                gap = timeGap;
+                            }
+                        }
+
+                        results.push({
+                            pos: posVal,
+                            pilot: pilotText,
+                            team: team,
+                            time: time || gap,
+                            gap: gap || time,
+                            pts: pts,
+                            laps: 0,
+                            fastest: i === 1, // Basitlik için sadece 1.ye atandı
+                            status: status
+                        });
+                    }
+                }
+                
+                if (hasResults) {
+                    if (!appData[cat].resultsHistory) appData[cat].resultsHistory = {};
+                    appData[cat].resultsHistory[round] = results;
+                }
+
+                await saveAppData(appData, sha, fullContent, startIndex, endIndex, `Round ${round} Verileri Güncellendi`);
+                showStatus('Yarış sonuçları ve takvim başarıyla güncellendi!', 'success');
+                
+                // Reload data
+                const newData = await getAppData();
+                currentAppData = newData.appData;
+                
+            } catch (err) {
+                console.error(err);
+                showStatus('Güncelleme hatası: ' + err.message, 'error');
+            } finally {
+                btn.disabled = false;
+            }
         }
     </script>
 </body>

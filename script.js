@@ -703,7 +703,7 @@ function initAppEngine() {
         div.innerHTML = `
             <img src="${window.APP_ROOT}${news.img}" alt="hero news" class="hero-news-img">
             <div class="hero-news-overlay">
-                <span class="hero-news-cat">${news.cat}</span>
+                <span class="hero-news-cat">${news.customBadge || news.cat}</span>
                 <h2 class="hero-news-title">${news.title}</h2>
                 <p class="hero-news-summary">${summary}</p>
             </div>
@@ -723,7 +723,7 @@ function initAppEngine() {
                 <img src="${window.APP_ROOT}${news.img}" alt="news" class="news-img">
             </div>
             <div class="news-info">
-                <span class="news-cat">${news.cat}</span>
+                <span class="news-cat">${news.customBadge || news.cat}</span>
                 <h3 class="news-title">${news.title}</h3>
                 <span class="news-date">${formatDate(news.date)}</span>
             </div>
@@ -1133,7 +1133,7 @@ function initAppEngine() {
                 <img src="${window.APP_ROOT}${news.img}" alt="news cover" class="news-detail-img">
                 ${getAdHTML('display')}
                 <div class="news-detail-body">
-                    <span class="news-detail-cat">${news.cat}</span>
+                    <span class="news-detail-cat">${news.customBadge || news.cat}</span>
                     <h1 class="news-detail-title">${news.title}</h1>
                     <span class="news-detail-date">${displayDate}</span>
                     ${authorHtml}
