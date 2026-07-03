@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 97,
+                "title": "LEWIS HAMILTON, SILVERSTONE'DA SPRINT YARIŞI İÇİN POLE'DE!",
+                "cat": "formula 1",
+                "date": "2026-07-03 21:52",
+                "content": "Formula 1 heyecanı Silverstone’un büyüleyici atmosferinde tüm hızıyla başlarken, piste bir kez daha Silverstone Kralı damgasını vurdu. Kötü geçen geçen senenin ardından bu sezona muazzam bir başlangıç yapan ve performansını zirvede tutmaya devam eden Lewis Hamilton, Ferrari koltuğunda adeta küllerinden doğdu. Hafta sonunun tek antrenman seansını lider tamamlayarak niyetini belli eden \"Yaşlı Kurt\", Sprint sıralama turlarında da kusursuz bir grafik çizdi. SQ1 ve SQ2 bölümlerinde en hızlı turlara imza atan efsane pilot, SQ3’te son viraja doğru aracının arkasını hafifçe kaydırmasına rağmen direksiyon hakimiyetini kaybetmedi ve harika bir tura imza atarak Sprint polünü cebine koydu.<br><br>Geçtiğimiz günlerde verdiği \"8. şampiyonluğu alana kadar durmayacağım\" sözünün arkasında durduğunu kanıtlayan efsane pilot, evindeki muhteşem formunu bir kez daha gözler önüne serdi.<br><br>Nefes kesen seansın ardından ilk çizginin ikinci sırasında ise Hamilton’ı sadece 0.011 saniye geriden takip eden, şampiyona lideri ve Mercedes'in genç yıldızı Kimi Antonelli yer aldı. Üçüncü sırayı Red Bull pilotu Max Verstappen alırken, dördüncü cep Ferrari'deki Charles Leclerc'e gitti. Mercedes’ten George Russell beşinci olurken, McLaren pilotları Lando Norris ve Oscar Piastri sırasıyla 6 ve 7. sıraları paylaştı. İlk 10'u tamamlayan diğer isimler ise 8. sırada Red Bull'un genç yeteneği Isack Hadjar olurken Racing Bulls’un dikkat çeken sürücüleri Liam Lawson 9. ve Arvid Lindblad 10. oldu.<br><br>Silverstone'da gözler şimdi hafta sonunun büyük kapışmalarına çevrildi. Bu harika sıralama turlarının ardından Sprint yarışı yarın saat 14.00’te, pazar günkü büyük yarışın gridini belirleyecek olan Ana yarış sıralama turları ise yarın saat 18.00’de başlayacak. Hafta sonunun en büyük heyecanı, podyumun sahibini belirleyecek olan Ana Yarış ise Pazar günü saat 17.00'de ekranlarda olacak.",
+                "img": "Resimler/Formula 1 Haberler/1783104770320_1000046013.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 95,
                 "title": "AVUSTURYA'DA ZAFER GEORGE RUSSELL'IN!",
                 "cat": "formula 1",
