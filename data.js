@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 98,
+                "title": "SILVERSTONE'DA SPRINT YARIŞINI KAZANAN İSİM ANDREA KIMI ANTONELLI OLDU!",
+                "cat": "formula 1",
+                "date": "2026-07-04 16:03",
+                "content": "Formula 1’de gözlerin çevrildiği Silverstone hafta sonunda Sprint yarışı nefes kesen anlara sahne oldu. Mercedes’in genç yeteneği Kimi Antonelli, harika bir performans sergileyerek Sprint yarışını ilk sırada tamamlamayı başardı. Genç pilot, bu sonuçla birlikte kariyerinin Sprint formatındaki ilk galibiyetini elde ederek büyük bir başarıya imza attı ve takımına değerli puanlar kazandırdı.<br><br>Hafta sonuna fırtına gibi başlayan ve birinci antrenman seansının ardından Sprint Sıralama turlarının tüm seanslarında (SQ1, SQ2, SQ3) zirveyi bırakmayarak pole pozisyonunu kazanan Lewis Hamilton ise yarışı ikinci sırada noktaladı. Yarışın en dikkat çeken performanslarından bir diğeri ise McLaren pilotu Lando Norris’ten geldi. Mücadeleye 6. sıradan başlayan Britanyalı pilot, harika bir startın ardından rakiplerini tek tek geride bırakarak podyumun son basamağını kapmayı başardı ve taraftarlarını coşturdu.<br><br>Podyumun hemen arkasında, Mercedes’in diğer pilotu George Russell dördüncü sırada finiş çizgisini geçerken, Ferrari’den Charles Leclerc ilk beşi tamamlayan isim oldu. Yarışa 3. sıradan başlayan ancak istediği tempoyu bulamayarak 6. sıraya gerileyen Max Verstappen hayal kırıklığı yaşarken, McLaren’ın diğer sürücüsü Oscar Piastri ise yarışı 7. sırada tamamladı.<br><br>Silverstone’da Formula 1 heyecanı hız kesmeden devam ediyor; pilotlar bugün saat 18.00’de ana yarışın sıralama turları için piste çıkacak, büyük yarış ise yarın saat 17.00’de başlayacak.",
+                "img": "Resimler/Formula 1 Haberler/1783170191590_1000046089.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 97,
                 "title": "LEWIS HAMILTON, SILVERSTONE'DA SPRINT YARIŞI İÇİN POLE'DE!",
                 "cat": "formula 1",
