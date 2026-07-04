@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 99,
+                "title": "SILVERSTONE'DA POLE KIMI ANTONELLI'NİN OLDU!",
+                "cat": "formula 1",
+                "date": "2026-07-04 19:47",
+                "content": "Formula 1’de sezonun en ikonik duraklarından biri olan Büyük Britanya Grand Prix'sinde sıralama turları nefes kesen anlara sahne oldu. Pist üstünde harika bir performans sergileyerek mükemmel bir tur zamanına imza atan şampiyona lideri Kimi Antonelli, rakiplerini geride bırakarak pole pozisyonunun sahibi oldu. Son haftalarda istediği ritmi bir türlü yakalayamayan ve performansı merak konusu olan Ferrari'nin Monacolu pilotu Charles Leclerc ise Silverstone'da adeta kendine geldi; harika seansın ardından ikinci sırayı kaparak yarışa ön çizgiden başlama hakkı kazandı.<br><br>Hafta sonunun antrenman turlarına damga vuran ve kendi evinde yarışan Lewis Hamilton, dominant performansına rağmen sıralama turlarında üçüncü sırayla yetinmek zorunda kaldı. Mercedes'in diğer pilotu George Russell ise dördüncü sırayı alabildi. Beşinci sırada ise Red Bull'un genç sürücüsü Isack Hadjar yer aldı.<br><br>Ev sahibi pilotlardan biri olan ve hafta sonuna büyük umutlarla başlayan McLaren sürücüsü Lando Norris ise sıralama turlarında bir türlü istediği temiz turları atamayarak altıncı sırada kaldı ve hayal kırıklığı yaşadı. Red Bull pilotu Max Verstappen yedinci sırada kalırken, ilk sekizi tamamlayan son isim ise McLaren'ın istikrarlı ismi Oscar Piastri oldu.<br><br>Formula 1 heyecanı yarın 18.00'de yapılacak olan yarış ile kaldığı yerden devam edecek.",
+                "img": "Resimler/Formula 1 Haberler/1783183654530_1000046116.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 98,
                 "title": "SILVERSTONE'DA SPRINT YARIŞINI KAZANAN İSİM ANDREA KIMI ANTONELLI OLDU!",
                 "cat": "formula 1",
