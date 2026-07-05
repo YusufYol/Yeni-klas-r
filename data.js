@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 100,
+                "title": "MONACO PRENSİ CHARLES LECLERC, SILVERSTONE'DAN GALİBİYETLE AYRILIYOR!",
+                "cat": "formula 1",
+                "date": "2026-07-05 20:29",
+                "content": "Formula 1 dünyası, Silverstone’un ikonik pistinde unutulmaz ve kaos dolu bir yarışı geride bıraktı. Yarışa damgasını vuran isim, Ferrari’nin Monakolu pilotu Charles Leclerc oldu. Harika bir performans sergileyen Leclerc, kariyerinin Silverstone’daki ilk galibiyetini elde ederken, bu zafer aynı zamanda İtalyan devi Ferrari için de tarihi bir dönüm noktası oldu. Şahlanan At, Leclerc'in damalı bayrağı ilk sırada görmesiyle birlikte Formula 1 tarihindeki 250. Grand Prix zaferine ulaşarak kırılması zor bir rekora daha imza attı.<br><br>Kendi evinde podyum mücadelesi veren Britanyalı pilotlar ise tribünleri coşturdu. Yarışı ikinci sırada tamamlayan Mercedes pilotu George Russell, Silverstone’da kendi seyircisi önünde ilk kez podyuma çıkma başarısı gösterdi. Yarışın bir diğer odak noktası ise yine kendi evinde galibiyet parolasıyla piste çıkan Ferrari pilotu Lewis Hamilton oldu. Deneyimli pilot, yarış içinde aldığı 5 saniyelik cezaya rağmen pes etmedi ve harika bir geri dönüşe imza atarak podyumun üçüncü basamağını kapmayı başardı.<br><br>Pistin arkalarında ise tam anlamıyla bir dram ve kaos hakimiyeti vardı. McLaren cephesinde Lando Norris yarışı 4. sırada tamamlayarak podyumu kıl payı kaçırırken, takım arkadaşı Oscar Piastri ise yarışın hemen başında yaşadığı temas sonrası spin atarak son sıraya kadar geriledi; ancak harika bir tırmanışla yarışı 11. sırada bitirdi. Red Bull’da Isack Hadjar 5. sırayı alarak değerli puanlar kazanırken, takım arkadaşı Max Verstappen bitime 5-6 tur kala spin atarak yarış dışı kaldı. Şampiyona lideri Kimi Antonelli ise yeni lastikleriyle lider Leclerc’e tam baskı kurmaya hazırlanırken, kerblerden aldığı sert darbe sonucu sol süspansiyonunu kırdı ve büyük hayal kırıklığıyla yarışı 16. sırada tamamlayabildi.<br><br>​Bu heyecan dolu ve sürprizlerle dolu yarışın ardından Formula 1’de gözler, 2 hafta sonra adrenalin seviyesini zirveye çıkaracak olan efsanevi Spa-Francorchamps pistine çevrildi. Spa yarışı 17-19 Temmuz tarihlerinde gerçekleştirilecek.",
+                "img": "Resimler/Formula 1 Haberler/1783272538003_1000046192.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 99,
                 "title": "SILVERSTONE'DA POLE KIMI ANTONELLI'NİN OLDU!",
                 "cat": "formula 1",
