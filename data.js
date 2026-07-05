@@ -1338,7 +1338,7 @@ const APP_DATA = {
                 "date": "17-19 Temmuz",
                 "track": "Spa-Francorchamps",
                 "isoDate": "2026-07-19",
-                "status": "Bekliyor"
+                "status": "Sıradaki"
             },
             {
                 "round": 13,
