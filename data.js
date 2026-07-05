@@ -1045,32 +1045,32 @@ const APP_DATA = {
                 {
                     "pos": 1,
                     "name": "Mercedes-AMG PETRONAS F1 Team",
-                    "pts": 302
+                    "pts": 333
                 },
                 {
                     "pos": 2,
-                    "name": "Scuderia Ferrari HP",
-                    "pts": 204
+                    "name": "Scuderıa Ferrarı HP",
+                    "pts": 255
                 },
                 {
                     "pos": 3,
                     "name": "McLaren F1 Team",
-                    "pts": 159
+                    "pts": 179
                 },
                 {
                     "pos": 4,
-                    "name": "Oracle Red Bull Racing",
-                    "pts": 115
+                    "name": "Oracle Red Bull Racıng",
+                    "pts": 128
                 },
                 {
                     "pos": 5,
-                    "name": "BWT Alpine F1 Team",
-                    "pts": 57
+                    "name": "BWT Alpıne F1 Team",
+                    "pts": 60
                 },
                 {
                     "pos": 6,
-                    "name": "Visa Cash App RB F1 Team",
-                    "pts": 44
+                    "name": "Vısa Cash App RB F1 Team",
+                    "pts": 59
                 },
                 {
                     "pos": 7,
@@ -1079,22 +1079,22 @@ const APP_DATA = {
                 },
                 {
                     "pos": 8,
-                    "name": "Williams Racing",
+                    "name": "Wıllıams Racıng",
                     "pts": 11
                 },
                 {
                     "pos": 9,
-                    "name": "Audi F1 Team",
-                    "pts": 2
+                    "name": "Audı F1 Team",
+                    "pts": 6
                 },
                 {
                     "pos": 10,
-                    "name": "Aston Martin Aramco F1 Team",
+                    "name": "Aston Martın Aramco F1 Team",
                     "pts": 1
                 },
                 {
                     "pos": 11,
-                    "name": "Cadillac F1 Team",
+                    "name": "Cadıllac F1 Team",
                     "pts": 0
                 }
             ]
