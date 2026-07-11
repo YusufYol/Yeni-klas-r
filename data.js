@@ -7386,6 +7386,17 @@ const APP_DATA = {
     "haberler": {
         "news": [
             {
+                "id": 102,
+                "title": "SAO PAULO 6 SAATTE POLE CADILLAC'IN!",
+                "cat": "haberler",
+                "date": "2026-07-12 01:27",
+                "content": "FIA Dünya Dayanıklılık Şampiyonası’nın (WEC) heyecan dolu ayaklarından biri olan São Paulo 6 Saat yarışı için sıralama turları tamamlandı ve Interlagos pistinde start alacak dev mücadele öncesinde grid netleşti. Brezilya'da gerçekleştirilen Hyperpole seansında adeta nefesler tutuldu. Sıralama turlarının son anlarında muazzam bir tur çıkaran Cadillac Hertz Team JOTA ekibi, en ön sırayı kapatarak rakiplerine gözdağı verdi. Dev yarış bugün Türkiye saati ile 17:30’da yeşil ışıkların yanmasıyla başlayacak.<br><br>Hypercar kategorisinde pole pozisyonunun sahibi, 1:23.041'lik derecesiyle #12 numaralı Cadillac Hertz Team JOTA oldu. Direksiyonda Will Stevens'ın harikalar yarattığı araç, takımın diğer aracı olan #38 numaralı Cadillac'ı sadece 0.048 saniye gibi saliselik bir farkla geride bırakarak ilk sırayı kaptı. Böylece Cadillac ekibi São Paulo’da ilk iki sırayı kilitleyerek yarışa çok büyük bir avantajla başlama hakkı elde etti. LMGT3 kategorisinde ise pole pozisyonu Heart of Racing takımının #23 numaralı Aston Martin Vantage aracının oldu.<br><br>Dünyanın en prestijli dayanıklılık yarışında gözlerimiz ve kalbimiz ise her zaman olduğu gibi pistteki gururlarımız, milli temsilcilerimizin üzerinde olacak. LMGT3 sınıfında ülkemizi başarıyla temsil eden pilotlarımızdan Salih Yoluç ve takımı Racing Team Turkey, sıralama turlarında sergiledikleri performansın ardından yarışa 10. sıradan başlama hakkı elde etti. Aynı kategorideki diğer başarılı temsilcimiz Ayhancan Güven ve takımı Manthey ise gridin 11. sırasından start alarak podyuma doğru tırmanma mücadelesi verecekler. 6 saat sürecek bu uzun ve stratejik dayanıklılık savaşında her iki pilotumuza da Interlagos pistinde başarılar diliyoruz!",
+                "img": "Resimler/Haberler/1783808817036_1000046463.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png",
+                "customBadge": "WEC"
+            },
+            {
                 "id": 96,
                 "title": "DÜNYANIN EN PRESTİJLİ DAYANIKLILIK YARIŞINDA SPA 24 SAAT HEYECANI TAMAMLANDI!",
                 "cat": "haberler",
