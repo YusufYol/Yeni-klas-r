@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 103,
+                "title": "MARC MÁRQUEZ, ALMANYA'DAN ZAFERLE AYRILDI!",
+                "cat": "formula 1",
+                "date": "2026-07-12 16:05",
+                "content": "MotoGP Dünya Şampiyonası'nın en heyecan verici duraklarından biri olan Almanya Grand Prix'si, Sachsenring pistinde koşulan nefes kesici ana yarışla tamamlandı. Hafta sonu boyunca sergilediği üstün performansla dikkat çeken ve sıralama turlarında pole pozisyonunu cebine koyan Marc Marquez, yarışta da rakiplerine geçit vermedi. Start anından itibaren liderliğini koruyan ve pist üzerindeki kusursuz çizgisiyle farkı açan Marquez, damalı bayrağı ilk sırada görerek Almanya'da podyumun en üst basamağına çıkmayı başardı.<br><br>Yarışın arkadaki en dikkat çekici mücadelesi ise Trackhouse Racing cephesinde yaşandı. Takımın yetenekli pilotu Ai Ogura, lider Marquez'i amansız bir takiple izleyerek yarışı ikinci sırada tamamladı ve podyumun ikinci basamağını kaptı. Trackhouse'un diğer sürücüsü Raul Fernandez ise takım arkadaşının hemen arkasında finiş görerek üçüncü oldu. Bu sonuçla Trackhouse Racing, her iki pilotuyla birden podyuma çıkarak hafta sonunun en başarılı takımlarından biri haline geldi.<br><br>MotoGP'deki gururumuz, Prima Pramac Yamaha pilotu Toprak Razgatlıoğlu için ise Sachsenring oldukça zorlu ve stratejik bir mücadeleye sahne oldu. Agresif sol virajları ve dar yapısıyla sürücüleri fazlasıyla zorlayan bu teknik pistte elinden gelenin en iyisini yapan milli sporcumuz, yarışta istikrarlı bir tempo tutturdu. Büyük bir çekişmenin yaşandığı yarışta rakipleriyle kıyasıya mücadele eden Toprak, yarışı 15. sırada tamamlayarak şampiyona hanesine kritik 1 puan daha eklemeyi başardı.",
+                "img": "Resimler/Formula 1 Haberler/1783861555237_1000046477.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 100,
                 "title": "MONACO PRENSİ CHARLES LECLERC, SILVERSTONE'DAN GALİBİYETLE AYRILIYOR!",
                 "cat": "formula 1",
