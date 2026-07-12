@@ -1,4 +1,4 @@
-const APP_DATA = {
+﻿const APP_DATA = {
     "formula 1": {
         "news": [
             {
@@ -3677,229 +3677,229 @@ const APP_DATA = {
                 "title": "MARC MÁRQUEZ, ALMANYA'DAN ZAFERLE AYRILDI!",
                 "cat": "motogp",
                 "date": "2026-07-12 16:05",
-                "content": "MotoGP Dünya Şampiyonası'nın en heyecan verici duraklarından biri olan Almanya Grand Prix'si, Sachsenring pistinde koşulan nefes kesici ana yarışla tamamlandı. Hafta sonu boyunca sergilediği üstün performansla dikkat çeken ve sıralama turlarında pole pozisyonunu cebine koyan Marc Marquez, yarışta da rakiplerine geçit vermedi. Start anından itibaren liderliğini koruyan ve pist üzerindeki kusursuz çizgisiyle farkı açan Marquez, damalı bayrağı ilk sırada görerek Almanya'da podyumun en üst basamağına çıkmayı başardı.<br><br>Yarışın arkadaki en dikkat çekici mücadelesi ise Trackhouse Racing cephesinde yaşandı. Takımın yetenekli pilotu Ai Ogura, lider Marquez'i amansız bir takiple izleyerek yarışı ikinci sırada tamamladı ve podyumun ikinci basamağını kaptı. Trackhouse'un diğer sürücüsü Raul Fernandez ise takım arkadaşının hemen arkasında finiş görerek üçüncü oldu. Bu sonuçla Trackhouse Racing, her iki pilotuyla birden podyuma çıkarak hafta sonunun en başarılı takımlarından biri haline geldi.<br><br>MotoGP'deki gururumuz, Prima Pramac Yamaha pilotu Toprak Razgatlıoğlu için ise Sachsenring oldukça zorlu ve stratejik bir mücadeleye sahne oldu. Agresif sol virajları ve dar yapısıyla sürücüleri fazlasıyla zorlayan bu teknik pistte elinden gelenin en iyisini yapan milli sporcumuz, yarışta istikrarlı bir tempo tutturdu. Büyük bir çekişmenin yaşandığı yarışta rakipleriyle kıyasıya mücadele eden Toprak, yarışı 15. sırada tamamlayarak şampiyona hanesine kritik 1 puan daha eklemeyi başardı.",
+                "content": "MotoGP Dünya Şampiyonasi'nin en heyecan verici duraklarindan biri olan Almanya Grand Prix'si, Sachsenring pistinde koşulan nefes kesici ana yarişla tamamlandi. Hafta sonu boyunca sergilediği üstün performansla dikkat çeken ve siralama turlarinda pole pozisyonunu cebine koyan Marc Marquez, yarişta da rakiplerine geçit vermedi. Start anindan itibaren liderliğini koruyan ve pist üzerindeki kusursuz çizgisiyle farki açan Marquez, damali bayraği ilk sirada görerek Almanya'da podyumun en üst basamağina çikmayi başardi.<br><br>Yarişin arkadaki en dikkat çekici mücadelesi ise Trackhouse Racing cephesinde yaşandi. Takimin yetenekli pilotu Ai Ogura, lider Marquez'i amansiz bir takiple izleyerek yarişi ikinci sirada tamamladi ve podyumun ikinci basamağini kapti. Trackhouse'un diğer sürücüsü Raul Fernandez ise takim arkadaşinin hemen arkasinda finiş görerek üçüncü oldu. Bu sonuçla Trackhouse Racing, her iki pilotuyla birden podyuma çikarak hafta sonunun en başarili takimlarindan biri haline geldi.<br><br>MotoGP'deki gururumuz, Prima Pramac Yamaha pilotu Toprak Razgatlıoğlu için ise Sachsenring oldukça zorlu ve stratejik bir mücadeleye sahne oldu. Agresif sol virajlari ve dar yapisiyla sürücüleri fazlasiyla zorlayan bu teknik pistte elinden gelenin en iyisini yapan milli sporcumuz, yarişta istikrarli bir tempo tutturdu. Büyük bir çekişmenin yaşandiği yarişta rakipleriyle kiyasiya mücadele eden Toprak, yarişi 15. sirada tamamlayarak şampiyona hanesine kritik 1 puan daha eklemeyi başardi.",
                 "img": "Resimler/Formula 1 Haberler/1783861555237_1000046477.jpg",
                 "author": "Yusuf Yol",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+                "authorImg": "Resimler/Haber Yazari Fotoğraflari/Yusuf Yol.png"
             },
             {
                 "id": 101,
-                "title": "MARC MÁRQUEZ, SACHSENRING'DE SPRINT'İ KAZANIYOR!",
+                "title": "MARC MÁRQUEZ, SACHSENRING'DE SPRINT'I KAZANIYOR!",
                 "cat": "motogp",
                 "date": "2026-07-12 01:16",
-                "content": "MotoGP Almanya Grand Prix’sinde cumartesi günü hem tarihi bir zafere hem de izleyenleri korkutan büyük bir şanssızlığa sahne oldu. Sachsenring pistinde gerçekleştirilen ve büyük bir heyecana sahne olan sprint yarışında, Ducati pilotu Marc Marquez harika bir performans sergileyerek damalı bayrağı ilk sırada görmeyi başardı. Yarış boyunca rakiplerinin yoğun baskılarına direnen İspanyol pilot, bu zorlu mücadeleyi kazandı.<br><br>Yarışın bir diğer kahramanı ise podyumun ikinci basamağına çıkan Alex Marquez oldu. Geçenlerde geçirdiği ve herkesi korkutan çok ciddi sakatlığın ardından pistlere henüz yeni dönen İspanyol sürücü için bu ikincilik çok büyük bir anlam taşıyor. Yaşadığı o ağır kazanın ardından Çekya GP ile motorunun üzerine yeniden geçen Alex Marquez, bu podyum başarısıyla üzerindeki tüm şanssızlığı kırarak eski formuna kavuştuğunu ilan etti. Abisi Marc Marquez'in hemen arkasında yarışı bitirmesi, geçirdiği o zorlu dönemin ardından hem kendisi hem de takımı için muazzam bir moral ve motivasyon kaynağı oldu. Podyumun üçüncü sırasını ise Fabio Di Giannantonio aldı ve Ducati podyumu tamamen kapatmış oldu.<br><br>Ancak günün tek ana gündemi bu zafer ve podyum sevinci değildi. İkinci sıralama seansında (Q2) çok sert bir kaza geçiren Aprilia pilotu Marco Bezzecchi, Sıralama turlarını tamamlayamadı. Hastaneye kaldırılan İtalyan pilot, yapılan kontrollerin ardından sol köprücük kemiğinde kırık tespit edildi ve ameliyat edilmek üzere ülkesi İtalya’ya döneceği açıklandı. Yaşadığı bu ağır sakatlık nedeniyle Almanya GP'sinin hem sprint hem de ana yarış kadrosundan çıkarılan şampiyonluk adayı Bezzecchi'nin, yaz arası sonrasındaki Britanya GP'sine yetişmesi umuluyor.<br><br>Temsilcimiz Toprak Razgatlıoğlu ise sıralama turlarını 18. sırada tamamladı ama Diogo Moreira'nın ceza almasıyla birlikte yarışa 17. sıradan başlayacak.<br><br>Cumartesi günü yaşanan bu dramatik ve heyecanlı anların ardından gözler şimdi bugünkü büyük yarışa çevrildi. Sachsenring'deki 30 turluk büyük Almanya Grand Prix'si, bugün Türkiye saati ile 15:00’te başlayacak.",
+                "content": "MotoGP Almanya Grand Prix’sinde cumartesi günü hem tarihi bir zafere hem de izleyenleri korkutan büyük bir şanssizliğa sahne oldu. Sachsenring pistinde gerçekleştirilen ve büyük bir heyecana sahne olan sprint yarişinda, Ducati pilotu Marc Marquez harika bir performans sergileyerek damali bayraği ilk sirada görmeyi başardi. Yariş boyunca rakiplerinin yoğun baskilarina direnen Ispanyol pilot, bu zorlu mücadeleyi kazandi.<br><br>Yarişin bir diğer kahramani ise podyumun ikinci basamağina çikan Alex Marquez oldu. Geçenlerde geçirdiği ve herkesi korkutan çok ciddi sakatliğin ardindan pistlere henüz yeni dönen Ispanyol sürücü için bu ikincilik çok büyük bir anlam taşiyor. Yaşadiği o ağir kazanin ardindan Çekya GP ile motorunun üzerine yeniden geçen Alex Marquez, bu podyum başarisiyla üzerindeki tüm şanssizliği kirarak eski formuna kavuştuğunu ilan etti. Abisi Marc Marquez'in hemen arkasinda yarişi bitirmesi, geçirdiği o zorlu dönemin ardindan hem kendisi hem de takimi için muazzam bir moral ve motivasyon kaynaği oldu. Podyumun üçüncü sirasini ise Fabio Di Giannantonio aldi ve Ducati podyumu tamamen kapatmiş oldu.<br><br>Ancak günün tek ana gündemi bu zafer ve podyum sevinci değildi. Ikinci siralama seansinda (Q2) çok sert bir kaza geçiren Aprilia pilotu Marco Bezzecchi, Siralama turlarini tamamlayamadi. Hastaneye kaldirilan Italyan pilot, yapilan kontrollerin ardindan sol köprücük kemiğinde kirik tespit edildi ve ameliyat edilmek üzere ülkesi Italya’ya döneceği açiklandi. Yaşadiği bu ağir sakatlik nedeniyle Almanya GP'sinin hem sprint hem de ana yariş kadrosundan çikarilan şampiyonluk adayi Bezzecchi'nin, yaz arasi sonrasindaki Britanya GP'sine yetişmesi umuluyor.<br><br>Temsilcimiz Toprak Razgatlıoğlu ise siralama turlarini 18. sirada tamamladi ama Diogo Moreira'nin ceza almasiyla birlikte yarişa 17. siradan başlayacak.<br><br>Cumartesi günü yaşanan bu dramatik ve heyecanli anlarin ardindan gözler şimdi bugünkü büyük yarişa çevrildi. Sachsenring'deki 30 turluk büyük Almanya Grand Prix'si, bugün Türkiye saati ile 15:00’te başlayacak.",
                 "img": "Resimler/MotoGP Haberler/1783808191320_1000046462.jpg",
                 "author": "Yusuf Yol",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+                "authorImg": "Resimler/Haber Yazari Fotoğraflari/Yusuf Yol.png"
             },
             {
                 "id": 91,
-                "title": "MARC MÁRQUEZ, SÖZLEŞMESİNİ 2028 YILINA KADAR UZATTI!",
+                "title": "MARC MÁRQUEZ, SÖZLEŞMESINI 2028 YILINA KADAR UZATTI!",
                 "cat": "motogp",
                 "date": "2026-06-23 13:33",
-                "content": "MotoGP dünyasında taşlar yerinden oynuyor ve İtalyan devi Ducati, şampiyon pilotuyla geleceğini güvence altına alıyor. Ducati Lenovo Takımı, motor sporları tarihinin en büyük efsanelerinden biri olan Marc Márquez’in sözleşmesini 2028 sezonunun sonuna kadar uzattığını resmen açıkladı. 7 dünya şampiyonluğu ve rekorlara dayanan devasa bir ortaklık kuran İspanyol pilot, bu imzayla birlikte Ducati'nin yeni dönemdeki mutlak lideri olduğunu bir kez daha kanıtladı. Kariyerinde 100'ün üzerinde podyum zirvesi ve 76 pole pozisyonu gibi kırılması güç istatistikleri barındıran \"Karınca\", kırmızı tulumla tarih yazmaya devam ediyor.<br><br>Márquez'in bu sözleşmeyi hak ediş hikayesi ise tam bir küllerinden doğuş destanı. Sakatlıklarla boğuştuğu zorlu bir dönemin ardından, omuz ve ayak bölgesinden geçirdiği iki büyük ameliyata rağmen pistlere inanılmaz bir hırsla geri döndü. Henüz geri dönüşünün ikinci yarışı olan Macaristan GP’sinde (Balaton Park) podyumun zirvesine çıkarak kariyerinin 100. Grand Prix zaferini ilan etti. Bu tarihi eşikten sonra gerçekleştirilen Çekya GP’sinde (Brno) de rakiplerine şans tanımayarak üst üste ikinci zaferini kazanan Márquez, şampiyonluk yarışındaki iddiasını tüm dünyaya en agresif şekilde hatırlatmış oldu.<br><br>Bu tarihi imza, sadece bugünün değil, MotoGP'nin geleceğinin de rengini belli ediyor. Özellikle 2027 yılında devreye girecek olan yeni teknik kurallar ve motor yönetmelikleri öncesinde Márquez gibi deneyimli, pes etmeyen ve vizyoner bir şampiyonu takımda tutmak, Ducati’ye rakipleri karşısında devasa bir stratejik avantaj sağlıyor. Yarışseverleri heyecanlandıran bu uzun soluklu ortaklık, pistlerdeki \"Kırmızı\" dominasyonunun ve şampiyonluk serilerinin önümüzdeki yıllarda da hız kesmeden devam edeceğinin en net habercisi.",
+                "content": "MotoGP dünyasinda taşlar yerinden oynuyor ve Italyan devi Ducati, şampiyon pilotuyla geleceğini güvence altina aliyor. Ducati Lenovo Takimi, motor sporlari tarihinin en büyük efsanelerinden biri olan Marc Márquez’in sözleşmesini 2028 sezonunun sonuna kadar uzattiğini resmen açikladi. 7 dünya şampiyonluğu ve rekorlara dayanan devasa bir ortaklik kuran Ispanyol pilot, bu imzayla birlikte Ducati'nin yeni dönemdeki mutlak lideri olduğunu bir kez daha kanitladi. Kariyerinde 100'ün üzerinde podyum zirvesi ve 76 pole pozisyonu gibi kirilmasi güç istatistikleri barindiran \"Karinca\", kirmizi tulumla tarih yazmaya devam ediyor.<br><br>Márquez'in bu sözleşmeyi hak ediş hikayesi ise tam bir küllerinden doğuş destani. Sakatliklarla boğuştuğu zorlu bir dönemin ardindan, omuz ve ayak bölgesinden geçirdiği iki büyük ameliyata rağmen pistlere inanilmaz bir hirsla geri döndü. Henüz geri dönüşünün ikinci yarişi olan Macaristan GP’sinde (Balaton Park) podyumun zirvesine çikarak kariyerinin 100. Grand Prix zaferini ilan etti. Bu tarihi eşikten sonra gerçekleştirilen Çekya GP’sinde (Brno) de rakiplerine şans tanimayarak üst üste ikinci zaferini kazanan Márquez, şampiyonluk yarişindaki iddiasini tüm dünyaya en agresif şekilde hatirlatmiş oldu.<br><br>Bu tarihi imza, sadece bugünün değil, MotoGP'nin geleceğinin de rengini belli ediyor. Özellikle 2027 yilinda devreye girecek olan yeni teknik kurallar ve motor yönetmelikleri öncesinde Márquez gibi deneyimli, pes etmeyen ve vizyoner bir şampiyonu takimda tutmak, Ducati’ye rakipleri karşisinda devasa bir stratejik avantaj sağliyor. Yarişseverleri heyecanlandiran bu uzun soluklu ortaklik, pistlerdeki \"Kirmizi\" dominasyonunun ve şampiyonluk serilerinin önümüzdeki yillarda da hiz kesmeden devam edeceğinin en net habercisi.",
                 "img": "Resimler/MotoGP Haberler/1782210778186_1000045336.jpg",
                 "author": "Yusuf Yol",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+                "authorImg": "Resimler/Haber Yazari Fotoğraflari/Yusuf Yol.png"
             },
             {
                 "id": 90,
-                "title": "MARC MÁRQUEZ, ÇEKYA GP'Yİ KAZANDI!",
+                "title": "MARC MÁRQUEZ, ÇEKYA GP'YI KAZANDI!",
                 "cat": "motogp",
                 "date": "2026-06-21 16:12",
-                "content": "MotoGP Çekya Grand Prix'si, motor sporları tarihinin en etkileyici geri dönüş hikayelerinden birine sahne oldu. Yaşadığı ağır sakatlıklar ve geçirdiği zorlu ameliyatların ardından şüpheleri boşa çıkararak pistlere dönen İspanyol pilot Marc Marquez, Macaristan GP'nin ardından Çekya’nın ikonik Brno Pisti’nde de damgalı finişi ilk sırada geçerek üst üste ikinci zaferini elde etti. Sakatlıklarla boğuştuğu kabus gibi dönemlerin ardından adeta pistte uçan Marquez, efsanevi formuna yeniden kavuştuğunu tüm dünyaya ilan ederken, taraftarlarına da unutulmaz bir yarış izletti.<br><br>Hafta sonu boyunca yaşanan olaylar ve şampiyona lideri Marco Bezzecchi’nin diskalifiye edilerek yarış dışı kalması, şampiyonluk mücadelesindeki kartların yeniden dağıtılmasına yol açtı. Liderin yokluğunu kusursuz bir taktikle fırsata çeviren Marc Marquez, aldığı 25 tam puanla şampiyonadaki puan farkını 40'a indirerek zirve takibini iyice kızıştırdı. Yarışa pole pozisyonundan başlayarak hafta sonu boyunca harika bir grafik çizen Trackhouse sürücüsü Ai Ogura, tüm çabalarına rağmen Marquez'in hızına yanıt veremedi ve podyumun ikinci basamağında kaldı. Yarışı üçüncü sırada noktalayan Francesco Bagnaia ise takım arkadaşıyla birlikte podyumu tamamlayarak Ducati'ye çifte podyum sevinci yaşattı.<br><br>Öte yandan, MotoGP’deki gururumuz ve temsilcimiz Toprak Razgatlıoğlu, Brno Pisti'nin zorlu şartlarında Pramac Yamaha’sıyla pes etmeyen bir karakter ortaya koydu. Gridin gerilerinden başladığı mücadelede son ana kadar savaşan Toprak, damgalı finişi 14. sırada görmeyi başararak hanesine değerli puanlar yazdırmayı başardı. Marquez’in adeta gövde gösterisi yaptığı ve şampiyonluk fitilini ateşlediği Çekya GP’sinin ardından, şampiyonanın sonraki duraklarında mücadelenin çok daha sert geçeceği şimdiden kesinleşti.",
+                "content": "MotoGP Çekya Grand Prix'si, motor sporlari tarihinin en etkileyici geri dönüş hikayelerinden birine sahne oldu. Yaşadiği ağir sakatliklar ve geçirdiği zorlu ameliyatlarin ardindan şüpheleri boşa çikararak pistlere dönen Ispanyol pilot Marc Marquez, Macaristan GP'nin ardindan Çekya’nin ikonik Brno Pisti’nde de damgali finişi ilk sirada geçerek üst üste ikinci zaferini elde etti. Sakatliklarla boğuştuğu kabus gibi dönemlerin ardindan adeta pistte uçan Marquez, efsanevi formuna yeniden kavuştuğunu tüm dünyaya ilan ederken, taraftarlarina da unutulmaz bir yariş izletti.<br><br>Hafta sonu boyunca yaşanan olaylar ve şampiyona lideri Marco Bezzecchi’nin diskalifiye edilerek yariş dişi kalmasi, şampiyonluk mücadelesindeki kartlarin yeniden dağitilmasina yol açti. Liderin yokluğunu kusursuz bir taktikle firsata çeviren Marc Marquez, aldiği 25 tam puanla şampiyonadaki puan farkini 40'a indirerek zirve takibini iyice kiziştirdi. Yarişa pole pozisyonundan başlayarak hafta sonu boyunca harika bir grafik çizen Trackhouse sürücüsü Ai Ogura, tüm çabalarina rağmen Marquez'in hizina yanit veremedi ve podyumun ikinci basamağinda kaldi. Yarişi üçüncü sirada noktalayan Francesco Bagnaia ise takim arkadaşiyla birlikte podyumu tamamlayarak Ducati'ye çifte podyum sevinci yaşatti.<br><br>Öte yandan, MotoGP’deki gururumuz ve temsilcimiz Toprak Razgatlıoğlu, Brno Pisti'nin zorlu şartlarinda Pramac Yamaha’siyla pes etmeyen bir karakter ortaya koydu. Gridin gerilerinden başladiği mücadelede son ana kadar savaşan Toprak, damgali finişi 14. sirada görmeyi başararak hanesine değerli puanlar yazdirmayi başardi. Marquez’in adeta gövde gösterisi yaptiği ve şampiyonluk fitilini ateşlediği Çekya GP’sinin ardindan, şampiyonanin sonraki duraklarinda mücadelenin çok daha sert geçeceği şimdiden kesinleşti.",
                 "img": "Resimler/MotoGP Haberler/1782047564896_1000045241.jpg",
                 "author": "Yusuf Yol",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+                "authorImg": "Resimler/Haber Yazari Fotoğraflari/Yusuf Yol.png"
             },
             {
                 "id": 89,
-                "title": "MARCO BEZZECCHI, ÇEKYA GP'DEN DİSKALİFİYE EDİLDİ!",
+                "title": "MARCO BEZZECCHI, ÇEKYA GP'DEN DISKALIFIYE EDILDI!",
                 "cat": "motogp",
                 "date": "2026-06-21 11:41",
-                "content": "MotoGP Çekya Grand Prix’sinde, pist üstündeki heyecanın önüne geçen ve şampiyona dinamiklerini kökten sarsacak skandal bir olay yaşandı. Hafta sonunun ilk büyük randevusunda, 3. virajda kaza yaparak çakıl havuza gömülen şampiyona lideri Marco Bezzecchi, yarış sonrasında spor dünyasını ayağa kaldıran bir cezayla karşı karşıya kaldı. Aprilia pilotu, düştükten sonra motosikletini kaldırmak ve pist dışına taşımak için yardıma gelen pist görevlilerine (hakem heyetine) yönelik sergilediği agresif tavırlar ve fiziksel müdahale nedeniyle hafta sonunun kalanından tamamen men edildi. Çakıl havuzundaki görevlilerden birinin motoru kaldırırken kazara gazı açması üzerine sinirlenen Bezzecchi’nin hakemi sertçe itmesi, FIM Hakem Kurulu tarafından affedilmedi. Aprilia takımının cezaya karşı yaptığı jet itiraz da reddedilince, şampiyona lideri bugün koşulacak ana yarış dahil hafta sonunun tamamından ihraç edildi.<br><br>Bu karar motor sporları dünyasında çok büyük bir tepki dalgasına yol açarken, İtalyan pilot pazar sabahı sosyal medya hesapları üzerinden resmi bir açıklama yayınlayarak herkesten özür diledi. Yaşananların ardından derin bir üzüntü duyduğunu belirten Bezzecchi, açıklamasında şu ifadelere yer verdi:<br><br>​\"Hakeme karşı sergilediğim davranıştan dolayı tüm MotoGP camiasından özür dilerim. Pist hakemlerinin bizim güvenliğimizi sağlamak için ne kadar büyük bir özveri ve fedakarlıkla çalıştığını biliyorum, bu yüzden ayrıca çok üzgünüm. Bu davranışın hiçbir şekilde yaşanmaması gerekirdi ve hiçbir bahanesi olamaz. Başta Aprilia Racing olmak üzere herkesten ve tüm hayranlarımdan özür dilerim.\" İtalyan sürücünün bu halka açık mesaj öncesinde, bizzat olaya karışan pist görevlisinin yanına giderek şahsen de özür dilediği bildirildi.<br><br>Yapılan bu resmi özre rağmen hakem heyetinin diskalifiye kararı değişmedi ve bu durum, yarışseverler ile otoriteler tarafından şampiyonluk yarışı adına dönüm noktası olarak yorumlandı. Zorlu şartlarda çalışan görevlilere uygulanan bu şiddet sosyal medyada çokça eleştirilmeye devam ederken, Bezzecchi şampiyonluk yolunda çok ağır bir yara almış oldu. Şimdi tüm gözler, liderin yokluğunda bugün TSİ 15:00'te başlayacak olan büyük ana yarışa çevrildi. Sprint galibi Francesco Bagnaia elde ettiği bu avantajla liderlik koltuğuna göz dikerken, rakipleri Ai Ogura ve Marc Marquez podyumun zirvesini zorlamak, temsilcimiz Toprak Razgatlıoğlu ise Yamaha'sıyla daha da üst sıralara tırmanmak için start alacak.",
+                "content": "MotoGP Çekya Grand Prix’sinde, pist üstündeki heyecanin önüne geçen ve şampiyona dinamiklerini kökten sarsacak skandal bir olay yaşandi. Hafta sonunun ilk büyük randevusunda, 3. virajda kaza yaparak çakil havuza gömülen şampiyona lideri Marco Bezzecchi, yariş sonrasinda spor dünyasini ayağa kaldiran bir cezayla karşi karşiya kaldi. Aprilia pilotu, düştükten sonra motosikletini kaldirmak ve pist dişina taşimak için yardima gelen pist görevlilerine (hakem heyetine) yönelik sergilediği agresif tavirlar ve fiziksel müdahale nedeniyle hafta sonunun kalanindan tamamen men edildi. Çakil havuzundaki görevlilerden birinin motoru kaldirirken kazara gazi açmasi üzerine sinirlenen Bezzecchi’nin hakemi sertçe itmesi, FIM Hakem Kurulu tarafindan affedilmedi. Aprilia takiminin cezaya karşi yaptiği jet itiraz da reddedilince, şampiyona lideri bugün koşulacak ana yariş dahil hafta sonunun tamamindan ihraç edildi.<br><br>Bu karar motor sporlari dünyasinda çok büyük bir tepki dalgasina yol açarken, Italyan pilot pazar sabahi sosyal medya hesaplari üzerinden resmi bir açiklama yayinlayarak herkesten özür diledi. Yaşananlarin ardindan derin bir üzüntü duyduğunu belirten Bezzecchi, açiklamasinda şu ifadelere yer verdi:<br><br>​\"Hakeme karşi sergilediğim davraniştan dolayi tüm MotoGP camiasindan özür dilerim. Pist hakemlerinin bizim güvenliğimizi sağlamak için ne kadar büyük bir özveri ve fedakarlikla çaliştiğini biliyorum, bu yüzden ayrica çok üzgünüm. Bu davranişin hiçbir şekilde yaşanmamasi gerekirdi ve hiçbir bahanesi olamaz. Başta Aprilia Racing olmak üzere herkesten ve tüm hayranlarimdan özür dilerim.\" Italyan sürücünün bu halka açik mesaj öncesinde, bizzat olaya karişan pist görevlisinin yanina giderek şahsen de özür dilediği bildirildi.<br><br>Yapilan bu resmi özre rağmen hakem heyetinin diskalifiye karari değişmedi ve bu durum, yarişseverler ile otoriteler tarafindan şampiyonluk yarişi adina dönüm noktasi olarak yorumlandi. Zorlu şartlarda çalişan görevlilere uygulanan bu şiddet sosyal medyada çokça eleştirilmeye devam ederken, Bezzecchi şampiyonluk yolunda çok ağir bir yara almiş oldu. Şimdi tüm gözler, liderin yokluğunda bugün TSI 15:00'te başlayacak olan büyük ana yarişa çevrildi. Sprint galibi Francesco Bagnaia elde ettiği bu avantajla liderlik koltuğuna göz dikerken, rakipleri Ai Ogura ve Marc Marquez podyumun zirvesini zorlamak, temsilcimiz Toprak Razgatlıoğlu ise Yamaha'siyla daha da üst siralara tirmanmak için start alacak.",
                 "img": "Resimler/MotoGP Haberler/1782031259865_1000045238.jpg",
                 "author": "Yusuf Yol",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+                "authorImg": "Resimler/Haber Yazari Fotoğraflari/Yusuf Yol.png"
             },
             {
                 "id": 88,
-                "title": "ÇEKYA'DA SPRİNT GALİBİ FRANCESCO BAGNAIA OLDU!",
+                "title": "ÇEKYA'DA SPRINT GALIBI FRANCESCO BAGNAIA OLDU!",
                 "cat": "motogp",
                 "date": "2026-06-21 11:30",
-                "content": "MotoGP heyecanı Çekya’nın efsanevi Brno Pisti'nde tüm hızıyla devam ediyor. Hafta sonunun ilk büyük randevusu olan Sprint yarışı, pist üstünde nefes kesen anlara ve taktik savaşlarına sahne oldu. Yarışın başından itibaren ağırlığını koyan ve kusursuz bir sürüş çıkaran İtalyan pilot Francesco Bagnaia, rakiplerine şans tanımayarak damgalı finişi ilk sırada geçti ve Sprint yarışının galibi olmayı başardı.<br><br>Podyum mücadelesinde ise hem sürpriz hem de deneyim ön plandaydı. Trackhouse takımının genç ve yetenekli sürücüsü Ai Ogura, gösterdiği harika performansla yarışı ikinci sırada tamamlayarak büyük bir başarıya imza attı. Podyumun üçüncü basamağı ise gridin en deneyimli ve agresif isimlerinden biri olan İspanyol pilot Marc Marquez’e gitti. Öte yandan pistteki gururumuz Toprak Razgatlıoğlu, zorlu şartlara rağmen elinden gelenin en iyisini yaparak yarışı 11. sırada noktaladı ve finiş çizgisini geçen en iyi Yamaha sürücüsü olarak kalitesini bir kez daha kanıtladı.<br><br>Sprint yarışındaki bu heyecanlı provanın ardından, şimdi tüm gözler bugün TSİ 15:00'te başlayacak olan büyük ana yarışa çevrildi. Bagnaia elde ettiği bu zaferle moral depolarken, Ogura ve Marquez podyumun zirvesini zorlamak, temsilcimiz Toprak Razgatlıoğlu ise Yamaha'sıyla daha da üst sıralara tırmanmak için start alacak. Brno Pisti’nde galibin kim olacağını belirleyecek olan dev yarış, motor sporları tutkunlarına unutulmaz anlar yaşatmaya aday.",
+                "content": "MotoGP heyecani Çekya’nin efsanevi Brno Pisti'nde tüm hiziyla devam ediyor. Hafta sonunun ilk büyük randevusu olan Sprint yarişi, pist üstünde nefes kesen anlara ve taktik savaşlarina sahne oldu. Yarişin başindan itibaren ağirliğini koyan ve kusursuz bir sürüş çikaran Italyan pilot Francesco Bagnaia, rakiplerine şans tanimayarak damgali finişi ilk sirada geçti ve Sprint yarişinin galibi olmayi başardi.<br><br>Podyum mücadelesinde ise hem sürpriz hem de deneyim ön plandaydi. Trackhouse takiminin genç ve yetenekli sürücüsü Ai Ogura, gösterdiği harika performansla yarişi ikinci sirada tamamlayarak büyük bir başariya imza atti. Podyumun üçüncü basamaği ise gridin en deneyimli ve agresif isimlerinden biri olan Ispanyol pilot Marc Marquez’e gitti. Öte yandan pistteki gururumuz Toprak Razgatlıoğlu, zorlu şartlara rağmen elinden gelenin en iyisini yaparak yarişi 11. sirada noktaladi ve finiş çizgisini geçen en iyi Yamaha sürücüsü olarak kalitesini bir kez daha kanitladi.<br><br>Sprint yarişindaki bu heyecanli provanin ardindan, şimdi tüm gözler bugün TSI 15:00'te başlayacak olan büyük ana yarişa çevrildi. Bagnaia elde ettiği bu zaferle moral depolarken, Ogura ve Marquez podyumun zirvesini zorlamak, temsilcimiz Toprak Razgatlıoğlu ise Yamaha'siyla daha da üst siralara tirmanmak için start alacak. Brno Pisti’nde galibin kim olacağini belirleyecek olan dev yariş, motor sporlari tutkunlarina unutulmaz anlar yaşatmaya aday.",
                 "img": "Resimler/MotoGP Haberler/1782030607483_1000045235.jpg",
                 "author": "Yusuf Yol",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+                "authorImg": "Resimler/Haber Yazari Fotoğraflari/Yusuf Yol.png"
             },
             {
                 "id": 77,
-                "title": "MARC MÁRQUEZ, MACARİSTAN'DA 100. GRAND PRIX ZAFERİNİ KAZANDI!",
+                "title": "MARC MÁRQUEZ, MACARISTAN'DA 100. GRAND PRIX ZAFERINI KAZANDI!",
                 "cat": "motogp",
                 "date": "2026-06-07 16:04",
-                "content": "MotoGP dünyası, Macaristan Grand Prix’sinde unutulmaz ve tarihe geçen anlara sahne oldu. Hafta sonuna tamamen ambargo koyan Marc Marquez, pole pozisyonundan başladığı yarışı kazanarak kariyerinin 100. Grand Prix zaferini ilan etti. Dünkü sprint yarışındaki galibiyetinin ardından ana yarışta da podyumun zirvesine çıkan Marquez, adeta küllerinden doğduğunu kanıtladı. Özellikle omuz ve ayak sakatlıklarının ardından \"Yarış sonunu getirebilir mi, getirse de geride kalır mı?\" şüphelerine, yarış boyunca üst üste attığı en hızlı turlarla pistte cevap veren deneyimli pilot, muazzam bir geri dönüş hikayesine imza attı. Yarışın büyük bölümünde liderlik mücadelesi veren genç pilot Pedro Acosta ise harika bir performans sergileyerek Marquez'i geçmeyi başarsa da, arka lastikteki yumuşak hamur tercihinin kurbanı oldu. Lastiklerinin bitmesiyle Marquez’in tecrübesine boyun eğen Acosta, yarışı ikinci sırada tamamladı ve podyuma çıkıp yarış kazanamama şanssızlığını 13. kez tekrarlamış oldu. Podyumun son basamağını ise Francesco Bagnaia kaptı ve böylece Ducati ekibi çifte podyum sevinci yaşadı.<br><br>Yarışın kaderini tayin eden en dramatik anlar ise start çizgisinde yaşandı. İlk virajdaki frenleme noktasında motosikletini durduramayan Jorge Martin, büyük bir zincirleme kazaya sebebiyet vererek Fermin Aldeguer, Marco Bezzecchi, Raul Fernandez ve Fabio Di Giannantonio’yu kendisiyle birlikte dışarı taşıdı. Kazaya karışan isimlerden Di Giannantonio büyük bir dirençle piste dönüp yarışı 12. sırada bitirmeyi başarsa da, şampiyonluk mücadelesinin zirvesindeki iki ismin yarış dışı kalması şampiyona liderlik tablosundaki dengeleri tamamen değiştirdi ve rekabeti bambaşka bir boyuta taşıdı.<br><br>Öte yandan temsilcimiz Toprak Razgatlıoğlu, 18. sıradan başladığı bu olaylı ve zorlu yarışta harika bir yükseliş grafiği çizerek damalı bayrağı 11. sırada görmeyi başardı. Temsilcimiz, bu sonuçla birlikte bu sezonki en iyi yarış derecesini elde ederek bizleri gururlandırdı.",
+                "content": "MotoGP dünyasi, Macaristan Grand Prix’sinde unutulmaz ve tarihe geçen anlara sahne oldu. Hafta sonuna tamamen ambargo koyan Marc Marquez, pole pozisyonundan başladiği yarişi kazanarak kariyerinin 100. Grand Prix zaferini ilan etti. Dünkü sprint yarişindaki galibiyetinin ardindan ana yarişta da podyumun zirvesine çikan Marquez, adeta küllerinden doğduğunu kanitladi. Özellikle omuz ve ayak sakatliklarinin ardindan \"Yariş sonunu getirebilir mi, getirse de geride kalir mi?\" şüphelerine, yariş boyunca üst üste attiği en hizli turlarla pistte cevap veren deneyimli pilot, muazzam bir geri dönüş hikayesine imza atti. Yarişin büyük bölümünde liderlik mücadelesi veren genç pilot Pedro Acosta ise harika bir performans sergileyerek Marquez'i geçmeyi başarsa da, arka lastikteki yumuşak hamur tercihinin kurbani oldu. Lastiklerinin bitmesiyle Marquez’in tecrübesine boyun eğen Acosta, yarişi ikinci sirada tamamladi ve podyuma çikip yariş kazanamama şanssizliğini 13. kez tekrarlamiş oldu. Podyumun son basamağini ise Francesco Bagnaia kapti ve böylece Ducati ekibi çifte podyum sevinci yaşadi.<br><br>Yarişin kaderini tayin eden en dramatik anlar ise start çizgisinde yaşandi. Ilk virajdaki frenleme noktasinda motosikletini durduramayan Jorge Martin, büyük bir zincirleme kazaya sebebiyet vererek Fermin Aldeguer, Marco Bezzecchi, Raul Fernandez ve Fabio Di Giannantonio’yu kendisiyle birlikte dişari taşidi. Kazaya karişan isimlerden Di Giannantonio büyük bir dirençle piste dönüp yarişi 12. sirada bitirmeyi başarsa da, şampiyonluk mücadelesinin zirvesindeki iki ismin yariş dişi kalmasi şampiyona liderlik tablosundaki dengeleri tamamen değiştirdi ve rekabeti bambaşka bir boyuta taşidi.<br><br>Öte yandan temsilcimiz Toprak Razgatlıoğlu, 18. siradan başladiği bu olayli ve zorlu yarişta harika bir yükseliş grafiği çizerek damali bayraği 11. sirada görmeyi başardi. Temsilcimiz, bu sonuçla birlikte bu sezonki en iyi yariş derecesini elde ederek bizleri gururlandirdi.",
                 "img": "Resimler/MotoGP Haberler/1780837488222_1000044614.jpg",
                 "author": "Yusuf Yol",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+                "authorImg": "Resimler/Haber Yazari Fotoğraflari/Yusuf Yol.png"
             },
             {
                 "id": 74,
-                "title": "MARC MÁRQUEZ, MACARİSTAN GP'DE SPRİNT YARIŞINI KAZANDI!",
+                "title": "MARC MÁRQUEZ, MACARISTAN GP'DE SPRINT YARIŞINI KAZANDI!",
                 "cat": "motogp",
                 "date": "2026-06-06 16:34",
-                "content": "MotoGP dünyası, Macaristan’da tarihi anlardan birine tanıklık etti. Yaşadığı ağır sakatlıkların ardından geçtiğimiz hafta Mugello’da pistlere yeniden adım atan İspanyol pilot Marc Marquez, muhteşem geri dönüşünü adeta taçlandırdı. Hafta sonuna fırtına gibi başlayan Marquez, hem pole pozisyonunu söküp aldı hem de kariyerinin 18. Sprint yarışı galibiyetine ulaşarak damalı bayrağı ilk sırada gördü. Yarışa ikinci sıradan başlayan genç yetenek Pedro Acosta, istikrarlı performansını koruyarak mücadeleyi yine ikinci sırada tamamladı. Podyumun son basamağında ise şampiyona lideri Marco Bezzecchi yer aldı.<br><br>Öte yandan, gururumuz Toprak Razgatlıoğlu da pistte harika bir mücadele verdi. Yarışa 18. sıradan başlamasına rağmen müthiş bir tırmanış gerçekleştiren temsilcimiz, finiş çizgisini 13. sırada geçerek bu yarışta en iyi Yamaha pilotu olmayı başardı.<br><br>Macaristan’daki büyük heyecan, yarın saat 15.00’te başlayacak ana yarışla devam edecek.",
+                "content": "MotoGP dünyasi, Macaristan’da tarihi anlardan birine taniklik etti. Yaşadiği ağir sakatliklarin ardindan geçtiğimiz hafta Mugello’da pistlere yeniden adim atan Ispanyol pilot Marc Marquez, muhteşem geri dönüşünü adeta taçlandirdi. Hafta sonuna firtina gibi başlayan Marquez, hem pole pozisyonunu söküp aldi hem de kariyerinin 18. Sprint yarişi galibiyetine ulaşarak damali bayraği ilk sirada gördü. Yarişa ikinci siradan başlayan genç yetenek Pedro Acosta, istikrarli performansini koruyarak mücadeleyi yine ikinci sirada tamamladi. Podyumun son basamağinda ise şampiyona lideri Marco Bezzecchi yer aldi.<br><br>Öte yandan, gururumuz Toprak Razgatlıoğlu da pistte harika bir mücadele verdi. Yarişa 18. siradan başlamasina rağmen müthiş bir tirmaniş gerçekleştiren temsilcimiz, finiş çizgisini 13. sirada geçerek bu yarişta en iyi Yamaha pilotu olmayi başardi.<br><br>Macaristan’daki büyük heyecan, yarin saat 15.00’te başlayacak ana yarişla devam edecek.",
                 "img": "Resimler/MotoGP Haberler/1780752855100_1000044570.jpg",
                 "author": "Yusuf Yol",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+                "authorImg": "Resimler/Haber Yazari Fotoğraflari/Yusuf Yol.png"
             },
             {
                 "id": 72,
-                "title": "MARC MÁRQUEZ, POLE POZİSYONU İLE GERİ DÖNDÜ!",
+                "title": "MARC MÁRQUEZ, POLE POZISYONU ILE GERI DÖNDÜ!",
                 "cat": "motogp",
                 "date": "2026-06-06 14:57",
-                "content": "MotoGP dünya şampiyonasında sezonun heyecan dolu duraklarından biri olan Macaristan GP sıralama turlarında, unutulmaz bir hikaye yaşandı. Geçtiğimiz sezondan sarkan omuz sakatlığının üzerine, bu yıl yaşadığı talihsiz kazada ayağını da kıran ve her iki bölgeden de ciddi ameliyatlar geçiren Marc Marquez, pistlere muhteşem bir geri dönüş yaptı. İtalya GP (Mugello) ile yeniden motorunun başına geçen İspanyol pilot, geri dönüşünün henüz ikinci yarışında Balaton Park pistinde pole pozisyonunu kapmayı başardı. Sıralama turlarında ilk turundaki kazasına rağmen pes etmeyen Marquez, harika bir dereceyle ilk sırayı cebine koydu. Marquez'in hemen arkasında, bu sezonun dikkat çeken ismi Pedro Acosta ikinci sırayı alırken, BK8 Gresini Racing sürücüsü Fermin Aldeguer ise üçüncü olarak ön çizgiyi tamamladı.<br><br>Şampiyona liderliğini elinde bulunduran Aprilia pilotu Marco Bezzecchi, zorlu geçen seansın ardından yarışa ancak 6. sıradan başlama hakkı elde edebildi. Öte yandan, gridde ülkemizi gururla temsil eden milli motosikletçimiz Toprak Razgatlıoğlu, şanssız bir seans geçirdi. Sıralama turlarının ilk bölümünde (Q1) elenen temsilcimiz, yarışlara 18. sıradan başlayacak.<br><br>Macaristan GP'sinde heyecan fırtınası, bugün saat 16.00'da koşulacak olan kritik Sprint yarışı ile başlayacak. Büyük puan mücadelesinin yaşanacağı ana yarış ise Pazar günü saat 15.00'te start alacak. Sakatlıktan dönen Marquez'in zirvede yer aldığı bu hafta sonunda, şampiyona lideri Bezzecchi'nin yükseliş mücadelesi ve Toprak Razgatlıoğlu'nun gerilerden yapacağı ataklar yarışları şimdiden büyük bir kördüğüme dönüştürüyor.",
+                "content": "MotoGP dünya şampiyonasinda sezonun heyecan dolu duraklarindan biri olan Macaristan GP siralama turlarinda, unutulmaz bir hikaye yaşandi. Geçtiğimiz sezondan sarkan omuz sakatliğinin üzerine, bu yil yaşadiği talihsiz kazada ayağini da kiran ve her iki bölgeden de ciddi ameliyatlar geçiren Marc Marquez, pistlere muhteşem bir geri dönüş yapti. Italya GP (Mugello) ile yeniden motorunun başina geçen Ispanyol pilot, geri dönüşünün henüz ikinci yarişinda Balaton Park pistinde pole pozisyonunu kapmayi başardi. Siralama turlarinda ilk turundaki kazasina rağmen pes etmeyen Marquez, harika bir dereceyle ilk sirayi cebine koydu. Marquez'in hemen arkasinda, bu sezonun dikkat çeken ismi Pedro Acosta ikinci sirayi alirken, BK8 Gresini Racing sürücüsü Fermin Aldeguer ise üçüncü olarak ön çizgiyi tamamladi.<br><br>Şampiyona liderliğini elinde bulunduran Aprilia pilotu Marco Bezzecchi, zorlu geçen seansin ardindan yarişa ancak 6. siradan başlama hakki elde edebildi. Öte yandan, gridde ülkemizi gururla temsil eden milli motosikletçimiz Toprak Razgatlıoğlu, şanssiz bir seans geçirdi. Siralama turlarinin ilk bölümünde (Q1) elenen temsilcimiz, yarişlara 18. siradan başlayacak.<br><br>Macaristan GP'sinde heyecan firtinasi, bugün saat 16.00'da koşulacak olan kritik Sprint yarişi ile başlayacak. Büyük puan mücadelesinin yaşanacaği ana yariş ise Pazar günü saat 15.00'te start alacak. Sakatliktan dönen Marquez'in zirvede yer aldiği bu hafta sonunda, şampiyona lideri Bezzecchi'nin yükseliş mücadelesi ve Toprak Razgatlıoğlu'nun gerilerden yapacaği ataklar yarişlari şimdiden büyük bir kördüğüme dönüştürüyor.",
                 "img": "Resimler/MotoGP Haberler/1780747077167_1000044567.jpg",
                 "author": "Yusuf Yol",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+                "authorImg": "Resimler/Haber Yazari Fotoğraflari/Yusuf Yol.png"
             },
             {
                 "id": 65,
-                "title": "BAGNAIA’DAN GAZETECİYE TEPKİ: “ÖZEL HAYATA SAYGI GÖSTERİLMELİ”",
+                "title": "BAGNAIA’DAN GAZETECIYE TEPKI: “ÖZEL HAYATA SAYGI GÖSTERILMELI”",
                 "cat": "motogp",
                 "date": "2026-06-03 14:15",
-                "content": "MotoGP Dünya Şampiyonu Francesco Bagnaia, baba olacağı yönündeki haberlerin izni olmadan yayımlanmasına tepki gösterdi.<br><br>Macaristan Grand Prix'si hafta sonunda konuşan İtalyan sürücü, bu bilgiyi kamuoyuyla paylaşma kararının kendisine ait olması gerektiğini vurgulayarak bir gazetecinin davranışını eleştirdi.<br><br>Bagnaia, konuyla ilgili yaptığı açıklamada şu ifadeleri kullandı:<br><br>\"Sinirlendim. Özel hayata saygı gösterilmesi gerektiğini düşünüyorum.\"<br><br>İtalyan pilot, padoka yalnızca belirli yarışlar için gelen bir gazetecinin haberi yayımlama kararı aldığını belirterek bunun doğru olmadığını söyledi.<br><br>\"Buraya ara sıra gelen bir gazeteci bunu yayımlamaya karar verdi. Bunun doğru olduğunu düşünmüyorum. Gazeteciler, sürücülerin ve insanların kararlarına saygı göstermeli.\"<br><br>Öte yandan Bagnaia, haberi daha önceden bilmesine rağmen paylaşmayan MotoGP medya mensuplarına da teşekkür etti.<br><br>\"Padoktaki tüm gazetecilere teşekkür etmek istiyorum. Birçoğu bunu uzun zamandır biliyordu ve hiçbir şey söylemedi.\"<br><br>Bagnaia'nın açıklamaları, spor dünyasında sporcuların özel yaşamlarının ne ölçüde haberleştirilmesi gerektiği konusundaki tartışmaları yeniden gündeme getirdi.<br>",
+                "content": "MotoGP Dünya Şampiyonu Francesco Bagnaia, baba olacaği yönündeki haberlerin izni olmadan yayimlanmasina tepki gösterdi.<br><br>Macaristan Grand Prix'si hafta sonunda konuşan Italyan sürücü, bu bilgiyi kamuoyuyla paylaşma kararinin kendisine ait olmasi gerektiğini vurgulayarak bir gazetecinin davranişini eleştirdi.<br><br>Bagnaia, konuyla ilgili yaptiği açiklamada şu ifadeleri kullandi:<br><br>\"Sinirlendim. Özel hayata saygi gösterilmesi gerektiğini düşünüyorum.\"<br><br>Italyan pilot, padoka yalnizca belirli yarişlar için gelen bir gazetecinin haberi yayimlama karari aldiğini belirterek bunun doğru olmadiğini söyledi.<br><br>\"Buraya ara sira gelen bir gazeteci bunu yayimlamaya karar verdi. Bunun doğru olduğunu düşünmüyorum. Gazeteciler, sürücülerin ve insanlarin kararlarina saygi göstermeli.\"<br><br>Öte yandan Bagnaia, haberi daha önceden bilmesine rağmen paylaşmayan MotoGP medya mensuplarina da teşekkür etti.<br><br>\"Padoktaki tüm gazetecilere teşekkür etmek istiyorum. Birçoğu bunu uzun zamandir biliyordu ve hiçbir şey söylemedi.\"<br><br>Bagnaia'nin açiklamalari, spor dünyasinda sporcularin özel yaşamlarinin ne ölçüde haberleştirilmesi gerektiği konusundaki tartişmalari yeniden gündeme getirdi.<br>",
                 "img": "Resimler/MotoGP Haberler/1780485329787_IMG_7931.jpeg",
                 "author": "Emre Boz",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Emre Boz.png"
+                "authorImg": "Resimler/Haber Yazari Fotoğraflari/Emre Boz.png"
             },
             {
                 "id": 60,
-                "title": "MARCO BEZZECCHI, KENDİ EVİNDE KAZANDI!",
+                "title": "MARCO BEZZECCHI, KENDI EVINDE KAZANDI!",
                 "cat": "motogp",
                 "date": "2026-05-31 16:23",
-                "content": "Mugello’da gerçekleştirilen İtalya Grand Prix’si, İtalyan sürücülerin gövde gösterisine sahne olan, nefes kesici bir mücadeleyle tamamlandı. Kendi evinde muazzam bir performans sergileyen İtalyan pilot Marco Bezzecchi, damalı bayrağı ilk sırada görerek podyumun zirvesine çıktı ve yerel taraftarlara büyük bir coşku yaşattı. Yarışı ikinci sırada tamamlayan Jorge Martin podyumun diğer basamağını kaparken, Aprilia takımı ise double podyum yaparak hafta sonunun en başarılı ekiplerinden biri oldu. Podyumun üçüncü basamağında yer alan bir diğer İtalyan Francesco Bagnaia ise evindeki yarışı podyumla taçlandırarak taraftarlarını gururlandırdı.<br><br>Yarışın ilk 10 sırasındaki diğer mücadeleler de en az liderlik savaşı kadar hareketliydi. Bu sezon yükselen form grafiğiyle dikkat çeken Ai Ogura yarışı dördüncü sırada bitirirken, hafta sonu boyunca güçlü bir görüntü çizen ancak bunu podyumla süsleyemeyen Fabio Di Giannantonio beşinci oldu. Onları sırasıyla altıncı sırada Pedro Acosta ve sakatlıktan güçlü bir dönüş yapan tecrübeli isim Marc Marquez yedinci olarak takip etti. Sprint yarışının galibi Trackhouse sürücüsü Raul Fernandez ana yarışta sekizinci sırada kalırken, dokuzuncu sırayı Fermin Aldeguer, ilk 10’un son basamağını ise Diogo Moreira aldı.<br><br>Temsilcimiz Toprak Razgatlıoğlu ise zorlu mücadeleyi, tecrübeli takım arkadaşı Jack Miller’ın hemen arkasında 16. sırada tamamladı.<br><br>Motorsporları tutkunlarının gözü şimdi sezonun bir sonraki durağına çevrildi. Takvimin 9. yarışı olan ve büyük bir heyecanla beklenen Macaristan Grand Prix'si, 5-7 Haziran tarihlerinde gerçekleştirilecek.",
+                "content": "Mugello’da gerçekleştirilen Italya Grand Prix’si, Italyan sürücülerin gövde gösterisine sahne olan, nefes kesici bir mücadeleyle tamamlandi. Kendi evinde muazzam bir performans sergileyen Italyan pilot Marco Bezzecchi, damali bayraği ilk sirada görerek podyumun zirvesine çikti ve yerel taraftarlara büyük bir coşku yaşatti. Yarişi ikinci sirada tamamlayan Jorge Martin podyumun diğer basamağini kaparken, Aprilia takimi ise double podyum yaparak hafta sonunun en başarili ekiplerinden biri oldu. Podyumun üçüncü basamağinda yer alan bir diğer Italyan Francesco Bagnaia ise evindeki yarişi podyumla taçlandirarak taraftarlarini gururlandirdi.<br><br>Yarişin ilk 10 sirasindaki diğer mücadeleler de en az liderlik savaşi kadar hareketliydi. Bu sezon yükselen form grafiğiyle dikkat çeken Ai Ogura yarişi dördüncü sirada bitirirken, hafta sonu boyunca güçlü bir görüntü çizen ancak bunu podyumla süsleyemeyen Fabio Di Giannantonio beşinci oldu. Onlari sirasiyla altinci sirada Pedro Acosta ve sakatliktan güçlü bir dönüş yapan tecrübeli isim Marc Marquez yedinci olarak takip etti. Sprint yarişinin galibi Trackhouse sürücüsü Raul Fernandez ana yarişta sekizinci sirada kalirken, dokuzuncu sirayi Fermin Aldeguer, ilk 10’un son basamağini ise Diogo Moreira aldi.<br><br>Temsilcimiz Toprak Razgatlıoğlu ise zorlu mücadeleyi, tecrübeli takim arkadaşi Jack Miller’in hemen arkasinda 16. sirada tamamladi.<br><br>Motorsporlari tutkunlarinin gözü şimdi sezonun bir sonraki durağina çevrildi. Takvimin 9. yarişi olan ve büyük bir heyecanla beklenen Macaristan Grand Prix'si, 5-7 Haziran tarihlerinde gerçekleştirilecek.",
                 "img": "Resimler/MotoGP Haberler/1780233833473_1000044338.jpg",
                 "author": "Yusuf Yol",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+                "authorImg": "Resimler/Haber Yazari Fotoğraflari/Yusuf Yol.png"
             },
             {
                 "id": 59,
-                "title": "İTALYA'DA SPRİNT YARIŞINI KAZANAN İSİM RAUL FERNÁNDEZ OLDU!",
+                "title": "ITALYA'DA SPRINT YARIŞINI KAZANAN ISIM RAUL FERNÁNDEZ OLDU!",
                 "cat": "motogp",
                 "date": "2026-05-30 16:42",
-                "content": "MotoGP İtalya GP’de heyecan, Mugello pistinde yapılan nefes kesici Sprint yarışı ile başladı. Yarışın en büyük sürprizine imza atan Raul Fernández, damalı bayrağı ilk sırada görerek podyumun zirvesine çıkmayı başardı. Şampiyonluk mücadelesini sürdüren Jorge Martin yarışı ikinci sırada tamamlarken, podyumun son basamağını ise istikrarlı performansıyla göz dolduran Fabio Di Giannantonio kaptı.<br><br>Yarışa pole pozisyonundan başlayarak büyük bir avantaja sahip olan Marco Bezzecchi liderliğini koruyamadı ve mücadeleyi dördüncü sırada noktaladı. Geçirdiği sakatlığın ardından pistlere geri dönen Marc Márquez ise sergilediği güçlü geri dönüş performansıyla yarışı beşinci sırada bitirerek önemli puanları hanesine yazdırmayı bildi.<br><br>Temsilcimiz Toprak Razgatlıoğlu ise Sprint Yarışını 17. sırada tamamladı.<br><br>Mugello'da Sprint yarışının ardından gözler şimdi pazar gününe çevrildi. Sürücülerin podyumun en üst basamağı için büyük bir taktik savaşına gireceği ana yarış, yarın saat 15.00'te başlayacak.",
+                "content": "MotoGP Italya GP’de heyecan, Mugello pistinde yapilan nefes kesici Sprint yarişi ile başladi. Yarişin en büyük sürprizine imza atan Raul Fernández, damali bayraği ilk sirada görerek podyumun zirvesine çikmayi başardi. Şampiyonluk mücadelesini sürdüren Jorge Martin yarişi ikinci sirada tamamlarken, podyumun son basamağini ise istikrarli performansiyla göz dolduran Fabio Di Giannantonio kapti.<br><br>Yarişa pole pozisyonundan başlayarak büyük bir avantaja sahip olan Marco Bezzecchi liderliğini koruyamadi ve mücadeleyi dördüncü sirada noktaladi. Geçirdiği sakatliğin ardindan pistlere geri dönen Marc Márquez ise sergilediği güçlü geri dönüş performansiyla yarişi beşinci sirada bitirerek önemli puanlari hanesine yazdirmayi bildi.<br><br>Temsilcimiz Toprak Razgatlıoğlu ise Sprint Yarişini 17. sirada tamamladi.<br><br>Mugello'da Sprint yarişinin ardindan gözler şimdi pazar gününe çevrildi. Sürücülerin podyumun en üst basamaği için büyük bir taktik savaşina gireceği ana yariş, yarin saat 15.00'te başlayacak.",
                 "img": "Resimler/MotoGP Haberler/1780148542705_1000044277.jpg",
                 "author": "Yusuf Yol",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+                "authorImg": "Resimler/Haber Yazari Fotoğraflari/Yusuf Yol.png"
             },
             {
                 "id": 58,
-                "title": "MARCO BEZZECCHI, REKOR TURLA BİRLİKTE ZİRVEYE GERİ DÖNDÜ!",
+                "title": "MARCO BEZZECCHI, REKOR TURLA BIRLIKTE ZIRVEYE GERI DÖNDÜ!",
                 "cat": "motogp",
                 "date": "2026-05-30 13:54",
-                "content": "Mugello’da gerçekleştirilen MotoGP sıralama turları, pist üstündeki büyük heyecan ve sürprizlerle nefesleri kesti. Günün ilk seansı olan Q1’de harika bir tempo yakalayan Raul Fernandez ilk sırayı alarak adını bir üst seansa yazdırırken, onu genç yetenek Pedro Acosta ikinci sıradan takip etti; seansı üçüncü tamamlayan isim ise Ai Ogura oldu. Temsilcimiz Toprak ise şanssız bir kaza yaparak Q1’i 20. sırada tamamlamak zorunda kaldı.<br><br>Heyecanın zirveye ulaştığı Q2 seansında ise adeta bir rekor yarışı yaşandı. Harika bir tur çıkaran Marco Bezzecchi, kırdığı pist rekoruyla pole pozisyonunun sahibi olmayı başardı. Q1’deki liderliğini Q2’ye de taşıyan ve harika bir gün geçiren Raul Fernandez ikinci sırayı alırken, şampiyonluk mücadelesinin güçlü isimlerinden Jorge Martin ise üçüncülüğü kaparak ilk çizgiyi tamamladı. Çekişmeli, bol aksiyonlu ve seyir zevki yüksek geçen bu sıralama turlarının ardından gözler, bugün saat 16.00’da başlayacak olan büyük heyecana, yani Sprint Yarışı’na çevrildi.",
+                "content": "Mugello’da gerçekleştirilen MotoGP siralama turlari, pist üstündeki büyük heyecan ve sürprizlerle nefesleri kesti. Günün ilk seansi olan Q1’de harika bir tempo yakalayan Raul Fernandez ilk sirayi alarak adini bir üst seansa yazdirirken, onu genç yetenek Pedro Acosta ikinci siradan takip etti; seansi üçüncü tamamlayan isim ise Ai Ogura oldu. Temsilcimiz Toprak ise şanssiz bir kaza yaparak Q1’i 20. sirada tamamlamak zorunda kaldi.<br><br>Heyecanin zirveye ulaştiği Q2 seansinda ise adeta bir rekor yarişi yaşandi. Harika bir tur çikaran Marco Bezzecchi, kirdiği pist rekoruyla pole pozisyonunun sahibi olmayi başardi. Q1’deki liderliğini Q2’ye de taşiyan ve harika bir gün geçiren Raul Fernandez ikinci sirayi alirken, şampiyonluk mücadelesinin güçlü isimlerinden Jorge Martin ise üçüncülüğü kaparak ilk çizgiyi tamamladi. Çekişmeli, bol aksiyonlu ve seyir zevki yüksek geçen bu siralama turlarinin ardindan gözler, bugün saat 16.00’da başlayacak olan büyük heyecana, yani Sprint Yarişi’na çevrildi.",
                 "img": "Resimler/MotoGP Haberler/1780138486634_1000044267.jpg",
                 "author": "Yusuf Yol",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+                "authorImg": "Resimler/Haber Yazari Fotoğraflari/Yusuf Yol.png"
             },
             {
                 "id": 56,
-                "title": "MUGELLO’DA İLK ANTRENMAN TAMAMLANDI: DI GIANNANTONIO ZİRVEDE!",
+                "title": "MUGELLO’DA ILK ANTRENMAN TAMAMLANDI: DI GIANNANTONIO ZIRVEDE!",
                 "cat": "motogp",
                 "date": "2026-05-29 13:12",
-                "content": "MotoGP İtalya Grand Prix’si hafta sonunun ilk serbest antrenman seansı Mugello Pisti’nde tamamlandı. VR46 Racing Team sürücüsü Fabio Di Giannantonio, 1:46.242’lik turuyla seansın en hızlı ismi oldu.<br><br>Jorge Martin, liderin 0.369 saniye gerisinde ikinci sırayı elde ederken, Ai Ogura üçüncü sırada yer aldı. İlk beşi Maverick Viñales ve milli sporcumuz Toprak Razgatlıoğlu'nun takım arkadaşı Jack Miller tamamladı.<br><br>Bir yarışlık aranın ardından pistlere geri dönen Marc Marquez, 1:47.419’luk derecesiyle seansı 15. sırada tamamladı. Ducati Lenovo Team sürücüsü Francesco Bagnaia ise sekizinci sırada yer aldı.<br><br>MotoGP kariyerindeki ilk Mugello hafta sonuna çıkan milli sporcumuz Toprak Razgatlıoğlu ise seansı 21. sırada tamamladı. Toprak, lider Fabio Di Giannantonio’nun 1.823 saniye gerisinde kaldı ve hafta sonunun geri kalanında motosiklete uyum sağlamaya devam edecek.<br><br>Mugello’da MotoGP heyecanı gün içerisinde gerçekleştirilecek diğer seanslarla devam edecek.",
+                "content": "MotoGP Italya Grand Prix’si hafta sonunun ilk serbest antrenman seansi Mugello Pisti’nde tamamlandi. VR46 Racing Team sürücüsü Fabio Di Giannantonio, 1:46.242’lik turuyla seansin en hizli ismi oldu.<br><br>Jorge Martin, liderin 0.369 saniye gerisinde ikinci sirayi elde ederken, Ai Ogura üçüncü sirada yer aldi. Ilk beşi Maverick Viñales ve milli sporcumuz Toprak Razgatlıoğlu'nun takim arkadaşi Jack Miller tamamladi.<br><br>Bir yarişlik aranin ardindan pistlere geri dönen Marc Marquez, 1:47.419’luk derecesiyle seansi 15. sirada tamamladi. Ducati Lenovo Team sürücüsü Francesco Bagnaia ise sekizinci sirada yer aldi.<br><br>MotoGP kariyerindeki ilk Mugello hafta sonuna çikan milli sporcumuz Toprak Razgatlıoğlu ise seansi 21. sirada tamamladi. Toprak, lider Fabio Di Giannantonio’nun 1.823 saniye gerisinde kaldi ve hafta sonunun geri kalaninda motosiklete uyum sağlamaya devam edecek.<br><br>Mugello’da MotoGP heyecani gün içerisinde gerçekleştirilecek diğer seanslarla devam edecek.",
                 "img": "Resimler/MotoGP Haberler/1780049554462_IMG_7857.jpeg",
                 "author": "Emre Boz",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Emre Boz.png"
+                "authorImg": "Resimler/Haber Yazari Fotoğraflari/Emre Boz.png"
             },
             {
                 "id": 44,
-                "title": "MOTOGP'DE YEDEK MOTORSİKLETLER YASAKLANIYOR MU ?",
+                "title": "MOTOGP'DE YEDEK MOTORSIKLETLER YASAKLANIYOR MU ?",
                 "cat": "motogp",
                 "date": "2026-05-21 16:46",
-                "content": "MotoGP dünyası, maliyetleri düşürmek adına son yılların en radikal kural değişikliği fısıltısıyla çalkalanıyor. Kulislere düşen iddialara göre, 2027 yılındaki büyük teknik regülasyon yönetmeliğiyle birlikte pilotların garajdaki ikinci (yedek) motosiklet hakkının elinden alınması planlanıyor.<br><br>Takımların devasa bütçelerini dizginlemeyi amaçlayan bu hamle, yürürlüğe girerse hafta sonu stratejilerini tamamen değiştirecek. Şu an için sadece bir söylenti olan ve yürürlüğe girmesi için üreticiler (MSMA), Dorna ve FIM gibi tüm paydaşların oy birliğiyle onay vermesi gereken bu \"tek motosiklet\" kuralı, özellikle bütçesi kısıtlı uydu takımlarına nefes aldırabilir. Ancak bu durum, yarış içinde yağmur başladığında yapılan \"flag-to-flag\" motosiklet değişimlerini nasıl etkileyecek ve antrenmanlarda kaza yapan pilotların seansa dönmesini nasıl engelleyecek? Cevabı merakla beklenen bu soru, padoğu uzun süre meşgul edeceğe benziyor.",
+                "content": "MotoGP dünyasi, maliyetleri düşürmek adina son yillarin en radikal kural değişikliği fisiltisiyla çalkalaniyor. Kulislere düşen iddialara göre, 2027 yilindaki büyük teknik regülasyon yönetmeliğiyle birlikte pilotlarin garajdaki ikinci (yedek) motosiklet hakkinin elinden alinmasi planlaniyor.<br><br>Takimlarin devasa bütçelerini dizginlemeyi amaçlayan bu hamle, yürürlüğe girerse hafta sonu stratejilerini tamamen değiştirecek. Şu an için sadece bir söylenti olan ve yürürlüğe girmesi için üreticiler (MSMA), Dorna ve FIM gibi tüm paydaşlarin oy birliğiyle onay vermesi gereken bu \"tek motosiklet\" kurali, özellikle bütçesi kisitli uydu takimlarina nefes aldirabilir. Ancak bu durum, yariş içinde yağmur başladiğinda yapilan \"flag-to-flag\" motosiklet değişimlerini nasil etkileyecek ve antrenmanlarda kaza yapan pilotlarin seansa dönmesini nasil engelleyecek? Cevabi merakla beklenen bu soru, padoğu uzun süre meşgul edeceğe benziyor.",
                 "img": "Resimler/MotoGP Haberler/1779371157621_1000043958.jpg",
                 "author": "Yusuf Yol",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+                "authorImg": "Resimler/Haber Yazari Fotoğraflari/Yusuf Yol.png"
             },
             {
                 "id": 43,
-                "title": "ÁLEX MÁRQUEZ, İTALYA VE MACARİSTAN GP'Yİ KAÇIRACAK!",
+                "title": "ÁLEX MÁRQUEZ, ITALYA VE MACARISTAN GP'YI KAÇIRACAK!",
                 "cat": "motogp",
                 "date": "2026-05-21 16:16",
-                "content": "Katalunya Grand Prix'sinde yaşadığı korkutucu kazayla yürekleri ağza getiren Gresini Racing sürücüsü Alex Marquez'den kötü haber geldi. Kazanın ardından sağ köprücük kemiğindeki kırık nedeniyle başarılı bir operasyon geçiren ve C7 omurunda ufak bir çatlak tespit edilen İspanyol pilotun tedavi süreci devam ediyor.<br><br>Takımdan yapılan son açıklamaya göre Marquez, tam olarak sağlığına kavuşabilmek adına pistlerden bir süre uzak kalacak. Bu doğrultuda başarılı sürücü, takvimin heyecanla beklenen iki önemli ayağı olan İtalya ve Macaristan GP'lerinde griddeki yerini alamayacak. Marquez'in haziran ayının sonundaki Çekya GP'si ile pistlere dönmesi hedeflenirken, Gresini ekibi bu süreçte sürücüsünün tamamen iyileşmesine odaklanmış durumda.",
+                "content": "Katalunya Grand Prix'sinde yaşadiği korkutucu kazayla yürekleri ağza getiren Gresini Racing sürücüsü Alex Marquez'den kötü haber geldi. Kazanin ardindan sağ köprücük kemiğindeki kirik nedeniyle başarili bir operasyon geçiren ve C7 omurunda ufak bir çatlak tespit edilen Ispanyol pilotun tedavi süreci devam ediyor.<br><br>Takimdan yapilan son açiklamaya göre Marquez, tam olarak sağliğina kavuşabilmek adina pistlerden bir süre uzak kalacak. Bu doğrultuda başarili sürücü, takvimin heyecanla beklenen iki önemli ayaği olan Italya ve Macaristan GP'lerinde griddeki yerini alamayacak. Marquez'in haziran ayinin sonundaki Çekya GP'si ile pistlere dönmesi hedeflenirken, Gresini ekibi bu süreçte sürücüsünün tamamen iyileşmesine odaklanmiş durumda.",
                 "img": "Resimler/MotoGP Haberler/1779369707122_1000043952.jpg",
                 "author": "Yusuf Yol",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+                "authorImg": "Resimler/Haber Yazari Fotoğraflari/Yusuf Yol.png"
             },
             {
                 "id": 42,
                 "title": "OLAYLI KATALUNYA GP'DE ZAFER FABIO DI GIANNANTONIO'NUN!",
                 "cat": "motogp",
                 "date": "2026-05-17 19:37",
-                "content": "MotoGP Katalunya GP'si, yarış dünyasının unutulmazları arasına girecek sıra dışı, bol temaslı ve kelimenin tam anlamıyla nefes kesen bir mücadeleye sahne oldu. İki kez kırmızı bayrakla durdurulan ve adeta bir hayatta kalma savaşına dönen yarışı Pertamina Enduro VR46 takımından Fabio Di Giannantonio kazanmayı başarırken, ikincilik Repsol Honda pilotu Joan Mir'in, üçüncülük ise BK8 Gresini Racing'den Fermin Aldeguer'in oldu.<br><br>Yarışın ilk büyük draması ortalara doğru yaşandı. Yarışa pole pozisyonundan başlayan ve liderliği harika bir şekilde götüren Pedro Acosta'nın, viraj çıkışındaki hızlanma alanında talihsiz bir şekilde lastiği patladı. O esnada arkadan harika bir tempo yakalayıp sıralar kazanarak gelen Alex Marquez'in kaçacak hiçbir yeri yoktu. Büyük bir hızla Acosta'ya çarpan Marquez, savrularak bariyerlere çok sert vurdu. Korkunç kazanın hemen ardından yarış kırmızı bayrakla durduruldu. Çarpışmanın şiddetiyle Marquez'in motosikletinden fırlayan ön lastik, Fabio Di Giannantonio'ya da isabet etti. Lastiği patlayan Acosta; Jack Miller ve  Toprak Razgatlıoğlu'nun yardımlarıyla motosikletini pite getirmeyi başarırken, kazanın başrolündeki Alex Marquez ambulansla hastaneye kaldırıldı; İspanyol pilotun bilincinin açık olduğu bildirildi.<br><br>Pist temizlendikten sonra \"hızlı start\" prosedürüyle yarış yeniden başladı ancak kaos burada bitmedi. İlk virajda Johann Zarco, Luca Marini ve Francesco Bagnaia arasında yaşanan temas, üç pilotu da çakıl havuzuna sürükledi. Bu esnada Johann Zarco'nun bacağının motosikletin arka lastiğine sıkışması üzerine yarışta ikinci kez kırmızı bayrak sallandı. Sağlık ekiplerinin anında müdahale ettiği Zarco, bilinci açık bir şekilde kontrol için hastaneye götürüldü.<br><br>Yarışın üçüncü kez start almasıyla heyecan kaldığı yerden devam etti. Yeniden başlayan mücadelede Jorge Martin, Raul Fernandez ile yaşadığı temas sonrası çakıl havuzuna uçtu. Düştükten sonra pes etmeyerek ayağa kalkan ve yarışa geri dönen Martin, yarışı son sırada da olsa bitirmeyi başardı. Yarışın son turu ve son virajı ise podyum savaşı veren Pedro Acosta ile Ai Ogura'nın temasına sahne oldu. Bu temasla birlikte Acosta yarış dışı kalırken, Ai Ogura'ya normal şartlarda \"uzun tur\" cezası verildi ancak yarış bittiği için bu ceza süresine 3 saniye olarak yansıtıldı.<br><br>Tüm bu kaosun içinde temsilcimiz Toprak Razgatlıoğlu ise damalı bayrağı 15. sırada görerek bu zorlu ve tarihi yarıştan puanla ayrılmayı başardı.",
+                "content": "MotoGP Katalunya GP'si, yariş dünyasinin unutulmazlari arasina girecek sira dişi, bol temasli ve kelimenin tam anlamiyla nefes kesen bir mücadeleye sahne oldu. Iki kez kirmizi bayrakla durdurulan ve adeta bir hayatta kalma savaşina dönen yarişi Pertamina Enduro VR46 takimindan Fabio Di Giannantonio kazanmayi başarirken, ikincilik Repsol Honda pilotu Joan Mir'in, üçüncülük ise BK8 Gresini Racing'den Fermin Aldeguer'in oldu.<br><br>Yarişin ilk büyük dramasi ortalara doğru yaşandi. Yarişa pole pozisyonundan başlayan ve liderliği harika bir şekilde götüren Pedro Acosta'nin, viraj çikişindaki hizlanma alaninda talihsiz bir şekilde lastiği patladi. O esnada arkadan harika bir tempo yakalayip siralar kazanarak gelen Alex Marquez'in kaçacak hiçbir yeri yoktu. Büyük bir hizla Acosta'ya çarpan Marquez, savrularak bariyerlere çok sert vurdu. Korkunç kazanin hemen ardindan yariş kirmizi bayrakla durduruldu. Çarpişmanin şiddetiyle Marquez'in motosikletinden firlayan ön lastik, Fabio Di Giannantonio'ya da isabet etti. Lastiği patlayan Acosta; Jack Miller ve  Toprak Razgatlıoğlu'nun yardimlariyla motosikletini pite getirmeyi başarirken, kazanin başrolündeki Alex Marquez ambulansla hastaneye kaldirildi; Ispanyol pilotun bilincinin açik olduğu bildirildi.<br><br>Pist temizlendikten sonra \"hizli start\" prosedürüyle yariş yeniden başladi ancak kaos burada bitmedi. Ilk virajda Johann Zarco, Luca Marini ve Francesco Bagnaia arasinda yaşanan temas, üç pilotu da çakil havuzuna sürükledi. Bu esnada Johann Zarco'nun bacağinin motosikletin arka lastiğine sikişmasi üzerine yarişta ikinci kez kirmizi bayrak sallandi. Sağlik ekiplerinin aninda müdahale ettiği Zarco, bilinci açik bir şekilde kontrol için hastaneye götürüldü.<br><br>Yarişin üçüncü kez start almasiyla heyecan kaldiği yerden devam etti. Yeniden başlayan mücadelede Jorge Martin, Raul Fernandez ile yaşadiği temas sonrasi çakil havuzuna uçtu. Düştükten sonra pes etmeyerek ayağa kalkan ve yarişa geri dönen Martin, yarişi son sirada da olsa bitirmeyi başardi. Yarişin son turu ve son viraji ise podyum savaşi veren Pedro Acosta ile Ai Ogura'nin temasina sahne oldu. Bu temasla birlikte Acosta yariş dişi kalirken, Ai Ogura'ya normal şartlarda \"uzun tur\" cezasi verildi ancak yariş bittiği için bu ceza süresine 3 saniye olarak yansitildi.<br><br>Tüm bu kaosun içinde temsilcimiz Toprak Razgatlıoğlu ise damali bayraği 15. sirada görerek bu zorlu ve tarihi yariştan puanla ayrilmayi başardi.",
                 "img": "Resimler/MotoGP Haberler/1779035847809_1000043807.jpg",
                 "author": "Yusuf Yol",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+                "authorImg": "Resimler/Haber Yazari Fotoğraflari/Yusuf Yol.png"
             },
             {
                 "id": 39,
-                "title": "KATALONYA SPRINT YARIŞINDA ZAFER ÁLEX MÁRQUEZ'İN!",
+                "title": "KATALONYA SPRINT YARIŞINDA ZAFER ÁLEX MÁRQUEZ'IN!",
                 "cat": "motogp",
                 "date": "2026-05-16 17:14",
-                "content": "MotoGP Katalonya Grand Prix'si heyecanı, nefes kesen Sprint yarışı ile başladı. Büyük bir çekişmeye sahne olan yarışı podyumun en üst basamağında tamamlayan isim Alex Marquez oldu. Yarış boyunca sergilediği üstün performansla rakiplerini geride bırakan Marquez, Katalonya'da zaferini ilan etti. Yarışta ikincilik kürsüsüne Pedro Acosta çıkarken, podyumun son basamağını ise yarışı üçüncü sırada tamamlayan Fabio Di Giannantonio tamamladı.<br><br>Temsilcimiz Toprak Razgatlıoğlu ise zorlu pist şartlarında elinden gelenin en iyisini yaparak yarışı 17. sırada noktaladı.",
+                "content": "MotoGP Katalonya Grand Prix'si heyecani, nefes kesen Sprint yarişi ile başladi. Büyük bir çekişmeye sahne olan yarişi podyumun en üst basamağinda tamamlayan isim Alex Marquez oldu. Yariş boyunca sergilediği üstün performansla rakiplerini geride birakan Marquez, Katalonya'da zaferini ilan etti. Yarişta ikincilik kürsüsüne Pedro Acosta çikarken, podyumun son basamağini ise yarişi üçüncü sirada tamamlayan Fabio Di Giannantonio tamamladi.<br><br>Temsilcimiz Toprak Razgatlıoğlu ise zorlu pist şartlarinda elinden gelenin en iyisini yaparak yarişi 17. sirada noktaladi.",
                 "img": "Resimler/MotoGP Haberler/1778940850728_1000043746.jpg",
                 "author": "Yusuf Yol",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+                "authorImg": "Resimler/Haber Yazari Fotoğraflari/Yusuf Yol.png"
             },
             {
                 "id": 38,
-                "title": "KATALONYA’DA 2. SERBEST ANTRENMAN TAMAMLANDI: JOAN MIR SEANSIN ZİRVESİNDE!",
+                "title": "KATALONYA’DA 2. SERBEST ANTRENMAN TAMAMLANDI: JOAN MIR SEANSIN ZIRVESINDE!",
                 "cat": "motogp",
                 "date": "2026-05-16 11:58",
-                "content": "MotoGP’de Katalonya Grand Prix’si hafta sonunda 2. Serbest Antrenman seansı tamamlandı. Seansın en hızlı ismi Honda pilotu Joan Mir oldu.<br><br>KTM pilotu Pedro Acosta seansı ikinci sırada tamamlarken, VR46 Ducati sürücüsü Fabio Di Giannantonio ise üçüncü sırayı elde etti.<br><br>Takımlar seans boyunca özellikle yarış temposu ve lastik performansı üzerine çalışmalar gerçekleştirdi.<br><br>Temsilcimiz Toprak Razgatlıoğlu ise 2. Serbest Antrenman seansını 18. sırada noktaladı.<br><br>MotoGP’de Katalonya Grand Prix’si hafta sonu sıralama turları ve sprint yarışıyla devam edecek.",
+                "content": "MotoGP’de Katalonya Grand Prix’si hafta sonunda 2. Serbest Antrenman seansi tamamlandi. Seansin en hizli ismi Honda pilotu Joan Mir oldu.<br><br>KTM pilotu Pedro Acosta seansi ikinci sirada tamamlarken, VR46 Ducati sürücüsü Fabio Di Giannantonio ise üçüncü sirayi elde etti.<br><br>Takimlar seans boyunca özellikle yariş temposu ve lastik performansi üzerine çalişmalar gerçekleştirdi.<br><br>Temsilcimiz Toprak Razgatlıoğlu ise 2. Serbest Antrenman seansini 18. sirada noktaladi.<br><br>MotoGP’de Katalonya Grand Prix’si hafta sonu siralama turlari ve sprint yarişiyla devam edecek.",
                 "img": "Resimler/MotoGP Haberler/1778921933525_IMG_7528.jpeg",
                 "author": "Emre Boz",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Emre Boz.png"
+                "authorImg": "Resimler/Haber Yazari Fotoğraflari/Emre Boz.png"
             },
             {
                 "id": 1,
-                "title": "DEV MARKALAR 2027 TESTLERİNİ TAMAMLADI: APRILIA’DA ŞİMDİLİK SES YOK!",
+                "title": "DEV MARKALAR 2027 TESTLERINI TAMAMLADI: APRILIA’DA ŞIMDILIK SES YOK!",
                 "cat": "motogp",
                 "date": "2026-04-14",
-                "content": "MotoGP’de 2027 sezonuna hazırlıklar başlayarak, yeni teknik kurallara geçiş süreci iyice hız kazanmış durumda. KTM, Honda, Yamaha ve Ducati, 850cc motor konseptiyle geliştirdikleri prototip motosikletlerin testlerini tamamlayarak önemli bir aşamayı geride bıraktı.<br><br>Bilindiği üzere 2027 itibarıyla MotoGP’de 1000cc motorlar tarihe karışacak ve yerini 850cc makineler alacak. Bu değişim, takımların sadece motor performansını değil; aerodinami, ağırlık dağılımı ve yakıt verimliliği gibi birçok kritik unsuru yeniden düşünmesini gerektiriyor.<br><br>Testlerini tamamlayan üreticiler, pist üstünde topladıkları verilerle geliştirme sürecinde ciddi bir yol kat etmiş durumda. Özellikle Ducati’nin performans konusundaki iddialı yaklaşımı ve KTM’nin agresif geliştirme temposu öne çıkarken, Honda ile Yamaha’nın da son yıllardaki yeniden yapılanma sürecinde bu testlere büyük önem verdiği görülüyor.<br><br>Diğer yandan Aprilia tarafında henüz 850cc prototiple resmi bir test yapılmış değil. Bu durum, İtalyan üreticinin yeni döneme ne kadar hazır olduğu konusunda bazı soru işaretlerini de beraberinde getiriyor.",
+                "content": "MotoGP’de 2027 sezonuna hazirliklar başlayarak, yeni teknik kurallara geçiş süreci iyice hiz kazanmiş durumda. KTM, Honda, Yamaha ve Ducati, 850cc motor konseptiyle geliştirdikleri prototip motosikletlerin testlerini tamamlayarak önemli bir aşamayi geride birakti.<br><br>Bilindiği üzere 2027 itibariyla MotoGP’de 1000cc motorlar tarihe karişacak ve yerini 850cc makineler alacak. Bu değişim, takimlarin sadece motor performansini değil; aerodinami, ağirlik dağilimi ve yakit verimliliği gibi birçok kritik unsuru yeniden düşünmesini gerektiriyor.<br><br>Testlerini tamamlayan üreticiler, pist üstünde topladiklari verilerle geliştirme sürecinde ciddi bir yol kat etmiş durumda. Özellikle Ducati’nin performans konusundaki iddiali yaklaşimi ve KTM’nin agresif geliştirme temposu öne çikarken, Honda ile Yamaha’nin da son yillardaki yeniden yapilanma sürecinde bu testlere büyük önem verdiği görülüyor.<br><br>Diğer yandan Aprilia tarafinda henüz 850cc prototiple resmi bir test yapilmiş değil. Bu durum, Italyan üreticinin yeni döneme ne kadar hazir olduğu konusunda bazi soru işaretlerini de beraberinde getiriyor.",
                 "img": "Resimler/MotoGP Haberler/Pirelli.jpg"
             },
             {
                 "id": 2,
-                "title": "NICOLO BULEGA, MOTOGP İÇİN KOLTUK ARAYIŞINDA!",
+                "title": "NICOLO BULEGA, MOTOGP IÇIN KOLTUK ARAYIŞINDA!",
                 "cat": "motogp",
                 "date": "2026-04-15",
-                "content": "Ducati’nin Nicolo Bulega’ya kapılarını kapatmasının ardından İtalyan sürücü, MotoGP’ye geçiş için alternatif seçenekleri değerlendirmeye başladı. Bulega’nın gündemindeki en ciddi opsiyonlardan biri ise Aprilia’nın uydu takımı Trackhouse.<br><br>Trackhouse cephesinde, Ai Ogura’nın Yamaha’ya olası bir geçiş yapması durumunda boşalabilecek koltuk dikkat çekiyor. Bu senaryo, Bulega için önemli bir fırsat yaratabilir.<br><br>Ancak mevcut durumda Trackhouse’un önceliği Nicolo Bulega değil. Bu nedenle İtalyan sürücünün MotoGP’ye geçiş süreci, takımın kararlarına ve sürücü pazarındaki gelişmelere bağlı olarak şekillenecek.",
+                "content": "Ducati’nin Nicolo Bulega’ya kapilarini kapatmasinin ardindan Italyan sürücü, MotoGP’ye geçiş için alternatif seçenekleri değerlendirmeye başladi. Bulega’nin gündemindeki en ciddi opsiyonlardan biri ise Aprilia’nin uydu takimi Trackhouse.<br><br>Trackhouse cephesinde, Ai Ogura’nin Yamaha’ya olasi bir geçiş yapmasi durumunda boşalabilecek koltuk dikkat çekiyor. Bu senaryo, Bulega için önemli bir firsat yaratabilir.<br><br>Ancak mevcut durumda Trackhouse’un önceliği Nicolo Bulega değil. Bu nedenle Italyan sürücünün MotoGP’ye geçiş süreci, takimin kararlarina ve sürücü pazarindaki gelişmelere bağli olarak şekillenecek.",
                 "img": "Resimler/MotoGP Haberler/Bulega.png"
             },
             {
                 "id": 3,
-                "title": "NICOLO BULEGA MOTOGP İHTİMALİ HAKKINDA KONUŞTU!",
+                "title": "NICOLO BULEGA MOTOGP IHTIMALI HAKKINDA KONUŞTU!",
                 "cat": "motogp",
                 "date": "2026-04-16 18:30",
-                "content": "Superbike’ta mücadele eden Nicolo Bulega, MotoGP hedefinden vazgeçmediğini bir kez daha net bir şekilde dile getirdi. Çocukluk hayali olan MotoGP için çalışmalarını sürdürdüklerini belirten pilot, geleceğinin ise büyük ölçüde MotoGP padokunda yaşanacak gelişmelere bağlı olduğunu ifade etti.<br><br>MotoGP’deki koltuk dengelerinin henüz tam anlamıyla netleşmediğini vurgulayan Bulega, bu sürecin kendi kariyer planlamasında belirleyici rol oynadığını söyledi. MotoGP’ye geçişin kolay olmadığını kabul eden isim, buna rağmen fırsatların tamamen ortadan kalkmadığını ve hâlâ değerlendirdiği birden fazla seçeneğin bulunduğunu belirtti.<br><br>Superbike’ta olmaktan memnun olduğunu da sözlerine ekleyen pilot, mevcut seride rekabet etmekten keyif aldığını ancak nihai hedefinin değişmediğini dile getirdi. MotoGP’ye geçiş için yoğun şekilde çalıştıklarını ifade eden sürücü, önümüzdeki dönemde şartların nasıl şekilleneceğinin belirleyici olacağını söyledi.<br><br>Öte yandan, planların istenildiği gibi ilerlememesi durumunda Superbike’ta kalmanın da güçlü bir seçenek olduğunu belirten Nicolo Bulega, kariyerine mevcut seride devam etme ihtimalini de göz ardı etmedi.<br><br>MotoGP’de önümüzdeki süreçte yaşanacak sürücü hareketliliği, Nicolo Bulega’nın geleceği açısından kritik rol oynayacak.",
+                "content": "Superbike’ta mücadele eden Nicolo Bulega, MotoGP hedefinden vazgeçmediğini bir kez daha net bir şekilde dile getirdi. Çocukluk hayali olan MotoGP için çalişmalarini sürdürdüklerini belirten pilot, geleceğinin ise büyük ölçüde MotoGP padokunda yaşanacak gelişmelere bağli olduğunu ifade etti.<br><br>MotoGP’deki koltuk dengelerinin henüz tam anlamiyla netleşmediğini vurgulayan Bulega, bu sürecin kendi kariyer planlamasinda belirleyici rol oynadiğini söyledi. MotoGP’ye geçişin kolay olmadiğini kabul eden isim, buna rağmen firsatlarin tamamen ortadan kalkmadiğini ve hâlâ değerlendirdiği birden fazla seçeneğin bulunduğunu belirtti.<br><br>Superbike’ta olmaktan memnun olduğunu da sözlerine ekleyen pilot, mevcut seride rekabet etmekten keyif aldiğini ancak nihai hedefinin değişmediğini dile getirdi. MotoGP’ye geçiş için yoğun şekilde çaliştiklarini ifade eden sürücü, önümüzdeki dönemde şartlarin nasil şekilleneceğinin belirleyici olacağini söyledi.<br><br>Öte yandan, planlarin istenildiği gibi ilerlememesi durumunda Superbike’ta kalmanin da güçlü bir seçenek olduğunu belirten Nicolo Bulega, kariyerine mevcut seride devam etme ihtimalini de göz ardi etmedi.<br><br>MotoGP’de önümüzdeki süreçte yaşanacak sürücü hareketliliği, Nicolo Bulega’nin geleceği açisindan kritik rol oynayacak.",
                 "img": "Resimler/MotoGP Haberler/Nicolo Bulega.jpg"
             },
             {
                 "id": 4,
-                "title": "MARC MÁRQUEZ, JEREZ'DE POLE POZİSYONU İLE ZİRVEYE DÖNDÜ!",
+                "title": "MARC MÁRQUEZ, JEREZ'DE POLE POZISYONU ILE ZIRVEYE DÖNDÜ!",
                 "cat": "motogp",
                 "date": "2026-04-25 14:20",
-                "content": "MotoGP’de sezonun dikkat çeken anlarından biri Jerez’de yaşandı. Marc Márquez, 2025 Macaristan Grand Prix’nden bu yana ilk kez pole pozisyonunu elde ederek güçlü bir geri dönüşe imza attı. İspanyol pilot, bu sonuçla birlikte kariyerinin 75. pole pozisyonuna ulaşarak önemli bir kilometre taşını da geride bıraktı.<br><br>Sıralama turlarında gösterdiği performansla rakiplerine üstünlük kuran Márquez’in arkasında ikinci sırada Johann Zarco yer alırken, üçüncülüğü ise Fabio Di Giannantonio elde etti.<br><br>Öte yandan temsilcimiz Toprak Razgatlıoğlu, seansı 19. sırada tamamladı.",
+                "content": "MotoGP’de sezonun dikkat çeken anlarindan biri Jerez’de yaşandi. Marc Márquez, 2025 Macaristan Grand Prix’nden bu yana ilk kez pole pozisyonunu elde ederek güçlü bir geri dönüşe imza atti. Ispanyol pilot, bu sonuçla birlikte kariyerinin 75. pole pozisyonuna ulaşarak önemli bir kilometre taşini da geride birakti.<br><br>Siralama turlarinda gösterdiği performansla rakiplerine üstünlük kuran Márquez’in arkasinda ikinci sirada Johann Zarco yer alirken, üçüncülüğü ise Fabio Di Giannantonio elde etti.<br><br>Öte yandan temsilcimiz Toprak Razgatlıoğlu, seansi 19. sirada tamamladi.",
                 "img": "Resimler/MotoGP Haberler/Marc pole.png"
             },
             {
                 "id": 5,
-                "title": "JEREZ’DE GALİYET ÁLEX MÁRQUEZ’E GİDİYOR! : MARC MÁRQUEZ’DEN KORKUNÇ KAZA!",
+                "title": "JEREZ’DE GALIYET ÁLEX MÁRQUEZ’E GIDIYOR! : MARC MÁRQUEZ’DEN KORKUNÇ KAZA!",
                 "cat": "motogp",
                 "date": "2026-04-26 18:20",
-                "content": "Álex Márquez, İspanya’da damalı bayrağı ilk sırada görerek kariyerinin en dikkat çekici zaferlerinden birine imza attı. Yarışın kritik anında ağabeyi Marc Márquez’i geride bırakan Álex, sonrasında tempoyu tamamen kontrol altına alarak farkı açtı ve yarışı domine ederek kazandı.<br><br>Yarışın kırılma anlarından biri ise Marc Márquez’in yaşadığı kazaydı. Yüksek hızlı bir virajda kontrolünü kaybeden deneyimli pilot, yere düşerek yarış dışı kaldı ve mücadeleye erken veda etti.<br><br>Podyumda Álex Márquez’in ardından Marco Bezzecchi ikinci sırayı alırken, Fabio Di Giannantonio üçüncü olarak yarışı tamamladı.<br><br>Temsilcimiz Toprak Razgatlıoğlu ise zorlu geçen yarışta 19. sırada finiş görerek hafta sonunu tamamladı.",
+                "content": "Álex Márquez, Ispanya’da damali bayraği ilk sirada görerek kariyerinin en dikkat çekici zaferlerinden birine imza atti. Yarişin kritik aninda ağabeyi Marc Márquez’i geride birakan Álex, sonrasinda tempoyu tamamen kontrol altina alarak farki açti ve yarişi domine ederek kazandi.<br><br>Yarişin kirilma anlarindan biri ise Marc Márquez’in yaşadiği kazaydi. Yüksek hizli bir virajda kontrolünü kaybeden deneyimli pilot, yere düşerek yariş dişi kaldi ve mücadeleye erken veda etti.<br><br>Podyumda Álex Márquez’in ardindan Marco Bezzecchi ikinci sirayi alirken, Fabio Di Giannantonio üçüncü olarak yarişi tamamladi.<br><br>Temsilcimiz Toprak Razgatlıoğlu ise zorlu geçen yarişta 19. sirada finiş görerek hafta sonunu tamamladi.",
                 "img": "Resimler/MotoGP Haberler/Alex Marquez.png"
             },
             {
@@ -3907,7 +3907,7 @@ const APP_DATA = {
                 "title": "YAMAHA, FABIO QUARTARARO'NUN MEDYA ÖNÜNDE KONUŞMASINI KISITLAMAYA HAZIRLANIYOR!",
                 "cat": "motogp",
                 "date": "2026-04-28 21:10",
-                "content": "MotoGP dünyası, Yamaha ve yıldız pilotu Fabio Quartararo arasındaki gerilimle çalkalanıyor. Bir süredir Yamaha M1’in performans yetersizliğini her fırsatta sert bir dille eleştiren Fransız pilotun, artık Japon devinin sabrını taşırdığı iddia ediliyor. Takım yönetiminin, markanın imajını korumak adına Quartararo’nun medya önündeki açıklamalarına yönelik bir kısıtlama getirmeye hazırlandığı konuşuluyor. 'El Diablo'nun bitmek bilmeyen teknik şikayetlerinin ve agresif tavırlarının, takım içindeki motivasyonu olumsuz etkilediği ve kurumsal iletişim stratejisine zarar verdiği düşünülüyor.<br><br>Öte yandan, bu krizin yankıları sadece Yamaha garajıyla sınırlı kalmıyor. Gelecek sezon Honda koltuğuna oturması beklenen Quartararo’nun mevcut tutumu, iddialara göre Honda cephesinde de ciddi bir huzursuzluk yaratmış durumda. Japon mühendislik kültürünün 'sorunları kapalı kapılar ardında çözme' geleneğine aykırı hareket eden Quartararo’nun, henüz transfer gerçekleşmeden sergilediği bu açık sözlü tavır, Honda yönetiminde 'kontrol edilmesi zor bir pilot' imajı oluşturmaya başladı. Hem Yamaha ile iplerin kopma noktasına gelmesi hem de olası yeni durağı Honda’daki bu ön yargılar, şampiyon pilotun kariyerinde zorlu bir viraja girdiğinin sinyallerini veriyor.",
+                "content": "MotoGP dünyasi, Yamaha ve yildiz pilotu Fabio Quartararo arasindaki gerilimle çalkalaniyor. Bir süredir Yamaha M1’in performans yetersizliğini her firsatta sert bir dille eleştiren Fransiz pilotun, artik Japon devinin sabrini taşirdiği iddia ediliyor. Takim yönetiminin, markanin imajini korumak adina Quartararo’nun medya önündeki açiklamalarina yönelik bir kisitlama getirmeye hazirlandiği konuşuluyor. 'El Diablo'nun bitmek bilmeyen teknik şikayetlerinin ve agresif tavirlarinin, takim içindeki motivasyonu olumsuz etkilediği ve kurumsal iletişim stratejisine zarar verdiği düşünülüyor.<br><br>Öte yandan, bu krizin yankilari sadece Yamaha garajiyla sinirli kalmiyor. Gelecek sezon Honda koltuğuna oturmasi beklenen Quartararo’nun mevcut tutumu, iddialara göre Honda cephesinde de ciddi bir huzursuzluk yaratmiş durumda. Japon mühendislik kültürünün 'sorunlari kapali kapilar ardinda çözme' geleneğine aykiri hareket eden Quartararo’nun, henüz transfer gerçekleşmeden sergilediği bu açik sözlü tavir, Honda yönetiminde 'kontrol edilmesi zor bir pilot' imaji oluşturmaya başladi. Hem Yamaha ile iplerin kopma noktasina gelmesi hem de olasi yeni duraği Honda’daki bu ön yargilar, şampiyon pilotun kariyerinde zorlu bir viraja girdiğinin sinyallerini veriyor.",
                 "img": "Resimler/MotoGP Haberler/Fabio.png"
             },
             {
@@ -3915,273 +3915,273 @@ const APP_DATA = {
                 "title": "FRANSA'DA JORGE MARTIN RÜZGARI: DUCATILER YARIŞ DIŞI KALDI!",
                 "cat": "motogp",
                 "date": "2026-05-10 18:00",
-                "content": "MotoGP Le Mans, Fransa hafta sonu, Jorge Martin’in kusursuz galibiyetiyle sonuçlanırken, şampiyonluk yarışını ve pilotların kaderini kökten değiştiren dramatik olaylara sahne oldu. Jorge Martin, önündeki pilotların kaza yapmasını fırsata çevirerek ve son turlarda hem Marco Bezzecchi'ye hemde Pedro Acosta'ya yaptığı ataklarla liderliği alarak yarışı kazandı. Marco Bezzecchi ise yarışı ikinci tamamlayarak hem kendisi hemde takımı için önemli puanlar topladı ve şampiyonada liderliğini sürdürdü. Üçüncü sırada ise bu sezon etkili performans sergileyen Ai Ogura yer aldı.<br><br>Günün en sarsıcı haberi, Marc Marquez’den geldi. Yarış esnasında geçirdiği şiddetli kaza sonrası pist kenarına alınan Marquez’in, yapılan ilk kontrollerinde ayağında kırık tespit edildiği açıklandı. Ameliyat masasına yatacak olan İspanyol pilotun, takvimin bir sonraki durağı olan Barselona’daki yarışı kaçıracağı kesinleşti. Marquez cephesinde bu kayıp yaşanırken, garajın diğer tarafında da hüzün hakimdi; Francesco Bagnaia, podyum mücadelesi verdiği son turlarda attığı talihsiz spin ile yarış dışı kalarak şampiyonluk yolunda kritik puanlar kaybetti.<br><br>Öte yandan, Türk motor sporları tutkunlarını heyecanlandıran bir performans da Toprak Razgatlıoğlu’ndan geldi. Zorlu Le Mans pistinde damalı bayrağı 13. sırada görmeyi başaran Toprak, hem bu sezonki en iyi derecesine imza attı hem de Amerika Austin’den sonra bir kez daha puan barajının içinde kalarak klasmandaki yerini sağlamlaştırdı. Toprak'ın bu istikrarlı yükselişi, gelecek yarışlar için umut vadederken, Le Mans GP’si hem zaferlerin hem de büyük kayıpların yaşandığı unutulmaz bir hafta sonu olarak kayıtlara geçti.",
+                "content": "MotoGP Le Mans, Fransa hafta sonu, Jorge Martin’in kusursuz galibiyetiyle sonuçlanirken, şampiyonluk yarişini ve pilotlarin kaderini kökten değiştiren dramatik olaylara sahne oldu. Jorge Martin, önündeki pilotlarin kaza yapmasini firsata çevirerek ve son turlarda hem Marco Bezzecchi'ye hemde Pedro Acosta'ya yaptiği ataklarla liderliği alarak yarişi kazandi. Marco Bezzecchi ise yarişi ikinci tamamlayarak hem kendisi hemde takimi için önemli puanlar topladi ve şampiyonada liderliğini sürdürdü. Üçüncü sirada ise bu sezon etkili performans sergileyen Ai Ogura yer aldi.<br><br>Günün en sarsici haberi, Marc Marquez’den geldi. Yariş esnasinda geçirdiği şiddetli kaza sonrasi pist kenarina alinan Marquez’in, yapilan ilk kontrollerinde ayağinda kirik tespit edildiği açiklandi. Ameliyat masasina yatacak olan Ispanyol pilotun, takvimin bir sonraki duraği olan Barselona’daki yarişi kaçiracaği kesinleşti. Marquez cephesinde bu kayip yaşanirken, garajin diğer tarafinda da hüzün hakimdi; Francesco Bagnaia, podyum mücadelesi verdiği son turlarda attiği talihsiz spin ile yariş dişi kalarak şampiyonluk yolunda kritik puanlar kaybetti.<br><br>Öte yandan, Türk motor sporlari tutkunlarini heyecanlandiran bir performans da Toprak Razgatlıoğlu’ndan geldi. Zorlu Le Mans pistinde damali bayraği 13. sirada görmeyi başaran Toprak, hem bu sezonki en iyi derecesine imza atti hem de Amerika Austin’den sonra bir kez daha puan barajinin içinde kalarak klasmandaki yerini sağlamlaştirdi. Toprak'in bu istikrarli yükselişi, gelecek yarişlar için umut vadederken, Le Mans GP’si hem zaferlerin hem de büyük kayiplarin yaşandiği unutulmaz bir hafta sonu olarak kayitlara geçti.",
                 "img": "Resimler/MotoGP Haberler/Jorge Martin.png"
             },
             {
                 "id": 8,
-                "title": "DUCATI KARARINI VERDİ: MARC MÁRQUEZ’İN YERİNE ŞİMDİLİK BAŞKA BİR SÜRÜCÜ GETİRİLMEYECEK!",
+                "title": "DUCATI KARARINI VERDI: MARC MÁRQUEZ’IN YERINE ŞIMDILIK BAŞKA BIR SÜRÜCÜ GETIRILMEYECEK!",
                 "cat": "motogp",
                 "date": "2026-05-13 15:00",
                 "author": "Yusuf Yol",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png",
-                "content": "MotoGP’de şampiyonluk mücadelesi veren Marc Marquez’in Fransa GP hafta sonunda yaşadığı talihsizlik, Ducati Lenovo Team’in planlarını değiştirdi. Le Mans’daki sprint yarışında geçirdiği sert kaza sonrası sağ ayağında kırık tespit edilen İspanyol yıldız, başarılı bir ameliyat süreci geçirmesine rağmen pistlerden bir süre uzak kalacak. Gözler Marquez'in yerine kimin geçeceğine çevrilmişken, İtalyan üretici radikal bir kararla Barcelona’daki Katalonya GP’de sadece Francesco Bagnaia ile yarışacağını duyurdu.<br><br>Ducati yönetiminden yapılan açıklamada, mevcut koşullar altında Marquez’in yerine geçici bir sürücü getirilmesinin planlanmadığı ve ekibin tüm odağının son şampiyon Bagnaia üzerinde olacağı belirtildi. Ancak bu kararın şimdilik 'geçici' olduğu da vurgulanan detaylar arasında. Eğer Marquez’in iyileşme süreci öngörülenden daha uzun sürerse, sezonun geri kalanında Ducati koltuğu için farklı isimlerin kapısının çalınabileceği belirtiliyor. Motor sporları dünyası, yedi kez dünya şampiyonunun ne zaman sahalara döneceğini ve Ducati’nin tek tabanca kalacağı bu kritik virajı nasıl döneceğini merakla bekliyor.",
-                "img": "Resimler/MotoGP Haberler/Marc Marquez Sakatlık.png"
+                "authorImg": "Resimler/Haber Yazari Fotoğraflari/Yusuf Yol.png",
+                "content": "MotoGP’de şampiyonluk mücadelesi veren Marc Marquez’in Fransa GP hafta sonunda yaşadiği talihsizlik, Ducati Lenovo Team’in planlarini değiştirdi. Le Mans’daki sprint yarişinda geçirdiği sert kaza sonrasi sağ ayağinda kirik tespit edilen Ispanyol yildiz, başarili bir ameliyat süreci geçirmesine rağmen pistlerden bir süre uzak kalacak. Gözler Marquez'in yerine kimin geçeceğine çevrilmişken, Italyan üretici radikal bir kararla Barcelona’daki Katalonya GP’de sadece Francesco Bagnaia ile yarişacağini duyurdu.<br><br>Ducati yönetiminden yapilan açiklamada, mevcut koşullar altinda Marquez’in yerine geçici bir sürücü getirilmesinin planlanmadiği ve ekibin tüm odağinin son şampiyon Bagnaia üzerinde olacaği belirtildi. Ancak bu kararin şimdilik 'geçici' olduğu da vurgulanan detaylar arasinda. Eğer Marquez’in iyileşme süreci öngörülenden daha uzun sürerse, sezonun geri kalaninda Ducati koltuğu için farkli isimlerin kapisinin çalinabileceği belirtiliyor. Motor sporlari dünyasi, yedi kez dünya şampiyonunun ne zaman sahalara döneceğini ve Ducati’nin tek tabanca kalacaği bu kritik viraji nasil döneceğini merakla bekliyor.",
+                "img": "Resimler/MotoGP Haberler/Marc Marquez Sakatlik.png"
             },
             {
                 "id": 9,
-                "title": "KATALONYA’DA 1. SERBEST ANTRENMAN TAMAMLANDI: ÁLEX MÁRQUEZ ZİRVEDE!",
+                "title": "KATALONYA’DA 1. SERBEST ANTRENMAN TAMAMLANDI: ÁLEX MÁRQUEZ ZIRVEDE!",
                 "cat": "motogp",
                 "date": "2026-05-15 13:30",
                 "author": "Emre Boz",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Emre Boz.png",
-                "content": "Katalonya’daki ilk serbest antrenman seansı tamamlandı. MotoGP’de hafta sonunun ilk resmi seansında en hızlı isim Alex Marquez oldu.<br><br>Seans sırasında Jorge Martin ve Pedro Acosta kaza yaşadı. Jorge Martin’in kazasının ardından kısa süreli bir sarsıntı yaşadığı görülse de sağlık durumunun iyi olduğu belirtildi.<br><br>Seansın temposunu belirleyen Alex Marquez, attığı hızlı turla ilk antrenman seansını zirvede tamamlamayı başardı.<br><br>Hava sıcaklığının ideal seviyelerin altında olması sürücülerin piste adapte olmasını zorlaştırırken, temsilcimiz Toprak Razgatlıoğlu seansı 22. sırada noktaladı.<br><br>MotoGP’de Katalonya hafta sonu bugün TSİ 16.00’da gerçekleştirilecek Antrenman Seansı ile devam edecek.",
+                "authorImg": "Resimler/Haber Yazari Fotoğraflari/Emre Boz.png",
+                "content": "Katalonya’daki ilk serbest antrenman seansi tamamlandi. MotoGP’de hafta sonunun ilk resmi seansinda en hizli isim Alex Marquez oldu.<br><br>Seans sirasinda Jorge Martin ve Pedro Acosta kaza yaşadi. Jorge Martin’in kazasinin ardindan kisa süreli bir sarsinti yaşadiği görülse de sağlik durumunun iyi olduğu belirtildi.<br><br>Seansin temposunu belirleyen Alex Marquez, attiği hizli turla ilk antrenman seansini zirvede tamamlamayi başardi.<br><br>Hava sicakliğinin ideal seviyelerin altinda olmasi sürücülerin piste adapte olmasini zorlaştirirken, temsilcimiz Toprak Razgatlıoğlu seansi 22. sirada noktaladi.<br><br>MotoGP’de Katalonya hafta sonu bugün TSI 16.00’da gerçekleştirilecek Antrenman Seansi ile devam edecek.",
                 "img": "Resimler/MotoGP Haberler/Alex Barcelona.png"
             },
             {
                 "id": 10,
-                "title": "KATALONYA’DA ANTRENMAN SEANSI TAMAMLANDI: PEDRO ACOSTA LİDER, İKİ YAMAHA DOĞRUDAN Q2’DE!",
+                "title": "KATALONYA’DA ANTRENMAN SEANSI TAMAMLANDI: PEDRO ACOSTA LIDER, IKI YAMAHA DOĞRUDAN Q2’DE!",
                 "cat": "motogp",
                 "date": "2026-05-15 17:00",
                 "author": "Emre Boz",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Emre Boz.png",
-                "content": "Katalonya’daki Antrenman Seansı tamamlandı. Günün en hızlı ismi Pedro Acosta olurken, seans sonunda doğrudan Q2’ye kalan isimler de belli oldu.<br><br>Pramac Yamaha pilotu Jack Miller seansı 9. sırada tamamlarken, Yamaha’nın fabrika pilotu Fabio Quartararo ise 10. sırayı aldı. Böylece her iki sürücü de doğrudan Q2’ye kalmaya hak kazandı.<br><br>Temsilcimiz Toprak Razgatlıoğlu ise seansı 19. sırada tamamladı.<br><br>MotoGP’de Katalonya hafta sonu yarın gerçekleştirilecek sıralama turları ve sprint yarışıyla devam edecek.",
+                "authorImg": "Resimler/Haber Yazari Fotoğraflari/Emre Boz.png",
+                "content": "Katalonya’daki Antrenman Seansi tamamlandi. Günün en hizli ismi Pedro Acosta olurken, seans sonunda doğrudan Q2’ye kalan isimler de belli oldu.<br><br>Pramac Yamaha pilotu Jack Miller seansi 9. sirada tamamlarken, Yamaha’nin fabrika pilotu Fabio Quartararo ise 10. sirayi aldi. Böylece her iki sürücü de doğrudan Q2’ye kalmaya hak kazandi.<br><br>Temsilcimiz Toprak Razgatlıoğlu ise seansi 19. sirada tamamladi.<br><br>MotoGP’de Katalonya hafta sonu yarin gerçekleştirilecek siralama turlari ve sprint yarişiyla devam edecek.",
                 "img": "Resimler/MotoGP Haberler/Pedro Acosta.png"
             }
         ],
         "pilots": [
             {
                 "id": "bagnaia",
-                "name": "Francesco Bagnaıa #63",
+                "name": "Francesco Bagnaia #63",
                 "team": "Ducati Lenovo Team",
                 "titles": 2,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Francesco Bagnaia.png"
+                "img": "Resimler/MotoGP Pilot ve Takimlar/Francesco Bagnaia.png"
             },
             {
                 "id": "marquez_m",
                 "name": "Marc Márquez #93",
                 "team": "Ducati Lenovo Team",
                 "titles": 7,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Marc Marquez.png"
+                "img": "Resimler/MotoGP Pilot ve Takimlar/Marc Marquez.png"
             },
             {
                 "id": "martin",
                 "name": "Jorge Martín #89",
                 "team": "Aprilia Racing",
                 "titles": 1,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Jorge Martin.png"
+                "img": "Resimler/MotoGP Pilot ve Takimlar/Jorge Martin.png"
             },
             {
                 "id": "bezzecchi",
-                "name": "Marco Bezzecchı #72",
+                "name": "Marco Bezzecchi #72",
                 "team": "Aprilia Racing",
                 "titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Marco Bezzecchi.png"
+                "img": "Resimler/MotoGP Pilot ve Takimlar/Marco Bezzecchi.png"
             },
             {
                 "id": "acosta",
                 "name": "Pedro Acosta #37",
                 "team": "Red Bull KTM Factory Racing",
                 "titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Pedro Acosta.png"
+                "img": "Resimler/MotoGP Pilot ve Takimlar/Pedro Acosta.png"
             },
             {
                 "id": "binder",
-                "name": "Brad Bınder #33",
+                "name": "Brad Binder #33",
                 "team": "Red Bull KTM Factory Racing",
                 "titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Brad Binder.png"
+                "img": "Resimler/MotoGP Pilot ve Takimlar/Brad Binder.png"
             },
             {
                 "id": "bastianini",
-                "name": "Enea Bastıanını #23",
+                "name": "Enea Bastianini #23",
                 "team": "Red Bull KTM Tech3",
                 "titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Enea Bastianini.png"
+                "img": "Resimler/MotoGP Pilot ve Takimlar/Enea Bastianini.png"
             },
             {
                 "id": "vinales",
-                "name": "Maverıck Vıñales #12",
+                "name": "Maverick Viñales #12",
                 "team": "Red Bull KTM Tech3",
                 "titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Maverick Vinales.png"
+                "img": "Resimler/MotoGP Pilot ve Takimlar/Maverick Vinales.png"
             },
             {
                 "id": "quartararo",
-                "name": "Fabıo Quartararo #20",
+                "name": "Fabio Quartararo #20",
                 "team": "Monster Energy Yamaha MotoGP",
                 "titles": 1,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Fabio Quartararo.png"
+                "img": "Resimler/MotoGP Pilot ve Takimlar/Fabio Quartararo.png"
             },
             {
                 "id": "rins",
-                "name": "Alex Rıns #42",
+                "name": "Alex Rins #42",
                 "team": "Monster Energy Yamaha MotoGP",
                 "titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Alex Rins.png"
+                "img": "Resimler/MotoGP Pilot ve Takimlar/Alex Rins.png"
             },
             {
                 "id": "miller",
-                "name": "Jack Mıller #43",
+                "name": "Jack Miller #43",
                 "team": "Prima Pramac Yamaha MotoGP",
                 "titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Jack Miller.png"
+                "img": "Resimler/MotoGP Pilot ve Takimlar/Jack Miller.png"
             },
             {
                 "id": "marquez_a",
                 "name": "Alex Márquez #73",
                 "team": "BK8 Gresini Racing MotoGP",
                 "titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Alex Marquez.png"
+                "img": "Resimler/MotoGP Pilot ve Takimlar/Alex Marquez.png"
             },
             {
                 "id": "aldeguer",
                 "name": "Fermín Aldeguer #54",
                 "team": "BK8 Gresini Racing MotoGP",
                 "titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Fermin Aldeguer.png"
+                "img": "Resimler/MotoGP Pilot ve Takimlar/Fermin Aldeguer.png"
             },
             {
                 "id": "diggia",
-                "name": "Fabıo Dı Gıannantonıo #49",
+                "name": "Fabio Di Giannantonio #49",
                 "team": "Pertamina Enduro VR46",
                 "titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Fabio Di Giannantonio.png"
+                "img": "Resimler/MotoGP Pilot ve Takimlar/Fabio Di Giannantonio.png"
             },
             {
                 "id": "morbidelli",
-                "name": "Franco Morbıdellı #21",
+                "name": "Franco Morbidelli #21",
                 "team": "Pertamina Enduro VR46",
                 "titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Franco Morbidelli.png"
+                "img": "Resimler/MotoGP Pilot ve Takimlar/Franco Morbidelli.png"
             },
             {
                 "id": "marini",
-                "name": "Luca Marını #10",
+                "name": "Luca Marini #10",
                 "team": "Repsol Honda Team",
                 "titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Luca Marini.png"
+                "img": "Resimler/MotoGP Pilot ve Takimlar/Luca Marini.png"
             },
             {
                 "id": "mir",
-                "name": "Joan Mır #36",
+                "name": "Joan Mir #36",
                 "team": "Repsol Honda Team",
                 "titles": 1,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Joan Mir.png"
+                "img": "Resimler/MotoGP Pilot ve Takimlar/Joan Mir.png"
             },
             {
                 "id": "zarco",
                 "name": "Johann Zarco #5",
                 "team": "Castrol Honda LCR",
                 "titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Johann Zarco.png"
+                "img": "Resimler/MotoGP Pilot ve Takimlar/Johann Zarco.png"
             },
             {
                 "id": "moreira",
-                "name": "Dıogo Moreıra #11",
+                "name": "Diogo Moreira #11",
                 "team": "Castrol Honda LCR",
                 "titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Diogo Moreira.png"
+                "img": "Resimler/MotoGP Pilot ve Takimlar/Diogo Moreira.png"
             },
             {
                 "id": "raul",
                 "name": "Raul Fernández #25",
                 "team": "Trackhouse Racing",
                 "titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Raul Fernandez.png"
+                "img": "Resimler/MotoGP Pilot ve Takimlar/Raul Fernandez.png"
             },
             {
                 "id": "ogura",
-                "name": "Aı Ogura #79",
+                "name": "Ai Ogura #79",
                 "team": "Trackhouse Racing",
                 "titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Ai Ogura.png"
+                "img": "Resimler/MotoGP Pilot ve Takimlar/Ai Ogura.png"
             },
             {
                 "id": "toprak",
                 "name": "Toprak Razgatlıoğlu #7",
                 "team": "Prima Pramac Yamaha MotoGP",
                 "titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Toprak Razgatlıoğlu.png"
+                "img": "Resimler/MotoGP Pilot ve Takimlar/Toprak Razgatlıoğlu.png"
             }
         ],
         "teams": [
             {
                 "id": "ducati",
-                "name": "Ducatı Lenovo Team",
+                "name": "Ducati Lenovo Team",
                 "team titles": 5,
                 "constructor titles": 7,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Ducati.png"
+                "img": "Resimler/MotoGP Pilot ve Takimlar/Ducati.png"
             },
             {
                 "id": "aprilia",
-                "name": "Aprılıa Racıng",
+                "name": "Aprilia Racing",
                 "team titles": 0,
                 "constructor titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Aprilia.png"
+                "img": "Resimler/MotoGP Pilot ve Takimlar/Aprilia.png"
             },
             {
                 "id": "ktm",
-                "name": "Red Bull KTM Factory Racıng",
+                "name": "Red Bull KTM Factory Racing",
                 "team titles": 0,
                 "constructor titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/KTM.png"
+                "img": "Resimler/MotoGP Pilot ve Takimlar/KTM.png"
             },
             {
                 "id": "tech3",
                 "name": "Red Bull KTM Tech3",
                 "team titles": 0,
                 "constructor titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Tech3.png"
+                "img": "Resimler/MotoGP Pilot ve Takimlar/Tech3.png"
             },
             {
                 "id": "yamaha",
                 "name": "Monster Energy Yamaha MotoGP",
                 "team titles": 7,
                 "constructor titles": 18,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Monster Yamaha.png"
+                "img": "Resimler/MotoGP Pilot ve Takimlar/Monster Yamaha.png"
             },
             {
                 "id": "pramac",
-                "name": "Prıma Pramac Yamaha MotoGP",
+                "name": "Prima Pramac Yamaha MotoGP",
                 "team titles": 1,
                 "constructor titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Pramac Yamaha.png"
+                "img": "Resimler/MotoGP Pilot ve Takimlar/Pramac Yamaha.png"
             },
             {
                 "id": "gresini",
-                "name": "BK8 Gresını Racıng MotoGP",
+                "name": "BK8 Gresini Racing MotoGP",
                 "team titles": 0,
                 "constructor titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Gresini.png"
+                "img": "Resimler/MotoGP Pilot ve Takimlar/Gresini.png"
             },
             {
                 "id": "vr46",
-                "name": "Pertamına Enduro VR46",
+                "name": "Pertamina Enduro VR46",
                 "team titles": 0,
                 "constructor titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/VR46.png"
+                "img": "Resimler/MotoGP Pilot ve Takimlar/VR46.png"
             },
             {
                 "id": "honda",
                 "name": "Repsol Honda Team",
                 "team titles": 10,
                 "constructor titles": 25,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Repsol Honda.png"
+                "img": "Resimler/MotoGP Pilot ve Takimlar/Repsol Honda.png"
             },
             {
                 "id": "lcr",
                 "name": "Castrol Honda LCR",
                 "team titles": 0,
                 "constructor titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Honda LCR.png"
+                "img": "Resimler/MotoGP Pilot ve Takimlar/Honda LCR.png"
             },
             {
                 "id": "trackhouse",
-                "name": "Trackhouse Racıng",
+                "name": "Trackhouse Racing",
                 "team titles": 0,
                 "constructor titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Trackhouse.png"
+                "img": "Resimler/MotoGP Pilot ve Takimlar/Trackhouse.png"
             }
         ],
         "calendar": [
@@ -4192,34 +4192,34 @@ const APP_DATA = {
                 "date": "27 Şubat-1 Mart",
                 "track": "Buriram",
                 "isoDate": "2026-03-01",
-                "status": "Tamamlandı",
+                "status": "Tamamlandi",
                 "sessions": [
                     {
-                        "name": "Salı: 1. Antrenman",
+                        "name": "Sali: 1. Antrenman",
                         "time": "06:45"
                     },
                     {
-                        "name": "Salı: Antrenman Seansı",
+                        "name": "Sali: Antrenman Seansi",
                         "time": "11:00"
                     },
                     {
-                        "name": "Çarşamba: Sıralama Turları 1",
+                        "name": "Çarşamba: Siralama Turlari 1",
                         "time": "06:50"
                     },
                     {
-                        "name": "Çarşamba: Sıralama Turları 2",
+                        "name": "Çarşamba: Siralama Turlari 2",
                         "time": "11:00"
                     },
                     {
-                        "name": "Çarşamba: Sprint Yarışı",
+                        "name": "Çarşamba: Sprint Yarişi",
                         "time": "11:00"
                     },
                     {
-                        "name": "Cuma: Isınma Turları",
+                        "name": "Cuma: Isinma Turlari",
                         "time": "06:40"
                     },
                     {
-                        "name": "Cuma: Yarış",
+                        "name": "Cuma: Yariş",
                         "time": "11:00"
                     }
                 ]
@@ -4231,38 +4231,38 @@ const APP_DATA = {
                 "date": "18-20 Mart",
                 "track": "Goiania",
                 "isoDate": "2026-03-20",
-                "status": "Tamamlandı",
+                "status": "Tamamlandi",
                 "sessions": [
                     {
                         "name": "Cuma: 1. Antrenman",
                         "time": "18:05"
                     },
                     {
-                        "name": "Cuma: Ana Antrenman Seansı",
+                        "name": "Cuma: Ana Antrenman Seansi",
                         "time": "22:00"
                     },
                     {
-                        "name": "Cumartesi: 2.Antrenman Seansı",
+                        "name": "Cumartesi: 2.Antrenman Seansi",
                         "time": "16:10"
                     },
                     {
-                        "name": "Cumartesi: Sıralama Turları 1",
+                        "name": "Cumartesi: Siralama Turlari 1",
                         "time": "16:50"
                     },
                     {
-                        "name": "Cumartesi: Sıralama Turları 2",
+                        "name": "Cumartesi: Siralama Turlari 2",
                         "time": "17:15"
                     },
                     {
-                        "name": "Cumartesi: Sprint Yarışı",
+                        "name": "Cumartesi: Sprint Yarişi",
                         "time": "22:20"
                     },
                     {
-                        "name": "Pazar: Isınma Turları",
+                        "name": "Pazar: Isinma Turlari",
                         "time": "16:40"
                     },
                     {
-                        "name": "Pazar: Yarış",
+                        "name": "Pazar: Yariş",
                         "time": "21:00"
                     }
                 ]
@@ -4274,38 +4274,38 @@ const APP_DATA = {
                 "date": "27-29 Mart",
                 "track": "Austin",
                 "isoDate": "2026-03-29",
-                "status": "Tamamlandı",
+                "status": "Tamamlandi",
                 "sessions": [
                     {
                         "name": "Pazartesi: 1. Antrenman",
                         "time": "18:45"
                     },
                     {
-                        "name": "Pazartesi: Ana Antrenman Seansı",
+                        "name": "Pazartesi: Ana Antrenman Seansi",
                         "time": "23:00"
                     },
                     {
-                        "name": "Salı: 2.Antrenman Seansı",
+                        "name": "Sali: 2.Antrenman Seansi",
                         "time": "18:10"
                     },
                     {
-                        "name": "Salı: Sıralama Turları 1",
+                        "name": "Sali: Siralama Turlari 1",
                         "time": "18:50"
                     },
                     {
-                        "name": "Salı: Sıralama Turları 2",
+                        "name": "Sali: Siralama Turlari 2",
                         "time": "18:15"
                     },
                     {
-                        "name": "Salı: Sprint Yarışı",
+                        "name": "Sali: Sprint Yarişi",
                         "time": "23:10"
                     },
                     {
-                        "name": "Çarşamba: Isınma Turları",
+                        "name": "Çarşamba: Isinma Turlari",
                         "time": "18:40"
                     },
                     {
-                        "name": "Çarşamba: Yarış",
+                        "name": "Çarşamba: Yariş",
                         "time": "23:00"
                     }
                 ]
@@ -4313,42 +4313,42 @@ const APP_DATA = {
             {
                 "round": 4,
                 "gp": "Spanish Grand Prix",
-                "country": "İspanya",
+                "country": "Ispanya",
                 "date": "24-26 Nisan",
                 "track": "Jerez – Ángel Nieto",
                 "isoDate": "2026-04-26",
-                "status": "Tamamlandı",
+                "status": "Tamamlandi",
                 "sessions": [
                     {
                         "name": "Cuma: 1. Antrenman",
                         "time": "11:45"
                     },
                     {
-                        "name": "Cuma: Ana Antrenman Seansı",
+                        "name": "Cuma: Ana Antrenman Seansi",
                         "time": "16:00"
                     },
                     {
-                        "name": "Cumartesi: 2.Antrenman Seansı",
+                        "name": "Cumartesi: 2.Antrenman Seansi",
                         "time": "11:10"
                     },
                     {
-                        "name": "Cumartesi: Sıralama Turları 1",
+                        "name": "Cumartesi: Siralama Turlari 1",
                         "time": "11:50"
                     },
                     {
-                        "name": "Cumartesi: Sıralama Turları 2",
+                        "name": "Cumartesi: Siralama Turlari 2",
                         "time": "12:15"
                     },
                     {
-                        "name": "Cumartesi: Sprint Yarışı",
+                        "name": "Cumartesi: Sprint Yarişi",
                         "time": "16:00"
                     },
                     {
-                        "name": "Pazar: Isınma Turları",
+                        "name": "Pazar: Isinma Turlari",
                         "time": "16:40"
                     },
                     {
-                        "name": "Pazar: Yarış",
+                        "name": "Pazar: Yariş",
                         "time": "15:00"
                     }
                 ]
@@ -4357,41 +4357,41 @@ const APP_DATA = {
                 "round": 5,
                 "gp": "French Grand Prix",
                 "country": "Fransa",
-                "date": "8-10 Mayıs",
+                "date": "8-10 Mayis",
                 "track": "Le Mans",
                 "isoDate": "2026-05-10",
-                "status": "Tamamlandı",
+                "status": "Tamamlandi",
                 "sessions": [
                     {
                         "name": "Cuma: 1. Antrenman",
                         "time": "11:45"
                     },
                     {
-                        "name": "Cuma: Ana Antrenman Seansı",
+                        "name": "Cuma: Ana Antrenman Seansi",
                         "time": "16:00"
                     },
                     {
-                        "name": "Cumartesi: 2.Antrenman Seansı",
+                        "name": "Cumartesi: 2.Antrenman Seansi",
                         "time": "11:10"
                     },
                     {
-                        "name": "Cumartesi: Sıralama Turları 1",
+                        "name": "Cumartesi: Siralama Turlari 1",
                         "time": "11:50"
                     },
                     {
-                        "name": "Cumartesi: Sıralama Turları 2",
+                        "name": "Cumartesi: Siralama Turlari 2",
                         "time": "12:15"
                     },
                     {
-                        "name": "Cumartesi: Sprint Yarışı",
+                        "name": "Cumartesi: Sprint Yarişi",
                         "time": "16:00"
                     },
                     {
-                        "name": "Pazar: Isınma Turları",
+                        "name": "Pazar: Isinma Turlari",
                         "time": "10:40"
                     },
                     {
-                        "name": "Pazar: Yarış",
+                        "name": "Pazar: Yariş",
                         "time": "15:00"
                     }
                 ]
@@ -4399,42 +4399,42 @@ const APP_DATA = {
             {
                 "round": 6,
                 "gp": "Catalunya Grand Prix",
-                "country": "İspanya",
-                "date": "15-17 Mayıs",
+                "country": "Ispanya",
+                "date": "15-17 Mayis",
                 "track": "Barcelona",
                 "isoDate": "2026-05-17",
-                "status": "Tamamlandı",
+                "status": "Tamamlandi",
                 "sessions": [
                     {
                         "name": "Cuma: 1. Antrenman",
                         "time": "11:45"
                     },
                     {
-                        "name": "Cuma: Ana Antrenman Seansı",
+                        "name": "Cuma: Ana Antrenman Seansi",
                         "time": "16:00"
                     },
                     {
-                        "name": "Cumartesi: 2.Antrenman Seansı",
+                        "name": "Cumartesi: 2.Antrenman Seansi",
                         "time": "11:10"
                     },
                     {
-                        "name": "Cumartesi: Sıralama Turları 1",
+                        "name": "Cumartesi: Siralama Turlari 1",
                         "time": "11:50"
                     },
                     {
-                        "name": "Cumartesi: Sıralama Turları 2",
+                        "name": "Cumartesi: Siralama Turlari 2",
                         "time": "12:15"
                     },
                     {
-                        "name": "Cumartesi: Sprint Yarışı",
+                        "name": "Cumartesi: Sprint Yarişi",
                         "time": "16:00"
                     },
                     {
-                        "name": "Pazar: Isınma Turları",
+                        "name": "Pazar: Isinma Turlari",
                         "time": "10:40"
                     },
                     {
-                        "name": "Pazar: Yarış",
+                        "name": "Pazar: Yariş",
                         "time": "15:00"
                     }
                 ]
@@ -4442,42 +4442,42 @@ const APP_DATA = {
             {
                 "round": 7,
                 "gp": "Italian Grand Prix",
-                "country": "İtalya",
-                "date": "29-31 Mayıs",
+                "country": "Italya",
+                "date": "29-31 Mayis",
                 "track": "Mugello",
                 "isoDate": "2026-05-31",
-                "status": "Tamamlandı",
+                "status": "Tamamlandi",
                 "sessions": [
                     {
                         "name": "Cuma: 1. Antrenman",
                         "time": "11:45"
                     },
                     {
-                        "name": "Cuma: Ana Antrenman Seansı",
+                        "name": "Cuma: Ana Antrenman Seansi",
                         "time": "16:00"
                     },
                     {
-                        "name": "Cumartesi: 2.Antrenman Seansı",
+                        "name": "Cumartesi: 2.Antrenman Seansi",
                         "time": "11:10"
                     },
                     {
-                        "name": "Cumartesi: Sıralama Turları 1",
+                        "name": "Cumartesi: Siralama Turlari 1",
                         "time": "11:50"
                     },
                     {
-                        "name": "Cumartesi: Sıralama Turları 2",
+                        "name": "Cumartesi: Siralama Turlari 2",
                         "time": "12:15"
                     },
                     {
-                        "name": "Cumartesi: Sprint Yarışı",
+                        "name": "Cumartesi: Sprint Yarişi",
                         "time": "16:00"
                     },
                     {
-                        "name": "Pazar: Isınma Turları",
+                        "name": "Pazar: Isinma Turlari",
                         "time": "10:40"
                     },
                     {
-                        "name": "Pazar: Yarış",
+                        "name": "Pazar: Yariş",
                         "time": "15:00"
                     }
                 ]
@@ -4489,38 +4489,38 @@ const APP_DATA = {
                 "date": "05-07 Haziran",
                 "track": "Balaton Park",
                 "isoDate": "2026-06-07",
-                "status": "Tamamlandı",
+                "status": "Tamamlandi",
                 "sessions": [
                     {
                         "name": "Cuma: 1. Antrenman",
                         "time": "11:45"
                     },
                     {
-                        "name": "Cuma: Ana Antrenman Seansı",
+                        "name": "Cuma: Ana Antrenman Seansi",
                         "time": "16:00"
                     },
                     {
-                        "name": "Cumartesi: 2.Antrenman Seansı",
+                        "name": "Cumartesi: 2.Antrenman Seansi",
                         "time": "11:10"
                     },
                     {
-                        "name": "Cumartesi: Sıralama Turları 1",
+                        "name": "Cumartesi: Siralama Turlari 1",
                         "time": "11:50"
                     },
                     {
-                        "name": "Cumartesi: Sıralama Turları 2",
+                        "name": "Cumartesi: Siralama Turlari 2",
                         "time": "12:15"
                     },
                     {
-                        "name": "Cumartesi: Sprint Yarışı",
+                        "name": "Cumartesi: Sprint Yarişi",
                         "time": "16:00"
                     },
                     {
-                        "name": "Pazar: Isınma Turları",
+                        "name": "Pazar: Isinma Turlari",
                         "time": "10:40"
                     },
                     {
-                        "name": "Pazar: Yarış",
+                        "name": "Pazar: Yariş",
                         "time": "15:00"
                     }
                 ]
@@ -4532,38 +4532,38 @@ const APP_DATA = {
                 "date": "19-21 Haziran",
                 "track": "Brno",
                 "isoDate": "2026-06-21",
-                "status": "Tamamlandı",
+                "status": "Tamamlandi",
                 "sessions": [
                     {
                         "name": "Cuma: 1. Antrenman",
                         "time": "11:45"
                     },
                     {
-                        "name": "Cuma: Ana Antrenman Seansı",
+                        "name": "Cuma: Ana Antrenman Seansi",
                         "time": "16:00"
                     },
                     {
-                        "name": "Cumartesi: 2.Antrenman Seansı",
+                        "name": "Cumartesi: 2.Antrenman Seansi",
                         "time": "11:10"
                     },
                     {
-                        "name": "Cumartesi: Sıralama Turları 1",
+                        "name": "Cumartesi: Siralama Turlari 1",
                         "time": "11:50"
                     },
                     {
-                        "name": "Cumartesi: Sıralama Turları 2",
+                        "name": "Cumartesi: Siralama Turlari 2",
                         "time": "12:15"
                     },
                     {
-                        "name": "Cumartesi: Sprint Yarışı",
+                        "name": "Cumartesi: Sprint Yarişi",
                         "time": "16:00"
                     },
                     {
-                        "name": "Pazar: Isınma Turları",
+                        "name": "Pazar: Isinma Turlari",
                         "time": "10:40"
                     },
                     {
-                        "name": "Pazar: Yarış",
+                        "name": "Pazar: Yariş",
                         "time": "15:00"
                     }
                 ]
@@ -4575,38 +4575,38 @@ const APP_DATA = {
                 "date": "26-28 Haziran",
                 "track": "Assen",
                 "isoDate": "2026-06-28",
-                "status": "Tamamlandı",
+                "status": "Tamamlandi",
                 "sessions": [
                     {
                         "name": "Cuma: 1. Antrenman",
                         "time": "11:45"
                     },
                     {
-                        "name": "Cuma: Ana Antrenman Seansı",
+                        "name": "Cuma: Ana Antrenman Seansi",
                         "time": "16:00"
                     },
                     {
-                        "name": "Cumartesi: 2.Antrenman Seansı",
+                        "name": "Cumartesi: 2.Antrenman Seansi",
                         "time": "11:10"
                     },
                     {
-                        "name": "Cumartesi: Sıralama Turları 1",
+                        "name": "Cumartesi: Siralama Turlari 1",
                         "time": "11:50"
                     },
                     {
-                        "name": "Cumartesi: Sıralama Turları 2",
+                        "name": "Cumartesi: Siralama Turlari 2",
                         "time": "12:15"
                     },
                     {
-                        "name": "Cumartesi: Sprint Yarışı",
+                        "name": "Cumartesi: Sprint Yarişi",
                         "time": "16:00"
                     },
                     {
-                        "name": "Pazar: Isınma Turları",
+                        "name": "Pazar: Isinma Turlari",
                         "time": "10:40"
                     },
                     {
-                        "name": "Pazar: Yarış",
+                        "name": "Pazar: Yariş",
                         "time": "15:00"
                     }
                 ]
@@ -4618,38 +4618,38 @@ const APP_DATA = {
                 "date": "10-12 Temmuz",
                 "track": "Sachsenring",
                 "isoDate": "2026-07-12",
-                "status": "Tamamlandı",
+                "status": "Tamamlandi",
                 "sessions": [
                     {
                         "name": "Cuma: 1. Antrenman",
                         "time": "11:45"
                     },
                     {
-                        "name": "Cuma: Ana Antrenman Seansı",
+                        "name": "Cuma: Ana Antrenman Seansi",
                         "time": "16:00"
                     },
                     {
-                        "name": "Cumartesi: 2.Antrenman Seansı",
+                        "name": "Cumartesi: 2.Antrenman Seansi",
                         "time": "11:10"
                     },
                     {
-                        "name": "Cumartesi: Sıralama Turları 1",
+                        "name": "Cumartesi: Siralama Turlari 1",
                         "time": "11:50"
                     },
                     {
-                        "name": "Cumartesi: Sıralama Turları 2",
+                        "name": "Cumartesi: Siralama Turlari 2",
                         "time": "12:15"
                     },
                     {
-                        "name": "Cumartesi: Sprint Yarışı",
+                        "name": "Cumartesi: Sprint Yarişi",
                         "time": "16:00"
                     },
                     {
-                        "name": "Pazar: Isınma Turları",
+                        "name": "Pazar: Isinma Turlari",
                         "time": "10:40"
                     },
                     {
-                        "name": "Pazar: Yarış",
+                        "name": "Pazar: Yariş",
                         "time": "15:00"
                     }
                 ]
@@ -4657,7 +4657,7 @@ const APP_DATA = {
             {
                 "round": 12,
                 "gp": "British Grand Prix",
-                "country": "Birleşik Krallık",
+                "country": "Birleşik Krallik",
                 "date": "7-9 Ağustos",
                 "track": "Silverstone",
                 "isoDate": "2026-08-09",
@@ -4668,31 +4668,31 @@ const APP_DATA = {
                         "time": "13:45"
                     },
                     {
-                        "name": "Cuma: Ana Antrenman Seansı",
+                        "name": "Cuma: Ana Antrenman Seansi",
                         "time": "18:00"
                     },
                     {
-                        "name": "Cumartesi: 2.Antrenman Seansı",
+                        "name": "Cumartesi: 2.Antrenman Seansi",
                         "time": "13:10"
                     },
                     {
-                        "name": "Cumartesi: Sıralama Turları 1",
+                        "name": "Cumartesi: Siralama Turlari 1",
                         "time": "13:50"
                     },
                     {
-                        "name": "Cumartesi: Sıralama Turları 2",
+                        "name": "Cumartesi: Siralama Turlari 2",
                         "time": "14:15"
                     },
                     {
-                        "name": "Cumartesi: Sprint Yarışı",
+                        "name": "Cumartesi: Sprint Yarişi",
                         "time": "18:00"
                     },
                     {
-                        "name": "Pazar: Isınma Turları",
+                        "name": "Pazar: Isinma Turlari",
                         "time": "11:40"
                     },
                     {
-                        "name": "Pazar: Yarış",
+                        "name": "Pazar: Yariş",
                         "time": "15:00"
                     }
                 ]
@@ -4700,7 +4700,7 @@ const APP_DATA = {
             {
                 "round": 13,
                 "gp": "Aragon Grand Prix",
-                "country": "İspanya",
+                "country": "Ispanya",
                 "date": "28-30 Ağustos",
                 "track": "Aragon",
                 "isoDate": "2026-08-30",
@@ -4755,7 +4755,7 @@ const APP_DATA = {
                 "round": 19,
                 "gp": "Malaysian Grand Prix",
                 "country": "Malezya",
-                "date": "30 Ekim-1 Kasım",
+                "date": "30 Ekim-1 Kasim",
                 "track": "Sepang",
                 "isoDate": "2026-11-01",
                 "status": "Bekliyor"
@@ -4764,7 +4764,7 @@ const APP_DATA = {
                 "round": 20,
                 "gp": "Qatar Grand Prix",
                 "country": "Katar",
-                "date": "6-8 Kasım",
+                "date": "6-8 Kasim",
                 "track": "Lusail",
                 "isoDate": "2026-11-08",
                 "status": "Bekliyor"
@@ -4773,7 +4773,7 @@ const APP_DATA = {
                 "round": 21,
                 "gp": "Portuguese Grand Prix",
                 "country": "Portekiz",
-                "date": "20-22 Kasım",
+                "date": "20-22 Kasim",
                 "track": "Portimao",
                 "isoDate": "2026-11-22",
                 "status": "Bekliyor"
@@ -4781,8 +4781,8 @@ const APP_DATA = {
             {
                 "round": 22,
                 "gp": "Valencia Grand Prix",
-                "country": "İspanya",
-                "date": "27-29 Kasım",
+                "country": "Ispanya",
+                "date": "27-29 Kasim",
                 "track": "Valencia",
                 "isoDate": "2026-11-29",
                 "status": "Bekliyor"
@@ -6599,7 +6599,7 @@ const APP_DATA = {
                 },
                 {
                     "pos": 11,
-                    "pilot": "Toprak Razgatlıoglu #7",
+                    "pilot": "Toprak RazgatıoÄŸlu #7",
                     "team": "Prima Pramac Yamaha MotoGP",
                     "time": "43'20.460",
                     "gap": "+25.135",
@@ -6876,7 +6876,7 @@ const APP_DATA = {
                 },
                 {
                     "pos": 14,
-                    "pilot": "Toprak Razgatlıoglu #7",
+                    "pilot": "Toprak RazgatıoÄŸlu #7",
                     "team": "Prima Pramac Yamaha MotoGP",
                     "time": "40'17.103",
                     "gap": "+25.806",
@@ -7153,7 +7153,7 @@ const APP_DATA = {
                 },
                 {
                     "pos": "DNF",
-                    "pilot": "Toprak Razgatlıoglu #7",
+                    "pilot": "Toprak RazgatıoÄŸlu #7",
                     "team": "Prima Pramac Yamaha MotoGP",
                     "time": "20'52.183",
                     "gap": "+13 Tur",
@@ -7656,32 +7656,32 @@ const APP_DATA = {
                 "title": "SAO PAULO 6 SAATTE POLE CADILLAC'IN!",
                 "cat": "haberler",
                 "date": "2026-07-12 01:27",
-                "content": "FIA Dünya Dayanıklılık Şampiyonası’nın (WEC) heyecan dolu ayaklarından biri olan São Paulo 6 Saat yarışı için sıralama turları tamamlandı ve Interlagos pistinde start alacak dev mücadele öncesinde grid netleşti. Brezilya'da gerçekleştirilen Hyperpole seansında adeta nefesler tutuldu. Sıralama turlarının son anlarında muazzam bir tur çıkaran Cadillac Hertz Team JOTA ekibi, en ön sırayı kapatarak rakiplerine gözdağı verdi. Dev yarış bugün Türkiye saati ile 17:30’da yeşil ışıkların yanmasıyla başlayacak.<br><br>Hypercar kategorisinde pole pozisyonunun sahibi, 1:23.041'lik derecesiyle #12 numaralı Cadillac Hertz Team JOTA oldu. Direksiyonda Will Stevens'ın harikalar yarattığı araç, takımın diğer aracı olan #38 numaralı Cadillac'ı sadece 0.048 saniye gibi saliselik bir farkla geride bırakarak ilk sırayı kaptı. Böylece Cadillac ekibi São Paulo’da ilk iki sırayı kilitleyerek yarışa çok büyük bir avantajla başlama hakkı elde etti. LMGT3 kategorisinde ise pole pozisyonu Heart of Racing takımının #23 numaralı Aston Martin Vantage aracının oldu.<br><br>Dünyanın en prestijli dayanıklılık yarışında gözlerimiz ve kalbimiz ise her zaman olduğu gibi pistteki gururlarımız, milli temsilcilerimizin üzerinde olacak. LMGT3 sınıfında ülkemizi başarıyla temsil eden pilotlarımızdan Salih Yoluç ve takımı Racing Team Turkey, sıralama turlarında sergiledikleri performansın ardından yarışa 10. sıradan başlama hakkı elde etti. Aynı kategorideki diğer başarılı temsilcimiz Ayhancan Güven ve takımı Manthey ise gridin 11. sırasından start alarak podyuma doğru tırmanma mücadelesi verecekler. 6 saat sürecek bu uzun ve stratejik dayanıklılık savaşında her iki pilotumuza da Interlagos pistinde başarılar diliyoruz!",
+                "content": "FIA Dünya Dayaniklilik Şampiyonasi’nin (WEC) heyecan dolu ayaklarindan biri olan São Paulo 6 Saat yarişi için siralama turlari tamamlandi ve Interlagos pistinde start alacak dev mücadele öncesinde grid netleşti. Brezilya'da gerçekleştirilen Hyperpole seansinda adeta nefesler tutuldu. Siralama turlarinin son anlarinda muazzam bir tur çikaran Cadillac Hertz Team JOTA ekibi, en ön sirayi kapatarak rakiplerine gözdaği verdi. Dev yariş bugün Türkiye saati ile 17:30’da yeşil işiklarin yanmasiyla başlayacak.<br><br>Hypercar kategorisinde pole pozisyonunun sahibi, 1:23.041'lik derecesiyle #12 numarali Cadillac Hertz Team JOTA oldu. Direksiyonda Will Stevens'in harikalar yarattiği araç, takimin diğer araci olan #38 numarali Cadillac'i sadece 0.048 saniye gibi saliselik bir farkla geride birakarak ilk sirayi kapti. Böylece Cadillac ekibi São Paulo’da ilk iki sirayi kilitleyerek yarişa çok büyük bir avantajla başlama hakki elde etti. LMGT3 kategorisinde ise pole pozisyonu Heart of Racing takiminin #23 numarali Aston Martin Vantage aracinin oldu.<br><br>Dünyanin en prestijli dayaniklilik yarişinda gözlerimiz ve kalbimiz ise her zaman olduğu gibi pistteki gururlarimiz, milli temsilcilerimizin üzerinde olacak. LMGT3 sinifinda ülkemizi başariyla temsil eden pilotlarimizdan Salih Yoluç ve takimi Racing Team Turkey, siralama turlarinda sergiledikleri performansin ardindan yarişa 10. siradan başlama hakki elde etti. Ayni kategorideki diğer başarili temsilcimiz Ayhancan Güven ve takimi Manthey ise gridin 11. sirasindan start alarak podyuma doğru tirmanma mücadelesi verecekler. 6 saat sürecek bu uzun ve stratejik dayaniklilik savaşinda her iki pilotumuza da Interlagos pistinde başarilar diliyoruz!",
                 "img": "Resimler/Haberler/1783808817036_1000046463.jpg",
                 "author": "Yusuf Yol",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png",
+                "authorImg": "Resimler/Haber Yazari Fotoğraflari/Yusuf Yol.png",
                 "customBadge": "WEC"
             },
             {
                 "id": 96,
-                "title": "DÜNYANIN EN PRESTİJLİ DAYANIKLILIK YARIŞINDA SPA 24 SAAT HEYECANI TAMAMLANDI!",
+                "title": "DÜNYANIN EN PRESTIJLI DAYANIKLILIK YARIŞINDA SPA 24 SAAT HEYECANI TAMAMLANDI!",
                 "cat": "haberler",
                 "date": "2026-06-29 22:05",
-                "content": "Motor sporları dünyasının en köklü ve zorlu dayanıklılık mücadelelerinden biri olan CrowdStrike Spa 24 Saat yarışı, Belçika'nın ikonik Spa-Francorchamps pistinde nefes kesen anlara sahne oldu. Gün boyu değişen hava koşulları, yoğun trafik ve strateji savaşlarıyla geçen 24 saatlik maratonun ardından damalı bayrağı ilk sırada görmeyi başaran ekip, No. 80 Lionspeed GP Porsche pilotları Ricardo Feller, Thomas Preining ve Bastian Buus oldu. Motor değişimi nedeniyle yarışa pit alanından, yani gridin en arkasından başlamak zorunda kalan ekip, kusursuz pit stop stratejileri ve harika bir geri dönüş hikayesiyle podyumun zirvesine çıkmayı başardı.<br><br>24 saat boyunca liderliğin defalarca el değiştirdiği yarışta, özellikle pazar sabahı gerçekleşen üst sıra mücadeleleri izleyicilere büyük bir seyir zevki sundu. Mercedes-AMG, Ferrari, BMW ve Porsche ekiplerinin podyum için tekerlek tekerleğe verdiği amansız savaşta dayanıklılık ve minimum hata belirleyici unsurlar oldu. Eau Rouge ve Radillon gibi pistin en ikonik virajlarında yapılan cesur ataklar yarışı adeta bir taktik savaşına çevirirken, hem mekanikerlerin pit alanındaki kusursuz performansı hem de pilotların 24 saat boyunca koruduğu yüksek tempo heyecanı son saniyelere kadar zirvede tuttu.<br><br>Bu zorlu ve devasa organizasyonda göğsümüzü kabartan anlar ise gururumuz Ayhancan Güven’den geldi. #22 Schumacher CLRT Porsche direksiyonunda Matt Campbell ve Frédéric Makowiecki ile birlikte harika bir performans sergileyen temsilcimiz, yarışın favorileri arasında yer aldı. Pist üzerinde şanssız temaslar ve şasi hasarı nedeniyle zaman cezaları alarak geriye düşmelerine rağmen pes etmeyen ekip, muazzam bir geri dönüşe imza attı. Yarış boyu liderlik grubunu kovalayan ve temposuyla pistin en dikkat çeken isimlerinden biri olan Ayhancan Güven ve takımı, podyumu kıl payı kaçırarak yarışı genel klasmanda 4. sırada tamamlamayı başardı. Temsilcemiz, her zamanki gibi hızı ve agresif sürüşüyle dünya sahnesinde Türkiye'yi gururla temsil etti.",
+                "content": "Motor sporlari dünyasinin en köklü ve zorlu dayaniklilik mücadelelerinden biri olan CrowdStrike Spa 24 Saat yarişi, Belçika'nin ikonik Spa-Francorchamps pistinde nefes kesen anlara sahne oldu. Gün boyu değişen hava koşullari, yoğun trafik ve strateji savaşlariyla geçen 24 saatlik maratonun ardindan damali bayraği ilk sirada görmeyi başaran ekip, No. 80 Lionspeed GP Porsche pilotlari Ricardo Feller, Thomas Preining ve Bastian Buus oldu. Motor değişimi nedeniyle yarişa pit alanindan, yani gridin en arkasindan başlamak zorunda kalan ekip, kusursuz pit stop stratejileri ve harika bir geri dönüş hikayesiyle podyumun zirvesine çikmayi başardi.<br><br>24 saat boyunca liderliğin defalarca el değiştirdiği yarişta, özellikle pazar sabahi gerçekleşen üst sira mücadeleleri izleyicilere büyük bir seyir zevki sundu. Mercedes-AMG, Ferrari, BMW ve Porsche ekiplerinin podyum için tekerlek tekerleğe verdiği amansiz savaşta dayaniklilik ve minimum hata belirleyici unsurlar oldu. Eau Rouge ve Radillon gibi pistin en ikonik virajlarinda yapilan cesur ataklar yarişi adeta bir taktik savaşina çevirirken, hem mekanikerlerin pit alanindaki kusursuz performansi hem de pilotlarin 24 saat boyunca koruduğu yüksek tempo heyecani son saniyelere kadar zirvede tuttu.<br><br>Bu zorlu ve devasa organizasyonda göğsümüzü kabartan anlar ise gururumuz Ayhancan Güven’den geldi. #22 Schumacher CLRT Porsche direksiyonunda Matt Campbell ve Frédéric Makowiecki ile birlikte harika bir performans sergileyen temsilcimiz, yarişin favorileri arasinda yer aldi. Pist üzerinde şanssiz temaslar ve şasi hasari nedeniyle zaman cezalari alarak geriye düşmelerine rağmen pes etmeyen ekip, muazzam bir geri dönüşe imza atti. Yariş boyu liderlik grubunu kovalayan ve temposuyla pistin en dikkat çeken isimlerinden biri olan Ayhancan Güven ve takimi, podyumu kil payi kaçirarak yarişi genel klasmanda 4. sirada tamamlamayi başardi. Temsilcemiz, her zamanki gibi hizi ve agresif sürüşüyle dünya sahnesinde Türkiye'yi gururla temsil etti.",
                 "img": "Resimler/Haberler/1782759946026_1000045778.jpg",
                 "author": "Yusuf Yol",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png",
+                "authorImg": "Resimler/Haber Yazari Fotoğraflari/Yusuf Yol.png",
                 "customBadge": "SPA 24 SAAT"
             },
             {
                 "id": 85,
-                "title": "TOSFED VE KATAR OTOMOBİL FEDERASYONU ARASINDA İŞ BİRLİĞİ YAPILDI!",
+                "title": "TOSFED VE KATAR OTOMOBIL FEDERASYONU ARASINDA IŞ BIRLIĞI YAPILDI!",
                 "cat": "haberler",
                 "date": "2026-06-18 20:58",
-                "content": "Türkiye Otomobil Sporları Federasyonu (TOSFED) ile Katar Otomobil ve Motosiklet Federasyonu arasında motor sporlarının geleceğini şekillendirecek tarihi bir iş birliği protokolü imzalandı. Formula 1 ve MotoGP gibi dünyanın en prestijli dev organizasyonlarına başarıyla ev sahipliği yapmış olan Katar’ın büyük tecrübesi, bu stratejik ortaklıkla birlikte Türk motor sporlarına taşınıyor.<br><br>Anlaşma kapsamında her iki ülkenin modern pistleri ve ikonik şehirleri, uluslararası düzeyde büyük organizasyonlara ev sahipliği yapmaya hazırlanıyor.<br><br>Bu tarihi adım, sadece organizasyon düzeyinde kalmayarak pistlerde büyük bir rekabetin de fitilini ateşleyecek; Türk ve Katarlı yetenekli sürücüler, düzenlenecek ortak turnuvalarda kozlarını paylaşarak direksiyon başında yeteneklerini sergileyecekler.<br><br>Türk motor sporcularının uluslararası arenadaki görünürlüğünü ve rekabet gücünü maksimuma çıkaracak olan bu stratejik hamle, ülkemizin küresel motor sporları haritasında çok daha hızlı ve güçlü bir ivme kazanmasına öncülük edecek.",
+                "content": "Türkiye Otomobil Sporlari Federasyonu (TOSFED) ile Katar Otomobil ve Motosiklet Federasyonu arasinda motor sporlarinin geleceğini şekillendirecek tarihi bir iş birliği protokolü imzalandi. Formula 1 ve MotoGP gibi dünyanin en prestijli dev organizasyonlarina başariyla ev sahipliği yapmiş olan Katar’in büyük tecrübesi, bu stratejik ortaklikla birlikte Türk motor sporlarina taşiniyor.<br><br>Anlaşma kapsaminda her iki ülkenin modern pistleri ve ikonik şehirleri, uluslararasi düzeyde büyük organizasyonlara ev sahipliği yapmaya hazirlaniyor.<br><br>Bu tarihi adim, sadece organizasyon düzeyinde kalmayarak pistlerde büyük bir rekabetin de fitilini ateşleyecek; Türk ve Katarli yetenekli sürücüler, düzenlenecek ortak turnuvalarda kozlarini paylaşarak direksiyon başinda yeteneklerini sergileyecekler.<br><br>Türk motor sporcularinin uluslararasi arenadaki görünürlüğünü ve rekabet gücünü maksimuma çikaracak olan bu stratejik hamle, ülkemizin küresel motor sporlari haritasinda çok daha hizli ve güçlü bir ivme kazanmasina öncülük edecek.",
                 "img": "Resimler/Haberler/1781805497615_1000045152.jpg",
                 "author": "Yusuf Yol",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+                "authorImg": "Resimler/Haber Yazari Fotoğraflari/Yusuf Yol.png"
             },
             {
                 "id": 81,
@@ -7689,184 +7689,184 @@ const APP_DATA = {
                 "cat": "haberler",
                 "date": "2026-06-14 15:30",
                 "author": "Yusuf Yol",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png",
-                "content": "Dünyanın en prestijli dayanıklılık yarışı olan Le Mans 24 Saat, bu yıl da motor sporları tutkunlarına unutulmaz anlar yaşattı. Zorlu geçen 24 saatin ardından damalı bayrağı ilk sırada gören 7 numaralı Toyota takımı, muhteşem bir strateji ve dayanıklılık örneği sergileyerek podyumun zirvesine çıkmayı başardı. Yarışa pole pozisyonunda başlayarak büyük bir avantaj elde eden BMW takımı, Toyota'nın amansız baskısına direnerek yarışı ikinci sırada tamamladı. Podyumun son basamağını ise liderin takım arkadaşı olan diğer Toyota ekibi doldurarak Japon üreticiye çifte podyum sevinci yaşattı. Yarış severleri ekran başına kilitleyen bu zirve mücadelesi, son ana kadar nefes kesti.<br><br>Dünya devlerinin sahne aldığı bu dev arenada mücadele eden milli gururlarımız ise pistte karışık duygular yaşadı. LMGT3 sınıfında podyum mücadelesi veren başarılı pilotumuz Ayhancan Güven, aracının direksiyon mekanizmasında meydana gelen ani bir teknik arıza nedeniyle kontrolü kaybederek bariyerlere çarptı. Yarışta güvenlik aracının girmesine de neden olan bu şanssız kazanın ardından Ayhancan ve takımı yarış dışı (DNF) kalarak organizasyona erken veda etmek zorunda kaldı. Pistteki diğer temsilcimiz Salih Yoluç ise istikrarlı ve güçlü performansıyla göz doldurdu. Takımıyla birlikte harika bir dayanıklılık dersi veren Yoluç, zorlu rakipler arasından sıyrılarak yarışı 6. sırada bitirmeyi başardı ve ülkemizi gururlandırdı.",
+                "authorImg": "Resimler/Haber Yazari Fotoğraflari/Yusuf Yol.png",
+                "content": "Dünyanin en prestijli dayaniklilik yarişi olan Le Mans 24 Saat, bu yil da motor sporlari tutkunlarina unutulmaz anlar yaşatti. Zorlu geçen 24 saatin ardindan damali bayraği ilk sirada gören 7 numarali Toyota takimi, muhteşem bir strateji ve dayaniklilik örneği sergileyerek podyumun zirvesine çikmayi başardi. Yarişa pole pozisyonunda başlayarak büyük bir avantaj elde eden BMW takimi, Toyota'nin amansiz baskisina direnerek yarişi ikinci sirada tamamladi. Podyumun son basamağini ise liderin takim arkadaşi olan diğer Toyota ekibi doldurarak Japon üreticiye çifte podyum sevinci yaşatti. Yariş severleri ekran başina kilitleyen bu zirve mücadelesi, son ana kadar nefes kesti.<br><br>Dünya devlerinin sahne aldiği bu dev arenada mücadele eden milli gururlarimiz ise pistte karişik duygular yaşadi. LMGT3 sinifinda podyum mücadelesi veren başarili pilotumuz Ayhancan Güven, aracinin direksiyon mekanizmasinda meydana gelen ani bir teknik ariza nedeniyle kontrolü kaybederek bariyerlere çarpti. Yarişta güvenlik aracinin girmesine de neden olan bu şanssiz kazanin ardindan Ayhancan ve takimi yariş dişi (DNF) kalarak organizasyona erken veda etmek zorunda kaldi. Pistteki diğer temsilcimiz Salih Yoluç ise istikrarli ve güçlü performansiyla göz doldurdu. Takimiyla birlikte harika bir dayaniklilik dersi veren Yoluç, zorlu rakipler arasindan siyrilarak yarişi 6. sirada bitirmeyi başardi ve ülkemizi gururlandirdi.",
                 "img": "Resimler/Haberler/Toyota.png"
             },
             {
                 "id": 80,
-                "title": "LE MANS 24 SAAT YARIŞINDA AYHANCAN GÜVEN ŞANSSIZ BİR KAZA İLE YARIŞ DIŞI KALDI!",
+                "title": "LE MANS 24 SAAT YARIŞINDA AYHANCAN GÜVEN ŞANSSIZ BIR KAZA ILE YARIŞ DIŞI KALDI!",
                 "cat": "haberler",
                 "date": "2026-06-14 15:00",
                 "author": "Yusuf Yol",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png",
-                "content": "Dünyanın en prestijli ve zorlu dayanıklılık yarışlarından biri olan Le Mans 24 Saat'te ülkemizi gururla temsil eden başarılı pilotumuz Ayhancan Güven, büyük bir şanssızlık yaşadı. Yarışın zorlu şartlarında podyum mücadelesi veren ve sergilediği üstün performansla dikkatleri üzerine çeken Güven, aracın direksiyon mekanizmasında meydana gelen ani bir teknik arıza nedeniyle kontrolü kaybetti. Bu beklenmedik problem sonucunda yüksek hızda bariyerlere çarparak kaza yapan milli sporcumuz, büyük bir tehlike atlattı.<br><br>Kazanın ardından hem Ayhancan Güven'in hem de takımının yoğun çabalarına rağmen araçtaki hasarın büyüklüğü nedeniyle yarışa devam etmek mümkün olmadı. Gece gündüz demeden büyük bir emekle hazırlanan tüm takım, bu teknik talihsizliğin ardından yarış dışı (DNF) kalarak Le Mans macerasına erken veda etmek zorunda kaldı.<br><br>Teknik arızalar motor sporlarının doğasında olsa da, pistte gösterdiğin harika mücadele ve Türk bayrağını Le Mans gibi dev bir arenada dalgalandırman bizler için her zaman büyük bir gurur kaynağı. Bir sonraki yarışta çok daha güçlü döneceğine inancımız tam.",
+                "authorImg": "Resimler/Haber Yazari Fotoğraflari/Yusuf Yol.png",
+                "content": "Dünyanin en prestijli ve zorlu dayaniklilik yarişlarindan biri olan Le Mans 24 Saat'te ülkemizi gururla temsil eden başarili pilotumuz Ayhancan Güven, büyük bir şanssizlik yaşadi. Yarişin zorlu şartlarinda podyum mücadelesi veren ve sergilediği üstün performansla dikkatleri üzerine çeken Güven, aracin direksiyon mekanizmasinda meydana gelen ani bir teknik ariza nedeniyle kontrolü kaybetti. Bu beklenmedik problem sonucunda yüksek hizda bariyerlere çarparak kaza yapan milli sporcumuz, büyük bir tehlike atlatti.<br><br>Kazanin ardindan hem Ayhancan Güven'in hem de takiminin yoğun çabalarina rağmen araçtaki hasarin büyüklüğü nedeniyle yarişa devam etmek mümkün olmadi. Gece gündüz demeden büyük bir emekle hazirlanan tüm takim, bu teknik talihsizliğin ardindan yariş dişi (DNF) kalarak Le Mans macerasina erken veda etmek zorunda kaldi.<br><br>Teknik arizalar motor sporlarinin doğasinda olsa da, pistte gösterdiğin harika mücadele ve Türk bayrağini Le Mans gibi dev bir arenada dalgalandirman bizler için her zaman büyük bir gurur kaynaği. Bir sonraki yarişta çok daha güçlü döneceğine inancimiz tam.",
                 "img": "Resimler/Haberler/Le Mans Ayhancan.png"
             },
             {
                 "id": 79,
-                "title": "LE MANS 24 SAAT YARIŞINDA POLE BMW'YE GEÇTİ!",
+                "title": "LE MANS 24 SAAT YARIŞINDA POLE BMW'YE GEÇTI!",
                 "cat": "haberler",
                 "date": "2026-06-12 08:53",
-                "content": "Dünyanın en prestijli motor sporları organizasyonlarından biri olan FIA Dünya Dayanıklılık Şampiyonası'nın (WEC) zirve noktası Le Mans 24 Saat yarışında, sıralama turları tarihi anlara sahne oldu. Her bir turu tam 13.626 kilometre uzunluğunda olan efsanevi De la Sarthe Pisti'nde, pole pozisyonu mücadelesinin verildiği Hyperpole seansında adeta saliselerin savaşı yaşandı. 38 numaralı Hertz Team JOTA Cadillac pilotu Jack Aitken, son turunda en yakın rakibini sadece +0.005 saniye gibi motor sporları tarihinde eşine az rastlanır cüzi bir farkla geride bırakarak ilk sırayı elde etti. Ancak seansın ardından devreye giren yarış komiserleri, 38 numaralı Cadillac ekibine seans başında pit alanındaki prosedürlere uymadıkları gerekçesiyle ceza verdi. En hızlı tur zamanı silinen Cadillac gerilere düşerken, pole pozisyonu resmi olarak Dries Vanthoor’un direksiyonunda olduğu 15 numaralı BMW M Team WRT ekibine geçti.<br><br>Toplamda 62 aracın ve dünyanın en elit 186 pilotunun 24 saat boyunca mekanik, fiziksel ve zihinsel sınırları zorlayacağı bu devasa maratonda, gözümüz LMGT3 kategorisinde ülkemizi gururla temsil eden milli pilotlarımızda olacak. Kariyerinde ilk kez bu efsanevi yarışta boy göstermeye hazırlanan Ayhancan Güven, Manthey EMA takımıyla birlikte Porsche 911 GT3 R direksiyonunda takımı ile harika bir performans sergiledi. Yoğun trafiğe ve zorlu pist şartlarına rağmen temiz turlar atmayı başaran Manthey EMA takımı, devasa maratona 9. sıradan başlama hakkı elde ederek podyum mücadelesi için oldukça güçlü bir pozisyon kaptı.<br><br>Öte yandan, daha önce bu pistte yarışmış olan bir diğer temsilcimiz Salih Yoluç ve takımı Racing Team Turkey ekibi ise sıralama turlarında şanssız bir an yaşadı. Seans sonrası yapılan teknik kontrollerde araçta tespit edilen bir kural ihlali nedeniyle Salih Yoluç'un ekibi gridin gerisine düşürülerek yarışa 25. sıradan başlama cezası aldı. Her ne kadar gerilerden başlayacak olsa da, takımların 24 saat sonunda ortalama 5.000 kilometrenin üzerinde mesafe katettiği bu zorlu dayanıklılık testinde stratejinin, mekanik dayanıklılığın ve hatasız sürüşün önemi çok büyük.<br><br>Cumartesi günü TSİ 17.00'de başlayacak bu devasa yarışta her iki temsilcimize de şimdiden başarılar diliyoruz.",
+                "content": "Dünyanin en prestijli motor sporlari organizasyonlarindan biri olan FIA Dünya Dayaniklilik Şampiyonasi'nin (WEC) zirve noktasi Le Mans 24 Saat yarişinda, siralama turlari tarihi anlara sahne oldu. Her bir turu tam 13.626 kilometre uzunluğunda olan efsanevi De la Sarthe Pisti'nde, pole pozisyonu mücadelesinin verildiği Hyperpole seansinda adeta saliselerin savaşi yaşandi. 38 numarali Hertz Team JOTA Cadillac pilotu Jack Aitken, son turunda en yakin rakibini sadece +0.005 saniye gibi motor sporlari tarihinde eşine az rastlanir cüzi bir farkla geride birakarak ilk sirayi elde etti. Ancak seansin ardindan devreye giren yariş komiserleri, 38 numarali Cadillac ekibine seans başinda pit alanindaki prosedürlere uymadiklari gerekçesiyle ceza verdi. En hizli tur zamani silinen Cadillac gerilere düşerken, pole pozisyonu resmi olarak Dries Vanthoor’un direksiyonunda olduğu 15 numarali BMW M Team WRT ekibine geçti.<br><br>Toplamda 62 aracin ve dünyanin en elit 186 pilotunun 24 saat boyunca mekanik, fiziksel ve zihinsel sinirlari zorlayacaği bu devasa maratonda, gözümüz LMGT3 kategorisinde ülkemizi gururla temsil eden milli pilotlarimizda olacak. Kariyerinde ilk kez bu efsanevi yarişta boy göstermeye hazirlanan Ayhancan Güven, Manthey EMA takimiyla birlikte Porsche 911 GT3 R direksiyonunda takimi ile harika bir performans sergiledi. Yoğun trafiğe ve zorlu pist şartlarina rağmen temiz turlar atmayi başaran Manthey EMA takimi, devasa maratona 9. siradan başlama hakki elde ederek podyum mücadelesi için oldukça güçlü bir pozisyon kapti.<br><br>Öte yandan, daha önce bu pistte yarişmiş olan bir diğer temsilcimiz Salih Yoluç ve takimi Racing Team Turkey ekibi ise siralama turlarinda şanssiz bir an yaşadi. Seans sonrasi yapilan teknik kontrollerde araçta tespit edilen bir kural ihlali nedeniyle Salih Yoluç'un ekibi gridin gerisine düşürülerek yarişa 25. siradan başlama cezasi aldi. Her ne kadar gerilerden başlayacak olsa da, takimlarin 24 saat sonunda ortalama 5.000 kilometrenin üzerinde mesafe katettiği bu zorlu dayaniklilik testinde stratejinin, mekanik dayanikliliğin ve hatasiz sürüşün önemi çok büyük.<br><br>Cumartesi günü TSI 17.00'de başlayacak bu devasa yarişta her iki temsilcimize de şimdiden başarilar diliyoruz.",
                 "img": "Resimler/Haberler/1781243598241_1000044750.jpg",
                 "author": "Yusuf Yol",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+                "authorImg": "Resimler/Haber Yazari Fotoğraflari/Yusuf Yol.png"
             },
             {
                 "id": 71,
-                "title": "NASCAR EFSANESİ NED JARRETT 93 YAŞINDA HAYATINI KAYBETTİ!",
+                "title": "NASCAR EFSANESI NED JARRETT 93 YAŞINDA HAYATINI KAYBETTI!",
                 "cat": "haberler",
                 "date": "2026-06-06 02:49",
-                "content": "Motorsporları dünyası, tarihinin en saygın ve sevilen figürlerinden birine veda ediyor. NASCAR Cup Series’de iki kez şampiyonluk kupasını kaldıran ve pistlerdeki zarif tarzıyla \"Gentleman Ned\" (Centilmen Ned) lakabını kazanan efsanevi pilot Ned Jarrett, 93 yaşında hayata gözlerini yumdu. Hall of Fame (Şöhretler Kulübü) üyesi efsane ismin, Kuzey Karolina'daki evinde vefat ettiği belirtildi.<br><br>1961 ve 1965 yıllarında kazandığı iki büyük şampiyonluğun yanı sıra kariyerine tam 50 zafer sığdıran Jarrett, sadece direksiyon başındaki başarısıyla değil, spora kattığı vizyonla da tanınıyordu. Genç yaşta aktif yarış kariyerini noktaladıktan sonra televizyon ve radyo yayıncılığına adım atan efsane isim, mikrofondaki eşsiz anlatımıyla NASCAR’ın milyonlarca yeni taraftar kazanmasını sağladı ve sporun küresel bir fenomene dönüşmesinde en büyük elçilerden biri oldu. Jarrett'ın vefatı, motorsporları camiasında derin bir kederle karşılandı.<br><br>Bu acı kayıp, yarış dünyasında son dönemde yaşanan trajik yaprak dökümünü de yeniden akıllara getirdi. NASCAR ailesi, henüz geçtiğimiz günlerde modern dönemin en ikonik ve en çok kazanan isimlerinden biri olan 41 yaşındaki Kyle Busch’un ani ve trajik vefatının şokunu atlatamamıştı. Biri modern pistlerin hırçın rekabetçi dahisi, diğeri ise sporun altın çağının nezaket ve profesyonellik sembolü olan bu iki dev şampiyonun vedaları, motorsporları tarihinde asla doldurulamayacak devasa bir boşluk bıraktı.<br><br>NASCAR camiası ve tüm yarışseverler, ardında silinmez miraslar bırakan iki büyük efsanesini de saygı, özlem ve minnetle anıyor.",
+                "content": "Motorsporlari dünyasi, tarihinin en saygin ve sevilen figürlerinden birine veda ediyor. NASCAR Cup Series’de iki kez şampiyonluk kupasini kaldiran ve pistlerdeki zarif tarziyla \"Gentleman Ned\" (Centilmen Ned) lakabini kazanan efsanevi pilot Ned Jarrett, 93 yaşinda hayata gözlerini yumdu. Hall of Fame (Şöhretler Kulübü) üyesi efsane ismin, Kuzey Karolina'daki evinde vefat ettiği belirtildi.<br><br>1961 ve 1965 yillarinda kazandiği iki büyük şampiyonluğun yani sira kariyerine tam 50 zafer siğdiran Jarrett, sadece direksiyon başindaki başarisiyla değil, spora kattiği vizyonla da taniniyordu. Genç yaşta aktif yariş kariyerini noktaladiktan sonra televizyon ve radyo yayinciliğina adim atan efsane isim, mikrofondaki eşsiz anlatimiyla NASCAR’in milyonlarca yeni taraftar kazanmasini sağladi ve sporun küresel bir fenomene dönüşmesinde en büyük elçilerden biri oldu. Jarrett'in vefati, motorsporlari camiasinda derin bir kederle karşilandi.<br><br>Bu aci kayip, yariş dünyasinda son dönemde yaşanan trajik yaprak dökümünü de yeniden akillara getirdi. NASCAR ailesi, henüz geçtiğimiz günlerde modern dönemin en ikonik ve en çok kazanan isimlerinden biri olan 41 yaşindaki Kyle Busch’un ani ve trajik vefatinin şokunu atlatamamişti. Biri modern pistlerin hirçin rekabetçi dahisi, diğeri ise sporun altin çağinin nezaket ve profesyonellik sembolü olan bu iki dev şampiyonun vedalari, motorsporlari tarihinde asla doldurulamayacak devasa bir boşluk birakti.<br><br>NASCAR camiasi ve tüm yarişseverler, ardinda silinmez miraslar birakan iki büyük efsanesini de saygi, özlem ve minnetle aniyor.",
                 "img": "Resimler/Haberler/1780703364972_1000044566.jpg",
                 "author": "Yusuf Yol",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+                "authorImg": "Resimler/Haber Yazari Fotoğraflari/Yusuf Yol.png"
             },
             {
                 "id": 53,
-                "title": "MICK SCHUMACHER, INDY 500'DE \"YILIN ÇAYLAK SÜRÜCÜSÜ\" SEÇİLDİ!",
+                "title": "MICK SCHUMACHER, INDY 500'DE \"YILIN ÇAYLAK SÜRÜCÜSÜ\" SEÇILDI!",
                 "cat": "haberler",
                 "date": "2026-05-26 16:20",
-                "content": "Dünyanın en prestijli motor sporları organizasyonlarından biri olan Indianapolis 500 (Indy 500) yarışlarında muazzam bir başarı hikayesi yazıldı. Bir dönem Formula 1 koltuğunda büyük umutlarla yarışan ancak şanssızlıklar ve takım dinamikleri nedeniyle padoğunda hedeflediği, o hep beklenen ikonik performansa bir türlü ulaşamayan Mick Schumacher, kariyerinde yepyeni ve parlak bir sayfa açtı.<br><br>Amerika'nın efsanevi oval pistinde adeta küllerinden doğan Alman pilot, gösterdiği üstün cesaret, agresif ama olgun sürüş tarzı ve kısa sürede sağladığı adaptasyonla otoritelerden tam not alarak \"Indy 500 Yılın Çaylak Sürücüsü\" (Rookie of the Year) seçildi. F1'deki zorlu günlerin ardından gelen bu tarihi başarı, Schumacher isminin saf yeteneğini ve pes etmeyen karakterini tüm dünyaya bir kez daha kanıtlamış oldu.<br><br>Rahal Letterman Lanigan Racing adına yarışan Mick, 27. sıradan başladığı mücadelede harika bir tırmanış performansı sergileyerek yarışı 18. sırada tamamlamayı başardı. Pistteki diğer 3 çaylak rakibine karşı sergilediği bu istikrarlı ve soğukkanlı sürüşün yanı sıra, uzman jüri tarafından pist dışındaki medya ilişkileri ve yarışa kattığı pozitif etkiyle de takdir topladı. Alınan bu özel unvanla birlikte 50.000 dolarlık ödülün de sahibi olan Schumacher, Formula 1'deki baskı dolu geçen iki yılın ardından okyanusun diğer tarafında kelimenin tam anlamıyla harika bir geri dönüş hikayesine imza attı.",
+                "content": "Dünyanin en prestijli motor sporlari organizasyonlarindan biri olan Indianapolis 500 (Indy 500) yarişlarinda muazzam bir başari hikayesi yazildi. Bir dönem Formula 1 koltuğunda büyük umutlarla yarişan ancak şanssizliklar ve takim dinamikleri nedeniyle padoğunda hedeflediği, o hep beklenen ikonik performansa bir türlü ulaşamayan Mick Schumacher, kariyerinde yepyeni ve parlak bir sayfa açti.<br><br>Amerika'nin efsanevi oval pistinde adeta küllerinden doğan Alman pilot, gösterdiği üstün cesaret, agresif ama olgun sürüş tarzi ve kisa sürede sağladiği adaptasyonla otoritelerden tam not alarak \"Indy 500 Yilin Çaylak Sürücüsü\" (Rookie of the Year) seçildi. F1'deki zorlu günlerin ardindan gelen bu tarihi başari, Schumacher isminin saf yeteneğini ve pes etmeyen karakterini tüm dünyaya bir kez daha kanitlamiş oldu.<br><br>Rahal Letterman Lanigan Racing adina yarişan Mick, 27. siradan başladiği mücadelede harika bir tirmaniş performansi sergileyerek yarişi 18. sirada tamamlamayi başardi. Pistteki diğer 3 çaylak rakibine karşi sergilediği bu istikrarli ve soğukkanli sürüşün yani sira, uzman jüri tarafindan pist dişindaki medya ilişkileri ve yarişa kattiği pozitif etkiyle de takdir topladi. Alinan bu özel unvanla birlikte 50.000 dolarlik ödülün de sahibi olan Schumacher, Formula 1'deki baski dolu geçen iki yilin ardindan okyanusun diğer tarafinda kelimenin tam anlamiyla harika bir geri dönüş hikayesine imza atti.",
                 "img": "Resimler/Haberler/1779801656670_1000044114.jpg",
                 "author": "Yusuf Yol",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+                "authorImg": "Resimler/Haber Yazari Fotoğraflari/Yusuf Yol.png"
             },
             {
                 "id": 46,
-                "title": "NASCAR'IN YAŞAYAN EFSANESİ 41 YAŞINDA HAYATINI KAYBETTİ!",
+                "title": "NASCAR'IN YAŞAYAN EFSANESI 41 YAŞINDA HAYATINI KAYBETTI!",
                 "cat": "haberler",
                 "date": "2026-05-22 09:39",
-                "content": "Motor sporları dünyası, tarihinin en büyük şoklarından birini yaşıyor. NASCAR'ın ulusal serilerinde elde ettiği 234 galibiyetle tarihin en çok kazanan ismi olan, 2 kez Cup Series şampiyonu ve aktif yarış kariyerine devam eden efsane pilot Kyle Busch, 41 yaşında hayatını kaybetti.<br><br>Sabah saatlerinde aniden rahatsızlanarak hastaneye kaldırılan ve tedavi altına alınan yıldız pilotun, yapılan tüm müdahalelere rağmen kurtarılamadığı açıklandı. Henüz resmi olarak sebebi belirtilmeyen bu ani ve gizemli rahatsızlık, başta sadık taraftar kitlesi \"Rowdy Nation\" olmak üzere tüm motor sporları camiasını derin bir yasa boğdu. NASCAR ve Richard Childress Racing ailesi, yaptıkları ortak açıklamada efsanevi sürücünün kaybından dolayı büyük bir üzüntü duyduklarını belirterek ailesine başsağlığı diledi.",
+                "content": "Motor sporlari dünyasi, tarihinin en büyük şoklarindan birini yaşiyor. NASCAR'in ulusal serilerinde elde ettiği 234 galibiyetle tarihin en çok kazanan ismi olan, 2 kez Cup Series şampiyonu ve aktif yariş kariyerine devam eden efsane pilot Kyle Busch, 41 yaşinda hayatini kaybetti.<br><br>Sabah saatlerinde aniden rahatsizlanarak hastaneye kaldirilan ve tedavi altina alinan yildiz pilotun, yapilan tüm müdahalelere rağmen kurtarilamadiği açiklandi. Henüz resmi olarak sebebi belirtilmeyen bu ani ve gizemli rahatsizlik, başta sadik taraftar kitlesi \"Rowdy Nation\" olmak üzere tüm motor sporlari camiasini derin bir yasa boğdu. NASCAR ve Richard Childress Racing ailesi, yaptiklari ortak açiklamada efsanevi sürücünün kaybindan dolayi büyük bir üzüntü duyduklarini belirterek ailesine başsağliği diledi.",
                 "img": "Resimler/Haberler/1779431968643_1000043970.jpg",
                 "author": "Yusuf Yol",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+                "authorImg": "Resimler/Haber Yazari Fotoğraflari/Yusuf Yol.png"
             },
             {
                 "id": 41,
-                "title": "AYHANCAN GÜVEN’İN YARIŞI TALİHSİZ BİR ŞEKİLDE BİTTİ!",
+                "title": "AYHANCAN GÜVEN’IN YARIŞI TALIHSIZ BIR ŞEKILDE BITTI!",
                 "cat": "haberler",
                 "date": "2026-05-17 00:34",
-                "content": "Kevin Estre’nin yaşadığı talihsiz kaza, temsilcimiz Ayhancan Güven’in Nürburgring 24 Saat yarışındaki mücadelesini erken bitirdi.<br><br>Yarışın ilk bölümünde güçlü bir tempo yakalayan takım, pistte yaşanan yağ sızıntısının ardından büyük bir şok yaşadı. Porsche pilotu Kevin Estre, kaygan zeminde aracının kontrolünü kaybederek bariyerlere çarptı. Yaşanan kaza sonrası araç ağır hasar alırken ekip yarış dışı kaldı.<br><br>Böylelikle temsilcimiz Ayhancan Güven’in Nürburgring 24 Saat macerası da beklenenden çok daha erken sona ermiş oldu.<br><br>Ayhancan Güven, Red Bull Türkiye’ye verdiği röportajda yaşananlarla ilgili şu ifadeleri kullandı:<br><br>“Maalesef istemediğimiz bir noktadayız, yarış dışı kaldık…”<br><br>Nürburgring’de değişken hava ve zorlu pist şartları birçok ekibi zorlamaya devam ederken, yaşanan bu talihsiz olay yarışın en dikkat çeken anlarından biri oldu.",
+                "content": "Kevin Estre’nin yaşadiği talihsiz kaza, temsilcimiz Ayhancan Güven’in Nürburgring 24 Saat yarişindaki mücadelesini erken bitirdi.<br><br>Yarişin ilk bölümünde güçlü bir tempo yakalayan takim, pistte yaşanan yağ sizintisinin ardindan büyük bir şok yaşadi. Porsche pilotu Kevin Estre, kaygan zeminde aracinin kontrolünü kaybederek bariyerlere çarpti. Yaşanan kaza sonrasi araç ağir hasar alirken ekip yariş dişi kaldi.<br><br>Böylelikle temsilcimiz Ayhancan Güven’in Nürburgring 24 Saat macerasi da beklenenden çok daha erken sona ermiş oldu.<br><br>Ayhancan Güven, Red Bull Türkiye’ye verdiği röportajda yaşananlarla ilgili şu ifadeleri kullandi:<br><br>“Maalesef istemediğimiz bir noktadayiz, yariş dişi kaldik…”<br><br>Nürburgring’de değişken hava ve zorlu pist şartlari birçok ekibi zorlamaya devam ederken, yaşanan bu talihsiz olay yarişin en dikkat çeken anlarindan biri oldu.",
                 "img": "Resimler/Haberler/1778967293103_IMG_7539.jpeg",
                 "author": "Emre Boz",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Emre Boz.png"
+                "authorImg": "Resimler/Haber Yazari Fotoğraflari/Emre Boz.png"
             },
             {
                 "id": 1,
-                "title": "TÜRKİYE OFFROAD ŞAMPİYONASI’NIN İLK AYAĞI TAMAMLANDI!",
+                "title": "TÜRKIYE OFFROAD ŞAMPIYONASI’NIN ILK AYAĞI TAMAMLANDI!",
                 "cat": "haberler",
                 "date": "2026-04-14",
-                "content": "2026 Türkiye Offroad Şampiyonası’nın ilk ayağı, Trabzon’da yoğun katılımla gerçekleştirildi.<br><br>Yoğun sis ve zaman zaman karın yerini yağmura bırakmasıyla daha da zorlaşan etaplarda, otomobil kategorisinde Şehmuz Oğuz üstün bir performans sergileyerek zirvede yer aldı. Onu Ahmet Köse ve ev sahibi Erdinç Türkmen takip etti.<br><br>SSV kategorisinde ise tüm zorluklara rağmen istikrarlı bir performans ortaya koyan Eren Alver birinciliği elde ederken, Ergün Çirkin ikinci, Adem Kalyon ise üçüncü sırada yer aldı.<br><br>Türkiye Offroad Şampiyonası, 9-10 Mayıs tarihlerinde Kahramanmaraş’ta tüm heyecanıyla devam edecek.",
+                "content": "2026 Türkiye Offroad Şampiyonasi’nin ilk ayaği, Trabzon’da yoğun katilimla gerçekleştirildi.<br><br>Yoğun sis ve zaman zaman karin yerini yağmura birakmasiyla daha da zorlaşan etaplarda, otomobil kategorisinde Şehmuz Oğuz üstün bir performans sergileyerek zirvede yer aldi. Onu Ahmet Köse ve ev sahibi Erdinç Türkmen takip etti.<br><br>SSV kategorisinde ise tüm zorluklara rağmen istikrarli bir performans ortaya koyan Eren Alver birinciliği elde ederken, Ergün Çirkin ikinci, Adem Kalyon ise üçüncü sirada yer aldi.<br><br>Türkiye Offroad Şampiyonasi, 9-10 Mayis tarihlerinde Kahramanmaraş’ta tüm heyecaniyla devam edecek.",
                 "img": "Resimler/Haberler/Offroad.png"
             },
             {
                 "id": 2,
-                "title": "WEC 2026 Imola’da Başlıyor: Gözlerimiz Türk Pilotlarda!",
+                "title": "WEC 2026 Imola’da Başliyor: Gözlerimiz Türk Pilotlarda!",
                 "cat": "haberler",
                 "date": "2026-04-14",
-                "content": "Dayanıklılık yarışlarının zirvesi olarak kabul edilen FIA World Endurance Championship, yeni sezonda da üst düzey rekabete sahne olmaya hazırlanırken artık bu rekabette Türk pilotlar da yer alıyor.<br><br>2025 DTM şampiyonu Ayhancan Güven, sezon boyunca Manthey Racing çatısı altında, Manthey DK Engineering ekibinin 91 kapı numaralı aracıyla mücadele edecek. Porsche altyapısıyla uzun yıllardır başarılar elde eden ekip, bu sezon da LMGT3 sınıfında iddialı isimlerden biri olarak öne çıkıyor.<br><br>Bir diğer temsilcimiz Salih Yoluç ise dayanıklılık yarışlarının en prestijli organizasyonu olan 24 Hours of Le Mans zaferiyle tanınan tecrübesini piste taşımaya devam ediyor. Salih Yoluç, Racing Team Turkey adına kırmızı renkli Chevrolet Corvette Z06 LMGT3.R ile mücadele edecek.<br><br>Imola gibi eski tip, teknik ve hata kaldırmayan bir pistte sezonun açılması, takımlar için zorlu bir sınav anlamına geliyor.<br><br>6 saatlik bu zorlu maratonda pilotlarımızın performansını yakından takip edeceğiz.<br><br>Imola 6 Saat yarışı, 19 Nisan Pazar günü saat 14:00’te start alacak.",
+                "content": "Dayaniklilik yarişlarinin zirvesi olarak kabul edilen FIA World Endurance Championship, yeni sezonda da üst düzey rekabete sahne olmaya hazirlanirken artik bu rekabette Türk pilotlar da yer aliyor.<br><br>2025 DTM şampiyonu Ayhancan Güven, sezon boyunca Manthey Racing çatisi altinda, Manthey DK Engineering ekibinin 91 kapi numarali araciyla mücadele edecek. Porsche altyapisiyla uzun yillardir başarilar elde eden ekip, bu sezon da LMGT3 sinifinda iddiali isimlerden biri olarak öne çikiyor.<br><br>Bir diğer temsilcimiz Salih Yoluç ise dayaniklilik yarişlarinin en prestijli organizasyonu olan 24 Hours of Le Mans zaferiyle taninan tecrübesini piste taşimaya devam ediyor. Salih Yoluç, Racing Team Turkey adina kirmizi renkli Chevrolet Corvette Z06 LMGT3.R ile mücadele edecek.<br><br>Imola gibi eski tip, teknik ve hata kaldirmayan bir pistte sezonun açilmasi, takimlar için zorlu bir sinav anlamina geliyor.<br><br>6 saatlik bu zorlu maratonda pilotlarimizin performansini yakindan takip edeceğiz.<br><br>Imola 6 Saat yarişi, 19 Nisan Pazar günü saat 14:00’te start alacak.",
                 "img": "Resimler/Haberler/Ayhancan ve Salih.png"
             },
             {
                 "id": 3,
-                "title": "BMW TEKNİK DİREKTÖRÜ CHRIS GONSCHOR: “SBK SIKICI DEĞİL, AKSİNE ÇOK REKABETÇİ”",
+                "title": "BMW TEKNIK DIREKTÖRÜ CHRIS GONSCHOR: “SBK SIKICI DEĞIL, AKSINE ÇOK REKABETÇI”",
                 "cat": "haberler",
                 "date": "2026-04-16 19:30",
-                "content": "BMW Motorrad Motorsport Teknik Direktörü Chris Gonschor, WorldSBK sezonunun başlangıcına dair önemli değerlendirmelerde bulundu. GPOne’a konuşan Gonschor, şampiyonanın sıkıcı olduğu yönündeki eleştirilere katılmadığını açık bir şekilde dile getirdi.<br><br>Gonschor, sezonun henüz başında olunduğunu hatırlatarak padokta birçok değişim yaşandığını vurguladı: “SBK’nın sıkıcı olduğunu düşünmüyorum, aksine oldukça rekabetçi. Şu anda yeni pilotlar ve yeni dengeler var, bu yüzden bir adaptasyon sürecindeyiz. Henüz %100 performansımızda değiliz ancak rekabetçi olmamamız için hiçbir sebep yok.”<br><br>Ducati’nin kış testlerindeki performansına da değinen BMW’li yönetici, rakiplerinin güçlü bir başlangıç yaptığını kabul etti: “Ducati kış testlerinde harika bir iş çıkardı ve çok sağlam bir paket oluşturdu. Biz ise kendi paketimizi tamamlamaya çalışıyoruz. Takımda yeni pilotlarımız ve yeni üyelerimiz var. Buna rağmen Portimao’da elde ettiğimiz üç podyum, doğru yolda olduğumuzun bir göstergesi.”<br><br>Tur zamanlarının geçen yıla göre gelişim gösterdiğini belirten Gonschor, BMW’nin potansiyeline inandıklarını söyledi: “Şimdiden tur zamanlarımız geçen yılın önünde. Bu, doğru yönde ilerlediğimizin bir işareti. Potansiyelimiz var, sadece tüm parçaları bir araya getirmemiz gerekiyor.”<br><br>Motosiklet gelişiminin uzun vadeli bir süreç olduğunun altını çizen Gonschor, köklü değişimlerin çözüm olmadığını ifade etti: “Motosiklet geliştirmek yıllar süren bir iş. Sıfırdan başlamak, yapılan tüm çalışmaları çöpe atmak anlamına gelir. Bunun yerine yeni pilotları dinleyerek motosikleti evrimleştirmeliyiz. Bu karşılıklı bir süreç; motosiklet onlara uyum sağlarken, onlar da motosiklete uyum sağlamalı.”<br><br>Pilot performanslarına da değinen Gonschor, özellikle Oliveira’nın yaklaşımından memnun: “Oliveira çok zeki ve sabırlı bir pilot. Motosikleti tamamen kendi stiline dönüştürmeye çalışmak yerine, mevcut paketten maksimumu almaya odaklanıyor.”<br><br>Petrucci için ise henüz ideal ayarların bulunamadığını belirten Gonschor, potansiyelin net olduğunu vurguladı: “Petrucci için henüz mükemmel ayarları bulamadık ancak veriler potansiyelini açıkça gösteriyor. Ona tam anlamıyla uyumlu bir motosiklet sunduğumuzda önemli bir adım atacağız.”BMW cephesi, sezonun ilerleyen bölümlerinde bu potansiyeli sonuçlara dönüştürmeyi hedefliyor.",
+                "content": "BMW Motorrad Motorsport Teknik Direktörü Chris Gonschor, WorldSBK sezonunun başlangicina dair önemli değerlendirmelerde bulundu. GPOne’a konuşan Gonschor, şampiyonanin sikici olduğu yönündeki eleştirilere katilmadiğini açik bir şekilde dile getirdi.<br><br>Gonschor, sezonun henüz başinda olunduğunu hatirlatarak padokta birçok değişim yaşandiğini vurguladi: “SBK’nin sikici olduğunu düşünmüyorum, aksine oldukça rekabetçi. Şu anda yeni pilotlar ve yeni dengeler var, bu yüzden bir adaptasyon sürecindeyiz. Henüz %100 performansimizda değiliz ancak rekabetçi olmamamiz için hiçbir sebep yok.”<br><br>Ducati’nin kiş testlerindeki performansina da değinen BMW’li yönetici, rakiplerinin güçlü bir başlangiç yaptiğini kabul etti: “Ducati kiş testlerinde harika bir iş çikardi ve çok sağlam bir paket oluşturdu. Biz ise kendi paketimizi tamamlamaya çalişiyoruz. Takimda yeni pilotlarimiz ve yeni üyelerimiz var. Buna rağmen Portimao’da elde ettiğimiz üç podyum, doğru yolda olduğumuzun bir göstergesi.”<br><br>Tur zamanlarinin geçen yila göre gelişim gösterdiğini belirten Gonschor, BMW’nin potansiyeline inandiklarini söyledi: “Şimdiden tur zamanlarimiz geçen yilin önünde. Bu, doğru yönde ilerlediğimizin bir işareti. Potansiyelimiz var, sadece tüm parçalari bir araya getirmemiz gerekiyor.”<br><br>Motosiklet gelişiminin uzun vadeli bir süreç olduğunun altini çizen Gonschor, köklü değişimlerin çözüm olmadiğini ifade etti: “Motosiklet geliştirmek yillar süren bir iş. Sifirdan başlamak, yapilan tüm çalişmalari çöpe atmak anlamina gelir. Bunun yerine yeni pilotlari dinleyerek motosikleti evrimleştirmeliyiz. Bu karşilikli bir süreç; motosiklet onlara uyum sağlarken, onlar da motosiklete uyum sağlamali.”<br><br>Pilot performanslarina da değinen Gonschor, özellikle Oliveira’nin yaklaşimindan memnun: “Oliveira çok zeki ve sabirli bir pilot. Motosikleti tamamen kendi stiline dönüştürmeye çalişmak yerine, mevcut paketten maksimumu almaya odaklaniyor.”<br><br>Petrucci için ise henüz ideal ayarlarin bulunamadiğini belirten Gonschor, potansiyelin net olduğunu vurguladi: “Petrucci için henüz mükemmel ayarlari bulamadik ancak veriler potansiyelini açikça gösteriyor. Ona tam anlamiyla uyumlu bir motosiklet sunduğumuzda önemli bir adim atacağiz.”BMW cephesi, sezonun ilerleyen bölümlerinde bu potansiyeli sonuçlara dönüştürmeyi hedefliyor.",
                 "img": "Resimler/Haberler/BMW.jpeg"
             },
             {
                 "id": 4,
-                "title": "JAGUAR TCS RACİNG, FORMULA E'DE KULLANACAĞI YENİ GEN4 ARACINI TANITTI!",
+                "title": "JAGUAR TCS RACING, FORMULA E'DE KULLANACAĞI YENI GEN4 ARACINI TANITTI!",
                 "cat": "haberler",
                 "date": "2026-04-17 18:00",
-                "content": "Jaguar TCS Racing, Formula E dünyasının büyük bir merakla beklediği 'GEN4 Unleashed' etkinliğinde, en yeni teknolojiye sahip geliştirme aracını ilk kez sahnede sergiledi. Etkinlik anında tanıtılan ve büyük yankı uyandıran bu özel test tasarımı, markanın elektrikli yarış arenasındaki yeni vizyonunu çarpıcı bir görsel kimlikle temsil ediyor.<br><br>​Formula E dünyası teknik bir devrimin eşiğindeki GEN4 dönemine geçerken, Jaguar bugüne kadarki en yüksek verimliliğe ve teknolojik donanıma sahip yarış otomobilini geliştirmeye devam ediyor. Bu sürecin en somut örneği olan prototip, sergilediği üstün mühendislik detaylarıyla elektrikli ulaşımın gelecekteki sınırlarını şimdiden belirliyor.<br><br>​Aracın dış tasarımındaki en özel ayrıntı ise, test sürecindeki görünümünün tamamen veri odaklı bir anlatıma dönüştürülmüş olmasıdır. Bu gövde kaplaması, Jaguar’ın GEN4 teknolojisiyle efsanevi Monaco sokak pistinde gerçekleştirdiği simülasyonlar ve saha testlerinden elde edilen hız verilerini sanatsal bir dille yansıtıyor.<br><br>Bir hız haritasını andıran bu tasarım, Jaguar’ın sadece saf hıza odaklanmadığını; aynı zamanda pistten gelen her bir veriyi, geleceğin sürdürülebilir performans standartlarına nasıl kusursuzca entegre ettiğini kanıtlıyor.",
+                "content": "Jaguar TCS Racing, Formula E dünyasinin büyük bir merakla beklediği 'GEN4 Unleashed' etkinliğinde, en yeni teknolojiye sahip geliştirme aracini ilk kez sahnede sergiledi. Etkinlik aninda tanitilan ve büyük yanki uyandiran bu özel test tasarimi, markanin elektrikli yariş arenasindaki yeni vizyonunu çarpici bir görsel kimlikle temsil ediyor.<br><br>​Formula E dünyasi teknik bir devrimin eşiğindeki GEN4 dönemine geçerken, Jaguar bugüne kadarki en yüksek verimliliğe ve teknolojik donanima sahip yariş otomobilini geliştirmeye devam ediyor. Bu sürecin en somut örneği olan prototip, sergilediği üstün mühendislik detaylariyla elektrikli ulaşimin gelecekteki sinirlarini şimdiden belirliyor.<br><br>​Aracin diş tasarimindaki en özel ayrinti ise, test sürecindeki görünümünün tamamen veri odakli bir anlatima dönüştürülmüş olmasidir. Bu gövde kaplamasi, Jaguar’in GEN4 teknolojisiyle efsanevi Monaco sokak pistinde gerçekleştirdiği simülasyonlar ve saha testlerinden elde edilen hiz verilerini sanatsal bir dille yansitiyor.<br><br>Bir hiz haritasini andiran bu tasarim, Jaguar’in sadece saf hiza odaklanmadiğini; ayni zamanda pistten gelen her bir veriyi, geleceğin sürdürülebilir performans standartlarina nasil kusursuzca entegre ettiğini kanitliyor.",
                 "img": "Resimler/Haberler/Formula E.png"
             },
             {
                 "id": 5,
-                "title": "FERRARİ, IMOLA'DA FP3'TE ZİRVEYİ GERİ ALDI!",
+                "title": "FERRARI, IMOLA'DA FP3'TE ZIRVEYI GERI ALDI!",
                 "cat": "haberler",
                 "date": "2026-04-18",
-                "content": "FIA World Endurance Championship kapsamında Imola 6 Saat yarışı öncesinde gerçekleştirilen üçüncü serbest antrenman seansı (FP3), Ferrari’nin liderliğiyle tamamlandı. İtalyan ekip, sıralama öncesi güçlü bir performans ortaya koydu.<br><br>Seansın en hızlı ismi Antonio Fuoco oldu. 50 numaralı Ferrari 499P ile 1:30.370’lik derece elde eden Fuoco, takım arkadaşının önünde yer aldı. Antonio Giovinazzi ise 1:30.693 ile ikinci sıraya yerleşti.<br><br>Ferrari’nin ilk üç sırayı alma ihtimalini Alpine engelledi. Charles Milesi, 35 numaralı Alpine A424 ile 1:30.712 yaparak üçüncü sırayı aldı.<br><br>Dördüncü sırada AF Corse tarafından işletilen 83 numaralı Ferrari ile Robert Kubica yer aldı. İlk dört sıradaki tüm pilotlar yumuşak hamur lastiklerle zamanlarını elde etti.<br><br>Toyota adına en hızlı isim Nyck de Vries oldu. 7 numaralı Toyota GR010 Hybrid ile 1:30.946 yapan pilot, orta hamur lastiklerle en iyi dereceyi kaydetti.<br><br>Altıncı sırada Cadillac Hertz Team JOTA pilotu Norman Nato yer alırken, devamında Toyota ve Cadillac araçları sıralandı. BMW Team WRT adına yarışan Kevin Magnussen dokuzuncu sırayı elde etti. BMW cephesinde teknik sorunlar dikkat çekti.<br><br>İlk 10’u Peugeot adına yarışan Malthe Jakobsen tamamladı. Aston Martin ve diğer üreticiler de seans boyunca veri topladı.<br><br>LMGT3 kategorisinde liderlik Heart of Racing Team ve Aston Martin Vantage GT3 Evo ile Mattia Drudi’nin oldu. 1:41.973’lük dereceyle zirvede yer alan Drudi’yi, TF Sport adına yarışan Jonny Edgar çok küçük bir farkla takip etti. Sınıfta rekabetin oldukça yakın olduğu görüldü.<br><br>Seans sorunsuz tamamlanırken, gözler sıralama turlarına çevrildi. LMGT3 araçları yerel saatle 15:30’da, Hypercar sınıfı ise 16.10da piste çıkacak.",
+                "content": "FIA World Endurance Championship kapsaminda Imola 6 Saat yarişi öncesinde gerçekleştirilen üçüncü serbest antrenman seansi (FP3), Ferrari’nin liderliğiyle tamamlandi. Italyan ekip, siralama öncesi güçlü bir performans ortaya koydu.<br><br>Seansin en hizli ismi Antonio Fuoco oldu. 50 numarali Ferrari 499P ile 1:30.370’lik derece elde eden Fuoco, takim arkadaşinin önünde yer aldi. Antonio Giovinazzi ise 1:30.693 ile ikinci siraya yerleşti.<br><br>Ferrari’nin ilk üç sirayi alma ihtimalini Alpine engelledi. Charles Milesi, 35 numarali Alpine A424 ile 1:30.712 yaparak üçüncü sirayi aldi.<br><br>Dördüncü sirada AF Corse tarafindan işletilen 83 numarali Ferrari ile Robert Kubica yer aldi. Ilk dört siradaki tüm pilotlar yumuşak hamur lastiklerle zamanlarini elde etti.<br><br>Toyota adina en hizli isim Nyck de Vries oldu. 7 numarali Toyota GR010 Hybrid ile 1:30.946 yapan pilot, orta hamur lastiklerle en iyi dereceyi kaydetti.<br><br>Altinci sirada Cadillac Hertz Team JOTA pilotu Norman Nato yer alirken, devaminda Toyota ve Cadillac araçlari siralandi. BMW Team WRT adina yarişan Kevin Magnussen dokuzuncu sirayi elde etti. BMW cephesinde teknik sorunlar dikkat çekti.<br><br>Ilk 10’u Peugeot adina yarişan Malthe Jakobsen tamamladi. Aston Martin ve diğer üreticiler de seans boyunca veri topladi.<br><br>LMGT3 kategorisinde liderlik Heart of Racing Team ve Aston Martin Vantage GT3 Evo ile Mattia Drudi’nin oldu. 1:41.973’lük dereceyle zirvede yer alan Drudi’yi, TF Sport adina yarişan Jonny Edgar çok küçük bir farkla takip etti. Sinifta rekabetin oldukça yakin olduğu görüldü.<br><br>Seans sorunsuz tamamlanirken, gözler siralama turlarina çevrildi. LMGT3 araçlari yerel saatle 15:30’da, Hypercar sinifi ise 16.10da piste çikacak.",
                 "img": "Resimler/Haberler/Ferrari WEC.png"
             },
             {
                 "id": 6,
-                "title": "FERRARI, IMOLA 6 SAAT YARIŞI ÖNCESİ POLE POZİSYONUNDA!",
+                "title": "FERRARI, IMOLA 6 SAAT YARIŞI ÖNCESI POLE POZISYONUNDA!",
                 "cat": "haberler",
                 "date": "2026-04-18 17:40",
-                "content": "6 Hours of Imola öncesinde gerçekleştirilen sıralama turlarında, Ferrari ev sahibi avantajını en iyi şekilde değerlendirdi.<br><br>İtalyan pilot Antonio Giovinazzi’nin kullandığı #51 numaralı Ferrari, son derece çekişmeli geçen seansta en hızlı turu atarak pole pozisyonunun sahibi oldu.<br><br>Seansın en yakın takipçisi, sadece 0.011 saniye farkla Toyota Gazoo Racing #8 olurken, bir diğer Ferrari olan #50 ise liderin 0.040 saniye gerisinde üçüncü sırayı elde etti.<br><br>Sıralama turlarının dikkat çeken performanslarından biri de Peugeot TotalEnergies #94’ten geldi. Fransız ekip, pole pozisyonundan yalnızca 0.073 saniye geride kalarak dördüncü sırayı aldı.<br><br>LMGT3 kategorisinde ise pole pozisyonu McLaren #10’un oldu. Lexus #78 ve #87 numaralı araçlar ise ilk üçü tamamladı.<br><br>Imola’da koşulacak yarış öncesinde Ferrari’nin pole performansı, İtalyan ekibi galibiyetin en güçlü adaylarından biri haline getirdi.",
+                "content": "6 Hours of Imola öncesinde gerçekleştirilen siralama turlarinda, Ferrari ev sahibi avantajini en iyi şekilde değerlendirdi.<br><br>Italyan pilot Antonio Giovinazzi’nin kullandiği #51 numarali Ferrari, son derece çekişmeli geçen seansta en hizli turu atarak pole pozisyonunun sahibi oldu.<br><br>Seansin en yakin takipçisi, sadece 0.011 saniye farkla Toyota Gazoo Racing #8 olurken, bir diğer Ferrari olan #50 ise liderin 0.040 saniye gerisinde üçüncü sirayi elde etti.<br><br>Siralama turlarinin dikkat çeken performanslarindan biri de Peugeot TotalEnergies #94’ten geldi. Fransiz ekip, pole pozisyonundan yalnizca 0.073 saniye geride kalarak dördüncü sirayi aldi.<br><br>LMGT3 kategorisinde ise pole pozisyonu McLaren #10’un oldu. Lexus #78 ve #87 numarali araçlar ise ilk üçü tamamladi.<br><br>Imola’da koşulacak yariş öncesinde Ferrari’nin pole performansi, Italyan ekibi galibiyetin en güçlü adaylarindan biri haline getirdi.",
                 "img": "Resimler/Haberler/Ferrari WEC Imola.png"
             },
             {
                 "id": 7,
-                "title": "VERSTAPPEN'İN DE BULUNDUĞU NLS YARIŞINDA BÜYÜK KAZA!",
+                "title": "VERSTAPPEN'IN DE BULUNDUĞU NLS YARIŞINDA BÜYÜK KAZA!",
                 "cat": "haberler",
                 "date": "2026-04-18 20:15",
-                "content": "Almanya’daki Nürburgring 24 Saat Yarışı hafta sonu öncesinde düzenlenen ilk eleme yarışında ciddi bir kaza meydana geldi. Seans, yaşanan olayın ardından kırmızı bayrakla durduruldu.<br><br>İlk bilgilere göre tam 7 araç büyük bir kazaya karıştı. Yarış yönetimi tarafından yapılan açıklamada, kazanın olası nedeninin araçlardan birinde meydana gelen yakıt sızıntısı olduğu ifade edildi. Olayın ardından pistte güvenlik önlemleri en üst seviyeye çıkarıldı.<br><br>Kazanın hemen ardından sağlık ekipleri hızla olay yerine sevk edilirken, yaralı pilotlara müdahale için ambulansın piste giriş yaptığı bildirildi. Pilotların sağlık durumlarına ilişkin henüz net bir açıklama yapılmış değil.<br><br>Öte yandan, Max Verstappen’in de bulunduğu seansta yaşanan bu olay, padokta büyük endişe yarattı.<br><br>Yetkililerden gelecek resmi açıklamalar beklenirken, gözler pilotların sağlık durumuna çevrilmiş durumda. Yarış dünyası, Nürburgring’den gelecek iyi haberleri umutla bekliyor.",
+                "content": "Almanya’daki Nürburgring 24 Saat Yarişi hafta sonu öncesinde düzenlenen ilk eleme yarişinda ciddi bir kaza meydana geldi. Seans, yaşanan olayin ardindan kirmizi bayrakla durduruldu.<br><br>Ilk bilgilere göre tam 7 araç büyük bir kazaya karişti. Yariş yönetimi tarafindan yapilan açiklamada, kazanin olasi nedeninin araçlardan birinde meydana gelen yakit sizintisi olduğu ifade edildi. Olayin ardindan pistte güvenlik önlemleri en üst seviyeye çikarildi.<br><br>Kazanin hemen ardindan sağlik ekipleri hizla olay yerine sevk edilirken, yarali pilotlara müdahale için ambulansin piste giriş yaptiği bildirildi. Pilotlarin sağlik durumlarina ilişkin henüz net bir açiklama yapilmiş değil.<br><br>Öte yandan, Max Verstappen’in de bulunduğu seansta yaşanan bu olay, padokta büyük endişe yaratti.<br><br>Yetkililerden gelecek resmi açiklamalar beklenirken, gözler pilotlarin sağlik durumuna çevrilmiş durumda. Yariş dünyasi, Nürburgring’den gelecek iyi haberleri umutla bekliyor.",
                 "img": "Resimler/Haberler/NLS.png"
             },
             {
                 "id": 8,
-                "title": "MAX VERSTAPPEN’DEN KAZA SONRASI İLK AÇIKLAMA GELDİ!",
+                "title": "MAX VERSTAPPEN’DEN KAZA SONRASI ILK AÇIKLAMA GELDI!",
                 "cat": "haberler",
                 "date": "2026-04-18 22:00",
-                "content": "Nürburgring 24 Saatleri hafta sonunda, ilk eleme yarışında yaşanan büyük kazada 7 araç birbirine girdi. İlk belirlemelere göre kazanın, araçlardan birinde yaşanan yakıt sızıntısı sonrası kontrolden çıkılmasıyla başladığı ifade edildi.<br><br>Kazada hayatını kaybeden Juha için motorsporları dünyası yasa boğulurken, Max Verstappen de yaşananların ardından açıklamalarda bulundu:<br><br>“Bugün yaşananlar karşısında şok oldum… Motor sporları hepimizin sevdiği bir şey, ancak böyle zamanlarda ne kadar tehlikeli olabileceğini bize hatırlatıyor. Juha’nın ailesine ve sevdiklerine en içten başsağlığı dileklerimi iletiyorum.”",
+                "content": "Nürburgring 24 Saatleri hafta sonunda, ilk eleme yarişinda yaşanan büyük kazada 7 araç birbirine girdi. Ilk belirlemelere göre kazanin, araçlardan birinde yaşanan yakit sizintisi sonrasi kontrolden çikilmasiyla başladiği ifade edildi.<br><br>Kazada hayatini kaybeden Juha için motorsporlari dünyasi yasa boğulurken, Max Verstappen de yaşananlarin ardindan açiklamalarda bulundu:<br><br>“Bugün yaşananlar karşisinda şok oldum… Motor sporlari hepimizin sevdiği bir şey, ancak böyle zamanlarda ne kadar tehlikeli olabileceğini bize hatirlatiyor. Juha’nin ailesine ve sevdiklerine en içten başsağliği dileklerimi iletiyorum.”",
                 "img": "Resimler/Haberler/Max NLS.png"
             },
             {
                 "id": 9,
-                "title": "CAN ÖNCÜ UÇARAK BAŞLADI, PODYUMLA BİTİRDİ!",
+                "title": "CAN ÖNCÜ UÇARAK BAŞLADI, PODYUMLA BITIRDI!",
                 "cat": "haberler",
                 "date": "2026-04-19 16:50",
-                "content": "Temsilcimiz Can Öncü, WSSP hafta sonuna damga vuran performansıyla dikkatleri üzerine çekti. Yarışa 12. sıradan başlayan milli sporcu, adeta kusursuz bir start alarak ilk virajda liderliğe kadar yükseldi.<br><br>Yarışın ilk bölümlerinde temposunu koruyarak ön grupta kalmayı başaran Öncü, güçlü rakiplerine karşı etkileyici bir mücadele sergiledi. Ancak bitime 6 tur kala yaşanan olayların ardından yarışta kırmızı bayrak kararı çıktı.<br><br>Seansın yeniden başlatılmamasıyla birlikte sonuçlar o ana göre belirlenirken, Can Öncü yarışı 3. sırada tamamlayarak podyuma çıkmayı başardı.",
+                "content": "Temsilcimiz Can Öncü, WSSP hafta sonuna damga vuran performansiyla dikkatleri üzerine çekti. Yarişa 12. siradan başlayan milli sporcu, adeta kusursuz bir start alarak ilk virajda liderliğe kadar yükseldi.<br><br>Yarişin ilk bölümlerinde temposunu koruyarak ön grupta kalmayi başaran Öncü, güçlü rakiplerine karşi etkileyici bir mücadele sergiledi. Ancak bitime 6 tur kala yaşanan olaylarin ardindan yarişta kirmizi bayrak karari çikti.<br><br>Seansin yeniden başlatilmamasiyla birlikte sonuçlar o ana göre belirlenirken, Can Öncü yarişi 3. sirada tamamlayarak podyuma çikmayi başardi.",
                 "img": "Resimler/Haberler/Can.png"
             },
             {
                 "id": 10,
-                "title": "ALEX PALOU, LONG BEACH GP'SİNİ KAZANDI!",
+                "title": "ALEX PALOU, LONG BEACH GP'SINI KAZANDI!",
                 "cat": "haberler",
                 "date": "2026-04-20 03:00",
-                "content": "IndyCar’da sezonun en prestijli duraklarından biri olan Long Beach Grand Prix’sinde zafer, şampiyonluk mücadelesinin en güçlü isimlerinden Alex Palou’nun oldu. Hafta sonu boyunca sergilediği istikrarlı performansı yarışa da taşıyan Palou, strateji ve tempo anlamında rakiplerine üstünlük kurarak damalı bayrağı ilk sırada geçti.<br><br>Bu sonuçla birlikte İspanyol pilot, kariyerinde ilk kez Long Beach’te zafere ulaşırken aynı zamanda IndyCar şampiyona liderliğini de yeniden ele geçirdi. Sezonun kritik virajlarından biri olarak görülen bu yarış, şampiyona dengelerini bir kez daha değiştirdi.<br><br>Yarışı ikinci sırada Felix Rosenqvist tamamlarken, tecrübeli isim Scott Dixon ise podyumun son basamağında yer aldı. Özellikle Dixon’ın yarış içerisindeki yükselişi dikkat çekerken, Rosenqvist ise güçlü performansını podyumla taçlandırdı.<br><br>IndyCar’da heyecan tüm hızıyla devam ederken, Alex Palou’nun bu galibiyeti sezonun geri kalanı için önemli bir mesaj niteliği taşıyor. Şampiyonluk mücadelesinde ibre bir kez daha Palou’dan yana dönmüş durumda.",
+                "content": "IndyCar’da sezonun en prestijli duraklarindan biri olan Long Beach Grand Prix’sinde zafer, şampiyonluk mücadelesinin en güçlü isimlerinden Alex Palou’nun oldu. Hafta sonu boyunca sergilediği istikrarli performansi yarişa da taşiyan Palou, strateji ve tempo anlaminda rakiplerine üstünlük kurarak damali bayraği ilk sirada geçti.<br><br>Bu sonuçla birlikte Ispanyol pilot, kariyerinde ilk kez Long Beach’te zafere ulaşirken ayni zamanda IndyCar şampiyona liderliğini de yeniden ele geçirdi. Sezonun kritik virajlarindan biri olarak görülen bu yariş, şampiyona dengelerini bir kez daha değiştirdi.<br><br>Yarişi ikinci sirada Felix Rosenqvist tamamlarken, tecrübeli isim Scott Dixon ise podyumun son basamağinda yer aldi. Özellikle Dixon’in yariş içerisindeki yükselişi dikkat çekerken, Rosenqvist ise güçlü performansini podyumla taçlandirdi.<br><br>IndyCar’da heyecan tüm hiziyla devam ederken, Alex Palou’nun bu galibiyeti sezonun geri kalani için önemli bir mesaj niteliği taşiyor. Şampiyonluk mücadelesinde ibre bir kez daha Palou’dan yana dönmüş durumda.",
                 "img": "Resimler/Haberler/Alex.png"
             },
             {
                 "id": 11,
-                "title": "SÉBASTIEN OGIER, KANARYA ADALARI RALLİSİNDE ZAFERE ULAŞTI!",
+                "title": "SÉBASTIEN OGIER, KANARYA ADALARI RALLISINDE ZAFERE ULAŞTI!",
                 "cat": "haberler",
                 "date": "2026-04-26 18:15",
-                "content": "Sébastien Ogier, Kanarya Adaları Rallisi’nde etkileyici bir performans sergileyerek zafere ulaştı. Tecrübeli Fransız pilot, hafta sonu boyunca gösterdiği istikrarlı sürüşle rakiplerine üstünlük kurmayı başardı ve yarışı ilk sırada tamamladı.<br><br>Toyota Gazoo Racing açısından ise yarış adeta gövde gösterisine sahne oldu. Takım, podyumun tamamını alarak büyük bir başarıya imza attı. Elfyn Evans ikinci sırada finiş görürken, genç pilot Sami Pajari ise üçüncü olarak kariyeri adına önemli bir sonuç elde etti.<br><br>Bu sonuçla birlikte Toyota, markalar klasmanındaki gücünü bir kez daha ortaya koyarken, Ogier de şampiyona mücadelesindeki iddiasını sürdürdü.",
+                "content": "Sébastien Ogier, Kanarya Adalari Rallisi’nde etkileyici bir performans sergileyerek zafere ulaşti. Tecrübeli Fransiz pilot, hafta sonu boyunca gösterdiği istikrarli sürüşle rakiplerine üstünlük kurmayi başardi ve yarişi ilk sirada tamamladi.<br><br>Toyota Gazoo Racing açisindan ise yariş adeta gövde gösterisine sahne oldu. Takim, podyumun tamamini alarak büyük bir başariya imza atti. Elfyn Evans ikinci sirada finiş görürken, genç pilot Sami Pajari ise üçüncü olarak kariyeri adina önemli bir sonuç elde etti.<br><br>Bu sonuçla birlikte Toyota, markalar klasmanindaki gücünü bir kez daha ortaya koyarken, Ogier de şampiyona mücadelesindeki iddiasini sürdürdü.",
                 "img": "Resimler/Haberler/Ogier.png"
             },
             {
                 "id": 12,
-                "title": "AYHANCAN GÜVEN'İN NÜRBURGRİNG 24'TEKİ TAKIM ARKADAŞLARI BELLİ OLDU!",
+                "title": "AYHANCAN GÜVEN'IN NÜRBURGRING 24'TEKI TAKIM ARKADAŞLARI BELLI OLDU!",
                 "cat": "haberler",
                 "date": "2026-04-27 21:10",
-                "content": "Dayanıklılık yarışlarının en zorlu sınavlarından biri olan Nürburgring 24 Hours, bu yıl da üst düzey rekabete sahne olmaya hazırlanırken, Türk motorsporları severlerin gözü pistte olacak. Motorsporları dünyasında “Yeşil Cehennem” olarak anılan Nordschleife’de, Porsche fabrika pilotu Ayhancan Güven bir kez daha start alacak.<br><br>Manthey Racing adına yarışacak olan Ayhancan, 911 kapı numaralı Porsche 911 GT3 R direksiyonunda piste çıkacak. Temsilcimize bu zorlu mücadelede, dayanıklılık yarışlarının tecrübeli isimlerinden Kevin Estre ve Thomas Preining eşlik edecek.<br><br>Öte yandan bu sezon birçok GT yarışında görmeye alıştığımız dört kez Formula 1 dünya şampiyonu Max Verstappen de Nürburgring 24 Saat’te piste çıkmaya hazırlanıyor. Hollandalı pilotun da galibiyet mücadelesinde yer alması bekleniyor.<br><br>Farklı sınıflardan çok sayıda aracın aynı anda mücadele ettiği yarış, yoğun trafik, değişken hava koşulları ve gece sürüşü gibi zorluklarıyla öne çıkıyor. Nürburgring 24 Saat, bu yıl 14-17 Mayıs tarihleri arasında düzenlenecek.",
+                "content": "Dayaniklilik yarişlarinin en zorlu sinavlarindan biri olan Nürburgring 24 Hours, bu yil da üst düzey rekabete sahne olmaya hazirlanirken, Türk motorsporlari severlerin gözü pistte olacak. Motorsporlari dünyasinda “Yeşil Cehennem” olarak anilan Nordschleife’de, Porsche fabrika pilotu Ayhancan Güven bir kez daha start alacak.<br><br>Manthey Racing adina yarişacak olan Ayhancan, 911 kapi numarali Porsche 911 GT3 R direksiyonunda piste çikacak. Temsilcimize bu zorlu mücadelede, dayaniklilik yarişlarinin tecrübeli isimlerinden Kevin Estre ve Thomas Preining eşlik edecek.<br><br>Öte yandan bu sezon birçok GT yarişinda görmeye aliştiğimiz dört kez Formula 1 dünya şampiyonu Max Verstappen de Nürburgring 24 Saat’te piste çikmaya hazirlaniyor. Hollandali pilotun da galibiyet mücadelesinde yer almasi bekleniyor.<br><br>Farkli siniflardan çok sayida aracin ayni anda mücadele ettiği yariş, yoğun trafik, değişken hava koşullari ve gece sürüşü gibi zorluklariyla öne çikiyor. Nürburgring 24 Saat, bu yil 14-17 Mayis tarihleri arasinda düzenlenecek.",
                 "img": "Resimler/Haberler/Ayhancan Güven.png"
             },
             {
                 "id": 13,
-                "title": "İTALYA'DA ALP AKSOY FIRTINASI: GENÇ YILDIZIMIZ ŞAMPİYONA LİDERİ!",
+                "title": "ITALYA'DA ALP AKSOY FIRTINASI: GENÇ YILDIZIMIZ ŞAMPIYONA LIDERI!",
                 "cat": "haberler",
                 "date": "2026-05-12 20:00",
                 "author": "Yusuf Yol",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png",
-                "content": "Genç yeteneğimiz Alp Aksoy, 2026 İtalya F4 Şampiyonası’nın Misano World Circuit’te düzenlenen açılış haftasına damgasını vurdu. Prema Racing koltuğunda ilk hafta sonuna çıkan temsilcimiz, sergilediği kusursuz performansla hem pilotlar klasmanında hem de çaylaklar (rookie) kategorisinde şampiyona liderliğine yükseldi. Hafta sonunu iki birincilik ve bir üçüncülükle tamamlayan Alp, kazandığı 82 puanla rakiplerine şimdiden gözdağı verdi.<br><br>Cumartesi günü gerçekleştirilen ilk yarışta damalı bayrağı ilk sırada görerek sezona zaferle başlayan Aksoy, Pazar günkü final yarışında da liderliğini korumayı başardı. Özellikle ıslak ve değişken pist koşullarında gösterdiği olgun sürüş ve rakiplerinin baskısına karşı koyduğu soğukkanlı savunma, uluslararası otoritelerden tam not aldı. Hafta sonu boyunca podyumdan inmeyen Alp Aksoy, şampiyonluk yolundaki en büyük adaylardan biri olduğunu kanıtlayarak İtalya’dan lider unvanıyla ayrıldı.",
+                "authorImg": "Resimler/Haber Yazari Fotoğraflari/Yusuf Yol.png",
+                "content": "Genç yeteneğimiz Alp Aksoy, 2026 Italya F4 Şampiyonasi’nin Misano World Circuit’te düzenlenen açiliş haftasina damgasini vurdu. Prema Racing koltuğunda ilk hafta sonuna çikan temsilcimiz, sergilediği kusursuz performansla hem pilotlar klasmaninda hem de çaylaklar (rookie) kategorisinde şampiyona liderliğine yükseldi. Hafta sonunu iki birincilik ve bir üçüncülükle tamamlayan Alp, kazandiği 82 puanla rakiplerine şimdiden gözdaği verdi.<br><br>Cumartesi günü gerçekleştirilen ilk yarişta damali bayraği ilk sirada görerek sezona zaferle başlayan Aksoy, Pazar günkü final yarişinda da liderliğini korumayi başardi. Özellikle islak ve değişken pist koşullarinda gösterdiği olgun sürüş ve rakiplerinin baskisina karşi koyduğu soğukkanli savunma, uluslararasi otoritelerden tam not aldi. Hafta sonu boyunca podyumdan inmeyen Alp Aksoy, şampiyonluk yolundaki en büyük adaylardan biri olduğunu kanitlayarak Italya’dan lider unvaniyla ayrildi.",
                 "img": "Resimler/Haberler/Alp Aksoy.png"
             },
             {
                 "id": 14,
-                "title": "DEV BULUŞMA BAŞLIYOR: AYHANCAN GÜVEN VE MAX VERSTAPPEN NÜRBURGRİNG 24 SAAT İÇİN PİSTTE!",
+                "title": "DEV BULUŞMA BAŞLIYOR: AYHANCAN GÜVEN VE MAX VERSTAPPEN NÜRBURGRING 24 SAAT IÇIN PISTTE!",
                 "cat": "haberler",
                 "date": "2026-05-13 15:30",
                 "author": "Yusuf Yol",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png",
-                "content": "Dünyanın en zorlu dayanıklılık yarışlarından biri olan Nürburgring 24 Saat için geri sayım sona erdi. Hafta sonu öncesinde padokta en çok merak edilen iki araç, özel tasarımlarıyla pistteki yerini aldı. Temsilcimiz Ayhancan Güven, Manthey Racing’in efsanevi sarı-yeşil renkleriyle özdeşleşen 'Grello' lakaplı Porsche 911 GT3 R (#911) ile zafer arayacak. Ayhancan'a bu zorlu görevde tecrübeli isimler Kevin Estre ve Thomas Preining eşlik edecek.<br><br>Hafta sonunun bir diğer büyük odağı ise Formula 1 şampiyonu Max Verstappen. Hollandalı pilotun kendi takımı Verstappen Racing adına yarışacağı, çarpıcı bir Red Bull tasarımına sahip Mercedes-AMG GT3’ü (#3), geçtiğimiz saatlerde Nürburgring garajında ilk kez görüntülendi. Verstappen, Winward Racing desteğiyle piste çıkacak olan bu araçta direksiyonu Dani Juncadella, Jules Gounon ve Lucas Auer gibi yıldızlarla paylaşacak. Hem Ayhancan hem de Verstappen’in araçlarının piste inişiyle birlikte, 25.3 kilometrelik devasa parkurda büyük rekabetin fitili ateşlenmiş oldu.",
+                "authorImg": "Resimler/Haber Yazari Fotoğraflari/Yusuf Yol.png",
+                "content": "Dünyanin en zorlu dayaniklilik yarişlarindan biri olan Nürburgring 24 Saat için geri sayim sona erdi. Hafta sonu öncesinde padokta en çok merak edilen iki araç, özel tasarimlariyla pistteki yerini aldi. Temsilcimiz Ayhancan Güven, Manthey Racing’in efsanevi sari-yeşil renkleriyle özdeşleşen 'Grello' lakapli Porsche 911 GT3 R (#911) ile zafer arayacak. Ayhancan'a bu zorlu görevde tecrübeli isimler Kevin Estre ve Thomas Preining eşlik edecek.<br><br>Hafta sonunun bir diğer büyük odaği ise Formula 1 şampiyonu Max Verstappen. Hollandali pilotun kendi takimi Verstappen Racing adina yarişacaği, çarpici bir Red Bull tasarimina sahip Mercedes-AMG GT3’ü (#3), geçtiğimiz saatlerde Nürburgring garajinda ilk kez görüntülendi. Verstappen, Winward Racing desteğiyle piste çikacak olan bu araçta direksiyonu Dani Juncadella, Jules Gounon ve Lucas Auer gibi yildizlarla paylaşacak. Hem Ayhancan hem de Verstappen’in araçlarinin piste inişiyle birlikte, 25.3 kilometrelik devasa parkurda büyük rekabetin fitili ateşlenmiş oldu.",
                 "img": "Resimler/Haberler/Ayhancan ve Max.png"
             },
             {
@@ -7875,8 +7875,8 @@ const APP_DATA = {
                 "cat": "haberler",
                 "date": "2026-05-15 17:30",
                 "author": "Emre Boz",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Emre Boz.png",
-                "content": "Ayhancan Güven ve Max Verstappen, bu hafta sonu gerçekleştirilecek Nürburgring 24 Saat yarışına üst sıralardan başlama hakkı kazandı.<br><br>Temsilcimiz Ayhancan Güven’in yer aldığı Manthey EMA ekibinde direksiyon başındaki Thomas Preining, TQ3 seansını liderin 2.816 saniye gerisinde 8. sırada tamamladı. Böylelikle Ayhancan Güven, dünyanın en zorlu dayanıklılık yarışlarından biri olarak gösterilen Nürburgring 24 Saat yarışına 8. sıradan başlayacak.<br><br>Öte yandan Max Verstappen’in ilk kez mücadele edeceği Nürburgring 24 Saat yarışında da dikkat çekici bir sonuç geldi. Hollandalı pilotun takım arkadaşı Daniel Juncadella, TQ3 seansını liderin 0.882 saniye gerisinde 4. sırada noktaladı. Böylece Verstappen’in ekibi yarışa ikinci çizgiden başlama hakkını elde etti.<br><br>Yoğun ilginin olduğu organizasyonda gözler şimdi hem Ayhancan Güven’in performansında hem de Max Verstappen’in ilk Nürburgring 24 Saat deneyiminde olacak.",
+                "authorImg": "Resimler/Haber Yazari Fotoğraflari/Emre Boz.png",
+                "content": "Ayhancan Güven ve Max Verstappen, bu hafta sonu gerçekleştirilecek Nürburgring 24 Saat yarişina üst siralardan başlama hakki kazandi.<br><br>Temsilcimiz Ayhancan Güven’in yer aldiği Manthey EMA ekibinde direksiyon başindaki Thomas Preining, TQ3 seansini liderin 2.816 saniye gerisinde 8. sirada tamamladi. Böylelikle Ayhancan Güven, dünyanin en zorlu dayaniklilik yarişlarindan biri olarak gösterilen Nürburgring 24 Saat yarişina 8. siradan başlayacak.<br><br>Öte yandan Max Verstappen’in ilk kez mücadele edeceği Nürburgring 24 Saat yarişinda da dikkat çekici bir sonuç geldi. Hollandali pilotun takim arkadaşi Daniel Juncadella, TQ3 seansini liderin 0.882 saniye gerisinde 4. sirada noktaladi. Böylece Verstappen’in ekibi yarişa ikinci çizgiden başlama hakkini elde etti.<br><br>Yoğun ilginin olduğu organizasyonda gözler şimdi hem Ayhancan Güven’in performansinda hem de Max Verstappen’in ilk Nürburgring 24 Saat deneyiminde olacak.",
                 "img": "Resimler/Haberler/Ayhancan ve Verstappen.png"
             }
         ]

@@ -424,6 +424,17 @@
         let editingCat = null;
         let currentAppData = null;
 
+        function cleanMotoGPName(name, cat, isPilot, pilotId) {
+            if (!name) return '';
+            if (cat === 'motogp') {
+                if (isPilot && pilotId === 'toprak') {
+                    return name;
+                }
+                return name.replace(/ı/g, 'i').replace(/İ/g, 'I');
+            }
+            return name;
+        }
+
         // Custom Category logic
         function checkCategory() {
             const catSelect = document.getElementById('news-category');
@@ -874,8 +885,9 @@
             const container = document.getElementById('results-rows');
             container.innerHTML = '';
             
-            // Sabit Puanlar: 25, 18, 15, 12, 10, 8, 6, 4, 2, 1
-            const ptsArray = [25, 18, 15, 12, 10, 8, 6, 4, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+            const f1Pts = [25, 18, 15, 12, 10, 8, 6, 4, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+            const motogpPts = [25, 20, 16, 13, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+            const ptsArray = cat === 'motogp' ? motogpPts : f1Pts;
             
             let html = '';
             for (let i = 0; i < 22; i++) {
@@ -890,7 +902,11 @@
                 });
                 
                 const pts = existing.pts !== undefined ? existing.pts : ptsArray[i];
-                const timeGap = existing.time !== undefined ? existing.time : (existing.gap || '');
+                const time = existing.time !== undefined ? existing.time : '';
+                let gap = existing.gap !== undefined ? existing.gap : '';
+                if (i === 0 && gap === '') {
+                    gap = '-';
+                }
                 const status = existing.status || 'Finished';
                 
                 html += `
@@ -905,7 +921,8 @@
                         </div>
                         
                         <div style="display:flex; gap:10px;">
-                            <input type="text" id="res-time-${pos}" style="flex:2;" placeholder="Zaman / Fark" value="${timeGap}">
+                            <input type="text" id="res-time-${pos}" style="flex:2;" placeholder="Süre (Örn: 39'36.270)" value="${time}">
+                            <input type="text" id="res-gap-${pos}" style="flex:2;" placeholder="Fark (Örn: +0.540)" value="${gap}">
                             <select id="res-status-${pos}" style="flex:1;">
                                 <option value="Finished" ${status==='Finished'?'selected':''}>Finished</option>
                                 <option value="DNF" ${status==='DNF'?'selected':''}>DNF</option>
@@ -957,10 +974,11 @@
                     
                     if (pilotVal) {
                         hasResults = true;
-                        const pilotText = selectedOption.getAttribute('data-pilot');
-                        const team = document.getElementById('res-team-' + i).value;
+                        let pilotText = selectedOption.getAttribute('data-pilot');
+                        let team = document.getElementById('res-team-' + i).value;
                         const pts = parseInt(document.getElementById('res-pts-' + i).value) || 0;
-                        const timeGap = document.getElementById('res-time-' + i).value;
+                        const time = document.getElementById('res-time-' + i).value;
+                        const gap = document.getElementById('res-gap-' + i).value;
                         const status = document.getElementById('res-status-' + i).value;
                         
                         let posVal = i;
@@ -968,29 +986,20 @@
                             posVal = status; // pos: "DNF" gibi
                         }
                         
-                        let gap = '';
-                        let time = '';
-                        if (i === 1) {
-                            time = timeGap;
-                            gap = '-';
-                        } else {
-                            if (timeGap.includes(':')) {
-                                time = timeGap;
-                                gap = '+X'; // Tam fark hesaplanamazsa
-                            } else {
-                                gap = timeGap;
-                            }
+                        if (cat === 'motogp') {
+                            pilotText = cleanMotoGPName(pilotText, cat, true, pilotVal);
+                            team = cleanMotoGPName(team, cat, false, '');
                         }
 
                         results.push({
                             pos: posVal,
                             pilot: pilotText,
                             team: team,
-                            time: time || gap,
-                            gap: gap || time,
+                            time: time,
+                            gap: gap,
                             pts: pts,
                             laps: 0,
-                            fastest: i === 1, // Basitlik için sadece 1.ye atandı
+                            fastest: i === 1,
                             status: status
                         });
                     }
@@ -1098,12 +1107,20 @@
                     const val = selectElem.value;
                     
                     if (val) {
-                        const nameText = selectedOption.textContent; // pilot or team name
+                        let nameText = selectedOption.textContent; // pilot or team name
                         const pts = parseInt(document.getElementById('std-pts-' + i).value) || 0;
+                        
+                        if (cat === 'motogp') {
+                            nameText = cleanMotoGPName(nameText, cat, type === 'pilots', val);
+                        }
                         
                         let itemObj = { pos: i, name: nameText, pts: pts };
                         if (type === 'pilots') {
-                            itemObj.team = document.getElementById('std-team-' + i).value;
+                            let teamVal = document.getElementById('std-team-' + i).value;
+                            if (cat === 'motogp') {
+                                teamVal = cleanMotoGPName(teamVal, cat, false, '');
+                            }
+                            itemObj.team = teamVal;
                         }
                         
                         newStandings.push(itemObj);
