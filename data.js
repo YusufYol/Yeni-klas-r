@@ -3432,7 +3432,7 @@
                     "time": "1:27'11.335",
                     "gap": "-",
                     "pts": 25,
-                    "laps": 0,
+                    "laps": 52,
                     "fastest": true,
                     "status": "Finished"
                 },
@@ -3443,7 +3443,7 @@
                     "time": "1:27'11.762",
                     "gap": "+0.427",
                     "pts": 18,
-                    "laps": 0,
+                    "laps": 52,
                     "fastest": false,
                     "status": "Finished"
                 },
@@ -3454,7 +3454,7 @@
                     "time": "1:27'12.107",
                     "gap": "+0.772",
                     "pts": 15,
-                    "laps": 0,
+                    "laps": 52,
                     "fastest": false,
                     "status": "Finished"
                 },
@@ -3465,7 +3465,7 @@
                     "time": "1:27'12.484",
                     "gap": "+1.149",
                     "pts": 12,
-                    "laps": 0,
+                    "laps": 52,
                     "fastest": false,
                     "status": "Finished"
                 },
@@ -3476,7 +3476,7 @@
                     "time": "1:27'12.933",
                     "gap": "+1.598",
                     "pts": 10,
-                    "laps": 0,
+                    "laps": 52,
                     "fastest": false,
                     "status": "Finished"
                 },
@@ -3487,7 +3487,7 @@
                     "time": "1:27'13.358",
                     "gap": "+2.023",
                     "pts": 8,
-                    "laps": 0,
+                    "laps": 52,
                     "fastest": false,
                     "status": "Finished"
                 },
@@ -3498,7 +3498,7 @@
                     "time": "1:27'13.549",
                     "gap": "+2.214",
                     "pts": 6,
-                    "laps": 0,
+                    "laps": 52,
                     "fastest": false,
                     "status": "Finished"
                 },
@@ -3509,7 +3509,7 @@
                     "time": "1:27'13.748",
                     "gap": "+2.413",
                     "pts": 4,
-                    "laps": 0,
+                    "laps": 52,
                     "fastest": false,
                     "status": "Finished"
                 },
@@ -3520,7 +3520,7 @@
                     "time": "1:27'14.564",
                     "gap": "+3.229",
                     "pts": 2,
-                    "laps": 0,
+                    "laps": 52,
                     "fastest": false,
                     "status": "Finished"
                 },
@@ -3531,7 +3531,7 @@
                     "time": "1:27'14.780",
                     "gap": "+3.445",
                     "pts": 1,
-                    "laps": 0,
+                    "laps": 52,
                     "fastest": false,
                     "status": "Finished"
                 },
@@ -3542,62 +3542,62 @@
                     "time": "1:27'15.349",
                     "gap": "+4.014",
                     "pts": 0,
-                    "laps": 0,
+                    "laps": 52,
                     "fastest": false,
                     "status": "Finished"
                 },
                 {
                     "pos": 12,
-                    "pilot": "Carlos Sainz Jr. #55",
-                    "team": "Williams Racing",
-                    "time": "1:27'15.726",
-                    "gap": "+4.391",
-                    "pts": 0,
-                    "laps": 0,
-                    "fastest": false,
-                    "status": "Finished"
-                },
-                {
-                    "pos": 13,
                     "pilot": "Oliver Bearman #87",
                     "team": "Haas F1 Team",
                     "time": "1:27'16.580",
                     "gap": "+5.245",
                     "pts": 0,
-                    "laps": 0,
+                    "laps": 52,
                     "fastest": false,
                     "status": "Finished"
                 },
                 {
-                    "pos": 14,
+                    "pos": 13,
                     "pilot": "Esteban Ocon #31",
                     "team": "Haas F1 Team",
                     "time": "1:27'16.847",
                     "gap": "+5.512",
                     "pts": 0,
-                    "laps": 0,
+                    "laps": 52,
                     "fastest": false,
                     "status": "Finished"
                 },
                 {
-                    "pos": 15,
+                    "pos": 14,
                     "pilot": "Sergio Pérez #11",
                     "team": "Cadillac Formula 1 Team",
                     "time": "1:27'18.738",
                     "gap": "+7.403",
                     "pts": 0,
-                    "laps": 0,
+                    "laps": 52,
                     "fastest": false,
                     "status": "Finished"
                 },
                 {
-                    "pos": 16,
+                    "pos": 15,
                     "pilot": "Andrea Kimi Antonelli #12",
                     "team": "Mercedes-AMG PETRONAS F1 Team",
                     "time": "1:27'19.340",
                     "gap": "+8.005",
                     "pts": 0,
-                    "laps": 0,
+                    "laps": 52,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 16,
+                    "pilot": "Carlos Sainz Jr. #55",
+                    "team": "Williams Racing",
+                    "time": "1:27'15.726",
+                    "gap": "+1 Tur",
+                    "pts": 0,
+                    "laps": 51,
                     "fastest": false,
                     "status": "Finished"
                 },
@@ -3608,7 +3608,7 @@
                     "time": "1:27'19.497",
                     "gap": "+8.162",
                     "pts": 0,
-                    "laps": 0,
+                    "laps": 51,
                     "fastest": false,
                     "status": "Finished"
                 },
@@ -3619,7 +3619,7 @@
                     "time": "1:27'16.315",
                     "gap": "+1 Tur",
                     "pts": 0,
-                    "laps": 0,
+                    "laps": 51,
                     "fastest": false,
                     "status": "Finished"
                 },
@@ -3630,7 +3630,7 @@
                     "time": "1:27'18.085",
                     "gap": "+1 Tur",
                     "pts": 0,
-                    "laps": 0,
+                    "laps": 51,
                     "fastest": false,
                     "status": "Finished"
                 },
@@ -3641,7 +3641,7 @@
                     "time": "1:13'16.703",
                     "gap": "+6 Tur",
                     "pts": 0,
-                    "laps": 0,
+                    "laps": 46,
                     "fastest": false,
                     "status": "DNF"
                 },
@@ -3652,7 +3652,7 @@
                     "time": "1:13'07.820",
                     "gap": "+9 Tur",
                     "pts": 0,
-                    "laps": 0,
+                    "laps": 43,
                     "fastest": false,
                     "status": "DNF"
                 },
@@ -3663,7 +3663,7 @@
                     "time": "58'39.432",
                     "gap": "+16 Tur",
                     "pts": 0,
-                    "laps": 0,
+                    "laps": 36,
                     "fastest": false,
                     "status": "DNF"
                 }
