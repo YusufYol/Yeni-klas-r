@@ -2,6 +2,16 @@
     "formula 1": {
         "news": [
             {
+                "id": 105,
+                "title": "BAHREYN GP TEKRAR İPTAL EDİLDİ!",
+                "cat": "formula 1",
+                "date": "2026-07-13 19:24",
+                "content": "Orta Doğu'da yaşanan savaş ve tırmanan jeopolitik istikrarsızlıklar nedeniyle Formula 1 takviminden çıkarılan Bahreyn Grand Prix'si, son dönemde motor sporları dünyasının en çok konuşulan gündem maddelerinden biri haline gelmişti. Kulislere sızan bilgilere göre, organizatörler ve Formula 1 yönetimi arasında yarışın takvime yeniden dahil edilmesi yönünde ciddi görüşmeler yürütülmekte ve tarafların bir geri dönüş planı üzerinde uzlaşmaya yakın olduğu belirtilmekteydi.<br><br>Planlanan senaryoya göre Bahreyn Grand Prix'si, lojistik açıdan kolaylık sağlaması amacıyla Azerbaycan ve Singapur Grand Prix'leri arasındaki boşluğa konumlandırılacaktı. Bu hamleyle hem takvimdeki boşluğun doldurulması hem de sezonun Asya ayağına entegre bir geçiş yapılması hedefleniyordu.<br><br>Ancak bölgede son günlerde artış gösteren güvenlik riskleri ve askeri gerilimler, bu stratejik planların tamamen masadan kalkmasına neden oldu. Sporcu, teknik ekip ve seyirci güvenliğini her şeyin önünde tutan Formula 1 yönetimi, durum analizi yaptıktan sonra sürecin risk teşkil ettiğine kanaat getirerek geri dönüş kararını resmiyet kazanmadan kesin olarak iptal etti.",
+                "img": "Resimler/Formula 1 Haberler/1783959879019_1000046562.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 100,
                 "title": "MONACO PRENSİ CHARLES LECLERC, SILVERSTONE'DAN GALİBİYETLE AYRILIYOR!",
                 "cat": "formula 1",
