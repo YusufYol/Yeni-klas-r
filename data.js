@@ -2,6 +2,16 @@
     "formula 1": {
         "news": [
             {
+                "id": 105,
+                "title": "BAHREYN GP TEKRAR İPTAL EDİLDİ!",
+                "cat": "formula 1",
+                "date": "2026-07-13 19:24",
+                "content": "Orta Doğu'da yaşanan savaş ve tırmanan jeopolitik istikrarsızlıklar nedeniyle Formula 1 takviminden çıkarılan Bahreyn Grand Prix'si, son dönemde motor sporları dünyasının en çok konuşulan gündem maddelerinden biri haline gelmişti. Kulislere sızan bilgilere göre, organizatörler ve Formula 1 yönetimi arasında yarışın takvime yeniden dahil edilmesi yönünde ciddi görüşmeler yürütülmekte ve tarafların bir geri dönüş planı üzerinde uzlaşmaya yakın olduğu belirtilmekteydi.<br><br>Planlanan senaryoya göre Bahreyn Grand Prix'si, lojistik açıdan kolaylık sağlaması amacıyla Azerbaycan ve Singapur Grand Prix'leri arasındaki boşluğa konumlandırılacaktı. Bu hamleyle hem takvimdeki boşluğun doldurulması hem de sezonun Asya ayağına entegre bir geçiş yapılması hedefleniyordu.<br><br>Ancak bölgede son günlerde artış gösteren güvenlik riskleri ve askeri gerilimler, bu stratejik planların tamamen masadan kalkmasına neden oldu. Sporcu, teknik ekip ve seyirci güvenliğini her şeyin önünde tutan Formula 1 yönetimi, durum analizi yaptıktan sonra sürecin risk teşkil ettiğine kanaat getirerek geri dönüş kararını resmiyet kazanmadan kesin olarak iptal etti.",
+                "img": "Resimler/Formula 1 Haberler/1783959879019_1000046562.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 100,
                 "title": "MONACO PRENSİ CHARLES LECLERC, SILVERSTONE'DAN GALİBİYETLE AYRILIYOR!",
                 "cat": "formula 1",
@@ -7651,6 +7661,17 @@
     },
     "haberler": {
         "news": [
+            {
+                "id": 104,
+                "title": "SAO PAULO 6 SAAT YARIŞINDA NEFES KESEN MÜCADELE VE TÜRK SPORCULARIN TARİHİ ZAFERİ!",
+                "cat": "haberler",
+                "date": "2026-07-13 01:07",
+                "content": "Dünya Dayanıklılık Şampiyonası'nın (WEC) en ikonik duraklarından biri olan Interlagos Pisti, spor severlere unutulmaz bir yarış hafta sonu yaşattı. Hypercar genel klasmanında zafer, muazzam bir strateji savaşına sahne oldu. Yarış boyunca sergiledikleri üstün performansla dikkat çeken #15 BMW M Team WRT (Kevin Magnussen, Raffaele Marciello ve Dries Vanthoor) Sao Paulo 6 Saat yarışının genel kazananı olarak podyumun en üst basamağına çıktı. İkinciliği #51 Ferrari AF Corse ekibi göğslerken, pole pozisyonundan başlayan #12 Cadillac Hertz Team Jota ise damalı bayrağı üçüncü sırada geçerek podyumu tamamlayan son takım oldu.<br><br>Hypercar sınıfındaki bu devlerin savaşının hemen arkasında, tüm Türkiye'ye büyük bir gurur yaşatan tarihi anlar saklıydı. Yarışın LMGT3 kategorisinde pisti adeta domine eden Salih Yoluç ve ülkemizi uluslararası arenada gururla temsil eden safkan Türk takımı Racing Team Turkey, bu kategorideki ilk zaferini ilan ederek adını tarihe altın harflerle yazdırdı. Tamamen bir Türk takımı ve Türk pilot ortaklığıyla gelen bu galibiyet, hem şampiyonadaki rakiplere güçlü bir mesaj verdi hem de Türk motor sporlarının dünyadaki yükselişini bir kez daha tescilledi.<br><br>Interlagos'taki gururumuz sadece zaferle de sınırlı kalmadı. Bir diğer başarılı milli pilotumuz Ayhancan Güven ve takımı Manthey DK Engineering de podyum için son saniyeye kadar nefes kesen bir takip sürdürdü. Yarışın son bölümüne kadar podyum basamağını zorlayan Güven ve ekibi, kıl payı farkla podyumun ucundan dönerek yarışı 4. sırada tamamladı. Podyumu kaçırmış olsalar da sergiledikleri bu muazzam mücadele, gelecek yarışlar için zaferlerin en güçlü adayı olduklarını tüm dünyaya gösterdi.<br><br>Dünya pistlerinde Türk bayrağını en tepeye çıkaran tüm sporcularımıza binlerce kez teşekkürler!",
+                "img": "Resimler/Haberler/1783894076226_1000046511.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png",
+                "customBadge": "WEC"
+            },
             {
                 "id": 102,
                 "title": "SAO PAULO 6 SAATTE POLE CADILLAC'IN!",
