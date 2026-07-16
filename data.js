@@ -2,6 +2,16 @@
     "formula 1": {
         "news": [
             {
+                "id": 106,
+                "title": "FRED VASSEUR, BELÇİKA GP ÖNCESİ TAKIMINA GÜVENİYOR!",
+                "cat": "formula 1",
+                "date": "2026-07-16 13:02",
+                "content": "Formula 1 dünyası, sezonun en ikonik ve heyecan verici duraklarından biri olan Belçika Grand Prix'sine hazırlanırken, Scuderia Ferrari cephesinden hafta sonuna dair önemli açıklamalar geldi. Efsanevi Spa-Francorchamps pistinin kendine has zorluklarına dikkat çeken Ferrari Takım Patronu Frédéric Vasseur, buradaki yarışın her zaman benzersiz bir mücadeleye sahne olduğunu belirtti. Ardenler bölgesinin ünlü ve tamamen öngörülemez hava şartlarının yarışın kaderini her an değiştirebileceğini vurgulayan Vasseur, pistin karakteristik yapısıyla birleşen bu değişkenlerin, Belçika'yı takvimdeki en zorlu sınavlardan biri haline getirdiğini ifade etti.<br><br>Zorlu koşullara rağmen takımın içindeki uyuma ve motivasyona son derece güvendiğini belirten Vasseur, tüm ekibin tek bir hedef doğrultusunda kenetlendiğinin altını çizdi. İtalyan ekibinin garajındaki güçlü sinerjiye değinen deneyimli yönetici, her koşulda birbirini mükemmel şekilde tamamlayan ve sınırları zorlayan iki harika pilota sahip olmalarının kendileri için büyük bir avantaj olduğunu dile getirdi. Vasseur, takımın bu zorlu süreçte tek bir vücut halinde hareket ederek pist üstünde en iyi performansı sergilemek için hazır olduğunu da sözlerine ekledi.<br><br>Hafta sonu boyunca hata payını en aza indirmek istediklerini söyleyen Ferrari patronu, cuma günkü ilk antrenman seansından pazar günkü damalı bayrağa kadar her saniyeyi kusursuz yönetmek zorunda olduklarını belirtti. Amacın her zaman sonucu maksimize etmek olduğunu hatırlatan Vasseur, en ufak detayın bile yarışın sonucuna doğrudan etki edebileceği Spa'da, tüm stratejileri eksiksiz uygulamak için odaklanmış durumda olduklarını vurguladı. Bu kararlı açıklamalar, İtalyan devinin Belçika'da podyum mücadelesine ortak olmak için ne kadar hırslı olduğunu bir kez daha gözler önüne serdi.",
+                "img": "Resimler/Formula 1 Haberler/1784196169526_1000046683.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 105,
                 "title": "BAHREYN GP TEKRAR İPTAL EDİLDİ!",
                 "cat": "formula 1",
