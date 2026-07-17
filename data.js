@@ -2,6 +2,16 @@
     "formula 1": {
         "news": [
             {
+                "id": 107,
+                "title": "FORMULA 1 BELÇİKA'DA CUMA GÜNÜ MESAİSİ TAMAMLANDI!",
+                "cat": "formula 1",
+                "date": "2026-07-17 19:28",
+                "content": "Formula 1 Belçika Grand Prix’si öncesinde cuma günü antrenman seansları tamamlandı ve Spa-Francorchamps pistinde oldukça hareketli, bir o kadar da değişken bir tablo geride kaldı. Hafta sonunun ilk serbest antrenman seansında (FP1) Red Bull pilotu Max Verstappen harika bir ritim yakalayarak zirvenin sahibi oldu. Ferrari koltuğundaki Lewis Hamilton ikinci sırayı alırken, takım arkadaşı Charles Leclerc ise seansı üçüncü sırada tamamladı. İlk seansta Mercedes ve McLaren takımları beklentilerin biraz uzağında bir görüntü çizdi; Mercedes’te şampiyona lideri Kimi Antonelli 6., George Russell 8. olurken, McLaren cephesinde Oscar Piastri 5., Lando Norris ise 7. sırada kendine yer bulabildi.<br><br>Günün ikinci antrenman seansında (FP2) ise pistteki güç dengeleri adeta tamamen tersine döndü. Mercedes'in genç yıldızı Kimi Antonelli, harika bir tempo yakalayarak ikinci seansı lider bitirmeyi başardı. McLaren'dan Lando Norris onun en yakın takipçisi olarak ikinci sıraya yerleşirken, ilk seansın lideri Max Verstappen bu kez üçüncü sırada kaldı. Bu seansta ise Ferrariler performans olarak biraz geride göründü; Lewis Hamilton 4. sırada kalırken, Charles Leclerc ancak 11. sırayı alabildi. Karşı tarafta George Russell yine 8. basamakta kalırken, Oscar Piastri seansı 6. sırada noktaladı.<br><br>İkinci seansın son bölümlerine ise Alpine pilotu Pierre Gasly'nin yaptığı kaza damga vurdu. Gasly'nin kazası sonrası seans kırmızı bayrakla durduruldu; pist görevlilerinin yoğun çabasıyla temizlik çalışmaları hızla tamamlandı ve neyse ki pilotun durumunun iyi olduğu açıklandı. Pist yeniden normal şartlara dönüp yeşil bayrak sallansa da, seansın bitimine pilotların tek bir zaman turu bile atmasına imkan tanımayacak kadar az bir süre kalmıştı ve antrenmanlar bu şekilde sonlanmış oldu.<br><br>Belçika’da cuma günü seansları bu heyecan verici ve sürprizlerle dolu gelişmelerle noktalanırken, gözler şimdiden cumartesi ve pazar günkü kritik seanslara çevrildi. Spa-Francorchamps'ta heyecan cumartesi günü TSİ 13.30'da gerçekleştirilecek 3. Antrenman seansıyla yeniden başlayacak. Grid dizilimini belirleyecek büyük öneme sahip Sıralama turları cumartesi günü 17.00'de start alacakken, pazar günü saat 16.00'da ise büyük yarışta pilotlar podyumun zirvesi için amansız bir mücadeleye için start alacaklar.",
+                "img": "Resimler/Formula 1 Haberler/1784305719440_1000046820.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 106,
                 "title": "FRED VASSEUR, BELÇİKA GP ÖNCESİ TAKIMINA GÜVENİYOR!",
                 "cat": "formula 1",
