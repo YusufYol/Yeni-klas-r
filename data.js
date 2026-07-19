@@ -8652,10 +8652,16 @@ const CIRCUITS_DB = {
         "opened": "1950", "firstWinner": "Juan Manuel Fangio (1950)",
         "mostWinsPilot": "Michael Schumacher (6 Galibiyet)", "mostWinsTeam": "Scuderia Ferrari (18 Galibiyet)",
         "description": "Ardenler Ormanı'nın derinliklerinde yer alan Spa-Francorchamps; Eau Rouge-Raidillon gibi baş döndürücü yükseklik değişimlerine sahip virajları, kestirilemez havası ve saf hız düzlükleriyle pilotların cesaretini sonuna kadar sınayan, Formula 1'in yaşayan en büyük efsanesidir."
+    },
+    "Hungaroring": {
+        "len": "4,381 km", "turns": "14", "record": "1:16.627 (Lewis Hamilton)",
+        "opened": "1986", "firstWinner": "Nelson Piquet (1986)",
+        "mostWinsPilot": "Lewis Hamilton (8 Galibiyet)", "mostWinsTeam": "McLaren F1 Team (13 Galibiyet)",
+        "description": "Dar, virajlı ve ardı arkası kesilmeyen teknik yapısıyla 'duvarsız Monako' veya devasa bir karting pisti olarak anılan Hungaroring, geçiş yapmanın oldukça zor olduğu ve pilotların hem fiziksel hem de zihinsel sınırlarını zorlayan tarihi bir pisttir."
     }
 };
 
-const TRACK_STATS = CIRCUITS_DB["Spa-Francorchamps"];
+const TRACK_STATS = CIRCUITS_DB["Hungaroring"];
 
 // Dinamik veriler script.js tarafından güncellenecektir.
 let CURRENT_WEEKEND_DATA = null;
