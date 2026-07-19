@@ -481,7 +481,7 @@ function initAppEngine() {
                 </div>
                 <div class="top-race-banner-content" id="top-race-banner-click" style="padding: 15px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
                     <div class="banner-left" style="display: flex; flex-direction: column;">
-                        <span class="banner-title" style="font-size: 0.95rem; font-weight: 800; color: var(--asphalt-black); text-transform: uppercase; margin-bottom: 4px;">${event.gp} (${event.category})</span>
+                        <span class="banner-title" lang="en" style="font-size: 0.95rem; font-weight: 800; color: var(--asphalt-black); text-transform: uppercase; margin-bottom: 4px;">${event.gp} (${event.category})</span>
                         <span class="banner-session" style="font-size: 0.85rem; font-weight: 600; color: #666;">Pazar: Yarış ${raceSession ? raceSession.time : ''}</span>
                     </div>
                     <div class="banner-right" style="font-size: 0.85rem; font-weight: 700; color: #888;">
@@ -521,8 +521,8 @@ function initAppEngine() {
                     </div>
                     <span style="font-size:0.75rem; color:#666; font-weight:600">${formatDate(event.isoDate)}</span>
                 </div>
-                <h2 class="weekend-title" style="font-size:1.6rem; margin-top:10px">${event.gp}</h2>
-                <p class="news-date" style="font-size:0.9rem; opacity:0.8; margin-bottom:15px">${event.track}, ${event.country}</p>
+                <h2 class="weekend-title" lang="en" style="font-size:1.6rem; margin-top:10px">${event.gp}</h2>
+                <p class="news-date" style="font-size:0.9rem; opacity:0.8; margin-bottom:15px"><span lang="en">${event.track}</span>, ${event.country}</p>
                 
                 <div style="background:rgba(255,255,255,0.05); border-radius:12px; padding:10px; border:1px solid rgba(0,0,0,0.05)">
                     <ul class="weekend-sessions">
@@ -541,7 +541,7 @@ function initAppEngine() {
                         <span class="track-preview-title">Pist Detayı</span>
                         <span class="tag" style="margin-bottom:0; font-size:0.6rem; opacity:0.7">BİLGİ</span>
                     </div>
-                    <div style="font-size:0.85rem; margin-bottom:10px; font-weight:700">${event.track}</div>
+                    <div style="font-size:0.85rem; margin-bottom:10px; font-weight:700" lang="en">${event.track}</div>
                     <div class="track-preview-stats">
                         <span><span style="opacity:0.6">Mesafe:</span> ${trackStats.len}</span>
                         <span><span style="opacity:0.6">Viraj:</span> ${trackStats.turns}</span>
@@ -576,7 +576,7 @@ function initAppEngine() {
         mainContent.innerHTML = `
             <div class="track-detail-view fade-in">
                 <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px">
-                     <h2 class="section-title" style="margin:0">${event.track.toUpperCase()}</h2>
+                     <h2 class="section-title" lang="en" style="margin:0">${event.track}</h2>
                      <span class="tag" style="background:var(--primary)">${event.category}</span>
                 </div>
                 
@@ -951,8 +951,8 @@ function initAppEngine() {
                     <div class="calendar-item ${c.status.toLowerCase().replace(/ı/g, 'i')} fade-in">
                         <div class="cal-round">R${c.round}</div>
                         <div class="cal-info">
-                            <div class="cal-gp" style="font-weight:700; font-size:1.1rem">${c.gp}</div>
-                            <div class="cal-details">${c.track}, ${c.country} | ${c.date}</div>
+                            <div class="cal-gp" lang="en" style="font-weight:700; font-size:1.1rem">${c.gp}</div>
+                            <div class="cal-details"><span lang="en">${c.track}</span>, ${c.country} | ${c.date}</div>
                             ${hasResults ? `<button class="btn-cal-results" onclick="handleRoute('results', '${cat}', true, ${c.round})">Sonuçları Gör</button>` : ''}
                         </div>
                         <div class="cal-status ${(c.status === 'Sıradaki' || c.status === 'Siradaki') ? 'status-next' : ''}">${c.status}</div>
@@ -996,12 +996,17 @@ function initAppEngine() {
             }
         }
 
-        const title = gpInfo ? `${gpInfo.gp} - ${gpInfo.country}` : `${cat.toUpperCase()} SON YARIŞ SONUÇLARI`;
-        const circuitInfo = gpInfo ? `${gpInfo.track} Pisti | ${gpInfo.date}` : '';
+        let titleHtml = '';
+        if (gpInfo) {
+            titleHtml = `<span lang="en">${gpInfo.gp}</span> - <span>${gpInfo.country}</span>`;
+        } else {
+            titleHtml = `<span>${cat.toUpperCase()} SON YARIŞ SONUÇLARI</span>`;
+        }
+        const circuitInfo = gpInfo ? `<span lang="en">${gpInfo.track}</span> Pisti | ${gpInfo.date}` : '';
 
         mainContent.innerHTML = `
             <button class="back-btn" onclick="window.goBack()">← GERİ DÖN</button>
-            <h2 class="section-title">${title}</h2>
+            <h2 class="section-title">${titleHtml}</h2>
             <div class="results-circuit-info">${circuitInfo}</div>
             
             <div class="results-table-container">
