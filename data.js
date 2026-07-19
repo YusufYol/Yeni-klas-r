@@ -2,6 +2,16 @@
     "formula 1": {
         "news": [
             {
+                "id": 108,
+                "title": "ANDREA KIMI ANTONELLI, BELÇİKA'DA POLE'DE!",
+                "cat": "formula 1",
+                "date": "2026-07-19 14:54",
+                "content": "Formula 1 Belçika Grand Prix'si öncesinde pist üstündeki heyecan ve rekabet zirveye ulaştı. Yağmurun etkisini gösterdiği cumartesi gününün 3. antrenman seansında en hızlı zamanı kaydederek rakiplerine gözdağı veren genç yetenek Andrea Kimi Antonelli, bu muazzam performansını sıralama turlarına da taşıdı. Sıralama turlarında harika bir tur zamanına imza atan Antonelli, pole pozisyonunu söküp alarak pazar günkü yarış öncesinde en büyük avantajı elde eden isim oldu.<br><br>Sıralama seansının en çok konuşulan olaylarından biri ise Red Bull cephesindeki mükemmel takım oyunuydu. Macaristan'da denenen yeni kanadın istenen etkiyi vermemesi ve ardından Silverstone'da yaşanan kazanın ardından Red Bull, Belçika'ya eski kanat konfigürasyonuyla gelme kararı almıştı. Bu kararla piste çıkan Max Verstappen, sıralama turlarında takım arkadaşı Isack Hadjar'ın tur boyunca kendisine verdiği kritik hava koridoru desteği sayesinde harika bir tempo yakaladı ve seansı 2. sırada tamamlayarak ilk çizgiyi kaptı.<br><br>Günün en şanssız ismi ise grid cezasıyla sarsılan Lando Norris oldu. Sıralama turlarında en hızlı 3. zamanı kaydetmesine rağmen, güç ünitesindeki parça değişimi nedeniyle 10 sıra grid cezası alan McLaren pilotu, pazar günkü yarışa 13. sıradan başlamak zorunda kalacak. Norris'in aldığı bu ceza, arkasındaki grid dizilimini adeta tamamen değiştirdi ve rakiplerine büyük bir yükselme şansı doğurdu.<br><br>Bu cezanın ardından sıralamada 4. olan Mercedes pilotu George Russell yarışa 3. sıradan başlama hakkı kazanırken, antrenmanlarda ve sıralamalarda beklentilerin altında kalan Ferrari ve diğer pilotları da üst sıralara taşındı. 3. antrenman seansında kaza yapan ve mekanikerlerin yoğun çabasıyla aracı sıralamalara yetiştirilen Lewis Hamilton, seansı 6. bitirmesine rağmen Norris'in cezasıyla 5. sıraya yükseldi. Sıralamayı 5. tamamlayan Charles Leclerc 4. sıraya yerleşirken, 7. olan Oscar Piastri ise yarışa 6. sıradan start alacak.<br><br>Gridin altüst olduğu ve büyük bir strateji savaşına sahne olması beklenen büyük yarış, 19 Temmuz Pazar günü saat 16.00'da başlayacak.",
+                "img": "Resimler/Formula 1 Haberler/1784462043652_1000046966.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 107,
                 "title": "FORMULA 1 BELÇİKA'DA CUMA GÜNÜ MESAİSİ TAMAMLANDI!",
                 "cat": "formula 1",
