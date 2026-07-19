@@ -2,6 +2,16 @@
     "formula 1": {
         "news": [
             {
+                "id": 109,
+                "title": "MAX VERSTAPPEN'İN YENİ YARIŞ MÜHENDİSİ TOM HART OLDU!",
+                "cat": "formula 1",
+                "date": "2026-07-19 15:40",
+                "content": "Formula 1 padoğunda taşlar yerinden oynamaya devam ederken, Red Bull Racing cephesinden takımın geleceğini doğrudan etkileyecek çok kritik bir hamle geldi. Hollanda basınının ve padoğun güvenilir isimlerinden Erik van Haren'in özel haberine göre; Max Verstappen ile kazandığı şampiyonluklarda telsiz hattının diğer ucundaki ikonik isim olan Gianpiero Lambiase'nin takımdan ayrılacağı kesinleşti. Lambiase'den boşalacak olan yarış mühendisliği koltuğuna ise gelecek sezondan itibaren Tom Hart’ın getirileceği açıklandı.<br><br>Bu hamleyi asıl çarpıcı kılan unsur ise Tom Hart’ın normal şartlarda takımdan ayrılma arifesinde olmasıydı. Başarılı mühendisin gelecek sezon için Williams'a katılması yönünde daha önceden yapılmış kesin bir anlaşması bulunuyordu. Ancak Red Bull yönetimi, hem takımdaki mühendislik kalitesini korumak hem de istikrarı sağlamak adına devreye girdi. Williams ile yapılan yoğun görüşmeler ve varılan mutabakat sonucunda İngiliz mühendis Red Bull bünyesinde kalmaya ikna edildi ve Williams transferi resmi olarak iptal edildi.<br><br>Haberin detaylarında yer alan bir diğer önemli stratejik hamle ise bu anlaşmanın tamamen \"Red Bull odaklı\" yapılmış olması. Gelecek sezondan itibaren Verstappen'in performansını doğrudan yönetecek olan Tom Hart, Max Verstappen takımdan ayrılsa dahi Red Bull bünyesindeki yarış mühendisliği görevine devam edecek. Red Bull, bu uzun vadeli planlamayla birlikte sadece Verstappen’in bugününe odaklanmadığını, gelecekteki olası senaryolara karşı da takım yapısını şimdiden güvence altına aldığını tüm padoğa ilan etmiş oldu.",
+                "img": "Resimler/Formula 1 Haberler/1784464811858_1000046972.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 108,
                 "title": "ANDREA KIMI ANTONELLI, BELÇİKA'DA POLE'DE!",
                 "cat": "formula 1",
