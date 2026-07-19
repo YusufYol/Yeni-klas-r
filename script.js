@@ -166,7 +166,7 @@ function initAppEngine() {
         });
 
         // Sadece "Sıradaki" ve bitiş zamanı şu andan büyük olanları filtrele, sonra tarihe göre sırala
-        const upcoming = allEvents.filter(e => e.status === "Sıradaki" && e.endDateTime > now);
+        const upcoming = allEvents.filter(e => (e.status === "Sıradaki" || e.status === "Siradaki") && e.endDateTime > now);
         upcoming.sort((a, b) => {
             // Aynı tarihe denk gelen yarışlarda Formula 1'i öne al
             if (a.isoDate === b.isoDate) {
@@ -453,7 +453,7 @@ function initAppEngine() {
             if (catData && catData.calendar) {
                 const now = new Date();
                 const pastEvents = catData.calendar.filter(e => {
-                    if (e.status !== "Tamamlandı") return false;
+                    if (e.status !== "Tamamlandı" && e.status !== "Tamamlandi") return false;
                     const parts = e.isoDate.split('-');
                     let eDate = new Date();
                     if (parts.length === 3) {
@@ -527,7 +527,7 @@ function initAppEngine() {
                 <div style="background:rgba(255,255,255,0.05); border-radius:12px; padding:10px; border:1px solid rgba(0,0,0,0.05)">
                     <ul class="weekend-sessions">
                         ${sessions.map(s => `
-                            <li class="session-item ${s.status === 'Tamamlandı' ? 'completed' : ''}" style="display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px solid rgba(0,0,0,0.05)">
+                            <li class="session-item ${(s.status === 'Tamamlandı' || s.status === 'Tamamlandi') ? 'completed' : ''}" style="display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px solid rgba(0,0,0,0.05)">
                                 <span style="font-size:0.85rem; font-weight:600">${s.name}</span>
                                 <span style="font-size:0.85rem; font-weight:700; color:var(--primary-red)">${s.time}</span>
                             </li>
@@ -935,7 +935,7 @@ function initAppEngine() {
                 c.track.toLowerCase().includes(f)
             );
             container.innerHTML = filtered.map(c => {
-                const hasResults = (c.status === 'Tamamlandı');
+                const hasResults = (c.status === 'Tamamlandı' || c.status === 'Tamamlandi');
                 const sessionsHtml = c.sessions ? `
                     <div class="calendar-sessions">
                         ${c.sessions.map(s => `
@@ -955,8 +955,8 @@ function initAppEngine() {
                             <div class="cal-details">${c.track}, ${c.country} | ${c.date}</div>
                             ${hasResults ? `<button class="btn-cal-results" onclick="handleRoute('results', '${cat}', true, ${c.round})">Sonuçları Gör</button>` : ''}
                         </div>
-                        <div class="cal-status ${c.status === 'Sıradaki' ? 'status-next' : ''}">${c.status}</div>
-                        ${c.status === 'Sıradaki' ? sessionsHtml : ''}
+                        <div class="cal-status ${(c.status === 'Sıradaki' || c.status === 'Siradaki') ? 'status-next' : ''}">${c.status}</div>
+                        ${(c.status === 'Sıradaki' || c.status === 'Siradaki') ? sessionsHtml : ''}
                     </div>
                 `;
             }).join('');

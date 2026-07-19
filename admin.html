@@ -435,6 +435,11 @@
             return name;
         }
 
+        function cleanInput(str) {
+            if (!str) return '';
+            return str.replace(/ı/g, 'i').replace(/İ/g, 'I');
+        }
+
         // Custom Category logic
         function checkCategory() {
             const catSelect = document.getElementById('news-category');
@@ -655,15 +660,16 @@
 
         async function publishNews() {
             const btn = document.getElementById('publish-btn');
-            const title = document.getElementById('news-title').value;
-            const content = document.getElementById('news-content').value;
+            const title = cleanInput(document.getElementById('news-title').value);
+            const content = cleanInput(document.getElementById('news-content').value);
             const cat = document.getElementById('news-category').value;
-            const customBadge = document.getElementById('news-custom-badge').value;
+            const customBadge = cleanInput(document.getElementById('news-custom-badge').value);
             const authorSelect = document.getElementById('news-author').value;
-            const authorCustom = document.getElementById('news-author-custom').value;
+            const authorCustom = cleanInput(document.getElementById('news-author-custom').value);
             const imageFile = document.getElementById('news-image').files[0];
 
             let authorName = authorSelect === 'Diğer' ? authorCustom : authorSelect;
+            authorName = cleanInput(authorName);
 
             if (!title || !content || !authorName || (!imageFile && !editingId)) {
                 showStatus('Lütfen tüm alanları doldurun.', 'error');
@@ -679,7 +685,8 @@
                 // 1. Image handling
                 if (imageFile) {
                     const timestamp = Date.now();
-                    const fileName = `${timestamp}_${imageFile.name.replace(/\s/g, '_')}`;
+                    const cleanFileName = cleanInput(imageFile.name).replace(/\s/g, '_');
+                    const fileName = `${timestamp}_${cleanFileName}`;
                     const folderPath = CATEGORY_FOLDERS[cat];
                     fullImagePath = folderPath + fileName;
 
@@ -960,7 +967,7 @@
                 // 1. Status Güncelle
                 const race = appData[cat].calendar.find(r => r.round == round);
                 if (race) {
-                    race.status = document.getElementById('cal-status').value;
+                    race.status = cleanInput(document.getElementById('cal-status').value);
                 }
                 
                 // 2. Sonuçları Topla (Eğer Sıradaki değilse veya pilot seçilmişse)
@@ -986,6 +993,12 @@
                             posVal = status; // pos: "DNF" gibi
                         }
                         
+                        pilotText = cleanInput(pilotText);
+                        team = cleanInput(team);
+                        const cleanTime = cleanInput(time);
+                        const cleanGap = cleanInput(gap);
+                        const cleanStatusVal = cleanInput(status);
+
                         if (cat === 'motogp') {
                             pilotText = cleanMotoGPName(pilotText, cat, true, pilotVal);
                             team = cleanMotoGPName(team, cat, false, '');
@@ -995,12 +1008,12 @@
                             pos: posVal,
                             pilot: pilotText,
                             team: team,
-                            time: time,
-                            gap: gap,
+                            time: cleanTime,
+                            gap: cleanGap,
                             pts: pts,
                             laps: 0,
                             fastest: i === 1,
-                            status: status
+                            status: cleanStatusVal
                         });
                     }
                 }
@@ -1110,6 +1123,7 @@
                         let nameText = selectedOption.textContent; // pilot or team name
                         const pts = parseInt(document.getElementById('std-pts-' + i).value) || 0;
                         
+                        nameText = cleanInput(nameText);
                         if (cat === 'motogp') {
                             nameText = cleanMotoGPName(nameText, cat, type === 'pilots', val);
                         }
@@ -1117,6 +1131,7 @@
                         let itemObj = { pos: i, name: nameText, pts: pts };
                         if (type === 'pilots') {
                             let teamVal = document.getElementById('std-team-' + i).value;
+                            teamVal = cleanInput(teamVal);
                             if (cat === 'motogp') {
                                 teamVal = cleanMotoGPName(teamVal, cat, false, '');
                             }
