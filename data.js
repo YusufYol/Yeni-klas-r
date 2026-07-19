@@ -971,49 +971,49 @@
                 {
                     "pos": 1,
                     "name": "Andrea Kimi Antonelli #12",
-                    "pts": 179,
+                    "pts": 204,
                     "team": "Mercedes-AMG PETRONAS F1 Team"
                 },
                 {
                     "pos": 2,
+                    "name": "Lewis Hamilton #44",
+                    "pts": 159,
+                    "team": "Scuderia Ferrari HP"
+                },
+                {
+                    "pos": 3,
                     "name": "George Russell #63",
                     "pts": 154,
                     "team": "Mercedes-AMG PETRONAS F1 Team"
                 },
                 {
-                    "pos": 3,
-                    "name": "Lewis Hamilton #44",
-                    "pts": 147,
-                    "team": "Scuderia Ferrari HP"
-                },
-                {
                     "pos": 4,
                     "name": "Charles Leclerc #16",
-                    "pts": 108,
+                    "pts": 126,
                     "team": "Scuderia Ferrari HP"
                 },
                 {
                     "pos": 5,
                     "name": "Lando Norris #1",
-                    "pts": 97,
+                    "pts": 103,
                     "team": "McLaren Formula 1 Team"
                 },
                 {
                     "pos": 6,
                     "name": "Oscar Piastri #81",
-                    "pts": 82,
+                    "pts": 92,
                     "team": "McLaren Formula 1 Team"
                 },
                 {
                     "pos": 7,
                     "name": "Max Verstappen #3",
-                    "pts": 76,
+                    "pts": 91,
                     "team": "Oracle Red Bull Racing"
                 },
                 {
                     "pos": 8,
                     "name": "Isack Hadjar #6",
-                    "pts": 52,
+                    "pts": 60,
                     "team": "Oracle Red Bull Racing"
                 },
                 {
@@ -1031,25 +1031,25 @@
                 {
                     "pos": 11,
                     "name": "Arvid Lindblad #41",
-                    "pts": 20,
+                    "pts": 22,
                     "team": "Visa Cash App RB F1 Team"
                 },
                 {
                     "pos": 12,
-                    "name": "Oliver Bearman #87",
-                    "pts": 18,
-                    "team": "Haas F1 Team"
-                },
-                {
-                    "pos": 13,
                     "name": "Franco Colapinto #43",
                     "pts": 18,
                     "team": "BWT Alpine F1 Team"
                 },
                 {
+                    "pos": 13,
+                    "name": "Oliver Bearman #87",
+                    "pts": 18,
+                    "team": "Haas F1 Team"
+                },
+                {
                     "pos": 14,
                     "name": "Gabriel Bortoleto #5",
-                    "pts": 6,
+                    "pts": 10,
                     "team": "Audi F1 Team"
                 },
                 {
@@ -1105,32 +1105,32 @@
                 {
                     "pos": 1,
                     "name": "Mercedes-AMG PETRONAS F1 Team",
-                    "pts": 333
+                    "pts": 358
                 },
                 {
                     "pos": 2,
                     "name": "Scuderia Ferrari HP",
-                    "pts": 255
+                    "pts": 285
                 },
                 {
                     "pos": 3,
                     "name": "McLaren F1 Team",
-                    "pts": 179
+                    "pts": 195
                 },
                 {
                     "pos": 4,
                     "name": "Oracle Red Bull Racing",
-                    "pts": 128
+                    "pts": 151
                 },
                 {
                     "pos": 5,
                     "name": "BWT Alpine F1 Team",
-                    "pts": 60
+                    "pts": 61
                 },
                 {
                     "pos": 6,
                     "name": "Visa Cash App RB F1 Team",
-                    "pts": 59
+                    "pts": 61
                 },
                 {
                     "pos": 7,
@@ -1145,7 +1145,7 @@
                 {
                     "pos": 9,
                     "name": "Audi F1 Team",
-                    "pts": 6
+                    "pts": 10
                 },
                 {
                     "pos": 10,
@@ -1429,7 +1429,29 @@
                 "date": "24-26 Temmuz",
                 "track": "Hungaroring",
                 "isoDate": "2026-07-26",
-                "status": "Bekliyor"
+                "status": "Sıradaki",
+                "sessions": [
+                    {
+                        "name": "Cuma: 1. Antrenman",
+                        "time": "14:30"
+                    },
+                    {
+                        "name": "Cuma: 2. Antrenman",
+                        "time": "18:00"
+                    },
+                    {
+                        "name": "Cumartesi: 3. Antrenman",
+                        "time": "13:30"
+                    },
+                    {
+                        "name": "Cumartesi: Sıralama Turları",
+                        "time": "17:00"
+                    },
+                    {
+                        "name": "Pazar: Yarış",
+                        "time": "16:00"
+                    }
+                ]
             },
             {
                 "round": 14,
@@ -3731,7 +3753,7 @@
             "12": [
                 {
                     "pos": 1,
-                    "pilot": "Andrea Kımı Antonellı #12",
+                    "pilot": "Andrea Kimi Antonelli #12",
                     "team": "Mercedes-AMG PETRONAS F1 Team",
                     "time": "1:24'42.479",
                     "gap": "-",
@@ -3764,7 +3786,7 @@
                 },
                 {
                     "pos": 4,
-                    "pilot": "Lewıs Hamılton #44",
+                    "pilot": "Lewis Hamilton #44",
                     "team": "Scuderia Ferrari HP",
                     "time": "1:24'59.724",
                     "gap": "+17.245",
@@ -3775,7 +3797,7 @@
                 },
                 {
                     "pos": 5,
-                    "pilot": "Oscar Pıastrı #81",
+                    "pilot": "Oscar Piastri #81",
                     "team": "McLaren Formula 1 Team",
                     "time": "1:25'01.467",
                     "gap": "+18.988",
@@ -3797,7 +3819,7 @@
                 },
                 {
                     "pos": 7,
-                    "pilot": "Lando Norrıs #1",
+                    "pilot": "Lando Norris #1",
                     "team": "McLaren Formula 1 Team",
                     "time": "1:25'06.493",
                     "gap": "+24.014",
@@ -3808,7 +3830,7 @@
                 },
                 {
                     "pos": 8,
-                    "pilot": "Gabrıel Bortoleto #5",
+                    "pilot": "Gabriel Bortoleto #5",
                     "team": "Audi F1 Team",
                     "time": "1:25'31.619",
                     "gap": "+49.140",
@@ -3819,7 +3841,7 @@
                 },
                 {
                     "pos": 9,
-                    "pilot": "Arvıd Lındblad #41",
+                    "pilot": "Arvid Lindblad #41",
                     "team": "Visa Cash App RB F1 Team",
                     "time": "1:25'32.885",
                     "gap": "+50.406",
@@ -3830,7 +3852,7 @@
                 },
                 {
                     "pos": 10,
-                    "pilot": "Franco Colapınto #43",
+                    "pilot": "Franco Colapinto #43",
                     "team": "BWT Alpine F1 Team",
                     "time": "1:25'58.516",
                     "gap": "+1'16.037",
@@ -3841,7 +3863,7 @@
                 },
                 {
                     "pos": 11,
-                    "pilot": "Pıerre Gasly #10",
+                    "pilot": "Pierre Gasly #10",
                     "team": "BWT Alpine F1 Team",
                     "time": "1:25'59.470",
                     "gap": "+1'16.991",
@@ -3852,7 +3874,7 @@
                 },
                 {
                     "pos": 12,
-                    "pilot": "Lıam Lawson #30",
+                    "pilot": "Liam Lawson #30",
                     "team": "Visa Cash App RB F1 Team",
                     "time": "1:26'00.002",
                     "gap": "+1'17.523",
@@ -3863,7 +3885,7 @@
                 },
                 {
                     "pos": 13,
-                    "pilot": "Nıco Hulkenberg #27",
+                    "pilot": "Nico Hulkenberg #27",
                     "team": "Audi F1 Team",
                     "time": "1:26'00.827",
                     "gap": "+1'18.348",
@@ -3874,7 +3896,7 @@
                 },
                 {
                     "pos": 14,
-                    "pilot": "Olıver Bearman #87",
+                    "pilot": "Oliver Bearman #87",
                     "team": "Haas F1 Team",
                     "time": "1:26'16.944",
                     "gap": "+1'34.465",
@@ -3896,7 +3918,7 @@
                 },
                 {
                     "pos": 16,
-                    "pilot": "Carlos Saınz Jr. #55",
+                    "pilot": "Carlos Sainz Jr. #55",
                     "team": "Williams Racing",
                     "time": "1:26'28.335",
                     "gap": "+1'45.856",
@@ -3918,7 +3940,7 @@
                 },
                 {
                     "pos": 18,
-                    "pilot": "Valtterı Bottas #77",
+                    "pilot": "Valtteri Bottas #77",
                     "team": "Cadillac Formula 1 Team",
                     "time": "1:25'43.458",
                     "gap": "+1 Tur",
@@ -3951,7 +3973,7 @@
                 },
                 {
                     "pos": "DNF",
-                    "pilot": "Sergıo Pérez #11",
+                    "pilot": "Sergio Pérez #11",
                     "team": "Cadillac Formula 1 Team",
                     "time": "28'34.226",
                     "gap": "+31 Tur",
