@@ -2,6 +2,16 @@
     "formula 1": {
         "news": [
             {
+                "id": 112,
+                "title": "ASTON MARTIN, MACARISTAN'A KAPSAMLI BIR GÜNCELLEME GETIRDI!",
+                "cat": "formula 1",
+                "date": "2026-07-23 16:14",
+                "content": "Aston Martin, sezona yaptiği zorlu başlangicin ardindan radikal bir karara imza atarak Macaristan GP öncesinde tarihinin en kapsamli güncelleme paketini tanitmaya hazirlaniyor. Parça parça güncelleme getirmek yerine gelişimi büyük bir pakete saklayan Ingiliz ekibi, Hungaroring’e adeta baştan aşaği yenilenmiş bir \"B-spec\" araçla geliyor. Ön süspansiyon dişindaki neredeyse tüm gövde ve şasi bileşenlerinin baştan tasarlandiği paket, gridde tam anlamiyla yeni bir sayfa açmayi hedefliyor.<br><br>Adrian Newey ve teknik ekibin liderliğinde hazirlanan bu devasa paket, sadece aerodinamik yüzeylerin baştan çizilmesiyle sinirli değil. Aracin ciddi seviyedeki ağirlik problemini çözmek adina şasi üzerinde agresif bir diyet uygulayan takim, yeni çarpişma testlerinden geçerek yaklaşik 30 kilogramlik ciddi bir hafifleme sağladi. Tamamen yenilenen burun yapisi, aero yüzeyler ve arka süspansiyon mimarisiyle araç, kağit üzerinde sezon başindaki ilk halinden çok daha farkli ve agresif bir kimliğe büründü.<br><br>Takim yetkilileri beklentileri dengede tutmaya çalişsa da simülasyon verileri ve padok kulisleri devasa bir kazanim potansiyeline işaret ediyor. Ingiliz ekibinin bu radikal adimla ana hedefi ise net: Öncü takimlarla aralarindaki performans farkini yari yariya indirmek.<br><br>Yenilenmiş AMR26, Aston Martin’in sezonun geri kalanindaki kaderini ve teknik gelişim yönünü doğrudan belirleyecek.",
+                "img": "Resimler/Formula 1 Haberler/1784812483819_1000047329.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 111,
                 "title": "FERRARI'NIN GÜNCELLENMIŞ \"MACARENA\" KANADI HAZIR!",
                 "cat": "formula 1",
