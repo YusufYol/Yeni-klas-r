@@ -2,6 +2,16 @@
     "formula 1": {
         "news": [
             {
+                "id": 111,
+                "title": "FERRARI'NIN GÜNCELLENMIŞ \"MACARENA\" KANADI HAZIR!",
+                "cat": "formula 1",
+                "date": "2026-07-23 16:10",
+                "content": "Scuderia Ferrari, sezonun teknik açidan en kritik yarişlarindan biri öncesinde aerodinamik paketinde önemli bir değişikliğe gidiyor. Italyan ekibinin geliştirdiği ve \"Macarena\" olarak adlandirilan güncellenmiş arka kanat hazir durumda. Takimin teknik heyeti son değerlendirmelerin ardindan kullanim karari alirsa, bu yeni arka kanat ilk kez Macaristan GP hafta sonunda piste çikacak.<br><br>Macaristan’in ev sahipliği yaptiği Hungaroring, takvimde maksimum yere basma kuvveti (downforce) gerektiren pistlerin başinda geliyor. Düzlüklerin kisa, virajlarin ise oldukça dar ve ardi ardina siralandiği bu pist yapisi, arka kanadin ürettiği aerodinamik yükü ve araç dengesini doğrudan belirliyor. Ferrari de yarişin bu özel karakteristiğine yanit verecek en doğru çözümü devreye sokmayi amaçliyor.<br><br>Yenilenen \"Macarena\" arka kanadi sayesinde şasi üzerindeki hava akişini optimize eden Italyan ekip, arka aksta ekstra yere basma kuvveti elde etmeyi planliyor. Ferrari’nin bu güncellemedeki ana hedefi ise net: Arka tarafin yere daha güçlü tutunmasini sağlayarak Macaristan GP'nin dar ve teknik virajlarini olabildiğince yüksek hizlarda geçebilmek.",
+                "img": "Resimler/Formula 1 Haberler/1784812199263_1000047273.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 110,
                 "title": "ANDREA KIMI ANTONELLI BELÇİKA GP'Yİ KAZANDI!",
                 "cat": "formula 1",
