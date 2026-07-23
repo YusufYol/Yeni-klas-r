@@ -585,11 +585,13 @@ function initAppEngine() {
         const trackMostWinsTeam = td.mostWinsTeam || trackStats?.mostWinsTeam || '-';
         const trackDesc = td.description || trackStats?.description || 'Pist detayları yakında eklenecek.';
 
+        const catName = event?.category ? event.category.toUpperCase() : (cat?.toLowerCase() === 'motogp' ? 'MOTOGP' : 'FORMULA 1');
+
         mainContent.innerHTML = `
             <div class="track-detail-view fade-in">
-                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px">
-                     <h2 class="section-title" lang="en" style="margin:0">${event.track}</h2>
-                     <span class="tag" style="background:var(--primary)">${event.category}</span>
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px; flex-wrap:wrap; gap:10px;">
+                     <h2 class="section-title" lang="en" style="margin:0;">${event.track}</h2>
+                     <span class="track-cat-badge" style="background:#ffffff; color:var(--primary-red); border:1px solid #e0e0e0; padding:8px 18px; border-radius:30px; font-weight:800; font-size:0.8rem; letter-spacing:0.5px; box-shadow:0 4px 12px rgba(0,0,0,0.06); text-transform:uppercase;">${catName}</span>
                 </div>
                 
                 <div class="track-hero-card">

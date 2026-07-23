@@ -437,6 +437,13 @@
                     
                     <button class="btn btn-primary" style="margin-top:20px;" onclick="saveRaceData()">Yarış Verilerini Kaydet</button>
                 </div>
+                
+                <div class="news-list" id="race-list-container" style="margin-top: 30px;">
+                    <div class="news-list-title">Son Takvim & Yarış Sonuçları</div>
+                    <div id="race-items">
+                        <p style="text-align: center; color: var(--text-dim); font-size: 0.8rem;">Yarışlar yükleniyor...</p>
+                    </div>
+                </div>
             </div>
 
             <div id="standings-section" style="display:none;">
@@ -482,6 +489,11 @@
 
         function cleanMotoGPName(name, cat, isPilot, pilotId) {
             if (!name) return '';
+            const turkishPilots = ['Toprak Razgatlıoğlu', 'Can Öncü', 'Deniz Öncü', 'Bahattin Sofuoğlu'];
+            const isTurkish = turkishPilots.some(tp => name.includes(tp));
+            if (!isTurkish) {
+                return name.replace(/ı/g, 'i').replace(/İ/g, 'I');
+            }
             return name;
         }
 
@@ -581,11 +593,13 @@
             const afterAppData = originalContent.substring(endIndex);
             const newFileContent = beforeAppData + "const APP_DATA = " + JSON.stringify(appData, null, 4) + ";" + afterAppData;
 
-            await githubRequest('contents/data.js', 'PUT', {
+            const result = await githubRequest('contents/data.js', 'PUT', {
                 message: message,
                 content: btoa(unescape(encodeURIComponent(newFileContent))),
                 sha: sha
             });
+            currentAppData = appData;
+            return result;
         }
 
         async function loadNewsList() {
@@ -606,8 +620,8 @@
                 // Sort by ID descending (newest first)
                 allNews.sort((a, b) => b.id - a.id);
 
-                // Show only last 15
-                const displayNews = allNews.slice(0, 15);
+                // Show only last 10
+                const displayNews = allNews.slice(0, 10);
 
                 if (displayNews.length === 0) {
                     listContainer.innerHTML = '<p style="text-align: center; color: var(--text-dim); font-size: 0.8rem;">Henüz haber bulunmuyor.</p>';
@@ -849,7 +863,12 @@
             const repo = localStorage.getItem('gh_repo');
 
             const encodedPath = path.split('/').map(segment => encodeURIComponent(segment)).join('/');
-            const url = `https://api.github.com/repos/${user}/${repo}/${encodedPath}`;
+            let url = `https://api.github.com/repos/${user}/${repo}/${encodedPath}`;
+
+            const isGet = method.toUpperCase() === 'GET';
+            if (isGet) {
+                url += (url.includes('?') ? '&' : '?') + `t=${Date.now()}`;
+            }
 
             const headers = {
                 'Authorization': `token ${token}`,
@@ -857,12 +876,17 @@
                 'Content-Type': 'application/json'
             };
 
+            if (isGet) {
+                headers['Cache-Control'] = 'no-cache, no-store, must-revalidate';
+                headers['Pragma'] = 'no-cache';
+            }
+
             const options = { method, headers };
             if (body) options.body = JSON.stringify(body);
 
             const response = await fetch(url, options);
             if (!response.ok) {
-                const errorData = await response.json();
+                const errorData = await response.json().catch(() => ({}));
                 throw new Error(errorData.message || 'GitHub isteği başarısız.');
             }
             return response.json();
@@ -893,7 +917,15 @@
             } else if (tab === 'calendar') {
                 document.getElementById('calendar-section').style.display = 'block';
                 document.getElementById('tab-calendar').className = 'btn btn-primary';
-                if (!currentAppData) loadNewsList(); else loadCalendarRaces();
+                if (!currentAppData) {
+                    loadNewsList().then(() => {
+                        loadCalendarRaces();
+                        loadRaceList();
+                    });
+                } else {
+                    loadCalendarRaces();
+                    loadRaceList();
+                }
             } else if (tab === 'standings') {
                 document.getElementById('standings-section').style.display = 'block';
                 document.getElementById('tab-standings').className = 'btn btn-primary';
@@ -995,7 +1027,9 @@
                 let pilotOptions = '<option value="">Pilot Seçin...</option>';
                 pilots.forEach(p => {
                     const pilotText = p.number ? `${p.name} #${p.number}` : p.name;
-                    const selected = existing.pilot && existing.pilot.includes(p.name) ? 'selected' : '';
+                    const cleanEx = (existing.pilot || '').replace(/ı/g, 'i').replace(/İ/g, 'I').toLowerCase();
+                    const cleanPn = p.name.replace(/ı/g, 'i').replace(/İ/g, 'I').toLowerCase();
+                    const selected = existing.pilot && (existing.pilot.includes(p.name) || cleanEx.includes(cleanPn)) ? 'selected' : '';
                     pilotOptions += `<option value="${p.id}" data-pilot="${pilotText}" data-team="${p.team}" ${selected}>${pilotText}</option>`;
                 });
                 
@@ -1127,10 +1161,8 @@
                         const cleanGap = cleanInput(gap);
                         const cleanStatusVal = cleanInput(status);
 
-                        if (cat === 'motogp') {
-                            pilotText = cleanMotoGPName(pilotText, cat, true, pilotVal);
-                            team = cleanMotoGPName(team, cat, false, '');
-                        }
+                        pilotText = cleanMotoGPName(pilotText, cat, true, pilotVal);
+                        team = cleanMotoGPName(team, cat, false, '');
 
                         results.push({
                             pos: posVal,
@@ -1157,12 +1189,105 @@
                 // Reload data
                 const newData = await getAppData();
                 currentAppData = newData.appData;
+                await loadRaceList();
                 
             } catch (err) {
                 console.error(err);
                 showStatus('Güncelleme hatası: ' + err.message, 'error');
             } finally {
                 btn.disabled = false;
+            }
+        }
+
+        async function loadRaceList() {
+            const listContainer = document.getElementById('race-items');
+            if (!listContainer) return;
+            try {
+                if (!currentAppData) {
+                    const { appData } = await getAppData();
+                    currentAppData = appData;
+                }
+                
+                let allRaces = [];
+                ['formula 1', 'motogp'].forEach(cat => {
+                    if (currentAppData[cat] && currentAppData[cat].calendar) {
+                        currentAppData[cat].calendar.forEach(r => {
+                            const hasResults = currentAppData[cat].resultsHistory && currentAppData[cat].resultsHistory[r.round] && currentAppData[cat].resultsHistory[r.round].length > 0;
+                            if (r.status === 'Tamamlandı' || r.status === 'Sıradaki' || hasResults || (r.sessions && r.sessions.length > 0) || r.trackDetails) {
+                                allRaces.push({
+                                    ...r,
+                                    categoryKey: cat,
+                                    hasResults: hasResults
+                                });
+                            }
+                        });
+                    }
+                });
+
+                allRaces.reverse();
+                const displayRaces = allRaces.slice(0, 10);
+
+                if (displayRaces.length === 0) {
+                    listContainer.innerHTML = '<p style="text-align: center; color: var(--text-dim); font-size: 0.8rem;">Henüz kaydedilmiş yarış verisi veya sonuç bulunmuyor.</p>';
+                    return;
+                }
+
+                listContainer.innerHTML = displayRaces.map(r => `
+                    <div class="news-item">
+                        <div class="news-item-info">
+                            <div class="news-item-title">${r.gp || r.name} (Round ${r.round})</div>
+                            <div class="news-item-meta">${r.categoryKey.toUpperCase()} | Durum: ${r.status || 'Gelecek'} ${r.hasResults ? '| 🏁 Sonuçlar Girildi' : ''}</div>
+                        </div>
+                        <div class="news-item-actions">
+                            <button class="action-btn btn-edit" onclick="editRace('${r.categoryKey}', ${r.round})">Düzenle</button>
+                            <button class="action-btn btn-delete" onclick="deleteRaceData('${r.categoryKey}', ${r.round})">Sil</button>
+                        </div>
+                    </div>
+                `).join('');
+
+            } catch (err) {
+                console.error(err);
+                listContainer.innerHTML = `<p style="text-align: center; color: #ff8b8b; font-size: 0.8rem;">Yükleme hatası: ${err.message}</p>`;
+            }
+        }
+
+        function editRace(cat, round) {
+            document.getElementById('cal-category').value = cat;
+            loadCalendarRaces();
+            document.getElementById('cal-race').value = round;
+            loadRaceDetails();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        async function deleteRaceData(cat, round) {
+            if (!confirm(`Round ${round} (${cat.toUpperCase()}) yarış sonuçlarını ve girilen detaylarını silmek istediğinize emin misiniz?`)) return;
+
+            showStatus('Yarış verisi siliniyor...', 'loading');
+            try {
+                const { appData, sha, fullContent, startIndex, endIndex } = await getAppData();
+                
+                const race = appData[cat].calendar.find(r => r.round == round);
+                if (race) {
+                    race.status = "Gelecek";
+                    delete race.sessions;
+                    delete race.trackDetails;
+                }
+                if (appData[cat].resultsHistory && appData[cat].resultsHistory[round]) {
+                    delete appData[cat].resultsHistory[round];
+                }
+
+                await saveAppData(appData, sha, fullContent, startIndex, endIndex, `Round ${round} Verileri Silindi (${cat.toUpperCase()})`);
+                showStatus('Yarış verileri ve sonuçları başarıyla silindi.', 'success');
+                const newData = await getAppData();
+                currentAppData = newData.appData;
+                await loadRaceList();
+                if (document.getElementById('cal-race').value == round) {
+                    document.getElementById('race-details-container').style.display = 'none';
+                    document.getElementById('cal-race').value = '';
+                }
+            } catch (err) {
+                console.error(err);
+                showStatus('Silme hatası: ' + err.message, 'error');
             }
         }
 
