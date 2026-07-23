@@ -2,6 +2,16 @@
     "formula 1": {
         "news": [
             {
+                "id": 113,
+                "title": "RESMI: GT WORLD SERIES ISTANBUL PARK'TA!",
+                "cat": "formula 1",
+                "date": "2026-07-23 16:17",
+                "content": "TOSFED Başkani Eren Üçlertopraği’nin da belirttiği üzere, Türk motor sporlarini uluslararasi arenanin zirvesine taşima ve pistimizi bölgemizin en önemli cazibe merkezi haline getirme hedefimiz doğrultusunda dev organizasyonlara ev sahipliği yapmaya devam ediyoruz. Ülkemizin tanitimina ve spor turizmine büyük bir ivme kazandirma vizyonuyla sürdürdüğümüz yoğun çalişmalar sayesinde, Istanbul Park'taki uluslararasi yarişlarin sayisi her geçen gün artiyor.<br><br>Bu hedefler doğrultusunda heyecan verici bir adim daha atarak; yaklaşik 20 yillik uzun bir aranin ardindan üst düzey GT otomobillerinin nefes kesen mücadelesini yeniden pistimizin ikonik asfaltina taşiyoruz. Dünyanin en prestijli serilerinden biri olan GT World Series ile hiz, mühendislik ve yüksek rekabetin sinirlari bir kez daha Türkiye’de zorlanacak. Sayin Üçlertopraği'nin çağrisiyla, bu tarihi atmosferi yerinde solumak isteyen tüm hiz tutkunlarini şimdiden TOSFED Istanbul Park’a davet ediyoruz.<br><br>Tarihi anlara taniklik etmek, yüksek motor sesleri ve nefes kesen geçişlerle dolu bu unutulmaz atmosferi yerinde solumak isteyen tüm hiz tutkunlarini TOSFED Istanbul Park’a davet ediyoruz. Şimdiden takvimlerinizde yer açin ve otomobil sporlarinin bu büyük şölenini kaçirmayin!",
+                "img": "Resimler/Formula 1 Haberler/1784812626971_1000047330.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 112,
                 "title": "ASTON MARTIN, MACARISTAN'A KAPSAMLI BIR GÜNCELLEME GETIRDI!",
                 "cat": "formula 1",
