@@ -301,7 +301,6 @@
                 <select id="news-category" onchange="checkCategory()">
                     <option value="formula 1">Formula 1</option>
                     <option value="motogp">MotoGP</option>
-                    <option value="milli sporcularımız">Milli Sporcularımız</option>
                     <option value="haberler">Haberler</option>
                 </select>
                 <input type="text" id="news-custom-badge" placeholder="Özel Kategori Adı (Örn: INDYCAR, WEC)" style="display:none; margin-top:10px;">
@@ -426,18 +425,12 @@
 
         function cleanMotoGPName(name, cat, isPilot, pilotId) {
             if (!name) return '';
-            if (cat === 'motogp') {
-                if (isPilot && pilotId === 'toprak') {
-                    return name;
-                }
-                return name.replace(/ı/g, 'i').replace(/İ/g, 'I');
-            }
             return name;
         }
 
         function cleanInput(str) {
             if (!str) return '';
-            return str.replace(/ı/g, 'i').replace(/İ/g, 'I');
+            return str.trim();
         }
 
         // Custom Category logic

@@ -690,7 +690,7 @@ function initAppEngine() {
 
     function formatBadge(text) {
         if (!text) return '';
-        return text.replace(/ı/g, 'i').replace(/İ/g, 'I').toUpperCase();
+        return text.toLocaleUpperCase('tr-TR');
     }
 
     function createHeroNewsCard(news) {
@@ -742,7 +742,7 @@ function initAppEngine() {
         const news = categoryData.news || [];
 
         let titleText = 'HABERLER';
-        const formattedCat = cat.toLowerCase().replace(/ı/g, 'i');
+        const formattedCat = cat.toLocaleLowerCase('tr-TR');
         if (formattedCat === 'formula 1' || formattedCat === 'formula 1' || formattedCat === 'f1') {
             titleText = 'FORMULA 1 HABERLERİ';
         } else if (cat.toLowerCase() === 'motogp') {
@@ -800,7 +800,7 @@ function initAppEngine() {
         const pilots = categoryData.pilots || [];
         const teams = categoryData.teams || [];
 
-        const titleText = cat.toLowerCase() === 'milli sporcularımız' ? cat.toUpperCase() : `${cat.toUpperCase()} PİLOTLAR VE TAKIMLAR`;
+        const titleText = cat.toLocaleLowerCase('tr-TR') === 'milli sporcularımız' ? cat.toLocaleUpperCase('tr-TR') : `${cat.toLocaleUpperCase('tr-TR')} PİLOTLAR VE TAKIMLAR`;
         mainContent.innerHTML = `
             <h2 class="section-title">${titleText}</h2>
             <div class="search-container">
