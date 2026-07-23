@@ -371,6 +371,63 @@
                             <option value="İptal">İptal</option>
                         </select>
                     </div>
+
+                    <!-- Pist Bilgileri Formu (Tüm Pist Detayları) -->
+                    <div id="track-details-form-container" style="margin-top:20px; padding-top:15px; border-top:1px solid var(--accent);">
+                        <h3 style="font-size:1rem; margin-bottom:15px; color:var(--text-dim);">Pist Bilgileri ("Tüm Pist Detaylarını Gör" Ekranı)</h3>
+                        <div class="form-group">
+                            <label>Pist Adı</label>
+                            <input type="text" id="cal-track-name" placeholder="Örn: Hungaroring">
+                        </div>
+                        <div style="display:flex; gap:10px;">
+                            <div class="form-group" style="flex:1;">
+                                <label>Mesafe / Uzunluk</label>
+                                <input type="text" id="cal-track-len" placeholder="Örn: 4,381 km">
+                            </div>
+                            <div class="form-group" style="flex:1;">
+                                <label>Viraj Sayısı</label>
+                                <input type="text" id="cal-track-turns" placeholder="Örn: 14">
+                            </div>
+                        </div>
+                        <div style="display:flex; gap:10px;">
+                            <div class="form-group" style="flex:1;">
+                                <label>Açılış Yılı</label>
+                                <input type="text" id="cal-track-opened" placeholder="Örn: 1986">
+                            </div>
+                            <div class="form-group" style="flex:1;">
+                                <label>Pist Rekoru</label>
+                                <input type="text" id="cal-track-record" placeholder="Örn: 1:16.627 (Lewis Hamilton)">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>İlk Kazanan</label>
+                            <input type="text" id="cal-track-first-winner" placeholder="Örn: Nelson Piquet (1986)">
+                        </div>
+                        <div style="display:flex; gap:10px;">
+                            <div class="form-group" style="flex:1;">
+                                <label>En Çok Kazanan (Pilot)</label>
+                                <input type="text" id="cal-track-most-wins-pilot" placeholder="Örn: Lewis Hamilton (8 Galibiyet)">
+                            </div>
+                            <div class="form-group" style="flex:1;">
+                                <label>En Çok Kazanan (Takım)</label>
+                                <input type="text" id="cal-track-most-wins-team" placeholder="Örn: McLaren F1 Team (13 Galibiyet)">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Pist Açıklaması / Hakkında Metni</label>
+                            <textarea id="cal-track-desc" style="height:90px;" placeholder="Pist hakkında açıklama metnini girin..."></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Hafta Sonu Seansları Formu -->
+                    <div id="sessions-form-container" style="margin-top:20px; padding-top:15px; border-top:1px solid var(--accent);">
+                        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                            <h3 style="font-size:1rem; color:var(--text-dim); margin:0;">Seanslar & Program</h3>
+                            <button type="button" class="btn btn-secondary" style="width:auto; padding:6px 14px; font-size:0.8rem; margin:0;" onclick="addSessionRow()">+ Seans Ekle</button>
+                        </div>
+                        <p style="font-size:0.75rem; color:var(--text-dim); margin-bottom:12px;">Hafta sonu seanslarını (Antrenman, Sıralama, Yarış) ve saatlerini buradan ekleyip düzenleyebilirsiniz.</p>
+                        <div id="sessions-rows"></div>
+                    </div>
                     
                     <div id="results-form-container" style="margin-top:20px; padding-top:20px; border-top:1px solid var(--accent);">
                         <h3 style="font-size:1rem; margin-bottom:15px; color:var(--text-dim);">Yarış Sonuçları</h3>
@@ -859,6 +916,22 @@
             document.getElementById('race-details-container').style.display = 'none';
         }
 
+        function addSessionRow(name = '', time = '') {
+            const container = document.getElementById('sessions-rows');
+            if (!container) return;
+            const rowId = 'sess-row-' + Date.now() + '-' + Math.floor(Math.random() * 10000);
+            const div = document.createElement('div');
+            div.id = rowId;
+            div.className = 'session-row-item';
+            div.style.cssText = 'display:flex; gap:8px; align-items:center; margin-bottom:8px;';
+            div.innerHTML = `
+                <input type="text" class="sess-name-input" style="flex:2;" placeholder="Seans Adı (Örn: Cuma: 1. Antrenman)" value="${cleanInput(name)}">
+                <input type="text" class="sess-time-input" style="flex:1;" placeholder="Saat (Örn: 16:00)" value="${cleanInput(time)}">
+                <button type="button" class="btn btn-secondary" style="width:auto; padding:10px 12px; margin:0; background:#5a1818; color:#ff8b8b; flex-shrink:0;" onclick="document.getElementById('${rowId}').remove()">✕</button>
+            `;
+            container.appendChild(div);
+        }
+
         function loadRaceDetails() {
             const cat = document.getElementById('cal-category').value;
             const round = document.getElementById('cal-race').value;
@@ -871,7 +944,32 @@
             const race = currentAppData[cat].calendar.find(r => r.round == round);
             if (!race) return;
             
-            document.getElementById('cal-status').value = race.status;
+            document.getElementById('cal-status').value = race.status || 'Sıradaki';
+            document.getElementById('cal-track-name').value = race.track || '';
+
+            let defaultStats = (typeof CIRCUITS_DB !== 'undefined' && CIRCUITS_DB[race.track]) ? CIRCUITS_DB[race.track] : {};
+            let td = race.trackDetails || {};
+
+            document.getElementById('cal-track-len').value = td.len || race.len || defaultStats.len || '';
+            document.getElementById('cal-track-turns').value = td.turns || race.turns || defaultStats.turns || '';
+            document.getElementById('cal-track-opened').value = td.opened || defaultStats.opened || '';
+            document.getElementById('cal-track-record').value = td.record || defaultStats.record || '';
+            document.getElementById('cal-track-first-winner').value = td.firstWinner || defaultStats.firstWinner || '';
+            document.getElementById('cal-track-most-wins-pilot').value = td.mostWinsPilot || defaultStats.mostWinsPilot || '';
+            document.getElementById('cal-track-most-wins-team').value = td.mostWinsTeam || defaultStats.mostWinsTeam || '';
+            document.getElementById('cal-track-desc').value = td.description || defaultStats.description || '';
+
+            const sessionsRows = document.getElementById('sessions-rows');
+            sessionsRows.innerHTML = '';
+            const sessions = race.sessions || [];
+            if (sessions.length > 0) {
+                sessions.forEach(s => addSessionRow(s.name, s.time));
+            } else {
+                addSessionRow('Cuma: 1. Antrenman', '13:30');
+                addSessionRow('Cumartesi: Sıralama Turları', '16:00');
+                addSessionRow('Pazar: Yarış', '15:00');
+            }
+            
             document.getElementById('race-details-container').style.display = 'block';
             
             buildResultsForm(cat, round);
@@ -957,10 +1055,47 @@
             try {
                 const { appData, sha, fullContent, startIndex, endIndex } = await getAppData();
                 
-                // 1. Status Güncelle
+                // 1. Status, Pist Bilgileri & Seanslar Güncelle
                 const race = appData[cat].calendar.find(r => r.round == round);
                 if (race) {
                     race.status = cleanInput(document.getElementById('cal-status').value);
+
+                    const tName = cleanInput(document.getElementById('cal-track-name').value);
+                    if (tName) race.track = tName;
+
+                    const tLen = cleanInput(document.getElementById('cal-track-len').value);
+                    const tTurns = cleanInput(document.getElementById('cal-track-turns').value);
+                    const tOpened = cleanInput(document.getElementById('cal-track-opened').value);
+                    const tRecord = cleanInput(document.getElementById('cal-track-record').value);
+                    const tFirstWinner = cleanInput(document.getElementById('cal-track-first-winner').value);
+                    const tMostWinsPilot = cleanInput(document.getElementById('cal-track-most-wins-pilot').value);
+                    const tMostWinsTeam = cleanInput(document.getElementById('cal-track-most-wins-team').value);
+                    const tDesc = cleanInput(document.getElementById('cal-track-desc').value);
+
+                    race.trackDetails = {
+                        len: tLen,
+                        turns: tTurns,
+                        opened: tOpened,
+                        record: tRecord,
+                        firstWinner: tFirstWinner,
+                        mostWinsPilot: tMostWinsPilot,
+                        mostWinsTeam: tMostWinsTeam,
+                        description: tDesc
+                    };
+
+                    if (tLen) race.len = tLen;
+                    if (tTurns) race.turns = tTurns;
+
+                    const sessionRows = document.querySelectorAll('#sessions-rows .session-row-item');
+                    const sessions = [];
+                    sessionRows.forEach(row => {
+                        const sName = cleanInput(row.querySelector('.sess-name-input').value);
+                        const sTime = cleanInput(row.querySelector('.sess-time-input').value);
+                        if (sName) {
+                            sessions.push({ name: sName, time: sTime });
+                        }
+                    });
+                    race.sessions = sessions;
                 }
                 
                 // 2. Sonuçları Topla (Eğer Sıradaki değilse veya pilot seçilmişse)

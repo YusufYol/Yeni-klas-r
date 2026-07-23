@@ -510,6 +510,8 @@ function initAppEngine() {
         if (!event) return;
 
         const trackStats = CIRCUITS_DB[event.track] || CIRCUITS_DB["Sakhir"];
+        const trackLen = event.len || trackStats?.len || '4,381 km';
+        const trackTurns = event.turns || trackStats?.turns || '14';
         const sessions = event.sessions || [];
 
         const summaryContent = `
@@ -543,8 +545,8 @@ function initAppEngine() {
                     </div>
                     <div style="font-size:0.85rem; margin-bottom:10px; font-weight:700" lang="en">${event.track}</div>
                     <div class="track-preview-stats">
-                        <span><span style="opacity:0.6">Mesafe:</span> ${trackStats.len}</span>
-                        <span><span style="opacity:0.6">Viraj:</span> ${trackStats.turns}</span>
+                        <span><span style="opacity:0.6">Mesafe:</span> ${trackLen}</span>
+                        <span><span style="opacity:0.6">Viraj:</span> ${trackTurns}</span>
                     </div>
                     <button class="track-preview-btn" id="go-to-track-detail">TÜM PİST DETAYLARINI GÖR</button>
                 </div>
@@ -572,6 +574,16 @@ function initAppEngine() {
         if (!event) return;
 
         const trackStats = CIRCUITS_DB[event.track] || CIRCUITS_DB["Sakhir"];
+        const td = event.trackDetails || {};
+
+        const trackLen = td.len || event.len || trackStats?.len || '4,381 km';
+        const trackTurns = td.turns || event.turns || trackStats?.turns || '14';
+        const trackOpened = td.opened || trackStats?.opened || '-';
+        const trackRecord = td.record || trackStats?.record || '-';
+        const trackFirstWinner = td.firstWinner || trackStats?.firstWinner || '-';
+        const trackMostWinsPilot = td.mostWinsPilot || trackStats?.mostWinsPilot || '-';
+        const trackMostWinsTeam = td.mostWinsTeam || trackStats?.mostWinsTeam || '-';
+        const trackDesc = td.description || trackStats?.description || 'Pist detayları yakında eklenecek.';
 
         mainContent.innerHTML = `
             <div class="track-detail-view fade-in">
@@ -581,24 +593,24 @@ function initAppEngine() {
                 </div>
                 
                 <div class="track-hero-card">
-                    <p class="track-description">${trackStats.description || 'Pist detayları yakında eklenecek.'}</p>
+                    <p class="track-description">${trackDesc}</p>
                     
                     <div class="track-stats-grid">
                         <div class="stat-card">
                             <span class="stat-label">Açılış</span>
-                            <span class="stat-value">${trackStats.opened || '-'}</span>
+                            <span class="stat-value">${trackOpened}</span>
                         </div>
                         <div class="stat-card">
                             <span class="stat-label">Mesafe</span>
-                            <span class="stat-value">${trackStats.len}</span>
+                            <span class="stat-value">${trackLen}</span>
                         </div>
                         <div class="stat-card">
                             <span class="stat-label">Viraj Sayısı</span>
-                            <span class="stat-value">${trackStats.turns}</span>
+                            <span class="stat-value">${trackTurns}</span>
                         </div>
                         <div class="stat-card">
                             <span class="stat-label">Pist Rekoru</span>
-                            <span class="stat-value">${trackStats.record}</span>
+                            <span class="stat-value">${trackRecord}</span>
                         </div>
                     </div>
                 </div>
@@ -607,15 +619,15 @@ function initAppEngine() {
                 <div class="track-history-list">
                     <div class="history-item">
                         <span class="history-label">İlk Kazanan</span>
-                        <span class="history-value">${trackStats.firstWinner || '-'}</span>
+                        <span class="history-value">${trackFirstWinner}</span>
                     </div>
                     <div class="history-item">
                         <span class="history-label">En Çok Kazanan (Pilot)</span>
-                        <span class="history-value">${trackStats.mostWinsPilot || '-'}</span>
+                        <span class="history-value">${trackMostWinsPilot}</span>
                     </div>
                     <div class="history-item">
                         <span class="history-label">En Çok Kazanan (Takım)</span>
-                        <span class="history-value">${trackStats.mostWinsTeam || '-'}</span>
+                        <span class="history-value">${trackMostWinsTeam}</span>
                     </div>
                 </div>
 
