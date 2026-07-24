@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 114,
+                "title": "MACARİSTAN GP'DE CUMA GÜNÜ SEANSLARI TAMAMLANDI!",
+                "cat": "formula 1",
+                "date": "2026-07-24 20:58",
+                "content": "Formula 1’de sezonun heyecanla beklenen ayaklarından biri olan Macaristan Grand Prix'sinde cuma günü antrenman seansları geride kaldı. Dar virajları ve kısa düzlükleriyle bilinen Hungaroring, sezon başından bu yana virajlardaki güçlü performansıyla öne çıkan Ferrari'nin beklentileri boşa çıkarmadığı bir güne sahne oldu. İki seans boyunca pist yapısının avantajını çok iyi kullanan İtalyan ekibi, cuma gününün genelinde rakiplerine kıyasla en hazır ve formda takım görüntüsünü çizdi.<br><br>Günün ilk antrenman seansında Charles Leclerc pistin mutlak hakimiydi. Seansın başından sonuna kadar temposunu koruyan Monakolu pilot, dominasyon kurarak 1. antrenmanı zirvede tamamladı. Aracında yaşadığı birtakım sorunlara rağmen ritmini kaybetmeyen Max Verstappen ikinci sırayı alırken, önden kayma problemleri yaşayan ve farklı test programlarına odaklanan Lewis Hamilton seansı üçüncü sırada bitirdi. Takımların ağırlıklı olarak veri toplamaya odaklandığı bu seansta yedek ve genç pilotlar da piste çıktı. Red Bull’da Isack Hadjar 4. sırayı alarak dikkat çekerken, Mercedes’te Kimi Antonelli yerine araca geçen F. Vesti 7., George Russell ise 5. oldu. McLaren cephesinde ise Oscar Piastri’nin koltuğuna oturan geçen yılın F2 şampiyonu L. Fornaroli 16. sırada kalırken, Lando Norris seansı 11. sırada noktaladı.<br><br>İkinci antrenman seansında ise güç dengeleri yeniden şekillendi. İlk seansta istediği turları atamayan Lewis Hamilton, 2. seansta harika bir ritim yakalayarak zirvenin sahibi oldu. Onu hemen arkasından takip eden Charles Leclerc ikinci sırayı alırken, ikilinin arkasında üçüncü sırada Lando Norris yer aldı. Red Bull’dan Max Verstappen seansı 4. sırada tamamlarken, George Russell 5., Isack Hadjar 6. ve yeniden direksiyona geçen Oscar Piastri 8. sırada yer buldu. Mercedes'in genç yıldızı Kimi Antonelli ise seans boyunca yaşadığı yoğun blokaj sorunlarının ardından ancak 13. sırayı alabildi.<br><br>Sonuç olarak Ferrari, cuma gününü en verimli ve güçlü geçiren takım olarak öne çıktı ve hafta sonunun geri kalanı için rakiplerine gözdağı verdi.<br><br>Macaristan GP'sinde heyecan, cumartesi günü saat 13.30'da başlayacak 3. Antrenman seansı ve 17.00'de gerçekleştirilecek kritik Sıralama turlarıyla devam edecek. Şampiyonluk yarışı ve podyum mücadelesi için büyük önem taşıyan dev yarış ise pazar günü saat 16.00'da start alacak.",
+                "img": "Resimler/Formula 1 Haberler/1784915883718_1000047404.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 112,
                 "title": "ASTON MARTIN, MACARİSTAN'A KAPSAMLI BİR GÜNCELLEME GETİRDİ!",
                 "cat": "formula 1",
@@ -760,7 +770,7 @@ const APP_DATA = {
                 "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png",
                 "content": "Formula 1 dünyasının isimlerinden Juan Pablo Montoya, Christian Horner’ın spora olası dönüşü ve Red Bull ile olan bağları hakkında çarpıcı açıklamalarda bulundu. Horner’ın tecrübesinin padok için büyük bir değer olduğunu vurgulayan Montoya, buna rağmen Red Bull’un kurumsal gururunun eski takım patronunun geri dönüşüne engel teşkil edebileceğini savundu. Kolombiyalı pilot, Horner gibi bir liderin Alpine, Aston Martin veya Haas gibi yeniden yapılanma sürecindeki takımlar için 'tek doğru cevap' olabileceğini belirterek; bu tür bir hamlenin ilgili takımları hızla üst sıralara taşıyabileceğini ifade etti.<br><br>Geri dönüşlerin spora kattığı ivmeyi Flavio Briatore üzerinden örneklendiren Montoya, Briatore’nin yirmi yıllık bir aradan sonra Alpine’e dönmesiyle birlikte takımın performansının gözle görülür şekilde arttığını ve stratejik hamlelerin hızlandığını hatırlattı. FIA Başkanı Mohammed Ben Sulayem de bu tartışmalara katılarak Horner’a olan desteğini açıkça dile getirdi. Horner ile düzenli olarak iletişimde olduğunu ve onun 'temiz bir kalbe' sahip olduğunu belirten Ben Sulayem, İngiliz yöneticinin Formula 1’e dönme arzusunu hissettiğini ve geri döndüğünde sanki sadece kısa bir tatile çıkmış gibi kaldığı yerden devam edeceğine inandığını sözlerine ekledi.",
                 "img": "Resimler/Formula 1 Haberler/Horner Montoya.png"
-            },
+            }
         ],
         "pilots": [
             {
