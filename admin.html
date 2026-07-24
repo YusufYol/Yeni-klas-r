@@ -281,6 +281,7 @@
                 white-space: normal;
                 display: -webkit-box;
                 -webkit-line-clamp: 2;
+                line-clamp: 2;
                 -webkit-box-orient: vertical;
                 overflow: hidden;
                 font-size: 0.8rem;
@@ -575,7 +576,7 @@
         }
 
         function login() {
-            const token = document.getElementById('gh-token').value;
+            const token = (document.getElementById('gh-token').value || '').trim();
             const user = "YusufYol";
             const repo = "Yeni-klas-r";
 
@@ -610,7 +611,8 @@
         async function getAppData() {
             const dataResponse = await githubRequest('contents/data.js', 'GET');
             const sha = dataResponse.sha;
-            const currentContent = decodeURIComponent(escape(atob(dataResponse.content)));
+            const cleanB64 = (dataResponse.content || '').replace(/\s/g, '');
+            const currentContent = decodeURIComponent(escape(atob(cleanB64)));
 
             const startMarker = "const APP_DATA = ";
             const startIndex = currentContent.indexOf(startMarker);
@@ -964,42 +966,69 @@
         }
 
         async function githubRequest(path, method, body = null) {
-            const token = localStorage.getItem('gh_token');
-            const user = localStorage.getItem('gh_user') || 'YusufYol';
-            const repo = localStorage.getItem('gh_repo') || 'Yeni-klas-r';
+            const token = (localStorage.getItem('gh_token') || '').trim();
+            const user = (localStorage.getItem('gh_user') || 'YusufYol').trim();
+            const repo = (localStorage.getItem('gh_repo') || 'Yeni-klas-r').trim();
 
-            if (!token) {
-                throw new Error('Erişim anahtarı (token) bulunamadı. Lütfen giriş yapın.');
+            const isGet = method.toUpperCase() === 'GET';
+
+            if (!isGet && !token) {
+                document.getElementById('login-screen').style.display = 'block';
+                document.getElementById('admin-form').style.display = 'none';
+                throw new Error('İşlem yapmak için geçerli bir Token anahtarı girmelisiniz.');
             }
 
             const encodedPath = path.split('/').map(segment => encodeURIComponent(segment)).join('/');
             let url = `https://api.github.com/repos/${user}/${repo}/${encodedPath}`;
 
-            const isGet = method.toUpperCase() === 'GET';
             if (isGet) {
                 url += (url.includes('?') ? '&' : '?') + `t=${Date.now()}`;
             }
 
             const headers = {
-                'Authorization': `token ${token}`,
-                'Accept': 'application/vnd.github.v3+json',
-                'Content-Type': 'application/json'
+                'Accept': 'application/vnd.github.v3+json'
             };
 
-            if (isGet) {
-                headers['Cache-Control'] = 'no-cache, no-store, must-revalidate';
-                headers['Pragma'] = 'no-cache';
+            if (token) {
+                headers['Authorization'] = `Bearer ${token}`;
+            }
+
+            if (body) {
+                headers['Content-Type'] = 'application/json';
             }
 
             const options = { method, headers };
             if (body) options.body = JSON.stringify(body);
 
-            const response = await fetch(url, options);
-            if (!response.ok) {
-                const errorData = await response.json().catch(() => ({}));
-                throw new Error(errorData.message || `GitHub isteği başarısız (${response.status}).`);
+            try {
+                let response = await fetch(url, options);
+                
+                // If GET request fails with 401/403 or CORS, retry without auth for public repo
+                if (!response.ok && isGet) {
+                    const unauthRes = await fetch(url, { method: 'GET', headers: { 'Accept': 'application/vnd.github.v3+json' } }).catch(() => null);
+                    if (unauthRes && unauthRes.ok) return await unauthRes.json();
+                }
+
+                if (!response.ok) {
+                    const errorData = await response.json().catch(() => ({}));
+                    if (response.status === 401 || response.status === 403) {
+                        throw new Error(`GitHub Token Hatası (${response.status}): Girdiğiniz Token'ın süresi dolmuş veya 'repo' yazma izni eksik. Lütfen yeni bir Token alıp girin.`);
+                    }
+                    throw new Error(errorData.message || `GitHub isteği başarısız (${response.status}).`);
+                }
+                return await response.json();
+            } catch (err) {
+                if (isGet) {
+                    try {
+                        const unauthRes = await fetch(url, { method: 'GET', headers: { 'Accept': 'application/vnd.github.v3+json' } });
+                        if (unauthRes.ok) return await unauthRes.json();
+                    } catch (e) {}
+                }
+                if (err.name === 'TypeError' || (err.message && err.message.toLowerCase().includes('fetch'))) {
+                    throw new Error('Ağ / Token Hatası (Failed to fetch): GitHub Token anahtarınızı kontrol edin. Token süreniz dolmuş veya yetkisi (repo izni) eksik olabilir.');
+                }
+                throw err;
             }
-            return response.json();
         }
 
         function toBase64(file) {
