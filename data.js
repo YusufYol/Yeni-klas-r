@@ -760,7 +760,7 @@ const APP_DATA = {
                 "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png",
                 "content": "Formula 1 dünyasının isimlerinden Juan Pablo Montoya, Christian Horner’ın spora olası dönüşü ve Red Bull ile olan bağları hakkında çarpıcı açıklamalarda bulundu. Horner’ın tecrübesinin padok için büyük bir değer olduğunu vurgulayan Montoya, buna rağmen Red Bull’un kurumsal gururunun eski takım patronunun geri dönüşüne engel teşkil edebileceğini savundu. Kolombiyalı pilot, Horner gibi bir liderin Alpine, Aston Martin veya Haas gibi yeniden yapılanma sürecindeki takımlar için 'tek doğru cevap' olabileceğini belirterek; bu tür bir hamlenin ilgili takımları hızla üst sıralara taşıyabileceğini ifade etti.<br><br>Geri dönüşlerin spora kattığı ivmeyi Flavio Briatore üzerinden örneklendiren Montoya, Briatore’nin yirmi yıllık bir aradan sonra Alpine’e dönmesiyle birlikte takımın performansının gözle görülür şekilde arttığını ve stratejik hamlelerin hızlandığını hatırlattı. FIA Başkanı Mohammed Ben Sulayem de bu tartışmalara katılarak Horner’a olan desteğini açıkça dile getirdi. Horner ile düzenli olarak iletişimde olduğunu ve onun 'temiz bir kalbe' sahip olduğunu belirten Ben Sulayem, İngiliz yöneticinin Formula 1’e dönme arzusunu hissettiğini ve geri döndüğünde sanki sadece kısa bir tatile çıkmış gibi kaldığı yerden devam edeceğine inandığını sözlerine ekledi.",
                 "img": "Resimler/Formula 1 Haberler/Horner Montoya.png"
-            }
+            },
         ],
         "pilots": [
             {

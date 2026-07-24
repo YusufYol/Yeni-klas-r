@@ -654,8 +654,8 @@ function initAppEngine() {
 
         if (allNews.length > 0) {
             allNews.sort((a, b) => {
-                let dateA = new Date(a.date);
-                let dateB = new Date(b.date);
+                let dateA = new Date(a.date ? a.date.replace(' ', 'T') : 0);
+                let dateB = new Date(b.date ? b.date.replace(' ', 'T') : 0);
                 if (isNaN(dateA.getTime())) dateA = new Date(0);
                 if (isNaN(dateB.getTime())) dateB = new Date(0);
 
