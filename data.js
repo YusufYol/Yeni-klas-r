@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 116,
+                "title": "MALEZYA GP GERİ DÖNDÜ!",
+                "cat": "formula 1",
+                "date": "2026-07-26 14:54",
+                "content": "Orta Doğu’da tırmanan bölgesel gerilim nedeniyle Bahreyn Grand Prix’sinin ikinci kez iptal edilmesinin ardından motorsport dünyasını heyecanlandıran haber geldi. Malezya Başbakanı tarafından yapılan resmi açıklamayla, Formula 1’in en ikonik pistlerinden biri olan Sepang Uluslararası Pisti'nin takvime geri döndüğü duyuruldu. 2-4 Ekim tarihleri arasında gerçekleştirilecek olan yarış, takvimdeki yerini korumak adına \"Bahreyn Grand Prix\" ismi altında düzenlenecek.<br><br>Formula 1 tarihi için büyük bir öneme sahip olan Sepang Pisti, teknik düzeni, geniş kaçış alanları, yüksek hızlı virajları ve her an sürpriz yapmaya hazır tropikal hava şartlarıyla sürücüler için her zaman en büyük testlerden biri oldu. En son 2017 yılında düzenlenen yarışı henüz genç bir yetenek olan Max Verstappen kazanmış ve spora veda edilmeden önceki son zafere imza atmıştı. Pistin tarihi istatistiklerine bakıldığında ise sürücülerde 4 galibiyetle Sebastian Vettel zirvede yer alırken, takımlar klasmanında 7 galibiyetle Ferrari Sepang'ın en başarılı markası konumunda bulunuyor.<br><br>Öte yandan, sezonun geri kalanındaki belirsizlikler sadece Bahreyn ile sınırlı kalmış değil. Bölgedeki krizin devam etmesi sebebiyle takvimin sonlarına doğru planlanan Katar ve Abu Dhabi GP'lerinin de akıbeti şu an için belirsizliğini koruyor ve her iki yarışın da iptal edilme riski masada duruyor. Şayet bu yarışlar da takvimden çıkarılırsa, FIA ve Formula 1 yönetiminin oluşan boşluğu doldurmak amacıyla İtalya'nın efsanevi pisti Imola GP’yi (Emilia-Romagna GP) yeniden takvime dahil etmesi bekleniyor.",
+                "img": "Resimler/Formula 1 Haberler/1785066869946_1000047537.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 115,
                 "title": "MACARİSTAN'DA LANDO NORRIS POLE'DE!",
                 "cat": "formula 1",
