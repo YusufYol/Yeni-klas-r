@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 117,
+                "title": "MACARİSTAN'I KAZANAN İSİM LANDO NORRIS!",
+                "cat": "formula 1",
+                "date": "2026-07-26 21:13",
+                "content": "Formula 1’de sezonun en heyecanlı ayaklarından biri olan Macaristan Grand Prix’si geride kaldı ve pist, unutulmaz bir mücadeleye sahne oldu. Hafta sonuna 3. serbest antrenman seansından itibaren damga vuran Lando Norris, sıralama turlarında kıl payı (+0.012) elde ettiği pole pozisyonunun ardından yarışa istediği gibi başlayamadı. Startta sıra kaybederek geriye düşmesine rağmen pes etmeyen Britanyalı pilot, muazzam bir yarış temposu sergileyip liderliği yeniden ele geçirdi ve damalı bayrağı ilk sırada görerek bu sezondaki ilk galibiyetini elde etti.<br><br>Yarışın bir diğer öne çıkan ismi ise Red Bull’da Max Verstappen oldu. Hafta sonu boyunca ve yarış esnasında aracının dengesinden ve performansından sık sık şikayet etmesine rağmen ustalığını bir kez daha konuşturan Verstappen, 4. sıradan başladığı yarışı kusursuz bir strateji ve yüksek tempoyla 2. sırada tamamlamayı başardı. Podyumu tamamlayan isim ise cezasına rağmen harikalar yaratan Kimi Antonelli oldu. Aldığı 3 sıra grid cezası nedeniyle 7. sıradan başlamak zorunda kalan genç yetenek, yarış boyunca sergilediği inanılmaz tırmanışla 3. sıraya yerleşti ve podyumun son basamağını kaptı. Red Bull'un diğer sürücüsü Isack Hadjar yarışı 6. sırada tamamlarken, Mercedes pilotu George Russell ise 7. sırada finiş gördü.<br><br>Ferrari cephesi içinse Macaristan hafta sonu tam anlamıyla büyük bir hüsranla sonuçlandı. Yarışa 2. sıradan başlayan Charles Leclerc, kötü startın ardından ilk turlarda 6. sıraya kadar geriledi ve bir türlü aradığı tempoyu bulamayarak yarışı ancak 4. bitirebildi. Sıralama seansını 2. bitirmesine rağmen 3 sıra grid cezasıyla yarışa 5. başlayan Lewis Hamilton ise adeta talihsizlikler silsilesi yaşadı. Muazzam bir tempoyla 2. sıraya kadar tırmanan Hamilton, Sanal Güvenlik Aracı (VSC) periyodunda pite çağrılınca 4. lüğe geriledi. Üstüne pite girerken hız limitini aştığı için 5 saniye ceza alan tecrübeli pilot, yarışı 5. sırada noktalamak zorunda kaldı. Silverstone ve Spa'daki 5'er saniyelik cezaların ardından Macaristan'da da cezalardan kaçamayan Hamilton, en sevdiği pistlerden hayal kırıklığıyla ayrılmış oldu.<br><br>McLaren tarafında ise zaferin yanında büyük bir dram yaşandı. Yarışın ilk bölümünde liderliğe yükselen ve yarışın yarısını önde götüren Oscar Piastri, yanlış pit stop zamanlaması, Carlos Sainz ile yaşadığı temas ve son olarak güç ünitesinde meydana gelen arıza nedeniyle yarış dışı kalarak haftayı puansız kapattı.<br><br>Tüm bu aksiyon dolu anların ardından Formula 1 heyecanı yaz arasına girdi. Şampiyona heyecanı, yaz arasından sonra 21-23 Ağustos tarihlerinde gerçekleşecek olan Hollanda GP (Zandvoort) ile kaldığı yerden devam edecek.",
+                "img": "Resimler/Formula 1 Haberler/1785089629203_1000047653.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 116,
                 "title": "MALEZYA GP GERİ DÖNDÜ!",
                 "cat": "formula 1",
