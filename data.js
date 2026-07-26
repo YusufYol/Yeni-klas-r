@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 115,
+                "title": "MACARİSTAN'DA LANDO NORRIS POLE'DE!",
+                "cat": "formula 1",
+                "date": "2026-07-26 12:11",
+                "content": "Macaristan GP sıralama turları, yüksek tempo ve peş peşe gelen cezalarla dolu büyük bir kaosa sahne oldu. Hafta sonu boyunca performansını üst seviyede tutan Lando Norris, 3. antrenman seansındaki liderliğinin ardından sıralama turlarında da zirveyi kimseye bırakmayarak bu sezondaki ilk pole pozisyonuna uzandı. Norris'in bu başarısı, aynı zamanda sezon başından bu yana süregelen Mercedes dominasyonuna da son vererek gümüş oklar dışında bir takımın elde ettiği ilk pole oldu. Norris'in arkasında damalı bayrağı ikinci sırada geçen Lewis Hamilton ise Q3 seansında Oscar Piastri'yi engellediği gerekçesiyle 3 sıra grid cezası alarak 5. sıraya geriledi. Bu cezanın ardından seansı 3. sırada tamamlayan Charles Leclerc, yarışa 2. sıradan başlama hakkı kazandı.<br><br>Gridin geri kalanında da cezaların etkisiyle büyük bir hareketlilik yaşandı. Beklentilerin altında kalan Mercedes cephesinde Kimi Antonelli, seansı 3. bitirmesine rağmen sarı bayraklar altında yavaşlamadığı için aldığı 3 sıra grid cezasıyla 7. sıraya düştü. Takım arkadaşı George Russell ise bu cezanın ardından 6. sıraya tırmandı. Seansı 4. sırada bitiren McLaren pilotu Oscar Piastri, önündeki Hamilton ve Antonelli'ye verilen cezalar sayesinde yarışa 3. sıradan başlama avantajı yakaladı. Tüm hafta sonu boyunca tur zamanlarında istediği ritmi bulmakta zorlanan Red Bull'da Max Verstappen ise önündeki cezalar neticesinde yarışa 4. sıradan başlama fırsatı bulurken, Isack Hadjar kendisine 8. sırada yer buldu.<br><br>Hafta sonunun dikkat çeken bir diğer hikayesi ise Macaristan'a 16 parçalık dev bir güncelleme paketiyle gelen Aston Martin cephesinde yazıldı. Bu sezon ilk defa bir ana sıralama seansında Q1'i geçmeyi başaran ve Q2'de de oldukça rekabetçi bir performans sergileyen Fernando Alonso seansı 16. sırada noktalarken, Lance Stroll Q1'de elenerek 20. sırada kaldı.<br><br>Dar virajlı yapısı ve kısıtlı geçiş imkanlarıyla bilinen Hungaroring'de gözler, büyük heyecana sahne olması beklenen ve saat 16.00'da başlayacak olan yarışa çevrildi.",
+                "img": "Resimler/Formula 1 Haberler/1785057111669_1000047531.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 114,
                 "title": "MACARİSTAN GP'DE CUMA GÜNÜ SEANSLARI TAMAMLANDI!",
                 "cat": "formula 1",
