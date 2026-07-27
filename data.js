@@ -4305,14 +4305,14 @@ const APP_DATA = {
             },
             {
                 "id": "marquez_m",
-                "name": "Marc Márquez #93",
+                "name": "Marc Marquez #93",
                 "team": "Ducati Lenovo Team",
                 "titles": 7,
                 "img": "Resimler/MotoGP Pilot ve Takimlar/Marc Marquez.png"
             },
             {
                 "id": "martin",
-                "name": "Jorge Martín #89",
+                "name": "Jorge Martin #89",
                 "team": "Aprilia Racing",
                 "titles": 1,
                 "img": "Resimler/MotoGP Pilot ve Takimlar/Jorge Martin.png"
@@ -4347,7 +4347,7 @@ const APP_DATA = {
             },
             {
                 "id": "vinales",
-                "name": "Maverick Viñales #12",
+                "name": "Maverick Vinales #12",
                 "team": "Red Bull KTM Tech3",
                 "titles": 0,
                 "img": "Resimler/MotoGP Pilot ve Takimlar/Maverick Vinales.png"
@@ -4375,14 +4375,14 @@ const APP_DATA = {
             },
             {
                 "id": "marquez_a",
-                "name": "Alex Márquez #73",
+                "name": "Alex Marquez #73",
                 "team": "BK8 Gresini Racing MotoGP",
                 "titles": 0,
                 "img": "Resimler/MotoGP Pilot ve Takimlar/Alex Marquez.png"
             },
             {
                 "id": "aldeguer",
-                "name": "Fermín Aldeguer #54",
+                "name": "Fermin Aldeguer #54",
                 "team": "BK8 Gresini Racing MotoGP",
                 "titles": 0,
                 "img": "Resimler/MotoGP Pilot ve Takimlar/Fermin Aldeguer.png"
@@ -4431,7 +4431,7 @@ const APP_DATA = {
             },
             {
                 "id": "raul",
-                "name": "Raul Fernández #25",
+                "name": "Raul Fernandez #25",
                 "team": "Trackhouse Racing",
                 "titles": 0,
                 "img": "Resimler/MotoGP Pilot ve Takimlar/Raul Fernandez.png"
@@ -8255,87 +8255,87 @@ const APP_DATA = {
             {
                 "id": "miras",
                 "name": "Ali Fuat Miras",
-                "team": "Dynamic Racing Team (Karting Junior)"
+                "team": "Karting Junior"
             },
             {
                 "id": "türkkan",
                 "name": "Ali Türkkan",
-                "team": "Castrol Ford Team Türkiye (Ralli)"
+                "team": "Ralli"
             },
             {
                 "id": "aksoy",
                 "name": "Alp Hasan Aksoy",
-                "team": "Prema Racing (F4)"
+                "team": "F4"
             },
             {
                 "id": "birinci",
                 "name": "Ateş Birinci",
-                "team": "Emre Ergör Karting Team (Karting Senior)"
+                "team": "Karting Senior"
             },
             {
                 "id": "güven",
                 "name": "Ayhancan Güven",
-                "team": "Manthey Racing (WEC)"
+                "team": "WEC"
             },
             {
                 "id": "çebi",
                 "name": "Ayşe Çebi",
-                "team": "Borusan Otomotiv Motorsport Karting Team (Karting Senior)"
+                "team": "Karting Senior"
             },
             {
                 "id": "biter",
                 "name": "Aytaç Biter",
-                "team": "Borusan Otomotiv Motorsport Karting Team (Karting Master)"
+                "team": "Karting Master"
             },
             {
                 "id": "gücenmez",
                 "name": "Bahadır Gücenmez",
-                "team": "Skoda Fabia Rally2 EVO (Ralli)"
+                "team": "Ralli"
             },
             {
                 "id": "yıldırım",
                 "name": "Batı Ege Yıldırım",
-                "team": "Dynamic Racing Team (Karting Junior)"
+                "team": "Karting Junior"
             },
             {
                 "id": "zülfikari",
                 "name": "İskender Zülfikari",
-                "team": "KR Motorsport (OK-Junior)"
+                "team": "OK-Junior"
             },
             {
                 "id": "bayındır",
                 "name": "Berke Bayındır",
-                "team": "Volkswagen Motorsport Turkey (Scirocco R-Cup Europe)"
+                "team": "Scirocco R-Cup Europe"
             },
             {
                 "id": "korkmaz",
                 "name": "Burçin Korkmaz",
-                "team": "Toksport WRT (Ralli)"
+                "team": "Ralli"
             },
             {
                 "id": "çetinkaya",
                 "name": "Burcu Çetinkaya",
-                "team": "GP Garage My Team (Ralli)"
+                "team": "Ralli"
             },
             {
                 "id": "erkal",
                 "name": "Can Erkal",
-                "team": "Castrol Ford Team Türkiye (Ralli)"
+                "team": "Ralli"
             },
             {
                 "id": "ünsal",
                 "name": "Can Luca Ünsal",
-                "team": "Bursa Otomobil Sporları Kulübü (Karting Junior)"
+                "team": "Karting Junior"
             },
             {
                 "id": "özler",
                 "name": "Can Özler",
-                "team": "Dynamic Racing Team (Karting Junior)"
+                "team": "Karting Junior"
             },
             {
                 "id": "bölükbaşı",
                 "name": "Cem Bölükbaşı",
-                "team": "Nielsen Racing (European Le Mans Series)"
+                "team": "European Le Mans Series"
             },
             {
                 "id": "oğuzhan",
@@ -8350,177 +8350,177 @@ const APP_DATA = {
             {
                 "id": "güney",
                 "name": "Çiçek Güney",
-                "team": "Castrol Ford Team Türkiye (Ralli)"
+                "team": "Ralli"
             },
             {
                 "id": "sağım",
                 "name": "Demir Sağım",
-                "team": "Dynamic Racing Team (Karting Junior)"
+                "team": "Karting Junior"
             },
             {
                 "id": "şairoğlu",
                 "name": "Efe Şairoğlu",
-                "team": "Borusan Otomotiv Motorsport Karting Team (Karting Junior)"
+                "team": "Karting Junior"
             },
             {
                 "id": "kalafatoğlu",
                 "name": "Emir Kalafatoğlu",
-                "team": "Borusan Otomotiv Motorsport (GT4 European Series)"
+                "team": "GT4 European Series"
             },
             {
                 "id": "tanju",
                 "name": "Emir Tanju",
-                "team": "Borusan Otomotiv Motorsport Karting Team (Karting Senior)"
+                "team": "Karting Senior"
             },
             {
                 "id": "yurdakul",
                 "name": "Emre Yurdakul",
-                "team": "GP Garage My Team (Ralli)"
+                "team": "Ralli"
             },
             {
                 "id": "ünlüdoğan",
                 "name": "Erin Ünlüdoğan",
-                "team": "Borusan Otomotiv Motorsport Karting Team (Karting Junior)"
+                "team": "Karting Junior"
             },
             {
                 "id": "yücesan",
                 "name": "Ersin Yücesan",
-                "team": "PROsport Racing (Almanya Nürburgring Dayanıklılık Serisi)"
+                "team": "Almanya Nürburgring Dayanıklılık Serisi"
             },
             {
                 "id": "ayhan",
                 "name": "Fatih Ayhan",
-                "team": "Borusan Otomotiv Motorsport (GT4 Avrupa Serisi ve Türkiye Pist Şampiyonası)"
+                "team": "GT4 Avrupa Serisi ve Türkiye Pist Şampiyonası"
             },
             {
                 "id": "atar",
                 "name": "Galip Atar",
-                "team": "Octane 126 ve Ülkü Motorsport (Ferrari Challenge Dünya Şampiyonası)"
+                "team": "Ferrari Challenge Dünya Şampiyonası"
             },
             {
                 "id": "taşdelen",
                 "name": "Gün Taşdelen",
-                "team": "Borusan Otomotiv Motorsport Karting Team (Karting Junior)"
+                "team": "Karting Junior"
             },
             {
                 "id": "okyay",
                 "name": "İbrahim Okyay",
-                "team": "Borusan Otomotiv Motorsport (GT4 Avrupa Serisi)"
+                "team": "GT4 Avrupa Serisi"
             },
             {
                 "id": "gürgenç",
                 "name": "Kaan Gürgenç",
-                "team": "Borusan Otomotiv Motorsport (Türkiye Pist Şampiyonası)"
+                "team": "Türkiye Pist Şampiyonası"
             },
             {
                 "id": "önder",
                 "name": "Kaan Önder",
-                "team": "Borusan Otomotiv Motorsport (e-spor Sim Racing)"
+                "team": "e-spor Sim Racing"
             },
             {
                 "id": "özşenler",
                 "name": "Kaan Özşenler",
-                "team": "Lassa Rally Team, Castrol Ford Team Türkiye ve Fiat (Birmot) (Ralli)"
+                "team": "Ralli"
             },
             {
                 "id": "kazaz",
                 "name": "Kerem Kazaz",
-                "team": "Team Petrol Ofisi (Ralli)"
+                "team": "Ralli"
             },
             {
                 "id": "sulyak",
                 "name": "Kerim Sulyak",
-                "team": "Dynamic Racing Team (Karting Senior)"
+                "team": "Karting Senior"
             },
             {
                 "id": "kocabıyık",
                 "name": "Levent Kocabıyık",
-                "team": "Borusan Otomotiv Motorsport (Türkiye Pist Şampiyonası)"
+                "team": "Türkiye Pist Şampiyonası"
             },
             {
                 "id": "sulyak",
                 "name": "Leyla Sulyak",
-                "team": "Dynamic Racing Team (Karting Senior)"
+                "team": "Karting Senior"
             },
             {
                 "id": "becce",
                 "name": "Mert Becce",
-                "team": "Becce Motorsports / Rally Raid Team Turkey (Off-Road)"
+                "team": "Off-Road"
             },
             {
                 "id": "dalkıran",
                 "name": "Mert Dalkıran",
-                "team": "Comer Top Kart Junior Team (Karting)"
+                "team": "Karting"
             },
             {
                 "id": "bostancı",
                 "name": "Murat Bostancı",
-                "team": "Castrol Ford Team Türkiye (Ralli)"
+                "team": "Ralli"
             },
             {
                 "id": "kolot",
                 "name": "Ömer Asaf Kolot",
-                "team": "Bosphorus Racing / TOSFED National Team Turkey (Karting)"
+                "team": "Karting"
             },
             {
                 "id": "vatansever",
                 "name": "Onur Vatansever",
-                "team": "GP Garage My Team (Ralli)"
+                "team": "Ralli"
             },
             {
                 "id": "avcıoğlu",
                 "name": "Orhan Avcıoğlu",
-                "team": "Toksport WRT (Ralli)"
+                "team": "Ralli"
             },
             {
                 "id": "tatar",
                 "name": "Sertaç Tatar",
-                "team": "GE Rally Raid Team (Off-Road)"
+                "team": "Off-Road"
             },
             {
                 "id": "razgatlıoğlu",
                 "name": "Toprak Razgatlıoğlu",
-                "team": "Prima Pramac Yamaha Racing (MotoGP)"
+                "team": "MotoGP"
             },
             {
                 "id": "ülkü",
                 "name": "Ümit Ülkü",
-                "team": "Ülkü Motorsport (Türkiye Pist Şampiyonası)"
+                "team": "Türkiye Pist Şampiyonası"
             },
             {
                 "id": "ışık",
                 "name": "Volkan Işık",
-                "team": "GP Garage My Team (Ralli)"
+                "team": "Ralli"
             },
             {
                 "id": "oskan",
                 "name": "Yadel Oskan",
-                "team": "Yadel Oskan Motorsport (Porsche GT3 Cup Challenge Eastern Europe)"
+                "team": "Porsche GT3 Cup Challenge Eastern Europe"
             },
             {
                 "id": "avcı",
                 "name": "Yağız Avcı",
-                "team": "Castrol Ford Team Türkiye (Ralli)"
+                "team": "Ralli"
             },
             {
                 "id": "birinci",
                 "name": "Yağız Birinci",
-                "team": "Yağız Birinci Motorsport (Off-Road)"
+                "team": "Off-Road"
             },
             {
                 "id": "gedik",
                 "name": "Yağız Gedik",
-                "team": "Borusan Otomotiv Motorsport (GT4 European Series)"
+                "team": "GT4 European Series"
             },
             {
                 "id": "çetin",
                 "name": "Yiğit Çetin",
-                "team": "Dynamic Racing Team (Karting Mini)"
+                "team": "Karting Mini"
             },
             {
                 "id": "çukurova",
                 "name": "Zeynep Çukurova",
-                "team": "BC Vision Motorsport (Karting Senior)"
+                "team": "Karting Senior"
             }
         ]
     }

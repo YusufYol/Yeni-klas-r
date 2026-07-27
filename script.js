@@ -809,87 +809,388 @@ function initAppEngine() {
         displayNews();
     }
 
-    function renderPilotsAndTeams(cat) {
+    function normalizeName(str) {
+        if (!str) return '';
+        return str.toLowerCase()
+            .replace(/ı/g, 'i')
+            .replace(/İ/g, 'i')
+            .replace(/ş/g, 's')
+            .replace(/ğ/g, 'g')
+            .replace(/ç/g, 'c')
+            .replace(/ö/g, 'o')
+            .replace(/ü/g, 'u')
+            .replace(/#\d+/g, '')
+            .replace(/[^a-z0-9]/g, '')
+            .trim();
+    }
+
+    function getEnrichedPilots(cat) {
         const categoryData = getCategoryData(cat);
         const pilots = categoryData.pilots || [];
         const teams = categoryData.teams || [];
+        const pStands = categoryData.standings?.pilots || [];
 
-        const titleText = cat.toLocaleLowerCase('tr-TR') === 'milli sporcularımız' ? cat.toLocaleUpperCase('tr-TR') : `${cat.toLocaleUpperCase('tr-TR')} PİLOTLAR VE TAKIMLAR`;
+        const list = [];
+        const processedPilotIds = new Set();
+
+        if (pStands.length > 0) {
+            pStands.forEach(s => {
+                const normSName = normalizeName(s.name);
+                const matchedP = pilots.find(p => {
+                    const normPName = normalizeName(p.name);
+                    return normPName === normSName || normPName.includes(normSName) || normSName.includes(normPName);
+                });
+
+                const matchedT = teams.find(t => {
+                    const normTName = normalizeName(t.name);
+                    const normSTeam = normalizeName(s.team);
+                    return normTName === normSTeam || normTName.includes(normSTeam) || normSTeam.includes(normTName);
+                });
+
+                const pilotId = matchedP ? matchedP.id : s.name.toLowerCase().replace(/[^a-z0-9]/g, '');
+                if (matchedP) processedPilotIds.add(matchedP.id);
+
+                const catFolder = cat.toLowerCase().includes('motogp') ? 'MotoGP Pilot ve Takımlar' : 'Formula 1 Pilot ve Takımlar';
+                const cleanNameForImg = s.name.replace(/#\d+/g, '').trim();
+
+                list.push({
+                    id: pilotId,
+                    name: matchedP ? matchedP.name : s.name,
+                    team: s.team || (matchedP ? matchedP.team : ''),
+                    pos: s.pos,
+                    pts: s.pts,
+                    img: matchedP?.img || `Resimler/${catFolder}/${cleanNameForImg}.png`,
+                    teamImg: matchedT?.img || ''
+                });
+            });
+        }
+
+        pilots.forEach(p => {
+            if (!processedPilotIds.has(p.id)) {
+                const matchedT = teams.find(t => {
+                    const normTName = normalizeName(t.name);
+                    const normPTeam = normalizeName(p.team);
+                    return normTName === normPTeam || normTName.includes(normPTeam) || normPTeam.includes(normTName);
+                });
+                list.push({
+                    id: p.id,
+                    name: p.name,
+                    team: p.team || '',
+                    pos: null,
+                    pts: null,
+                    img: p.img,
+                    teamImg: matchedT?.img || ''
+                });
+            }
+        });
+
+        return list;
+    }
+
+    function getEnrichedTeams(cat) {
+        const categoryData = getCategoryData(cat);
+        const teams = categoryData.teams || [];
+        const tStands = categoryData.standings?.teams || [];
+
+        const list = [];
+        const processedTeamIds = new Set();
+
+        if (tStands.length > 0) {
+            tStands.forEach(s => {
+                const normSName = normalizeName(s.name);
+                const matchedT = teams.find(t => {
+                    const normTName = normalizeName(t.name);
+                    return normTName === normSName || normTName.includes(normSName) || normSName.includes(normTName);
+                });
+
+                const teamId = matchedT ? matchedT.id : s.name.toLowerCase().replace(/[^a-z0-9]/g, '');
+                if (matchedT) processedTeamIds.add(matchedT.id);
+
+                list.push({
+                    id: teamId,
+                    name: matchedT ? matchedT.name : s.name,
+                    pos: s.pos,
+                    pts: s.pts,
+                    img: matchedT?.img || ''
+                });
+            });
+        }
+
+        teams.forEach(t => {
+            if (!processedTeamIds.has(t.id)) {
+                list.push({
+                    id: t.id,
+                    name: t.name,
+                    pos: null,
+                    pts: null,
+                    img: t.img
+                });
+            }
+        });
+
+        return list;
+    }
+
+    function renderPilotPodiumHTML(p, cat, isMilli = false) {
+        const rankClass = p.pos === 1 ? 'rank-1' : p.pos === 2 ? 'rank-2' : 'rank-3';
+        const posClass = p.pos === 1 ? 'gold' : p.pos === 2 ? 'silver' : 'bronze';
+        const ptsText = p.pts !== undefined && p.pts !== null ? `${p.pts} PUAN` : '';
+        const posText = p.pos ? `${p.pos}.` : '-';
+        const imgPath = p.img ? (p.img.startsWith('Resimler/') ? `${window.APP_ROOT}${p.img}` : p.img) : 'Resimler/Logo/logo.png';
+        const teamImgPath = p.teamImg ? (p.teamImg.startsWith('Resimler/') ? `${window.APP_ROOT}${p.teamImg}` : p.teamImg) : '';
+
+        return `
+            <div class="podium-card ${rankClass} fade-in" data-id="${p.id}" ${!isMilli ? `onclick="handleRoute('pilot-detail', '${cat}', true, '${p.id}')"` : ''} style="${!isMilli ? 'cursor:pointer' : 'cursor:default'}">
+                <div class="card-header-badge">
+                    <span class="card-pos-badge ${posClass}">${posText}</span>
+                    ${ptsText ? `<span class="card-pts-badge">${ptsText}</span>` : ''}
+                </div>
+                <div class="pilot-img-wrapper" style="${p.pos === 1 ? 'width:130px; height:130px; border-width:4px;' : ''}">
+                    <img src="${imgPath}" alt="${p.name}" class="pilot-card-img" onerror="this.onerror=null; this.src='Resimler/Logo/logo.png'">
+                </div>
+                <div class="pilot-card-content">
+                    <h3 class="pilot-card-name" style="${p.pos === 1 ? 'font-size:1.15rem;' : ''}">${p.name}</h3>
+                    ${p.team ? `
+                    <div class="pilot-card-team">
+                        ${teamImgPath ? `<img src="${teamImgPath}" alt="team logo" class="pilot-card-team-logo" onerror="this.style.display='none'">` : ''}
+                        <span>${p.team}</span>
+                    </div>` : ''}
+                </div>
+            </div>
+        `;
+    }
+
+    function renderTeamPodiumHTML(t, cat) {
+        const rankClass = t.pos === 1 ? 'rank-1' : t.pos === 2 ? 'rank-2' : 'rank-3';
+        const posClass = t.pos === 1 ? 'gold' : t.pos === 2 ? 'silver' : 'bronze';
+        const ptsText = t.pts !== undefined && t.pts !== null ? `${t.pts} PUAN` : '';
+        const posText = t.pos ? `${t.pos}.` : '-';
+        const imgPath = t.img ? (t.img.startsWith('Resimler/') ? `${window.APP_ROOT}${t.img}` : t.img) : 'Resimler/Logo/logo.png';
+
+        return `
+            <div class="podium-card ${rankClass} fade-in" data-id="${t.id}" onclick="handleRoute('team-detail', '${cat}', true, '${t.id}')" style="cursor:pointer">
+                <div class="card-header-badge">
+                    <span class="card-pos-badge ${posClass}">${posText}</span>
+                    ${ptsText ? `<span class="card-pts-badge">${ptsText}</span>` : ''}
+                </div>
+                <div class="team-img-wrapper" style="${t.pos === 1 ? 'height:100px;' : ''}">
+                    <img src="${imgPath}" alt="${t.name}" class="team-card-img" onerror="this.onerror=null; this.src='Resimler/Logo/logo.png'">
+                </div>
+                <div class="team-card-content">
+                    <h3 class="team-card-name" style="${t.pos === 1 ? 'font-size:1.15rem;' : ''}">${t.name}</h3>
+                </div>
+            </div>
+        `;
+    }
+
+    function renderPilotCardHTML(p, cat, isMilli = false) {
+        const posClass = p.pos === 1 ? 'gold' : p.pos === 2 ? 'silver' : p.pos === 3 ? 'bronze' : '';
+        const ptsText = p.pts !== undefined && p.pts !== null ? `${p.pts} PUAN` : '';
+        const posText = p.pos ? `${p.pos}.` : '-';
+        const imgPath = p.img ? (p.img.startsWith('Resimler/') ? `${window.APP_ROOT}${p.img}` : p.img) : 'Resimler/Logo/logo.png';
+        const teamImgPath = p.teamImg ? (p.teamImg.startsWith('Resimler/') ? `${window.APP_ROOT}${p.teamImg}` : p.teamImg) : '';
+        const showHeaderBadge = p.pos !== null && p.pos !== undefined;
+
+        return `
+            <div class="pilot-grid-card fade-in" data-id="${p.id}" ${!isMilli ? `onclick="handleRoute('pilot-detail', '${cat}', true, '${p.id}')"` : ''} style="${!isMilli ? 'cursor:pointer' : 'cursor:default'}">
+                ${showHeaderBadge ? `
+                <div class="card-header-badge">
+                    <span class="card-pos-badge ${posClass}">${posText}</span>
+                    ${ptsText ? `<span class="card-pts-badge">${ptsText}</span>` : ''}
+                </div>` : ''}
+                ${!isMilli ? `
+                <div class="pilot-img-wrapper">
+                    <img src="${imgPath}" alt="${p.name}" class="pilot-card-img" onerror="this.onerror=null; this.src='Resimler/Logo/logo.png'">
+                </div>` : ''}
+                <div class="pilot-card-content">
+                    <h3 class="pilot-card-name">${p.name}</h3>
+                    ${p.team ? `
+                    <div class="pilot-card-team">
+                        ${teamImgPath ? `<img src="${teamImgPath}" alt="team logo" class="pilot-card-team-logo" onerror="this.style.display='none'">` : ''}
+                        <span>${p.team}</span>
+                    </div>` : ''}
+                </div>
+            </div>
+        `;
+    }
+
+    function renderTeamCardHTML(t, cat) {
+        const posClass = t.pos === 1 ? 'gold' : t.pos === 2 ? 'silver' : t.pos === 3 ? 'bronze' : '';
+        const ptsText = t.pts !== undefined && t.pts !== null ? `${t.pts} PUAN` : '';
+        const posText = t.pos ? `${t.pos}.` : '-';
+        const imgPath = t.img ? (t.img.startsWith('Resimler/') ? `${window.APP_ROOT}${t.img}` : t.img) : 'Resimler/Logo/logo.png';
+
+        return `
+            <div class="team-grid-card fade-in" data-id="${t.id}" onclick="handleRoute('team-detail', '${cat}', true, '${t.id}')" style="cursor:pointer">
+                <div class="card-header-badge">
+                    <span class="card-pos-badge ${posClass}">${posText}</span>
+                    ${ptsText ? `<span class="card-pts-badge">${ptsText}</span>` : ''}
+                </div>
+                <div class="team-img-wrapper">
+                    <img src="${imgPath}" alt="${t.name}" class="team-card-img" onerror="this.onerror=null; this.src='Resimler/Logo/logo.png'">
+                </div>
+                <div class="team-card-content">
+                    <h3 class="team-card-name">${t.name}</h3>
+                </div>
+            </div>
+        `;
+    }
+
+    function renderPilotsAndTeams(cat) {
+        const isMilli = cat.toLowerCase() === 'milli sporcularımız';
+        const titleText = isMilli ? 'MİLLİ SPORCULARIMIZ PİLOTLAR' : `${cat.toLocaleUpperCase('tr-TR')} PİLOTLAR VE TAKIMLAR`;
+
+        const pilotsList = getEnrichedPilots(cat);
+        const teamsList = isMilli ? [] : getEnrichedTeams(cat);
+
         mainContent.innerHTML = `
             <h2 class="section-title">${titleText}</h2>
-            <div class="search-container">
-                <span class="search-icon">🔍</span>
-                <input type="text" id="pilot-search" class="search-input" placeholder="Pilot veya takım ara...">
+            <div class="dashboard-header-container">
+                <div class="search-container">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="pilot-search" class="search-input" placeholder="${isMilli ? 'Pilot ara...' : 'Pilot veya takım ara...'}">
+                </div>
+                ${!isMilli ? `
+                <div class="dashboard-tabs">
+                    <button class="dashboard-tab-btn active" id="tab-all">HEPSİ</button>
+                    <button class="dashboard-tab-btn" id="tab-pilots">PİLOTLAR</button>
+                    <button class="dashboard-tab-btn" id="tab-teams">TAKIMLAR</button>
+                </div>` : ''}
             </div>
-            <div id="profiles-container" class="fade-in"></div>
+            <div id="dashboard-content" class="fade-in"></div>
         `;
 
-        const container = document.getElementById('profiles-container');
         const searchInput = document.getElementById('pilot-search');
+        const contentDiv = document.getElementById('dashboard-content');
+        let currentTab = 'all';
 
-        const displayProfiles = (filter = '') => {
-            const f = filter.toLowerCase();
-            const isMilli = cat.toLowerCase() === 'milli sporcularımız';
+        const updateDisplay = () => {
+            const filter = (searchInput.value || '').toLowerCase();
 
-            // Filter pilots that match the name or team
-            const filteredPilots = pilots.filter(p =>
-                p.name.toLowerCase().includes(f) ||
-                p.team.toLowerCase().includes(f)
+            const filteredPilots = pilotsList.filter(p =>
+                p.name.toLowerCase().includes(filter) ||
+                p.team.toLowerCase().includes(filter)
             );
 
-            // Logic enhancement: If a pilot matches, their team should also appear in the teams section.
-            const matchingTeamNamesFromPilots = filteredPilots.map(p => p.team.toLowerCase().replace(/ı/g, 'i'));
+            const filteredTeams = teamsList.filter(t =>
+                t.name.toLowerCase().includes(filter)
+            );
 
-            const filteredTeams = isMilli ? [] : teams.filter(t => {
-                const teamName = t.name.toLowerCase().replace(/ı/g, 'i');
-                return teamName.includes(f.replace(/ı/g, 'i')) ||
-                    matchingTeamNamesFromPilots.some(tp => tp.includes(teamName) || teamName.includes(tp));
-            });
+            let html = '';
 
-            let html = `
-                <div class="profile-view">
-                    <h3>Pilotlar</h3>
-                    <div class="news-feed">
-                        ${filteredPilots.length > 0 ? filteredPilots.map(p => `
-                            <div class="news-card pilot-card fade-in" data-id="${p.id}" ${!isMilli ? `onclick="handleRoute('pilot-detail', '${cat}', true, '${p.id}')"` : ''} style="${!isMilli ? 'cursor:pointer' : 'cursor:default'}">
-                                <div class="news-info">
-                                    <h3 class="news-title">${p.name}</h3>
-                                    <p>${p.team}</p>
+            if (isMilli) {
+                if (filteredPilots.length === 0) {
+                    html += `<p style="padding:15px; color:#999">Pilot bulunamadı.</p>`;
+                } else {
+                    html += `
+                        <div class="two-column-grid">
+                            ${filteredPilots.map(p => renderPilotCardHTML(p, cat, isMilli)).join('')}
+                        </div>
+                    `;
+                }
+            } else {
+                if (currentTab === 'all' || currentTab === 'pilots') {
+                    html += `<h3 class="subsection-title" style="margin-bottom:15px; border-left:4px solid var(--primary-red); padding-left:10px;">Pilotlar</h3>`;
+                    
+                    if (filteredPilots.length === 0) {
+                        html += `<p style="padding:15px; color:#999">Pilot bulunamadı.</p>`;
+                    } else if (!filter) {
+                        const top3 = filteredPilots.filter(p => p.pos >= 1 && p.pos <= 3).sort((a, b) => a.pos - b.pos);
+                        const others = filteredPilots.filter(p => !p.pos || p.pos > 3);
+
+                        if (top3.length > 0) {
+                            html += `
+                                <div class="podium-section">
+                                    <div class="podium-grid">
+                                        ${top3.map(p => renderPilotPodiumHTML(p, cat, isMilli)).join('')}
+                                    </div>
                                 </div>
-                            </div>
-                        `).join('') : '<p style="padding:15px; color:#999">Pilot bulunamadı.</p>'}
-                    </div>
-            `;
+                            `;
+                        }
 
-            if (!isMilli) {
-                html += `
-                    <h3 style="margin-top:30px">Takımlar</h3>
-                    <div class="news-feed">
-                        ${filteredTeams.length > 0 ? filteredTeams.map(t => `
-                            <div class="news-card team-card fade-in" data-id="${t.id}" onclick="handleRoute('team-detail', '${cat}', true, '${t.id}')" style="cursor:pointer">
-                                <div class="news-info">
-                                    <h3 class="news-title">${t.name}</h3>
+                        if (others.length > 0) {
+                            html += `
+                                <div class="two-column-grid">
+                                    ${others.map(p => renderPilotCardHTML(p, cat, isMilli)).join('')}
                                 </div>
+                            `;
+                        }
+                    } else {
+                        html += `
+                            <div class="two-column-grid">
+                                ${filteredPilots.map(p => renderPilotCardHTML(p, cat, isMilli)).join('')}
                             </div>
-                        `).join('') : '<p style="padding:15px; color:#999">Takım bulunamadı.</p>'}
-                    </div>
-                `;
+                        `;
+                    }
+                }
+
+                if (currentTab === 'all' || currentTab === 'teams') {
+                    html += `<h3 class="subsection-title" style="margin-top:35px; margin-bottom:15px; border-left:4px solid var(--primary-red); padding-left:10px;">Takımlar</h3>`;
+
+                    if (filteredTeams.length === 0) {
+                        html += `<p style="padding:15px; color:#999">Takım bulunamadı.</p>`;
+                    } else if (!filter) {
+                        const top3Teams = filteredTeams.filter(t => t.pos >= 1 && t.pos <= 3).sort((a, b) => a.pos - b.pos);
+                        const otherTeams = filteredTeams.filter(t => !t.pos || t.pos > 3);
+
+                        if (top3Teams.length > 0) {
+                            html += `
+                                <div class="podium-section">
+                                    <div class="podium-grid">
+                                        ${top3Teams.map(t => renderTeamPodiumHTML(t, cat)).join('')}
+                                    </div>
+                                </div>
+                            `;
+                        }
+
+                        if (otherTeams.length > 0) {
+                            html += `
+                                <div class="two-column-grid">
+                                    ${otherTeams.map(t => renderTeamCardHTML(t, cat)).join('')}
+                                </div>
+                            `;
+                        }
+                    } else {
+                        html += `
+                            <div class="two-column-grid">
+                                ${filteredTeams.map(t => renderTeamCardHTML(t, cat)).join('')}
+                            </div>
+                        `;
+                    }
+                }
             }
 
-            html += `</div>`;
-            container.innerHTML = html;
+            contentDiv.innerHTML = html;
         };
 
-        searchInput.addEventListener('input', (e) => displayProfiles(e.target.value));
-        displayProfiles();
+        if (!isMilli) {
+            const tabAll = document.getElementById('tab-all');
+            const tabPilots = document.getElementById('tab-pilots');
+            const tabTeams = document.getElementById('tab-teams');
+
+            const setTab = (tab) => {
+                currentTab = tab;
+                [tabAll, tabPilots, tabTeams].forEach(b => b.classList.remove('active'));
+                if (tab === 'all') tabAll.classList.add('active');
+                if (tab === 'pilots') tabPilots.classList.add('active');
+                if (tab === 'teams') tabTeams.classList.add('active');
+                updateDisplay();
+            };
+
+            tabAll.onclick = () => setTab('all');
+            tabPilots.onclick = () => setTab('pilots');
+            tabTeams.onclick = () => setTab('teams');
+        }
+
+        searchInput.addEventListener('input', updateDisplay);
+        updateDisplay();
     }
 
     function renderStandings(cat) {
-        const categoryData = getCategoryData(cat);
-        const pStands = categoryData.standings?.pilots || [];
-        const tStands = categoryData.standings?.teams || [];
+        const pilotsList = getEnrichedPilots(cat).filter(p => p.pos !== null && p.pos !== undefined);
+        const teamsList = getEnrichedTeams(cat).filter(t => t.pos !== null && t.pos !== undefined);
 
-        if (pStands.length === 0 && tStands.length === 0) {
+        if (pilotsList.length === 0 && teamsList.length === 0) {
             mainContent.innerHTML = `
                 <h2 class="section-title">${cat.toUpperCase()} PUAN DURUMU</h2>
                 <p style="padding:20px; text-align:center; opacity:0.7;">Bu kategori için puan durumu bilgisi bulunmamaktadır.</p>
@@ -902,27 +1203,122 @@ function initAppEngine() {
 
         mainContent.innerHTML = `
             <h2 class="section-title">${cat.toUpperCase()} 2026 PUAN DURUMU</h2>
-            ${pStands.length > 0 ? `
-            <h3>Pilotlar Klasmanı</h3>
-            <div class="standings-table-container">
-                <table class="standings-table">
-                    <thead><tr><th>Sıra</th><th>Pilot</th><th>Puan</th></tr></thead>
-                    <tbody>${pStands.map(s => `<tr><td>${s.pos}</td><td><b>${s.name}</b><br><small>${s.team}</small></td><td>${s.pts}</td></tr>`).join('')}</tbody>
-                </table>
-            </div>` : ''}
-            
-            ${tStands.length > 0 ? `
-            <h3 style="margin-top:30px">Takımlar Klasmanı</h3>
-            <div class="standings-table-container">
-                <table class="standings-table">
-                    <thead><tr><th>Sıra</th><th>Takım</th><th>Puan</th></tr></thead>
-                    <tbody>${tStands.map(s => `<tr><td>${s.pos}</td><td><b>${s.name}</b></td><td>${s.pts}</td></tr>`).join('')}</tbody>
-                </table>
-            </div>` : ''}
-            <div style="margin-top:40px; display:flex; justify-content:center">
-                <button class="back-btn" onclick="window.goBack()">← GERİ DÖN</button>
+            <div class="dashboard-header-container">
+                <div class="search-container">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="standings-search" class="search-input" placeholder="Pilot veya takım ara...">
+                </div>
+                <div class="dashboard-tabs">
+                    <button class="dashboard-tab-btn active" id="tab-p-standings">PİLOTLAR KLASMANI</button>
+                    <button class="dashboard-tab-btn" id="tab-t-standings">TAKIMLAR KLASMANI</button>
+                </div>
             </div>
+            <div id="standings-content" class="fade-in"></div>
         `;
+
+        const searchInput = document.getElementById('standings-search');
+        const contentDiv = document.getElementById('standings-content');
+        let activeTab = 'pilots';
+
+        const updateDisplay = () => {
+            const filter = (searchInput.value || '').toLowerCase();
+
+            let html = '';
+            if (activeTab === 'pilots') {
+                const filtered = pilotsList.filter(p =>
+                    p.name.toLowerCase().includes(filter) ||
+                    p.team.toLowerCase().includes(filter)
+                );
+
+                if (filtered.length === 0) {
+                    html += `<p style="padding:15px; color:#999">Pilot bulunamadı.</p>`;
+                } else if (!filter) {
+                    const top3 = filtered.filter(p => p.pos >= 1 && p.pos <= 3).sort((a, b) => a.pos - b.pos);
+                    const others = filtered.filter(p => p.pos > 3);
+
+                    if (top3.length > 0) {
+                        html += `
+                            <div class="podium-section">
+                                <div class="podium-grid">
+                                    ${top3.map(p => renderPilotPodiumHTML(p, cat, false)).join('')}
+                                </div>
+                            </div>
+                        `;
+                    }
+
+                    if (others.length > 0) {
+                        html += `
+                            <div class="two-column-grid">
+                                ${others.map(p => renderPilotCardHTML(p, cat, false)).join('')}
+                            </div>
+                        `;
+                    }
+                } else {
+                    html += `
+                        <div class="two-column-grid">
+                            ${filtered.map(p => renderPilotCardHTML(p, cat, false)).join('')}
+                        </div>
+                    `;
+                }
+            } else {
+                const filtered = teamsList.filter(t =>
+                    t.name.toLowerCase().includes(filter)
+                );
+
+                if (filtered.length === 0) {
+                    html += `<p style="padding:15px; color:#999">Takım bulunamadı.</p>`;
+                } else if (!filter) {
+                    const top3 = filtered.filter(t => t.pos >= 1 && t.pos <= 3).sort((a, b) => a.pos - b.pos);
+                    const others = filtered.filter(t => t.pos > 3);
+
+                    if (top3.length > 0) {
+                        html += `
+                            <div class="podium-section">
+                                <div class="podium-grid">
+                                    ${top3.map(t => renderTeamPodiumHTML(t, cat)).join('')}
+                                </div>
+                            </div>
+                        `;
+                    }
+
+                    if (others.length > 0) {
+                        html += `
+                            <div class="two-column-grid">
+                                ${others.map(t => renderTeamCardHTML(t, cat)).join('')}
+                            </div>
+                        `;
+                    }
+                } else {
+                    html += `
+                        <div class="two-column-grid">
+                            ${filtered.map(t => renderTeamCardHTML(t, cat)).join('')}
+                        </div>
+                    `;
+                }
+            }
+
+            contentDiv.innerHTML = html;
+        };
+
+        const tabP = document.getElementById('tab-p-standings');
+        const tabT = document.getElementById('tab-t-standings');
+
+        tabP.onclick = () => {
+            activeTab = 'pilots';
+            tabP.classList.add('active');
+            tabT.classList.remove('active');
+            updateDisplay();
+        };
+
+        tabT.onclick = () => {
+            activeTab = 'teams';
+            tabT.classList.add('active');
+            tabP.classList.remove('active');
+            updateDisplay();
+        };
+
+        searchInput.addEventListener('input', updateDisplay);
+        updateDisplay();
     }
 
     function renderCalendar(cat) {
