@@ -819,7 +819,7 @@ const APP_DATA = {
             },
             {
                 "id": "hamilton",
-                "name": "Lewıs Hamılton #44",
+                "name": "Lewis Hamilton #44",
                 "team": "Scuderia Ferrari HP",
                 "titles": 7,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Lewis Hamilton.png"
@@ -833,14 +833,14 @@ const APP_DATA = {
             },
             {
                 "id": "norris",
-                "name": "Lando Norrıs #1",
+                "name": "Lando Norris #1",
                 "team": "McLaren Formula 1 Team",
                 "titles": 1,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Lando Norris.png"
             },
             {
                 "id": "piastri",
-                "name": "Oscar Pıastrı #81",
+                "name": "Oscar Piastri #81",
                 "team": "McLaren Formula 1 Team",
                 "titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Oscar Piastri.png"
@@ -854,7 +854,7 @@ const APP_DATA = {
             },
             {
                 "id": "antonelli",
-                "name": "Andrea Kımı Antonellı #12",
+                "name": "Andrea Kimi Antonelli #12",
                 "team": "Mercedes-AMG PETRONAS F1 Team",
                 "titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Andrea Kimi Antonelli.png"
@@ -875,14 +875,14 @@ const APP_DATA = {
             },
             {
                 "id": "gasly",
-                "name": "Pıerre Gasly #10",
+                "name": "Pierre Gasly #10",
                 "team": "BWT Alpine F1 Team",
                 "titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Pierre Gasly.png"
             },
             {
                 "id": "colapinto",
-                "name": "Franco Colapınto #43",
+                "name": "Franco Colapinto #43",
                 "team": "BWT Alpine F1 Team",
                 "titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Franco Colapinto.png"
@@ -896,28 +896,28 @@ const APP_DATA = {
             },
             {
                 "id": "sainz",
-                "name": "Carlos Saınz Jr. #55",
+                "name": "Carlos Sainz Jr. #55",
                 "team": "Williams Racing",
                 "titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Carlos Sainz.png"
             },
             {
                 "id": "lawson",
-                "name": "Lıam Lawson #30",
+                "name": "Liam Lawson #30",
                 "team": "Visa Cash App RB F1 Team",
                 "titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Liam Lawson.png"
             },
             {
                 "id": "lindblad",
-                "name": "Arvıd Lındblad #41",
+                "name": "Arvid Lindblad #41",
                 "team": "Visa Cash App RB F1 Team",
                 "titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Arvid Lindblad.png"
             },
             {
                 "id": "bearman",
-                "name": "Olıver Bearman #87",
+                "name": "Oliver Bearman #87",
                 "team": "Haas F1 Team",
                 "titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Oliver Bearman.png"
@@ -931,28 +931,28 @@ const APP_DATA = {
             },
             {
                 "id": "hulkenberg",
-                "name": "Nıco Hulkenberg #27",
+                "name": "Nico Hulkenberg #27",
                 "team": "Audi F1 Team",
                 "titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Nico Hulkenberg.png"
             },
             {
                 "id": "bortoleto",
-                "name": "Gabrıel Bortoleto #5",
+                "name": "Gabriel Bortoleto #5",
                 "team": "Audi F1 Team",
                 "titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Gabriel Bortoleto.png"
             },
             {
                 "id": "bottas",
-                "name": "Valtterı Bottas #77",
+                "name": "Valtteri Bottas #77",
                 "team": "Cadillac Formula 1 Team",
                 "titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Valtteri Bottas.png"
             },
             {
                 "id": "perez",
-                "name": "Sergıo Pérez #11",
+                "name": "Sergio Pérez #11",
                 "team": "Cadillac Formula 1 Team",
                 "titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Sergio Perez.png"
@@ -961,13 +961,13 @@ const APP_DATA = {
         "teams": [
             {
                 "id": "redbull",
-                "name": "Oracle Red Bull Racıng",
+                "name": "Oracle Red Bull Racing",
                 "team titles": 6,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Red Bull.png"
             },
             {
                 "id": "ferrari",
-                "name": "Scuderıa Ferrarı HP",
+                "name": "Scuderia Ferrari HP",
                 "team titles": 16,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Ferrari.png"
             },
@@ -985,25 +985,25 @@ const APP_DATA = {
             },
             {
                 "id": "aston",
-                "name": "Aston Martın Aramco F1 Team",
+                "name": "Aston Martin Aramco F1 Team",
                 "team titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Aston Martin.png"
             },
             {
                 "id": "alpine",
-                "name": "BWT Alpıne F1 Team",
+                "name": "BWT Alpine F1 Team",
                 "team titles": 3,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Alpine.png"
             },
             {
                 "id": "williams",
-                "name": "Wıllıams Racıng",
+                "name": "Williams Racing",
                 "team titles": 9,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Williams.png"
             },
             {
                 "id": "rb",
-                "name": "Vısa Cash App RB F1 Team",
+                "name": "Visa Cash App RB F1 Team",
                 "team titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/RB.png"
             },
@@ -1015,13 +1015,13 @@ const APP_DATA = {
             },
             {
                 "id": "audi",
-                "name": "Audı F1 Team",
+                "name": "Audi F1 Team",
                 "team titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Audi.png"
             },
             {
                 "id": "cadillac",
-                "name": "Cadıllac F1 Team",
+                "name": "Cadillac F1 Team",
                 "team titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Cadillac.png"
             }
@@ -8691,6 +8691,7 @@ const CIRCUITS_DB = {
         "len": "5.891 km", "turns": "18", "record": "1:27.097 (Max Verstappen)",
         "opened": "1950", "firstWinner": "Giuseppe Farina (1950)",
         "mostWinsPilot": "Lewis Hamilton (9 Galibiyet)", "mostWinsTeam": "Scuderia Ferrari (15 Galibiyet)",
+        "img": "Resimler/Pistler/silverstone.png",
         "description": "Eski bir İkinci Dünya Savaşı hava üssünden motorsporlarının mabedine dönüşen Silverstone; yüksek hızlı virajları, öngörülemez İngiliz havası ve Formula 1'in doğduğu yer olma özelliğiyle her yarışta tarih yazmaya devam eden zamansız bir klasiktir."
     },
     "Sachsenring": {
@@ -8715,6 +8716,7 @@ const CIRCUITS_DB = {
         "len": "5.891 km", "turns": "18", "record": "1:57.233 (Fabio Quartararo)",
         "opened": "1977", "firstWinner": "Pat Hennen (1977)",
         "mostWinsPilot": "Jorge Lorenzo ve Kenny Roberts (3 Galibiyet)", "mostWinsTeam": "Monster Energy Yamaha MotoGP (8 Galibiyet)",
+        "img": "Resimler/MotoGP Pist Resimleri/Silverstone MotoGP.png",
         "description": "Motor sporlarının beşiği kabul edilen Silverstone; yüksek hızlı akan virajları, teknik düzeni ve öngörülemeyen İngiliz hava koşullarıyla MotoGP takviminin en heyecanlı ve efsanevi pistlerinden biridir."
     }
 };

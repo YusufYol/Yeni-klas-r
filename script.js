@@ -421,32 +421,252 @@ function initAppEngine() {
     // 3. Renderers
     function renderHome() {
         const nextEvent = getGlobalNextEvent();
+        const allNews = [];
+        
+        Object.keys(APP_DATA).forEach(cat => {
+            const catData = getCategoryData(cat);
+            if (catData && catData.news) {
+                const len = catData.news.length;
+                catData.news.forEach((n, idx) => {
+                    allNews.push({ ...n, _revIdx: len - idx });
+                });
+            }
+        });
+
+        if (allNews.length > 0) {
+            allNews.sort((a, b) => {
+                let dateA = new Date(a.date ? a.date.replace(' ', 'T') : 0);
+                let dateB = new Date(b.date ? b.date.replace(' ', 'T') : 0);
+                if (isNaN(dateA.getTime())) dateA = new Date(0);
+                if (isNaN(dateB.getTime())) dateB = new Date(0);
+
+                const dateCompare = dateB - dateA;
+                if (dateCompare !== 0) return dateCompare;
+                
+                const idA = parseInt(a.id) || 0;
+                const idB = parseInt(b.id) || 0;
+                return idB - idA;
+            });
+        }
+
+        const latest6News = allNews.slice(0, 6);
+        const top12News = allNews.slice(0, 12);
 
         mainContent.innerHTML = `
-            <div id="home-top-banner-container"></div>
-            <div id="hero-news-container"></div>
-            ${getAdHTML('display')}
-            <section id="main-news-feed" class="news-feed">
-                <h2 id="news-section-title" class="section-title">GÜNCEL HABERLER</h2>
-                <div id="news-container"></div>
-            </section>
+            <div class="home-page-container fade-in">
+                <!-- 1. Hero News Carousel (Son 6 Haber) & Ticker -->
+                <section class="hero-slider-section">
+                    <div class="hero-slider-container" id="hero-slider">
+                        <div class="slider-track" id="slider-track"></div>
+                        <button class="slider-arrow prev" id="slider-prev" aria-label="Önceki Slide">❮</button>
+                        <button class="slider-arrow next" id="slider-next" aria-label="Sonraki Slide">❯</button>
+                        <div class="slider-dots" id="slider-dots"></div>
+                    </div>
+                    <div class="news-ticker-bar">
+                        <div class="ticker-label">
+                            <span class="ticker-badge">SON HABERLER</span>
+                        </div>
+                        <div class="ticker-content-wrapper">
+                            <div class="ticker-items" id="ticker-items"></div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 2. Race Weekend & Track Details Widget -->
+                <div id="home-weekend-widget-container"></div>
+
+                ${getAdHTML('display')}
+
+                <!-- 3. News Feed Grid ("HABERLER" - Son 12 Haber) -->
+                <section id="main-news-feed" class="news-feed" style="margin-top: 30px;">
+                    <h2 id="news-section-title" class="section-title">HABERLER</h2>
+                    <div id="news-container" class="news-feed-grid"></div>
+                </section>
+            </div>
         `;
-        
-        renderHomeTopBanner(document.getElementById('home-top-banner-container'), nextEvent);
-        renderAllNewsUI(document.getElementById('news-container'), document.getElementById('news-section-title'), document.getElementById('hero-news-container'));
+
+        // Initialize Carousel & Ticker
+        initHeroSlider(latest6News);
+        initNewsTicker(allNews);
+
+        // Render Race Weekend & Track Details Widget
+        renderRaceWeekendWidget(document.getElementById('home-weekend-widget-container'), nextEvent);
+
+        // Render Top 12 News Box Grid
+        const newsContainer = document.getElementById('news-container');
+        if (newsContainer && top12News.length > 0) {
+            top12News.forEach((news) => {
+                newsContainer.appendChild(createNewsCard(news));
+            });
+        }
     }
 
-    function renderHomeTopBanner(container, event) {
+    function initHeroSlider(newsList) {
+        const container = document.getElementById('hero-slider');
+        const track = document.getElementById('slider-track');
+        const dotsContainer = document.getElementById('slider-dots');
+        const prevBtn = document.getElementById('slider-prev');
+        const nextBtn = document.getElementById('slider-next');
+
+        if (!container || !track || !newsList || newsList.length === 0) return;
+
+        let currentIndex = 0;
+        const totalSlides = Math.min(newsList.length, 6);
+        const slidesData = newsList.slice(0, totalSlides);
+        let autoInterval = null;
+
+        track.innerHTML = slidesData.map(n => {
+            let summary = n.content || '';
+            if (summary.includes('<br>')) {
+                summary = summary.split('<br>')[0];
+            }
+            if (summary.length > 140) {
+                summary = summary.substring(0, 140) + '...';
+            }
+            const imgUrl = n.img ? (n.img.startsWith('Resimler/') ? `${window.APP_ROOT}${n.img}` : n.img) : 'Resimler/Logo/logo.png';
+            const badge = n.customBadge ? formatBadge(n.customBadge) : (n.cat ? n.cat.toUpperCase() : 'HABER');
+
+            return `
+                <div class="slide-item" onclick="handleRoute('news-detail', '${n.cat}', true, '${n.id}')">
+                    <img src="${imgUrl}" alt="${n.title}" class="slide-img" onerror="this.onerror=null; this.src='Resimler/Logo/logo.png'">
+                    <div class="slide-overlay">
+                        <span class="slide-cat-badge">${badge}</span>
+                        <h2 class="slide-title">${n.title}</h2>
+                        <p class="slide-summary">${summary}</p>
+                    </div>
+                </div>
+            `;
+        }).join('');
+
+        if (dotsContainer) {
+            dotsContainer.innerHTML = slidesData.map((_, i) => `
+                <span class="slider-dot ${i === 0 ? 'active' : ''}" data-index="${i}"></span>
+            `).join('');
+        }
+
+        const updateSlider = () => {
+            track.style.transform = `translateX(-${currentIndex * 100}%)`;
+            if (dotsContainer) {
+                const dots = dotsContainer.querySelectorAll('.slider-dot');
+                dots.forEach((d, i) => {
+                    if (i === currentIndex) d.classList.add('active');
+                    else d.classList.remove('active');
+                });
+            }
+        };
+
+        const nextSlide = () => {
+            currentIndex = (currentIndex + 1) % totalSlides;
+            updateSlider();
+        };
+
+        const prevSlide = () => {
+            currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+            updateSlider();
+        };
+
+        const startAutoPlay = () => {
+            stopAutoPlay();
+            autoInterval = setInterval(nextSlide, 6000);
+        };
+
+        const stopAutoPlay = () => {
+            if (autoInterval) clearInterval(autoInterval);
+        };
+
+        if (prevBtn) {
+            prevBtn.onclick = (e) => {
+                e.stopPropagation();
+                prevSlide();
+                startAutoPlay();
+            };
+        }
+
+        if (nextBtn) {
+            nextBtn.onclick = (e) => {
+                e.stopPropagation();
+                nextSlide();
+                startAutoPlay();
+            };
+        }
+
+        if (dotsContainer) {
+            dotsContainer.querySelectorAll('.slider-dot').forEach(dot => {
+                dot.onclick = (e) => {
+                    e.stopPropagation();
+                    currentIndex = parseInt(dot.dataset.index, 10);
+                    updateSlider();
+                    startAutoPlay();
+                };
+            });
+        }
+
+        // Touch Swipe Support
+        let touchStartX = 0;
+        let touchEndX = 0;
+
+        container.ontouchstart = (e) => {
+            touchStartX = e.changedTouches[0].screenX;
+            stopAutoPlay();
+        };
+
+        container.ontouchend = (e) => {
+            touchEndX = e.changedTouches[0].screenX;
+            if (touchStartX - touchEndX > 40) {
+                nextSlide();
+            } else if (touchEndX - touchStartX > 40) {
+                prevSlide();
+            }
+            startAutoPlay();
+        };
+
+        container.onmouseenter = stopAutoPlay;
+        container.onmouseleave = startAutoPlay;
+
+        startAutoPlay();
+    }
+
+    function initNewsTicker(newsList) {
+        const tickerContainer = document.getElementById('ticker-items');
+        if (!tickerContainer || !newsList || newsList.length === 0) return;
+
+        const ticker20News = newsList.slice(0, 20);
+        const tickerItems = ticker20News.map(n => {
+            const badge = n.customBadge ? n.customBadge.toUpperCase() : (n.cat ? n.cat.toUpperCase() : 'HABER');
+            return `
+                <span class="ticker-item" onclick="handleRoute('news-detail', '${n.cat}', true, '${n.id}')">
+                    [ ${badge} ] ${n.title}
+                </span>
+            `;
+        }).join('');
+
+        tickerContainer.innerHTML = tickerItems + tickerItems;
+    }
+
+    function renderRaceWeekendWidget(container, event) {
         if (!container) return;
         if (!event) {
             container.innerHTML = '';
             return;
         }
 
-        // Find the main race session
-        const raceSession = event.sessions?.find(s => s.name.toLowerCase().includes('yarış') && !s.name.toLowerCase().includes('sprint') && !s.name.toLowerCase().includes('sıralama')) || event.sessions?.[event.sessions.length - 1];
+        const trackStats = CIRCUITS_DB[event.track] || CIRCUITS_DB["Silverstone (MotoGP)"] || CIRCUITS_DB["Sakhir"];
+        const td = event.trackDetails || {};
 
-        // Find previous event
+        const trackLen = td.len || event.len || trackStats?.len || '5.891 km';
+        const trackTurns = td.turns || event.turns || trackStats?.turns || '18';
+        const trackRecord = td.record || trackStats?.record || '1:57.233 (Fabio Quartararo)';
+        const trackOpened = td.opened || trackStats?.opened || '1977';
+        const trackMostWinsPilot = td.mostWinsPilot || trackStats?.mostWinsPilot || '-';
+        const trackMostWinsTeam = td.mostWinsTeam || trackStats?.mostWinsTeam || '-';
+        const sessions = event.sessions || [];
+
+        const catName = event.category ? event.category.toUpperCase() : 'F1';
+        const rawGp = event.gp || '';
+        const gpTitle = rawGp.replace(/i/g, 'I').replace(/İ/g, 'I').toUpperCase();
+
+        const trackImg = event.trackImg || trackStats?.img || '';
+
         let prevEventHtml = '';
         if (event.category) {
             const catData = getCategoryData(event.category.toLowerCase());
@@ -456,116 +676,103 @@ function initAppEngine() {
                     if (e.status !== "Tamamlandı" && e.status !== "Tamamlandi") return false;
                     const parts = e.isoDate.split('-');
                     let eDate = new Date();
-                    if (parts.length === 3) {
-                        eDate = new Date(parts[0], parts[1]-1, parts[2]);
-                    } else {
-                        eDate = new Date(e.isoDate);
-                    }
+                    if (parts.length === 3) eDate = new Date(parts[0], parts[1]-1, parts[2]);
+                    else eDate = new Date(e.isoDate);
                     return eDate < now;
                 });
                 if (pastEvents.length > 0) {
                     pastEvents.sort((a, b) => new Date(b.isoDate) - new Date(a.isoDate));
                     const prevEvent = pastEvents[0];
                     if (prevEvent) {
-                        prevEventHtml = `<span style="cursor:pointer; color:#777; font-weight:700; font-size:0.75rem; text-decoration:none; transition: color 0.2s;" onmouseover="this.style.color='var(--primary-red)'" onmouseout="this.style.color='#777'" onclick="handleRoute('results', '${event.category.toLowerCase()}', true, '${prevEvent.round || prevEvent.track}')">ÖNCEKİ YARIŞ SONUÇLARI &gt;</span>`;
+                        prevEventHtml = `
+                            <button class="widget-btn-results" onclick="handleRoute('results', '${event.category.toLowerCase()}', true, '${prevEvent.round || prevEvent.track}')">
+                                ÖNCEKİ YARIŞ SONUÇLARI ❯
+                            </button>
+                        `;
                     }
                 }
             }
         }
 
         container.innerHTML = `
-            <div class="top-race-wrapper" style="border: 1px solid rgba(0,0,0,0.1); border-radius: 12px; margin-bottom: 20px; overflow: hidden; background: white; box-shadow: 0 4px 10px rgba(0,0,0,0.03);">
-                <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; padding: 12px 15px; border-bottom: 1px solid rgba(0,0,0,0.05); background: #fdfdfd;">
-                    <span style="color: var(--primary-red); font-size: 0.8rem; font-weight: 800; text-transform: uppercase;">HAFTA SONU TAKVİMİ</span>
-                    ${prevEventHtml}
-                </div>
-                <div class="top-race-banner-content" id="top-race-banner-click" style="padding: 15px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
-                    <div class="banner-left" style="display: flex; flex-direction: column;">
-                        <span class="banner-title" lang="en" style="font-size: 0.95rem; font-weight: 800; color: var(--asphalt-black); text-transform: uppercase; margin-bottom: 4px;">${event.gp} (${event.category})</span>
-                        <span class="banner-session" style="font-size: 0.85rem; font-weight: 600; color: #666;">Pazar: Yarış ${raceSession ? raceSession.time : ''}</span>
+            <section class="weekend-widget-section">
+                <div class="weekend-widget-card">
+                    <div class="weekend-widget-header">
+                        <div class="widget-header-tabs">
+                            <span class="widget-tab">HAFTA SONU TAKVİMİ</span>
+                            <span class="widget-cat-badge">${catName}</span>
+                        </div>
+                        ${prevEventHtml}
                     </div>
-                    <div class="banner-right" style="font-size: 0.85rem; font-weight: 700; color: #888;">
-                        ${formatDate(event.isoDate)}
+
+                    <div class="weekend-widget-body">
+                        <!-- Left Col: Sessions List -->
+                        <div class="weekend-col sessions-col">
+                            <div class="gp-title-badge" lang="en">${gpTitle}</div>
+                            <div class="gp-subtext">${formatDate(event.isoDate)} • ${event.country}</div>
+                            
+                            <ul class="sessions-list">
+                                ${sessions.map(s => `
+                                    <li class="session-row ${(s.status === 'Tamamlandı' || s.status === 'Tamamlandi') ? 'completed' : ''}">
+                                        <span class="session-name">${s.name}</span>
+                                        <span class="session-time">${s.time}</span>
+                                    </li>
+                                `).join('')}
+                            </ul>
+                        </div>
+
+                        <!-- Center Col: Track Photo Container (Clean Light Box, No Clicks) -->
+                        <div class="weekend-col track-graphic-col">
+                            <div class="track-img-wrapper">
+                                ${trackImg ? `
+                                    <img src="${trackImg}" alt="${event.track}" class="track-photo-img" onerror="this.style.display='none'; if(this.nextElementSibling) this.nextElementSibling.style.display='flex';">
+                                    <div class="track-img-placeholder" style="display:none;">
+                                        <span style="font-size:0.85rem; font-weight:700; color:#888888;">🏁 PİST FOTOĞRAFI</span>
+                                    </div>
+                                ` : `
+                                    <div class="track-img-placeholder">
+                                        <span style="font-size:0.85rem; font-weight:700; color:#888888;">🏁 PİST FOTOĞRAFI</span>
+                                    </div>
+                                `}
+                            </div>
+                        </div>
+
+                        <!-- Right Col: Track Details ("Pist Detayları") -->
+                        <div class="weekend-col track-details-col">
+                            <h4 class="track-details-title">PİST DETAYLARI</h4>
+                            <div class="track-name-badge">${event.track}</div>
+                            
+                            <div class="track-specs-list">
+                                <div class="spec-row">
+                                    <span class="spec-label">Pist Mesafesi</span>
+                                    <span class="spec-val">${trackLen}</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Viraj Sayısı</span>
+                                    <span class="spec-val">${trackTurns}</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Pist Rekoru</span>
+                                    <span class="spec-val">${trackRecord}</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Takvime Eklenme Yılı</span>
+                                    <span class="spec-val">${trackOpened}</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">En Çok Kazanan (Pilot)</span>
+                                    <span class="spec-val">${trackMostWinsPilot}</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">En Çok Kazanan (Takım)</span>
+                                    <span class="spec-val">${trackMostWinsTeam}</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div id="weekend-summary-modal" style="display:none; margin-bottom:25px"></div>
+            </section>
         `;
-
-
-        document.getElementById('top-race-banner-click').onclick = () => {
-            const modal = document.getElementById('weekend-summary-modal');
-            if (modal.style.display === 'none') {
-                renderWeekendUI(modal, null, event, true);
-                modal.style.display = 'block';
-                modal.scrollIntoView({ behavior: 'smooth' });
-            } else {
-                modal.style.display = 'none';
-            }
-        };
-    }
-
-
-    function renderWeekendUI(containerSummary, containerTrack, event, isModal = false) {
-        if (!event) return;
-
-        const trackStats = CIRCUITS_DB[event.track] || CIRCUITS_DB["Sakhir"];
-        const trackLen = event.len || trackStats?.len || '4,381 km';
-        const trackTurns = event.turns || trackStats?.turns || '14';
-        const sessions = event.sessions || [];
-
-        const summaryContent = `
-            <div class="weekend-summary" style="margin-bottom: ${isModal ? '0' : '20px'}">
-                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 15px;">
-                    <div style="display:flex; align-items:center; gap:12px; height:24px">
-                        <span class="tag" style="background:var(--primary-red); color:white; padding:0 12px; height:24px; display:inline-flex; align-items:center; border-radius:12px; font-weight:800; font-size:0.7rem; line-height:1">${event.category}</span>
-                        <span style="color:var(--primary-red); font-weight:800; font-size:0.65rem; text-transform:uppercase; letter-spacing:1px; display:inline-flex; align-items:center; height:100%">Hafta Sonu Programı</span>
-                    </div>
-                    <span style="font-size:0.75rem; color:#666; font-weight:600">${formatDate(event.isoDate)}</span>
-                </div>
-                <h2 class="weekend-title" lang="en" style="font-size:1.6rem; margin-top:10px">${event.gp}</h2>
-                <p class="news-date" style="font-size:0.9rem; opacity:0.8; margin-bottom:15px"><span lang="en">${event.track}</span>, ${event.country}</p>
-                
-                <div style="background:rgba(255,255,255,0.05); border-radius:12px; padding:10px; border:1px solid rgba(0,0,0,0.05)">
-                    <ul class="weekend-sessions">
-                        ${sessions.map(s => `
-                            <li class="session-item ${(s.status === 'Tamamlandı' || s.status === 'Tamamlandi') ? 'completed' : ''}" style="display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px solid rgba(0,0,0,0.05)">
-                                <span style="font-size:0.85rem; font-weight:600">${s.name}</span>
-                                <span style="font-size:0.85rem; font-weight:700; color:var(--primary-red)">${s.time}</span>
-                            </li>
-                        `).join('')}
-                    </ul>
-                </div>
-
-                <!-- Track Preview Section -->
-                <div class="track-preview-box">
-                    <div class="track-preview-header">
-                        <span class="track-preview-title">Pist Detayı</span>
-                        <span class="tag" style="margin-bottom:0; font-size:0.6rem; opacity:0.7">BİLGİ</span>
-                    </div>
-                    <div style="font-size:0.85rem; margin-bottom:10px; font-weight:700" lang="en">${event.track}</div>
-                    <div class="track-preview-stats">
-                        <span><span style="opacity:0.6">Mesafe:</span> ${trackLen}</span>
-                        <span><span style="opacity:0.6">Viraj:</span> ${trackTurns}</span>
-                    </div>
-                    <button class="track-preview-btn" id="go-to-track-detail">TÜM PİST DETAYLARINI GÖR</button>
-                </div>
-            </div>
-        `;
-
-        if (containerSummary) {
-            containerSummary.innerHTML = summaryContent;
-            document.getElementById('go-to-track-detail').onclick = (e) => {
-                e.stopPropagation();
-                window.currentTrackEvent = event;
-                handleRoute('track-detail', event.category.toLowerCase());
-            };
-        }
-
-        if (containerTrack) {
-            containerTrack.innerHTML = ''; // Homepage'den kaldırıyoruz çünkü özetin içinde
-            containerTrack.style.display = 'none';
-        }
     }
 
 
@@ -768,7 +975,6 @@ function initAppEngine() {
         mainContent.innerHTML = `
             <h2 class="section-title">${titleText}</h2>
             <div class="search-container">
-                <span class="search-icon">🔍</span>
                 <input type="text" id="news-search" class="search-input" placeholder="Haber başlığı veya içerik ara...">
             </div>
             <div id="news-container" class="news-feed fade-in"></div>
@@ -857,6 +1063,8 @@ function initAppEngine() {
                     id: pilotId,
                     name: matchedP ? matchedP.name : s.name,
                     team: s.team || (matchedP ? matchedP.team : ''),
+                    country: matchedP?.country || s.country || '',
+                    flag: matchedP?.flag || s.flag || (matchedP?.country ? `Resimler/Bayraklar/${matchedP.country.toLowerCase()}.png` : ''),
                     pos: s.pos,
                     pts: s.pts,
                     img: matchedP?.img || `Resimler/${catFolder}/${cleanNameForImg}.png`,
@@ -876,6 +1084,8 @@ function initAppEngine() {
                     id: p.id,
                     name: p.name,
                     team: p.team || '',
+                    country: p.country || '',
+                    flag: p.flag || (p.country ? `Resimler/Bayraklar/${p.country.toLowerCase()}.png` : ''),
                     pos: null,
                     pts: null,
                     img: p.img,
@@ -909,6 +1119,8 @@ function initAppEngine() {
                 list.push({
                     id: teamId,
                     name: matchedT ? matchedT.name : s.name,
+                    country: matchedT?.country || s.country || '',
+                    flag: matchedT?.flag || s.flag || (matchedT?.country ? `Resimler/Bayraklar/${matchedT.country.toLowerCase()}.png` : ''),
                     pos: s.pos,
                     pts: s.pts,
                     img: matchedT?.img || ''
@@ -921,6 +1133,8 @@ function initAppEngine() {
                 list.push({
                     id: t.id,
                     name: t.name,
+                    country: t.country || '',
+                    flag: t.flag || (t.country ? `Resimler/Bayraklar/${t.country.toLowerCase()}.png` : ''),
                     pos: null,
                     pts: null,
                     img: t.img
@@ -929,6 +1143,109 @@ function initAppEngine() {
         });
 
         return list;
+    }
+
+    function renderPilotsTableHTML(pilots, cat, isMilli = false) {
+        if (!pilots || pilots.length === 0) {
+            return `<p style="padding:15px; color:#999">Pilot bulunamadı.</p>`;
+        }
+
+        // Group / Sort pilots by team name so teammates are stacked next to each other
+        const sortedPilots = [...pilots].sort((a, b) => {
+            const teamA = (a.team || '').toLowerCase();
+            const teamB = (b.team || '').toLowerCase();
+            if (teamA && !teamB) return -1;
+            if (!teamA && teamB) return 1;
+            if (teamA < teamB) return -1;
+            if (teamA > teamB) return 1;
+            return (a.name || '').localeCompare(b.name || '');
+        });
+
+        return `
+            <div class="pilots-teams-table-wrapper fade-in">
+                <table class="pilots-teams-table">
+                    <thead>
+                        <tr>
+                            <th style="width: 45px; text-align:center;">#</th>
+                            <th style="width: 60px; text-align:center;">BAYRAK</th>
+                            <th>PİLOT</th>
+                            ${!isMilli ? `<th>TAKIM</th>` : ''}
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${sortedPilots.map((p, idx) => {
+                            const flagSrc = p.flag ? (p.flag.startsWith('Resimler/') ? `${window.APP_ROOT}${p.flag}` : p.flag) : '';
+                            const imgPath = p.img ? (p.img.startsWith('Resimler/') ? `${window.APP_ROOT}${p.img}` : p.img) : 'Resimler/Logo/logo.png';
+                            const pilotDisplayName = (isMilli && p.team) ? `${p.name} (${p.team})` : p.name;
+                            return `
+                                <tr class="table-row-item" ${!isMilli ? `onclick="handleRoute('pilot-detail', '${cat}', true, '${p.id}')"` : ''} style="${!isMilli ? 'cursor:pointer' : 'cursor:default'}">
+                                    <td style="text-align:center; font-weight:700; color:#888;">${idx + 1}</td>
+                                    <td style="text-align:center;">
+                                        ${flagSrc ? `
+                                            <img src="${flagSrc}" alt="${p.country || 'Bayrak'}" class="pilot-flag-icon" onerror="this.style.display='none'; if(this.nextElementSibling) this.nextElementSibling.style.display='inline-block';">
+                                            <span class="flag-placeholder-icon" style="display:none;">🏁</span>
+                                        ` : `<span class="flag-placeholder-icon">🏁</span>`}
+                                    </td>
+                                    <td>
+                                        <div class="pilot-table-cell">
+                                            ${!isMilli ? `<img src="${imgPath}" alt="${p.name}" class="table-thumb-img" onerror="this.onerror=null; this.src='Resimler/Logo/logo.png'">` : ''}
+                                            <span class="table-item-name">${pilotDisplayName}</span>
+                                        </div>
+                                    </td>
+                                    ${!isMilli ? `
+                                    <td>
+                                        <span class="table-team-name">${p.team || '-'}</span>
+                                    </td>` : ''}
+                                </tr>
+                            `;
+                        }).join('')}
+                    </tbody>
+                </table>
+            </div>
+        `;
+    }
+
+    function renderTeamsTableHTML(teams, cat) {
+        if (!teams || teams.length === 0) {
+            return `<p style="padding:15px; color:#999">Takım bulunamadı.</p>`;
+        }
+
+        return `
+            <div class="pilots-teams-table-wrapper fade-in">
+                <table class="pilots-teams-table">
+                    <thead>
+                        <tr>
+                            <th style="width: 45px; text-align:center;">#</th>
+                            <th style="width: 60px; text-align:center;">BAYRAK</th>
+                            <th>TAKIM</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${teams.map((t, idx) => {
+                            const flagSrc = t.flag ? (t.flag.startsWith('Resimler/') ? `${window.APP_ROOT}${t.flag}` : t.flag) : '';
+                            const imgPath = t.img ? (t.img.startsWith('Resimler/') ? `${window.APP_ROOT}${t.img}` : t.img) : 'Resimler/Logo/logo.png';
+                            return `
+                                <tr class="table-row-item" onclick="handleRoute('team-detail', '${cat}', true, '${t.id}')" style="cursor:pointer">
+                                    <td style="text-align:center; font-weight:700; color:#888;">${idx + 1}</td>
+                                    <td style="text-align:center;">
+                                        ${flagSrc ? `
+                                            <img src="${flagSrc}" alt="${t.country || 'Bayrak'}" class="pilot-flag-icon" onerror="this.style.display='none'; if(this.nextElementSibling) this.nextElementSibling.style.display='inline-block';">
+                                            <span class="flag-placeholder-icon" style="display:none;">🏁</span>
+                                        ` : `<span class="flag-placeholder-icon">🏁</span>`}
+                                    </td>
+                                    <td>
+                                        <div class="pilot-table-cell">
+                                            <img src="${imgPath}" alt="${t.name}" class="table-thumb-img" onerror="this.onerror=null; this.src='Resimler/Logo/logo.png'">
+                                            <span class="table-item-name">${t.name}</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                            `;
+                        }).join('')}
+                    </tbody>
+                </table>
+            </div>
+        `;
     }
 
     function renderPilotPodiumHTML(p, cat, isMilli = false) {
@@ -1047,7 +1364,6 @@ function initAppEngine() {
             <h2 class="section-title">${titleText}</h2>
             <div class="dashboard-header-container">
                 <div class="search-container">
-                    <span class="search-icon">🔍</span>
                     <input type="text" id="pilot-search" class="search-input" placeholder="${isMilli ? 'Pilot ara...' : 'Pilot veya takım ara...'}">
                 </div>
                 ${!isMilli ? `
@@ -1079,84 +1395,16 @@ function initAppEngine() {
             let html = '';
 
             if (isMilli) {
-                if (filteredPilots.length === 0) {
-                    html += `<p style="padding:15px; color:#999">Pilot bulunamadı.</p>`;
-                } else {
-                    html += `
-                        <div class="two-column-grid">
-                            ${filteredPilots.map(p => renderPilotCardHTML(p, cat, isMilli)).join('')}
-                        </div>
-                    `;
-                }
+                html += renderPilotsTableHTML(filteredPilots, cat, isMilli);
             } else {
                 if (currentTab === 'all' || currentTab === 'pilots') {
                     html += `<h3 class="subsection-title" style="margin-bottom:15px; border-left:4px solid var(--primary-red); padding-left:10px;">Pilotlar</h3>`;
-                    
-                    if (filteredPilots.length === 0) {
-                        html += `<p style="padding:15px; color:#999">Pilot bulunamadı.</p>`;
-                    } else if (!filter) {
-                        const top3 = filteredPilots.filter(p => p.pos >= 1 && p.pos <= 3).sort((a, b) => a.pos - b.pos);
-                        const others = filteredPilots.filter(p => !p.pos || p.pos > 3);
-
-                        if (top3.length > 0) {
-                            html += `
-                                <div class="podium-section">
-                                    <div class="podium-grid">
-                                        ${top3.map(p => renderPilotPodiumHTML(p, cat, isMilli)).join('')}
-                                    </div>
-                                </div>
-                            `;
-                        }
-
-                        if (others.length > 0) {
-                            html += `
-                                <div class="two-column-grid">
-                                    ${others.map(p => renderPilotCardHTML(p, cat, isMilli)).join('')}
-                                </div>
-                            `;
-                        }
-                    } else {
-                        html += `
-                            <div class="two-column-grid">
-                                ${filteredPilots.map(p => renderPilotCardHTML(p, cat, isMilli)).join('')}
-                            </div>
-                        `;
-                    }
+                    html += renderPilotsTableHTML(filteredPilots, cat, false);
                 }
 
                 if (currentTab === 'all' || currentTab === 'teams') {
                     html += `<h3 class="subsection-title" style="margin-top:35px; margin-bottom:15px; border-left:4px solid var(--primary-red); padding-left:10px;">Takımlar</h3>`;
-
-                    if (filteredTeams.length === 0) {
-                        html += `<p style="padding:15px; color:#999">Takım bulunamadı.</p>`;
-                    } else if (!filter) {
-                        const top3Teams = filteredTeams.filter(t => t.pos >= 1 && t.pos <= 3).sort((a, b) => a.pos - b.pos);
-                        const otherTeams = filteredTeams.filter(t => !t.pos || t.pos > 3);
-
-                        if (top3Teams.length > 0) {
-                            html += `
-                                <div class="podium-section">
-                                    <div class="podium-grid">
-                                        ${top3Teams.map(t => renderTeamPodiumHTML(t, cat)).join('')}
-                                    </div>
-                                </div>
-                            `;
-                        }
-
-                        if (otherTeams.length > 0) {
-                            html += `
-                                <div class="two-column-grid">
-                                    ${otherTeams.map(t => renderTeamCardHTML(t, cat)).join('')}
-                                </div>
-                            `;
-                        }
-                    } else {
-                        html += `
-                            <div class="two-column-grid">
-                                ${filteredTeams.map(t => renderTeamCardHTML(t, cat)).join('')}
-                            </div>
-                        `;
-                    }
+                    html += renderTeamsTableHTML(filteredTeams, cat);
                 }
             }
 
@@ -1205,7 +1453,6 @@ function initAppEngine() {
             <h2 class="section-title">${cat.toUpperCase()} 2026 PUAN DURUMU</h2>
             <div class="dashboard-header-container">
                 <div class="search-container">
-                    <span class="search-icon">🔍</span>
                     <input type="text" id="standings-search" class="search-input" placeholder="Pilot veya takım ara...">
                 </div>
                 <div class="dashboard-tabs">
@@ -1328,7 +1575,6 @@ function initAppEngine() {
         mainContent.innerHTML = `
             <h2 class="section-title">${cat.toUpperCase()} 2026 TAKVİMİ</h2>
             <div class="search-container">
-                <span class="search-icon">🔍</span>
                 <input type="text" id="calendar-search" class="search-input" placeholder="Pist veya ülke ara...">
             </div>
             <div id="calendar-container" class="calendar-list fade-in"></div>
