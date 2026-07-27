@@ -1279,19 +1279,19 @@ const APP_DATA = {
                         "time": "19:30"
                     },
                     {
-                        "name": "CUMA: SPRINT SIRALAMA TURLARI",
+                        "name": "Cuma: Sprint Sıralama Turları",
                         "time": "23:30"
                     },
                     {
-                        "name": "CUMARTESI: SPRINT YARIŞI",
+                        "name": "Cumartesi: Sprint Yarışı",
                         "time": "19:00"
                     },
                     {
-                        "name": "CUMARTESI: ANA YARIŞ SIRALAMA TURLARI",
+                        "name": "Cumartesi: Ana Yarış Sıralama Turları",
                         "time": "23:00"
                     },
                     {
-                        "name": "PAZAR: YARIŞ",
+                        "name": "Pazar: Yarış",
                         "time": "20:00"
                     }
                 ]
@@ -1310,19 +1310,19 @@ const APP_DATA = {
                         "time": "19:30"
                     },
                     {
-                        "name": "CUMA: SPRINT SIRALAMA TURLARI",
+                        "name": "Cuma: Sprint SÄ±ralama TurlarÄ±",
                         "time": "23:30"
                     },
                     {
-                        "name": "CUMARTESI: SPRINT YARIŞI",
+                        "name": "Cumartesi: Sprint Yarışı",
                         "time": "19:00"
                     },
                     {
-                        "name": "CUMARTESI: ANA YARIŞ SIRALAMA TURLARI",
+                        "name": "Cumartesi: Ana Yarış Sıralama Turları",
                         "time": "23:00"
                     },
                     {
-                        "name": "PAZAR: YARIŞ",
+                        "name": "Pazar: Yarış",
                         "time": "23:00"
                     }
                 ]
@@ -1349,11 +1349,11 @@ const APP_DATA = {
                         "time": "13:30"
                     },
                     {
-                        "name": "CUMARTESI: SIRALAMA TURLARI",
+                        "name": "Cumartesi: SÄ±ralama TurlarÄ±",
                         "time": "17:00"
                     },
                     {
-                        "name": "PAZAR: YARIŞ",
+                        "name": "Pazar: Yarış",
                         "time": "16:00"
                     }
                 ]
@@ -1380,11 +1380,11 @@ const APP_DATA = {
                         "time": "13:30"
                     },
                     {
-                        "name": "CUMARTESI: SIRALAMA TURLARI",
+                        "name": "Cumartesi: SÄ±ralama TurlarÄ±",
                         "time": "17:00"
                     },
                     {
-                        "name": "PAZAR: YARIŞ",
+                        "name": "Pazar: Yarış",
                         "time": "16:00"
                     }
                 ]
@@ -1411,11 +1411,11 @@ const APP_DATA = {
                         "time": "13:30"
                     },
                     {
-                        "name": "CUMARTESI: SIRALAMA TURLARI",
+                        "name": "Cumartesi: SÄ±ralama TurlarÄ±",
                         "time": "17:00"
                     },
                     {
-                        "name": "PAZAR: YARIŞ",
+                        "name": "Pazar: Yarış",
                         "time": "16:00"
                     }
                 ]
@@ -1434,19 +1434,19 @@ const APP_DATA = {
                         "time": "14:30"
                     },
                     {
-                        "name": "SPRINT SIRALAMA TURLARI",
+                        "name": "Cumartesi: Sprint SÄ±ralama TurlarÄ±",
                         "time": "18:30"
                     },
                     {
-                        "name": "CUMARTESI: SPRINT YARIŞI",
+                        "name": "Cumartesi: Sprint Yarışı",
                         "time": "14:00"
                     },
                     {
-                        "name": "CUMARTESI: ANA YARIŞ SIRALAMA TURLARI",
+                        "name": "Cumartesi: Ana Yarış Sıralama Turları",
                         "time": "18:00"
                     },
                     {
-                        "name": "PAZAR: YARIŞ",
+                        "name": "Pazar: Yarış",
                         "time": "17:00"
                     }
                 ]
@@ -1473,11 +1473,11 @@ const APP_DATA = {
                         "time": "13:30"
                     },
                     {
-                        "name": "CUMARTESI: SIRALAMA TURLARI",
+                        "name": "Cumartesi: SÄ±ralama TurlarÄ±",
                         "time": "17:00"
                     },
                     {
-                        "name": "PAZAR: YARIŞ",
+                        "name": "Pazar: Yarış",
                         "time": "16:00"
                     }
                 ]
@@ -1504,11 +1504,11 @@ const APP_DATA = {
                         "time": "13:30"
                     },
                     {
-                        "name": "CUMARTESI: SIRALAMA TURLARI",
+                        "name": "Cumartesi: SÄ±ralama TurlarÄ±",
                         "time": "17:00"
                     },
                     {
-                        "name": "PAZAR: YARIŞ",
+                        "name": "Pazar: Yarış",
                         "time": "16:00"
                     }
                 ]
@@ -1527,19 +1527,19 @@ const APP_DATA = {
                         "time": "13:30"
                     },
                     {
-                        "name": "CUMA: SPRINT SIRALAMA TURLARI",
+                        "name": "Cuma: Sprint Sıralama Turları",
                         "time": "17:30"
                     },
                     {
-                        "name": "CUMARTESI: SPRINT YARIŞI",
+                        "name": "Cumartesi: Sprint Yarışı",
                         "time": "13:00"
                     },
                     {
-                        "name": "CUMARTESI: ANA YARIŞ SIRALAMA TURLARI",
+                        "name": "Cumartesi: Ana Yarış Sıralama Turları",
                         "time": "17:00"
                     },
                     {
-                        "name": "PAZAR: YARIŞ",
+                        "name": "Pazar: Yarış",
                         "time": "16:00"
                     }
                 ]
@@ -4847,11 +4847,11 @@ const APP_DATA = {
                 "status": "Tamamlandı",
                 "sessions": [
                     {
-                        "name": "Sali: 1. Antrenman",
+                        "name": "SalÄ±: 1. Antrenman",
                         "time": "06:45"
                     },
                     {
-                        "name": "Sali: Antrenman Seansi",
+                        "name": "SalÄ±: Antrenman SeansÄ±",
                         "time": "11:00"
                     },
                     {
@@ -4867,7 +4867,7 @@ const APP_DATA = {
                         "time": "11:00"
                     },
                     {
-                        "name": "Cuma: Isinma Turlari",
+                        "name": "Cuma: IsÄ±nma TurlarÄ±",
                         "time": "06:40"
                     },
                     {
@@ -4890,19 +4890,19 @@ const APP_DATA = {
                         "time": "18:05"
                     },
                     {
-                        "name": "Cuma: Ana Antrenman Seansi",
+                        "name": "Cuma: Ana Antrenman SeansÄ±",
                         "time": "22:00"
                     },
                     {
-                        "name": "Cumartesi: 2.Antrenman Seansi",
+                        "name": "Cumartesi: 2. Antrenman SeansÄ±",
                         "time": "16:10"
                     },
                     {
-                        "name": "Cumartesi: Siralama Turlari 1",
+                        "name": "Cumartesi: SÄ±ralama TurlarÄ± 1",
                         "time": "16:50"
                     },
                     {
-                        "name": "Cumartesi: Siralama Turlari 2",
+                        "name": "Cumartesi: SÄ±ralama TurlarÄ± 2",
                         "time": "17:15"
                     },
                     {
@@ -4910,7 +4910,7 @@ const APP_DATA = {
                         "time": "22:20"
                     },
                     {
-                        "name": "Pazar: Isinma Turlari",
+                        "name": "Pazar: IsÄ±nma TurlarÄ±",
                         "time": "16:40"
                     },
                     {
@@ -4933,19 +4933,19 @@ const APP_DATA = {
                         "time": "18:45"
                     },
                     {
-                        "name": "Pazartesi: Ana Antrenman Seansi",
+                        "name": "Pazartesi: Ana Antrenman SeansÄ±",
                         "time": "23:00"
                     },
                     {
-                        "name": "Sali: 2.Antrenman Seansi",
+                        "name": "SalÄ±: 2. Antrenman SeansÄ±",
                         "time": "18:10"
                     },
                     {
-                        "name": "Sali: Siralama Turlari 1",
+                        "name": "SalÄ±: SÄ±ralama TurlarÄ± 1",
                         "time": "18:50"
                     },
                     {
-                        "name": "Sali: Siralama Turlari 2",
+                        "name": "SalÄ±: SÄ±ralama TurlarÄ± 2",
                         "time": "18:15"
                     },
                     {
@@ -4976,19 +4976,19 @@ const APP_DATA = {
                         "time": "11:45"
                     },
                     {
-                        "name": "Cuma: Ana Antrenman Seansi",
+                        "name": "Cuma: Ana Antrenman SeansÄ±",
                         "time": "16:00"
                     },
                     {
-                        "name": "Cumartesi: 2.Antrenman Seansi",
+                        "name": "Cumartesi: 2. Antrenman SeansÄ±",
                         "time": "11:10"
                     },
                     {
-                        "name": "Cumartesi: Siralama Turlari 1",
+                        "name": "Cumartesi: SÄ±ralama TurlarÄ± 1",
                         "time": "11:50"
                     },
                     {
-                        "name": "Cumartesi: Siralama Turlari 2",
+                        "name": "Cumartesi: SÄ±ralama TurlarÄ± 2",
                         "time": "12:15"
                     },
                     {
@@ -4996,7 +4996,7 @@ const APP_DATA = {
                         "time": "16:00"
                     },
                     {
-                        "name": "Pazar: Isinma Turlari",
+                        "name": "Pazar: IsÄ±nma TurlarÄ±",
                         "time": "16:40"
                     },
                     {
@@ -5019,19 +5019,19 @@ const APP_DATA = {
                         "time": "11:45"
                     },
                     {
-                        "name": "Cuma: Ana Antrenman Seansi",
+                        "name": "Cuma: Ana Antrenman SeansÄ±",
                         "time": "16:00"
                     },
                     {
-                        "name": "Cumartesi: 2.Antrenman Seansi",
+                        "name": "Cumartesi: 2. Antrenman SeansÄ±",
                         "time": "11:10"
                     },
                     {
-                        "name": "Cumartesi: Siralama Turlari 1",
+                        "name": "Cumartesi: SÄ±ralama TurlarÄ± 1",
                         "time": "11:50"
                     },
                     {
-                        "name": "Cumartesi: Siralama Turlari 2",
+                        "name": "Cumartesi: SÄ±ralama TurlarÄ± 2",
                         "time": "12:15"
                     },
                     {
@@ -5039,7 +5039,7 @@ const APP_DATA = {
                         "time": "16:00"
                     },
                     {
-                        "name": "Pazar: Isinma Turlari",
+                        "name": "Pazar: IsÄ±nma TurlarÄ±",
                         "time": "10:40"
                     },
                     {
@@ -5062,19 +5062,19 @@ const APP_DATA = {
                         "time": "11:45"
                     },
                     {
-                        "name": "Cuma: Ana Antrenman Seansi",
+                        "name": "Cuma: Ana Antrenman SeansÄ±",
                         "time": "16:00"
                     },
                     {
-                        "name": "Cumartesi: 2.Antrenman Seansi",
+                        "name": "Cumartesi: 2. Antrenman SeansÄ±",
                         "time": "11:10"
                     },
                     {
-                        "name": "Cumartesi: Siralama Turlari 1",
+                        "name": "Cumartesi: SÄ±ralama TurlarÄ± 1",
                         "time": "11:50"
                     },
                     {
-                        "name": "Cumartesi: Siralama Turlari 2",
+                        "name": "Cumartesi: SÄ±ralama TurlarÄ± 2",
                         "time": "12:15"
                     },
                     {
@@ -5082,7 +5082,7 @@ const APP_DATA = {
                         "time": "16:00"
                     },
                     {
-                        "name": "Pazar: Isinma Turlari",
+                        "name": "Pazar: IsÄ±nma TurlarÄ±",
                         "time": "10:40"
                     },
                     {
@@ -5105,19 +5105,19 @@ const APP_DATA = {
                         "time": "11:45"
                     },
                     {
-                        "name": "Cuma: Ana Antrenman Seansi",
+                        "name": "Cuma: Ana Antrenman SeansÄ±",
                         "time": "16:00"
                     },
                     {
-                        "name": "Cumartesi: 2.Antrenman Seansi",
+                        "name": "Cumartesi: 2. Antrenman SeansÄ±",
                         "time": "11:10"
                     },
                     {
-                        "name": "Cumartesi: Siralama Turlari 1",
+                        "name": "Cumartesi: SÄ±ralama TurlarÄ± 1",
                         "time": "11:50"
                     },
                     {
-                        "name": "Cumartesi: Siralama Turlari 2",
+                        "name": "Cumartesi: SÄ±ralama TurlarÄ± 2",
                         "time": "12:15"
                     },
                     {
@@ -5125,7 +5125,7 @@ const APP_DATA = {
                         "time": "16:00"
                     },
                     {
-                        "name": "Pazar: Isinma Turlari",
+                        "name": "Pazar: IsÄ±nma TurlarÄ±",
                         "time": "10:40"
                     },
                     {
@@ -5148,19 +5148,19 @@ const APP_DATA = {
                         "time": "11:45"
                     },
                     {
-                        "name": "Cuma: Ana Antrenman Seansi",
+                        "name": "Cuma: Ana Antrenman SeansÄ±",
                         "time": "16:00"
                     },
                     {
-                        "name": "Cumartesi: 2.Antrenman Seansi",
+                        "name": "Cumartesi: 2. Antrenman SeansÄ±",
                         "time": "11:10"
                     },
                     {
-                        "name": "Cumartesi: Siralama Turlari 1",
+                        "name": "Cumartesi: SÄ±ralama TurlarÄ± 1",
                         "time": "11:50"
                     },
                     {
-                        "name": "Cumartesi: Siralama Turlari 2",
+                        "name": "Cumartesi: SÄ±ralama TurlarÄ± 2",
                         "time": "12:15"
                     },
                     {
@@ -5168,7 +5168,7 @@ const APP_DATA = {
                         "time": "16:00"
                     },
                     {
-                        "name": "Pazar: Isinma Turlari",
+                        "name": "Pazar: IsÄ±nma TurlarÄ±",
                         "time": "10:40"
                     },
                     {
@@ -5191,19 +5191,19 @@ const APP_DATA = {
                         "time": "11:45"
                     },
                     {
-                        "name": "Cuma: Ana Antrenman Seansi",
+                        "name": "Cuma: Ana Antrenman SeansÄ±",
                         "time": "16:00"
                     },
                     {
-                        "name": "Cumartesi: 2.Antrenman Seansi",
+                        "name": "Cumartesi: 2. Antrenman SeansÄ±",
                         "time": "11:10"
                     },
                     {
-                        "name": "Cumartesi: Siralama Turlari 1",
+                        "name": "Cumartesi: SÄ±ralama TurlarÄ± 1",
                         "time": "11:50"
                     },
                     {
-                        "name": "Cumartesi: Siralama Turlari 2",
+                        "name": "Cumartesi: SÄ±ralama TurlarÄ± 2",
                         "time": "12:15"
                     },
                     {
@@ -5211,7 +5211,7 @@ const APP_DATA = {
                         "time": "16:00"
                     },
                     {
-                        "name": "Pazar: Isinma Turlari",
+                        "name": "Pazar: IsÄ±nma TurlarÄ±",
                         "time": "10:40"
                     },
                     {
@@ -5234,19 +5234,19 @@ const APP_DATA = {
                         "time": "11:45"
                     },
                     {
-                        "name": "Cuma: Ana Antrenman Seansi",
+                        "name": "Cuma: Ana Antrenman SeansÄ±",
                         "time": "16:00"
                     },
                     {
-                        "name": "Cumartesi: 2.Antrenman Seansi",
+                        "name": "Cumartesi: 2. Antrenman SeansÄ±",
                         "time": "11:10"
                     },
                     {
-                        "name": "Cumartesi: Siralama Turlari 1",
+                        "name": "Cumartesi: SÄ±ralama TurlarÄ± 1",
                         "time": "11:50"
                     },
                     {
-                        "name": "Cumartesi: Siralama Turlari 2",
+                        "name": "Cumartesi: SÄ±ralama TurlarÄ± 2",
                         "time": "12:15"
                     },
                     {
@@ -5254,7 +5254,7 @@ const APP_DATA = {
                         "time": "16:00"
                     },
                     {
-                        "name": "Pazar: Isinma Turlari",
+                        "name": "Pazar: IsÄ±nma TurlarÄ±",
                         "time": "10:40"
                     },
                     {
@@ -5277,19 +5277,19 @@ const APP_DATA = {
                         "time": "11:45"
                     },
                     {
-                        "name": "Cuma: Ana Antrenman Seansi",
+                        "name": "Cuma: Ana Antrenman SeansÄ±",
                         "time": "16:00"
                     },
                     {
-                        "name": "Cumartesi: 2.Antrenman Seansi",
+                        "name": "Cumartesi: 2. Antrenman SeansÄ±",
                         "time": "11:10"
                     },
                     {
-                        "name": "Cumartesi: Siralama Turlari 1",
+                        "name": "Cumartesi: SÄ±ralama TurlarÄ± 1",
                         "time": "11:50"
                     },
                     {
-                        "name": "Cumartesi: Siralama Turlari 2",
+                        "name": "Cumartesi: SÄ±ralama TurlarÄ± 2",
                         "time": "12:15"
                     },
                     {
@@ -5297,7 +5297,7 @@ const APP_DATA = {
                         "time": "16:00"
                     },
                     {
-                        "name": "Pazar: Isinma Turlari",
+                        "name": "Pazar: IsÄ±nma TurlarÄ±",
                         "time": "10:40"
                     },
                     {
@@ -5320,31 +5320,31 @@ const APP_DATA = {
                         "time": "13:45"
                     },
                     {
-                        "name": "CUMA: ANA ANTRENMAN SEANSI",
+                        "name": "Cuma: Ana Antrenman Seansı",
                         "time": "18:00"
                     },
                     {
-                        "name": "CUMARTESI: 2.ANTRENMAN SEANSI",
+                        "name": "Cumartesi: 2. Antrenman Seansı",
                         "time": "13:10"
                     },
                     {
-                        "name": "CUMARTESI: SIRALAMA TURLARI 1",
+                        "name": "Cumartesi: Sıralama Turları 1",
                         "time": "13:50"
                     },
                     {
-                        "name": "CUMARTESI: SIRALAMA TURLARI 2",
+                        "name": "Cumartesi: Sıralama Turları 2",
                         "time": "14:15"
                     },
                     {
-                        "name": "CUMARTESI: SPRINT YARIŞI",
+                        "name": "Cumartesi: Sprint Yarışı",
                         "time": "18:00"
                     },
                     {
-                        "name": "PAZAR: ISINMA TURLARI",
+                        "name": "Pazar: Isınma Turları",
                         "time": "11:40"
                     },
                     {
-                        "name": "PAZAR: YARIŞ",
+                        "name": "Pazar: Yarış",
                         "time": "15:00"
                     }
                 ]

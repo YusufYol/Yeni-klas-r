@@ -1236,7 +1236,7 @@ function initAppEngine() {
                                     <td>
                                         <div class="pilot-table-cell">
                                             <img src="${imgPath}" alt="${t.name}" class="table-thumb-img" onerror="this.onerror=null; this.src='Resimler/Logo/logo.png'">
-                                            <span class="table-item-name">${t.name}</span>
+                                            <span class="table-item-name" lang="en">${t.name}</span>
                                         </div>
                                     </td>
                                 </tr>
@@ -1266,7 +1266,7 @@ function initAppEngine() {
                     <img src="${imgPath}" alt="${p.name}" class="pilot-card-img" onerror="this.onerror=null; this.src='Resimler/Logo/logo.png'">
                 </div>
                 <div class="pilot-card-content">
-                    <h3 class="pilot-card-name" style="${p.pos === 1 ? 'font-size:1.15rem;' : ''}">${p.name}</h3>
+                    <h3 class="pilot-card-name" lang="en" style="${p.pos === 1 ? 'font-size:1.15rem;' : ''}">${p.name}</h3>
                     ${p.team ? `
                     <div class="pilot-card-team">
                         ${teamImgPath ? `<img src="${teamImgPath}" alt="team logo" class="pilot-card-team-logo" onerror="this.style.display='none'">` : ''}
@@ -1294,7 +1294,7 @@ function initAppEngine() {
                     <img src="${imgPath}" alt="${t.name}" class="team-card-img" onerror="this.onerror=null; this.src='Resimler/Logo/logo.png'">
                 </div>
                 <div class="team-card-content">
-                    <h3 class="team-card-name" style="${t.pos === 1 ? 'font-size:1.15rem;' : ''}">${t.name}</h3>
+                    <h3 class="team-card-name" lang="en" style="${t.pos === 1 ? 'font-size:1.15rem;' : ''}">${t.name}</h3>
                 </div>
             </div>
         `;
@@ -1320,7 +1320,7 @@ function initAppEngine() {
                     <img src="${imgPath}" alt="${p.name}" class="pilot-card-img" onerror="this.onerror=null; this.src='Resimler/Logo/logo.png'">
                 </div>` : ''}
                 <div class="pilot-card-content">
-                    <h3 class="pilot-card-name">${p.name}</h3>
+                    <h3 class="pilot-card-name" lang="en">${p.name}</h3>
                     ${p.team ? `
                     <div class="pilot-card-team">
                         ${teamImgPath ? `<img src="${teamImgPath}" alt="team logo" class="pilot-card-team-logo" onerror="this.style.display='none'">` : ''}
@@ -1347,7 +1347,7 @@ function initAppEngine() {
                     <img src="${imgPath}" alt="${t.name}" class="team-card-img" onerror="this.onerror=null; this.src='Resimler/Logo/logo.png'">
                 </div>
                 <div class="team-card-content">
-                    <h3 class="team-card-name">${t.name}</h3>
+                    <h3 class="team-card-name" lang="en">${t.name}</h3>
                 </div>
             </div>
         `;

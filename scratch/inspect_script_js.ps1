@@ -1,9 +1,0 @@
-$path = (Resolve-Path "script.js").Path
-$lines = [System.IO.File]::ReadAllLines($path, [System.Text.Encoding]::UTF8)
-
-for ($i = 0; $i -lt $lines.Length; $i++) {
-    $line = $lines[$i]
-    if ($line -match "standings" -or $line -match "pilots" -or $line -match "teams" -or $line -match "Format" -or $line -match "toUpperCase") {
-        Write-Host "Line $($i+1): $($line.Trim())"
-    }
-}
