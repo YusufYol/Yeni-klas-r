@@ -1,4 +1,4 @@
-const APP_DATA = {
+﻿const APP_DATA = {
     "formula 1": {
         "news": [
             {
@@ -4844,7 +4844,7 @@ const APP_DATA = {
                 "date": "27 Şubat-1 Mart",
                 "track": "Buriram",
                 "isoDate": "2026-03-01",
-                "status": "Tamamlandi",
+                "status": "TamamlandÄ±",
                 "sessions": [
                     {
                         "name": "Sali: 1. Antrenman",
@@ -4883,7 +4883,7 @@ const APP_DATA = {
                 "date": "18-20 Mart",
                 "track": "Goiania",
                 "isoDate": "2026-03-20",
-                "status": "Tamamlandi",
+                "status": "TamamlandÄ±",
                 "sessions": [
                     {
                         "name": "Cuma: 1. Antrenman",
@@ -4926,7 +4926,7 @@ const APP_DATA = {
                 "date": "27-29 Mart",
                 "track": "Austin",
                 "isoDate": "2026-03-29",
-                "status": "Tamamlandi",
+                "status": "TamamlandÄ±",
                 "sessions": [
                     {
                         "name": "Pazartesi: 1. Antrenman",
@@ -4969,7 +4969,7 @@ const APP_DATA = {
                 "date": "24-26 Nisan",
                 "track": "Jerez – Ángel Nieto",
                 "isoDate": "2026-04-26",
-                "status": "Tamamlandi",
+                "status": "TamamlandÄ±",
                 "sessions": [
                     {
                         "name": "Cuma: 1. Antrenman",
@@ -5012,7 +5012,7 @@ const APP_DATA = {
                 "date": "8-10 Mayis",
                 "track": "Le Mans",
                 "isoDate": "2026-05-10",
-                "status": "Tamamlandi",
+                "status": "TamamlandÄ±",
                 "sessions": [
                     {
                         "name": "Cuma: 1. Antrenman",
@@ -5055,7 +5055,7 @@ const APP_DATA = {
                 "date": "15-17 Mayis",
                 "track": "Barcelona",
                 "isoDate": "2026-05-17",
-                "status": "Tamamlandi",
+                "status": "TamamlandÄ±",
                 "sessions": [
                     {
                         "name": "Cuma: 1. Antrenman",
@@ -5098,7 +5098,7 @@ const APP_DATA = {
                 "date": "29-31 Mayis",
                 "track": "Mugello",
                 "isoDate": "2026-05-31",
-                "status": "Tamamlandi",
+                "status": "TamamlandÄ±",
                 "sessions": [
                     {
                         "name": "Cuma: 1. Antrenman",
@@ -5141,7 +5141,7 @@ const APP_DATA = {
                 "date": "05-07 Haziran",
                 "track": "Balaton Park",
                 "isoDate": "2026-06-07",
-                "status": "Tamamlandi",
+                "status": "TamamlandÄ±",
                 "sessions": [
                     {
                         "name": "Cuma: 1. Antrenman",
@@ -5184,7 +5184,7 @@ const APP_DATA = {
                 "date": "19-21 Haziran",
                 "track": "Brno",
                 "isoDate": "2026-06-21",
-                "status": "Tamamlandi",
+                "status": "TamamlandÄ±",
                 "sessions": [
                     {
                         "name": "Cuma: 1. Antrenman",
@@ -5227,7 +5227,7 @@ const APP_DATA = {
                 "date": "26-28 Haziran",
                 "track": "Assen",
                 "isoDate": "2026-06-28",
-                "status": "Tamamlandi",
+                "status": "TamamlandÄ±",
                 "sessions": [
                     {
                         "name": "Cuma: 1. Antrenman",
@@ -5270,7 +5270,7 @@ const APP_DATA = {
                 "date": "10-12 Temmuz",
                 "track": "Sachsenring",
                 "isoDate": "2026-07-12",
-                "status": "Tamamlandi",
+                "status": "TamamlandÄ±",
                 "sessions": [
                     {
                         "name": "Cuma: 1. Antrenman",
@@ -7251,7 +7251,7 @@ const APP_DATA = {
                 },
                 {
                     "pos": 11,
-                    "pilot": "Toprak RazgatıoÄŸlu #7",
+                    "pilot": "Toprak RazgatlÄ±oÄŸlu #7",
                     "team": "Prima Pramac Yamaha MotoGP",
                     "time": "43'20.460",
                     "gap": "+25.135",
@@ -7528,7 +7528,7 @@ const APP_DATA = {
                 },
                 {
                     "pos": 14,
-                    "pilot": "Toprak RazgatıoÄŸlu #7",
+                    "pilot": "Toprak RazgatlÄ±oÄŸlu #7",
                     "team": "Prima Pramac Yamaha MotoGP",
                     "time": "40'17.103",
                     "gap": "+25.806",
@@ -7805,7 +7805,7 @@ const APP_DATA = {
                 },
                 {
                     "pos": "DNF",
-                    "pilot": "Toprak RazgatıoÄŸlu #7",
+                    "pilot": "Toprak RazgatlÄ±oÄŸlu #7",
                     "team": "Prima Pramac Yamaha MotoGP",
                     "time": "20'52.183",
                     "gap": "+13 Tur",
@@ -9024,3 +9024,5 @@ const TRACK_STATS = CIRCUITS_DB["Silverstone (MotoGP)"];
 // Dinamik veriler script.js tarafından güncellenecektir.
 let CURRENT_WEEKEND_DATA = null;
 let CURRENT_TRACK_STATS = null;
+
+
