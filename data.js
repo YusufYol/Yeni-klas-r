@@ -8261,13 +8261,6 @@ const APP_DATA = {
                     "team": "BK8 Gresini Racing MotoGP",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Michele Pirro.png",
                     "pts": 0
-                },
-                {
-                    "pos": 28,
-                    "name": "Lorenzo Savadori #32",
-                    "team": "Aprilia Racing",
-                    "img": "Resimler/MotoGP Pilot ve Takımlar/Lorenzo Savadori.png",
-                    "pts": 0
                 }
             ],
             "teams": [
