@@ -5045,40 +5045,40 @@ const APP_DATA = {
                 "gp": "British Grand Prix",
                 "country": "Birleşik Krallik",
                 "date": "7-9 Ağustos",
-                "track": "Silverstone",
+                "track": "Silverstone (MotoGP)",
                 "isoDate": "2026-08-09",
-                "status": "Bekliyor",
+                "status": "Sıradaki",
                 "sessions": [
                     {
                         "name": "Cuma: 1. Antrenman",
                         "time": "13:45"
                     },
                     {
-                        "name": "Cuma: Ana Antrenman Seansi",
+                        "name": "Cuma: Ana Antrenman Seansı",
                         "time": "18:00"
                     },
                     {
-                        "name": "Cumartesi: 2.Antrenman Seansi",
+                        "name": "Cumartesi: 2.Antrenman Seansı",
                         "time": "13:10"
                     },
                     {
-                        "name": "Cumartesi: Siralama Turlari 1",
+                        "name": "Cumartesi: Sıralama Turları 1",
                         "time": "13:50"
                     },
                     {
-                        "name": "Cumartesi: Siralama Turlari 2",
+                        "name": "Cumartesi: Sıralama Turları 2",
                         "time": "14:15"
                     },
                     {
-                        "name": "Cumartesi: Sprint Yarişi",
+                        "name": "Cumartesi: Sprint Yarışı",
                         "time": "18:00"
                     },
                     {
-                        "name": "Pazar: Isinma Turlari",
+                        "name": "Pazar: Isınma Turları",
                         "time": "11:40"
                     },
                     {
-                        "name": "Pazar: Yariş",
+                        "name": "Pazar: Yarış",
                         "time": "15:00"
                     }
                 ]
@@ -8710,10 +8710,16 @@ const CIRCUITS_DB = {
         "opened": "1986", "firstWinner": "Nelson Piquet (1986)",
         "mostWinsPilot": "Lewis Hamilton (8 Galibiyet)", "mostWinsTeam": "McLaren F1 Team (13 Galibiyet)",
         "description": "Dar, virajlı ve ardı arkası kesilmeyen teknik yapısıyla 'duvarsız Monako' veya devasa bir karting pisti olarak anılan Hungaroring, geçiş yapmanın oldukça zor olduğu ve pilotların hem fiziksel hem de zihinsel sınırlarını zorlayan tarihi bir pisttir."
+    },
+    "Silverstone (MotoGP)": {
+        "len": "5.891 km", "turns": "18", "record": "1:57.233 (Fabio Quartararo)",
+        "opened": "1977", "firstWinner": "Pat Hennen (1977)",
+        "mostWinsPilot": "Jorge Lorenzo ve Kenny Roberts (3 Galibiyet)", "mostWinsTeam": "Monster Energy Yamaha MotoGP (8 Galibiyet)",
+        "description": "Motor sporlarının beşiği kabul edilen Silverstone; yüksek hızlı akan virajları, teknik düzeni ve öngörülemeyen İngiliz hava koşullarıyla MotoGP takviminin en heyecanlı ve efsanevi pistlerinden biridir."
     }
 };
 
-const TRACK_STATS = CIRCUITS_DB["Hungaroring"];
+const TRACK_STATS = CIRCUITS_DB["Silverstone (MotoGP)"];
 
 // Dinamik veriler script.js tarafından güncellenecektir.
 let CURRENT_WEEKEND_DATA = null;
