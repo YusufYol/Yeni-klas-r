@@ -7811,29 +7811,34 @@ const APP_DATA = {
                     "pos": 1,
                     "name": "Jorge Martin #89",
                     "team": "Aprilia Racing",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Jorge Martin.png",
                     "pts": 208
                 },
                 {
                     "pos": 2,
                     "name": "Ai Ogura #79",
                     "team": "Trackhouse Racing",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Ai Ogura.png",
                     "pts": 194
                 },
                 {
                     "pos": 3,
                     "name": "Marc Marquez #93",
                     "team": "Ducati Lenovo Team",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Marc Marquez.png",
                     "pts": 190
                 },
                 {
                     "pos": 4,
                     "name": "Marco Bezzecchi #72",
                     "team": "Aprilia Racing",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Marco Bezzecchi.png",
                     "pts": 186
                 },
                 {
                     "pos": 5,
                     "name": "Fabio Di Giannantonio #49",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Fabio Di Giannantonio.png",
                     "team": "Pertamina Enduro VR46",
                     "pts": 184
                 },
@@ -7841,138 +7846,161 @@ const APP_DATA = {
                     "pos": 6,
                     "name": "Raul Fernandez #25",
                     "team": "Trackhouse Racing",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Raul Fernandez.png",
                     "pts": 159
                 },
                 {
                     "pos": 7,
                     "name": "Pedro Acosta #37",
                     "team": "Red Bull KTM Factory Racing",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Pedro Acosta.png",
                     "pts": 148
                 },
                 {
                     "pos": 8,
                     "name": "Francesco Bagnaia #63",
                     "team": "Ducati Lenovo Team",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Francesco Bagnaia.png",
                     "pts": 143
                 },
                 {
                     "pos": 9,
                     "name": "Alex Marquez #73",
                     "team": "BK8 Gresini Racing MotoGP",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Alex Marquez.png",
                     "pts": 87
                 },
                 {
                     "pos": 10,
                     "name": "Luca Marini #10",
                     "team": "Repsol Honda Team",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Luca Marini.png",
                     "pts": 79
                 },
                 {
                     "pos": 11,
                     "name": "Fermin Aldeguer #54",
                     "team": "BK8 Gresini Racing MotoGP",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Fermin Aldeguer.png",
                     "pts": 76
                 },
                 {
                     "pos": 12,
                     "name": "Enea Bastianini #23",
                     "team": "Red Bull KTM Tech3",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Enea Bastianini.png",
                     "pts": 76
                 },
                 {
                     "pos": 13,
                     "name": "Brad Binder #33",
                     "team": "Red Bull KTM Factory Racing",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Brad Binder.png",
                     "pts": 64
                 },
                 {
                     "pos": 14,
                     "name": "Fabio Quartararo #20",
                     "team": "Monster Energy Yamaha MotoGP Team",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Fabio Quartararo.png",
                     "pts": 55
                 },
                 {
                     "pos": 15,
                     "name": "Diogo Moreira #11",
                     "team": "Castrol Honda LCR",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Diogo Moreira.png",
                     "pts": 48
                 },
                 {
                     "pos": 16,
                     "name": "Franco Morbidelli #21",
                     "team": "Pertamina Enduro VR46",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Franco Morbidelli.png",
                     "pts": 46
                 },
                 {
                     "pos": 17,
                     "name": "Johann Zarco #5",
                     "team": "Castrol Honda LCR",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Johann Zarco.png",
                     "pts": 34
                 },
                 {
                     "pos": 18,
                     "name": "Joan Mir #36",
                     "team": "Repsol Honda Team",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Joan Mir.png",
                     "pts": 26
                 },
                 {
                     "pos": 19,
                     "name": "Alex Rins #42",
                     "team": "Monster Energy Yamaha MotoGP Team",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Alex Rins.png",
                     "pts": 21
                 },
                 {
                     "pos": 20,
                     "name": "Jack Miller #43",
                     "team": "Prima Pramac Yamaha MotoGP",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Jack Miller.png",
                     "pts": 19
                 },
                 {
                     "pos": 21,
                     "name": "Toprak Razgatlıoğlu #7",
                     "team": "Prima Pramac Yamaha MotoGP",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Toprak Razgatlıoğlu.png",
                     "pts": 12
                 },
                 {
                     "pos": 22,
                     "name": "Maverick Viñales #12",
                     "team": "Red Bull KTM Tech3",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Maverick Viñales.png",
                     "pts": 10
                 },
                 {
                     "pos": 23,
                     "name": "Iker Lecuona #27",
                     "team": "BK8 Gresini Racing MotoGP",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Iker Lecuona.png",
                     "pts": 9
                 },
                 {
                     "pos": 24,
                     "name": "Augusto Fernandez #47",
                     "team": "Yamaha Factory Racing",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Augusto Fernandez.png",
                     "pts": 5
                 },
                 {
                     "pos": 25,
                     "name": "Cal Crutchlow #35",
                     "team": "Castrol Honda LCR",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Cal Crutchlow.png",
                     "pts": 0
                 },
                 {
                     "pos": 26,
                     "name": "Jonas Folger #94",
                     "team": "Red Bull KTM Tech3",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Jonas Folger.png",
                     "pts": 0
                 },
                 {
                     "pos": 27,
                     "name": "Michele Pirro #51",
                     "team": "BK8 Gresini Racing MotoGP",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Michele Pirro.png",
                     "pts": 0
                 },
                 {
                     "pos": 28,
                     "name": "Lorenzo Savadori #32",
                     "team": "Aprilia Racing",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Lorenzo Savadori.png",
                     "pts": 0
                 }
             ],
@@ -7980,56 +8008,67 @@ const APP_DATA = {
                 {
                     "pos": 1,
                     "name": "Aprilia Racing",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Aprilia.png",
                     "pts": 394
                 },
                 {
                     "pos": 2,
                     "name": "Trackhouse Racing",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Trackhouse.png",
                     "pts": 353
                 },
                 {
                     "pos": 3,
                     "name": "Ducati Lenovo Team",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Ducati.png",
                     "pts": 333
                 },
                 {
                     "pos": 4,
                     "name": "Pertamina Enduro VR46",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/VR46.png",
                     "pts": 230
                 },
                 {
                     "pos": 5,
                     "name": "Red Bull KTM Factory Racing",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/KTM.png",
                     "pts": 212
                 },
                 {
                     "pos": 6,
                     "name": "BK8 Gresini Racing MotoGP",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Gresini.png",
                     "pts": 172
                 },
                 {
                     "pos": 7,
                     "name": "Repsol Honda Team",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Repsol Honda.png",
                     "pts": 105
                 },
                 {
                     "pos": 8,
                     "name": "Red Bull KTM Tech3",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Tech3.png",
                     "pts": 86
                 },
                 {
                     "pos": 9,
                     "name": "Castrol Honda LCR",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Honda LCR.png",
                     "pts": 82
                 },
                 {
                     "pos": 10,
                     "name": "Monster Energy Yamaha MotoGP Team",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/MonsterYamaha.png",
                     "pts": 77
                 },
                 {
                     "pos": 11,
                     "name": "Prima Pramac Yamaha MotoGP",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Pramac Yamaha.png",
                     "pts": 31
                 }
             ]
