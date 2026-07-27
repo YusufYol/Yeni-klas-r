@@ -8222,9 +8222,9 @@ const APP_DATA = {
                 },
                 {
                     "pos": 22,
-                    "name": "Maverick Viñales #12",
+                    "name": "Maverick Vinales #12",
                     "team": "Red Bull KTM Tech3",
-                    "img": "Resimler/MotoGP Pilot ve Takımlar/Maverick Viñales.png",
+                    "img": "Resimler/MotoGP Pilot ve Takımlar/Maverick Vinales.png",
                     "pts": 10
                 },
                 {

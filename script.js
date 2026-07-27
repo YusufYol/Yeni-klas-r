@@ -1025,6 +1025,9 @@ function initAppEngine() {
             .replace(/ç/g, 'c')
             .replace(/ö/g, 'o')
             .replace(/ü/g, 'u')
+            .replace(/ñ/g, 'n')
+            .replace(/é|è|ê/g, 'e')
+            .replace(/á|à|â/g, 'a')
             .replace(/#\d+/g, '')
             .replace(/[^a-z0-9]/g, '')
             .trim();
