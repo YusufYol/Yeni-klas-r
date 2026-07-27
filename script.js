@@ -1030,6 +1030,17 @@ function initAppEngine() {
             .trim();
     }
 
+    function formatTitleCaseTR(str) {
+        if (!str) return '';
+        return str.split(/(\s+|[()/-])/).map(part => {
+            if (!part || /^\s+$/.test(part) || /^[()/-]+$/.test(part)) return part;
+            if (/^(GT\d*|WEC|F\d+|MOTOGP|OK)$/i.test(part)) {
+                return part.toUpperCase();
+            }
+            return part.charAt(0).toLocaleUpperCase('tr-TR') + part.slice(1).toLocaleLowerCase('tr-TR');
+        }).join('');
+    }
+
     function getEnrichedPilots(cat) {
         const categoryData = getCategoryData(cat);
         const pilots = categoryData.pilots || [];
@@ -1176,7 +1187,9 @@ function initAppEngine() {
                         ${sortedPilots.map((p, idx) => {
                             const flagSrc = p.flag ? (p.flag.startsWith('Resimler/') ? `${window.APP_ROOT}${p.flag}` : p.flag) : '';
                             const imgPath = p.img ? (p.img.startsWith('Resimler/') ? `${window.APP_ROOT}${p.img}` : p.img) : 'Resimler/Logo/logo.png';
-                            const pilotDisplayName = (isMilli && p.team) ? `${p.name} (${p.team})` : p.name;
+                            const formattedName = isMilli ? formatTitleCaseTR(p.name) : p.name;
+                            const formattedTeam = isMilli ? formatTitleCaseTR(p.team) : p.team;
+                            const pilotDisplayName = (isMilli && formattedTeam) ? `${formattedName} (${formattedTeam})` : (isMilli ? formattedName : p.name);
                             return `
                                 <tr class="table-row-item" ${!isMilli ? `onclick="handleRoute('pilot-detail', '${cat}', true, '${p.id}')"` : ''} style="${!isMilli ? 'cursor:pointer' : 'cursor:default'}">
                                     <td style="text-align:center; font-weight:700; color:#888;">${idx + 1}</td>

@@ -8627,22 +8627,22 @@ const APP_DATA = {
             },
             {
                 "id": "gücenmez",
-                "name": "BAHADIR GÜCENMEZ",
+                "name": "Bahadır Gücenmez",
                 "team": "Ralli"
             },
             {
                 "id": "yıldırım",
-                "name": "BATI EGE YILDIRIM",
+                "name": "Batı Ege Yıldırım",
                 "team": "Karting Junior"
             },
             {
                 "id": "zülfikari",
-                "name": "ISKENDER ZÜLFIKARI",
+                "name": "İskender Zülfikari",
                 "team": "OK-Junior"
             },
             {
                 "id": "bayındır",
-                "name": "BERKE BAYINDIR",
+                "name": "Berke Bayındır",
                 "team": "Scirocco R-Cup Europe"
             },
             {
@@ -8672,7 +8672,7 @@ const APP_DATA = {
             },
             {
                 "id": "bölükbaşı",
-                "name": "CEM BÖLÜKBAŞI",
+                "name": "Cem Bölükbaşı",
                 "team": "European Le Mans Series"
             },
             {
@@ -8692,7 +8692,7 @@ const APP_DATA = {
             },
             {
                 "id": "sağım",
-                "name": "DEMIR SAĞIM",
+                "name": "Demir Sağım",
                 "team": "Karting Junior"
             },
             {
@@ -8723,17 +8723,17 @@ const APP_DATA = {
             {
                 "id": "yücesan",
                 "name": "Ersin Yücesan",
-                "team": "ALMANYA NÜRBURGRING DAYANIKLILIK SERISI"
+                "team": "Almanya Nürburgring Dayanıklılık Serisi"
             },
             {
                 "id": "ayhan",
                 "name": "Fatih Ayhan",
-                "team": "GT4 AVRUPA SERISI VE TÜRKIYE PIST ŞAMPIYONASI"
+                "team": "GT4 Avrupa Serisi Ve Türkiye Pist Şampiyonası"
             },
             {
                 "id": "atar",
                 "name": "Galip Atar",
-                "team": "FERRARI CHALLENGE DÜNYA ŞAMPIYONASI"
+                "team": "Ferrari Challenge Dünya Şampiyonası"
             },
             {
                 "id": "taşdelen",
@@ -8742,18 +8742,18 @@ const APP_DATA = {
             },
             {
                 "id": "okyay",
-                "name": "IBRAHIM OKYAY",
+                "name": "İbrahim Okyay",
                 "team": "GT4 Avrupa Serisi"
             },
             {
                 "id": "gürgenç",
                 "name": "Kaan Gürgenç",
-                "team": "TÜRKIYE PIST ŞAMPIYONASI"
+                "team": "Türkiye Pist Şampiyonası"
             },
             {
                 "id": "önder",
                 "name": "Kaan Önder",
-                "team": "e-spor Sim Racing"
+                "team": "E-Spor Sim Racing"
             },
             {
                 "id": "özşenler",
@@ -8772,8 +8772,8 @@ const APP_DATA = {
             },
             {
                 "id": "kocabıyık",
-                "name": "LEVENT KOCABIYIK",
-                "team": "TÜRKIYE PIST ŞAMPIYONASI"
+                "name": "Levent Kocabıyık",
+                "team": "Türkiye Pist Şampiyonası"
             },
             {
                 "id": "sulyak",
@@ -8787,12 +8787,12 @@ const APP_DATA = {
             },
             {
                 "id": "dalkıran",
-                "name": "MERT DALKIRAN",
+                "name": "Mert Dalkıran",
                 "team": "Karting"
             },
             {
                 "id": "bostancı",
-                "name": "MURAT BOSTANCI",
+                "name": "Murat Bostancı",
                 "team": "Ralli"
             },
             {
@@ -8807,7 +8807,7 @@ const APP_DATA = {
             },
             {
                 "id": "avcıoğlu",
-                "name": "ORHAN AVCIOĞLU",
+                "name": "Orhan Avcıoğlu",
                 "team": "Ralli"
             },
             {
@@ -8823,11 +8823,11 @@ const APP_DATA = {
             {
                 "id": "ülkü",
                 "name": "Ümit Ülkü",
-                "team": "TÜRKIYE PIST ŞAMPIYONASI"
+                "team": "Türkiye Pist Şampiyonası"
             },
             {
                 "id": "ışık",
-                "name": "VOLKAN IŞIK",
+                "name": "Volkan Işık",
                 "team": "Ralli"
             },
             {
@@ -8837,17 +8837,17 @@ const APP_DATA = {
             },
             {
                 "id": "avcı",
-                "name": "YAĞIZ AVCI",
+                "name": "Yağız Avcı",
                 "team": "Ralli"
             },
             {
                 "id": "birinci",
-                "name": "YAĞIZ BIRINCI",
+                "name": "Yağız Birinci",
                 "team": "Off-Road"
             },
             {
                 "id": "gedik",
-                "name": "YAĞIZ GEDIK",
+                "name": "Yağız Gedik",
                 "team": "GT4 European Series"
             },
             {
