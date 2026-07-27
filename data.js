@@ -952,7 +952,7 @@ const APP_DATA = {
             },
             {
                 "id": "perez",
-                "name": "SERGIO PÉREZ #11",
+                "name": "Sergio Pérez #11",
                 "team": "Cadillac Formula 1 Team",
                 "titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Sergio Perez.png"
@@ -1132,7 +1132,7 @@ const APP_DATA = {
                 },
                 {
                     "pos": 18,
-                    "name": "NICO HÜLKENBERG #27",
+                    "name": "Nico Hülkenberg #27",
                     "pts": 2,
                     "team": "Audi F1 Team"
                 },
@@ -1156,7 +1156,7 @@ const APP_DATA = {
                 },
                 {
                     "pos": 22,
-                    "name": "SERGIO PÉREZ #11",
+                    "name": "Sergio Pérez #11",
                     "pts": 0,
                     "team": "Cadillac Formula 1 Team"
                 }
@@ -8222,7 +8222,7 @@ const APP_DATA = {
                 },
                 {
                     "pos": 22,
-                    "name": "MAVERICK VIÑALES #12",
+                    "name": "Maverick Viñales #12",
                     "team": "Red Bull KTM Tech3",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Maverick Viñales.png",
                     "pts": 10
