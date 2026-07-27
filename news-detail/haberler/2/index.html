@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <link rel="icon" type="image/png" href="${window.APP_ROOT}Resimler/Logo/Racing News TR Logo.jpeg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEC 2026 Imola’da Başliyor: G&#246;zlerimiz T&#252;rk Pilotlarda! - Racing News T&#195;&#188;rkiye</title>
+    <meta name="description" content="Dayaniklilik yarişlarinin zirvesi olarak kabul edilen FIA World Endurance Championship, yeni sezonda da &#252;st d&#252;zey rekabete sahne olmaya hazirlanirken artik bu rekabette T&#252;rk pilotlar da yer aliyor.">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Racing News TÜRKİYE">
+    <link rel="apple-touch-icon" href="/Resimler/Logo/Racing News TR Logo.jpeg">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6510717509739190"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800;900&family=Outfit:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <style>
+        /* Critical Splash Styles */
+        body {
+            margin: 0;
+            background-color: #000;
+        }
+
+        .splash-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #000;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 99999;
+        }
+
+        .splash-logo-text {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            letter-spacing: 2px;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+    </style>
+
+    <script>
+        // Dosya Değişimlerini Anlık Yakalamak (Cache Buster)
+        (function () {
+            const v = Date.now();
+            const isLocal = window.location.protocol === 'file:';
+            const root = isLocal ? '' : '/';
+            window.APP_ROOT = root; // Global access for script.js
+
+            // Favicon dinamik ayarla
+            const favicon = document.querySelector('link[rel="icon"]');
+            if (favicon) favicon.href = root + 'Resimler/Logo/Racing News TR Logo.jpeg';
+
+            // Check for redirect from 404.html
+            (function (l) {
+                if (l.search) {
+                    var q = {};
+                    l.search.slice(1).split('&').forEach(function (v) {
+                        var a = v.split('=');
+                        q[a[0]] = a.slice(1).join('=').replace(/~and~/g, '&');
+                    });
+                    if (q.p !== undefined) {
+                        window.history.replaceState(null, null,
+                            l.pathname.slice(0, -1) + (q.p || '') +
+                            (q.q ? ('?' + q.q) : '') +
+                            l.hash
+                        );
+                    }
+                }
+            }(window.location));
+
+            // CSS Yükle
+            const link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.href = root + 'style.css?v=' + v;
+            document.head.appendChild(link);
+
+            // JS Dosyalarını Yükle
+            ['data.js', 'script.js'].forEach(src => {
+                const s = document.createElement('script');
+                s.src = root + src + '?v=' + v;
+                s.async = false;
+                document.head.appendChild(s);
+            });
+        })();
+    </script>
+    <meta property="og:title" content="WEC 2026 Imola’da Başliyor: G&#246;zlerimiz T&#252;rk Pilotlarda! - Racing News T&#195;&#188;rkiye">
+    <meta property="og:description" content="Dayaniklilik yarişlarinin zirvesi olarak kabul edilen FIA World Endurance Championship, yeni sezonda da &#252;st d&#252;zey rekabete sahne olmaya hazirlanirken artik bu rekabette T&#252;rk pilotlar da yer aliyor.">
+    <meta property="og:image" content="https://racingnewstr.com/Resimler/Haberler/Ayhancan ve Salih.png">
+    <meta property="og:url" content="https://racingnewstr.com/news-detail/haberler/2">
+    <meta property="og:type" content="article">
+</head>
+
+<body>
+
+    <!-- Splash Screen Removed for AdSense Compliance -->
+
+    <div id="app" class="app-container">
+        <!-- Header -->
+        <header class="main-header">
+            <span class="header-logo-text">RACING NEWS TÜRKİYE</span>
+            <nav class="header-nav">
+                <div class="nav-item">
+                    <a href="#" class="nav-link-top" data-view="home">ANASAYFA</a>
+                </div>
+                <div class="nav-item dropdown">
+                    <span class="nav-link-top">FORMULA 1</span>
+                    <div class="dropdown-content">
+                        <a href="#" class="nav-link" data-view="news" data-cat="formula 1">Haberler</a>
+                        <a href="#" class="nav-link" data-view="pilots" data-cat="formula 1">Pilotlar - Takımlar</a>
+                        <a href="#" class="nav-link" data-view="standings" data-cat="formula 1">Puan Tablosu</a>
+                        <a href="#" class="nav-link" data-view="calendar" data-cat="formula 1">Takvim</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <span class="nav-link-top">MOTOGP</span>
+                    <div class="dropdown-content">
+                        <a href="#" class="nav-link" data-view="news" data-cat="motogp">Haberler</a>
+                        <a href="#" class="nav-link" data-view="pilots" data-cat="motogp">Pilotlar - Takımlar</a>
+                        <a href="#" class="nav-link" data-view="standings" data-cat="motogp">Puan Tablosu</a>
+                        <a href="#" class="nav-link" data-view="calendar" data-cat="motogp">Takvim</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <span class="nav-link-top">HABERLER</span>
+                    <div class="dropdown-content">
+                        <a href="#" class="nav-link" data-view="news" data-cat="haberler">Haberler</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class="nav-link-top" data-view="pilots" data-cat="milli sporcularımız">MİLLİ
+                        SPORCULARIMIZ</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class="nav-link-top" data-view="about">HAKKIMIZDA</a>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Notification Container -->
+        <div id="notification-container" class="notification-container"></div>
+        <div id="news-detail-overlay"
+            style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:white; z-index:10000; overflow-y:auto;">
+        </div>
+
+
+        <!-- Main Content -->
+        <main id="main-content" class="content-area">
+<article class="news-detail-static" style="padding: 25px; max-width: 900px; margin: 0 auto; color: #fff;">
+    <h1 style="font-size: 2.2rem; font-weight: 800; margin-bottom: 12px; color: #ffffff;">WEC 2026 Imola’da Başliyor: G&#246;zlerimiz T&#252;rk Pilotlarda!</h1>
+    <div style="font-size: 0.95rem; color: #aaa; margin-bottom: 20px;">
+        <span>Tarih: 2026-04-14</span> &nbsp;|&nbsp; <span>Kategori: HABERLER</span>
+    </div>
+    <div style='margin-bottom: 25px;'><img src='/Resimler/Haberler/Ayhancan ve Salih.png' alt='WEC 2026 Imola’da Başliyor: G&#246;zlerimiz T&#252;rk Pilotlarda!' style='width: 100%; max-height: 450px; object-fit: cover; border-radius: 12px;'></div>
+    <div class="news-content-text" style="font-size: 1.1rem; line-height: 1.8; color: #ddd;">
+        Dayaniklilik yarişlarinin zirvesi olarak kabul edilen FIA World Endurance Championship, yeni sezonda da üst düzey rekabete sahne olmaya hazirlanirken artik bu rekabette Türk pilotlar da yer aliyor.<br><br>2025 DTM şampiyonu Ayhancan Güven, sezon boyunca Manthey Racing çatisi altinda, Manthey DK Engineering ekibinin 91 kapi numarali araciyla mücadele edecek. Porsche altyapisiyla uzun yillardir başarilar elde eden ekip, bu sezon da LMGT3 sinifinda iddiali isimlerden biri olarak öne çikiyor.<br><br>Bir diğer temsilcimiz Salih Yoluç ise dayaniklilik yarişlarinin en prestijli organizasyonu olan 24 Hours of Le Mans zaferiyle taninan tecrübesini piste taşimaya devam ediyor. Salih Yoluç, Racing Team Turkey adina kirmizi renkli Chevrolet Corvette Z06 LMGT3.R ile mücadele edecek.<br><br>Imola gibi eski tip, teknik ve hata kaldirmayan bir pistte sezonun açilmasi, takimlar için zorlu bir sinav anlamina geliyor.<br><br>6 saatlik bu zorlu maratonda pilotlarimizin performansini yakindan takip edeceğiz.<br><br>Imola 6 Saat yarişi, 19 Nisan Pazar günü saat 14:00’te start alacak.
+    </div>
+</article>
+</main>
+
+        <!-- Footer -->
+        <footer class="main-footer">
+            <div class="footer-links">
+                <a href="#" class="nav-link-bottom" data-view="privacy">Gizlilik Politikası</a>
+                <a href="#" class="nav-link-bottom" data-view="terms">Kullanım Koşulları</a>
+                <a href="#" class="nav-link-bottom" data-view="contact">İletişim</a>
+            </div>
+            <div class="footer-copyright">
+                &copy; 2026 Racing News Türkiye. Tüm hakları saklıdır.
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
