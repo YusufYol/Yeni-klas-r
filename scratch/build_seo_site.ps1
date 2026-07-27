@@ -2,30 +2,13 @@
 
 $baseUrl = "https://racingnewstr.com"
 $today = (Get-Date).ToString("yyyy-MM-dd")
+$utf8NoBOM = New-Object System.Text.UTF8Encoding($false)
 
 # 1. Read data.js and index.html
 $dataJs = Get-Content 'data.js' -Raw -Encoding UTF8
 $indexTemplate = Get-Content 'index.html' -Raw -Encoding UTF8
 
-# Cut dataJs at "const CIRCUITS_DB"
-$appDataRaw = $dataJs -split "const CIRCUITS_DB" | Select-Object -First 1
-$jsonStr = $appDataRaw -replace '^\s*const\s+APP_DATA\s*=\s*', '' -replace ';\s*$', ''
-
-try {
-    $appData = $jsonStr | ConvertFrom-Json
-} catch {
-    Write-Host "Error parsing data.js: $_"
-    exit 1
-}
-
-$allNews = @()
 $sitemapUrls = [System.Collections.Generic.List[string]]::new()
-
-# Helper for XML escaping
-function Escape-Xml ($str) {
-    if (-not $str) { return "" }
-    return $str.Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt;").Replace('"', "&quot;").Replace("'", "&apos;")
-}
 
 # Helper for HTML escaping
 function Escape-Html ($str) {
@@ -57,98 +40,94 @@ $basePages = @(
 foreach ($page in $basePages) {
     $url = if ($page -eq "") { "$baseUrl/" } else { "$baseUrl/$page" }
     $priority = if ($page -eq "") { "1.0" } else { "0.8" }
-    $sitemapUrls.Add("    <url>`n        <loc>$url</loc>`n        <lastmod>$today</lastmod>`n        <changefreq>daily</changefreq>`n        <priority>$priority</priority>`n    </url>")
+    [void]($sitemapUrls.Add("    <url>`n        <loc>$url</loc>`n        <lastmod>$today</lastmod>`n        <changefreq>daily</changefreq>`n        <priority>$priority</priority>`n    </url>"))
 }
 
-# Process all categories for news articles
-$categories = @("formula 1", "motogp", "haberler")
+# Regex to match news objects in data.js
+$pattern = '(?s)\{\s*"id":\s*(\d+),\s*"title":\s*"(.*?)",\s*"cat":\s*"(.*?)",\s*"date":\s*"(.*?)",\s*"content":\s*"(.*?)",\s*"img":\s*"(.*?)"'
+$matches = [regex]::Matches($dataJs, $pattern)
 
-foreach ($catKey in $categories) {
-    $catData = $appData."$catKey"
-    if ($catData -and $catData.news) {
-        foreach ($newsItem in $catData.news) {
-            $allNews += [PSCustomObject]@{
-                cat = $catKey
-                id = $newsItem.id
-                title = $newsItem.title
-                date = $newsItem.date
-                img = $newsItem.img
-                content = $newsItem.content
-            }
+$generatedCount = 0
 
-            $catSlug = $catKey
-            $newsId = $newsItem.id
-            $relPath = "news-detail/$catSlug/$newsId"
+foreach ($m in $matches) {
+    $newsId = [int]$m.Groups[1].Value
+    $title = $m.Groups[2].Value
+    $catKey = $m.Groups[3].Value
+    $date = $m.Groups[4].Value
+    $content = $m.Groups[5].Value
+    $img = $m.Groups[6].Value
 
-            # Create folder news-detail/cat/id
-            $dirPath = "news-detail/$catSlug/$newsId"
-            if (-not (Test-Path $dirPath)) {
-                New-Item -ItemType Directory -Path $dirPath -Force | Out-Null
-            }
+    $catSlug = $catKey
+    $relPath = "news-detail/$catSlug/$newsId"
 
-            # Generate meta tags
-            $pageTitle = Escape-Html "$($newsItem.title) - Racing News Türkiye"
-            
-            $summary = $newsItem.content
-            if ($summary -like "*<br>*") {
-                $summary = ($summary -split "<br>")[0]
-            } elseif ($summary.Length -gt 160) {
-                $summary = $summary.Substring(0, 160) + "..."
-            }
-            $summaryClean = Escape-Html ($summary -replace '<[^>]+>', '')
+    # Create folder news-detail/cat/id
+    $dirPath = "news-detail/$catSlug/$newsId"
+    if (-not (Test-Path $dirPath)) {
+        [void](New-Item -ItemType Directory -Path $dirPath -Force)
+    }
 
-            $imgUrl = if ($newsItem.img) { "$baseUrl/$($newsItem.img)" } else { "$baseUrl/Resimler/Logo/Racing News TR Logo.jpeg" }
-            $articleUrl = "$baseUrl/$relPath"
+    # Generate meta tags
+    $pageTitle = Escape-Html "$title - Racing News Türkiye"
+    
+    $summary = $content
+    if ($summary -like "*<br>*") {
+        $summary = ($summary -split "<br>")[0]
+    } elseif ($summary.Length -gt 160) {
+        $summary = $summary.Substring(0, 160) + "..."
+    }
+    $summaryClean = Escape-Html ($summary -replace '<[^>]+>', '')
 
-            # Static article HTML body
-            $staticBody = @"
+    $imgUrl = if ($img) { "$baseUrl/$img" } else { "$baseUrl/Resimler/Logo/Racing News TR Logo.jpeg" }
+    $articleUrl = "$baseUrl/$relPath"
+
+    # Static article HTML body
+    $staticBody = @"
 <article class="news-detail-static" style="padding: 25px; max-width: 900px; margin: 0 auto; color: #fff;">
-    <h1 style="font-size: 2.2rem; font-weight: 800; margin-bottom: 12px; color: #ffffff;">$(Escape-Html $newsItem.title)</h1>
+    <h1 style="font-size: 2.2rem; font-weight: 800; margin-bottom: 12px; color: #ffffff;">$(Escape-Html $title)</h1>
     <div style="font-size: 0.95rem; color: #aaa; margin-bottom: 20px;">
-        <span>Tarih: $(Escape-Html $newsItem.date)</span> &nbsp;|&nbsp; <span>Kategori: $(Escape-Html $catKey.ToUpper())</span>
+        <span>Tarih: $(Escape-Html $date)</span> &nbsp;|&nbsp; <span>Kategori: $(Escape-Html $catKey.ToUpper())</span>
     </div>
-    $(if ($newsItem.img) { "<div style='margin-bottom: 25px;'><img src='/$(Escape-Html $newsItem.img)' alt='$(Escape-Html $newsItem.title)' style='width: 100%; max-height: 450px; object-fit: cover; border-radius: 12px;'></div>" } else { "" })
+    $(if ($img) { "<div style='margin-bottom: 25px;'><img src='/$(Escape-Html $img)' alt='$(Escape-Html $title)' style='width: 100%; max-height: 450px; object-fit: cover; border-radius: 12px;'></div>" } else { "" })
     <div class="news-content-text" style="font-size: 1.1rem; line-height: 1.8; color: #ddd;">
-        $($newsItem.content)
+        $content
     </div>
 </article>
 "@
 
-            # Insert static body & Open Graph tags into index.html copy
-            $html = $indexTemplate
+    # Insert static body & Open Graph tags into index.html copy
+    $html = $indexTemplate
 
-            # Replace title
-            $html = $html -replace '<title>.*?</title>', "<title>$pageTitle</title>"
+    # Replace title
+    $html = $html -replace '<title>.*?</title>', "<title>$pageTitle</title>"
 
-            # Replace meta description
-            $html = $html -replace '<meta name="description"\s+content=".*?">', "<meta name=`"description`" content=`"$summaryClean`">"
+    # Replace meta description
+    $html = $html -replace '<meta name="description"\s+content=".*?">', "<meta name=`"description`" content=`"$summaryClean`">"
 
-            # Open Graph meta tags
-            $ogMeta = @"
+    # Open Graph meta tags
+    $ogMeta = @"
     <meta property="og:title" content="$pageTitle">
     <meta property="og:description" content="$summaryClean">
     <meta property="og:image" content="$imgUrl">
     <meta property="og:url" content="$articleUrl">
     <meta property="og:type" content="article">
 "@
-            $html = $html -replace '</head>', "$ogMeta`n</head>"
+    $html = $html -replace '</head>', "$ogMeta`n</head>"
 
-            # Replace main content area
-            $html = [regex]::Replace($html, '(<main id="main-content" class="content-area">)[\s\S]*?(</main>)', "$`1`n$staticBody`n$`2")
+    # Replace main content area
+    $html = [regex]::Replace($html, '(<main id="main-content" class="content-area">)[\s\S]*?(</main>)', "$`1`n$staticBody`n$`2")
 
-            # Fix relative asset paths in subfolder static pages
-            $html = $html -replace 'href="manifest.json"', 'href="/manifest.json"'
-            $html = $html -replace 'href="Resimler/', 'href="/Resimler/'
+    # Fix relative asset paths in subfolder static pages
+    $html = $html -replace 'href="manifest.json"', 'href="/manifest.json"'
+    $html = $html -replace 'href="Resimler/', 'href="/Resimler/'
 
-            # Save static HTML file
-            $utf8NoBOM = New-Object System.Text.UTF8Encoding($false)
-            [System.IO.File]::WriteAllText((Resolve-Path -Path $dirPath).Path + "\index.html", $html, $utf8NoBOM)
+    # Save static HTML file
+    [System.IO.File]::WriteAllText((Resolve-Path -Path $dirPath).Path + "\index.html", $html, $utf8NoBOM)
 
-            # Add to sitemap
-            $encodedRelPath = [System.Uri]::EscapeUriString($relPath)
-            $sitemapUrls.Add("    <url>`n        <loc>$baseUrl/$encodedRelPath</loc>`n        <lastmod>$today</lastmod>`n        <changefreq>weekly</changefreq>`n        <priority>0.7</priority>`n    </url>")
-        }
-    }
+    # Add to sitemap
+    $encodedRelPath = [System.Uri]::EscapeUriString($relPath)
+    [void]($sitemapUrls.Add("    <url>`n        <loc>$baseUrl/$encodedRelPath</loc>`n        <lastmod>$today</lastmod>`n        <changefreq>weekly</changefreq>`n        <priority>0.7</priority>`n    </url>"))
+
+    $generatedCount++
 }
 
 # 2. Write sitemap.xml
@@ -159,7 +138,6 @@ $($sitemapUrls -join "`n")
 </urlset>
 "@
 
-$utf8NoBOM = New-Object System.Text.UTF8Encoding($false)
 [System.IO.File]::WriteAllText((Resolve-Path -Path ".").Path + "\sitemap.xml", $sitemapXml, $utf8NoBOM)
 Write-Host "Generated sitemap.xml with $($sitemapUrls.Count) URLs!"
-Write-Host "Generated $($allNews.Count) static news detail HTML pages in news-detail/!"
+Write-Host "Generated $generatedCount static news detail HTML pages in news-detail/!"
