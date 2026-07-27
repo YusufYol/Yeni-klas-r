@@ -1,4 +1,4 @@
-const APP_DATA = {
+﻿const APP_DATA = {
     "formula 1": {
         "news": [
             {
@@ -808,154 +808,176 @@ const APP_DATA = {
                 "name": "Max Verstappen #3",
                 "team": "Oracle Red Bull Racing",
                 "titles": 4,
-                "img": "Resimler/Formula 1 Pilot ve Takımlar/Max Verstappen.png"
+                "img": "Resimler/Formula 1 Pilot ve Takımlar/Max Verstappen.png",
+                "flag": "Resimler/Formula 1 Pilot ve Takım Ülkeleri/Hollanda.png"
             },
             {
                 "id": "hadjar",
                 "name": "Isack Hadjar #6",
                 "team": "Oracle Red Bull Racing",
                 "titles": 0,
-                "img": "Resimler/Formula 1 Pilot ve Takımlar/Isack Hadjar.png"
+                "img": "Resimler/Formula 1 Pilot ve Takımlar/Isack Hadjar.png",
+                "flag": "Resimler/Formula 1 Pilot ve Takım Ülkeleri/Fransa.png"
             },
             {
                 "id": "hamilton",
                 "name": "Lewis Hamilton #44",
                 "team": "Scuderia Ferrari HP",
                 "titles": 7,
-                "img": "Resimler/Formula 1 Pilot ve Takımlar/Lewis Hamilton.png"
+                "img": "Resimler/Formula 1 Pilot ve Takımlar/Lewis Hamilton.png",
+                "flag": "Resimler/Formula 1 Pilot ve Takım Ülkeleri/Birleşik Krallık.png"
             },
             {
                 "id": "leclerc",
                 "name": "Charles Leclerc #16",
                 "team": "Scuderia Ferrari HP",
                 "titles": 0,
-                "img": "Resimler/Formula 1 Pilot ve Takımlar/Charles Leclerc.png"
+                "img": "Resimler/Formula 1 Pilot ve Takımlar/Charles Leclerc.png",
+                "flag": "Resimler/Formula 1 Pilot ve Takım Ülkeleri/Monako.png"
             },
             {
                 "id": "norris",
                 "name": "Lando Norris #1",
                 "team": "McLaren Formula 1 Team",
                 "titles": 1,
-                "img": "Resimler/Formula 1 Pilot ve Takımlar/Lando Norris.png"
+                "img": "Resimler/Formula 1 Pilot ve Takımlar/Lando Norris.png",
+                "flag": "Resimler/Formula 1 Pilot ve Takım Ülkeleri/Birleşik Krallık.png"
             },
             {
                 "id": "piastri",
                 "name": "Oscar Piastri #81",
                 "team": "McLaren Formula 1 Team",
                 "titles": 0,
-                "img": "Resimler/Formula 1 Pilot ve Takımlar/Oscar Piastri.png"
+                "img": "Resimler/Formula 1 Pilot ve Takımlar/Oscar Piastri.png",
+                "flag": "Resimler/Formula 1 Pilot ve Takım Ülkeleri/Avustralya.png"
             },
             {
                 "id": "russell",
                 "name": "George Russell #63",
                 "team": "Mercedes-AMG Petronas F1 Team",
                 "titles": 0,
-                "img": "Resimler/Formula 1 Pilot ve Takımlar/George Russell.png"
+                "img": "Resimler/Formula 1 Pilot ve Takımlar/George Russell.png",
+                "flag": "Resimler/Formula 1 Pilot ve Takım Ülkeleri/Birleşik Krallık.png"
             },
             {
                 "id": "antonelli",
                 "name": "Andrea Kimi Antonelli #12",
                 "team": "Mercedes-AMG Petronas F1 Team",
                 "titles": 0,
-                "img": "Resimler/Formula 1 Pilot ve Takımlar/Andrea Kimi Antonelli.png"
+                "img": "Resimler/Formula 1 Pilot ve Takımlar/Andrea Kimi Antonelli.png",
+                "flag": "Resimler/Formula 1 Pilot ve Takım Ülkeleri/İtalya.png"
             },
             {
                 "id": "alonso",
                 "name": "Fernando Alonso #14",
                 "team": "Aston Martin Aramco F1 Team",
                 "titles": 2,
-                "img": "Resimler/Formula 1 Pilot ve Takımlar/Fernando Alonso.png"
+                "img": "Resimler/Formula 1 Pilot ve Takımlar/Fernando Alonso.png",
+                "flag": "Resimler/Formula 1 Pilot ve Takım Ülkeleri/İspanya.png"
             },
             {
                 "id": "stroll",
                 "name": "Lance Stroll #18",
                 "team": "Aston Martin Aramco F1 Team",
                 "titles": 0,
-                "img": "Resimler/Formula 1 Pilot ve Takımlar/Lance Stroll.png"
+                "img": "Resimler/Formula 1 Pilot ve Takımlar/Lance Stroll.png",
+                "flag": "Resimler/Formula 1 Pilot ve Takım Ülkeleri/Kanada.png"
             },
             {
                 "id": "gasly",
                 "name": "Pierre Gasly #10",
                 "team": "BWT Alpine F1 Team",
                 "titles": 0,
-                "img": "Resimler/Formula 1 Pilot ve Takımlar/Pierre Gasly.png"
+                "img": "Resimler/Formula 1 Pilot ve Takımlar/Pierre Gasly.png",
+                "flag": "Resimler/Formula 1 Pilot ve Takım Ülkeleri/Fransa.png"
             },
             {
                 "id": "colapinto",
                 "name": "Franco Colapinto #43",
                 "team": "BWT Alpine F1 Team",
                 "titles": 0,
-                "img": "Resimler/Formula 1 Pilot ve Takımlar/Franco Colapinto.png"
+                "img": "Resimler/Formula 1 Pilot ve Takımlar/Franco Colapinto.png",
+                "flag": "Resimler/Formula 1 Pilot ve Takım Ülkeleri/Arjantin.png"
             },
             {
                 "id": "albon",
                 "name": "Alexander Albon #23",
                 "team": "Williams Racing",
                 "titles": 0,
-                "img": "Resimler/Formula 1 Pilot ve Takımlar/Alexander Albon.png"
+                "img": "Resimler/Formula 1 Pilot ve Takımlar/Alexander Albon.png",
+                "flag": "Resimler/Formula 1 Pilot ve Takım Ülkeleri/Tayland.png"
             },
             {
                 "id": "sainz",
                 "name": "Carlos Sainz Jr. #55",
                 "team": "Williams Racing",
                 "titles": 0,
-                "img": "Resimler/Formula 1 Pilot ve Takımlar/Carlos Sainz.png"
+                "img": "Resimler/Formula 1 Pilot ve Takımlar/Carlos Sainz.png",
+                "flag": "Resimler/Formula 1 Pilot ve Takım Ülkeleri/İspanya.png"
             },
             {
                 "id": "lawson",
                 "name": "Liam Lawson #30",
                 "team": "Visa Cash App RB F1 Team",
                 "titles": 0,
-                "img": "Resimler/Formula 1 Pilot ve Takımlar/Liam Lawson.png"
+                "img": "Resimler/Formula 1 Pilot ve Takımlar/Liam Lawson.png",
+                "flag": "Resimler/Formula 1 Pilot ve Takım Ülkeleri/Yeni Zelanda.png"
             },
             {
                 "id": "lindblad",
                 "name": "Arvid Lindblad #41",
                 "team": "Visa Cash App RB F1 Team",
                 "titles": 0,
-                "img": "Resimler/Formula 1 Pilot ve Takımlar/Arvid Lindblad.png"
+                "img": "Resimler/Formula 1 Pilot ve Takımlar/Arvid Lindblad.png",
+                "flag": "Resimler/Formula 1 Pilot ve Takım Ülkeleri/Birleşik Krallık.png"
             },
             {
                 "id": "bearman",
                 "name": "Oliver Bearman #87",
                 "team": "Haas F1 Team",
                 "titles": 0,
-                "img": "Resimler/Formula 1 Pilot ve Takımlar/Oliver Bearman.png"
+                "img": "Resimler/Formula 1 Pilot ve Takımlar/Oliver Bearman.png",
+                "flag": "Resimler/Formula 1 Pilot ve Takım Ülkeleri/Birleşik Krallık.png"
             },
             {
                 "id": "ocon",
                 "name": "Esteban Ocon #31",
                 "team": "Haas F1 Team",
                 "titles": 0,
-                "img": "Resimler/Formula 1 Pilot ve Takımlar/Esteban Ocon.png"
+                "img": "Resimler/Formula 1 Pilot ve Takımlar/Esteban Ocon.png",
+                "flag": "Resimler/Formula 1 Pilot ve Takım Ülkeleri/Fransa.png"
             },
             {
                 "id": "hulkenberg",
                 "name": "Nico Hülkenberg #27",
                 "team": "Audi F1 Team",
                 "titles": 0,
-                "img": "Resimler/Formula 1 Pilot ve Takımlar/Nico Hulkenberg.png"
+                "img": "Resimler/Formula 1 Pilot ve Takımlar/Nico Hulkenberg.png",
+                "flag": "Resimler/Formula 1 Pilot ve Takım Ülkeleri/Almanya.png"
             },
             {
                 "id": "bortoleto",
                 "name": "Gabriel Bortoleto #5",
                 "team": "Audi F1 Team",
                 "titles": 0,
-                "img": "Resimler/Formula 1 Pilot ve Takımlar/Gabriel Bortoleto.png"
+                "img": "Resimler/Formula 1 Pilot ve Takımlar/Gabriel Bortoleto.png",
+                "flag": "Resimler/Formula 1 Pilot ve Takım Ülkeleri/Brezilya.png"
             },
             {
                 "id": "bottas",
                 "name": "Valtteri Bottas #77",
                 "team": "Cadillac Formula 1 Team",
                 "titles": 0,
-                "img": "Resimler/Formula 1 Pilot ve Takımlar/Valtteri Bottas.png"
+                "img": "Resimler/Formula 1 Pilot ve Takımlar/Valtteri Bottas.png",
+                "flag": "Resimler/Formula 1 Pilot ve Takım Ülkeleri/Finlandiya.png"
             },
             {
                 "id": "perez",
                 "name": "Sergio Pérez #11",
                 "team": "Cadillac Formula 1 Team",
                 "titles": 0,
-                "img": "Resimler/Formula 1 Pilot ve Takımlar/Sergio Perez.png"
+                "img": "Resimler/Formula 1 Pilot ve Takımlar/Sergio Perez.png",
+                "flag": "Resimler/Formula 1 Pilot ve Takım Ülkeleri/Meksika.png"
             }
         ],
         "teams": [
@@ -963,67 +985,78 @@ const APP_DATA = {
                 "id": "redbull",
                 "name": "Oracle Red Bull Racing",
                 "team titles": 6,
-                "img": "Resimler/Formula 1 Pilot ve Takımlar/Red Bull.png"
+                "img": "Resimler/Formula 1 Pilot ve Takımlar/Red Bull.png",
+                "flag": "Resimler/Formula 1 Pilot ve Takım Ülkeleri/Avusturya.png"
             },
             {
                 "id": "ferrari",
                 "name": "Scuderia Ferrari HP",
                 "team titles": 16,
-                "img": "Resimler/Formula 1 Pilot ve Takımlar/Ferrari.png"
+                "img": "Resimler/Formula 1 Pilot ve Takımlar/Ferrari.png",
+                "flag": "Resimler/Formula 1 Pilot ve Takım Ülkeleri/İtalya.png"
             },
             {
                 "id": "mercedes",
                 "name": "Mercedes-AMG Petronas F1 Team",
                 "team titles": 8,
-                "img": "Resimler/Formula 1 Pilot ve Takımlar/Mercedes.png"
+                "img": "Resimler/Formula 1 Pilot ve Takımlar/Mercedes.png",
+                "flag": "Resimler/Formula 1 Pilot ve Takım Ülkeleri/Almanya.png"
             },
             {
                 "id": "mclaren",
                 "name": "McLaren F1 Team",
                 "team titles": 10,
-                "img": "Resimler/Formula 1 Pilot ve Takımlar/McLaren.png"
+                "img": "Resimler/Formula 1 Pilot ve Takımlar/McLaren.png",
+                "flag": "Resimler/Formula 1 Pilot ve Takım Ülkeleri/Birleşik Krallık.png"
             },
             {
                 "id": "aston",
                 "name": "Aston Martin Aramco F1 Team",
                 "team titles": 0,
-                "img": "Resimler/Formula 1 Pilot ve Takımlar/Aston Martin.png"
+                "img": "Resimler/Formula 1 Pilot ve Takımlar/Aston Martin.png",
+                "flag": "Resimler/Formula 1 Pilot ve Takım Ülkeleri/Birleşik Krallık.png"
             },
             {
                 "id": "alpine",
                 "name": "BWT Alpine F1 Team",
                 "team titles": 3,
-                "img": "Resimler/Formula 1 Pilot ve Takımlar/Alpine.png"
+                "img": "Resimler/Formula 1 Pilot ve Takımlar/Alpine.png",
+                "flag": "Resimler/Formula 1 Pilot ve Takım Ülkeleri/Fransa.png"
             },
             {
                 "id": "williams",
                 "name": "Williams Racing",
                 "team titles": 9,
-                "img": "Resimler/Formula 1 Pilot ve Takımlar/Williams.png"
+                "img": "Resimler/Formula 1 Pilot ve Takımlar/Williams.png",
+                "flag": "Resimler/Formula 1 Pilot ve Takım Ülkeleri/Birleşik Krallık.png"
             },
             {
                 "id": "rb",
                 "name": "Visa Cash App RB F1 Team",
                 "team titles": 0,
-                "img": "Resimler/Formula 1 Pilot ve Takımlar/RB.png"
+                "img": "Resimler/Formula 1 Pilot ve Takımlar/RB.png",
+                "flag": "Resimler/Formula 1 Pilot ve Takım Ülkeleri/İtalya.png"
             },
             {
                 "id": "haas",
                 "name": "Haas F1 Team",
                 "team titles": 0,
-                "img": "Resimler/Formula 1 Pilot ve Takımlar/Haas.png"
+                "img": "Resimler/Formula 1 Pilot ve Takımlar/Haas.png",
+                "flag": "Resimler/Formula 1 Pilot ve Takım Ülkeleri/ABD.png"
             },
             {
                 "id": "audi",
                 "name": "Audi F1 Team",
                 "team titles": 0,
-                "img": "Resimler/Formula 1 Pilot ve Takımlar/Audi.png"
+                "img": "Resimler/Formula 1 Pilot ve Takımlar/Audi.png",
+                "flag": "Resimler/Formula 1 Pilot ve Takım Ülkeleri/Almanya.png"
             },
             {
                 "id": "cadillac",
                 "name": "Cadillac F1 Team",
                 "team titles": 0,
-                "img": "Resimler/Formula 1 Pilot ve Takımlar/Cadillac.png"
+                "img": "Resimler/Formula 1 Pilot ve Takımlar/Cadillac.png",
+                "flag": "Resimler/Formula 1 Pilot ve Takım Ülkeleri/ABD.png"
             }
         ],
         "standings": {
@@ -4607,154 +4640,216 @@ const APP_DATA = {
                 "name": "Francesco Bagnaia #63",
                 "team": "Ducati Lenovo Team",
                 "titles": 2,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Francesco Bagnaia.png"
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Francesco Bagnaia.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/İtalya.png"
             },
             {
                 "id": "marquez_m",
                 "name": "Marc Marquez #93",
                 "team": "Ducati Lenovo Team",
                 "titles": 7,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Marc Marquez.png"
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Marc Marquez.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/İspanya.png"
             },
             {
                 "id": "martin",
                 "name": "Jorge Martin #89",
                 "team": "Aprilia Racing",
                 "titles": 1,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Jorge Martin.png"
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Jorge Martin.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/İspanya.png"
             },
             {
                 "id": "bezzecchi",
                 "name": "Marco Bezzecchi #72",
                 "team": "Aprilia Racing",
                 "titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Marco Bezzecchi.png"
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Marco Bezzecchi.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/İtalya.png"
             },
             {
                 "id": "acosta",
                 "name": "Pedro Acosta #37",
                 "team": "Red Bull KTM Factory Racing",
                 "titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Pedro Acosta.png"
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Pedro Acosta.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/İspanya.png"
             },
             {
                 "id": "binder",
                 "name": "Brad Binder #33",
                 "team": "Red Bull KTM Factory Racing",
                 "titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Brad Binder.png"
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Brad Binder.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/Güney Afrika.png"
             },
             {
                 "id": "bastianini",
                 "name": "Enea Bastianini #23",
                 "team": "Red Bull KTM Tech3",
                 "titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Enea Bastianini.png"
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Enea Bastianini.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/İtalya.png"
             },
             {
                 "id": "vinales",
                 "name": "Maverick Vinales #12",
                 "team": "Red Bull KTM Tech3",
                 "titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Maverick Vinales.png"
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Maverick Vinales.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/İspanya.png"
             },
             {
                 "id": "quartararo",
                 "name": "Fabio Quartararo #20",
                 "team": "Monster Energy Yamaha MotoGP",
                 "titles": 1,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Fabio Quartararo.png"
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Fabio Quartararo.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/Fransa.png"
             },
             {
                 "id": "rins",
                 "name": "Alex Rins #42",
                 "team": "Monster Energy Yamaha MotoGP",
                 "titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Alex Rins.png"
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Alex Rins.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/İspanya.png"
             },
             {
                 "id": "miller",
                 "name": "Jack Miller #43",
                 "team": "Prima Pramac Yamaha MotoGP",
                 "titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Jack Miller.png"
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Jack Miller.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/Avustralya.png"
             },
             {
                 "id": "marquez_a",
                 "name": "Alex Marquez #73",
                 "team": "BK8 Gresini Racing MotoGP",
                 "titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Alex Marquez.png"
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Alex Marquez.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/İspanya.png"
             },
             {
                 "id": "aldeguer",
                 "name": "Fermin Aldeguer #54",
                 "team": "BK8 Gresini Racing MotoGP",
                 "titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Fermin Aldeguer.png"
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Fermin Aldeguer.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/İspanya.png"
             },
             {
                 "id": "diggia",
                 "name": "Fabio Di Giannantonio #49",
                 "team": "Pertamina Enduro VR46",
                 "titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Fabio Di Giannantonio.png"
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Fabio Di Giannantonio.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/İtalya.png"
             },
             {
                 "id": "morbidelli",
                 "name": "Franco Morbidelli #21",
                 "team": "Pertamina Enduro VR46",
                 "titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Franco Morbidelli.png"
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Franco Morbidelli.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/İtalya.png"
             },
             {
                 "id": "marini",
                 "name": "Luca Marini #10",
                 "team": "Repsol Honda Team",
                 "titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Luca Marini.png"
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Luca Marini.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/İtalya.png"
             },
             {
                 "id": "mir",
                 "name": "Joan Mir #36",
                 "team": "Repsol Honda Team",
                 "titles": 1,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Joan Mir.png"
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Joan Mir.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/İspanya.png"
             },
             {
                 "id": "zarco",
                 "name": "Johann Zarco #5",
                 "team": "Castrol Honda LCR",
                 "titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Johann Zarco.png"
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Johann Zarco.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/Fransa.png"
             },
             {
                 "id": "moreira",
                 "name": "Diogo Moreira #11",
                 "team": "Castrol Honda LCR",
                 "titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Diogo Moreira.png"
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Diogo Moreira.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/Brezilya.png"
             },
             {
                 "id": "raul",
                 "name": "Raul Fernandez #25",
                 "team": "Trackhouse Racing",
                 "titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Raul Fernandez.png"
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Raul Fernandez.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/İspanya.png"
             },
             {
                 "id": "ogura",
                 "name": "Ai Ogura #79",
                 "team": "Trackhouse Racing",
                 "titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Ai Ogura.png"
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Ai Ogura.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/Japonya.png"
             },
             {
                 "id": "toprak",
                 "name": "Toprak Razgatlıoğlu #7",
                 "team": "Prima Pramac Yamaha MotoGP",
                 "titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Toprak Razgatlıoğlu.png"
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Toprak Razgatlıoğlu.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/Türkiye.png"
+            },
+            {
+                "id": "lecuona",
+                "name": "Iker Lecuona #27",
+                "team": "BK8 Gresini Racing MotoGP",
+                "titles": 0,
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Iker Lecuona.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/İspanya.png"
+            },
+            {
+                "id": "pirro",
+                "name": "Michele Pirro #51",
+                "team": "BK8 Gresini Racing MotoGP",
+                "titles": 0,
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Michele Pirro.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/İtalya.png"
+            },
+            {
+                "id": "crutchlow",
+                "name": "Cal Crutchlow #35",
+                "team": "Castrol Honda LCR",
+                "titles": 0,
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Cal Crutchlow.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/Birleşik Krallık.png"
+            },
+            {
+                "id": "folger",
+                "name": "Jonas Folger #94",
+                "team": "Red Bull KTM Tech3",
+                "titles": 0,
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Jonas Folger.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/Almanya.png"
+            },
+            {
+                "id": "fernandez",
+                "name": "Augusto Fernandez #37",
+                "team": "Yamaha Factory Racing",
+                "titles": 0,
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Augusto Fernandez.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/İspanya.png"
             }
         ],
         "teams": [
@@ -4763,77 +4858,88 @@ const APP_DATA = {
                 "name": "Ducati Lenovo Team",
                 "team titles": 5,
                 "constructor titles": 7,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Ducati.png"
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Ducati.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/İtalya.png"
             },
             {
                 "id": "aprilia",
                 "name": "Aprilia Racing",
                 "team titles": 0,
                 "constructor titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Aprilia.png"
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Aprilia.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/İtalya.png"
             },
             {
                 "id": "ktm",
                 "name": "Red Bull KTM Factory Racing",
                 "team titles": 0,
                 "constructor titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/KTM.png"
+                "img": "Resimler/MotoGP Pilot ve Takımlar/KTM.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/Avusturya.png"
             },
             {
                 "id": "tech3",
                 "name": "Red Bull KTM Tech3",
                 "team titles": 0,
                 "constructor titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Tech3.png"
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Tech3.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/Avusturya.png"
             },
             {
                 "id": "yamaha",
                 "name": "Monster Energy Yamaha MotoGP",
                 "team titles": 7,
                 "constructor titles": 18,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Monster Yamaha.png"
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Monster Yamaha.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/Japonya.png"
             },
             {
                 "id": "pramac",
                 "name": "Prima Pramac Yamaha MotoGP",
                 "team titles": 1,
                 "constructor titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Pramac Yamaha.png"
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Pramac Yamaha.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/İtalya.png"
             },
             {
                 "id": "gresini",
                 "name": "BK8 Gresini Racing MotoGP",
                 "team titles": 0,
                 "constructor titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Gresini.png"
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Gresini.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/İtalya.png"
             },
             {
                 "id": "vr46",
                 "name": "Pertamina Enduro VR46",
                 "team titles": 0,
                 "constructor titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/VR46.png"
+                "img": "Resimler/MotoGP Pilot ve Takımlar/VR46.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/İtalya.png"
             },
             {
                 "id": "honda",
                 "name": "Repsol Honda Team",
                 "team titles": 10,
                 "constructor titles": 25,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Repsol Honda.png"
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Repsol Honda.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/Japonya.png"
             },
             {
                 "id": "lcr",
                 "name": "Castrol Honda LCR",
                 "team titles": 0,
                 "constructor titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Honda LCR.png"
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Honda LCR.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/Japonya.png"
             },
             {
                 "id": "trackhouse",
                 "name": "Trackhouse Racing",
                 "team titles": 0,
                 "constructor titles": 0,
-                "img": "Resimler/MotoGP Pilot ve Takımlar/Trackhouse.png"
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Trackhouse.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/ABD.png"
             }
         ],
         "calendar": [
@@ -8593,272 +8699,326 @@ const APP_DATA = {
             {
                 "id": "miras",
                 "name": "Ali Fuat Miras",
-                "team": "Karting Junior"
+                "team": "Karting Junior",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "türkkan",
                 "name": "Ali Türkkan",
-                "team": "Ralli"
+                "team": "Ralli",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "aksoy",
                 "name": "Alp Hasan Aksoy",
-                "team": "F4"
+                "team": "F4",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "birinci",
                 "name": "Ateş Birinci",
-                "team": "Karting Senior"
+                "team": "Karting Senior",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "güven",
                 "name": "Ayhancan Güven",
-                "team": "WEC"
+                "team": "WEC",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "çebi",
                 "name": "Ayşe Çebi",
-                "team": "Karting Senior"
+                "team": "Karting Senior",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "biter",
                 "name": "Aytaç Biter",
-                "team": "Karting Master"
+                "team": "Karting Master",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "gücenmez",
                 "name": "Bahadır Gücenmez",
-                "team": "Ralli"
+                "team": "Ralli",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "yıldırım",
                 "name": "Batı Ege Yıldırım",
-                "team": "Karting Junior"
+                "team": "Karting Junior",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "zülfikari",
                 "name": "İskender Zülfikari",
-                "team": "OK-Junior"
+                "team": "OK-Junior",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "bayındır",
                 "name": "Berke Bayındır",
-                "team": "Scirocco R-Cup Europe"
+                "team": "Scirocco R-Cup Europe",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "korkmaz",
                 "name": "Burçin Korkmaz",
-                "team": "Ralli"
+                "team": "Ralli",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "çetinkaya",
                 "name": "Burcu Çetinkaya",
-                "team": "Ralli"
+                "team": "Ralli",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "erkal",
                 "name": "Can Erkal",
-                "team": "Ralli"
+                "team": "Ralli",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "ünsal",
                 "name": "Can Luca Ünsal",
-                "team": "Karting Junior"
+                "team": "Karting Junior",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "özler",
                 "name": "Can Özler",
-                "team": "Karting Junior"
+                "team": "Karting Junior",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "bölükbaşı",
                 "name": "Cem Bölükbaşı",
-                "team": "European Le Mans Series"
+                "team": "European Le Mans Series",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "oğuzhan",
                 "name": "Cengiz Oğuzhan",
-                "team": "Porsche GT3 Cup Challenge Benelux"
+                "team": "Porsche GT3 Cup Challenge Benelux",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "ceyişakar",
                 "name": "Cenk Ceyişakar",
-                "team": "Porsche GT3 Cup Challenge Benelux"
+                "team": "Porsche GT3 Cup Challenge Benelux",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "güney",
                 "name": "Çiçek Güney",
-                "team": "Ralli"
+                "team": "Ralli",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "sağım",
                 "name": "Demir Sağım",
-                "team": "Karting Junior"
+                "team": "Karting Junior",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "şairoğlu",
                 "name": "Efe Şairoğlu",
-                "team": "Karting Junior"
+                "team": "Karting Junior",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "kalafatoğlu",
                 "name": "Emir Kalafatoğlu",
-                "team": "GT4 European Series"
+                "team": "GT4 European Series",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "tanju",
                 "name": "Emir Tanju",
-                "team": "Karting Senior"
+                "team": "Karting Senior",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "yurdakul",
                 "name": "Emre Yurdakul",
-                "team": "Ralli"
+                "team": "Ralli",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "ünlüdoğan",
                 "name": "Erin Ünlüdoğan",
-                "team": "Karting Junior"
+                "team": "Karting Junior",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "yücesan",
                 "name": "Ersin Yücesan",
-                "team": "Almanya Nürburgring Dayanıklılık Serisi"
+                "team": "Almanya Nürburgring Dayanıklılık Serisi",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "ayhan",
                 "name": "Fatih Ayhan",
-                "team": "GT4 Avrupa Serisi Ve Türkiye Pist Şampiyonası"
+                "team": "GT4 Avrupa Serisi Ve Türkiye Pist Şampiyonası",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "atar",
                 "name": "Galip Atar",
-                "team": "Ferrari Challenge Dünya Şampiyonası"
+                "team": "Ferrari Challenge Dünya Şampiyonası",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "taşdelen",
                 "name": "Gün Taşdelen",
-                "team": "Karting Junior"
+                "team": "Karting Junior",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "okyay",
                 "name": "İbrahim Okyay",
-                "team": "GT4 Avrupa Serisi"
+                "team": "GT4 Avrupa Serisi",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "gürgenç",
                 "name": "Kaan Gürgenç",
-                "team": "Türkiye Pist Şampiyonası"
+                "team": "Türkiye Pist Şampiyonası",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "önder",
                 "name": "Kaan Önder",
-                "team": "E-Spor Sim Racing"
+                "team": "E-Spor Sim Racing",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "özşenler",
                 "name": "Kaan Özşenler",
-                "team": "Ralli"
+                "team": "Ralli",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "kazaz",
                 "name": "Kerem Kazaz",
-                "team": "Ralli"
+                "team": "Ralli",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "sulyak",
                 "name": "Kerim Sulyak",
-                "team": "Karting Senior"
+                "team": "Karting Senior",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "kocabıyık",
                 "name": "Levent Kocabıyık",
-                "team": "Türkiye Pist Şampiyonası"
+                "team": "Türkiye Pist Şampiyonası",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "sulyak",
                 "name": "Leyla Sulyak",
-                "team": "Karting Senior"
+                "team": "Karting Senior",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "becce",
                 "name": "Mert Becce",
-                "team": "Off-Road"
+                "team": "Off-Road",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "dalkıran",
                 "name": "Mert Dalkıran",
-                "team": "Karting"
+                "team": "Karting",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "bostancı",
                 "name": "Murat Bostancı",
-                "team": "Ralli"
+                "team": "Ralli",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "kolot",
                 "name": "Ömer Asaf Kolot",
-                "team": "Karting"
+                "team": "Karting",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "vatansever",
                 "name": "Onur Vatansever",
-                "team": "Ralli"
+                "team": "Ralli",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "avcıoğlu",
                 "name": "Orhan Avcıoğlu",
-                "team": "Ralli"
+                "team": "Ralli",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "tatar",
                 "name": "Sertaç Tatar",
-                "team": "Off-Road"
+                "team": "Off-Road",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "razgatlıoğlu",
                 "name": "Toprak Razgatlıoğlu",
-                "team": "MotoGP"
+                "team": "MotoGP",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "ülkü",
                 "name": "Ümit Ülkü",
-                "team": "Türkiye Pist Şampiyonası"
+                "team": "Türkiye Pist Şampiyonası",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "ışık",
                 "name": "Volkan Işık",
-                "team": "Ralli"
+                "team": "Ralli",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "oskan",
                 "name": "Yadel Oskan",
-                "team": "Porsche GT3 Cup Challenge Eastern Europe"
+                "team": "Porsche GT3 Cup Challenge Eastern Europe",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "avcı",
                 "name": "Yağız Avcı",
-                "team": "Ralli"
+                "team": "Ralli",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "birinci",
                 "name": "Yağız Birinci",
-                "team": "Off-Road"
+                "team": "Off-Road",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "gedik",
                 "name": "Yağız Gedik",
-                "team": "GT4 European Series"
+                "team": "GT4 European Series",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "çetin",
                 "name": "Yiğit Çetin",
-                "team": "Karting Mini"
+                "team": "Karting Mini",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             },
             {
                 "id": "çukurova",
                 "name": "Zeynep Çukurova",
-                "team": "Karting Senior"
+                "team": "Karting Senior",
+                "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             }
         ]
     }
