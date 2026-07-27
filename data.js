@@ -805,155 +805,155 @@ const APP_DATA = {
         "pilots": [
             {
                 "id": "verstappen",
-                "name": "MAX VERSTAPPEN #3",
-                "team": "ORACLE RED BULL RACING",
+                "name": "Max Verstappen #3",
+                "team": "Oracle Red Bull Racing",
                 "titles": 4,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Max Verstappen.png"
             },
             {
                 "id": "hadjar",
-                "name": "ISACK HADJAR #6",
-                "team": "ORACLE RED BULL RACING",
+                "name": "Isack Hadjar #6",
+                "team": "Oracle Red Bull Racing",
                 "titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Isack Hadjar.png"
             },
             {
                 "id": "hamilton",
-                "name": "LEWIS HAMILTON #44",
-                "team": "SCUDERIA FERRARI HP",
+                "name": "Lewis Hamilton #44",
+                "team": "Scuderia Ferrari HP",
                 "titles": 7,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Lewis Hamilton.png"
             },
             {
                 "id": "leclerc",
-                "name": "CHARLES LECLERC #16",
-                "team": "SCUDERIA FERRARI HP",
+                "name": "Charles Leclerc #16",
+                "team": "Scuderia Ferrari HP",
                 "titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Charles Leclerc.png"
             },
             {
                 "id": "norris",
-                "name": "LANDO NORRIS #1",
-                "team": "MCLAREN FORMULA 1 TEAM",
+                "name": "Lando Norris #1",
+                "team": "McLaren Formula 1 Team",
                 "titles": 1,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Lando Norris.png"
             },
             {
                 "id": "piastri",
-                "name": "OSCAR PIASTRI #81",
-                "team": "MCLAREN FORMULA 1 TEAM",
+                "name": "Oscar Piastri #81",
+                "team": "McLaren Formula 1 Team",
                 "titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Oscar Piastri.png"
             },
             {
                 "id": "russell",
-                "name": "GEORGE RUSSELL #63",
-                "team": "MERCEDES-AMG PETRONAS F1 TEAM",
+                "name": "George Russell #63",
+                "team": "Mercedes-AMG Petronas F1 Team",
                 "titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/George Russell.png"
             },
             {
                 "id": "antonelli",
-                "name": "ANDREA KIMI ANTONELLI #12",
-                "team": "MERCEDES-AMG PETRONAS F1 TEAM",
+                "name": "Andrea Kimi Antonelli #12",
+                "team": "Mercedes-AMG Petronas F1 Team",
                 "titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Andrea Kimi Antonelli.png"
             },
             {
                 "id": "alonso",
-                "name": "FERNANDO ALONSO #14",
-                "team": "ASTON MARTIN ARAMCO F1 TEAM",
+                "name": "Fernando Alonso #14",
+                "team": "Aston Martin Aramco F1 Team",
                 "titles": 2,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Fernando Alonso.png"
             },
             {
                 "id": "stroll",
-                "name": "LANCE STROLL #18",
-                "team": "ASTON MARTIN ARAMCO F1 TEAM",
+                "name": "Lance Stroll #18",
+                "team": "Aston Martin Aramco F1 Team",
                 "titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Lance Stroll.png"
             },
             {
                 "id": "gasly",
-                "name": "PIERRE GASLY #10",
-                "team": "BWT ALPINE F1 TEAM",
+                "name": "Pierre Gasly #10",
+                "team": "BWT Alpine F1 Team",
                 "titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Pierre Gasly.png"
             },
             {
                 "id": "colapinto",
-                "name": "FRANCO COLAPINTO #43",
-                "team": "BWT ALPINE F1 TEAM",
+                "name": "Franco Colapinto #43",
+                "team": "BWT Alpine F1 Team",
                 "titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Franco Colapinto.png"
             },
             {
                 "id": "albon",
-                "name": "ALEXANDER ALBON #23",
-                "team": "WILLIAMS RACING",
+                "name": "Alexander Albon #23",
+                "team": "Williams Racing",
                 "titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Alexander Albon.png"
             },
             {
                 "id": "sainz",
-                "name": "CARLOS SAINZ JR. #55",
-                "team": "WILLIAMS RACING",
+                "name": "Carlos Sainz Jr. #55",
+                "team": "Williams Racing",
                 "titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Carlos Sainz.png"
             },
             {
                 "id": "lawson",
-                "name": "LIAM LAWSON #30",
-                "team": "VISA CASH APP RB F1 TEAM",
+                "name": "Liam Lawson #30",
+                "team": "Visa Cash App RB F1 Team",
                 "titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Liam Lawson.png"
             },
             {
                 "id": "lindblad",
-                "name": "ARVID LINDBLAD #41",
-                "team": "VISA CASH APP RB F1 TEAM",
+                "name": "Arvid Lindblad #41",
+                "team": "Visa Cash App RB F1 Team",
                 "titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Arvid Lindblad.png"
             },
             {
                 "id": "bearman",
-                "name": "OLIVER BEARMAN #87",
-                "team": "HAAS F1 TEAM",
+                "name": "Oliver Bearman #87",
+                "team": "Haas F1 Team",
                 "titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Oliver Bearman.png"
             },
             {
                 "id": "ocon",
-                "name": "ESTEBAN OCON #31",
-                "team": "HAAS F1 TEAM",
+                "name": "Esteban Ocon #31",
+                "team": "Haas F1 Team",
                 "titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Esteban Ocon.png"
             },
             {
                 "id": "hulkenberg",
-                "name": "NICO HULKENBERG #27",
-                "team": "AUDI F1 TEAM",
+                "name": "Nico Hülkenberg #27",
+                "team": "Audi F1 Team",
                 "titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Nico Hulkenberg.png"
             },
             {
                 "id": "bortoleto",
-                "name": "GABRIEL BORTOLETO #5",
-                "team": "AUDI F1 TEAM",
+                "name": "Gabriel Bortoleto #5",
+                "team": "Audi F1 Team",
                 "titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Gabriel Bortoleto.png"
             },
             {
                 "id": "bottas",
-                "name": "VALTTERI BOTTAS #77",
-                "team": "CADILLAC FORMULA 1 TEAM",
+                "name": "Valtteri Bottas #77",
+                "team": "Cadillac Formula 1 Team",
                 "titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Valtteri Bottas.png"
             },
             {
                 "id": "perez",
                 "name": "SERGIO PÉREZ #11",
-                "team": "CADILLAC FORMULA 1 TEAM",
+                "team": "Cadillac Formula 1 Team",
                 "titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Sergio Perez.png"
             }
@@ -961,67 +961,67 @@ const APP_DATA = {
         "teams": [
             {
                 "id": "redbull",
-                "name": "ORACLE RED BULL RACING",
+                "name": "Oracle Red Bull Racing",
                 "team titles": 6,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Red Bull.png"
             },
             {
                 "id": "ferrari",
-                "name": "SCUDERIA FERRARI HP",
+                "name": "Scuderia Ferrari HP",
                 "team titles": 16,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Ferrari.png"
             },
             {
                 "id": "mercedes",
-                "name": "MERCEDES-AMG PETRONAS F1 TEAM",
+                "name": "Mercedes-AMG Petronas F1 Team",
                 "team titles": 8,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Mercedes.png"
             },
             {
                 "id": "mclaren",
-                "name": "MCLAREN F1 TEAM",
+                "name": "McLaren F1 Team",
                 "team titles": 10,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/McLaren.png"
             },
             {
                 "id": "aston",
-                "name": "ASTON MARTIN ARAMCO F1 TEAM",
+                "name": "Aston Martin Aramco F1 Team",
                 "team titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Aston Martin.png"
             },
             {
                 "id": "alpine",
-                "name": "BWT ALPINE F1 TEAM",
+                "name": "BWT Alpine F1 Team",
                 "team titles": 3,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Alpine.png"
             },
             {
                 "id": "williams",
-                "name": "WILLIAMS RACING",
+                "name": "Williams Racing",
                 "team titles": 9,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Williams.png"
             },
             {
                 "id": "rb",
-                "name": "VISA CASH APP RB F1 TEAM",
+                "name": "Visa Cash App RB F1 Team",
                 "team titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/RB.png"
             },
             {
                 "id": "haas",
-                "name": "HAAS F1 TEAM",
+                "name": "Haas F1 Team",
                 "team titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Haas.png"
             },
             {
                 "id": "audi",
-                "name": "AUDI F1 TEAM",
+                "name": "Audi F1 Team",
                 "team titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Audi.png"
             },
             {
                 "id": "cadillac",
-                "name": "CADILLAC F1 TEAM",
+                "name": "Cadillac F1 Team",
                 "team titles": 0,
                 "img": "Resimler/Formula 1 Pilot ve Takımlar/Cadillac.png"
             }
@@ -1030,191 +1030,191 @@ const APP_DATA = {
             "pilots": [
                 {
                     "pos": 1,
-                    "name": "ANDREA KIMI ANTONELLI #12",
+                    "name": "Andrea Kimi Antonelli #12",
                     "pts": 219,
-                    "team": "MERCEDES-AMG PETRONAS F1 TEAM"
+                    "team": "Mercedes-AMG Petronas F1 Team"
                 },
                 {
                     "pos": 2,
-                    "name": "LEWIS HAMILTON #44",
+                    "name": "Lewis Hamilton #44",
                     "pts": 169,
-                    "team": "SCUDERIA FERRARI HP"
+                    "team": "Scuderia Ferrari HP"
                 },
                 {
                     "pos": 3,
-                    "name": "GEORGE RUSSELL #63",
+                    "name": "George Russell #63",
                     "pts": 160,
-                    "team": "MERCEDES-AMG PETRONAS F1 TEAM"
+                    "team": "Mercedes-AMG Petronas F1 Team"
                 },
                 {
                     "pos": 4,
-                    "name": "CHARLES LECLERC #16",
+                    "name": "Charles Leclerc #16",
                     "pts": 138,
-                    "team": "SCUDERIA FERRARI HP"
+                    "team": "Scuderia Ferrari HP"
                 },
                 {
                     "pos": 5,
-                    "name": "LANDO NORRIS #1",
+                    "name": "Lando Norris #1",
                     "pts": 128,
-                    "team": "MCLAREN FORMULA 1 TEAM"
+                    "team": "McLaren Formula 1 Team"
                 },
                 {
                     "pos": 6,
-                    "name": "MAX VERSTAPPEN #3",
+                    "name": "Max Verstappen #3",
                     "pts": 109,
-                    "team": "ORACLE RED BULL RACING"
+                    "team": "Oracle Red Bull Racing"
                 },
                 {
                     "pos": 7,
-                    "name": "OSCAR PIASTRI #81",
+                    "name": "Oscar Piastri #81",
                     "pts": 92,
-                    "team": "MCLAREN FORMULA 1 TEAM"
+                    "team": "McLaren Formula 1 Team"
                 },
                 {
                     "pos": 8,
-                    "name": "ISACK HADJAR #6",
+                    "name": "Isack Hadjar #6",
                     "pts": 68,
-                    "team": "ORACLE RED BULL RACING"
+                    "team": "Oracle Red Bull Racing"
                 },
                 {
                     "pos": 9,
-                    "name": "LIAM LAWSON #30",
+                    "name": "Liam Lawson #30",
                     "pts": 43,
-                    "team": "VISA CASH APP RB F1 TEAM"
+                    "team": "Visa Cash App RB F1 Team"
                 },
                 {
                     "pos": 10,
-                    "name": "PIERRE GASLY #10",
+                    "name": "Pierre Gasly #10",
                     "pts": 42,
-                    "team": "BWT ALPINE F1 TEAM"
+                    "team": "BWT Alpine F1 Team"
                 },
                 {
                     "pos": 11,
-                    "name": "ARVID LINDBLAD #41",
+                    "name": "Arvid Lindblad #41",
                     "pts": 23,
-                    "team": "VISA CASH APP RB F1 TEAM"
+                    "team": "Visa Cash App RB F1 Team"
                 },
                 {
                     "pos": 12,
-                    "name": "FRANCO COLAPINTO #43",
+                    "name": "Franco Colapinto #43",
                     "pts": 19,
-                    "team": "BWT ALPINE F1 TEAM"
+                    "team": "BWT Alpine F1 Team"
                 },
                 {
                     "pos": 13,
-                    "name": "OLIVER BEARMAN #87",
+                    "name": "Oliver Bearman #87",
                     "pts": 18,
-                    "team": "HAAS F1 TEAM"
+                    "team": "Haas F1 Team"
                 },
                 {
                     "pos": 14,
-                    "name": "GABRIEL BORTOLETO #5",
+                    "name": "Gabriel Bortoleto #5",
                     "pts": 10,
-                    "team": "AUDI F1 TEAM"
+                    "team": "Audi F1 Team"
                 },
                 {
                     "pos": 15,
-                    "name": "CARLOS SAINZ JR. #55",
+                    "name": "Carlos Sainz Jr. #55",
                     "pts": 6,
-                    "team": "WILLIAMS RACING"
+                    "team": "Williams Racing"
                 },
                 {
                     "pos": 16,
-                    "name": "ALEXANDER ALBON #23",
+                    "name": "Alexander Albon #23",
                     "pts": 5,
-                    "team": "WILLIAMS RACING"
+                    "team": "Williams Racing"
                 },
                 {
                     "pos": 17,
-                    "name": "ESTEBAN OCON #31",
+                    "name": "Esteban Ocon #31",
                     "pts": 3,
-                    "team": "HAAS F1 TEAM"
+                    "team": "Haas F1 Team"
                 },
                 {
                     "pos": 18,
                     "name": "NICO HÜLKENBERG #27",
                     "pts": 2,
-                    "team": "AUDI F1 TEAM"
+                    "team": "Audi F1 Team"
                 },
                 {
                     "pos": 19,
-                    "name": "FERNANDO ALONSO #14",
+                    "name": "Fernando Alonso #14",
                     "pts": 1,
-                    "team": "ASTON MARTIN ARAMCO F1 TEAM"
+                    "team": "Aston Martin Aramco F1 Team"
                 },
                 {
                     "pos": 20,
-                    "name": "LANCE STROLL #18",
+                    "name": "Lance Stroll #18",
                     "pts": 0,
-                    "team": "ASTON MARTIN ARAMCO F1 TEAM"
+                    "team": "Aston Martin Aramco F1 Team"
                 },
                 {
                     "pos": 21,
-                    "name": "VALTTERI BOTTAS #77",
+                    "name": "Valtteri Bottas #77",
                     "pts": 0,
-                    "team": "CADILLAC FORMULA 1 TEAM"
+                    "team": "Cadillac Formula 1 Team"
                 },
                 {
                     "pos": 22,
                     "name": "SERGIO PÉREZ #11",
                     "pts": 0,
-                    "team": "CADILLAC FORMULA 1 TEAM"
+                    "team": "Cadillac Formula 1 Team"
                 }
             ],
             "teams": [
                 {
                     "pos": 1,
-                    "name": "MERCEDES-AMG PETRONAS F1 TEAM",
+                    "name": "Mercedes-AMG Petronas F1 Team",
                     "pts": 379
                 },
                 {
                     "pos": 2,
-                    "name": "SCUDERIA FERRARI HP",
+                    "name": "Scuderia Ferrari HP",
                     "pts": 307
                 },
                 {
                     "pos": 3,
-                    "name": "MCLAREN F1 TEAM",
+                    "name": "McLaren F1 Team",
                     "pts": 220
                 },
                 {
                     "pos": 4,
-                    "name": "ORACLE RED BULL RACING",
+                    "name": "Oracle Red Bull Racing",
                     "pts": 177
                 },
                 {
                     "pos": 5,
-                    "name": "VISA CASH APP RB F1 TEAM",
+                    "name": "Visa Cash App RB F1 Team",
                     "pts": 66
                 },
                 {
                     "pos": 6,
-                    "name": "BWT ALPINE F1 TEAM",
+                    "name": "BWT Alpine F1 Team",
                     "pts": 61
                 },
                 {
                     "pos": 7,
-                    "name": "HAAS F1 TEAM",
+                    "name": "Haas F1 Team",
                     "pts": 21
                 },
                 {
                     "pos": 8,
-                    "name": "AUDI F1 TEAM",
+                    "name": "Audi F1 Team",
                     "pts": 12
                 },
                 {
                     "pos": 9,
-                    "name": "WILLIAMS RACING",
+                    "name": "Williams Racing",
                     "pts": 11
                 },
                 {
                     "pos": 10,
-                    "name": "ASTON MARTIN ARAMCO F1 TEAM",
+                    "name": "Aston Martin Aramco F1 Team",
                     "pts": 1
                 },
                 {
                     "pos": 11,
-                    "name": "CADILLAC F1 TEAM",
+                    "name": "Cadillac F1 Team",
                     "pts": 0
                 }
             ]
@@ -3115,7 +3115,7 @@ const APP_DATA = {
                 {
                     "pos": 2,
                     "pilot": "George Russell #63",
-                    "team": "Mercedes-AMG PETRONAS F1 Team",
+                    "team": "Mercedes-AMG Petronas F1 Team",
                     "time": "1:32'47.666",
                     "gap": "+19.561",
                     "pts": 18,
@@ -3269,7 +3269,7 @@ const APP_DATA = {
                 {
                     "pos": "DNF",
                     "pilot": "Andrea Kimi Antonelli #12",
-                    "team": "Mercedes-AMG PETRONAS F1 Team",
+                    "team": "Mercedes-AMG Petronas F1 Team",
                     "time": "1:24'58.909",
                     "gap": "+5 Tur",
                     "pts": 0,
@@ -3348,7 +3348,7 @@ const APP_DATA = {
                 {
                     "pos": 1,
                     "pilot": "George Russell #63",
-                    "team": "Mercedes-AMG PETRONAS F1 Team",
+                    "team": "Mercedes-AMG Petronas F1 Team",
                     "time": "1:26'37.979",
                     "gap": "-",
                     "pts": 25,
@@ -3370,7 +3370,7 @@ const APP_DATA = {
                 {
                     "pos": 3,
                     "pilot": "Andrea Kimi Antonelli #12",
-                    "team": "Mercedes-AMG PETRONAS F1 Team",
+                    "team": "Mercedes-AMG Petronas F1 Team",
                     "time": "1:26'39.965",
                     "gap": "1.986",
                     "pts": 15,
@@ -3603,7 +3603,7 @@ const APP_DATA = {
                 {
                     "pos": 2,
                     "pilot": "George Russell #63",
-                    "team": "Mercedes-AMG PETRONAS F1 Team",
+                    "team": "Mercedes-AMG Petronas F1 Team",
                     "time": "1:27'11.762",
                     "gap": "+0.427",
                     "pts": 18,
@@ -3746,7 +3746,7 @@ const APP_DATA = {
                 {
                     "pos": 15,
                     "pilot": "Andrea Kimi Antonelli #12",
-                    "team": "Mercedes-AMG PETRONAS F1 Team",
+                    "team": "Mercedes-AMG Petronas F1 Team",
                     "time": "1:27'19.340",
                     "gap": "+8.005",
                     "pts": 0,
@@ -3836,7 +3836,7 @@ const APP_DATA = {
                 {
                     "pos": 1,
                     "pilot": "Andrea Kimi Antonelli #12",
-                    "team": "Mercedes-AMG PETRONAS F1 Team",
+                    "team": "Mercedes-AMG Petronas F1 Team",
                     "time": "1:24'42.479",
                     "gap": "-",
                     "pts": 25,
@@ -4067,7 +4067,7 @@ const APP_DATA = {
                 {
                     "pos": "DNF",
                     "pilot": "George Russell #63",
-                    "team": "Mercedes-AMG PETRONAS F1 Team",
+                    "team": "Mercedes-AMG Petronas F1 Team",
                     "time": "-",
                     "gap": "44 Tur",
                     "pts": 0,
@@ -4102,7 +4102,7 @@ const APP_DATA = {
                 {
                     "pos": 3,
                     "pilot": "Andrea Kimi Antonelli #12",
-                    "team": "Mercedes-AMG PETRONAS F1 Team",
+                    "team": "Mercedes-AMG Petronas F1 Team",
                     "time": "1:40'14.908",
                     "gap": "+18.728",
                     "pts": 15,
@@ -4146,7 +4146,7 @@ const APP_DATA = {
                 {
                     "pos": 7,
                     "pilot": "George Russell #63",
-                    "team": "Mercedes-AMG PETRONAS F1 Team",
+                    "team": "Mercedes-AMG Petronas F1 Team",
                     "time": "1:40'53.683",
                     "gap": "+57.503",
                     "pts": 6,
@@ -8075,190 +8075,190 @@ const APP_DATA = {
             "pilots": [
                 {
                     "pos": 1,
-                    "name": "JORGE MARTIN #89",
-                    "team": "APRILIA RACING",
+                    "name": "Jorge Martin #89",
+                    "team": "Aprilia Racing",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Jorge Martin.png",
                     "pts": 208
                 },
                 {
                     "pos": 2,
-                    "name": "AI OGURA #79",
-                    "team": "TRACKHOUSE RACING",
+                    "name": "Ai Ogura #79",
+                    "team": "Trackhouse Racing",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Ai Ogura.png",
                     "pts": 194
                 },
                 {
                     "pos": 3,
-                    "name": "MARC MARQUEZ #93",
-                    "team": "DUCATI LENOVO TEAM",
+                    "name": "Marc Marquez #93",
+                    "team": "Ducati Lenovo Team",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Marc Marquez.png",
                     "pts": 190
                 },
                 {
                     "pos": 4,
-                    "name": "MARCO BEZZECCHI #72",
-                    "team": "APRILIA RACING",
+                    "name": "Marco Bezzecchi #72",
+                    "team": "Aprilia Racing",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Marco Bezzecchi.png",
                     "pts": 186
                 },
                 {
                     "pos": 5,
-                    "name": "FABIO DI GIANNANTONIO #49",
+                    "name": "Fabio Di Giannantonio #49",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Fabio Di Giannantonio.png",
-                    "team": "PERTAMINA ENDURO VR46",
+                    "team": "Pertamina Enduro VR46",
                     "pts": 184
                 },
                 {
                     "pos": 6,
-                    "name": "RAUL FERNANDEZ #25",
-                    "team": "TRACKHOUSE RACING",
+                    "name": "Raul Fernandez #25",
+                    "team": "Trackhouse Racing",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Raul Fernandez.png",
                     "pts": 159
                 },
                 {
                     "pos": 7,
-                    "name": "PEDRO ACOSTA #37",
-                    "team": "RED BULL KTM FACTORY RACING",
+                    "name": "Pedro Acosta #37",
+                    "team": "Red Bull KTM Factory Racing",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Pedro Acosta.png",
                     "pts": 148
                 },
                 {
                     "pos": 8,
-                    "name": "FRANCESCO BAGNAIA #63",
-                    "team": "DUCATI LENOVO TEAM",
+                    "name": "Francesco Bagnaia #63",
+                    "team": "Ducati Lenovo Team",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Francesco Bagnaia.png",
                     "pts": 143
                 },
                 {
                     "pos": 9,
-                    "name": "ALEX MARQUEZ #73",
-                    "team": "BK8 GRESINI RACING MOTOGP",
+                    "name": "Alex Marquez #73",
+                    "team": "BK8 Gresini Racing MotoGP",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Alex Marquez.png",
                     "pts": 87
                 },
                 {
                     "pos": 10,
-                    "name": "LUCA MARINI #10",
-                    "team": "REPSOL HONDA TEAM",
+                    "name": "Luca Marini #10",
+                    "team": "Repsol Honda Team",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Luca Marini.png",
                     "pts": 79
                 },
                 {
                     "pos": 11,
-                    "name": "FERMIN ALDEGUER #54",
-                    "team": "BK8 GRESINI RACING MOTOGP",
+                    "name": "Fermin Aldeguer #54",
+                    "team": "BK8 Gresini Racing MotoGP",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Fermin Aldeguer.png",
                     "pts": 76
                 },
                 {
                     "pos": 12,
-                    "name": "ENEA BASTIANINI #23",
-                    "team": "RED BULL KTM TECH3",
+                    "name": "Enea Bastianini #23",
+                    "team": "Red Bull KTM Tech3",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Enea Bastianini.png",
                     "pts": 76
                 },
                 {
                     "pos": 13,
-                    "name": "BRAD BINDER #33",
-                    "team": "RED BULL KTM FACTORY RACING",
+                    "name": "Brad Binder #33",
+                    "team": "Red Bull KTM Factory Racing",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Brad Binder.png",
                     "pts": 64
                 },
                 {
                     "pos": 14,
-                    "name": "FABIO QUARTARARO #20",
-                    "team": "MONSTER ENERGY YAMAHA MOTOGP TEAM",
+                    "name": "Fabio Quartararo #20",
+                    "team": "Monster Energy Yamaha MotoGP Team",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Fabio Quartararo.png",
                     "pts": 55
                 },
                 {
                     "pos": 15,
-                    "name": "DIOGO MOREIRA #11",
-                    "team": "CASTROL HONDA LCR",
+                    "name": "Diogo Moreira #11",
+                    "team": "Castrol Honda LCR",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Diogo Moreira.png",
                     "pts": 48
                 },
                 {
                     "pos": 16,
-                    "name": "FRANCO MORBIDELLI #21",
-                    "team": "PERTAMINA ENDURO VR46",
+                    "name": "Franco Morbidelli #21",
+                    "team": "Pertamina Enduro VR46",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Franco Morbidelli.png",
                     "pts": 46
                 },
                 {
                     "pos": 17,
-                    "name": "JOHANN ZARCO #5",
-                    "team": "CASTROL HONDA LCR",
+                    "name": "Johann Zarco #5",
+                    "team": "Castrol Honda LCR",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Johann Zarco.png",
                     "pts": 34
                 },
                 {
                     "pos": 18,
-                    "name": "JOAN MIR #36",
-                    "team": "REPSOL HONDA TEAM",
+                    "name": "Joan Mir #36",
+                    "team": "Repsol Honda Team",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Joan Mir.png",
                     "pts": 26
                 },
                 {
                     "pos": 19,
-                    "name": "ALEX RINS #42",
-                    "team": "MONSTER ENERGY YAMAHA MOTOGP TEAM",
+                    "name": "Alex Rins #42",
+                    "team": "Monster Energy Yamaha MotoGP Team",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Alex Rins.png",
                     "pts": 21
                 },
                 {
                     "pos": 20,
-                    "name": "JACK MILLER #43",
-                    "team": "PRIMA PRAMAC YAMAHA MOTOGP",
+                    "name": "Jack Miller #43",
+                    "team": "Prima Pramac Yamaha MotoGP",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Jack Miller.png",
                     "pts": 19
                 },
                 {
                     "pos": 21,
                     "name": "Toprak Razgatlıoğlu #7",
-                    "team": "PRIMA PRAMAC YAMAHA MOTOGP",
+                    "team": "Prima Pramac Yamaha MotoGP",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Toprak Razgatlıoğlu.png",
                     "pts": 12
                 },
                 {
                     "pos": 22,
                     "name": "MAVERICK VIÑALES #12",
-                    "team": "RED BULL KTM TECH3",
+                    "team": "Red Bull KTM Tech3",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Maverick Viñales.png",
                     "pts": 10
                 },
                 {
                     "pos": 23,
-                    "name": "IKER LECUONA #27",
-                    "team": "BK8 GRESINI RACING MOTOGP",
+                    "name": "Iker Lecuona #27",
+                    "team": "BK8 Gresini Racing MotoGP",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Iker Lecuona.png",
                     "pts": 9
                 },
                 {
                     "pos": 24,
-                    "name": "AUGUSTO FERNANDEZ #47",
-                    "team": "YAMAHA FACTORY RACING",
+                    "name": "Augusto Fernandez #47",
+                    "team": "Yamaha Factory Racing",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Augusto Fernandez.png",
                     "pts": 5
                 },
                 {
                     "pos": 25,
-                    "name": "CAL CRUTCHLOW #35",
-                    "team": "CASTROL HONDA LCR",
+                    "name": "Cal Crutchlow #35",
+                    "team": "Castrol Honda LCR",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Cal Crutchlow.png",
                     "pts": 0
                 },
                 {
                     "pos": 26,
-                    "name": "JONAS FOLGER #94",
-                    "team": "RED BULL KTM TECH3",
+                    "name": "Jonas Folger #94",
+                    "team": "Red Bull KTM Tech3",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Jonas Folger.png",
                     "pts": 0
                 },
                 {
                     "pos": 27,
-                    "name": "MICHELE PIRRO #51",
-                    "team": "BK8 GRESINI RACING MOTOGP",
+                    "name": "Michele Pirro #51",
+                    "team": "BK8 Gresini Racing MotoGP",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Michele Pirro.png",
                     "pts": 0
                 }
@@ -8266,67 +8266,67 @@ const APP_DATA = {
             "teams": [
                 {
                     "pos": 1,
-                    "name": "APRILIA RACING",
+                    "name": "Aprilia Racing",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Aprilia.png",
                     "pts": 394
                 },
                 {
                     "pos": 2,
-                    "name": "TRACKHOUSE RACING",
+                    "name": "Trackhouse Racing",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Trackhouse.png",
                     "pts": 353
                 },
                 {
                     "pos": 3,
-                    "name": "DUCATI LENOVO TEAM",
+                    "name": "Ducati Lenovo Team",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Ducati.png",
                     "pts": 333
                 },
                 {
                     "pos": 4,
-                    "name": "PERTAMINA ENDURO VR46",
+                    "name": "Pertamina Enduro VR46",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/VR46.png",
                     "pts": 230
                 },
                 {
                     "pos": 5,
-                    "name": "RED BULL KTM FACTORY RACING",
+                    "name": "Red Bull KTM Factory Racing",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/KTM.png",
                     "pts": 212
                 },
                 {
                     "pos": 6,
-                    "name": "BK8 GRESINI RACING MOTOGP",
+                    "name": "BK8 Gresini Racing MotoGP",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Gresini.png",
                     "pts": 172
                 },
                 {
                     "pos": 7,
-                    "name": "REPSOL HONDA TEAM",
+                    "name": "Repsol Honda Team",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Repsol Honda.png",
                     "pts": 105
                 },
                 {
                     "pos": 8,
-                    "name": "RED BULL KTM TECH3",
+                    "name": "Red Bull KTM Tech3",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Tech3.png",
                     "pts": 86
                 },
                 {
                     "pos": 9,
-                    "name": "CASTROL HONDA LCR",
+                    "name": "Castrol Honda LCR",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Honda LCR.png",
                     "pts": 82
                 },
                 {
                     "pos": 10,
-                    "name": "MONSTER ENERGY YAMAHA MOTOGP TEAM",
+                    "name": "Monster Energy Yamaha MotoGP Team",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/MonsterYamaha.png",
                     "pts": 77
                 },
                 {
                     "pos": 11,
-                    "name": "PRIMA PRAMAC YAMAHA MOTOGP",
+                    "name": "Prima Pramac Yamaha MotoGP",
                     "img": "Resimler/MotoGP Pilot ve Takımlar/Pramac Yamaha.png",
                     "pts": 31
                 }
