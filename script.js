@@ -270,86 +270,81 @@ function initAppEngine() {
 
     // 2. Navigation & Routing
     function setupNavigation() {
+        const portal = document.getElementById('header-dropdown-portal');
+
+        const closeAllDropdowns = () => {
+            document.querySelectorAll('.nav-item.dropdown').forEach(d => d.classList.remove('active'));
+            if (portal) {
+                portal.classList.remove('active');
+                portal.innerHTML = '';
+            }
+        };
+
         document.querySelectorAll('.nav-link, .nav-link-bottom, .nav-link-home, .nav-link-top').forEach(link => {
-            link.addEventListener('click', (e) => {
-                e.preventDefault();
+            const handleLinkClick = (e) => {
                 const view = link.dataset.view;
                 const cat = link.dataset.cat;
                 
-                // If it's a dropdown toggle (no view defined), toggle its active state
+                // If it's a dropdown toggle (no view defined)
                 if (!view) {
+                    e.preventDefault();
+                    e.stopPropagation();
                     const parent = link.closest('.nav-item.dropdown');
                     if (parent) {
                         const isActive = parent.classList.contains('active');
-                        document.querySelectorAll('.nav-item.dropdown').forEach(d => {
-                            d.classList.remove('active');
-                            const content = d.querySelector('.dropdown-content');
-                            if (content) {
-                                content.style.position = '';
-                                content.style.left = '';
-                                content.style.top = '';
-                                content.style.transform = '';
-                            }
-                        });
+                        closeAllDropdowns();
                         
                         if (!isActive) {
                             parent.classList.add('active');
                             const content = parent.querySelector('.dropdown-content');
-                            // Only apply JS positioning if it's mobile (window width <= 768)
-                            if (window.innerWidth <= 768 && content) {
-                                const rect = parent.getBoundingClientRect();
-                                const headerRect = document.querySelector('.main-header').getBoundingClientRect();
-                                content.style.position = 'fixed';
-                                content.style.top = headerRect.bottom + 'px';
-                                // Center it horizontally relative to the item
-                                const contentWidth = 180; // from CSS width
-                                let leftPos = rect.left + (rect.width / 2) - (contentWidth / 2);
-                                // Keep it within screen bounds
-                                if (leftPos < 10) leftPos = 10;
-                                if (leftPos + contentWidth > window.innerWidth - 10) {
-                                    leftPos = window.innerWidth - contentWidth - 10;
-                                }
-                                content.style.left = leftPos + 'px';
-                                content.style.width = contentWidth + 'px';
+                            
+                            // On mobile screens (width <= 768px) or touch devices, use header portal
+                            if (window.innerWidth <= 768 && portal && content) {
+                                portal.innerHTML = content.innerHTML;
+                                portal.classList.add('active');
+                                
+                                portal.querySelectorAll('.nav-link').forEach(pLink => {
+                                    pLink.addEventListener('click', (pe) => {
+                                        pe.preventDefault();
+                                        pe.stopPropagation();
+                                        const pView = pLink.dataset.view;
+                                        const pCat = pLink.dataset.cat;
+                                        closeAllDropdowns();
+                                        handleRoute(pView, pCat);
+                                    });
+                                });
                             }
                         }
                     }
                     return;
                 }
+
+                e.preventDefault();
+                e.stopPropagation();
+                
                 // Close dropdowns upon navigation
-                document.querySelectorAll('.nav-item.dropdown').forEach(d => {
-                    d.classList.remove('active');
-                    const content = d.querySelector('.dropdown-content');
-                    if (content) {
-                        content.style.position = '';
-                        content.style.left = '';
-                        content.style.top = '';
-                        content.style.transform = '';
-                    }
-                });
+                closeAllDropdowns();
                 handleRoute(view, cat);
-            });
+            };
+
+            link.addEventListener('click', handleLinkClick);
         });
 
-        // Close dropdowns if clicking outside
+        // Close dropdowns if clicking outside main header
         document.addEventListener('click', (e) => {
-            if (!e.target.closest('.nav-item.dropdown')) {
-                document.querySelectorAll('.nav-item.dropdown').forEach(d => {
-                    d.classList.remove('active');
-                    const content = d.querySelector('.dropdown-content');
-                    if (content) {
-                        content.style.position = '';
-                        content.style.left = '';
-                        content.style.top = '';
-                        content.style.transform = '';
-                    }
-                });
+            if (!e.target.closest('.main-header')) {
+                closeAllDropdowns();
             }
         });
 
-        document.querySelector('.header-logo-text').addEventListener('click', () => {
-            handleRoute('home');
-        });
+        const logoText = document.querySelector('.header-logo-text');
+        if (logoText) {
+            logoText.addEventListener('click', (e) => {
+                e.preventDefault();
+                closeAllDropdowns();
+                handleRoute('home');
+            });
+        }
     }
 
     function handleRoute(view, cat, pushState = true, round = null) {
