@@ -8559,68 +8559,57 @@
                 {
                     "pos": 1,
                     "name": "Aprilia Racing",
-                    "img": "Resimler/MotoGP Pilot ve Takımlar/Aprilia.png",
-                    "pts": 394
+                    "pts": 449
                 },
                 {
                     "pos": 2,
                     "name": "Trackhouse Racing",
-                    "img": "Resimler/MotoGP Pilot ve Takımlar/Trackhouse.png",
-                    "pts": 353
+                    "pts": 387
                 },
                 {
                     "pos": 3,
                     "name": "Ducati Lenovo Team",
-                    "img": "Resimler/MotoGP Pilot ve Takımlar/Ducati.png",
-                    "pts": 333
+                    "pts": 343
                 },
                 {
                     "pos": 4,
                     "name": "Pertamina Enduro VR46",
-                    "img": "Resimler/MotoGP Pilot ve Takımlar/VR46.png",
-                    "pts": 230
+                    "pts": 252
                 },
                 {
                     "pos": 5,
                     "name": "Red Bull KTM Factory Racing",
-                    "img": "Resimler/MotoGP Pilot ve Takımlar/KTM.png",
-                    "pts": 212
+                    "pts": 235
                 },
                 {
                     "pos": 6,
                     "name": "BK8 Gresini Racing MotoGP",
-                    "img": "Resimler/MotoGP Pilot ve Takımlar/Gresini.png",
-                    "pts": 172
+                    "pts": 191
                 },
                 {
                     "pos": 7,
                     "name": "Repsol Honda Team",
-                    "img": "Resimler/MotoGP Pilot ve Takımlar/Repsol Honda.png",
-                    "pts": 105
+                    "pts": 115
                 },
                 {
                     "pos": 8,
                     "name": "Red Bull KTM Tech3",
-                    "img": "Resimler/MotoGP Pilot ve Takımlar/Tech3.png",
-                    "pts": 86
+                    "pts": 89
                 },
                 {
                     "pos": 9,
                     "name": "Castrol Honda LCR",
-                    "img": "Resimler/MotoGP Pilot ve Takımlar/Honda LCR.png",
-                    "pts": 82
+                    "pts": 88
                 },
                 {
                     "pos": 10,
-                    "name": "Monster Energy Yamaha MotoGP Team",
-                    "img": "Resimler/MotoGP Pilot ve Takımlar/MonsterYamaha.png",
-                    "pts": 77
+                    "name": "Monster Energy Yamaha MotoGP",
+                    "pts": 76
                 },
                 {
                     "pos": 11,
                     "name": "Prima Pramac Yamaha MotoGP",
-                    "img": "Resimler/MotoGP Pilot ve Takımlar/Pramac Yamaha.png",
-                    "pts": 31
+                    "pts": 37
                 }
             ]
         }
