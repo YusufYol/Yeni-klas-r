@@ -8386,6 +8386,17 @@
                     "status": "Finished"
                 },
                 {
+                    "pos": 13,
+                    "pilot": "Pol Espargaro #44",
+                    "team": "Red Bull KTM Tech 3",
+                    "time": "40'27.240",
+                    "gap": "+41.310",
+                    "pts": 3,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
                     "pos": 14,
                     "pilot": "Toprak Razgatlıoğlu #7",
                     "team": "Prima Pramac Yamaha MotoGP",
@@ -8479,6 +8490,17 @@
                     "team": "Monster Energy Yamaha MotoGP",
                     "time": "5'02.757",
                     "gap": "+19 Tur",
+                    "pts": 0,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "DNF"
+                },
+                {
+                    "pos": "DNF",
+                    "pilot": "Joan Mir #36",
+                    "team": "Repsol Honda Team",
+                    "time": "49.541",
+                    "gap": "+20 Tur",
                     "pts": 0,
                     "laps": 0,
                     "fastest": false,
@@ -8619,6 +8641,42 @@
                     "name": "Maverick Vinales #12",
                     "pts": 10,
                     "team": "Red Bull KTM Tech3"
+                },
+                {
+                    "pos": 23,
+                    "name": "Iker Lecuona #27",
+                    "pts": 9,
+                    "team": "Castrol Honda LCR"
+                },
+                {
+                    "pos": 24,
+                    "name": "Augusto Fernandez #47",
+                    "pts": 6,
+                    "team": "Yamaha Factory Racing"
+                },
+                {
+                    "pos": 25,
+                    "name": "Pol Espargaro #44",
+                    "pts": 3,
+                    "team": "Red Bull KTM Tech3"
+                },
+                {
+                    "pos": 26,
+                    "name": "Cal Crutchlow #35",
+                    "pts": 0,
+                    "team": "Castrol Honda LCR"
+                },
+                {
+                    "pos": 27,
+                    "name": "Jonas Folger #94",
+                    "pts": 0,
+                    "team": "Red Bull KTM Tech3"
+                },
+                {
+                    "pos": 28,
+                    "name": "Michael Pirro #51",
+                    "pts": 0,
+                    "team": "BK8 Gresini Racing MotoGP"
                 }
             ],
             "teams": [
@@ -9417,10 +9475,17 @@ const CIRCUITS_DB = {
         "mostWinsPilot": "Jorge Lorenzo ve Kenny Roberts (3 Galibiyet)", "mostWinsTeam": "Monster Energy Yamaha MotoGP (8 Galibiyet)",
         "img": "Resimler/MotoGP Pist Resimleri/Silverstone MotoGP.png",
         "description": "Motor sporlarının beşiği kabul edilen Silverstone; yüksek hızlı akan virajları, teknik düzeni ve öngörülemeyen İngiliz hava koşullarıyla MotoGP takviminin en heyecanlı ve efsanevi pistlerinden biridir."
-    }
+    },
+    "Zandvoort": {
+        "len": "4,259 km", "turns": "14", "record": "1:11.097 (Lewis Hamilton)",
+        "opened": "1952", "firstWinner": "Alberto Ascari (1952)",
+        "mostWinsPilot": "Jim Clark (4 galibiyet)", "mostWinsTeam": "ScuderiaFerrari (8 galibiyet)",
+        "img": "Resimler/Formula 1 Pist Resimleri/ZandvoortGP.png",
+        "description": "Kuzey Denizi kıyısındaki kum tepeleri arasında uzanan Zandvoort; dar profili, akıcı temposu ve yüksek eğimli (banked) virajlarıyla pilotların sürüş hassasiyetini ve cesaretini sınayan tarihi bir pisttir."
+    },
 };
 
-const TRACK_STATS = CIRCUITS_DB["Silverstone (MotoGP)"];
+const TRACK_STATS = CIRCUITS_DB["Zandvoort"];
 
 // Dinamik veriler script.js tarafından güncellenecektir.
 let CURRENT_WEEKEND_DATA = null;
