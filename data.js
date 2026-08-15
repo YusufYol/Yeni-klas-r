@@ -4370,6 +4370,16 @@
     "motogp": {
         "news": [
             {
+                "id": 118,
+                "title": "SILVERSTONE'DA KAZANAN İSİM RAUL FERNANDEZ!",
+                "cat": "motogp",
+                "date": "2026-08-15 15:11",
+                "content": "MotoGP’de heyecanla beklenen yaz arasının ardından sezonun en ikonik duraklarından biri olan Silverstone Pisti’nde nefes kesen bir Britanya GP geride kaldı. Hafta sonuna kusursuz bir ritim ve stratejiyle damga vuran Trackhouse Racing pilotu Raul Fernandez, damalı bayrağı ilk sırada görerek kariyerinin en unutulmaz yarışlarından birine imza attı. Silverstone’un hızlı ve teknik virajlarında üstün bir lastik yönetimi sergileyen İspanyol pilot, zorlu koşullara rağmen soğukkanlılığını koruyarak MotoGP kategorisindeki çıkışını görkemli bir birincilikle taçlandırdı.<br><br>Podyumun ikinci basamağında ise şampiyona liderliğini ve istikrarını koruma hedefiyle piste çıkan Jorge Martin yer aldı. Yarış boyunca Fernandez’i yakın takibe alan ve liderlik için baskısını hissettiren Martin, kritik puanları hanesine yazdırarak şampiyonluk yarışındaki iddiasını bir kez daha pekiştirdi. Podyumu tamamlayan isim ise bir diğer Aprilia pilotu Marco Bezzecchi oldu. Tempolu sürüşü ve ataklarıyla dikkat çeken Bezzecchi, üçüncü sırayı alarak podyum geleneğini sürdürdü ve Silverstone tribünlerine büyük bir heyecan yaşattı.<br><br>BK8 Gresini Racing sürücüsü Alex Marquez ise büyük bir sakatlık yaşadıktan sonra yavaş yavaş ritim bulmaya başladı ve Silverstone da 4. sıra bitirdi. Abisi Marc Marquez ise 7. sırada bitirebildi.<br><br>Temsilcimiz Toprak Razgatlıoğlu ise yarışı 14. sırada bitirerek hanesine 2 puan yazdırdı.<br><br>MotoGP heyecanı 21-23 Ağustos'ta Aragon GP ile kaldığı yerden devam edecek.",
+                "img": "Resimler/MotoGP Haberler/1786795877605_1000048259.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 103,
                 "title": "MARC MÁRQUEZ, ALMANYA'DAN ZAFERLE AYRILDI!",
                 "cat": "motogp",
