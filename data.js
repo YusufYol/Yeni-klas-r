@@ -9480,7 +9480,7 @@ const CIRCUITS_DB = {
         "len": "4,259 km", "turns": "14", "record": "1:11.097 (Lewis Hamilton)",
         "opened": "1952", "firstWinner": "Alberto Ascari (1952)",
         "mostWinsPilot": "Jim Clark (4 galibiyet)", "mostWinsTeam": "ScuderiaFerrari (8 galibiyet)",
-        "img": "Resimler/Formula 1 Pist Resimleri/ZandvoortGP.png",
+        "img": "Resimler/Formula 1 Pist Resimleri/Zandvoort GP.png",
         "description": "Kuzey Denizi kıyısındaki kum tepeleri arasında uzanan Zandvoort; dar profili, akıcı temposu ve yüksek eğimli (banked) virajlarıyla pilotların sürüş hassasiyetini ve cesaretini sınayan tarihi bir pisttir."
     },
 };
