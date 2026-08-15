@@ -8674,7 +8674,7 @@
                 },
                 {
                     "pos": 28,
-                    "name": "Michael Pirro #51",
+                    "name": "Michele Pirro #51",
                     "pts": 0,
                     "team": "BK8 Gresini Racing MotoGP"
                 }
