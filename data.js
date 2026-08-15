@@ -4872,6 +4872,14 @@
                 "titles": 0,
                 "img": "Resimler/MotoGP Pilot ve Takımlar/Augusto Fernandez.png",
                 "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/İspanya.png"
+            },
+            {
+                "id": "espargaro",
+                "name": "Pol Espargaro #44",
+                "team": "Red Bull KTM Tech3",
+                "titles": 0,
+                "img": "Resimler/MotoGP Pilot ve Takımlar/Pol Espargaro.png",
+                "flag": "Resimler/MotoGP Pilot ve Takım Ülkeleri/İspanya.png"
             }
         ],
         "teams": [
