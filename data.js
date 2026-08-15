@@ -1575,7 +1575,19 @@
                         "name": "Pazar: Yarış",
                         "time": "16:00"
                     }
-                ]
+                ],
+                "trackDetails": {
+                    "len": "4,259 km",
+                    "turns": "14",
+                    "opened": "1952",
+                    "record": "1:11.097 (Lewis Hamilton)",
+                    "firstWinner": "Alberto Ascari (1952)",
+                    "mostWinsPilot": "Jim Clark (4 galibiyet)",
+                    "mostWinsTeam": "Scuderia Ferrari (8 galibiyet)",
+                    "description": "Zandvoort, Kuzey Denizi kıyısındaki kum tepelerinin arasına kurulmuş, dar yapısı, kaçış alanı bulunmayan çakıl havuzları ve Formula 1'e damgasını vuran yüksek eğimli virajlarıyla sürücülere hata affetmeyen klasik bir sürüş deneyimi sunar."
+                },
+                "len": "4,259 km",
+                "turns": "14"
             },
             {
                 "round": 15,
