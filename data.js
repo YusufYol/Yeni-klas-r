@@ -5484,7 +5484,51 @@
                 "date": "28-30 Ağustos",
                 "track": "Aragon",
                 "isoDate": "2026-08-30",
-                "status": "Bekliyor"
+                "status": "Sıradaki",
+                "trackDetails": {
+                    "len": "",
+                    "turns": "",
+                    "opened": "",
+                    "record": "",
+                    "firstWinner": "",
+                    "mostWinsPilot": "",
+                    "mostWinsTeam": "",
+                    "description": ""
+                },
+                "sessions": [
+                    {
+                        "name": "Cuma: 1. Antrenman",
+                        "time": "11:45"
+                    },
+                    {
+                        "name": "Cuma: Ana Antrenman Seansı",
+                        "time": "16:00"
+                    },
+                    {
+                        "name": "Cumartesi: 2. Antrenman Seansı",
+                        "time": "11:10"
+                    },
+                    {
+                        "name": "Cumartesi: Sıralama Turları 1",
+                        "time": "11:50"
+                    },
+                    {
+                        "name": "Cumartesi: Sıralama Turları 2",
+                        "time": "12:15"
+                    },
+                    {
+                        "name": "Cumartesi: Sprint Yarışı",
+                        "time": "16:00"
+                    },
+                    {
+                        "name": "Pazar: Isınma Turları",
+                        "time": "10:40"
+                    },
+                    {
+                        "name": "Pazar: Yarış",
+                        "time": "15:00"
+                    }
+                ]
             },
             {
                 "round": 14,
