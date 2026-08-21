@@ -2,6 +2,16 @@
     "formula 1": {
         "news": [
             {
+                "id": 119,
+                "title": "KIMI ANTONELLI HOLLANDA’DA ILK ANTRENMANDA ZİRVEDE!",
+                "cat": "formula 1",
+                "date": "2026-08-21 15:15",
+                "content": "Şampiyona lideri Kimi Antonelli, bir aylık yaz arasının ardından düzenlenen Hollanda Grand Prix’sinin tek antrenman seansını ilk sırada tamamladı.<br><br>Formula 1’de yaz arasının sona ermesiyle birlikte pilotlar Zandvoort’ta yeniden piste çıktı. Hafta sonu öncesindeki tek antrenman seansında en hızlı tur zamanını kaydeden Kimi Antonelli, zirvenin sahibi oldu.<br><br>Lando Norris seansı ikinci sırada tamamlarken George Russell üçüncü sırada yer aldı.<br><br>Takımlar ve pilotlar, antrenmanda topladıkları verilerin ardından sprint sıralama seansı için hazırlıklarına devam edecek.",
+                "img": "Resimler/Formula 1 Haberler/1787314508514_E3635A23-D96A-49BC-BC4B-A9E1A6E01B0F.jpeg",
+                "author": "Emre Boz",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Emre Boz.png"
+            },
+            {
                 "id": 117,
                 "title": "MACARISTAN'I KAZANAN ISIM LANDO NORRIS!",
                 "cat": "formula 1",
