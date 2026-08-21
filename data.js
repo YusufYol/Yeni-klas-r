@@ -2,6 +2,16 @@
     "formula 1": {
         "news": [
             {
+                "id": 120,
+                "title": "GEORGE RUSSELL, HOLLANDA’DA SPRINT POLE’ÜNÜ ALDI!",
+                "cat": "formula 1",
+                "date": "2026-08-21 18:32",
+                "content": "Formula 1 Dünya Şampiyonası’nda Hollanda Grand Prix’sinin sprint sıralama turları tamamlandı. Zandvoort’ta gerçekleştirilen seansta en hızlı dereceyi elde eden George Russell, sprint yarışına pole pozisyonundan başlama hakkı kazandı.<br><br>Mercedes pilotu, kritik anlarda ortaya koyduğu performansla zirvenin sahibi olurken Lando Norris ikinci sırayı aldı. Charles Leclerc ise sprint sıralamasını üçüncü tamamlayarak güçlü bir başlangıç pozisyonu elde etti.<br><br>Bu sonuçla George Russell ve Lando Norris sprint yarışında ön sırayı paylaşacak. Charles Leclerc ise üçüncü cepten başlayarak ilk virajdan itibaren liderlik mücadelesine ortak olmaya çalışacak.<br><br>Kendi taraftarlarının önünde piste çıkan Max Verstappen, beklenen performansı sergileyemedi ve seansı altıncı sırada tamamladı. Hollandalı pilot böylece sprint yarışına üçüncü sıradan başlayacak.<br><br>Lewis Hamilton da zirve mücadelesinden uzak kaldı. Yedi kez dünya şampiyonu pilot, sprint sıralamasını yedinci sırada tamamlayarak hayal kırıklığı yarattı. Verstappen ve Hamilton, sprint yarışında ön gruba ulaşabilmek için gerilerden yükselmeye çalışacak.",
+                "img": "Resimler/Formula 1 Haberler/1787326331370_IMG_9311.jpeg",
+                "author": "Emre Boz",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Emre Boz.png"
+            },
+            {
                 "id": 119,
                 "title": "KIMI ANTONELLI HOLLANDA’DA ILK ANTRENMANDA ZİRVEDE!",
                 "cat": "formula 1",
