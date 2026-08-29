@@ -1616,7 +1616,41 @@
                 "date": "04-06 Eylül",
                 "track": "Monza",
                 "isoDate": "2026-09-06",
-                "status": "Bekliyor"
+                "status": "Sıradaki",
+                "trackDetails": {
+                    "len": "5,793 Km",
+                    "turns": "11",
+                    "opened": "1950",
+                    "record": "1:20.901 (Lando Norris)",
+                    "firstWinner": "Giuseppe \"Nino\" Farina (1950)",
+                    "mostWinsPilot": "Michael Schumacher ve Lewis Hamilton (5'er Galibiyet)",
+                    "mostWinsTeam": "Scuderia Ferrari (21 Galibiyet)",
+                    "description": "Yüksek hızlı düzlükleri, efsanevi Curva Parabolica virajı ve fanatik \"Tifosi\" taraftarlarıyla Monza, otomobil sporlarının en ikonik ve en hızlı pistlerinden biridir."
+                },
+                "len": "5,793 Km",
+                "turns": "11",
+                "sessions": [
+                    {
+                        "name": "Cuma: 1. Antrenman Seansı",
+                        "time": "13:30"
+                    },
+                    {
+                        "name": "Cuma: 2. Antrenman Seansı",
+                        "time": "17:00"
+                    },
+                    {
+                        "name": "Cumartesi: 3. Antrenman Seansı",
+                        "time": "13.30"
+                    },
+                    {
+                        "name": "Cumartesi: Sıralama Turları",
+                        "time": "17.00"
+                    },
+                    {
+                        "name": "Pazar: Yarış",
+                        "time": "16.00"
+                    }
+                ]
             },
             {
                 "round": 16,
