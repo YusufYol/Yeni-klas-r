@@ -1218,22 +1218,22 @@
                 {
                     "pos": 1,
                     "name": "Mercedes-AMG Petronas F1 Team",
-                    "pts": 379
+                    "pts": 425
                 },
                 {
                     "pos": 2,
                     "name": "Scuderia Ferrari HP",
-                    "pts": 307
+                    "pts": 338
                 },
                 {
                     "pos": 3,
                     "name": "McLaren F1 Team",
-                    "pts": 220
+                    "pts": 263
                 },
                 {
                     "pos": 4,
                     "name": "Oracle Red Bull Racing",
-                    "pts": 177
+                    "pts": 186
                 },
                 {
                     "pos": 5,
@@ -1243,7 +1243,7 @@
                 {
                     "pos": 6,
                     "name": "BWT Alpine F1 Team",
-                    "pts": 61
+                    "pts": 63
                 },
                 {
                     "pos": 7,
@@ -1253,7 +1253,7 @@
                 {
                     "pos": 8,
                     "name": "Audi F1 Team",
-                    "pts": 12
+                    "pts": 16
                 },
                 {
                     "pos": 9,
@@ -1263,7 +1263,7 @@
                 {
                     "pos": 10,
                     "name": "Aston Martin Aramco F1 Team",
-                    "pts": 1
+                    "pts": 3
                 },
                 {
                     "pos": 11,
