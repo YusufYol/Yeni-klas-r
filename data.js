@@ -2,6 +2,16 @@
     "formula 1": {
         "news": [
             {
+                "id": 121,
+                "title": "ZANDVOORT'U KAZANAN İSİM LANDO NORRIS!",
+                "cat": "formula 1",
+                "date": "2026-08-29 11:25",
+                "content": "Formula 1 sezonunun heyecan dolu duraklarından Hollanda Zandvoort Grand Prix'si, büyük çekişmelere ve sürpriz sonuçlara sahne oldu. Yarış boyunca üstün bir performans sergileyen Lando Norris, bu sezon üst üste ikinci galibiyetini alarak şampiyona yolunda çok kritik bir zafer elde etti. Genç yetenek Kimi Antonelli harika bir sürüşle ikinci sırada yer alarak şampiyona için hanesine değerli puanlar yazdırırken, podyumun son basamağını George Russell tamamladı. Yarışın son bölümlerinde Lewis Hamilton ile nefes kesen bir üçüncülük mücadelesi veren Russell, Zandvoort pistinin darlığı ve geçiş yapmanın son derece zor olması avantajını iyi kullanarak yerini korumayı başardı. Hamilton dördüncü, takım arkadaşı Charles Leclerc ise beşinci sırada finiş gördü. Oscar Piastri ise mücadeleyi altıncı basamakta tamamladı.<br><br>Diğer yandan Red Bull cephesi için hafta sonu adeta kabusa döndü. Yarış öncesindeki yağış nedeniyle pistin bazı bölümleri ıslak kalırken, ev sahibi pilot Max Verstappen henüz ilk turu tamamlamak üzereyken bu ıslak zemine denk gelerek spin attı ve yarış dışı kaldı. Bu kazanın ardından çıkan kırmızı bayrakla yarışa bir süre ara verilirken, mücadele kaldığı yerden devam etti.<br><br>Takımda ayrıca sakatlıklar nedeniyle önemli kadro değişiklikleri yaşandı. Isack Hadjar, yaz arasında yaptığı boks antrenmanı sırasında elinden sakatlandığı için bu hafta sonu gridde yerini alamadı. Hadjar'ın yokluğunda Racing Bullstan Liam Lawson otururken, Lawson'dan boşalan Racing Bulls koltuğunda ise Red Bull'un yedek pilotu Yuki Tsunoda yarıştı. Bu karmaşık hafta sonunu kusursuz yöneten Liam Lawson harika bir performansla yedinci olurken, Yuki Tsunoda puan barajının hemen dışında kalarak yarışı on birinci sırada bitirdi.",
+                "img": "Resimler/Formula 1 Haberler/1787991915340_GettyImages-2168398789-scaled.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 120,
                 "title": "GEORGE RUSSELL, HOLLANDA’DA SPRINT POLE’ÜNÜ ALDI!",
                 "cat": "formula 1",
