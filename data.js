@@ -5791,14 +5791,14 @@
                 "isoDate": "2026-08-30",
                 "status": "Sıradaki",
                 "trackDetails": {
-                    "len": "",
-                    "turns": "",
-                    "opened": "",
-                    "record": "",
-                    "firstWinner": "",
-                    "mostWinsPilot": "",
-                    "mostWinsTeam": "",
-                    "description": ""
+                    "len": "5,077 Km",
+                    "turns": "17",
+                    "opened": "2010",
+                    "record": "1:45.455 (Marco Bezzecchi)",
+                    "firstWinner": "Casey Stoner (2010)",
+                    "mostWinsPilot": "Marc Marquez (6 Galibiyet)",
+                    "mostWinsTeam": "Honda (7 Zafer)",
+                    "description": "Teknik açıdan zorlu saat yönünün tersine viraj kombinasyonları ve arkadaki uzun düzlüğüyle bilinen, sürücülerin hassas çizgi kontrolü ile yüksek hızı mükemmel şekilde harmanlamasını gerektiren İspanya'nın ikonik pistlerinden biridir."
                 },
                 "sessions": [
                     {
@@ -5833,7 +5833,9 @@
                         "name": "Pazar: Yarış",
                         "time": "15:00"
                     }
-                ]
+                ],
+                "len": "5,077 Km",
+                "turns": "17"
             },
             {
                 "round": 14,
