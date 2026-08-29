@@ -1084,43 +1084,43 @@
                 {
                     "pos": 1,
                     "name": "Andrea Kimi Antonelli #12",
-                    "pts": 219,
+                    "pts": 242,
                     "team": "Mercedes-AMG Petronas F1 Team"
                 },
                 {
                     "pos": 2,
-                    "name": "Lewis Hamilton #44",
-                    "pts": 169,
-                    "team": "Scuderia Ferrari HP"
-                },
-                {
-                    "pos": 3,
                     "name": "George Russell #63",
-                    "pts": 160,
+                    "pts": 183,
                     "team": "Mercedes-AMG Petronas F1 Team"
                 },
                 {
-                    "pos": 4,
-                    "name": "Charles Leclerc #16",
-                    "pts": 138,
+                    "pos": 3,
+                    "name": "Lewis Hamilton #44",
+                    "pts": 183,
                     "team": "Scuderia Ferrari HP"
                 },
                 {
-                    "pos": 5,
+                    "pos": 4,
                     "name": "Lando Norris #1",
-                    "pts": 128,
+                    "pts": 159,
                     "team": "McLaren Formula 1 Team"
+                },
+                {
+                    "pos": 5,
+                    "name": "Charles Leclerc #16",
+                    "pts": 155,
+                    "team": "Scuderia Ferrari HP"
                 },
                 {
                     "pos": 6,
                     "name": "Max Verstappen #3",
-                    "pts": 109,
+                    "pts": 112,
                     "team": "Oracle Red Bull Racing"
                 },
                 {
                     "pos": 7,
                     "name": "Oscar Piastri #81",
-                    "pts": 92,
+                    "pts": 104,
                     "team": "McLaren Formula 1 Team"
                 },
                 {
@@ -1132,13 +1132,13 @@
                 {
                     "pos": 9,
                     "name": "Liam Lawson #30",
-                    "pts": 43,
+                    "pts": 49,
                     "team": "Visa Cash App RB F1 Team"
                 },
                 {
                     "pos": 10,
                     "name": "Pierre Gasly #10",
-                    "pts": 42,
+                    "pts": 44,
                     "team": "BWT Alpine F1 Team"
                 },
                 {
@@ -1167,32 +1167,32 @@
                 },
                 {
                     "pos": 15,
+                    "name": "Nico Hülkenberg #27",
+                    "pts": 6,
+                    "team": "Audi F1 Team"
+                },
+                {
+                    "pos": 16,
                     "name": "Carlos Sainz Jr. #55",
                     "pts": 6,
                     "team": "Williams Racing"
                 },
                 {
-                    "pos": 16,
+                    "pos": 17,
                     "name": "Alexander Albon #23",
                     "pts": 5,
                     "team": "Williams Racing"
                 },
                 {
-                    "pos": 17,
+                    "pos": 18,
                     "name": "Esteban Ocon #31",
                     "pts": 3,
                     "team": "Haas F1 Team"
                 },
                 {
-                    "pos": 18,
-                    "name": "Nico Hülkenberg #27",
-                    "pts": 2,
-                    "team": "Audi F1 Team"
-                },
-                {
                     "pos": 19,
                     "name": "Fernando Alonso #14",
-                    "pts": 1,
+                    "pts": 3,
                     "team": "Aston Martin Aramco F1 Team"
                 },
                 {
