@@ -9805,7 +9805,7 @@ const CIRCUITS_DB = {
         "len": "5,077 Km", "turns": "17", "record": "1:45.455 (Marco Bezzecchi)",
         "opened": "2010", "firstWinner": "Casey Stoner (2010)",
         "mostWinsPilot": "Marc Marquez (6 Galibiyet)", "mostWinsTeam": "Honda (7 Zafer)",
-        "img": "Resimler/Formula 1 Pist Resimleri/Aragon.png",
+        "img": "Resimler/MotoGP Pist Resimleri/Aragon.png",
         "description": "MotorLand Aragón, teknik açıdan zorlu saat yönünün tersine viraj kombinasyonları ve arkadaki uzun düzlüğüyle bilinen, sürücülerin hassas çizgi kontrolü ile yüksek hızı mükemmel şekilde harmanlamasını gerektiren İspanya'nın ikonik pistlerinden biridir."
     }
 };
