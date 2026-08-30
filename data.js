@@ -4541,6 +4541,17 @@
                     "status": "Finished"
                 },
                 {
+                    "pos": 11,
+                    "pilot": "Yuki Tsunoda #22",
+                    "team": "Visa Cash App RB F1 Team",
+                    "time": "2:05'39.181",
+                    "gap": "+1 Tur",
+                    "pts": 0,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
                     "pos": 12,
                     "pilot": "Arvid Lindblad #41",
                     "team": "Visa Cash App RB F1 Team",
