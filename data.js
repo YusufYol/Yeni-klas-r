@@ -9801,9 +9801,16 @@ const CIRCUITS_DB = {
         "img": "Resimler/Formula 1 Pist Resimleri/Zandvoort GP.png",
         "description": "Kuzey Denizi kıyısındaki kum tepeleri arasında uzanan Zandvoort; dar profili, akıcı temposu ve yüksek eğimli (banked) virajlarıyla pilotların sürüş hassasiyetini ve cesaretini sınayan tarihi bir pisttir."
     },
+    "Aragon": {
+        "len": "5,077 Km", "turns": "17", "record": "1:45.455 (Marco Bezzecchi)",
+        "opened": "2010", "firstWinner": "Casey Stoner (2010)",
+        "mostWinsPilot": "Marc Marquez (6 Galibiyet)", "mostWinsTeam": "Honda (7 Zafer)",
+        "img": "Resimler/Formula 1 Pist Resimleri/Aragon.png",
+        "description": "MotorLand Aragón, teknik açıdan zorlu saat yönünün tersine viraj kombinasyonları ve arkadaki uzun düzlüğüyle bilinen, sürücülerin hassas çizgi kontrolü ile yüksek hızı mükemmel şekilde harmanlamasını gerektiren İspanya'nın ikonik pistlerinden biridir."
+    }
 };
 
-const TRACK_STATS = CIRCUITS_DB["Zandvoort"];
+const TRACK_STATS = CIRCUITS_DB["Aragon"];
 
 // Dinamik veriler script.js tarafından güncellenecektir.
 let CURRENT_WEEKEND_DATA = null;
