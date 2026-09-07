@@ -1094,25 +1094,25 @@
                 {
                     "pos": 1,
                     "name": "Andrea Kimi Antonelli #12",
-                    "pts": 242,
+                    "pts": 267,
                     "team": "Mercedes-AMG Petronas F1 Team"
                 },
                 {
                     "pos": 2,
                     "name": "George Russell #63",
-                    "pts": 183,
+                    "pts": 201,
                     "team": "Mercedes-AMG Petronas F1 Team"
                 },
                 {
                     "pos": 3,
                     "name": "Lewis Hamilton #44",
-                    "pts": 183,
+                    "pts": 191,
                     "team": "Scuderia Ferrari HP"
                 },
                 {
                     "pos": 4,
                     "name": "Lando Norris #1",
-                    "pts": 159,
+                    "pts": 171,
                     "team": "McLaren Formula 1 Team"
                 },
                 {
@@ -1124,43 +1124,43 @@
                 {
                     "pos": 6,
                     "name": "Max Verstappen #3",
-                    "pts": 112,
+                    "pts": 127,
                     "team": "Oracle Red Bull Racing"
                 },
                 {
                     "pos": 7,
                     "name": "Oscar Piastri #81",
-                    "pts": 104,
+                    "pts": 116,
                     "team": "McLaren Formula 1 Team"
                 },
                 {
                     "pos": 8,
                     "name": "Isack Hadjar #6",
-                    "pts": 68,
+                    "pts": 71,
                     "team": "Oracle Red Bull Racing"
                 },
                 {
                     "pos": 9,
                     "name": "Liam Lawson #30",
-                    "pts": 49,
+                    "pts": 51,
                     "team": "Visa Cash App RB F1 Team"
                 },
                 {
                     "pos": 10,
                     "name": "Pierre Gasly #10",
-                    "pts": 44,
+                    "pts": 41,
                     "team": "BWT Alpine F1 Team"
                 },
                 {
                     "pos": 11,
                     "name": "Arvid Lindblad #41",
-                    "pts": 23,
+                    "pts": 29,
                     "team": "Visa Cash App RB F1 Team"
                 },
                 {
                     "pos": 12,
                     "name": "Franco Colapinto #43",
-                    "pts": 19,
+                    "pts": 21,
                     "team": "BWT Alpine F1 Team"
                 },
                 {
@@ -1207,18 +1207,24 @@
                 },
                 {
                     "pos": 20,
+                    "name": "Yuki Tsunoda",
+                    "pts": 1,
+                    "team": "Visa Cash App RB F1 Team"
+                },
+                {
+                    "pos": 21,
                     "name": "Lance Stroll #18",
                     "pts": 0,
                     "team": "Aston Martin Aramco F1 Team"
                 },
                 {
-                    "pos": 21,
+                    "pos": 22,
                     "name": "Valtteri Bottas #77",
                     "pts": 0,
                     "team": "Cadillac Formula 1 Team"
                 },
                 {
-                    "pos": 22,
+                    "pos": 23,
                     "name": "Sergio Pérez #11",
                     "pts": 0,
                     "team": "Cadillac Formula 1 Team"
@@ -1228,32 +1234,32 @@
                 {
                     "pos": 1,
                     "name": "Mercedes-AMG Petronas F1 Team",
-                    "pts": 425
+                    "pts": 468
                 },
                 {
                     "pos": 2,
                     "name": "Scuderia Ferrari HP",
-                    "pts": 338
+                    "pts": 346
                 },
                 {
                     "pos": 3,
                     "name": "McLaren F1 Team",
-                    "pts": 263
+                    "pts": 287
                 },
                 {
                     "pos": 4,
                     "name": "Oracle Red Bull Racing",
-                    "pts": 186
+                    "pts": 204
                 },
                 {
                     "pos": 5,
                     "name": "Visa Cash App RB F1 Team",
-                    "pts": 66
+                    "pts": 75
                 },
                 {
                     "pos": 6,
                     "name": "BWT Alpine F1 Team",
-                    "pts": 63
+                    "pts": 62
                 },
                 {
                     "pos": 7,
@@ -1626,7 +1632,7 @@
                 "date": "04-06 Eylül",
                 "track": "Monza",
                 "isoDate": "2026-09-06",
-                "status": "Sıradaki",
+                "status": "Tamamlandı",
                 "trackDetails": {
                     "len": "5,793 Km",
                     "turns": "11",
@@ -1669,7 +1675,29 @@
                 "date": "11-13 Eylül",
                 "track": "Madring",
                 "isoDate": "2026-09-13",
-                "status": "Bekliyor"
+                "status": "Sıradaki",
+                "sessions": [
+                    {
+                        "name": "Cuma: 1. Antrenman Seansı",
+                        "time": "14:30"
+                    },
+                    {
+                        "name": "Cuma: 2. Antrenman Seansı",
+                        "time": "18:00"
+                    },
+                    {
+                        "name": "Cumartesi: 3. Antrenman Seansı",
+                        "time": "13.30"
+                    },
+                    {
+                        "name": "Cumartesi: Sıralama Turları",
+                        "time": "17.00"
+                    },
+                    {
+                        "name": "Pazar: Yarış",
+                        "time": "16.00"
+                    }
+                ]
             },
             {
                 "round": 17,
@@ -10098,10 +10126,17 @@ const CIRCUITS_DB = {
         "mostWinsPilot": "Marc Márquez (5 Galibiyet)", "mostWinsTeam": "Honda (5 Zafer)",
         "img": "Resimler/MotoGP Pist Resimleri/Misano.png",
         "description": "İtalya'nın Adriyatik kıyısına yakın konumu, teknik viraj kombinasyonları ve coşkulu tribün atmosferiyle bilinen San Marino GP, sürücülerin hassas çizgi kontrolünü ve ritim yeteneğini en üst düzeyde sınayan ikonik bir pisttir."
+    },
+    "Madring": {
+        "len": "5,416 km", "turns": "22", "record": "-",
+        "opened": "2026", "firstWinner": "-",
+        "mostWinsPilot": "-", "mostWinsTeam": "-",
+        "img": "Resimler/Formula 1 Pist Resimleri/Madrid.png",
+        "description": "İspanya'nın başkenti Madrid'de IFEMA fuar alanı ve Valdebebas çevresine kurulan Madring; hem kalıcı pist hem de cadde bölümlerini birleştiren yarı caddesel hibrit yapısı, 20 dereceyi aşan eğimli ikonik virajı (La Monumental) ve yüksek hızlı düzlükleriyle modern Formula 1 takvimine heyecan katmayı hedefleyen yenilikçi bir pisttir."
     }
 };
 
-const TRACK_STATS = CIRCUITS_DB["Aragon"];
+const TRACK_STATS = CIRCUITS_DB["Madring"];
 
 // Dinamik veriler script.js tarafından güncellenecektir.
 let CURRENT_WEEKEND_DATA = null;
