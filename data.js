@@ -10091,6 +10091,13 @@ const CIRCUITS_DB = {
         "mostWinsPilot": "Marc Marquez (6 Galibiyet)", "mostWinsTeam": "Honda (7 Zafer)",
         "img": "Resimler/MotoGP Pist Resimleri/Aragon.png",
         "description": "MotorLand Aragón, teknik açıdan zorlu saat yönünün tersine viraj kombinasyonları ve arkadaki uzun düzlüğüyle bilinen, sürücülerin hassas çizgi kontrolü ile yüksek hızı mükemmel şekilde harmanlamasını gerektiren İspanya'nın ikonik pistlerinden biridir."
+    },
+    "Misano": {
+        "len": "4,226 km", "turns": "16", "record": "1:30.031 (Francesco Bagnaia)",
+        "opened": "1981", "firstWinner": "Marco Lucchinelli (1981)",
+        "mostWinsPilot": "Marc Márquez (5 Galibiyet)", "mostWinsTeam": "Honda (5 Zafer)",
+        "img": "Resimler/MotoGP Pist Resimleri/Misano.png",
+        "description": "İtalya'nın Adriyatik kıyısına yakın konumu, teknik viraj kombinasyonları ve coşkulu tribün atmosferiyle bilinen San Marino GP, sürücülerin hassas çizgi kontrolünü ve ritim yeteneğini en üst düzeyde sınayan ikonik bir pisttir."
     }
 };
 
