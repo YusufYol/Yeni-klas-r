@@ -4939,6 +4939,16 @@
     "motogp": {
         "news": [
             {
+                "id": 122,
+                "title": "MARC MARQUEZ ARAGON GP'Yİ KAZANDI!",
+                "cat": "motogp",
+                "date": "2026-09-08 19:29",
+                "content": "Aragón İspanya GP’sinde piste çıkan sürücüler, izleyicilere unutulmaz ve bir o kadar da heyecan dolu bir yarış deneyimi yaşattı. Başından sonuna kadar yüksek temposunu koruyan mücadelede zafer, sergilediği üstün performansla rakiplerini geride bırakmayı başaran deneyimli pilot Marc Marquez’in oldu. Pisti mükemmel bir şekilde analiz ederek çizgisini koruyan Marquez, damalı bayrağı ilk sırada görerek Aragón’da bir kez daha kalitesini kanıtladı ve kürsünün en üst basamağındaki yerini aldı.<br><br>Şampiyonluk yarışındaki rekabetin tüm sıcaklığıyla hissedildiği Aragón’da, Marquez’in arkasındaki podyum mücadelesi de büyük bir nefes kesti. Sezonun dikkat çeken genç yeteneklerinden Pedro Acosta, sergilediği dirençli ve istikrarlı sürüşle yarışı ikinci sırada tamamlayarak önemli bir başarıya imza attı. Podyumu tamamlayan bir diğer isim ise yarışı üçüncü sırada bitiren Marco Bezzecchi oldu. İki sürücü de yarış boyunca sergiledikleri stratejik hamlelerle izleyicilerden büyük alkış topladı.<br><br>Öte yandan, motor sporları tutkunlarının ve Türk sporseverlerin gözünün üzerinde olduğu temsilcimiz Toprak Razgatlıoğlu için yarış ne yazık ki talihsiz bir şekilde son buldu. Puan barajında olup puan için mücadele veren temsilcimiz, yarışın kritik anlarında yaşadığı kaza sonrasında mücadeleye veda etmek zorunda kaldı. Yaşanan bu talihsiz kazaya rağmen, Toprak'ın pistteki hırsı ve potansiyeli önümüzdeki yarışlar öncesinde sporseverlere ümit vermeye devam ediyor.",
+                "img": "Resimler/MotoGP Haberler/1788884981553_5341.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 118,
                 "title": "SILVERSTONE'DA KAZANAN İSİM RAUL FERNANDEZ!",
                 "cat": "motogp",
