@@ -2,6 +2,16 @@
     "formula 1": {
         "news": [
             {
+                "id": 123,
+                "title": "ANDREA KIMI ANTONELLI MONZA'DA TARİH YAZDI!",
+                "cat": "formula 1",
+                "date": "2026-09-08 19:41",
+                "content": "Formula 1 Monza Grand Prix’sinde pist, tarih yazan anlara ve unutulmaz bir rekabete sahne oldu. Yarışa motor cezası nedeniyle 19. sıradan başlamak zorunda kalan şampiyona lideri Andrea Kimi Antonelli, ustaca uygulanan lastik ve sürüş stratejisiyle adeta destan yazarak damalı bayrağı ilk sırada gördü. İtalyan sürücü bu zaferle birlikte, tam 60 yıl sonra Monza’da kendi evinde galibiyete ulaşan ilk İtalyan pilot unvanını kazanarak adını altın harflerle tarihe kazıdı.<br><br>Mücadelenin büyük bölümünü lider götüren takım arkadaşı George Russell ise yarışın son bölümlerinde Antonelli’nin taze lastiklerle sergilediği yüksek tempoya direnemedi ve ikincilikle yetinmek zorunda kaldı. Çalkantılı bir sezon geçiren Max Verstappen ise Monza’da sergilediği dirençli sürüşle podyumun üçüncü basamağına çıkmayı başardı.<br><br>Son iki yarışın galibi Lando Norris 4. sırayı alırken, takım arkadaşı Oscar Piastri ise yarışı 5. sırada tamamlayarak McLaren adına puanları hanelerine yazdırdılar.<br><br>Ev sahibi Ferrari cephesinde ise işler tamamen kabusa dönüştü. Büyük umutlarla getirilen güncellemelere rağmen iki sürücünün daha ilk turda birbirleriyle tutuştuğu mücadele, sıramanın altüst olmasına neden oldu. Charles Leclerc yarışın ilk bölümünde spin atıp kaza yaparak yarış dışı kalırken, Lewis Hamilton ise hatalı strateji tercihleri ve ilk turda takım arkadaşı ile mücadelesi sonucu çakıla taşıp 10. sıraya kadar düştü. Bu mücadele Hamilton için maalesef hüsranla bitti. Yarışı 6. sırada tamamladı.<br><br>Cumartesi günkü sıralama turlarında sürpriz bir şekilde pole pozisyonunu elde eden Alpine sürücüsü Pierre Gasly ise yarışı 7. sırada tamamladı.",
+                "img": "Resimler/Formula 1 Haberler/1788885665971_5338.jpg",
+                "author": "Yusuf Yol",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Yusuf Yol.png"
+            },
+            {
                 "id": 121,
                 "title": "ZANDVOORT'U KAZANAN İSİM LANDO NORRIS!",
                 "cat": "formula 1",
