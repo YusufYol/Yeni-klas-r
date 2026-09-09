@@ -4812,6 +4812,17 @@
                     "status": "Finished"
                 },
                 {
+                    "pos": 10,
+                    "pilot": "Yuki Tsunoda #22",
+                    "team": "Visa Cash App RB F1 Team",
+                    "time": "1:52'13.468",
+                    "gap": "+58.187",
+                    "pts": 1,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
                     "pos": 11,
                     "pilot": "Gabriel Bortoleto #5",
                     "team": "Audi F1 Team",
