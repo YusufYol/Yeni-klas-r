@@ -1114,13 +1114,13 @@
                 {
                     "pos": 1,
                     "name": "Andrea Kimi Antonelli #12",
-                    "pts": 267,
+                    "pts": 292,
                     "team": "Mercedes-AMG Petronas F1 Team"
                 },
                 {
                     "pos": 2,
                     "name": "George Russell #63",
-                    "pts": 201,
+                    "pts": 211,
                     "team": "Mercedes-AMG Petronas F1 Team"
                 },
                 {
@@ -1132,25 +1132,25 @@
                 {
                     "pos": 4,
                     "name": "Lando Norris #1",
-                    "pts": 171,
+                    "pts": 186,
                     "team": "McLaren Formula 1 Team"
                 },
                 {
                     "pos": 5,
                     "name": "Charles Leclerc #16",
-                    "pts": 155,
+                    "pts": 167,
                     "team": "Scuderia Ferrari HP"
                 },
                 {
                     "pos": 6,
                     "name": "Max Verstappen #3",
-                    "pts": 127,
+                    "pts": 145,
                     "team": "Oracle Red Bull Racing"
                 },
                 {
                     "pos": 7,
                     "name": "Oscar Piastri #81",
-                    "pts": 116,
+                    "pts": 120,
                     "team": "McLaren Formula 1 Team"
                 },
                 {
@@ -1162,7 +1162,7 @@
                 {
                     "pos": 9,
                     "name": "Liam Lawson #30",
-                    "pts": 51,
+                    "pts": 59,
                     "team": "Visa Cash App RB F1 Team"
                 },
                 {
@@ -1174,13 +1174,13 @@
                 {
                     "pos": 11,
                     "name": "Arvid Lindblad #41",
-                    "pts": 29,
+                    "pts": 31,
                     "team": "Visa Cash App RB F1 Team"
                 },
                 {
                     "pos": 12,
                     "name": "Franco Colapinto #43",
-                    "pts": 21,
+                    "pts": 27,
                     "team": "BWT Alpine F1 Team"
                 },
                 {
@@ -1198,7 +1198,7 @@
                 {
                     "pos": 15,
                     "name": "Nico Hülkenberg #27",
-                    "pts": 6,
+                    "pts": 7,
                     "team": "Audi F1 Team"
                 },
                 {
@@ -1226,12 +1226,6 @@
                     "team": "Aston Martin Aramco F1 Team"
                 },
                 {
-                    "pos": 20,
-                    "name": "Yuki Tsunoda",
-                    "pts": 1,
-                    "team": "Visa Cash App RB F1 Team"
-                },
-                {
                     "pos": 21,
                     "name": "Lance Stroll #18",
                     "pts": 0,
@@ -1240,12 +1234,6 @@
                 {
                     "pos": 22,
                     "name": "Valtteri Bottas #77",
-                    "pts": 0,
-                    "team": "Cadillac Formula 1 Team"
-                },
-                {
-                    "pos": 23,
-                    "name": "Sergio Pérez #11",
                     "pts": 0,
                     "team": "Cadillac Formula 1 Team"
                 }
