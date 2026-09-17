@@ -1695,7 +1695,7 @@
                 "date": "11-13 Eylül",
                 "track": "Madring",
                 "isoDate": "2026-09-13",
-                "status": "Sıradaki",
+                "status": "Tamamlandı",
                 "sessions": [
                     {
                         "name": "Cuma: 1. Antrenman Seansı",
@@ -1717,7 +1717,17 @@
                         "name": "Pazar: Yarış",
                         "time": "16.00"
                     }
-                ]
+                ],
+                "trackDetails": {
+                    "len": "",
+                    "turns": "",
+                    "opened": "",
+                    "record": "",
+                    "firstWinner": "",
+                    "mostWinsPilot": "",
+                    "mostWinsTeam": "",
+                    "description": ""
+                }
             },
             {
                 "round": 17,
@@ -4959,6 +4969,239 @@
                     "team": "Scuderia Ferrari HP",
                     "time": "1'29.371",
                     "gap": "+52 Tur",
+                    "pts": 0,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "DNF"
+                }
+            ],
+            "16": [
+                {
+                    "pos": 1,
+                    "pilot": "Andrea Kimi Antonelli #12",
+                    "team": "Mercedes-AMG Petronas F1 Team",
+                    "time": "1:34'23.754",
+                    "gap": "-",
+                    "pts": 25,
+                    "laps": 0,
+                    "fastest": true,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 2,
+                    "pilot": "Max Verstappen #3",
+                    "team": "Oracle Red Bull Racing",
+                    "time": "1:34'28.105",
+                    "gap": "+4.351",
+                    "pts": 18,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 3,
+                    "pilot": "Lando Norris #1",
+                    "team": "McLaren Formula 1 Team",
+                    "time": "1:34'28.843",
+                    "gap": "+5.089",
+                    "pts": 15,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 4,
+                    "pilot": "Charles Leclerc #16",
+                    "team": "Scuderia Ferrari HP",
+                    "time": "1:34'52.870",
+                    "gap": "+29.116",
+                    "pts": 12,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 5,
+                    "pilot": "George Russell #63",
+                    "team": "Mercedes-AMG Petronas F1 Team",
+                    "time": "1:34'53.583",
+                    "gap": "+29.829",
+                    "pts": 10,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 6,
+                    "pilot": "Liam Lawson #30",
+                    "team": "Visa Cash App RB F1 Team",
+                    "time": "1:35'50.500",
+                    "gap": "+1'26.746",
+                    "pts": 8,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 7,
+                    "pilot": "Franco Colapinto #43",
+                    "team": "BWT Alpine F1 Team",
+                    "time": "1:35'58.035",
+                    "gap": "+1'34.281",
+                    "pts": 6,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 8,
+                    "pilot": "Oscar Piastri #81",
+                    "team": "McLaren Formula 1 Team",
+                    "time": "1:35'59.593",
+                    "gap": "+1'35.839",
+                    "pts": 4,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 9,
+                    "pilot": "Arvid Lindblad #41",
+                    "team": "Visa Cash App RB F1 Team",
+                    "time": "1:34'34.162",
+                    "gap": "+1 Tur",
+                    "pts": 2,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 10,
+                    "pilot": "Nico Hülkenberg #27",
+                    "team": "Audi F1 Team",
+                    "time": "1:34'35.052",
+                    "gap": "+1 Tur",
+                    "pts": 1,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 11,
+                    "pilot": "Esteban Ocon #31",
+                    "team": "Haas F1 Team",
+                    "time": "1:34'38.897",
+                    "gap": "+1 Tur",
+                    "pts": 0,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 12,
+                    "pilot": "Pierre Gasly #10",
+                    "team": "BWT Alpine F1 Team",
+                    "time": "1:34'49.906",
+                    "gap": "+1 Tur",
+                    "pts": 0,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 13,
+                    "pilot": "Gabriel Bortoleto #5",
+                    "team": "Audi F1 Team",
+                    "time": "1:34'52.143",
+                    "gap": "+1 Tur",
+                    "pts": 0,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 15,
+                    "pilot": "Alexander Albon #23",
+                    "team": "Williams Racing",
+                    "time": "1:35'49.966",
+                    "gap": "+1 Tur",
+                    "pts": 0,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 16,
+                    "pilot": "Oliver Bearman #87",
+                    "team": "Haas F1 Team",
+                    "time": "1:35'53.717",
+                    "gap": "+1 Tur",
+                    "pts": 0,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 17,
+                    "pilot": "Fernando Alonso #14",
+                    "team": "Aston Martin Aramco F1 Team",
+                    "time": "1:34'57.530",
+                    "gap": "+2 Tur",
+                    "pts": 0,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 18,
+                    "pilot": "Valtteri Bottas #77",
+                    "team": "Cadillac Formula 1 Team",
+                    "time": "1:35'13.000",
+                    "gap": "+3 Tur",
+                    "pts": 0,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": "DNF",
+                    "pilot": "Carlos Sainz Jr. #55",
+                    "team": "Williams Racing",
+                    "time": "1:15'48.748",
+                    "gap": "+14 Tur",
+                    "pts": 0,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "DNF"
+                },
+                {
+                    "pos": "DNF",
+                    "pilot": "Sergio Pérez #11",
+                    "team": "Cadillac Formula 1 Team",
+                    "time": "54'39.979",
+                    "gap": "+26 Tur",
+                    "pts": 0,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "DNF"
+                },
+                {
+                    "pos": "DNF",
+                    "pilot": "Lance Stroll #18",
+                    "team": "Aston Martin Aramco F1 Team",
+                    "time": "21'01.423",
+                    "gap": "+45 Tur",
+                    "pts": 0,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "DNF"
+                },
+                {
+                    "pos": "DNF",
+                    "pilot": "Lewis Hamilton #44",
+                    "team": "Scuderia Ferrari HP",
+                    "time": "10'55.172",
+                    "gap": "+51 Tur",
                     "pts": 0,
                     "laps": 0,
                     "fastest": false,
