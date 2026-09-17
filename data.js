@@ -10996,7 +10996,7 @@ const CIRCUITS_DB = {
     }
 };
 
-const TRACK_STATS = CIRCUITS_DB["Spielberg (MotoGP)"];
+const TRACK_STATS = CIRCUITS_DB["Spielberg"];
 
 // Dinamik veriler script.js tarafından güncellenecektir.
 let CURRENT_WEEKEND_DATA = null;
