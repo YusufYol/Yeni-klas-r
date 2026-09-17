@@ -10099,57 +10099,57 @@
                 {
                     "pos": 1,
                     "name": "Aprilia Racing",
-                    "pts": 488
+                    "pts": 515
                 },
                 {
                     "pos": 2,
-                    "name": "Trackhouse Racing",
-                    "pts": 389
+                    "name": "Ducati Lenovo Team",
+                    "pts": 417
                 },
                 {
                     "pos": 3,
-                    "name": "Ducati Lenovo Team",
-                    "pts": 380
+                    "name": "Trackhouse Racing",
+                    "pts": 402
                 },
                 {
                     "pos": 4,
                     "name": "Red Bull KTM Factory Racing",
-                    "pts": 267
+                    "pts": 292
                 },
                 {
                     "pos": 5,
                     "name": "Pertamina Enduro VR46",
-                    "pts": 261
+                    "pts": 279
                 },
                 {
                     "pos": 6,
                     "name": "BK8 Gresini Racing MotoGP",
-                    "pts": 227
+                    "pts": 267
                 },
                 {
                     "pos": 7,
                     "name": "Repsol Honda Team",
-                    "pts": 121
+                    "pts": 129
                 },
                 {
                     "pos": 8,
+                    "name": "Red Bull KTM Tech3",
+                    "pts": 107
+                },
+                {
+                    "pos": 9,
                     "name": "Castrol Honda LCR",
                     "pts": 100
                 },
                 {
-                    "pos": 9,
-                    "name": "Red Bull KTM Tech3",
-                    "pts": 97
-                },
-                {
                     "pos": 10,
                     "name": "Monster Energy Yamaha MotoGP",
-                    "pts": 79
+                    "pts": 85
                 },
                 {
                     "pos": 11,
                     "name": "Prima Pramac Yamaha MotoGP",
-                    "pts": 42
+                    "pts": 46
                 }
             ]
         }
