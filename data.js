@@ -1242,32 +1242,32 @@
                 {
                     "pos": 1,
                     "name": "Mercedes-AMG Petronas F1 Team",
-                    "pts": 468
+                    "pts": 503
                 },
                 {
                     "pos": 2,
                     "name": "Scuderia Ferrari HP",
-                    "pts": 346
+                    "pts": 358
                 },
                 {
                     "pos": 3,
                     "name": "McLaren F1 Team",
-                    "pts": 287
+                    "pts": 306
                 },
                 {
                     "pos": 4,
                     "name": "Oracle Red Bull Racing",
-                    "pts": 204
+                    "pts": 230
                 },
                 {
                     "pos": 5,
                     "name": "Visa Cash App RB F1 Team",
-                    "pts": 75
+                    "pts": 77
                 },
                 {
                     "pos": 6,
                     "name": "BWT Alpine F1 Team",
-                    "pts": 62
+                    "pts": 68
                 },
                 {
                     "pos": 7,
@@ -1277,7 +1277,7 @@
                 {
                     "pos": 8,
                     "name": "Audi F1 Team",
-                    "pts": 16
+                    "pts": 17
                 },
                 {
                     "pos": 9,
