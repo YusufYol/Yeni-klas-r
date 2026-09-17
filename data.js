@@ -1736,7 +1736,41 @@
                 "date": "24-26 Eylül",
                 "track": "Baku",
                 "isoDate": "2026-09-26",
-                "status": "Bekliyor"
+                "status": "Sıradaki",
+                "trackDetails": {
+                    "len": "6.003 km",
+                    "turns": "20",
+                    "opened": "2016",
+                    "record": "1:43.009 (Charles Leclerc)",
+                    "firstWinner": "Nico Rosberg (2016)",
+                    "mostWinsPilot": "Max Verstappen ve Sergio Perez (2 Galibiyet)",
+                    "mostWinsTeam": "Oracle Red Bull Racing (5 Galibiyet)",
+                    "description": "Tarihi İçerişehir surlarının dar sokakları ile Hazar Denizi kıyısındaki yüksek hızlı uzun düzlükleri harmanlayan Bakü Şehir Pisti, takvimdeki en heyecanlı ve sürprize açık cadde yarışlarına ev sahipliği yapmaktadır."
+                },
+                "len": "6.003 km",
+                "turns": "20",
+                "sessions": [
+                    {
+                        "name": "Cuma: 1. Antrenman Seansı",
+                        "time": "11:30"
+                    },
+                    {
+                        "name": "Cuma: 2. Antrenman Seansı",
+                        "time": "15:00"
+                    },
+                    {
+                        "name": "Cumartesi: 3. Antrenman Seansı",
+                        "time": "11:30"
+                    },
+                    {
+                        "name": "Cumartesi: Sıralama Turları",
+                        "time": "15:00"
+                    },
+                    {
+                        "name": "Pazar: Yarış",
+                        "time": "14:00"
+                    }
+                ]
             },
             {
                 "round": 18,
