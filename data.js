@@ -1226,6 +1226,12 @@
                     "team": "Aston Martin Aramco F1 Team"
                 },
                 {
+                    "pos": 20,
+                    "name": "Yuki Tsunoda #22",
+                    "pts": 1,
+                    "team": "Visa Cash App RB F1 Team"
+                },
+                {
                     "pos": 21,
                     "name": "Lance Stroll #18",
                     "pts": 0,
@@ -1234,6 +1240,12 @@
                 {
                     "pos": 22,
                     "name": "Valtteri Bottas #77",
+                    "pts": 0,
+                    "team": "Cadillac Formula 1 Team"
+                },
+                {
+                    "pos": 23,
+                    "name": "Sergio Pérez #11",
                     "pts": 0,
                     "team": "Cadillac Formula 1 Team"
                 }
@@ -5135,6 +5147,17 @@
                     "pilot": "Gabriel Bortoleto #5",
                     "team": "Audi F1 Team",
                     "time": "1:34'52.143",
+                    "gap": "+1 Tur",
+                    "pts": 0,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 14,
+                    "pilot": "Yuki Tsunoda #22",
+                    "team": "Visa Cash App RB F1 Team",
+                    "time": "1:35'23.917",
                     "gap": "+1 Tur",
                     "pts": 0,
                     "laps": 0,
@@ -10093,7 +10116,43 @@
                     "name": "Maverick Vinales #12",
                     "pts": 10,
                     "team": "Red Bull KTM Tech3"
-                }
+                },
+                {
+                    "pos": 23,
+                    "name": "Iker Lecuona #27",
+                    "pts": 9,
+                    "team": "BK8 Gresini Racing MotoGP"
+                },
+                {
+                    "pos": 24,
+                    "name": "Augusto Fernandez #37",
+                    "pts": 6,
+                    "team": "Yamaha Factory Racing"
+                },
+                {
+                    "pos": 25,
+                    "name": "Pol Espargaro #44",
+                    "pts": 5,
+                    "team": "Red Bull KTM Tech3"
+                },
+                {
+                    "pos": 26,
+                    "name": "Cal Crutchlow #35",
+                    "pts": 0,
+                    "team": "Castrol Honda LCR"
+                },
+                {
+                    "pos": 27,
+                    "name": "Jonas Folger #94",
+                    "pts": 0,
+                    "team": "Red Bull KTM Tech3"
+                },
+                {
+                    "pos": 28,
+                    "name": "Michele Pirro #51",
+                    "pts": 0,
+                    "team": "BK8 Gresini Racing MotoGP"
+                },
             ],
             "teams": [
                 {
@@ -10919,10 +10978,17 @@ const CIRCUITS_DB = {
         "mostWinsPilot": "-", "mostWinsTeam": "-",
         "img": "Resimler/Formula 1 Pist Resimleri/Madrid.png",
         "description": "İspanya'nın başkenti Madrid'de IFEMA fuar alanı ve Valdebebas çevresine kurulan Madring; hem kalıcı pist hem de cadde bölümlerini birleştiren yarı caddesel hibrit yapısı, 20 dereceyi aşan eğimli ikonik virajı (La Monumental) ve yüksek hızlı düzlükleriyle modern Formula 1 takvimine heyecan katmayı hedefleyen yenilikçi bir pisttir."
+    },
+    "Spielberg (MotoGP)": {
+        "len": "4,348 km", "turns": "11", "record": "1:29.840 (Francesco Bagnaia)",
+        "opened": "1996", "firstWinner": "Mick Doohan (1996)",
+        "mostWinsPilot": "Francesco Bagnaia (3 Galibiyet)", "mostWinsTeam": "Ducati Lenovo (8 Galibiyet)",
+        "img": "Resimler/MotoGP Pist Resimleri/Spielberg.png",
+        "description": "Alpler'in eşsiz doğasında yer alan Red Bull Ring, dik tırmanışları, sert frenleme noktaları ve yüksek ortalama hızıyla motor gücünü ve cesareti sınırlarına kadar sınayan ikonik bir pisttir."
     }
 };
 
-const TRACK_STATS = CIRCUITS_DB["Madring"];
+const TRACK_STATS = CIRCUITS_DB["Spielberg (MotoGP)"];
 
 // Dinamik veriler script.js tarafından güncellenecektir.
 let CURRENT_WEEKEND_DATA = null;
