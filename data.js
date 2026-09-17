@@ -6521,7 +6521,7 @@
                     "len": "4,348 km",
                     "turns": "11",
                     "opened": "1996",
-                    "record": "1:29.840 ( Francesco Bagnaia",
+                    "record": "1:29.840 (Francesco Bagnaia)",
                     "firstWinner": "Mick Doohan (1996)",
                     "mostWinsPilot": "Francesco Bagnaia (3 Galibiyet)",
                     "mostWinsTeam": "Ducati (8 Galibiyet)",
@@ -10160,7 +10160,7 @@
                     "name": "Michele Pirro #51",
                     "pts": 0,
                     "team": "BK8 Gresini Racing MotoGP"
-                },
+                }
             ],
             "teams": [
                 {
