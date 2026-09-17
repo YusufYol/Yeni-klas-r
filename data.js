@@ -6432,7 +6432,7 @@
                 "date": "11-13 Eylül",
                 "track": "Misano",
                 "isoDate": "2026-09-13",
-                "status": "Sıradaki",
+                "status": "Tamamlandı",
                 "sessions": [
                     {
                         "name": "Cuma: 1. Antrenman",
@@ -6466,7 +6466,17 @@
                         "name": "Pazar: Yarış",
                         "time": "15:00"
                     }
-                ]
+                ],
+                "trackDetails": {
+                    "len": "",
+                    "turns": "",
+                    "opened": "",
+                    "record": "",
+                    "firstWinner": "",
+                    "mostWinsPilot": "",
+                    "mostWinsTeam": "",
+                    "description": ""
+                }
             },
             {
                 "round": 15,
@@ -9664,6 +9674,239 @@
                     "team": "Pertamina Enduro VR46",
                     "time": "9'07.915",
                     "gap": "+18 Tur",
+                    "pts": 0,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "DNF"
+                }
+            ],
+            "14": [
+                {
+                    "pos": 1,
+                    "pilot": "Marc Marquez #93",
+                    "team": "Ducati Lenovo Team",
+                    "time": "41'13.013",
+                    "gap": "-",
+                    "pts": 25,
+                    "laps": 0,
+                    "fastest": true,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 2,
+                    "pilot": "Alex Marquez #73",
+                    "team": "BK8 Gresini Racing MotoGP",
+                    "time": "41'13.670",
+                    "gap": "+0.657",
+                    "pts": 20,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 3,
+                    "pilot": "Pedro Acosta #37",
+                    "team": "Red Bull KTM Factory Racing",
+                    "time": "41'15.339",
+                    "gap": "+2.326",
+                    "pts": 16,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 4,
+                    "pilot": "Fermin Aldeguer #54",
+                    "team": "BK8 Gresini Racing MotoGP",
+                    "time": "41'19.040",
+                    "gap": "+6.027",
+                    "pts": 13,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 5,
+                    "pilot": "Jorge Martin #89",
+                    "team": "Aprilia Racing",
+                    "time": "41'27.034",
+                    "gap": "+14.021",
+                    "pts": 11,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 6,
+                    "pilot": "Raul Fernandez #25",
+                    "team": "Trackhouse Racing",
+                    "time": "41'31.265",
+                    "gap": "+18.252",
+                    "pts": 10,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 7,
+                    "pilot": "Fabio Di Giannantonio #49",
+                    "team": "Pertamina Enduro VR46",
+                    "time": "41'33.594",
+                    "gap": "+20.581",
+                    "pts": 9,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 8,
+                    "pilot": "Enea Bastianini #23",
+                    "team": "Red Bull KTM Tech3",
+                    "time": "41'33.871",
+                    "gap": "+20.858",
+                    "pts": 8,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 9,
+                    "pilot": "Luca Marini #10",
+                    "team": "Repsol Honda Team",
+                    "time": "41'35.924",
+                    "gap": "+22.911",
+                    "pts": 7,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 10,
+                    "pilot": "Fabio Quartararo #20",
+                    "team": "Monster Energy Yamaha MotoGP",
+                    "time": "41'36.242",
+                    "gap": "+23.229",
+                    "pts": 6,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 11,
+                    "pilot": "Brad Binder #33",
+                    "team": "Red Bull KTM Factory Racing",
+                    "time": "41'36.918",
+                    "gap": "+23.905",
+                    "pts": 5,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 12,
+                    "pilot": "Toprak Razgatlıoğlu #7",
+                    "team": "Prima Pramac Yamaha MotoGP",
+                    "time": "41'41.044",
+                    "gap": "+28.031",
+                    "pts": 4,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 13,
+                    "pilot": "Franco Morbidelli #21",
+                    "team": "Pertamina Enduro VR46",
+                    "time": "41'41.940",
+                    "gap": "+28.927",
+                    "pts": 3,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": 14,
+                    "pilot": "Pol Espargaro #44",
+                    "team": "Red Bull KTM Tech3",
+                    "time": "41'44.805",
+                    "gap": "+31.792",
+                    "pts": 2,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
+                    "pos": "DNF",
+                    "pilot": "Johann Zarco #5",
+                    "team": "Castrol Honda LCR",
+                    "time": "37'00.834",
+                    "gap": "+3 Tur",
+                    "pts": 1,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "DNF"
+                },
+                {
+                    "pos": "DNF",
+                    "pilot": "Alex Rins #42",
+                    "team": "Monster Energy Yamaha MotoGP",
+                    "time": "24'49.763",
+                    "gap": "+11 Tur",
+                    "pts": 0,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "DNF"
+                },
+                {
+                    "pos": "DNF",
+                    "pilot": "Francesco Bagnaia #63",
+                    "team": "Ducati Lenovo Team",
+                    "time": "7'49.800",
+                    "gap": "+22 Tur",
+                    "pts": 0,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "DNF"
+                },
+                {
+                    "pos": "DNF",
+                    "pilot": "Joan Mir #36",
+                    "team": "Repsol Honda Team",
+                    "time": "7'55.487",
+                    "gap": "+22 Tur",
+                    "pts": 0,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "DNF"
+                },
+                {
+                    "pos": "DNF",
+                    "pilot": "Diogo Moreira #11",
+                    "team": "Castrol Honda LCR",
+                    "time": "3'12.754",
+                    "gap": "+25 Tur",
+                    "pts": 0,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "DNF"
+                },
+                {
+                    "pos": "DNF",
+                    "pilot": "Jack Miller #43",
+                    "team": "Prima Pramac Yamaha MotoGP",
+                    "time": "1'40.524",
+                    "gap": "+26 Tur",
+                    "pts": 0,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "DNF"
+                },
+                {
+                    "pos": "DNF",
+                    "pilot": "Marco Bezzecchi #72",
+                    "team": "Aprilia Racing",
+                    "time": "1'07.298",
+                    "gap": "+27 Tur",
                     "pts": 0,
                     "laps": 0,
                     "fastest": false,
