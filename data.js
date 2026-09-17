@@ -6485,7 +6485,53 @@
                 "date": "18-20 Eylül",
                 "track": "Spielberg",
                 "isoDate": "2026-09-20",
-                "status": "Bekliyor"
+                "status": "Sıradaki",
+                "trackDetails": {
+                    "len": "4,348 km",
+                    "turns": "11",
+                    "opened": "1996",
+                    "record": "1:29.840 ( Francesco Bagnaia",
+                    "firstWinner": "Mick Doohan (1996)",
+                    "mostWinsPilot": "Francesco Bagnaia (3 Galibiyet)",
+                    "mostWinsTeam": "Ducati (8 Galibiyet)",
+                    "description": "Alpler'in eşsiz doğasında yer alan Red Bull Ring, dik tırmanışları, sert frenleme noktaları ve yüksek ortalama hızıyla motor gücünü ve cesareti sınırlarına kadar sınayan ikonik bir pisttir."
+                },
+                "len": "4,348 km",
+                "turns": "11",
+                "sessions": [
+                    {
+                        "name": "Cuma: 1. Antrenman",
+                        "time": "11:45"
+                    },
+                    {
+                        "name": "Cuma: Ana Antrenman Seansı",
+                        "time": "16:00"
+                    },
+                    {
+                        "name": "Cumartesi: 2. Antrenman Seansı",
+                        "time": "11:10"
+                    },
+                    {
+                        "name": "Cumartesi: Sıralama Turları 1",
+                        "time": "11:50"
+                    },
+                    {
+                        "name": "Cumartesi: Sıralama Turları 2",
+                        "time": "12:15"
+                    },
+                    {
+                        "name": "Cumartesi: Sprint Yarışı",
+                        "time": "16:00"
+                    },
+                    {
+                        "name": "Pazar: Isınma Turları",
+                        "time": "10:40"
+                    },
+                    {
+                        "name": "Pazar: Yarış",
+                        "time": "15:00"
+                    }
+                ]
             },
             {
                 "round": 16,
