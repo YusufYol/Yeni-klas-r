@@ -982,6 +982,14 @@
                 "flag": "Resimler/Formula 1 Pilot ve Takım Ülkeleri/Birleşik Krallık.png"
             },
             {
+                "id": "tsunoda",
+                "name": "Yuki Tsunoda #22",
+                "team": "Visa Cash App RB F1 Team",
+                "titles": 0,
+                "img": "Resimler/Formula 1 Pilot ve Takımlar/Yuki Tsunoda.png",
+                "flag": "Resimler/Formula 1 Pilot ve Takım Ülkeleri/Japonya.png"
+            },
+            {
                 "id": "bearman",
                 "name": "Oliver Bearman #87",
                 "team": "Haas F1 Team",
