@@ -2,6 +2,16 @@
     "formula 1": {
         "news": [
             {
+                "id": 124,
+                "title": "LEWIS HAMILTON’DAN FİLİSTİN’E DESTEK VEREN MACKLEMORE’A MESAJ",
+                "cat": "formula 1",
+                "date": "2026-09-17 12:33",
+                "content": "Formula 1’in yedi kez dünya şampiyonu Lewis Hamilton, Filistin’e yönelik desteğini açıkça dile getiren ve Ed Sheeran’ın turne kadrosundan çıkarılan Macklemore’a destek mesajı gönderdi.<br><br>Amerikalı rapçi Macklemore, Ed Sheeran’ın “Loop Tour” kapsamındaki konserinde sahneden “Özgür Filistin” çağrısında bulunmasının ardından turnenin kalan bölümünden çıkarıldı.<br><br>Yaşananların ardından sosyal medya hesabından açıklama yapan Macklemore, Filistin halkının yanında durmaya devam edeceğini belirtti. Ünlü rapçi ayrıca turneden elde edeceği 1 milyon dolarlık geliri Filistin’e yardım sağlayan kuruluşlara bağışlayacağını açıkladı.<br><br>Formula 1 dünyasından Macklemore’a destek veren isim ise Lewis Hamilton oldu. Yedi kez dünya şampiyonu pilot, Macklemore’un paylaşımına yaptığı yorumda şu ifadeleri kullandı:<br><br>“Sesini duyurduğun için teşekkür ederim. Senin yanındayım.”<br><br>Hamilton’ın bu mesajı kısa sürede sosyal medyada geniş yankı uyandırırken İngiliz pilot, Filistin konusunda sesini yükselten Macklemore’a açıkça destek vermiş oldu.",
+                "img": "Resimler/Formula 1 Haberler/1789637585419_07B8B247-890F-4154-B37C-7C6D398B52CC.jpeg",
+                "author": "Emre Boz",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Emre Boz.png"
+            },
+            {
                 "id": 123,
                 "title": "ANDREA KIMI ANTONELLI MONZA'DA TARİH YAZDI!",
                 "cat": "formula 1",
