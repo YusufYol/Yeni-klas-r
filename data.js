@@ -2,6 +2,16 @@
     "formula 1": {
         "news": [
             {
+                "id": 125,
+                "title": "FERRARI’NİN SF-26 İÇİN BÜYÜK GÜNCELLEME PAKETİ AUSTIN’DA GELİYOR",
+                "cat": "formula 1",
+                "date": "2026-09-20 21:07",
+                "content": "Ferrari’nin daha önce ertelediği SF-26 güncellemelerinin Amerika Birleşik Devletleri Grand Prix’sinde piste çıkması bekleniyor. Yeni paketin merkezinde kapsamlı bir taban değişikliği bulunuyor.<br><br>Ferrari, SF-26’nın performansını artırmak amacıyla hazırladığı önemli güncelleme paketini Austin’de kullanmaya hazırlanıyor.<br><br>The Race’in haberine göre İtalyan ekip, daha önce piste çıkarmayı planladığı ancak geliştirme süreci nedeniyle ertelediği yeni parçaları Amerika Birleşik Devletleri Grand Prix’sine yetiştirmeyi hedefliyor.<br><br>Paketin en dikkat çekici bölümünü, otomobilin aerodinamik performansında büyük rol oynayan tabandaki kapsamlı değişiklikler oluşturacak. Ayrıca Barcelona’dan bu yana geliştirilmekte olan bazı bölgelerde de yenilikler yapılması bekleniyor.<br><br>Ferrari mühendisleri, en uygun çözümü bulabilmek adına rüzgâr tünelinde farklı tasarımları test etmeyi sürdürüyor. Ana güncelleme parçalarının ise Austin yarışında SF-26’ya takılması planlanıyor.<br><br>Farklı karakterlere sahip virajları ve uzun düzlükleri bir araya getiren Austin pistinin, Ferrari’nin kaydettiği ilerlemeyi değerlendirebilmesi açısından ideal bir test alanı olduğu düşünülüyor.<br><br>Yeni paketin SF-26’nın performansına ne ölçüde katkı sağlayacağı, Amerika Birleşik Devletleri Grand Prix’sinde netlik kazanacak.",
+                "img": "Resimler/Formula 1 Haberler/1789927621470_D72C823C-2BC1-4D5E-887C-5E95B53A8D60.png",
+                "author": "Emre Boz",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Emre Boz.png"
+            },
+            {
                 "id": 124,
                 "title": "LEWIS HAMILTON’DAN FİLİSTİN’E DESTEK VEREN MACKLEMORE’A MESAJ",
                 "cat": "formula 1",
