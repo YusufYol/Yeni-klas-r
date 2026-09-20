@@ -10234,6 +10234,16 @@
     "haberler": {
         "news": [
             {
+                "id": 126,
+                "title": "BORUSAN OTOMOTİV MOTORSPORT HOLLANDA’DA PODYUMA ÇIKTI",
+                "cat": "haberler",
+                "date": "2026-09-21 01:43",
+                "content": "Borusan Otomotiv Motorsport, GT4 Avrupa Serisi’nin Hollanda ayağında sergilediği etkileyici performansla podyuma çıkmayı başardı.<br><br>12 numaralı otomobille mücadele eden Gabriele Piana ve Thomas Rackl ikilisi, yarışa 18. sıradan başladı. Başarılı takım stratejisi ve güçlü sürüşleriyle rakiplerini geride bırakan ikili, damalı bayrağı üçüncü sırada görerek önemli bir geri dönüşe imza attı.<br><br>Hollanda’dan değerli puanlarla ayrılan Borusan Otomotiv Motorsport’un şampiyonluk mücadelesi de devam ediyor.<br><br>GT4 Avrupa Serisi’nde sezonun son yarışı, 16-18 Ekim tarihlerinde Portekiz’in Portimão Pisti’nde gerçekleştirilecek. Borusan Türk Mavisi, final yarışında şampiyonluk hedefiyle piste çıkacak.",
+                "img": "Resimler/Haberler/1789944234389_F7ED3A00-1D00-49A1-8B57-0697E1B5E964.jpeg",
+                "author": "Emre Boz",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Emre Boz.png"
+            },
+            {
                 "id": 113,
                 "title": "RESMİ: GT GRAND FINALS İSTANBUL PARK'TA!",
                 "cat": "haberler",
