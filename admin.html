@@ -460,6 +460,10 @@
                             </div>
                         </div>
                         <div class="form-group">
+                            <label>Pist Fotoğrafı Görsel Yolu</label>
+                            <input type="text" id="cal-track-img" placeholder="Örn: Resimler/Formula 1 Pist Resimleri/Zandvoort GP.png">
+                        </div>
+                        <div class="form-group">
                             <label>Pist Açıklaması / Hakkında Metni</label>
                             <textarea id="cal-track-desc" style="height:90px;" placeholder="Pist hakkında açıklama metnini girin..."></textarea>
                         </div>
@@ -608,21 +612,44 @@
             }
         }
 
+        function utf8ToBase64(str) {
+            const bytes = new TextEncoder().encode(str);
+            let binStr = '';
+            for (let i = 0; i < bytes.length; i++) {
+                binStr += String.fromCharCode(bytes[i]);
+            }
+            return btoa(binStr);
+        }
+
+        function base64ToUtf8(b64Str) {
+            const binStr = atob(b64Str);
+            const bytes = new Uint8Array(binStr.length);
+            for (let i = 0; i < binStr.length; i++) {
+                bytes[i] = binStr.charCodeAt(i);
+            }
+            return new TextDecoder().decode(bytes);
+        }
+
         async function getAppData() {
             const dataResponse = await githubRequest('contents/data.js', 'GET');
             const sha = dataResponse.sha;
             const cleanB64 = (dataResponse.content || '').replace(/\s/g, '');
-            const currentContent = decodeURIComponent(escape(atob(cleanB64)));
+            let currentContent;
+            try {
+                currentContent = base64ToUtf8(cleanB64);
+            } catch (e) {
+                currentContent = decodeURIComponent(escape(atob(cleanB64)));
+            }
 
             const startMarker = "const APP_DATA = ";
             const startIndex = currentContent.indexOf(startMarker);
             if (startIndex === -1) throw new Error("Veri yapısı (APP_DATA) bulunamadı.");
 
             const contentAfterStart = currentContent.substring(startIndex + startMarker.length);
-            const endIndex = contentAfterStart.indexOf("};");
-            if (endIndex === -1) throw new Error("Veri yapısının sonu bulunamadı.");
+            const lastEndIndex = contentAfterStart.lastIndexOf("};");
+            if (lastEndIndex === -1) throw new Error("Veri yapısının sonu bulunamadı.");
 
-            const jsonStr = contentAfterStart.substring(0, endIndex + 1).trim();
+            const jsonStr = contentAfterStart.substring(0, lastEndIndex + 1).trim();
             
             let appData;
             try {
@@ -632,21 +659,38 @@
                 throw new Error("Veri okunurken hata oluştu.");
             }
 
-            return { appData, sha, fullContent: currentContent, startIndex, endIndex: startIndex + startMarker.length + endIndex + 2 };
+            return { appData, sha, fullContent: currentContent, startIndex, endIndex: startIndex + startMarker.length + lastEndIndex + 2 };
         }
 
-        async function saveAppData(appData, sha, originalContent, startIndex, endIndex, message) {
+        async function saveAppData(appData, sha, originalContent, startIndex, endIndex, message, retryCount = 0) {
+            let freshSha = sha;
+            try {
+                const freshData = await githubRequest('contents/data.js', 'GET');
+                if (freshData && freshData.sha) freshSha = freshData.sha;
+            } catch (e) {
+                console.warn("SHA yenileme uyarısı:", e);
+            }
+
             const beforeAppData = originalContent.substring(0, startIndex);
             const afterAppData = originalContent.substring(endIndex);
             const newFileContent = beforeAppData + "const APP_DATA = " + JSON.stringify(appData, null, 4) + ";" + afterAppData;
 
-            const result = await githubRequest('contents/data.js', 'PUT', {
-                message: message,
-                content: btoa(unescape(encodeURIComponent(newFileContent))),
-                sha: sha
-            });
-            currentAppData = appData;
-            return result;
+            try {
+                const result = await githubRequest('contents/data.js', 'PUT', {
+                    message: message,
+                    content: utf8ToBase64(newFileContent),
+                    sha: freshSha
+                });
+                currentAppData = appData;
+                return result;
+            } catch (err) {
+                if (retryCount < 2 && err.message && (err.message.includes('409') || err.message.toLowerCase().includes('conflict') || err.message.toLowerCase().includes('sha'))) {
+                    console.warn(`SHA çakışması tespit edildi. Yeniden deneniyor (${retryCount + 1}/2)...`);
+                    const fresh = await getAppData();
+                    return await saveAppData(appData, fresh.sha, fresh.fullContent, fresh.startIndex, fresh.endIndex, message, retryCount + 1);
+                }
+                throw err;
+            }
         }
 
         async function loadNewsList() {
@@ -1128,6 +1172,7 @@
             document.getElementById('cal-track-first-winner').value = td.firstWinner || defaultStats.firstWinner || '';
             document.getElementById('cal-track-most-wins-pilot').value = td.mostWinsPilot || defaultStats.mostWinsPilot || '';
             document.getElementById('cal-track-most-wins-team').value = td.mostWinsTeam || defaultStats.mostWinsTeam || '';
+            document.getElementById('cal-track-img').value = race.trackImg || td.img || race.img || defaultStats.img || '';
             document.getElementById('cal-track-desc').value = td.description || defaultStats.description || '';
 
             const sessionsRows = document.getElementById('sessions-rows');
@@ -1243,6 +1288,7 @@
                     const tFirstWinner = cleanInput(document.getElementById('cal-track-first-winner').value);
                     const tMostWinsPilot = cleanInput(document.getElementById('cal-track-most-wins-pilot').value);
                     const tMostWinsTeam = cleanInput(document.getElementById('cal-track-most-wins-team').value);
+                    const tImg = cleanInput(document.getElementById('cal-track-img').value);
                     const tDesc = cleanInput(document.getElementById('cal-track-desc').value);
 
                     race.trackDetails = {
@@ -1253,8 +1299,10 @@
                         firstWinner: tFirstWinner,
                         mostWinsPilot: tMostWinsPilot,
                         mostWinsTeam: tMostWinsTeam,
+                        img: tImg,
                         description: tDesc
                     };
+                    if (tImg) race.trackImg = tImg;
 
                     if (tLen) race.len = tLen;
                     if (tTurns) race.turns = tTurns;

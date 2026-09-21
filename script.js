@@ -660,7 +660,7 @@ function initAppEngine() {
         const rawGp = event.gp || '';
         const gpTitle = rawGp.replace(/i/g, 'I').replace(/İ/g, 'I').toUpperCase();
 
-        const trackImg = event.trackImg || trackStats?.img || '';
+        const trackImg = event.trackImg || td.img || event.img || trackStats?.img || '';
 
         let prevEventHtml = '';
         if (event.category) {

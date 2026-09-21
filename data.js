@@ -1,4 +1,4 @@
-﻿const APP_DATA = {
+const APP_DATA = {
     "formula 1": {
         "news": [
             {
@@ -10971,7 +10971,7 @@ const CIRCUITS_DB = {
         "len": "5.891 km", "turns": "18", "record": "1:27.097 (Max Verstappen)",
         "opened": "1950", "firstWinner": "Giuseppe Farina (1950)",
         "mostWinsPilot": "Lewis Hamilton (9 Galibiyet)", "mostWinsTeam": "Scuderia Ferrari (15 Galibiyet)",
-        "img": "Resimler/Pistler/silverstone.png",
+        "img": "Resimler/MotoGP Pist Resimleri/Silverstone MotoGP.png",
         "description": "Eski bir İkinci Dünya Savaşı hava üssünden motorsporlarının mabedine dönüşen Silverstone; yüksek hızlı virajları, öngörülemez İngiliz havası ve Formula 1'in doğduğu yer olma özelliğiyle her yarışta tarih yazmaya devam eden zamansız bir klasiktir."
     },
     "Sachsenring": {
