@@ -2,6 +2,16 @@
     "formula 1": {
         "news": [
             {
+                "id": 128,
+                "title": "MERCEDES’TEN BEKLENEN HAMLE : KAPSAMLI GÜNCELLEME MALEZYA’DA GELİYOR",
+                "cat": "formula 1",
+                "date": "2026-09-21 19:15",
+                "content": "Mercedes, rakiplerinin gerisinde kaldığı sıralama turlarındaki üstünlüğünü yeniden ele geçirmek için uzun süredir beklenen büyük güncelleme paketini Malezya Grand Prix'sine saklıyor.<br><br>Sezonun ilk bölümünü domine eden ve ilk altı yarışın tamamını kazanan Alman üretici, son dönemde McLaren ve Ferrari’nin getirdiği güncellemeler karşısında zorlanmaya başladı. Mayıs ayındaki Kanada Grand Prix’sinden bu yana araca büyük bir paket getirmeyen tek üst düzey takım olan Mercedes, son sekiz yarışın yalnızca dördünde zafere ulaşabildi.<br><br>Mercedes Pist Mühendisliği Direktörü Andrew Shovlin, Nu Silver Arrows Radio Show podcast’inde yaptığı açıklamalarda takımın stratejisini paylaştı. Bu hafta sonu koşulacak Azerbaycan Grand Prix’sine büyük parçalar getirmeyeceklerini belirten Shovlin, Bakü'nün karakteristik özelliklerinin araçlarına uyum sağlayabileceğini umuyor:<br><br>\"Bakü’ye çok fazla yeni parça getirmiyoruz. Bu pist yere basma gücünden ziyade sürüklenmeyle ilgili. Bu nedenle araç Monza’da iyiydi ve umarım Bakü’de de iyi çalışır.\"<br><br>Mercedes, Malezya GP ile devreye sokacağı kapsamlı güncellemeler sayesinde kayda değer bir performans adımı atarak sıralama turlarında yeniden pole pozisyonu için doğrudan mücadele edebileceği bir konuma gelmeyi hedefliyor.",
+                "img": "Resimler/Formula 1 Haberler/1790007347164_IMG_9517.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 127,
                 "title": "BWT’NİN 2027 FORMULA 1 GELECEĞİ BELİRSİZ",
                 "cat": "formula 1",
