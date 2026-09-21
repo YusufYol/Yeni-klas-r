@@ -2,6 +2,16 @@
     "formula 1": {
         "news": [
             {
+                "id": 127,
+                "title": "# BWT’NİN 2027 FORMULA 1 GELECEĞİ BELİRSİZ",
+                "cat": "formula 1",
+                "date": "2026-09-21 16:35",
+                "content": "Formula 1’in uzun süredir dikkat çeken sponsorlarından biri olan BWT’nin, 2027 sezonunda hangi takımla iş birliği yapacağı merak konusu oldu.<br><br>Auto Motor und Sport’un haberine göre Avusturyalı şirket, Gucci’nin Alpine’a katılmasının ardından takım içerisindeki görünürlüğünün ikinci plana düşmesini istemiyor. Bu nedenle BWT’nin 2027 sezonu için farklı seçenekleri değerlendirdiği belirtiliyor.<br><br>BWT ile görüşmeler gerçekleştirdiği iddia edilen takımlardan birinin Haas olduğu öne sürüldü. Ancak Amerikan ekibinin, BWT ile olası bir anlaşmaya rağmen aracının renk düzenine pembe tonları eklemeye sıcak bakmadığı ifade edildi.<br><br>BWT, Formula 1’de geçmişte Force India ve Racing Point ile yaptığı anlaşmalar sayesinde tamamen pembe renge sahip araçlarla güçlü bir marka kimliği oluşturmuştu. Şirket, Alpine döneminde de pembe renkleri takımın araçlarına taşımaya devam etti.<br><br>Gridde henüz ana sponsoru bulunmayan tek takımın Cadillac olması ise BWT için farklı bir ihtimali gündeme getiriyor. Taraflar arasında şu an için doğrulanmış bir görüşme veya anlaşma bulunmasa da BWT’nin 2027’de hangi Formula 1 takımında yer alacağı önümüzdeki dönemin dikkat çeken sponsorluk gelişmelerinden biri olacak.",
+                "img": "Resimler/Formula 1 Haberler/1789997725871_IMG_0228.jpeg",
+                "author": "Emre Boz",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Emre Boz.png"
+            },
+            {
                 "id": 125,
                 "title": "FERRARI’NİN SF-26 İÇİN BÜYÜK GÜNCELLEME PAKETİ AUSTIN’DA GELİYOR",
                 "cat": "formula 1",
