@@ -1772,11 +1772,11 @@ const APP_DATA = {
                 "gp": "Azerbaijan Grand Prix",
                 "country": "Azerbaycan",
                 "date": "24-26 Eylül",
-                "track": "Baku",
+                "track": "Bakü",
                 "isoDate": "2026-09-26",
                 "status": "Sıradaki",
                 "trackDetails": {
-                    "len": "6.003 km",
+                    "len": "6,003 km",
                     "turns": "20",
                     "opened": "2016",
                     "record": "1:43.009 (Charles Leclerc)",
@@ -11036,10 +11036,10 @@ const CIRCUITS_DB = {
     },
     "Bakü": {
         "len": "6,003 km", "turns": "20", "record": "1:43.009 (Charles Leclerc)",
-        "opened": "2016", "firstWinner": "Mick Doohan (1996)",
+        "opened": "2016", "firstWinner": "Nico Rosberg (2016)",
         "mostWinsPilot": "Max Verstappen ve Sergio Perez (2 Galibiyet)", "mostWinsTeam": "Oracle Red Bull Racing (5 Galibiyet)",
         "img": "Resimler/Formula 1 Pist Resimleri/Bakü.png",
-        "description": "Bakü Şehir Pisti'nin Dar Old Y City virajlarını ve dünyanın en uzun düzlüklerinden birini buluşturan Azerbaycan GP, yüksek sürat ile kaosu aynı noktada buluşturan takvimdeki en heyecanlı yarışlardan biridir."
+        "description": "Tarihi İçerişehir surlarının dar sokakları ile Hazar Denizi kıyısındaki yüksek hızlı uzun düzlükleri harmanlayan Bakü Şehir Pisti, takvimdeki en heyecanlı ve sürprize açık cadde yarışlarına ev sahipliği yapmaktadır."
     }
 };
 
