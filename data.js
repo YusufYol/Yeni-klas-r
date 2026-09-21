@@ -11033,10 +11033,17 @@ const CIRCUITS_DB = {
         "mostWinsPilot": "Francesco Bagnaia (3 Galibiyet)", "mostWinsTeam": "Ducati Lenovo (8 Galibiyet)",
         "img": "Resimler/MotoGP Pist Resimleri/Spielberg.png",
         "description": "Alpler'in eşsiz doğasında yer alan Red Bull Ring, dik tırmanışları, sert frenleme noktaları ve yüksek ortalama hızıyla motor gücünü ve cesareti sınırlarına kadar sınayan ikonik bir pisttir."
+    },
+    "Bakü": {
+        "len": "6,003 km", "turns": "20", "record": "1:43.009 (Charles Leclerc)",
+        "opened": "2016", "firstWinner": "Mick Doohan (1996)",
+        "mostWinsPilot": "Max Verstappen ve Sergio Perez (2 Galibiyet)", "mostWinsTeam": "Oracle Red Bull Racing (5 Galibiyet)",
+        "img": "Resimler/Formula 1 Pist Resimleri/Bakü.png",
+        "description": "Bakü Şehir Pisti'nin Dar Old Y City virajlarını ve dünyanın en uzun düzlüklerinden birini buluşturan Azerbaycan GP, yüksek sürat ile kaosu aynı noktada buluşturan takvimdeki en heyecanlı yarışlardan biridir."
     }
 };
 
-const TRACK_STATS = CIRCUITS_DB["Spielberg"];
+const TRACK_STATS = CIRCUITS_DB["Bakü"];
 
 // Dinamik veriler script.js tarafından güncellenecektir.
 let CURRENT_WEEKEND_DATA = null;
