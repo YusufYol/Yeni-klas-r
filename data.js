@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 131,
+                "title": "MCLAREN BAKÜ'YE H-WİNG VE GÜNCELLEME PAKETİYLE GELİYOR",
+                "cat": "formula 1",
+                "date": "2026-09-22 14:08",
+                "content": "McLaren, Azerbaycan Grand Prix’si öncesinde MCL40 aracı için hazırladığı kapsamlı güncelleme paketini duyururken, Monza’da kullanılan ancak İspanya’da tercih edilmeyen \"H-Wing\" tasarımının Bakü’de yeniden araca döneceğini açıkladı. <br><br>Serbest antrenman seanslarında test edilecek bu yeni aerodinamik parçaların yarışta kullanılacağı ise performans verilerine göre netleşecek. Takımın Baş Tasarımcısı Rob Marshall, Bakü’nün uzun düzlükleri, soğuk frenajları ve sıfıra yakın hata payıyla zorlu bir cadde pisti olduğunu vurgularken, gelecek sezon kuralların sabit kalacak olması nedeniyle 2026 aracını geliştirme motivasyonlarının çok yüksek olduğunu belirtti. <br><br>Kaynakları önümüzdeki yılın çalışmalarıyla hassas bir şekilde dengelediklerini ifade eden Marshall, ön gruptaki galibiyet mücadelesinin tam merkezinde yer almayı hedeflediklerini, bu hafta sonu boyunca ise özgüven, hassasiyet ve disiplinli bir yaklaşım sergileyeceklerini kaydetti.",
+                "img": "Resimler/Formula 1 Haberler/1790075283724_IMG_9530.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 129,
                 "title": "F1’DE YENİ DÖNEM: 2027 SEZONUNDA YARIŞ MESAFELERİ KISALIYOR VE KURALLAR DEĞİŞİYOR",
                 "cat": "formula 1",
