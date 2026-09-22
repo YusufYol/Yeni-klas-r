@@ -489,6 +489,9 @@ function initAppEngine() {
                                 <button class="category-explore-btn f1-btn" onclick="handleRoute('news', 'formula 1')">
                                     FORMULA 1 HABERLERİ ❯
                                 </button>
+                                <button class="category-explore-btn all-news-btn" onclick="handleRoute('news', 'haberler')">
+                                    TÜM HABERLER ❯
+                                </button>
                                 <button class="category-explore-btn motogp-btn" onclick="handleRoute('news', 'motogp')">
                                     MOTOGP HABERLERİ ❯
                                 </button>
@@ -507,6 +510,20 @@ function initAppEngine() {
 
                         <!-- 3. Çok Okunanlar (Trend 1-5) -->
                         <div class="sidebar-widget" id="sidebar-trending-widget"></div>
+
+                        <!-- 4. Tüm Haberler Butonu -->
+                        <div class="sidebar-widget sidebar-allnews-widget">
+                            <div class="sidebar-widget-header">
+                                <span class="sidebar-widget-title">📰 TÜM HABERLER</span>
+                                <span class="sidebar-badge-red">RNT</span>
+                            </div>
+                            <div class="sidebar-widget-body" style="padding: 14px;">
+                                <p style="font-size:0.8rem; color:#555; margin:0 0 12px 0; line-height:1.5;">Formula 1, MotoGP, WEC ve tüm kategorilerdeki haberleri tarih sırasına göre tek sayfada görüntüle.</p>
+                                <button class="sidebar-action-btn primary full-width" onclick="handleRoute('news', 'haberler')">
+                                    TÜM HABERLERİ GÖR ❯
+                                </button>
+                            </div>
+                        </div>
 
                         <!-- 4. Bizi Takip Edin (Sosyal Medya) -->
                         <div class="sidebar-widget social-widget">
@@ -601,7 +618,6 @@ function initAppEngine() {
                     <p class="bento-main-summary">${mainSummary}</p>
                     <div class="bento-main-meta">
                         <span class="bento-meta-date">${formatDate(mainNews.date)}</span>
-                        ${mainNews.author ? `<span class="bento-meta-author">• ${mainNews.author}</span>` : ''}
                     </div>
                 </div>
             </div>
@@ -615,12 +631,10 @@ function initAppEngine() {
         if (!container || !list || list.length === 0) return;
         container.innerHTML = list.map(n => {
             const img = n.img ? (n.img.startsWith('Resimler/') ? `${window.APP_ROOT}${n.img}` : n.img) : 'Resimler/Logo/logo.png';
-            const badge = n.customBadge ? formatBadge(n.customBadge) : 'MİLLİ';
             return `
                 <div class="national-news-card" onclick="handleRoute('news-detail', '${n.cat}', true, '${n.id}')">
                     <div class="national-img-box">
                         <img src="${img}" alt="${n.title}" class="national-img" onerror="this.onerror=null; this.src='Resimler/Logo/logo.png'">
-                        <span class="national-card-badge">${badge}</span>
                     </div>
                     <div class="national-card-info">
                         <h4 class="national-card-title">${n.title}</h4>
