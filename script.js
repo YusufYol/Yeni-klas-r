@@ -5,55 +5,13 @@ function initAppEngine() {
     const mainContent = document.getElementById('main-content');
     const notificationContainer = document.getElementById('notification-container');
 
-    // --- AdSense Helpers ---
+    // --- AdSense Helpers (Şimdilik Devre Dışı) ---
     function getAdHTML(type = 'display') {
-        const clientID = 'ca-pub-6510717509739190';
-        let slotID = ''; // User should provide specific slot IDs for better performance
-        
-        // Defaulting to auto-sized responsive ads
-        let adContent = `
-            <ins class="adsbygoogle"
-                 style="display:block"
-                 data-ad-client="${clientID}"
-                 data-ad-slot="${slotID}"
-                 data-ad-format="auto"
-                 data-full-width-responsive="true"></ins>
-        `;
-
-        if (type === 'feed') {
-            adContent = `
-                <ins class="adsbygoogle"
-                     style="display:block"
-                     data-ad-format="fluid"
-                     data-ad-layout-key="-fb+5w+4e-db+86"
-                     data-ad-client="${clientID}"
-                     data-ad-slot="${slotID}"></ins>
-            `;
-        }
-
-        return `
-            <div class="ad-container ad-${type}-container">
-                <span class="ad-label">REKLAM</span>
-                ${adContent}
-            </div>
-        `;
+        return '';
     }
 
-    function triggerAds() {
-        try {
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        } catch (e) {
-            console.error("AdSense push failed:", e);
-        }
-    }
-
-    function refreshAds() {
-        // Find all new ad tags and push them
-        const ads = document.querySelectorAll('.adsbygoogle:not([data-adsbygoogle-status])');
-        ads.forEach(() => {
-            triggerAds();
-        });
-    }
+    function triggerAds() {}
+    function refreshAds() {}
 
     // --- Date Formatter ---
     function formatDate(dateStr) {
@@ -100,6 +58,24 @@ function initAppEngine() {
         // 3. Özel eşleşmeler (F1 vb kısaltmalar)
         if (target === 'f1' || target === 'formula1') return APP_DATA['formula 1'];
         if (target === 'motogp') return APP_DATA['motogp'];
+
+        // "haberler" → tüm kategorilerden haberleri birleştir
+        if (target === 'haberler' || target === 'tumhaberler' || target === 'all') {
+            const allNews = [];
+            Object.keys(APP_DATA).forEach(k => {
+                if (APP_DATA[k].news) allNews.push(...APP_DATA[k].news);
+            });
+            allNews.sort((a, b) => {
+                let dA = new Date(a.date ? a.date.replace(' ', 'T') : 0);
+                let dB = new Date(b.date ? b.date.replace(' ', 'T') : 0);
+                if (isNaN(dA.getTime())) dA = new Date(0);
+                if (isNaN(dB.getTime())) dB = new Date(0);
+                const dc = dB - dA;
+                if (dc !== 0) return dc;
+                return (parseInt(b.id) || 0) - (parseInt(a.id) || 0);
+            });
+            return { news: allNews, pilots: [], teams: [], standings: {}, calendar: [], resultsHistory: {} };
+        }
 
         // 4. Tüm anahtarları tarayarak normalize edilmiş hallerini karşılaştır
         const keys = Object.keys(APP_DATA);
@@ -444,56 +420,390 @@ function initAppEngine() {
             });
         }
 
-        const latest6News = allNews.slice(0, 6);
-        const top12News = allNews.slice(0, 12);
+        // Hero Bento: 1 main headline + 2 secondary stories
+        const heroMainNews = allNews[0] || null;
+        const heroSubNews = allNews.slice(1, 3);
+
+        // Milli Sporcularımız news filter
+        const nationalKeywords = ['milli', 'toprak', 'öncü', 'alp aksoy', 'zayn', 'sofuoğlu', 'ayhancan', 'türkkan', 'bölükbaşı'];
+        let nationalNews = allNews.filter(n => {
+            const c = (n.cat || '').toLowerCase();
+            const b = (n.customBadge || '').toLowerCase();
+            const t = (n.title || '').toLowerCase();
+            return c.includes('milli') || b.includes('milli') || nationalKeywords.some(k => t.includes(k));
+        }).slice(0, 4);
+
+        // Fallback for national if not enough: get from general highlight
+        if (nationalNews.length === 0) {
+            nationalNews = allNews.slice(3, 7);
+        }
+
+        // Feed news: from index 3 up to 15
+        const feedNews = allNews.slice(3, 15);
+
+        // Top 5 Trending articles for sidebar
+        const trendingNews = allNews.slice(0, 5);
 
         mainContent.innerHTML = `
             <div class="home-page-container fade-in">
-                <!-- 1. Hero News Carousel (Son 6 Haber) & Ticker -->
-                <section class="hero-slider-section">
-                    <div class="hero-slider-container" id="hero-slider">
-                        <div class="slider-track" id="slider-track"></div>
-                        <button class="slider-arrow prev" id="slider-prev" aria-label="Önceki Slide">❮</button>
-                        <button class="slider-arrow next" id="slider-next" aria-label="Sonraki Slide">❯</button>
-                        <div class="slider-dots" id="slider-dots"></div>
+                <!-- 1. Son Haberler Akan Bant (Ticker) -->
+                <div class="news-ticker-bar">
+                    <div class="ticker-label">
+                        <span class="ticker-badge">SON DAKİKA</span>
                     </div>
-                    <div class="news-ticker-bar">
-                        <div class="ticker-label">
-                            <span class="ticker-badge">SON HABERLER</span>
-                        </div>
-                        <div class="ticker-content-wrapper">
-                            <div class="ticker-items" id="ticker-items"></div>
-                        </div>
+                    <div class="ticker-content-wrapper">
+                        <div class="ticker-items" id="ticker-items"></div>
                     </div>
-                </section>
+                </div>
 
-                <!-- 2. Race Weekend & Track Details Widget -->
-                <div id="home-weekend-widget-container"></div>
+                <!-- 2. İki Kolonlu Magazin Düzeni (Seçenek A) -->
+                <div class="home-magazine-layout">
+                    
+                    <!-- SOL KOLON: Ana Haber Akışı & Magazin Bloğu (~68%) -->
+                    <div class="home-main-feed">
+                        
+                        <!-- Bento Manşet Grubu (1 Büyük Manşet + 2 Yan Haber) -->
+                        <section class="home-hero-bento" id="home-hero-bento"></section>
 
-                ${getAdHTML('display')}
+                        <!-- Milli Sporcularımız Vitrini (Racing News TR Özgün Bölümü) -->
+                        <section class="national-showcase-section">
+                            <div class="magazine-section-header">
+                                <h3 class="magazine-section-title">
+                                    <span class="flag-icon">🇹🇷</span> MİLLİ SPORCULARIMIZ
+                                </h3>
+                                <button class="magazine-see-all-btn" onclick="handleRoute('pilots', 'milli sporcularımız')">TÜMÜNÜ GÖR ❯</button>
+                            </div>
+                            <div class="national-cards-grid" id="national-news-grid"></div>
+                        </section>
 
-                <!-- 3. News Feed Grid ("HABERLER" - Son 12 Haber) -->
-                <section id="main-news-feed" class="news-feed" style="margin-top: 30px;">
-                    <h2 id="news-section-title" class="section-title">HABERLER</h2>
-                    <div id="news-container" class="news-feed-grid"></div>
-                </section>
+
+                        <!-- Güncel Haberler Grid -->
+                        <section class="home-news-section">
+                            <div class="magazine-section-header">
+                                <h3 class="magazine-section-title">GÜNCEL HABERLER</h3>
+                                <span class="magazine-header-badge">SON GELİŞMELER</span>
+                            </div>
+                            <div id="home-news-grid" class="news-feed-grid"></div>
+                            
+                            <div class="home-feed-actions">
+                                <button class="category-explore-btn f1-btn" onclick="handleRoute('news', 'formula 1')">
+                                    FORMULA 1 HABERLERİ ❯
+                                </button>
+                                <button class="category-explore-btn motogp-btn" onclick="handleRoute('news', 'motogp')">
+                                    MOTOGP HABERLERİ ❯
+                                </button>
+                            </div>
+                        </section>
+                    </div>
+
+                    <!-- SAĞ KOLON: Padok & Canlı Bilgi Çubuğu (Sticky Sidebar ~32%) -->
+                    <aside class="home-sidebar">
+                        
+                        <!-- 1. Sıradaki Yarış & Seans Saatleri -->
+                        <div class="sidebar-widget" id="sidebar-race-widget"></div>
+
+                        <!-- 2. Mini Canlı Puan Durumu (F1 & MotoGP Sekmeli) -->
+                        <div class="sidebar-widget" id="sidebar-standings-widget"></div>
+
+                        <!-- 3. Çok Okunanlar (Trend 1-5) -->
+                        <div class="sidebar-widget" id="sidebar-trending-widget"></div>
+
+                        <!-- 4. Bizi Takip Edin (Sosyal Medya) -->
+                        <div class="sidebar-widget social-widget">
+                            <div class="sidebar-widget-header">
+                                <span class="sidebar-widget-title">BİZİ TAKİP EDİN</span>
+                                <span class="sidebar-badge-red">RNT</span>
+                            </div>
+                            <div class="sidebar-social-links">
+                                <a href="https://instagram.com" target="_blank" rel="noopener" class="social-btn instagram">
+                                    <span class="social-icon">📷</span> Instagram
+                                </a>
+                                <a href="https://twitter.com" target="_blank" rel="noopener" class="social-btn x-twitter">
+                                    <span class="social-icon">𝕏</span> X (Twitter)
+                                </a>
+                                <a href="https://youtube.com" target="_blank" rel="noopener" class="social-btn youtube">
+                                    <span class="social-icon">▶</span> YouTube
+                                </a>
+                                <a href="https://tiktok.com" target="_blank" rel="noopener" class="social-btn tiktok">
+                                    <span class="social-icon">🎵</span> TikTok
+                                </a>
+                            </div>
+                        </div>
+
+                    </aside>
+                </div>
             </div>
         `;
 
-        // Initialize Carousel & Ticker
-        initHeroSlider(latest6News);
+        // Ticker'ı Başlat
         initNewsTicker(allNews);
 
-        // Render Race Weekend & Track Details Widget
-        renderRaceWeekendWidget(document.getElementById('home-weekend-widget-container'), nextEvent);
+        // Bento Manşetini Doldur
+        renderBentoHero(document.getElementById('home-hero-bento'), heroMainNews, heroSubNews);
 
-        // Render Top 12 News Box Grid
-        const newsContainer = document.getElementById('news-container');
-        if (newsContainer && top12News.length > 0) {
-            top12News.forEach((news) => {
-                newsContainer.appendChild(createNewsCard(news));
+        // Milli Sporcular Vitrinini Doldur
+        renderNationalNewsGrid(document.getElementById('national-news-grid'), nationalNews);
+
+        // Güncel Haberler Grid'ini Doldur
+        const newsGrid = document.getElementById('home-news-grid');
+        if (newsGrid && feedNews.length > 0) {
+            feedNews.forEach(news => {
+                newsGrid.appendChild(createNewsCard(news));
             });
         }
+
+        // Sidebar Widget'larını Doldur
+        renderSidebarRaceWidget(document.getElementById('sidebar-race-widget'), nextEvent);
+        renderSidebarStandingsWidget(document.getElementById('sidebar-standings-widget'));
+        renderSidebarTrendingWidget(document.getElementById('sidebar-trending-widget'), trendingNews);
+    }
+
+    function renderBentoHero(container, mainNews, subNews) {
+        if (!container) return;
+        if (!mainNews) {
+            container.innerHTML = '';
+            return;
+        }
+
+        let mainSummary = mainNews.content || '';
+        if (mainSummary.includes('<br>')) mainSummary = mainSummary.split('<br>')[0];
+        if (mainSummary.length > 150) mainSummary = mainSummary.substring(0, 150) + '...';
+
+        const mainImgUrl = mainNews.img ? (mainNews.img.startsWith('Resimler/') ? `${window.APP_ROOT}${mainNews.img}` : mainNews.img) : 'Resimler/Logo/logo.png';
+        const mainBadge = mainNews.customBadge ? formatBadge(mainNews.customBadge) : (mainNews.cat ? mainNews.cat.toUpperCase() : 'MANŞET');
+
+        let subCardsHtml = '';
+        if (subNews && subNews.length > 0) {
+            subCardsHtml = subNews.map(n => {
+                const img = n.img ? (n.img.startsWith('Resimler/') ? `${window.APP_ROOT}${n.img}` : n.img) : 'Resimler/Logo/logo.png';
+                const badge = n.customBadge ? formatBadge(n.customBadge) : (n.cat ? n.cat.toUpperCase() : 'HABER');
+                return `
+                    <div class="bento-sub-card" onclick="handleRoute('news-detail', '${n.cat}', true, '${n.id}')">
+                        <div class="bento-sub-img-box">
+                            <img src="${img}" alt="${n.title}" class="bento-sub-img" onerror="this.onerror=null; this.src='Resimler/Logo/logo.png'">
+                            <span class="bento-badge">${badge}</span>
+                        </div>
+                        <div class="bento-sub-info">
+                            <h4 class="bento-sub-title">${n.title}</h4>
+                            <span class="bento-meta-date">${formatDate(n.date)}</span>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        container.innerHTML = `
+            <div class="bento-main-card" onclick="handleRoute('news-detail', '${mainNews.cat}', true, '${mainNews.id}')">
+                <img src="${mainImgUrl}" alt="${mainNews.title}" class="bento-main-img" onerror="this.onerror=null; this.src='Resimler/Logo/logo.png'">
+                <div class="bento-main-overlay">
+                    <span class="bento-badge bento-badge-lg">${mainBadge}</span>
+                    <h2 class="bento-main-title">${mainNews.title}</h2>
+                    <p class="bento-main-summary">${mainSummary}</p>
+                    <div class="bento-main-meta">
+                        <span class="bento-meta-date">${formatDate(mainNews.date)}</span>
+                        ${mainNews.author ? `<span class="bento-meta-author">• ${mainNews.author}</span>` : ''}
+                    </div>
+                </div>
+            </div>
+            <div class="bento-sub-cards">
+                ${subCardsHtml}
+            </div>
+        `;
+    }
+
+    function renderNationalNewsGrid(container, list) {
+        if (!container || !list || list.length === 0) return;
+        container.innerHTML = list.map(n => {
+            const img = n.img ? (n.img.startsWith('Resimler/') ? `${window.APP_ROOT}${n.img}` : n.img) : 'Resimler/Logo/logo.png';
+            const badge = n.customBadge ? formatBadge(n.customBadge) : 'MİLLİ';
+            return `
+                <div class="national-news-card" onclick="handleRoute('news-detail', '${n.cat}', true, '${n.id}')">
+                    <div class="national-img-box">
+                        <img src="${img}" alt="${n.title}" class="national-img" onerror="this.onerror=null; this.src='Resimler/Logo/logo.png'">
+                        <span class="national-card-badge">${badge}</span>
+                    </div>
+                    <div class="national-card-info">
+                        <h4 class="national-card-title">${n.title}</h4>
+                        <span class="national-card-date">${formatDate(n.date)}</span>
+                    </div>
+                </div>
+            `;
+        }).join('');
+    }
+
+    function renderSidebarRaceWidget(container, event) {
+        if (!container) return;
+        if (!event) {
+            container.innerHTML = `
+                <div class="sidebar-widget-header">
+                    <span class="sidebar-widget-title">🏁 SIRADAKİ YARIŞ</span>
+                    <span class="sidebar-badge-red">PADOK</span>
+                </div>
+                <div class="sidebar-widget-body" style="padding: 18px; text-align: center; color: #888;">
+                    Aktif yarış takvimi güncelleniyor.
+                </div>
+            `;
+            return;
+        }
+
+        const catName = event.category ? event.category.toUpperCase() : 'F1';
+        const gpTitle = (event.gp || '').replace(/i/g, 'I').replace(/İ/g, 'I').toUpperCase();
+        const trackName = event.track || '';
+        const eventDate = event.date || '';
+        const sessions = event.sessions || [];
+
+        let sessionsHtml = '';
+        if (sessions.length > 0) {
+            sessionsHtml = sessions.map(s => {
+                const isCompleted = s.status === 'Tamamlandı' || s.status === 'Tamamlandi';
+                return `
+                    <div class="sidebar-session-row ${isCompleted ? 'completed' : ''}">
+                        <div class="sidebar-session-left">
+                            <span class="sidebar-session-dot"></span>
+                            <span class="sidebar-session-name">${s.name}</span>
+                        </div>
+                        <div class="sidebar-session-time">
+                            ${s.day ? `<span class="sidebar-session-day">${s.day}</span>` : ''}
+                            <span class="sidebar-session-hour">${s.time || '-'}</span>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        const hasTrackDetails = !!(event.track);
+        const catKey = (event.category || 'formula 1').toLowerCase();
+
+        container.innerHTML = `
+            <div class="sidebar-widget-header">
+                <span class="sidebar-widget-title">🏁 SIRADAKİ YARIŞ</span>
+                <span class="sidebar-badge-red">${catName}</span>
+            </div>
+            <div class="sidebar-race-body">
+                <div class="sidebar-gp-banner">
+                    <h4 class="sidebar-gp-title">${gpTitle}</h4>
+                    <div class="sidebar-gp-sub">${trackName}</div>
+                    <div class="sidebar-gp-date">📅 ${eventDate}</div>
+                </div>
+
+                <div class="sidebar-sessions-list">
+                    ${sessionsHtml}
+                </div>
+
+                <div class="sidebar-widget-footer">
+                    ${hasTrackDetails ? `
+                        <button class="sidebar-action-btn primary" onclick="handleRoute('track-detail', '${catKey}')">
+                            PİST BİLGİLERİ ❯
+                        </button>
+                    ` : ''}
+                    <button class="sidebar-action-btn outline" onclick="handleRoute('calendar', '${catKey}')">
+                        YARIŞ TAKVİMİ ❯
+                    </button>
+                </div>
+            </div>
+        `;
+    }
+
+    function renderSidebarStandingsWidget(container) {
+        if (!container) return;
+
+        let activeCat = 'formula 1';
+
+        const updateStandingsView = () => {
+            const pilots = getEnrichedPilots(activeCat).filter(p => p.pos !== null && p.pos !== undefined).sort((a, b) => a.pos - b.pos);
+            const top5 = pilots.slice(0, 5);
+
+            let listHtml = '';
+            if (top5.length > 0) {
+                listHtml = top5.map(p => {
+                    const posClass = p.pos === 1 ? 'pos-gold' : (p.pos === 2 ? 'pos-silver' : (p.pos === 3 ? 'pos-bronze' : ''));
+                    const cleanName = p.name ? p.name.replace(/#\d+/, '').trim() : '';
+                    return `
+                        <div class="sidebar-standings-row" onclick="handleRoute('standings', '${activeCat}')">
+                            <span class="standings-pos-badge ${posClass}">${p.pos}</span>
+                            <div class="standings-pilot-info">
+                                <span class="standings-pilot-name">${cleanName}</span>
+                                <span class="standings-pilot-team">${p.team || '-'}</span>
+                            </div>
+                            <span class="standings-pilot-pts">${p.pts !== undefined ? p.pts + ' P' : '-'}</span>
+                        </div>
+                    `;
+                }).join('');
+            } else {
+                listHtml = `<div class="sidebar-empty-text">Puan tablosu bulunamadı.</div>`;
+            }
+
+            container.innerHTML = `
+                <div class="sidebar-widget-header">
+                    <span class="sidebar-widget-title">🏆 2026 PUAN DURUMU</span>
+                    <span class="sidebar-badge-red">CANLI</span>
+                </div>
+                <div class="sidebar-standings-body">
+                    <div class="sidebar-tabs-bar">
+                        <button class="sidebar-tab-btn ${activeCat === 'formula 1' ? 'active' : ''}" id="btn-tab-f1">FORMULA 1</button>
+                        <button class="sidebar-tab-btn ${activeCat === 'motogp' ? 'active' : ''}" id="btn-tab-motogp">MOTOGP</button>
+                    </div>
+                    <div class="sidebar-standings-list">
+                        ${listHtml}
+                    </div>
+                    <div class="sidebar-widget-footer">
+                        <button class="sidebar-action-btn outline full-width" onclick="handleRoute('standings', '${activeCat}')">
+                            TÜM PUAN TABLOSU ❯
+                        </button>
+                    </div>
+                </div>
+            `;
+
+            const btnF1 = container.querySelector('#btn-tab-f1');
+            const btnMotoGP = container.querySelector('#btn-tab-motogp');
+
+            if (btnF1) {
+                btnF1.onclick = (e) => {
+                    e.stopPropagation();
+                    activeCat = 'formula 1';
+                    updateStandingsView();
+                };
+            }
+            if (btnMotoGP) {
+                btnMotoGP.onclick = (e) => {
+                    e.stopPropagation();
+                    activeCat = 'motogp';
+                    updateStandingsView();
+                };
+            }
+        };
+
+        updateStandingsView();
+    }
+
+    function renderSidebarTrendingWidget(container, newsList) {
+        if (!container || !newsList || newsList.length === 0) return;
+
+        const top5 = newsList.slice(0, 5);
+        const itemsHtml = top5.map((n, idx) => {
+            const numStr = String(idx + 1).padStart(2, '0');
+            const badge = n.customBadge ? formatBadge(n.customBadge) : (n.cat ? n.cat.toUpperCase() : 'HABER');
+            return `
+                <div class="sidebar-trending-item" onclick="handleRoute('news-detail', '${n.cat}', true, '${n.id}')">
+                    <span class="trending-rank-num">${numStr}</span>
+                    <div class="trending-item-content">
+                        <span class="trending-item-badge">${badge}</span>
+                        <h4 class="trending-item-title">${n.title}</h4>
+                        <span class="trending-item-date">${formatDate(n.date)}</span>
+                    </div>
+                </div>
+            `;
+        }).join('');
+
+        container.innerHTML = `
+            <div class="sidebar-widget-header">
+                <span class="sidebar-widget-title">🔥 ÇOK OKUNANLAR</span>
+                <span class="sidebar-badge-red">TREND</span>
+            </div>
+            <div class="sidebar-trending-list">
+                ${itemsHtml}
+            </div>
+        `;
     }
 
     function initHeroSlider(newsList) {
@@ -959,12 +1269,14 @@ function initAppEngine() {
 
         let titleText = 'HABERLER';
         const formattedCat = cat.toLocaleLowerCase('tr-TR');
-        if (formattedCat === 'formula 1' || formattedCat === 'formula 1' || formattedCat === 'f1') {
+        if (formattedCat === 'formula 1' || formattedCat === 'f1') {
             titleText = 'FORMULA 1 HABERLERİ';
         } else if (cat.toLowerCase() === 'motogp') {
             titleText = 'MOTOGP HABERLERİ';
         } else if (cat.toLowerCase() === 'milli sporcularımız') {
             titleText = 'MİLLİ SPORCULARIMIZIN HABERLERİ';
+        } else if (cat.toLowerCase() === 'haberler') {
+            titleText = 'TÜM HABERLER';
         }
 
         mainContent.innerHTML = `
@@ -1989,6 +2301,9 @@ function initAppEngine() {
             handleRoute('home');
         }
     };
+
+    // Global erişim için handleRoute'u window'a ekle
+    window.handleRoute = handleRoute;
 }
 
 if (document.readyState === 'loading') {

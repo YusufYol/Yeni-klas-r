@@ -2934,3 +2934,901 @@ h3,
         font-size: 0.7rem;
     }
 }
+
+/* ==========================================================================
+   Option A: 2-Column Modern Magazine Homepage Layout
+   Racing News Türkiye Custom Editorial Architecture
+   ========================================================================== */
+.home-page-container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.home-magazine-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 340px;
+    gap: 28px;
+    margin-top: 18px;
+    align-items: start;
+}
+
+.home-main-feed {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-sidebar {
+    min-width: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: calc(var(--header-height) + 15px);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Section Header Bar */
+.magazine-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    border-bottom: 2px solid #EAEAEA;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.magazine-section-header::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 48px;
+    height: 2px;
+    background: var(--primary-red);
+}
+
+.magazine-section-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.12rem;
+    font-weight: 900;
+    color: #111111;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.magazine-see-all-btn {
+    background: transparent;
+    border: 1px solid var(--primary-red);
+    color: var(--primary-red);
+    font-size: 0.74rem;
+    font-weight: 800;
+    padding: 4px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.magazine-see-all-btn:hover {
+    background: var(--primary-red);
+    color: #FFFFFF;
+}
+
+.magazine-header-badge {
+    font-size: 0.72rem;
+    font-weight: 800;
+    color: #888888;
+    letter-spacing: 0.5px;
+}
+
+/* 1. Bento Magazine Hero */
+.home-hero-bento {
+    display: grid;
+    grid-template-columns: 1.55fr 1fr;
+    gap: 16px;
+    margin-bottom: 30px;
+}
+
+.bento-main-card {
+    position: relative;
+    border-radius: 14px;
+    overflow: hidden;
+    height: 400px;
+    cursor: pointer;
+    background: #000000;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    border: 1px solid #EAEAEA;
+}
+
+.bento-main-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.45s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.bento-main-card:hover .bento-main-img {
+    transform: scale(1.04);
+}
+
+.bento-main-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 28px 24px;
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 40%, rgba(0,0,0,0.92) 100%);
+    color: #FFFFFF;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    z-index: 2;
+}
+
+.bento-badge {
+    display: inline-block;
+    align-self: flex-start;
+    background: var(--primary-red);
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 0.72rem;
+    padding: 4px 10px;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    box-shadow: 0 2px 8px rgba(225, 6, 0, 0.35);
+}
+
+.bento-badge-lg {
+    font-size: 0.76rem;
+    padding: 5px 12px;
+}
+
+.bento-main-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 900;
+    line-height: 1.25;
+    color: #FFFFFF;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: -0.4px;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.bento-main-summary {
+    font-size: 0.86rem;
+    color: rgba(255, 255, 255, 0.88);
+    line-height: 1.45;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin: 0;
+}
+
+.bento-main-meta {
+    font-size: 0.74rem;
+    color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    gap: 6px;
+    font-weight: 600;
+    margin-top: 2px;
+}
+
+.bento-sub-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.bento-sub-card {
+    display: flex;
+    gap: 12px;
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 12px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+    flex: 1;
+}
+
+.bento-sub-card:hover {
+    transform: translateY(-3px);
+    border-color: rgba(225, 6, 0, 0.4);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+}
+
+.bento-sub-img-box {
+    position: relative;
+    width: 125px;
+    height: 100%;
+    min-height: 95px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #1A1A1A;
+}
+
+.bento-sub-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.bento-sub-card:hover .bento-sub-img {
+    transform: scale(1.06);
+}
+
+.bento-sub-img-box .bento-badge {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    font-size: 0.62rem;
+    padding: 2px 6px;
+}
+
+.bento-sub-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+    flex: 1;
+    min-width: 0;
+}
+
+.bento-sub-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: #111111;
+    line-height: 1.3;
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.bento-sub-card:hover .bento-sub-title {
+    color: var(--primary-red);
+}
+
+.bento-meta-date {
+    font-size: 0.72rem;
+    color: #777777;
+    font-weight: 600;
+}
+
+/* 2. Milli Sporcularımız Showcase */
+.national-showcase-section {
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    border-left: 4px solid var(--primary-red);
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 28px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.03);
+}
+
+.national-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+.national-news-card {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    transition: transform 0.2s ease;
+}
+
+.national-news-card:hover {
+    transform: translateY(-3px);
+}
+
+.national-img-box {
+    position: relative;
+    width: 100%;
+    height: 105px;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #F0F0F0;
+}
+
+.national-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.national-news-card:hover .national-img {
+    transform: scale(1.05);
+}
+
+.national-card-badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background: rgba(225, 6, 0, 0.92);
+    color: #FFFFFF;
+    font-size: 0.62rem;
+    font-weight: 800;
+    padding: 2px 6px;
+    border-radius: 3px;
+    letter-spacing: 0.5px;
+}
+
+.national-card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.national-card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: #111111;
+    line-height: 1.3;
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.national-news-card:hover .national-card-title {
+    color: var(--primary-red);
+}
+
+.national-card-date {
+    font-size: 0.68rem;
+    color: #888888;
+}
+
+/* Feed Ad Banner */
+.feed-ad-banner {
+    margin-bottom: 25px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Home News Section */
+.home-news-section {
+    margin-bottom: 30px;
+}
+
+.home-feed-actions {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.category-explore-btn {
+    background: var(--primary-red);
+    color: #FFFFFF;
+    border: none;
+    padding: 11px 22px;
+    border-radius: 8px;
+    font-weight: 800;
+    font-size: 0.82rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.category-explore-btn:hover {
+    background: #B30500;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(225, 6, 0, 0.3);
+}
+
+.category-explore-btn.motogp-btn {
+    background: #1A1A1A;
+}
+
+.category-explore-btn.motogp-btn:hover {
+    background: #333333;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* ==========================================================================
+   Sidebar Widgets (Racing News TR Red & White Style)
+   ========================================================================== */
+.sidebar-widget {
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+    transition: border-color 0.25s ease;
+}
+
+.sidebar-widget:hover {
+    border-color: rgba(225, 6, 0, 0.3);
+}
+
+.sidebar-widget-header {
+    background: #141414;
+    color: #FFFFFF;
+    padding: 12px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid var(--primary-red);
+}
+
+.sidebar-widget-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.86rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+
+.sidebar-badge-red {
+    background: var(--primary-red);
+    color: #FFFFFF;
+    font-size: 0.68rem;
+    font-weight: 800;
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.5px;
+}
+
+/* Sidebar Race Widget */
+.sidebar-race-body {
+    padding: 14px;
+}
+
+.sidebar-gp-banner {
+    background: #F8F9FA;
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-left: 3px solid var(--primary-red);
+}
+
+.sidebar-gp-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 800;
+    color: #111111;
+    margin: 0 0 3px 0;
+    text-transform: uppercase;
+}
+
+.sidebar-gp-sub {
+    font-size: 0.78rem;
+    color: #666666;
+    font-weight: 600;
+}
+
+.sidebar-gp-date {
+    font-size: 0.75rem;
+    color: var(--primary-red);
+    font-weight: 700;
+    margin-top: 4px;
+}
+
+.sidebar-sessions-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 12px;
+}
+
+.sidebar-session-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 10px;
+    background: #F8F9FA;
+    border-radius: 6px;
+    font-size: 0.78rem;
+}
+
+.sidebar-session-row.completed {
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+.sidebar-session-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.sidebar-session-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--primary-red);
+    flex-shrink: 0;
+}
+
+.sidebar-session-name {
+    font-weight: 600;
+    color: #222222;
+}
+
+.sidebar-session-time {
+    font-weight: 800;
+    color: #111111;
+    font-size: 0.76rem;
+    display: flex;
+    gap: 6px;
+}
+
+.sidebar-session-day {
+    color: #777777;
+    font-weight: 600;
+}
+
+.sidebar-widget-footer {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.sidebar-action-btn {
+    flex: 1;
+    padding: 8px 10px;
+    border-radius: 6px;
+    font-size: 0.74rem;
+    font-weight: 800;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    transition: all 0.2s ease;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sidebar-action-btn.primary {
+    background: var(--primary-red);
+    color: #FFFFFF;
+}
+
+.sidebar-action-btn.primary:hover {
+    background: #B30500;
+}
+
+.sidebar-action-btn.outline {
+    background: transparent;
+    border: 1px solid #D5D5D5;
+    color: #333333;
+}
+
+.sidebar-action-btn.outline:hover {
+    border-color: var(--primary-red);
+    color: var(--primary-red);
+}
+
+.sidebar-action-btn.full-width {
+    width: 100%;
+}
+
+/* Sidebar Standings Widget */
+.sidebar-standings-body {
+    padding: 14px;
+}
+
+.sidebar-tabs-bar {
+    display: flex;
+    border-bottom: 2px solid #EAEAEA;
+    margin-bottom: 12px;
+}
+
+.sidebar-tab-btn {
+    flex: 1;
+    background: transparent;
+    border: none;
+    padding: 9px 6px;
+    font-size: 0.76rem;
+    font-weight: 800;
+    color: #777777;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.sidebar-tab-btn.active {
+    color: var(--primary-red);
+    font-weight: 900;
+}
+
+.sidebar-tab-btn.active::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: var(--primary-red);
+}
+
+.sidebar-standings-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 12px;
+}
+
+.sidebar-standings-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 7px 10px;
+    border-radius: 6px;
+    background: #F8F9FA;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.sidebar-standings-row:hover {
+    background: #F0F1F3;
+}
+
+.standings-pos-badge {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 0.74rem;
+    font-weight: 900;
+    background: #E4E4E4;
+    color: #333333;
+    flex-shrink: 0;
+}
+
+.standings-pos-badge.pos-gold {
+    background: #D4AF37;
+    color: #FFFFFF;
+}
+
+.standings-pos-badge.pos-silver {
+    background: #9E9E9E;
+    color: #FFFFFF;
+}
+
+.standings-pos-badge.pos-bronze {
+    background: #CD7F32;
+    color: #FFFFFF;
+}
+
+.standings-pilot-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 0;
+}
+
+.standings-pilot-name {
+    font-size: 0.8rem;
+    font-weight: 800;
+    color: #111111;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.standings-pilot-team {
+    font-size: 0.68rem;
+    color: #777777;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.standings-pilot-pts {
+    font-size: 0.8rem;
+    font-weight: 900;
+    color: var(--primary-red);
+    flex-shrink: 0;
+}
+
+/* Sidebar Trending Widget */
+.sidebar-trending-list {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 14px;
+    gap: 10px;
+}
+
+.sidebar-trending-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    cursor: pointer;
+    padding-bottom: 9px;
+    border-bottom: 1px solid #F0F0F0;
+    transition: transform 0.2s ease;
+}
+
+.sidebar-trending-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.sidebar-trending-item:hover {
+    transform: translateX(3px);
+}
+
+.trending-rank-num {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.35rem;
+    font-weight: 900;
+    color: var(--primary-red);
+    opacity: 0.85;
+    line-height: 1;
+    flex-shrink: 0;
+    width: 26px;
+}
+
+.trending-item-content {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    flex: 1;
+    min-width: 0;
+}
+
+.trending-item-badge {
+    font-size: 0.64rem;
+    font-weight: 800;
+    color: var(--primary-red);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.trending-item-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #111111;
+    line-height: 1.3;
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.sidebar-trending-item:hover .trending-item-title {
+    color: var(--primary-red);
+}
+
+.trending-item-date {
+    font-size: 0.68rem;
+    color: #888888;
+}
+
+/* Sidebar Social Box */
+.sidebar-social-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    padding: 14px;
+}
+
+.social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 9px 8px;
+    border-radius: 8px;
+    font-size: 0.76rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #1A1A1A;
+    transition: all 0.2s ease;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.social-btn:hover {
+    background: var(--primary-red);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(225, 6, 0, 0.25);
+}
+
+.social-icon {
+    font-size: 0.85rem;
+}
+
+/* ==========================================================================
+   Option A Responsive Adjustments (Tablet & Mobile)
+   ========================================================================== */
+@media (max-width: 1024px) {
+    .home-magazine-layout {
+        grid-template-columns: minmax(0, 1fr) 300px;
+        gap: 20px;
+    }
+    .bento-main-card {
+        height: 340px;
+    }
+    .bento-main-title {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .home-magazine-layout {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+    .home-sidebar {
+        position: static;
+    }
+    .home-hero-bento {
+        grid-template-columns: 1fr;
+    }
+    .bento-main-card {
+        height: 300px;
+    }
+    .national-cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .bento-main-card {
+        height: 260px;
+    }
+    .bento-main-title {
+        font-size: 1.1rem;
+    }
+    .bento-main-summary {
+        display: none;
+    }
+    .bento-sub-card {
+        padding: 8px;
+    }
+    .bento-sub-img-box {
+        width: 100px;
+        min-height: 80px;
+    }
+    .bento-sub-title {
+        font-size: 0.8rem;
+    }
+    .national-img-box {
+        height: 90px;
+    }
+}
