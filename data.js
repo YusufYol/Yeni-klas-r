@@ -5306,6 +5306,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 130,
+                "title": "JOAN MİR, SAĞLIK SORUNLARI NEDENİYLE JAPONYA VE ENDONEZYA GP’LERİNDE YOK",
+                "cat": "motogp",
+                "date": "2026-09-22 14:02",
+                "content": "Honda, sağlık kontrolleri devam eden sürücüsü Joan Mir’in, MotoGP Tıbbi Direktörü Dr. Angel Charte’ın tavsiyesi doğrultusunda önümüzdeki iki yarışta pistten uzak kalacağını duyurdu.<br><br>San Marino Grand Prix'sinden çekilen ve Avusturya yarışını da kaçıran İspanyol sürücü, Barselona Dexeus Üniversite Hastanesi’nde tedavi ve tetkik sürecinden geçiyor. Birkaç aydır devam eden ve son dönemde şiddetini artırarak yarışmasını imkânsız hale getiren semptomların kök nedenini belirlemek için yürütülen testlerden henüz kesin bir sonuca ulaşılamadı.<br><br>Dr. Angel Charte, yapılan son değerlendirmelerin ardından Mir’e önümüzdeki 15 gün boyunca kesin istirahat ve yoğun tedavi uygulanmasını tavsiye etti. Bu karar doğrultusunda Mir, yaklaşan Japonya ve Endonezya Grand Prix’lerinde mücadele edemeyecek.<br><br>Sürücünün sağlık durumunun yapılacak ileri tetkiklerin ardından yeniden değerlendirileceği belirtilirken, Honda'nın Mir'in yerine yarışacak yedek sürücüyü kısa süre içinde açıklaması bekleniyor.",
+                "img": "Resimler/MotoGP Haberler/1790074970408_IMG_9529.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 122,
                 "title": "MARC MARQUEZ ARAGON GP'Yİ KAZANDI!",
                 "cat": "motogp",
