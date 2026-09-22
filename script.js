@@ -10,8 +10,8 @@ function initAppEngine() {
         return '';
     }
 
-    function triggerAds() {}
-    function refreshAds() {}
+    function triggerAds() { }
+    function refreshAds() { }
 
     // --- Date Formatter ---
     function formatDate(dateStr) {
@@ -28,7 +28,7 @@ function initAppEngine() {
     // 1. Data Helper
     function getCategoryData(cat) {
         if (!cat) return { news: [], pilots: [], teams: [], standings: {}, calendar: [], resultsHistory: {} };
-        
+
         // URL'den gelen cat parametresini decode et
         let decodedCat = cat;
         try {
@@ -43,14 +43,14 @@ function initAppEngine() {
         // 2. Normalizasyon fonksiyonu
         const normalize = (str) => {
             return str.toLowerCase()
-                      .replace(/ı/g, 'i')
-                      .replace(/ş/g, 's')
-                      .replace(/ğ/g, 'g')
-                      .replace(/ç/g, 'c')
-                      .replace(/ö/g, 'o')
-                      .replace(/ü/g, 'u')
-                      .replace(/[\s\-]+/g, '') // boşluk ve tireleri sil
-                      .trim();
+                .replace(/ı/g, 'i')
+                .replace(/ş/g, 's')
+                .replace(/ğ/g, 'g')
+                .replace(/ç/g, 'c')
+                .replace(/ö/g, 'o')
+                .replace(/ü/g, 'u')
+                .replace(/[\s\-]+/g, '') // boşluk ve tireleri sil
+                .trim();
         };
 
         const target = normalize(decodedCat);
@@ -111,12 +111,12 @@ function initAppEngine() {
         allEvents.forEach(e => {
             let raceHour = 23;
             let raceMinute = 59;
-            
+
             if (e.sessions && e.sessions.length > 0) {
                 // Ana yarışı bul
                 const raceSession = e.sessions.find(s => s.name.toLowerCase().includes('yarış') && !s.name.toLowerCase().includes('sprint') && !s.name.toLowerCase().includes('sıralama'));
                 const sessionToUse = raceSession || e.sessions[e.sessions.length - 1];
-                
+
                 if (sessionToUse && sessionToUse.time) {
                     const timeParts = sessionToUse.time.split(':');
                     if (timeParts.length >= 2) {
@@ -125,18 +125,18 @@ function initAppEngine() {
                     }
                 }
             }
-            
+
             const parts = e.isoDate.split('-');
             if (parts.length === 3) {
                 const year = parseInt(parts[0], 10);
                 const month = parseInt(parts[1], 10) - 1;
                 const day = parseInt(parts[2], 10);
-                
+
                 e.endDateTime = new Date(year, month, day, raceHour, raceMinute, 0);
                 // Yarış saatinden 3 saat sonrasına kadar ekranda kalması için 3 saat ekle
                 e.endDateTime.setHours(e.endDateTime.getHours() + 3);
             } else {
-                e.endDateTime = new Date(e.isoDate); 
+                e.endDateTime = new Date(e.isoDate);
                 e.endDateTime.setHours(23, 59, 59);
             }
         });
@@ -167,7 +167,7 @@ function initAppEngine() {
             const isLocal = window.location.protocol === 'file:';
             if (isLocal && window.location.hash) {
                 let path = window.location.hash.substring(1) || 'home';
-                try { path = decodeURIComponent(path); } catch (e) {}
+                try { path = decodeURIComponent(path); } catch (e) { }
                 const parts = path.split('/');
                 const view = parts[0] || 'home';
                 const cat = parts[1] || 'f1';
@@ -178,7 +178,7 @@ function initAppEngine() {
             } else {
                 // Determine path for initial server load
                 let path = window.location.pathname === '/' ? 'home' : window.location.pathname.substring(1);
-                try { path = decodeURIComponent(path); } catch (e) {}
+                try { path = decodeURIComponent(path); } catch (e) { }
                 const parts = path.split('/');
                 const view = parts[0] || 'home';
                 const cat = parts[1] || 'f1';
@@ -216,11 +216,11 @@ function initAppEngine() {
             window.currentCat = cat;
             window.currentRound = round;
             window.currentPathStr = path;
-            
+
             const injectHistoryOnce = () => {
                 if (!window.isDirectLink) return;
                 window.isDirectLink = false;
-                
+
                 if (isLocal) {
                     window.history.replaceState({ view: 'home', cat: null, round: null }, null, window.location.pathname + '#home');
                     window.history.pushState({ view: window.currentView, cat: window.currentCat, round: window.currentRound }, null, window.location.pathname + '#' + window.currentPathStr);
@@ -260,7 +260,7 @@ function initAppEngine() {
             const handleLinkClick = (e) => {
                 const view = link.dataset.view;
                 const cat = link.dataset.cat;
-                
+
                 // If it's a dropdown toggle (no view defined)
                 if (!view) {
                     e.preventDefault();
@@ -269,16 +269,16 @@ function initAppEngine() {
                     if (parent) {
                         const isActive = parent.classList.contains('active');
                         closeAllDropdowns();
-                        
+
                         if (!isActive) {
                             parent.classList.add('active');
                             const content = parent.querySelector('.dropdown-content');
-                            
+
                             // On mobile screens (width <= 768px) or touch devices, use header portal
                             if (window.innerWidth <= 768 && portal && content) {
                                 portal.innerHTML = content.innerHTML;
                                 portal.classList.add('active');
-                                
+
                                 portal.querySelectorAll('.nav-link').forEach(pLink => {
                                     pLink.addEventListener('click', (pe) => {
                                         pe.preventDefault();
@@ -297,7 +297,7 @@ function initAppEngine() {
 
                 e.preventDefault();
                 e.stopPropagation();
-                
+
                 // Close dropdowns upon navigation
                 closeAllDropdowns();
                 handleRoute(view, cat);
@@ -393,7 +393,7 @@ function initAppEngine() {
     function renderHome() {
         const nextEvent = getGlobalNextEvent();
         const allNews = [];
-        
+
         Object.keys(APP_DATA).forEach(cat => {
             const catData = getCategoryData(cat);
             if (catData && catData.news) {
@@ -413,7 +413,7 @@ function initAppEngine() {
 
                 const dateCompare = dateB - dateA;
                 if (dateCompare !== 0) return dateCompare;
-                
+
                 const idA = parseInt(a.id) || 0;
                 const idB = parseInt(b.id) || 0;
                 return idB - idA;
@@ -514,8 +514,7 @@ function initAppEngine() {
                         <!-- 4. Tüm Haberler Butonu -->
                         <div class="sidebar-widget sidebar-allnews-widget">
                             <div class="sidebar-widget-header">
-                                <span class="sidebar-widget-title">📰 TÜM HABERLER</span>
-                                <span class="sidebar-badge-red">RNT</span>
+                                <span class="sidebar-widget-title">TÜM HABERLER</span>
                             </div>
                             <div class="sidebar-widget-body" style="padding: 14px;">
                                 <p style="font-size:0.8rem; color:#555; margin:0 0 12px 0; line-height:1.5;">Formula 1, MotoGP, WEC ve tüm kategorilerdeki haberleri tarih sırasına göre tek sayfada görüntüle.</p>
@@ -529,20 +528,19 @@ function initAppEngine() {
                         <div class="sidebar-widget social-widget">
                             <div class="sidebar-widget-header">
                                 <span class="sidebar-widget-title">BİZİ TAKİP EDİN</span>
-                                <span class="sidebar-badge-red">RNT</span>
                             </div>
                             <div class="sidebar-social-links">
                                 <a href="https://instagram.com" target="_blank" rel="noopener" class="social-btn instagram">
-                                    <span class="social-icon">📷</span> Instagram
+                                    <span class="social-icon"></span> Instagram
                                 </a>
                                 <a href="https://twitter.com" target="_blank" rel="noopener" class="social-btn x-twitter">
-                                    <span class="social-icon">𝕏</span> X (Twitter)
+                                    <span class="social-icon"></span> X (Twitter)
                                 </a>
                                 <a href="https://youtube.com" target="_blank" rel="noopener" class="social-btn youtube">
-                                    <span class="social-icon">▶</span> YouTube
+                                    <span class="social-icon"></span> YouTube
                                 </a>
                                 <a href="https://tiktok.com" target="_blank" rel="noopener" class="social-btn tiktok">
-                                    <span class="social-icon">🎵</span> TikTok
+                                    <span class="social-icon"></span> TikTok
                                 </a>
                             </div>
                         </div>
@@ -690,14 +688,14 @@ function initAppEngine() {
 
         container.innerHTML = `
             <div class="sidebar-widget-header">
-                <span class="sidebar-widget-title">🏁 SIRADAKİ YARIŞ</span>
+                <span class="sidebar-widget-title">SIRADAKİ YARIŞ</span>
                 <span class="sidebar-badge-red">${catName}</span>
             </div>
             <div class="sidebar-race-body">
                 <div class="sidebar-gp-banner">
                     <h4 class="sidebar-gp-title">${gpTitle}</h4>
                     <div class="sidebar-gp-sub">${trackName}</div>
-                    <div class="sidebar-gp-date">📅 ${eventDate}</div>
+                    <div class="sidebar-gp-date">${eventDate}</div>
                 </div>
 
                 <div class="sidebar-sessions-list">
@@ -749,7 +747,7 @@ function initAppEngine() {
 
             container.innerHTML = `
                 <div class="sidebar-widget-header">
-                    <span class="sidebar-widget-title">🏆 2026 PUAN DURUMU</span>
+                    <span class="sidebar-widget-title">2026 PUAN DURUMU</span>
                     <span class="sidebar-badge-red">CANLI</span>
                 </div>
                 <div class="sidebar-standings-body">
@@ -811,7 +809,7 @@ function initAppEngine() {
 
         container.innerHTML = `
             <div class="sidebar-widget-header">
-                <span class="sidebar-widget-title">🔥 ÇOK OKUNANLAR</span>
+                <span class="sidebar-widget-title">ÇOK OKUNANLAR</span>
                 <span class="sidebar-badge-red">TREND</span>
             </div>
             <div class="sidebar-trending-list">
@@ -995,7 +993,7 @@ function initAppEngine() {
                     if (e.status !== "Tamamlandı" && e.status !== "Tamamlandi") return false;
                     const parts = e.isoDate.split('-');
                     let eDate = new Date();
-                    if (parts.length === 3) eDate = new Date(parts[0], parts[1]-1, parts[2]);
+                    if (parts.length === 3) eDate = new Date(parts[0], parts[1] - 1, parts[2]);
                     else eDate = new Date(e.isoDate);
                     return eDate < now;
                 });
@@ -1079,12 +1077,20 @@ function initAppEngine() {
                                     <span class="spec-val">${trackOpened}</span>
                                 </div>
                                 <div class="spec-row">
+                                    <span class="spec-label">İlk Yarış Kazanan (Pilot)</span>
+                                    <span class="spec-val">${trackFirstWinnerPilot}</span>
+                                </div>
+                                <div class="spec-row">
                                     <span class="spec-label">En Çok Kazanan (Pilot)</span>
                                     <span class="spec-val">${trackMostWinsPilot}</span>
                                 </div>
                                 <div class="spec-row">
                                     <span class="spec-label">En Çok Kazanan (Takım)</span>
                                     <span class="spec-val">${trackMostWinsTeam}</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Pist Açıklaması</span>
+                                    <span class="spec-val">${trackDescription}</span>
                                 </div>
                             </div>
                         </div>
@@ -1187,7 +1193,7 @@ function initAppEngine() {
 
                 const dateCompare = dateB - dateA;
                 if (dateCompare !== 0) return dateCompare;
-                
+
                 const revCompare = (a._revIdx || 0) - (b._revIdx || 0);
                 if (revCompare !== 0) return revCompare;
 
@@ -1200,12 +1206,12 @@ function initAppEngine() {
 
         if (container) {
             container.innerHTML = '';
-            
+
             if (heroContainer && allNews.length > 0) {
                 const heroNews = allNews[0];
                 heroContainer.innerHTML = '';
                 heroContainer.appendChild(createHeroNewsCard(heroNews));
-                
+
                 // Render remaining news
                 allNews.slice(1).forEach((news, idx) => {
                     container.appendChild(createNewsCard(news));
@@ -1236,7 +1242,7 @@ function initAppEngine() {
     function createHeroNewsCard(news) {
         const div = document.createElement('div');
         div.className = 'hero-news-card';
-        
+
         // Get first line of content
         let summary = news.content || '';
         if (summary.includes('<br>')) {
@@ -1509,12 +1515,12 @@ function initAppEngine() {
                     </thead>
                     <tbody>
                         ${sortedPilots.map((p, idx) => {
-                            const flagSrc = p.flag ? (p.flag.startsWith('Resimler/') ? `${window.APP_ROOT}${p.flag}` : p.flag) : '';
-                            const imgPath = p.img ? (p.img.startsWith('Resimler/') ? `${window.APP_ROOT}${p.img}` : p.img) : 'Resimler/Logo/logo.png';
-                            const formattedName = isMilli ? formatTitleCaseTR(p.name) : p.name;
-                            const formattedTeam = isMilli ? formatTitleCaseTR(p.team) : p.team;
-                            const pilotDisplayName = (isMilli && formattedTeam) ? `${formattedName} (${formattedTeam})` : (isMilli ? formattedName : p.name);
-                            return `
+            const flagSrc = p.flag ? (p.flag.startsWith('Resimler/') ? `${window.APP_ROOT}${p.flag}` : p.flag) : '';
+            const imgPath = p.img ? (p.img.startsWith('Resimler/') ? `${window.APP_ROOT}${p.img}` : p.img) : 'Resimler/Logo/logo.png';
+            const formattedName = isMilli ? formatTitleCaseTR(p.name) : p.name;
+            const formattedTeam = isMilli ? formatTitleCaseTR(p.team) : p.team;
+            const pilotDisplayName = (isMilli && formattedTeam) ? `${formattedName} (${formattedTeam})` : (isMilli ? formattedName : p.name);
+            return `
                                 <tr class="table-row-item" ${!isMilli ? `onclick="handleRoute('pilot-detail', '${cat}', true, '${p.id}')"` : ''} style="${!isMilli ? 'cursor:pointer' : 'cursor:default'}">
                                     <td style="text-align:center; font-weight:700; color:#888;">${idx + 1}</td>
                                     <td style="text-align:center;">
@@ -1535,7 +1541,7 @@ function initAppEngine() {
                                     </td>` : ''}
                                 </tr>
                             `;
-                        }).join('')}
+        }).join('')}
                     </tbody>
                 </table>
             </div>
@@ -1559,9 +1565,9 @@ function initAppEngine() {
                     </thead>
                     <tbody>
                         ${teams.map((t, idx) => {
-                            const flagSrc = t.flag ? (t.flag.startsWith('Resimler/') ? `${window.APP_ROOT}${t.flag}` : t.flag) : '';
-                            const imgPath = t.img ? (t.img.startsWith('Resimler/') ? `${window.APP_ROOT}${t.img}` : t.img) : 'Resimler/Logo/logo.png';
-                            return `
+            const flagSrc = t.flag ? (t.flag.startsWith('Resimler/') ? `${window.APP_ROOT}${t.flag}` : t.flag) : '';
+            const imgPath = t.img ? (t.img.startsWith('Resimler/') ? `${window.APP_ROOT}${t.img}` : t.img) : 'Resimler/Logo/logo.png';
+            return `
                                 <tr class="table-row-item" onclick="handleRoute('team-detail', '${cat}', true, '${t.id}')" style="cursor:pointer">
                                     <td style="text-align:center; font-weight:700; color:#888;">${idx + 1}</td>
                                     <td style="text-align:center;">
@@ -1578,7 +1584,7 @@ function initAppEngine() {
                                     </td>
                                 </tr>
                             `;
-                        }).join('')}
+        }).join('')}
                     </tbody>
                 </table>
             </div>
@@ -1962,8 +1968,8 @@ function initAppEngine() {
     window.handleRoute = handleRoute;
     window.showPilotDetail = showPilotDetail;
     window.showTeamDetail = showTeamDetail;
-    
-    window.goBack = function() {
+
+    window.goBack = function () {
         if (window.isDirectLink) {
             window.isDirectLink = false;
             handleRoute('home', null, true);
@@ -2041,7 +2047,7 @@ function initAppEngine() {
     function showPilotDetail(cat, id) {
         const categoryData = getCategoryData(cat);
         const pilot = (categoryData.pilots || []).find(p => p.id === id);
-        
+
         if (!pilot) {
             console.error("Pilot not found:", cat, id);
             renderHome();
@@ -2065,7 +2071,7 @@ function initAppEngine() {
     function showTeamDetail(cat, id) {
         const categoryData = getCategoryData(cat);
         const team = (categoryData.teams || []).find(t => t.id === id);
-        
+
         if (!team) {
             console.error("Team not found:", cat, id);
             renderHome();
@@ -2111,7 +2117,7 @@ function initAppEngine() {
     function renderNewsDetail(cat, id) {
         const categoryData = getCategoryData(cat);
         const news = (categoryData.news || []).find(n => n.id == id);
-        
+
         if (!news) {
             console.error("News not found:", cat, id);
             renderHome();
@@ -2308,7 +2314,7 @@ function initAppEngine() {
     }
 
     // Helper for back navigation
-    window.goBack = function() {
+    window.goBack = function () {
         if (window.history.length > 1) {
             window.history.back();
         } else {
