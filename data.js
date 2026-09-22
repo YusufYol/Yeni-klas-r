@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 129,
+                "title": "F1’DE YENİ DÖNEM: 2027 SEZONUNDA YARIŞ MESAFELERİ KISALIYOR VE KURALLAR DEĞİŞİYOR",
+                "cat": "formula 1",
+                "date": "2026-09-22 10:31",
+                "content": "FIA, Londra’da gerçekleştirilen F1 Komisyonu toplantısının ardından 2027 sezonunda devreye girecek önemli düzenlemeleri resmen onayladı. Dünya Motor Sporları Konseyi’nin onayına sunulan ve formalite olarak değerlendirilen bu yeni kararlar, Formula 1’de hem yarış dinamiklerini hem de seyirci deneyimini doğrudan etkileyecek.<br><br>Gelecek sezondan itibaren standart yarış mesafesi, mevcut 305 kilometreden 290 kilometreye indiriliyor. Bu değişiklik, pistlerin yapısına bağlı olarak yarış uzunluğunun yaklaşık 2 ila 3 tur azalması anlamına geliyor. Bu hamlenin arkasındaki temel neden ise yeni güç ünitesi kuralları. İçten yanmalı motor ile batarya arasındaki güç dağılımı hedefinin revize edilmesiyle birlikte, 2027’de güç dengesi içten yanmalı motor lehine %58 - %42 oranına çıkarılacak, 2028’de ise bu oran %60 - %40 seviyesine getirilecek. FIA, konuyla ilgili yaptığı resmî açıklamada bu enerji dağılımına paralel olarak toplam mesafenin düşürüldüğünü doğruladı.<br><br>Yarış akışını ve taraftar deneyimini iyileştirmeye yönelik alınan bir diğer önemli karar ise süre sınırlamalarında yapıldı. Yağmur veya çeşitli aksaklıklar nedeniyle kesintiye uğrayan yarışlarda, organizasyonun başlangıcından bitişine kadar geçerli olan mevcut üç saatlik azami süre sınırı tamamen kaldırıldı. Bunun yerine her şartta yarış faaliyetinin tamamlanabilmesi için kesin bir bitiş saati uygulaması getirilirken, aktif yarış süresi için geçerli olan iki saatlik azami limit 2027’de de geçerliliğini korumaya devam edecek. FIA, bu adımı aksaklıklar yaşandığında seyircilerin tam bir yarışı izleme şansını artırmak amacıyla attıklarını belirtti.<br><br>Teknik tarafta ise olumsuz hava koşulları veya aksaklıklar yüzünden serbest antrenman seanslarının sürelerini uzatabilmek adına yönetmeliklere esneklik kazandırıldı. Ayrıca tedarikçilerin geliştirme özgürlüğünü korumak amacıyla 2027 için planlanan vites kutusu homologasyon kısıtlaması da ortadan kaldırıldı.",
+                "img": "Resimler/Formula 1 Haberler/1790062277475_IMG_9521.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 128,
                 "title": "MERCEDES’TEN BEKLENEN HAMLE : KAPSAMLI GÜNCELLEME MALEZYA’DA GELİYOR",
                 "cat": "formula 1",
@@ -10843,203 +10853,6 @@ const APP_DATA = {
                 "flag": "Resimler/Milli Sporcularımız Ülkeleri/Türkiye.png"
             }
         ]
-    }
-};
-
-const CIRCUITS_DB = {
-    "Sakhir": {
-        "len": "5.412 km", "turns": "15", "drs": "3 Bölgeli", "record": "1:31.447 (Pedro de la Rosa)",
-        "opened": "2004", "firstWinner": "Michael Schumacher (2004)",
-        "mostWinsPilot": "Lewis Hamilton (5 Galibiyet)", "mostWinsTeam": "Ferrari (7 Galibiyet)",
-        "description": "Bahreyn Uluslararası Pisti (Sakhir), 2004 yılında açılan ve Orta Doğu'daki ilk Formula 1 yarışı olan Sakhir'de düzenlenen bir yarış pistidir."
-    },
-    "Suzuka": {
-        "len": "5.807 km", "turns": "18", "drs": "1 Bölge", "record": "1:30.983 (Lewis Hamilton)",
-        "opened": "1962", "firstWinner": "Gerhard Berger (1987)",
-        "mostWinsPilot": "Michael Schumacher (6 Galibiyet)", "mostWinsTeam": "McLaren (9 Galibiyet)",
-        "description": "Efsanevi '8' şekilli pist yapısıyla Suzuka, hem pilotlar hem de taraftarlar için takvimin en teknik ve sevilen duraklarından biridir."
-    },
-    "Melbourne": {
-        "len": "5.278 km", "turns": "14", "drs": "4 Bölge", "record": "1:20.235 (Max Verstappen)",
-        "opened": "1996", "firstWinner": "Damon Hill (1996)",
-        "mostWinsPilot": "Michael Schumacher (4 Galibiyet)", "mostWinsTeam": "McLaren (11 Galibiyet)",
-        "description": "Albert Park'ta düzenlenen Avustralya GP, sokak pisti karakteriyle sezonun her zaman heyecan verici başlangıç noktalarından biridir."
-    },
-    "Shanghai": {
-        "len": "5.451 km", "turns": "16", "drs": "2 Bölge", "record": "1:32.238 (Michael Schumacher)",
-        "opened": "2004", "firstWinner": "Rubens Barrichello (2004)",
-        "mostWinsPilot": "Lewis Hamilton (6 Galibiyet)", "mostWinsTeam": "Mercedes (6 Galibiyet)",
-        "description": "Şekil olarak 'Shang' (Yukarı) karakterini andıran Çin GP pisti, devasa ana tribünü ve uzun düzlükleriyle tanınır."
-    },
-    "Lusail": {
-        "len": "5.419 km", "turns": "16", "drs": "1 Bölge", "record": "1:24.319 (Max Verstappen)",
-        "opened": "2004", "firstWinner": "Lewis Hamilton (2021) / Sete Gibernau (MotoGP 2004)",
-        "mostWinsPilot": "Marc Márquez (MotoGP - 2 Galibiyet)", "mostWinsTeam": "Yamaha (MotoGP - 10 Galibiyet)",
-        "description": "Katar'daki Lusail pisti, gece aydınlatması altında düzenlenen yarışlarıyla hem F1 hem de MotoGP takvimlerine ihtişam katar."
-    },
-    "Miami": {
-        "len": "5.412 km", "turns": "19", "drs": "3 Bölge", "record": "1:29.708 (Max Verstappen)",
-        "opened": "2022", "firstWinner": "Max Verstappen (2022)",
-        "mostWinsPilot": "Max Verstappen (2 Galibiyet)", "mostWinsTeam": "Oracle Red Bull Racing - McLaren F1 Team (2 Galibiyet)",
-        "description": "Hard Rock Stadyumu çevresindeki Miami International Autodrome, modern F1'in eğlence ve hızı birleştiren ikonik duraklarından biridir."
-    },
-    "Jeddah": {
-        "len": "6.174 km", "turns": "27", "drs": "3 Bölge", "record": "1:30.734 (Lewis Hamilton)",
-        "opened": "2021", "firstWinner": "Lewis Hamilton (2021)",
-        "mostWinsPilot": "Max Verstappen (2 Galibiyet)", "mostWinsTeam": "Red Bull (2 Galibiyet)",
-        "description": "Dünyanın en hızlı sokak pisti olan Corniche Pisti, Kızıldeniz kıyısındaki dar yapısı ve yüksek hızıyla pilotların sınırlarını zorlar."
-    },
-    "Martinsville": {
-        "len": "0.847 km", "turns": "4", "drs": "Yok", "record": "18.746s (Joey Logano)",
-        "opened": "1947", "firstWinner": "Red Byron (1949)",
-        "mostWinsPilot": "Richard Petty (15 Galibiyet)", "mostWinsTeam": "Hendrick Motorsports (28 Galibiyet)",
-        "description": "NASCAR'ın en kısa ama en heyecan verici pistlerinden biri olan 'The Paperclip', her virajda aksiyon vaat eden bir klasik."
-    },
-    "Long Beach": {
-        "len": "3.167 km", "turns": "11", "drs": "Yok", "record": "1:05.309 (Colton Herta)",
-        "opened": "1975", "firstWinner": "Clay Regazzoni (F1 1976)",
-        "mostWinsPilot": "Al Unser Jr (6 Galibiyet)", "mostWinsTeam": "Penske (11 Galibiyet)",
-        "description": "Kaliforniya'nın ikonik sahil şeridinde düzenlenen Long Beach, IndyCar takviminin en prestijli sokak yarışlarından biridir."
-    },
-    "Zagreb": {
-        "len": "Varyantlar", "turns": "-", "drs": "Yok", "record": "-",
-        "opened": "2021 (WRC)", "firstWinner": "Sébastien Ogier (2021)",
-        "mostWinsPilot": "Sébastien Ogier (2 Galibiyet)", "mostWinsTeam": "Toyota (3 Galibiyet)",
-        "description": "Hırvatistan Rallisi, Zagreb çevresindeki dar ve değişken asfalt etaplarıyla WRC'nin en zorlu asfalt mücadelelerinden biridir."
-    },
-    "Jerez – Ángel Nieto": {
-        "len": "4.428 km", "turns": "13", "drs": "Yok", "record": "1:36.168 (Francesco Bagnaia)",
-        "opened": "1987", "firstWinner": "Wayne Gardner (1987)",
-        "mostWinsPilot": "Valentino Rossi (9 Galibiyet)", "mostWinsTeam": "Honda (22 Galibiyet)",
-        "description": "İspanya’nın güneşi altında parlayan Jerez - Ángel Nieto pisti, MotoGP takviminin en ikonik ve teknik duraklarından biridir."
-    },
-    "Le Mans": {
-        "len": "4.185 km", "turns": "14", "drs": "Yok", "record": "1:29.324 (Fabio Quartararo)",
-        "opened": "1969", "firstWinner": "Giacomo Agostini (1969)",
-        "mostWinsPilot": "Jorge Lorenzo (6 Galibiyet)", "mostWinsTeam": "Honda (15 Galibiyet)",
-        "description": "Le Mans pisti, sert frenleme noktaları ve 'dur-kalk' karakteriyle pilotların fiziksel sınırlarını zorlayan, sıkça değişen hava koşullarıyla her an sürprizlere açık, MotoGP takviminin en ikonik ve teknik duraklarından biridir."
-    },
-    "Barcelona": {
-        "len": "4.657 km", "turns": "14", "drs": "Yok", "record": "1:37.536 (Álex Márquez)",
-        "opened": "1992", "firstWinner": "Wayne Rainey (1992)",
-        "mostWinsPilot": "Valentino Rossi (7 Galibiyet)", "mostWinsTeam": "Honda (11 Galibiyet)",
-        "description": "Uzun düzlüğü, teknik viraj kombinasyonları ve değişken rüzgar şartlarıyla hem lastik yönetimi hem de aerodinamik verimlilik açısından MotoGP takviminin en komple sınavlarından biri olarak kabul edilir."
-    },
-    "Mugello": {
-        "len": "5.245 km", "turns": "15", "drs": "Yok", "record": "1:44.169 (Álex Márquez)",
-        "opened": "1976", "firstWinner": "Barry Sheene (1976)",
-        "mostWinsPilot": "Valentino Rossi (7 Galibiyet)", "mostWinsTeam": "Honda (16 Galibiyet)",
-        "description": "Toskana'nın büyüleyici tepeleri arasına kurulu Mugello, adeta bir hız tapınağını andıran 1.1 kilometrelik devasa düzlüğü, kör tepeleri ve yüksek süratli akıcı virajlarıyla pilotların cesaretini ve motosikletlerin sınırlarını en uç noktaya kadar zorlayan ikonik bir pisttir."
-    },
-    "Circuit Gilles-Villeneuve": {
-        "len": "4,361 km", "turns": "14", "record": "1:13.078 (Valtteri Bottas)",
-        "opened": "1978", "firstWinner": "Gilles Villeneuve (1978)",
-        "mostWinsPilot": "Michael Schumacher ve Lewis Hamilton (7 Galibiyet)", "mostWinsTeam": "Ferrari (14 Galibiyet)",
-        "description": "Montreal'de bir nehir adasında yer alan, yüksek hız düzlükleri, sert frenleme noktaları ve ünlü 'Şampiyonlar Duvarı' ile tanınan Circuit Gilles-Villeneuve, hem pilotların sınırlarını zorlayan hem de bolca geçiş imkanı sunan yarı cadde pisti karakterinde ikonik bir Formula 1 pistidir."
-    },
-    "Monaco": {
-        "len": "3,337 km", "turns": "19", "record": "1:09.954 (Lando Norris)",
-        "opened": "1950", "firstWinner": "Juan Manuel Fangio (1950)",
-        "mostWinsPilot": "Ayrton Senna (6 Galibiyet)", "mostWinsTeam": "McLaren F1 Team (16 Galibiyet)",
-        "description": "Monaco'nun dar ve göz alıcı sokaklarında hataya yer bırakmayan bariyerlerin arasında adeta bir tarih ve prestij şöleni sunan Monaco GP, Formula 1 dünyasının en ikonik ve büyüleyici mücevheridir."
-    },
-    "Balaton Park": {
-        "len": "4,075 km", "turns": "17", "record": "1:37.699 (Marc Márquez)",
-        "opened": "2025", "firstWinner": "Marc Márquez (2025)",
-        "mostWinsPilot": "Marc Márquez (1 Galibiyet)", "mostWinsTeam": "Ducati Lenovo Team (1 Galibiyet)",
-        "description": "Balaton Gölü yakınlarında konumlanan Balaton Park, akıcı yüksek hızlı virajları, teknik şikanları ve yön değişimleriyle sürücülerin sınırlarını zorlayan, 33 yıl aradan sonra MotoGP coşkusunu Macaristan'a geri getiren son teknoloji bir motor sporları merkezidir."
-    },
-    "Barcelona-Catalunya": {
-        "len": "4.657 km", "turns": "14", "record": "1:11.383 (Lando Norris)",
-        "opened": "1991", "firstWinner": "Nigel Mansell (1991)",
-        "mostWinsPilot": "Michael Schumacher ve Lewis Hamilton (6 Galibiyet)", "mostWinsTeam": "Scuderia Ferrari HP (8 Galibiyet)",
-        "description": "Uzun düzlüğü, teknik viraj kombinasyonları ve aerodinamik verimliliği sonuna kadar test eden yapısıyla Barcelona-Catalunya, Formula 1 dünyasında bir aracın saf performansını ve dengesini ölçen en net pistlerdendir."
-    },
-    "Brno": {
-        "len": "5.403 km", "turns": "14", "record": "1:54.596 (Marc Márquez)",
-        "opened": "1993", "firstWinner": "Wayne Rainey (1993)",
-        "mostWinsPilot": "Giacomo Agostini, Max Biaggi ve Valentino Rossi (7 Galibiyet)", "mostWinsTeam": "Honda (19 Galibiyet)",
-        "description": "Çekya GP, doğanın kalbindeki inişli çıkışlı yapısı, yüksek hız gerektiren kör virajları ve motor sporları tarihindeki ikonikleşmiş atmosferiyle MotoGP takviminin en zorlu ve en sevilen klasiklerinden biridir."
-    },
-    "Red Bull Ring": {
-        "len": "4.326 km", "turns": "10", "record": "1:05.619 (Carlos Sainz)",
-        "opened": "1970", "firstWinner": "Jacky Ickx (1970)",
-        "mostWinsPilot": "Max Verstappen (5 Galibiyet)", "mostWinsTeam": "Scuderia Ferrari ve McLaren F1 Team (7 Galibiyet)",
-        "description": "Red Bull Ring; dik yokuşları, sert frenleme noktaları, yeşillikler içindeki konumu ve çok kısa tur süreleriyle pilotlara hata payı bırakmayan, takvimin en hızlı ve ritmik pistlerinden biridir."
-    },
-    "Silverstone": {
-        "len": "5.891 km", "turns": "18", "record": "1:27.097 (Max Verstappen)",
-        "opened": "1950", "firstWinner": "Giuseppe Farina (1950)",
-        "mostWinsPilot": "Lewis Hamilton (9 Galibiyet)", "mostWinsTeam": "Scuderia Ferrari (15 Galibiyet)",
-        "img": "Resimler/MotoGP Pist Resimleri/Silverstone MotoGP.png",
-        "description": "Eski bir İkinci Dünya Savaşı hava üssünden motorsporlarının mabedine dönüşen Silverstone; yüksek hızlı virajları, öngörülemez İngiliz havası ve Formula 1'in doğduğu yer olma özelliğiyle her yarışta tarih yazmaya devam eden zamansız bir klasiktir."
-    },
-    "Sachsenring": {
-        "len": "3,671 km", "turns": "13", "record": "1:19.071 (Fabio Di Giannantonio)",
-        "opened": "1998", "firstWinner": "Mick Doohan (1998)",
-        "mostWinsPilot": "Marc Márquez (9 Galibiyet)", "mostWinsTeam": "Repsol Honda (17 Galibiyet)",
-        "description": "Kısa düzlükleri, peş peşe gelen zorlu sol virajları ve 'Karting pisti'ni andıran dar yapısıyla sürücülerin lastik yönetimi sınırlarını zorlayan, takvimin en teknik ve ikonik kısa pistlerinden biridir."
-    },
-    "Spa-Francorchamps": {
-        "len": "7.004 km", "turns": "19", "record": "1:44.701 (Sergio Pérez)",
-        "opened": "1950", "firstWinner": "Juan Manuel Fangio (1950)",
-        "mostWinsPilot": "Michael Schumacher (6 Galibiyet)", "mostWinsTeam": "Scuderia Ferrari (18 Galibiyet)",
-        "description": "Ardenler Ormanı'nın derinliklerinde yer alan Spa-Francorchamps; Eau Rouge-Raidillon gibi baş döndürücü yükseklik değişimlerine sahip virajları, kestirilemez havası ve saf hız düzlükleriyle pilotların cesaretini sonuna kadar sınayan, Formula 1'in yaşayan en büyük efsanesidir."
-    },
-    "Hungaroring": {
-        "len": "4,381 km", "turns": "14", "record": "1:16.627 (Lewis Hamilton)",
-        "opened": "1986", "firstWinner": "Nelson Piquet (1986)",
-        "mostWinsPilot": "Lewis Hamilton (8 Galibiyet)", "mostWinsTeam": "McLaren F1 Team (13 Galibiyet)",
-        "description": "Dar, virajlı ve ardı arkası kesilmeyen teknik yapısıyla 'duvarsız Monako' veya devasa bir karting pisti olarak anılan Hungaroring, geçiş yapmanın oldukça zor olduğu ve pilotların hem fiziksel hem de zihinsel sınırlarını zorlayan tarihi bir pisttir."
-    },
-    "Silverstone (MotoGP)": {
-        "len": "5.891 km", "turns": "18", "record": "1:57.233 (Fabio Quartararo)",
-        "opened": "1977", "firstWinner": "Pat Hennen (1977)",
-        "mostWinsPilot": "Jorge Lorenzo ve Kenny Roberts (3 Galibiyet)", "mostWinsTeam": "Monster Energy Yamaha MotoGP (8 Galibiyet)",
-        "img": "Resimler/MotoGP Pist Resimleri/Silverstone MotoGP.png",
-        "description": "Motor sporlarının beşiği kabul edilen Silverstone; yüksek hızlı akan virajları, teknik düzeni ve öngörülemeyen İngiliz hava koşullarıyla MotoGP takviminin en heyecanlı ve efsanevi pistlerinden biridir."
-    },
-    "Zandvoort": {
-        "len": "4,259 km", "turns": "14", "record": "1:11.097 (Lewis Hamilton)",
-        "opened": "1952", "firstWinner": "Alberto Ascari (1952)",
-        "mostWinsPilot": "Jim Clark (4 galibiyet)", "mostWinsTeam": "ScuderiaFerrari (8 galibiyet)",
-        "img": "Resimler/Formula 1 Pist Resimleri/Zandvoort GP.png",
-        "description": "Kuzey Denizi kıyısındaki kum tepeleri arasında uzanan Zandvoort; dar profili, akıcı temposu ve yüksek eğimli (banked) virajlarıyla pilotların sürüş hassasiyetini ve cesaretini sınayan tarihi bir pisttir."
-    },
-    "Aragon": {
-        "len": "5,077 Km", "turns": "17", "record": "1:45.455 (Marco Bezzecchi)",
-        "opened": "2010", "firstWinner": "Casey Stoner (2010)",
-        "mostWinsPilot": "Marc Marquez (6 Galibiyet)", "mostWinsTeam": "Honda (7 Zafer)",
-        "img": "Resimler/MotoGP Pist Resimleri/Aragon.png",
-        "description": "MotorLand Aragón, teknik açıdan zorlu saat yönünün tersine viraj kombinasyonları ve arkadaki uzun düzlüğüyle bilinen, sürücülerin hassas çizgi kontrolü ile yüksek hızı mükemmel şekilde harmanlamasını gerektiren İspanya'nın ikonik pistlerinden biridir."
-    },
-    "Misano": {
-        "len": "4,226 km", "turns": "16", "record": "1:30.031 (Francesco Bagnaia)",
-        "opened": "1981", "firstWinner": "Marco Lucchinelli (1981)",
-        "mostWinsPilot": "Marc Márquez (5 Galibiyet)", "mostWinsTeam": "Honda (5 Zafer)",
-        "img": "Resimler/MotoGP Pist Resimleri/Misano.png",
-        "description": "İtalya'nın Adriyatik kıyısına yakın konumu, teknik viraj kombinasyonları ve coşkulu tribün atmosferiyle bilinen San Marino GP, sürücülerin hassas çizgi kontrolünü ve ritim yeteneğini en üst düzeyde sınayan ikonik bir pisttir."
-    },
-    "Madring": {
-        "len": "5,416 km", "turns": "22", "record": "-",
-        "opened": "2026", "firstWinner": "-",
-        "mostWinsPilot": "-", "mostWinsTeam": "-",
-        "img": "Resimler/Formula 1 Pist Resimleri/Madrid.png",
-        "description": "İspanya'nın başkenti Madrid'de IFEMA fuar alanı ve Valdebebas çevresine kurulan Madring; hem kalıcı pist hem de cadde bölümlerini birleştiren yarı caddesel hibrit yapısı, 20 dereceyi aşan eğimli ikonik virajı (La Monumental) ve yüksek hızlı düzlükleriyle modern Formula 1 takvimine heyecan katmayı hedefleyen yenilikçi bir pisttir."
-    },
-    "Spielberg (MotoGP)": {
-        "len": "4,348 km", "turns": "11", "record": "1:29.840 (Francesco Bagnaia)",
-        "opened": "1996", "firstWinner": "Mick Doohan (1996)",
-        "mostWinsPilot": "Francesco Bagnaia (3 Galibiyet)", "mostWinsTeam": "Ducati Lenovo (8 Galibiyet)",
-        "img": "Resimler/MotoGP Pist Resimleri/Spielberg.png",
-        "description": "Alpler'in eşsiz doğasında yer alan Red Bull Ring, dik tırmanışları, sert frenleme noktaları ve yüksek ortalama hızıyla motor gücünü ve cesareti sınırlarına kadar sınayan ikonik bir pisttir."
-    },
-    "Bakü": {
-        "len": "6,003 km", "turns": "20", "record": "1:43.009 (Charles Leclerc)",
-        "opened": "2016", "firstWinner": "Nico Rosberg (2016)",
-        "mostWinsPilot": "Max Verstappen ve Sergio Perez (2 Galibiyet)", "mostWinsTeam": "Oracle Red Bull Racing (5 Galibiyet)",
-        "img": "Resimler/Formula 1 Pist Resimleri/Bakü.png",
-        "description": "Tarihi İçerişehir surlarının dar sokakları ile Hazar Denizi kıyısındaki yüksek hızlı uzun düzlükleri harmanlayan Bakü Şehir Pisti, takvimdeki en heyecanlı ve sürprize açık cadde yarışlarına ev sahipliği yapmaktadır."
     }
 };
 
