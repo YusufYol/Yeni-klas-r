@@ -5336,6 +5336,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 134,
+                "title": "YAMAHA'DAN YENİ DÖNEME CESUR HAMLE: 850CC İÇİN ÜÇ KANATLI AERO DEVRİMİ",
+                "cat": "motogp",
+                "date": "2026-09-23 16:18",
+                "content": "MotoGP'de 2027 ile başlayacak 850cc devrine az bir süre kala fabrika atölyelerinde sular bir an olsun durulmuyor. Yeni kuralların getireceği daraltılmış alanlara ve aerodinamik kısıtlamalara erken uyum sağlamak isteyen Yamaha, markanın ikonikleşen imzasını yeniden sahneye çıkarıyor. Japon üretici, mevcut 1000cc M1'lerde gördüğümüz üç kanatlı konseptin çok daha kompakt ve evrimleşmiş bir versiyonunu şimdiden test etmeye başladı.<br><br>Geçtiğimiz sezonun başında rakiplerin popüler tercihi olan klasik \"kutu-kanat\" tasarımına geçiş yapan Yamaha, bu çizgide uzun süre kalmamış ve kendi özüne dönerek üç katmanlı düzene geri sarıvermişti. Şimdi ise D kategorisinin sunduğu imtiyaz haklarını sonuna kadar kullanan marka, V4 motorlu yeni nesil prototipinde işi bir adım öteye taşıyor. Test pilotu Augusto Fernandez'in piste çıkardığı 850cc'lik yeni makinede, her iki yanda üçer adet küçültülmüş kanatçık dikkat çekiyor.<br><br>Yeni dönemin kapıda olması, üreticileri köklü değişimlere zorluyor. 2027 teknik kuralları; ön grenaj genişliğini 600 mm'den 550 mm'ye düşürürken, arka uç yüksekliğini de 1250 mm'den 1150 mm'ye çekiyor. Ayrıca ön grenajın en uç noktasının 50 mm geriye alınacak olması, mühendislerin ön alandaki tüm hesaplamalarını baştan aşağı değiştirmesini gerektiriyor. Yalnızca ön taraf değil; arka aero parçalar da artık sıkı bir homologasyon takvimine bağlanıyor. Üreticiler, imtiyaz statülerine göre sezon içerisinde arka aero paketlerinde sadece bir kez güncelleme yapabilecek.<br><br>Teknik detaylar kadro hareketliliğini de tetiklemiş durumda. 2027 gridinde Yamaha fabrika takımının direksiyonunda Jorge Martin ve Ai Ogura ikilisi ter dökecek. Diğer yandan Pramac Ducati cephesinde ise milli gururumuz Toprak Razgatlıoğlu, MotoGP'ye taze bir soluk getirecek Izan Guevara ile aynı garajı paylaşacak. Yamaha'nın bu cesur üç kanatlı konseptinin yeni dönemde podyum yolunda nasıl bir rekabet avantajı yaratacağını ise zaman gösterecek.",
+                "img": "Resimler/MotoGP Haberler/1790169504129_IMG_9568.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 130,
                 "title": "JOAN MİR, SAĞLIK SORUNLARI NEDENİYLE JAPONYA VE ENDONEZYA GP’LERİNDE YOK",
                 "cat": "motogp",
