@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 135,
+                "title": "2026 AZERBAYCAN GRAND PRIX'SİNE DOĞRU: BAKÜ'DE YARIŞ HEYECANI BAŞLIYOR",
+                "cat": "formula 1",
+                "date": "2026-09-23 16:24",
+                "content": "Formula 1 heyecanı hız kesmeden devam ederken, sezonun 15. durağı olan Azerbaycan Grand Prix'si için geri sayım başladı. 24-26 Eylül tarihleri arasında Bakü sokak pistinde gerçekleştirilecek yarış, bu sezonki takvim düzenlemesi nedeniyle cumartesi günü koşulacak. Şampiyona mücadelesinde ise Kimi Antonelli, İspanya Grand Prix'sinde elde ettiği sekizinci galibiyetle liderliğini sürdürüyor. En yakın rakibi ve takım arkadaşı George Russell'ın 81 puan önünde bulunan genç pilot, aynı zamanda Lewis Hamilton ve Lando Norris gibi isimlerin de önünde şampiyonluk yolunda ilerliyor.<br><br>Yeni hafta sonu formatına göre perşembe ve cuma günleri yapılacak seansların ardından 51 turluk büyük yarış cumartesi günü ekranlara gelecek.<br><br>Canlı yayınları F1 TV ve beIN SPORTS 4 üzerinden takip edebileceğiniz Bakü GP'sinin tam saat programı şu şekilde:<br><br>24 Eylül Perşembe günü 1. antrenman seansı saat 11:30'da, <br>2. antrenman seansı ise saat 15:00'te yapılacak.<br><br>25 Eylül Cuma günü 3. antrenman seansı saat 11:30'da başlarken, pole pozisyonu için saat 15:00'teki sıralama turlarında başlayacak. <br><br>26 Eylül Cumartesi yarış saat 14:00'te start alacak.",
+                "img": "Resimler/Formula 1 Haberler/1790169882139_IMG_9569.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 133,
                 "title": "ESTEBAN OCON VE HAAS’TA AYRILIK ÇANLARI: YOLLARI AYRILIYOR MU?",
                 "cat": "formula 1",
