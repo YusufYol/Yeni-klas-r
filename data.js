@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 133,
+                "title": "ESTEBAN OCON VE HAAS’TA AYRILIK ÇANLARI: YOLLARI AYRILIYOR MU?",
+                "cat": "formula 1",
+                "date": "2026-09-23 16:01",
+                "content": "Formula 1’de Haas forması giyen Esteban Ocon için yolun sonu mu görünüyor? Takım arkadaşı Oliver Bearman’ın gerisinde kalan ve bu sezon yalnızca 3 puan toplayabilen Fransız pilot, geleceğiyle ilgili kritik bir dönemeçten geçiyor. Takım içinde yaşanan performans düşüklüğü ve artan koltuk adayları, Ocon’un Haas’taki macerasının sonuna gelindiğine işaret ediyor.<br><br>Bu sezon beklentilerin oldukça altında kalan Ocon, Bearman’ın 18 puanına karşılık yalnızca 3 puan elde edebildi. Takım adına hayal kırıklığı yaratan bu tabloda Ocon, son puanını Haziran ayındaki Monaco Grand Prix’sinde dokuzuncu olarak hanesine yazdırmıştı. Her ne kadar araçta yaşanan kronik sorunlara ve yetersizliklere dikkat çekse de, Haas yönetimi performans ve ticari unsurları göz önünde bulundurarak farklı alternatifleri değerlendirmeye başladı.<br><br>Takımın Toyota ile yürüttüğü özel test programı kapsamında Leonardo Fornaroli, Ryo Hirakawa ve Jack Doohan gibi isimler test edilirken, Rafael Camara Ocon’un koltuğu için en güçlü aday olarak öne çıkıyor. Henüz resmi bir anlaşma imzalanmamış olsa da, Azerbaycan Grand Prix’si öncesi gelecek yıl için serbest olduğunu doğrulayan Ocon, farklı takımlarla görüştüğünü belirtti. Ancak 2027 gridinin büyük ölçüde dolmuş olması, deneyimli pilotun yarış koltuğu bulmasını oldukça zorlaştırıyor.<br><br>Ocon’un kariyerinde daha önce 2019 yılında Force India'nın dönüşüm sürecinde de benzer şekilde koltuksuz kaldığı ve bir sezon kenarda beklemek zorunda kaldığı biliniyor. Eğer bu süreçte kalıcı bir yarış koltuğu bulamazsa, Fransız pilotun önündeki seçenekler arasında yeniden yedek pilotluk rolünü değerlendirmek de yer alıyor.",
+                "img": "Resimler/Formula 1 Haberler/1790168491753_IMG_9567.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 132,
                 "title": "RED BULL, 2027 SEZONU İÇİN ISACK HADJAR İLE SÖZLEŞME YENİLEDİ",
                 "cat": "formula 1",
