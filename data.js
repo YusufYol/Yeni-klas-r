@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 132,
+                "title": "RED BULL, 2027 SEZONU İÇİN ISACK HADJAR İLE SÖZLEŞME YENİLEDİ",
+                "cat": "formula 1",
+                "date": "2026-09-23 12:43",
+                "content": "Red Bull, geleceğe yönelik kadro planlamasında kritik bir hamleye imza atarak Isack Hadjar’ın sözleşmesini 2027 sezonu sonuna kadar uzattığını resmi olarak açıkladı. Racing Bulls’taki başarılı çaylak sezonunun ardından 2026 yılında ana takıma yükselen genç Fransız pilot, tarihsel olarak sürücüleri zorlamasıyla bilinen ikinci Red Bull koltuğunda sergilediği istikrarlı performansla hem takımın hem de Formula 1 çevrelerinin büyük beğenisini topladı.<br><br>Sezon içinde yaşadığı sakatlık sebebiyle üç yarış kaçıran ancak bu hafta sonu Azerbaycan Grand Prix'si ile pistlere güçlü bir dönüş yapan Hadjar, geçtiğimiz günlerde sözleşmesini 2030’a kadar uzatan Max Verstappen ile birlikte 2027’de de Red Bull’un başarısı için direksiyonda olacak.<br><br>Takım patronu Laurent Mekies, genç pilotla yola devam etme kararını değerlendirirken şu ifadeleri kullandı: \"Isack ile yolculuğumuza devam edeceğimiz için çok heyecanlıyız. Yılın başında bize katıldığından bu yana, henüz ikinci Formula 1 sezonunu geçirdiği düşünüldüğünde hem pistte hem de pist dışında harika bir performans sergiledi. Bu da sözleşmesini uzatma kararını bizim için oldukça kolaylaştırdı.\"<br><br>Mekies, Fransız pilotun çalışma ahlakına ve takıma uyumuna da ayrı bir parantez açarak, \"En başından itibaren Isack kendisini takıma adadı; aracı geliştirmek için mühendisleriyle fabrikada her dakikayı değerlendirdi, her zaman öğrenmeye ve gelişmeye istekli oldu. Melbourne'deki ilk hafta sonundan itibaren bu yükselişi olağanüstü bir soğukkanlılıkla yönettiğini ve bu koltuktaki yerini hak ettiğini görebiliyorduk\" dedi.",
+                "img": "Resimler/Formula 1 Haberler/1790156579753_IMG_9562.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 131,
                 "title": "MCLAREN BAKÜ'YE H-WİNG VE GÜNCELLEME PAKETİYLE GELİYOR",
                 "cat": "formula 1",
