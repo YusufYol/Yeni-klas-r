@@ -10231,47 +10231,47 @@ const APP_DATA = {
                 {
                     "pos": 1,
                     "name": "Aprilia Racing",
-                    "pts": 515
+                    "pts": 570
                 },
                 {
                     "pos": 2,
                     "name": "Ducati Lenovo Team",
-                    "pts": 417
+                    "pts": 450
                 },
                 {
                     "pos": 3,
                     "name": "Trackhouse Racing",
-                    "pts": 402
+                    "pts": 425
                 },
                 {
                     "pos": 4,
                     "name": "Red Bull KTM Factory Racing",
-                    "pts": 292
+                    "pts": 328
                 },
                 {
                     "pos": 5,
                     "name": "Pertamina Enduro VR46",
-                    "pts": 279
+                    "pts": 286
                 },
                 {
                     "pos": 6,
                     "name": "BK8 Gresini Racing MotoGP",
-                    "pts": 267
+                    "pts": 282
                 },
                 {
                     "pos": 7,
                     "name": "Repsol Honda Team",
-                    "pts": 129
+                    "pts": 134
                 },
                 {
                     "pos": 8,
                     "name": "Red Bull KTM Tech3",
-                    "pts": 107
+                    "pts": 112
                 },
                 {
                     "pos": 9,
                     "name": "Castrol Honda LCR",
-                    "pts": 100
+                    "pts": 110
                 },
                 {
                     "pos": 10,
