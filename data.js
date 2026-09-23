@@ -1833,29 +1833,30 @@ const APP_DATA = {
                     "firstWinner": "Nico Rosberg (2016)",
                     "mostWinsPilot": "Max Verstappen ve Sergio Perez (2 Galibiyet)",
                     "mostWinsTeam": "Oracle Red Bull Racing (5 Galibiyet)",
+                    "img": "",
                     "description": "Tarihi İçerişehir surlarının dar sokakları ile Hazar Denizi kıyısındaki yüksek hızlı uzun düzlükleri harmanlayan Bakü Şehir Pisti, takvimdeki en heyecanlı ve sürprize açık cadde yarışlarına ev sahipliği yapmaktadır."
                 },
-                "len": "6.003 km",
+                "len": "6,003 km",
                 "turns": "20",
                 "sessions": [
                     {
-                        "name": "Cuma: 1. Antrenman Seansı",
+                        "name": "Perşembe: 1. Antrenman Seansı",
                         "time": "11:30"
                     },
                     {
-                        "name": "Cuma: 2. Antrenman Seansı",
+                        "name": "Perşembe: 2. Antrenman Seansı",
                         "time": "15:00"
                     },
                     {
-                        "name": "Cumartesi: 3. Antrenman Seansı",
+                        "name": "Cuma: 3. Antrenman Seansı",
                         "time": "11:30"
                     },
                     {
-                        "name": "Cumartesi: Sıralama Turları",
+                        "name": "Cuma: Sıralama Turları",
                         "time": "15:00"
                     },
                     {
-                        "name": "Pazar: Yarış",
+                        "name": "Cumartesi: Yarış",
                         "time": "14:00"
                     }
                 ]
