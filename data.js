@@ -5387,6 +5387,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 140,
+                "title": "MOTOGP VE PORTEKİZ GRAND PRİX’İ SÖZLEŞMESİNİ 2029'A KADAR UZATTI",
+                "cat": "motogp",
+                "date": "2026-09-24 22:06",
+                "content": "MotoGP yönetimi, Portekiz Grand Prix'sinin en az 2029 yılı sonuna kadar takvimde kalacağını resmi olarak duyurdu.<br><br>COVID-19 salgını döneminde, 2020 yılında geçici bir yarış olarak takvime giren Portimao'daki Algarve Uluslararası Pisti, yapılan yeni anlaşmayla birlikte şampiyonaya ev sahipliği yapmaya devam edecek.<br><br>Anlaşmaya ilişkin değerlendirmelerde bulunan Algarve Turizm Başkanı Andre Gomes, organizasyonun turizm sezonunun yoğun olmadığı dönemlerde düzenlenmesinin bölge ekonomisine ve turizmine katkı sağladığını ifade etti. MotoGP yetkilisi Carlos Ezpeleta, pistin zorlu yapısıyla kısa sürede sürücüler ve taraftarlar arasında öne çıktığını belirtirken, Algarve Uluslararası Pisti CEO'su Jaime Costa ise sözleşme uzatmasının yürütülen çalışmaların bir göstergesi olduğunu kaydetti.<br><br>2027 sezonu takviminin tamamının ilerleyen günlerde açıklanması bekleniyor.",
+                "img": "Resimler/MotoGP Haberler/1790276799133_IMG_9637.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 134,
                 "title": "YAMAHA'DAN YENİ DÖNEME CESUR HAMLE: 850CC İÇİN ÜÇ KANATLI AERO DEVRİMİ",
                 "cat": "motogp",
