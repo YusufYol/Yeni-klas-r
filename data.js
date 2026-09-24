@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 138,
+                "title": "2026 AZERBAYCAN GP 2. ANTRENMAN SEANSINDA EN HIZLI İSİM GEORGE RUSSELL OLDU",
+                "cat": "formula 1",
+                "date": "2026-09-24 16:32",
+                "content": "Formula 1’de 2026 sezonunun Azerbaycan Grand Prix’si kapsamında gerçekleştirilen ikinci antrenman seansında, en iyi dereceyi elde eden Mercedes pilotu George Russell liderliği aldı.<br><br>Bakü’de pit yolunun açılmasıyla birlikte pilotlar seansa giriş yaptı. İlk turlarda George Russell 1:46.300 kaydederken, Max Verstappen 1:45.933’lük derecesiyle bu süreye yanıt verdi. Russell turunu 1:45.944 yaparak aradaki farkı kapatsa da Verstappen'in gerisinde kaldı. İlk 10 dakikalık dilimde Lando Norris 1:45.184 ile ilk sıraya yükseldi, ancak Verstappen 1:45.115 ile yeniden zirveye yerleşti.<br><br>Seans ilerledikçe dereceler gelişti; Russell 1:44.537 ile liderliği alırken, Verstappen 1:44.492’lik turuyla bu dereceyi geçerek ilk sıraya döndü.<br><br>Seansın 20. dakikasında Red Bull Junior Team pilotu Arvid Lindblad’ın viraj girişinde aracın kontrolünü kaybederek kaza yapması sonucu kırmızı bayrak çıkarıldı. Pistin temizlenmesinin ardından seans yaklaşık 10 dakika sonra yeniden başlatıldı. Yeşil bayrağın sallanmasıyla pit yolundan çıkan Oliver Bearman’ın aracında motor durması yaşandı ve araç pist kenarında kaldı. Bu olay nedeniyle kısa süreli sarı bayrak uygulamasına gidildi.<br><br>Seansın ikinci yarısında Charles Leclerc 1:44.473’lük derecesiyle zirveye yerleşti. Bu gelişmenin ardından tempo yükselten George Russell, önce 1:43.759, ardından da 1:43.347’lik dereceler kaydederek seansın en hızlı turuna imza attı.<br>Mercedes pilotu Russell’ın ardından takım arkadaşı Andrea Kimi Antonelli 1:43.899’luk derecesiyle 2. sıraya yükseldi. Max Verstappen ise 1:44.174 ile seansı 3. sırada tamamladı.<br><br>George Russell 1:43.347’lik derecesiyle en hızlı turu tamamlayarak zirvede yer aldı. Takım arkadaşı Andrea Kimi Antonelli 1:43.899'luk süresiyle ikinci sırayı alarak Mercedes'e ilk iki sırayı getirirken, Max Verstappen 1:44.174'lük derecesiyle üçüncü sırada yer aldı. Ferrari pilotları ise Charles Leclerc'in liderliğinde seansı dördüncü ve beşinci sırlarda tamamladı.",
+                "img": "Resimler/Formula 1 Haberler/1790256770376_IMG_9634.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 137,
                 "title": "ASTON MARTİN PİLOTLARINA BAKÜ'DE GRID CEZASI",
                 "cat": "formula 1",
