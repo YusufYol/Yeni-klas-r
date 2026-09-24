@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 137,
+                "title": "ASTON MARTİN PİLOTLARINA BAKÜ'DE GRID CEZASI",
+                "cat": "formula 1",
+                "date": "2026-09-24 13:37",
+                "content": "Azerbaycan Grand Prix'si öncesinde her iki pilotun araçlarında stratejik güç ünitesi değişikliklerine gidildi. Bu hamle doğrultusunda Fernando Alonso ve Lance Stroll, Bakü'deki yarışa grid cezasıyla başlamak durumunda kalacak. Honda'nın Zandvoort'taki güncellemelerinin üzerinden henüz üç yarış geçmişken alınan bu karar, takımın sezonun geri kalanı için parça havuzunu yönetme hamlesi olarak öne çıkıyor.<br><br>Sezon boyunca FIA kurallarıyla belirlenen parça sınırlarının aşılmasıyla birlikte iki pilot da cezadan kurtulamadı. Bu kapsamda Fernando Alonso'nun aracına yeni bir içten yanmalı motor, turboşarj ve PU-ANC yerleştirilirken, Lance Stroll'ün aracında ise yeni bir turboşarj, batarya, elektronik kontrol ünitesi ve PU-ANC kullanılacak.<br><br>Bünyesinde takvimin en uzun düzlüğünü barındıran Bakü Şehir Pisti, zaten saf güç konusunda rekabet etmekte zorlanan AMR26 modeli için işleri oldukça karmaşık hale getirecek. Aston Martin, bu hafta sonunu zorlu geçirecek gibi görünse de, aldığı bu cezalarla sezonun kalan bölümü için daha güvenli bir motor havuzu oluşturmayı amaçlıyor.",
+                "img": "Resimler/Formula 1 Haberler/1790246266136_IMG_9603.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 136,
                 "title": "2026 AZERBAYCAN GP 1. ANTRENMAN: BAKÜ'DEKİ İLK SEANSTA EN HIZLI İSİM GEORGE RUSSELL OLDU!",
                 "cat": "formula 1",
