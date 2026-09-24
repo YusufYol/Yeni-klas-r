@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 139,
+                "title": "MERCEDES'TEN BAKÜ'DE \"TEMKİNLİ İYİMSERLİK\": RAKİPLERLE ARADAKİ FARK ALDATICI OLABİLİR!",
+                "cat": "formula 1",
+                "date": "2026-09-24 22:01",
+                "content": "Azerbaycan Grand Prix’sinin antrenman seanslarını zirvede tamamlayan Mercedes’te yüzler gülüyor olsa da, takım patronu yardımcısı Bradley Lord rakiplerle açılan fark konusunda temkinli olunması gerektiğinin altını çizdi.<br>Günün en hızlı ekibi olmalarına rağmen bu tablonun yanıltıcı olabileceğini belirten Lord, pistin sürekli geliştiğine ve rakiplerin tur sayılarına dikkat çekti.<br><br>Cuma seanslarındaki performansı değerlendiren Lord, zaman tablosundaki liderliğin arkasındaki stratejik detaylara dikkat çekti. Her atılan turla birlikte pistin kauçuk biriktirdiğini ve tur zamanlarının hızla iyileştiğini vurgulayan Lord, aradaki farkın gerçekçi olmadığını belirterek ikinci antrenmanda yumuşak lastiklerle rakiplerinden daha fazla tur attıklarını ifade etti. Max Verstappen ve McLaren pilotlarının hızlı tur denemelerini sınırlı tuttuğunu hatırlatan deneyimli yönetici, zaman tablosundaki farkın bu faktörden ötürü aldatıcı olabileceğini dile getirdi. Buna rağmen, fazladan attıkları her turun kendilerine lastik ve pist koşulları hakkında daha zengin bir veri havuzu sağladığını da sözlerine ekledi.<br><br>Genç pilot Kimi Antonelli’nin yaşadığı hidrolik sorunu ve garajdaki yoğun mesaiye de değinilen açıklamada mekanikerlerin başarısı ön plana çıkarıldı. İlk seansın başında yaşanan aksaklığın ardından mekanikerler harika bir operasyona imza atarak aracı ikinci seans için yeniden hazır hale getirdi. Ayrıca değiştirilen güç ünitesinin havuzda yer alan mevcut bir ünite olması sayesinde herhangi bir grid cezası alınmadığı vurgulandı.<br><br>George Russell’ın Bakü'deki istikrarlı ve güçlü formuna övgüler yağan Lord, takım olgusunun önemine dikkat çekti: \"Bir takım olarak aradığınız şey tam olarak budur; bir araç sorun yaşadığında diğerinin orada olup liderliği üstlenmesi gerekir. George bugün bunu başardı.\" Russell’ın pist limitlerini kusursuz ayarlayan, son derece hızlı ve Bakü'yü seven bir pilot olduğunu belirten Lord, bu formun hafta sonunun geri kalanına da taşınmasını umduklarını sözlerine ekledi.",
+                "img": "Resimler/Formula 1 Haberler/1790276511278_IMG_9636.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 138,
                 "title": "2026 AZERBAYCAN GP 2. ANTRENMAN SEANSINDA EN HIZLI İSİM GEORGE RUSSELL OLDU",
                 "cat": "formula 1",
