@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 141,
+                "title": "FRED VASSEUR’DEN MERCEDES SORUSUNA ESPRİLİ YANIT",
+                "cat": "formula 1",
+                "date": "2026-09-24 22:26",
+                "content": "Ferrari Takım Patronu Frédéric Vasseur, Mercedes’in cuma günkü performansıyla ilgili gelen soruya esprili bir yanıt verdi.<br><br>Hafta sonunun ilk seanslarının ardından Mercedes’in ortaya koyduğu performans değerlendirilirken Vasseur, cuma günü sonuçlarından kesin çıkarımlar yapmanın doğru olmadığını vurguladı.<br><br>Mercedes’in performansıyla ilgili soruya Fransız takım patronu:<br><br>“Cuma gününe bu kadar fazla önem vermek için biraz yaşlandım.”<br><br>ifadelerini kullandı.<br><br>Vasseur’ün bu sözleri, Formula 1’de cuma günü gerçekleştirilen antrenman seanslarında takımların farklı yakıt yükleri, motor modları ve test programlarıyla piste çıkması nedeniyle sıralamanın her zaman gerçek performansı yansıtmadığına yönelik tecrübeli yaklaşımını ortaya koydu.<br><br>Ferrari ve Mercedes arasındaki gerçek performans farkının ise hafta sonunun ilerleyen bölümlerinde, özellikle sıralama turları ve yarışta daha net şekilde görülmesi bekleniyor.",
+                "img": "Resimler/Formula 1 Haberler/1790278004684_74D37895-04B4-4917-B03E-49CBFBD87846.jpeg",
+                "author": "Emre Boz",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Emre Boz.png"
+            },
+            {
                 "id": 139,
                 "title": "MERCEDES'TEN BAKÜ'DE \"TEMKİNLİ İYİMSERLİK\": RAKİPLERLE ARADAKİ FARK ALDATICI OLABİLİR!",
                 "cat": "formula 1",
