@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 136,
+                "title": "2026 AZERBAYCAN GP 1. ANTRENMAN: BAKÜ'DEKİ İLK SEANSTA EN HIZLI İSİM GEORGE RUSSELL OLDU!",
+                "cat": "formula 1",
+                "date": "2026-09-24 13:29",
+                "content": "Bakü Şehir Pisti'nde büyük bir heyecanla başlayan 2026 Azerbaycan Grand Prix'si ilk antrenman seansı, nefes kesen anlara ve erken saatlerde yaşanan teknik aksaklıklara sahne oldu. 1 saatlik seansın start almasıyla birlikte pilotlar piste çıkarken, ilk dakikalardan itibaren hem hız denemeleri hem de araç sorunları dikkat çekti.<br><br>Seansın erken aşamalarında Max Verstappen ve Charles Leclerc arasında liderlik mücadelesi yaşandı. Carlos Sainz'ın frenlerinin alev alması ve pit ekibinin hızlı müdahalesi seansın dikkat çeken olayları arasında yer alırken, Kimi Antonelli ve Isack Hadjar gibi isimler de çeşitli teknik sorunlar yaşayarak pistte veya garajda zaman kaybettiler. Antonelli ve Lindblad'ın yaşadığı sorunlar sonrasında devreye giren sanal güvenlik araçları seansın akışını kesti.<br><br>İlerleyen dakikalarda tempo artarken, Mercedes pilotu George Russell ilk sektörde yakaladığı güçlü ivmeyle 1:45.387'lik harika bir dereceye imza attı ve seansın zirvesine yerleşti. Son dakikalarda Oscar Piastri piste geri dönse de sıralamalarda üst sıralar değişmedi.<br><br>Zorlu ve olaylı geçen ilk antrenman seansını George Russell zirvede tamamlarken, Max Verstappen ikinci, Charles Leclerc ise üçüncü sırada yer aldı.",
+                "img": "Resimler/Formula 1 Haberler/1790245788265_IMG_9602.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 135,
                 "title": "2026 AZERBAYCAN GRAND PRIX'SİNE DOĞRU: BAKÜ'DE YARIŞ HEYECANI BAŞLIYOR",
                 "cat": "formula 1",
