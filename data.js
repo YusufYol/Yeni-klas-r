@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 144,
+                "title": "BAKÜ'DE ZORLU SIRALAMA SEANSI: RUSSELL RÜZGAR ALTINDA POLE POZİSYONUNUN SAHİBİ OLDU",
+                "cat": "formula 1",
+                "date": "2026-09-25 17:10",
+                "content": "2026 Formula 1 sezonunun Azerbaycan Grand Prix'si sıralama turları, şiddetli rüzgarın etkisinde ve çekişmeli mücadelelere sahne oldu. Bakü sokak pistindeki seans, pist temizleme çalışmaları nedeniyle 4 dakikalık gecikmeyle başladı.<br><br>Seansın başlarında pilotlar tempoyu yavaş yavaş yükseltirken, Isack Hadjar kaydettiği 1:44.702'lik dereceyle erken saatlerde zirveye yerleşti. Lewis Hamilton ve Oscar Piastri bu turun hemen arkasında yer aldı.<br>Seansın en dikkat çekici olaylarından biri Kimi Antonelli'nin kazası oldu. Aracının ön sol tekerini bariyerlere çarparak hasar alan Antonelli, takım radyosundan gelen talimatla aracını durdurdu. Kaza öncesinde kaydettiği derece sayesinde Q2'ye kalmayı başarsa da aracı hasar aldı.<br>İlerleyen dakikalarda George Russell, 1:43.615'lik zaman turuyla Q1'in en hızlı ismi olarak liderliği ele geçirdi. Max Verstappen ve Isack Hadjar da ilk bölümde güçlü performans sergileyen diğer isimler arasındaydı. Q1 sonucunda Gabriel Bortoleto, Nico Hulkenberg, Fernando Alonso, Sergio Perez, Valtteri Bottas ve Lance Stroll elenen pilotlar oldu.<br><br>İkinci eleme turu başlarken Max Verstappen rüzgarın şiddetlendiğini ve özellikle 4. virajda sürüşün zorlaştığını bildirdi. Sürücüler arasında liderlik koltuğu sık sık el değiştirdi.<br>Carlos Sainz, McLaren pilotları, Charles Leclerc ve George Russell sırayla zaman tablosunun zirvesine yerleşti. Seansın son anlarında Franco Colapinto 10. sıraya tırmanarak Oliver Bearman'ı elenme potasına itti. George Russell ise son turlarını geliştirerek 1:43.462 ile Q2'yi lider tamamladı. Bu etap sonunda Kimi Antonelli, Oliver Bearman, Liam Lawson, Alexander Albon, Esteban Ocon ve Arvid Lindblad elendi.<br><br>Q3'ün ilk hızlı turlarında George Russell zirveye yerleşse de McLaren pilotlarından hızlı bir yanıt geldi. Önce Lando Norris, ardından Oscar Piastri liderliği ele geçirdi. Isack Hadjar da ilk sıralar için güçlü bir tempo yakaladı.<br><br>Ancak seansın son bölümlerinde pistteki üstünlüğünü artıran George Russell, 1:42.626'lık derecesiyle rakiplerinin önüne geçerek pole pozisyonunu garantiledi. Charles Leclerc 1:43.363'lük turuyla seansı 2. sırada tamamlarken, Oscar Piastri 1:43.364'lük derecesiyle sadece binstaniyelik farkla 3. sıranın sahibi oldu.<br>Zorlu hava koşullarının ve hata affetmeyen bariyerlerin gölgesinde tamamlanan sıralama turlarının ardından, George Russell yarışa ilk sıradan başlamaya hak kazandı.",
+                "img": "Resimler/Formula 1 Haberler/1790345439039_IMG_9708.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 143,
                 "title": "2026 AZERBAYCAN GP 3. ANTRENMAN: VERSTAPPEN ZİRVEDE, RUSSELL VE HAMİLTON TAKİPTE",
                 "cat": "formula 1",
