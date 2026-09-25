@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 146,
+                "title": "AZERBAYCAN GP SIRALAMA TURLARI: GEORGE RUSSELL POLE POZİSYONUNU KAZANIRKEN PİLOTLARIN DEĞERLENDİRMELERİ",
+                "cat": "formula 1",
+                "date": "2026-09-25 17:26",
+                "content": "Azerbaycan Grand Prix’si sıralama turları sonucunda Mercedes pilotu George Russell pole pozisyonunun sahibi olurken, seansın ardından diğer iddialı isimler basın mensuplarına açıklamalarda bulundu.<br><br>Şampiyona lideri ve Mercedes pilotu Kimi Antonelli, sıralama turlarının ilk bölümünde yaşadığı kazayla ilgili değerlendirmelerde bulundu. Pistteki yol tutuş seviyesinin turdan tura hızla arttığını belirten Antonelli, ilk virajda beklenmedik bir durumla karşılaştığını ifade ederek şu sözleri kaydetti: \"Bir önceki tura kıyasla apeks noktasına girdiğimde aniden aracın ön tarafında beklediğimden çok daha fazla tutuş hissettim ve duvara temas ettim. Tamamen benim hatam, çok gereksiz bir hataydı, kendime çok öfkeliyim. Yarışta elimizden gelenin en iyisini yapmaya çalışacağız.\" Antonelli ayrıca, aracın şimdiye kadar güçlü olduğunu ve takım arkadaşı George Russell'ın sıralama turlarında çok iyi bir iş çıkardığını belirtti.<br><br>Antrenman seanslarında ritim eksikliği yaşadıklarını ancak bunu sıralama turlarında kapattıklarını söyleyen McLaren pilotu Oscar Piastri, seansı üçüncü sırada tamamladı. Piastri performansıyla ilgili olarak, \"Seans genel olarak iyi geçti. Sıralama turlarında ihtiyacımız olan tempoyu bulmayı başardık. Bu durum bu yıl ilk kez başımıza gelmiyor; antrenman seanslarında biraz geride kalmış gibi görünsek de sıralama turlarına gelindiğinde o performansı bir şekilde ortaya çıkarabiliyoruz. Q3’teki ilk turların ardından ilk iki sırada kendimizi gördüğümde oldukça şaşırmıştım ancak ne yazık ki George’u yakalama şansımız yoktu\" dedi.<br><br>Sıralama turlarını ikinci sırada bitiren Ferrari pilotu Charles Leclerc ise son seansta temiz bir tur attığını ve hava koridorundan faydalandığını, buna rağmen Mercedes'in tur zamanına ulaşamadıklarını aktardı. Hafta sonu boyunca zorlandıklarını belirten Leclerc, şu değerlendirmeyi yaptı: \"Açık konuşmak gerekirse oldukça iyi bir tur attım. Sanırım Lewis üç dört saniye önümdeydi. Seansın sonunda iyi bir derece çıkarmayı başardım. Ancak George ile aramızdaki zaman farkını gördüğümde, belki de attığım turun yeterince iyi olmadığını düşünüyorum. Genel olarak tüm hafta sonu boyunca geriden gelmek zorunda kaldık. Zorlu geçen perşembe gününün ardından daha geride kalmayı bekliyorduk fakat bu sabah biraz daha umudum arttı. Sıralama açısından beklediğimiz yerdeyiz ancak Russell’la aramızdaki fark beklediğimizden çok fazla.\"",
+                "img": "Resimler/Formula 1 Haberler/1790346370592_IMG_9710.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 144,
                 "title": "BAKÜ'DE ZORLU SIRALAMA SEANSI: RUSSELL RÜZGAR ALTINDA POLE POZİSYONUNUN SAHİBİ OLDU",
                 "cat": "formula 1",
