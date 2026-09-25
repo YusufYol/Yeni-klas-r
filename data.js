@@ -5427,6 +5427,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 145,
+                "title": "2027 MOTOGP TAKVİMİ: YENİ DURAKLAR, BÜYÜK SÜRPRİZLER VE TARİHİ ROTAYLA GELİYOR!",
+                "cat": "motogp",
+                "date": "2026-09-25 17:17",
+                "content": "MotoGP tutkunlarını heyecanlandıracak büyük değişim nihayet resmiyet kazandı! Şampiyona tarihinin en geniş kapsamlı ve uluslararası takvimi olan 2027 sezonu; 19 farklı ülkeye yayılacak tam 22 dev yarışla motorsporları dünyasının nefesini kesecek.<br><br>Yeni takvimle birlikte padoğun coğrafi yapısında da köklü bir yenilenmeye gidildi. Liberty Media'nın vizyonuyla şekillenen rotada, dünyanın dört bir yanından yepyeni ve heyecan verici lokasyonlar yerini aldı.<br><br>Arjantin heyecanı, yaklaşık 30 yıllık uzun bir aranın ardından efsanevi Autodromo Oscar y Juan Galvez pistiyle nisan ayında takvime geri dönüyor. Avustralya GP'sinde bayrak artık Phillip Island'dan devralınıyor. Yarışın yarı caddelik bir piste sahip Adelaide’e taşınmasıyla birlikte, küresel metropollerin organizasyona olan ilgisinin artırılması hedefleniyor. Bu büyük değişim rüzgarında Macaristan'daki Balaton Park takvimden çıkarılırken, Avustralya'nın simge pistlerinden Phillip Island da ev sahipliği hakkını kaybetti.<br><br>2027 mücadelesi, 7 Mart'ta Tayland’ın Buriram pistinde, sezon öncesi son testlerin hemen ardından start alacak. Bölgesel dinamikler göz önünde bulundurularak kurgulanan takvimde Tayland'ın hemen ardından durak Katar (Losail) olacak. Nisan sonunda Austin durağının ardından şampiyona tamamen Avrupa'ya kilitlenecek. Mayıs ortasından ekim başının başına kadar, kalbi kıtada atacak olan seride tam 12 kıyasıya mücadele verilecek. Portimao'daki geçici molanın ardından şampiyona Asya'ya açılıyor. Ekim ayının ortasından itibaren sırasıyla Japonya (17 Ekim), Malezya (24 Ekim) ve Endonezya (31 Ekim), sezonun tek üçlü yarış serisini oluşturarak padoğu büyük final yolculuğuna hazırlayacak.<br><br>Tüm bu nefes kesen maraton, kasım ayının sonunda İspanya'nın ev sahipliği yapacağı Valencia Grand Prix'si ile görkemli bir final yapacak.",
+                "img": "Resimler/MotoGP Haberler/1790345852687_IMG_9709.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 140,
                 "title": "MOTOGP VE PORTEKİZ GRAND PRİX’İ SÖZLEŞMESİNİ 2029'A KADAR UZATTI",
                 "cat": "motogp",
