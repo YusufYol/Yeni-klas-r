@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 142,
+                "title": "FIA’DAN BAKÜ’DE KURAL İHLALİ RAPORU: ÜÇ TAKIM YASAKLI SAATLERDE PİSTE KALDI",
+                "cat": "formula 1",
+                "date": "2026-09-25 12:26",
+                "content": "Formula 1’de Azerbaycan Grand Prix’si öncesi hareketli saatler yaşandı. (FIA), hafta sonu perşembe gecesi uygulanan zorunlu çalışma yasağını delen üç takımı resmi olarak duyurdu.<br><br>Yapılan incelemeler neticesinde Scuderia Ferrari, Racing Bulls ve Cadillac ekiplerinin, belirlenen 12,5 saatlik yasaklı zaman diliminde pit alanında ve pist sınırlarında bulunduğu tespit edildi.<br><br>F1 sportif düzenlemeleri, takımlara bu tarz gece çalışma yasaklarını bir sezon boyunca herhangi bir cezayla karşılaşmadan dört kez ihlal etme hakkı tanıyor. Bakü'de yaşanan olayda da her üç ekip, bu sezona özel hak limitlerini aşmadığı için sportif veya mali bir yaptırımdan kurtuldu.<br><br>Ferrari, 24 Eylül saat 21.00 ile 25 Eylül sabah 09.30 arasında (üçüncü antrenmandan önceki 3 saatlik dilime kadar olan sürede) pist alanındaydı. İtalyan ekibinin 2026 sezonundaki 4 istisna hakkından ikincisini kullandığı, bu sebeple ceza verilmediği bildirildi.<br><br>Racing Bulls ve Cadillac, aynı zaman aralığında pist sınırları içerisinde çalışmaya devam ettikleri belirlenen her iki takım için de bu durumun, 2026 yılındaki üçüncü ihlal hakkına denk geldiği ve dolayısıyla dosyanın cezasız kapatıldığı açıklandı.",
+                "img": "Resimler/Formula 1 Haberler/1790328380255_IMG_9648.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 141,
                 "title": "FRED VASSEUR’DEN MERCEDES SORUSUNA ESPRİLİ YANIT",
                 "cat": "formula 1",
