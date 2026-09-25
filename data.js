@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 143,
+                "title": "2026 AZERBAYCAN GP 3. ANTRENMAN: VERSTAPPEN ZİRVEDE, RUSSELL VE HAMİLTON TAKİPTE",
+                "cat": "formula 1",
+                "date": "2026-09-25 13:28",
+                "content": "Max Verstappen, Bakü’de gerçekleştirilen 2026 Azerbaycan Grand Prix’si 3. antrenman seansını 1:43.922’lik derecesiyle ilk sırada tamamladı.<br><br>Seansın başlarında pit yolunun açılmasıyla birlikte pilotlar piste çıkarken, ilk çeyrekte ön grup ekiplerinden hızlı tur atan olmadı. Pierre Gasly 1:48.295’lik zaman turuyla seansın ilk bölümünde zirvede yer aldı. Bu aşamada kısa süreli bir sanal güvenlik aracı provası gerçekleştirildi.<br><br>Seansın ilerleyen dakikalarında tempo yükseldi. Lewis Hamilton 1:46.168 ile liderliği ele geçirse de Charles Leclerc 1:45.564 ile bu pozisyonu devraldı. Ardından Max Verstappen 1:45.329 ile zirveye yerleşti. Hamilton 1:45.093’lük turuyla liderliği geri alırken, yarım saatlik dilim geride kalırken Kimi Antonelli 1:45.046 ile ilk sıraya yükseldi. McLaren pilotlarından Lando Norris ise bu aşamada 6. sırada yer aldı.<br><br>Seansın ikinci yarısında sürücüler pist üzerindeki çeşitli zorluklarla karşılaştı. Oscar Piastri 1. virajda aracın istikrarsızlığından bahsederken, Max Verstappen 16. virajda denge problemleri yaşadığını ve rüzgarın süreci zorlaştırdığını belirtti. Mercedes sürücülerinden George Russell 1:44.715 ve ardından 1:44.021’lik dereceleriyle zirvedeki yerini sağlamlaştırdı. Charles Leclerc ise yaşadığı fren kitlenmesi nedeniyle hızlı turunu yarıda bıraktı. Russell, seansın son bölümlerinde 7. virajda fren kitlenmesi yaşayarak kaçış alanına girdi ancak kısa sürede seansa geri döndü.<br><br>Son dakikalarda Lewis Hamilton 1:44.033 ile 3. sıraya yükseldi. Max Verstappen ise orta sektördeki performansıyla 1:43.922’lik en hızlı turu kaydetti ve seansın liderliğini ele geçirdi. Kalan sürede bu derecenin üzerine çıkan olmadı; seans Max Verstappen’in liderliğinde, George Russell’ın 2. ve Lewis Hamilton’ın 3. sıradaki dereceleriyle sona erdi.",
+                "img": "Resimler/Formula 1 Haberler/1790332107333_IMG_9651.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 142,
                 "title": "FIA’DAN BAKÜ’DE KURAL İHLALİ RAPORU: ÜÇ TAKIM YASAKLI SAATLERDE PİSTE KALDI",
                 "cat": "formula 1",
