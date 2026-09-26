@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 150,
+                "title": "AZERBAYCAN GP'DE PODYUMUN İLK ÜÇÜNDEN İLK AÇIKLAMALAR: RUSSELL, VERSTAPPEN VE HADJAR YARIŞI ANLATTI",
+                "cat": "formula 1",
+                "date": "2026-09-26 16:41",
+                "content": "Azerbaycan Grand Prix’si, son anlarına kadar büyük bir heyecana sahne olurken; podyuma çıkan ilk üç pilot yarışın ardından önemli değerlendirmelerde bulundu.<br><br>Yarışın ilk bölümünü rahat geçirdiğini ve aradaki zaman farkını kontrol altında tuttuğunu belirten Mercedes pilotu George Russell, güvenlik aracının ardından Max Verstappen’in baskısını hissettiğini söyledi. Son turda yaşadığı talihsizliği şu sözlerle aktardı:<br><br>\"Bottas’ın kazası yüzünden sarı bayraklar çıktığında ayağımı gazdan çektim ve tekrar gaza bastığımda turbo devreye girmedi. Bir anda gücümü kaybettim ve tam bitiş çizgisinde Max az daha beni geçecekti. Galibiyeti orada kaybetmek büyük bir kayıp olurdu ama sonuç olarak her şeyiyle inanılmaz bir hafta sonuydu.\"<br><br>Yaz arasından bu yana benimsediği yeni sürüş tarzına adapte olduğunu ifade eden tecrübeli pilot, zorlu günlerde kendisine inanan ekibine teşekkür ederek, \"Artık pistte kendim gibi sürebiliyorum ve bu gerçekten harika bir his\" dedi.<br><br>Bakü'de damalı bayrağı ikinci sırada görerek podyuma çıkan dörde kez dünya şampiyonu Max Verstappen, yarışın kendileri için oldukça çekişmeli geçtiğini belirtti:<br><br>\"İyi bir yarış geçirdik. Orta lastiklerle attığımız ilk bölüm muhtemelen biraz zorluydu ama yine de üçüncülüğe yükselmeyi başardık. Ardından yeniden başlama sonrasında iyi bir hamleyle ikinci sıraya geçtik ve fark 1 saniye, 1.1 saniye civarında seyretti.\"<br><br>Yarışın son anlarındaki kritik mücadeleye değinen Verstappen, \"Son turda sarı bayraklar esnasında George bir viraj çıkışında biraz güç kaybetti ve bu sayede aradaki farkı epeyce kapattım. Finiş çizgisine gelirken çok yaklaştım ama galibiyet için yeterli olmadı\" ifadelerini kullandı.<br><br>Geçirdiği sakatlığın ardından Azerbaycan GP ile piste dönen ve yarışı üçüncü sırada tamamlayarak kariyerinin ikinci podyumunu elde eden Red Bull pilotu Isack Hadjar, hafta sonu boyunca uyguladığı stratejinin karşılığını aldığını vurguladı:<br><br>\"Gerçekten çok uzun zaman oldu fakat geri dönmek için en doğru zamanın bu hafta sonu olduğunu düşünüyorum. Bakü, çok hızlı bir şekilde duvarda kalabileceğiniz türden bir pist ve özgüven kazanmaya çalışırken böyle bir kazaya hiç ihtiyacım yoktu. Hafta sonu boyunca çok yavaş ve kademeli ilerledim ve bu yaklaşımım beni podyuma taşıdı.\"<br><br>Bileğinde hâlâ hafif bir uyuşukluk hissi bulunduğunu ancak bunun performansını etkilemediğini belirten genç pilot, \"Durumumdan memnunum ve kendimi iyi hissediyorum. Önümüzde oldukça yoğun ve sıkışık bir yarış takvimi var, bir sonraki durak Sepang’da piste çıkmak için sabırsızlanıyorum\" diyerek sözlerini tamamladı.",
+                "img": "Resimler/Formula 1 Haberler/1790430101975_IMG_9754.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 149,
                 "title": "2026 AZERBAYCAN GP: NEFES KESEN YARIŞIN GALİBİ GEORGE RUSSELL OLDU",
                 "cat": "formula 1",
