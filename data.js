@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 149,
+                "title": "2026 AZERBAYCAN GP: NEFES KESEN YARIŞIN GALİBİ GEORGE RUSSELL OLDU",
+                "cat": "formula 1",
+                "date": "2026-09-26 15:57",
+                "content": "Bakü'de düzenlenen 2026 Azerbaycan Grand Prix'si, güvenlik araçları, erken kazalar ve son turdaki büyük çekişmeyle Formula 1 sezonunun en kaotik yarışlarından birine sahne oldu. Yarış boyunca liderliğini kusursuz bir şekilde koruyan George Russell, zorlu mücadeleden zaferle ayrıldı.<br><br>Yarışa pole pozisyonunda başlayan Mercedes pilotu Russell, ilk virajda liderliği bırakmayarak kusursuz bir başlangıç yaptı. Arkasında yaşanan sıralama değişimlerinde Oscar Piastri ikinciliğe tırmanırken, Red Bull cephesinde Max Verstappen ve takım arkadaşı Isack Hadjar üst üste tırmanışlar kaydetti. Takım emirleri ve strateji hamleleriyle şekillenen ilk bölümde Verstappen üçüncülüğe kadar yükseldi.<br><br>Mücadelenin kırılma noktası, yarışın orta bölümünde Alex Albon'un yaptığı kaza ve ardından giren güvenlik aracı oldu. Bu periyotta yaşanan kaos, Alpine pilotlarının teması ve Lando Norris'in yarış dışı kalmasıyla sıralamayı altüst etti. Güvenlik aracının ardından pitten yumuşak hamur lastiklerle dönen pilotlar temposunu artırdı.<br><br>Son turlara girilirken Verstappen, lider Russell ile arasındaki farkı yarım saniyenin altına kadar indirdi ve galibiyet için büyük bir baskı kurdu. Ancak tecrübeli sürücü liderliği vermezken, son virajlarda damalı bayrağı ilk gören George Russell Bakü'nün kazananı oldu. Baskısını son ana kadar sürdüren Max Verstappen 0.1 saniye farkla ikinci sırayı alırken, Red Bull'un çaylak yıldızı Isack Hadjar podyumun üçüncü basamağına yerleşti.<br><br>Bakü'deki heyecan dolu mücadelenin ardından 2026 sezonunun sürücüler puan durumu da netleşti. Bu sonuçlarla birlikte şampiyona liderliğini 292 puanla Mercedes'ten A. K. Antonelli elinde tutarken, Azerbaycan GP'nin galibi olan George Russell 211 puanla ikinci sıraya yükseldi. Lewis Hamilton 191 puanla üçüncü sırada yer alırken, onu 186 puanla dördüncü sıradaki Lando Norris ve 167 puanla beşinci sıradaki Charles Leclerc takip ediyor.",
+                "img": "Resimler/Formula 1 Haberler/1790427451250_IMG_9749.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 148,
                 "title": "BAKÜ’DE MERCEDES RÜZGARI: RUSSELL’DAN KUSURSUZ POLE, ANTONELLİ İÇİN YARIŞ GÜNÜ STRATEJİSİ",
                 "cat": "formula 1",
