@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 148,
+                "title": "BAKÜ’DE MERCEDES RÜZGARI: RUSSELL’DAN KUSURSUZ POLE, ANTONELLİ İÇİN YARIŞ GÜNÜ STRATEJİSİ",
+                "cat": "formula 1",
+                "date": "2026-09-26 12:12",
+                "content": "Mercedes takım patronu yardımcısı Bradley Lord, Azerbaycan Grand Prix’si sıralama turlarının ardından takımın performansını değerlendirerek hem George Russell’ın dominant pole pozisyonuna hem de genç pilot Kimi Antonelli’nin yaşadığı talihsiz kazaya dair önemli açıklamalarda bulundu.<br><br>Hafta sonunun ilk antrenman seansından itibaren araçta son derece rahat bir görüntü çizen George Russell, sıralama turlarında her seans gelişen temposuyla dikkat çekti. Rakiplerine karşı kurduğu üstünlüğü turlar boyunca artıran İngiliz pilot, bu performansıyla takım yönetiminin büyük övgüsünü topladı.<br><br>Bradley Lord, yaşanan durumu \"tatlı-acı\" bir tablo olarak nitelendirirken, Russell'ın en yakın rakibine attığı farkın ve kusursuz sürüş çizgisinin inanılmaz olduğuna vurgu yaptı. Geçtiğimiz yıl Bakü'de ideal olmayan şartlarda dahi podyumun ikinci basamağına çıkan Russell, bu yıl hafta sonu boyunca sergilediği sakin ve kararlı sürüşüyle pole pozisyonunun haklı sahibi oldu.<br><br>Günün bir diğer dikkat çeken olayı ise Q1 seansında kaza yaparak seansa erken veda eden genç pilot Kimi Antonelli oldu. İtalyan sürücünün yaptığı hatanın uzun ve yıpratıcı bir Formula 1 sezonunun doğal bir parçası olduğunu belirten Lord, bu tür tecrübelerin gelişimin kaçınılmaz bir adımı olduğunun altını çizdi.<br>Kaza anına kadar Q2'ye kalabilecek hıza sahip olduğunu kanıtlayan genç pilotun, yarış temposu açısından hâlâ iddialı bir konumda olduğunu belirten takım yönetimi, yarış için umutlu. Lord, Antonelli’nin yarışın ilk bölümünde stratejik ve sakin bir sürüş sergilemesi durumunda üst sıralara tırmanabileceğine olan inancını dile getirdi.<br><br>Mercedes cephesi, sıralama turlarındaki başarıyı arkasına alarak tüm odak noktasını yarışta dağıtılacak puanlara çevirmiş durumda.",
+                "img": "Resimler/Formula 1 Haberler/1790413935239_IMG_9738.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 147,
                 "title": "BAKÜ'DE ESTEBAN OCON İÇİN TALİHSİZLİK: \"YENİ BİR HAFTA SONU, AYNI ENGELLER\"",
                 "cat": "formula 1",
