@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 151,
+                "title": "KİMİ ANTONELLİ: “ ZORLU HAFTA SONUNU BEŞİNCİLİKLE KAPATTIK.”",
+                "cat": "formula 1",
+                "date": "2026-09-26 20:14",
+                "content": "Bakü’de nefes kesen mücadelelere sahne olan Azerbaycan Grand Prix’si, Mercedes’in genç yeteneği Kimi Antonelli için oldukça çalkantılı geçti. Sıralama turlarındaki talihsiz kazanın ardından 16. cepten yarışa başlamak zorunda kalan İtalyan pilot, hata yapmayarak kaybettiklerini telafi etti ve damalı bayrağı 5. sırada gördü.<br><br>Hafta sonu genelinde istediği ritmi yakalayamadığını itiraf eden genç pilot, antrenman seanslarında kaybettiği değerli zamanın etkisini tüm yarış boyunca hissettiğini belirtti. Orta hamur lastiklerle tutunma problemi yaşadığını ifade eden Antonelli, yarışın ilerleyen bölümlerinde ise aracın tabanında hasar meydana geldiğini açıkladı.<br><br>Zorlu mücadeleyi değerlendiren Antonelli, şu ifadeleri kullandı:<br>\"Sanırım bugün beşincilikle yetinmemiz ve mutlu olmamız gereken günlerden biriydi. Orta lastiklerde tempom pek güçlü değildi, yarışın sonuna doğru biraz ritim bulmaya başladım ancak yumuşak lastiğe geçtiğimde tabanda çok büyük bir hasar meydana geldi. Hiç kolay bir yarış olmadı ama birinci antrenman seansını ve ikinci antrenmanın yarısını kaçırdıktan sonra geride kaldığım hafta sonlarından biri oldu. Sonuç olarak beşincilikten memnunum ve bir sonraki hafta sonu kesinlikle kendi seviyeme geri döneceğim.\"<br><br>Takım arkadaşı George Russell’ın zaferle ayrıldığı hafta sonunu takdir eden genç pilot, yaşanan aksilikler silsilesinin ardından şampiyonluk mücadelesinde stratejik bir kararla \"hasar kontrolü\" odaklı bir sürüş tercih ettiğini vurguladı.<br><br>Risk almaktan kaçındığına dikkat çeken Antonelli, sözlerini şöyle tamamladı:<br>\"George bu hafta sonu inanılmaz bir iş çıkardı ve harika bir sürüş sergiledi, özgüveni çok yüksekti. Benim açımdansa performans anlamında açık ara bu yılın en kötü hafta sonuydu; pistte tam olarak varlığımı gösteremedim. Özellikle bu hafta sonunun başında yaşananlardan dolayı tempo yakalayamadım. Sıralama turlarından sonra bugün tam mücadele modunda olmak yerine daha çok hasar azaltma modundaydım ve aynı riskleri almadım. Önümüzdeki yarışlar için hazırım.\"",
+                "img": "Resimler/Formula 1 Haberler/1790442863682_IMG_9761.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 150,
                 "title": "AZERBAYCAN GP'DE PODYUMUN İLK ÜÇÜNDEN İLK AÇIKLAMALAR: RUSSELL, VERSTAPPEN VE HADJAR YARIŞI ANLATTI",
                 "cat": "formula 1",
