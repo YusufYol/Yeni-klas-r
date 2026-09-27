@@ -2003,6 +2003,50 @@ const APP_DATA = {
             },
             {
                 "round": 18,
+                "gp": "Malaysia Grand Prix",
+                "country": "Malezya",
+                "date": "2-4 Ekim",
+                "track": "Sepang",
+                "isoDate": "2026-10-04",
+                "status": "Sıradaki",
+                "trackDetails": {
+                    "len": "5,543 km",
+                    "turns": "15",
+                    "opened": "1999",
+                    "record": "1:34.080 (Sebastian Vettel)",
+                    "firstWinner": "Eddie Irvine (1999)",
+                    "mostWinsPilot": "Sebastian Vettel (4 Galibiyet)",
+                    "mostWinsTeam": "Scuderia Ferrari (7 Galibiyet)",
+                    "img": "",
+                    "description": "Ünlü mimar Hermann Tilke tarafından tasarlanan Sepang; iki uzun düzlüğü birleştiren keskin saç tokası virajları, geniş ve akıcı yapısı, yüksek nem oranı ve aniden bastıran muson yağmurlarıyla bilinen efsanevi bir pisttir."
+                },
+                "len": "5,543 km",
+                "turns": "15",
+                "sessions": [
+                    {
+                        "name": "Cuma: 1. Antrenman Seansı",
+                        "time": "07:30"
+                    },
+                    {
+                        "name": "Cuma: 2. Antrenman Seansı",
+                        "time": "11:00"
+                    },
+                    {
+                        "name": "Cumartesi: 3. Antrenman Seansı",
+                        "time": "07:30"
+                    },
+                    {
+                        "name": "Cumartesi: Sıralama Turları",
+                        "time": "11:00"
+                    },
+                    {
+                        "name": "Pazar: Yarış",
+                        "time": "10:00"
+                    }
+                ]
+            },
+            {
+                "round": 19,
                 "gp": "Singapore Grand Prix",
                 "country": "Singapur",
                 "date": "9-11 Ekim",
@@ -2011,7 +2055,7 @@ const APP_DATA = {
                 "status": "Bekliyor"
             },
             {
-                "round": 19,
+                "round": 20,
                 "gp": "United States Grand Prix",
                 "country": "ABD",
                 "date": "23-25 Ekim",
@@ -2020,7 +2064,7 @@ const APP_DATA = {
                 "status": "Bekliyor"
             },
             {
-                "round": 20,
+                "round": 21,
                 "gp": "Mexican Grand Prix",
                 "country": "Meksika",
                 "date": "30 Ekim-1 Kasım",
@@ -2029,7 +2073,7 @@ const APP_DATA = {
                 "status": "Bekliyor"
             },
             {
-                "round": 21,
+                "round": 22,
                 "gp": "São Paulo Grand Prix",
                 "country": "Brezilya",
                 "date": "6-8 Kasım",
@@ -2038,7 +2082,7 @@ const APP_DATA = {
                 "status": "Bekliyor"
             },
             {
-                "round": 22,
+                "round": 23,
                 "gp": "Las Vegas Grand Prix",
                 "country": "ABD",
                 "date": "19-21 Kasım",
@@ -2047,7 +2091,7 @@ const APP_DATA = {
                 "status": "Bekliyor"
             },
             {
-                "round": 23,
+                "round": 24,
                 "gp": "Qatar Grand Prix",
                 "country": "Katar",
                 "date": "27-29 Kasım",
@@ -2056,7 +2100,7 @@ const APP_DATA = {
                 "status": "Bekliyor"
             },
             {
-                "round": 24,
+                "round": 25,
                 "gp": "Abu Dhabi Grand Prix",
                 "country": "Abu Dhabi",
                 "date": "4-6 Aralık",
