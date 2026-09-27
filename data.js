@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 152,
+                "title": "F1'DE DİPLOMASİ KRİZİ: BAKÜ KAZASI SONRASI ARJANTİN'DEN NORRIS'E \"ÇİFTE STANDART\" GÖNDERMESİ!",
+                "cat": "formula 1",
+                "date": "2026-09-27 14:01",
+                "content": "Formula 1 dünyası, Bakü Grand Prix'sinde yaşanan büyük kazanın ardından sadece sportif rekabetle değil, aynı zamanda diplomatik ve sosyal medyada yaşanan sert tartışmalarla da çalkalanıyor. Yarış sonrası yükselen tansiyon, Arjantin devlet kademesine kadar sıçradı.<br><br>Azerbaycan Grand Prix'sinde, güvenlik aracı periyodunun hemen ardından pistte büyük bir kaos yaşanmış ve üç araç birden yarış dışı kalmıştı. Kazanın baş aktörleri arasında yer alan Arjantinli genç pilot Franco Colapinto, olay sonrası eleştirilerin odağı haline geldi.<br>McLaren pilotu Lando Norris, kazanın ardından sert bir tutum sergileyerek Colapinto'nun Formula 1 standartlarında yarışmayı hak etmediğini savunmuş ve FIA’ dan Arjantinli sürücüye men cezası verilmesini talep etmişti.<br><br>Norris'in bu ağır çıkışına en dikkat çekici yanıt, Arjantin Dışişleri Bakanı Pablo Quirno'dan geldi. Sosyal medya hesabı üzerinden Britanyalı pilota tepki gösteren Quirno, yaşananların tek taraflı yorumlandığına dikkat çekti.<br><br>Bakan Quirno, paylaşımında geçmişteki olayları hatırlatarak şu ifadeleri kullandı:<br>\"Tabii canım, Lando Norris 2025 Montreal'de Oscar Piastri'ye çarpan pilot için de ceza istemişti... Ah, doğru ya, istememişti…\"<br><br>Bu göndermeyle Norris'in kendi takım arkadaşıyla yaşadığı benzer bir temasta sessiz kalmasını eleştiren Bakan, yaşanan tartışmayı uluslararası bir boyuta taşıdı.<br><br>Bakan Quirno'nun açıklamaları Arjantinli F1 tutkunlarından büyük destek görürken, Lando Norris'in sosyal medya hesapları Arjantinli taraftarların yoğun protesto mesajlarıyla doldu taştı.<br><br>Öte yandan, kaza sonrası sosyal medyada linç kültürünün hedefi olan Pierre Gasly'yi korumak amacıyla, tanınmış F1 figürlerinden Flavio Briatore'nin Arjantin medyasına yönelik ambargo sinyali vermesi, olayın sportif sınırları çoktan aştığını gözler önüne serdi.<br><br>Sezonun kalan yarışları öncesinde, hem pist üstündeki rekabetin hem de pilotlar arasındaki bu gerilimin nasıl bir seyir izleyeceği merakla bekleniyor.",
+                "img": "Resimler/Formula 1 Haberler/1790506882275_IMG_9768.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 151,
                 "title": "KİMİ ANTONELLİ: “ ZORLU HAFTA SONUNU BEŞİNCİLİKLE KAPATTIK.”",
                 "cat": "formula 1",
