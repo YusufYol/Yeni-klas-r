@@ -10433,6 +10433,17 @@ const APP_DATA = {
                     "status": "Finished"
                 },
                 {
+                    "pos": 13,
+                    "pilot": "Takaaki Nakagami #30",
+                    "team": "Repsol Honda Team",
+                    "time": "42'38.028",
+                    "gap": "+21.032",
+                    "pts": 3,
+                    "laps": 0,
+                    "fastest": false,
+                    "status": "Finished"
+                },
+                {
                     "pos": 14,
                     "pilot": "Luca Marini #10",
                     "team": "Repsol Honda Team",
@@ -10666,6 +10677,54 @@ const APP_DATA = {
                     "name": "Maverick Vinales #12",
                     "pts": 10,
                     "team": "Red Bull KTM Tech3"
+                },
+                {
+                    "pos": 23,
+                    "name": "Iker Lecuona #27",
+                    "pts": 9,
+                    "team": "BK8 Gresini Racing"
+                },
+                {
+                    "pos": 24,
+                    "name": "Augusto Fernandez #37",
+                    "pts": 6,
+                    "team": "Yamaha Factory Racing"
+                },
+                {
+                    "pos": 25,
+                    "name": "Pol Espargaro #44",
+                    "pts": 5,
+                    "team": "Red Bull KTM Tech3"
+                },
+                {
+                    "pos": 26,
+                    "name": "Takaaki Nakagami #30",
+                    "pts": 3,
+                    "team": "Repsol Honda Team"
+                },
+                {
+                    "pos": 27,
+                    "name": "Cal Crutchlow #35",
+                    "pts": 0,
+                    "team": "Castrol Honda LCR"
+                },
+                {
+                    "pos": 28,
+                    "name": "Jonas Folger #94",
+                    "pts": 0,
+                    "team": "Red Bull KTM Tech3"
+                },
+                {
+                    "pos": 29,
+                    "name": "Lorenzo Savadori #32",
+                    "pts": 0,
+                    "team": "Trackhouse Racing"
+                },
+                {
+                    "pos": 30,
+                    "name": "Michele Pirro #51",
+                    "pts": 0,
+                    "team": "BK8 Gresini Racing"
                 }
             ],
             "teams": [
