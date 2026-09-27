@@ -6833,7 +6833,54 @@ const APP_DATA = {
                 "date": "2-4 Ekim",
                 "track": "Motegi",
                 "isoDate": "2026-10-04",
-                "status": "Bekliyor"
+                "status": "Sıradaki",
+                "trackDetails": {
+                    "len": "4,801 km",
+                    "turns": "14",
+                    "opened": "1999",
+                    "record": "1:43.198 (Jorge Martin)",
+                    "firstWinner": "1999 (Kenny Roberts Jr.)",
+                    "mostWinsPilot": "Marc Marquez (3 Galibiyet)",
+                    "mostWinsTeam": "Honda (10 Galibiyet)",
+                    "img": "",
+                    "description": "Honda tarafından inşa edilen Motegi, sert frenleme ve ani hızlanma bölgeleriyle sürücülerin fren dengesini ve motosikletlerin ivmelenme performansını sınırlarına kadar zorlayan ikonik bir Japon pistidir."
+                },
+                "len": "4,801 km",
+                "turns": "14",
+                "sessions": [
+                    {
+                        "name": "Cuma: 1. Antrenman",
+                        "time": "04:45"
+                    },
+                    {
+                        "name": "Cuma: Ana Antrenman Seansı",
+                        "time": "09:00"
+                    },
+                    {
+                        "name": "Cumartesi: 2. Antrenman Seansı",
+                        "time": "04:10"
+                    },
+                    {
+                        "name": "Cumartesi: Sıralama Turları 1",
+                        "time": "04:50"
+                    },
+                    {
+                        "name": "Cumartesi: Sıralama Turları 2",
+                        "time": "05:15"
+                    },
+                    {
+                        "name": "Cumartesi: Sprint Yarışı",
+                        "time": "09:00"
+                    },
+                    {
+                        "name": "Pazar: Isınma Turları",
+                        "time": "03:40"
+                    },
+                    {
+                        "name": "Pazar: Yarış",
+                        "time": "08:00"
+                    }
+                ]
             },
             {
                 "round": 17,
