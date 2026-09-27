@@ -1470,6 +1470,12 @@ const APP_DATA = {
                     "name": "Valtteri Bottas #77",
                     "pts": 0,
                     "team": "Cadillac Formula 1 Team"
+                },
+                {
+                    "pos": 23,
+                    "name": "Sergio Pérez #11",
+                    "pts": 0,
+                    "team": "Cadillac Formula 1 Team"
                 }
             ],
             "teams": [
