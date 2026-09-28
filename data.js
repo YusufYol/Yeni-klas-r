@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 154,
+                "title": "F1, 2027'DE STRATEJİYİ DEĞİŞTİRİYOR MU?: HEDEF DAHA AŞINAN LASTİKLER",
+                "cat": "formula 1",
+                "date": "2026-09-28 17:17",
+                "content": "Formula 1 yönetimi, yarışların heyecanını artırmak için kolları sıvadı. 2027 sezonundan itibaren daha yüksek aşınma oranına sahip lastiklerin kullanılmasını planlayan organizasyon, tek pit stopla tamamlanan yarışların sayısını azaltmayı amaçlıyor.<br><br>Mevcut 2026 sezonunda, Lando Norris'in üç pit stop yaparak zafere ulaştığı Macaristan Grand Prix'si gibi bazı sıra dışı yarışlar yüksek aşınma sayesinde nefes kesmişti. Ancak takvimdeki yarışların büyük kısmında tek pit stop stratejisi galibiyeti getirdi. Nitekim geride kalan 15 yarışın 9'unda kazanan isimler de dahil olmak üzere gridin çoğunluğu tek pit stopu tercih etti.<br><br>Bu durumun arkasında ise Pirelli'nin 2026 lastiklerini geliştirirken yaşadığı zorluklar yatıyor. Geçtiğimiz yıl lastik üreticisi, takımların sağladığı simülasyon verileriyle çalışmak zorunda kalmıştı. Ancak takımların öngörüleri arasında yere basma kuvveti bakımından yüzde 30'a varan devasa farklar bulunuyordu. Bu da tur zamanlarında yaklaşık 4 saniyelik bir sapma anlamına geliyordu. Üstelik geliştirme sürecinde ellerinde gerçek bir 2026 aracı yoktu; sadece 2026 aerodinamiğine sahip, ancak yeni güç ünitelerini barındırmayan 'mule' araçlar üzerinden veri toplanabilmişti.<br><br>2027 süreci ise şimdiden çok daha sağlam temeller üzerinde ilerliyor. Pirelli, yeni lastikleri doğrudan gerçek 2026 araçları ve güç üniteleri üzerinde test etme şansı yakalıyor.<br>Son olarak Ferrari ve Racing Bulls ekipleri, Madrid'deki İspanya GP'sinin ardından Imola'da gerçekleştirilen testlerde 2027 lastiklerini 400 tur boyunca denedi.<br><br>Pirelli Başmühendisi Simone Berra, yapılan testlerin ardından şu değerlendirmelerde bulundu:<br>\"Bu yıl mule araçlar yerine doğrudan güncel araçlarla çalıştık ve çok daha net bir tablo elde ettik. Odak noktamız denge veya stabiliteden ziyade, aşınma seviyesini artırmaktı. Yapı üzerinde termal aşınma ve ısı üretimini artıracak çeşitli çözümler denedik. Ön ve arka akslarda aşınmayı tetikleyecek alternatifler üzerinde çalışıyoruz.\"<br><br>Pirelli, 2027 lastik geliştirme takvimi kapsamında bir sonraki durağına Ekim ortasında Magny-Cours'da çıkacak. Bu testte, pistin yapay sulama sistemi aktif hale getirilerek yeni nesil ıslak zemin lastikleri masaya yatırılacak.",
+                "img": "Resimler/Formula 1 Haberler/1790605023771_IMG_9834.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 152,
                 "title": "F1'DE DİPLOMASİ KRİZİ: BAKÜ KAZASI SONRASI ARJANTİN'DEN NORRIS'E \"ÇİFTE STANDART\" GÖNDERMESİ!",
                 "cat": "formula 1",
