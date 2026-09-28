@@ -5785,6 +5785,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 153,
+                "title": "QUARTARARO YILLARDIR SİMGESİ OLAN MARKAYLA YOLLARI AYIRIYOR!",
+                "cat": "motogp",
+                "date": "2026-09-28 17:07",
+                "content": "2027 yılında Honda’ya imza atmaya hazırlanan Fabio Quartararo, kariyerinin adeta simgesi haline gelen Monster Energy ile olan uzun soluklu birlikteliğine son noktayı koymaya hazırlanıyor.<br><br>2019 yılından bu yana kaskında ve motorunda Monster Energy logosunu taşıyan Fransız sürücü; 2021’deki unutulmaz şampiyonluğu da dahil olmak üzere kariyerindeki 11 Grand Prix zaferini bu markanın renkleriyle elde etmişti. Ancak 2027 ile birlikte bu uzun ortaklık tarihe karışıyor.<br><br>GPOne kaynaklı kulis bilgilerine göre; Marc Marquez’in takımdan ayrılışının ardından 2023 sonunda Honda sponsorluğundan çekilen enerji içeceği devi Red Bull, 2027’de dev bir geri dönüşe imza atıyor. Hissedilen bu iddialı geri dönüşle birlikte Honda garajında kartlar yeniden dağıtılıyor.<br><br>Red Bull’un Honda projesinde yeniden ana ve baskın ortak konumuna gelmesi, takımın yeni yıldızı Quartararo için de köklü bir değişimi zorunlu kılıyor. Monster Energy ile olan efsanevi ortaklığını geride bırakacak olan Fransız pilotun, 1 Aralık’taki Valencia testlerinden itibaren Red Bull renkleriyle boy göstermesine kesin gözüyle bakılıyor.<br><br>Bu tarih, Quartararo'nun MotoGP kariyerinde ilk kez Monster markası olmadan, tamamen yeni bir görsel kimlikle piste çıkacağı tarihi bir an olacak.",
+                "img": "Resimler/MotoGP Haberler/1790604421626_IMG_9833.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 145,
                 "title": "2027 MOTOGP TAKVİMİ: YENİ DURAKLAR, BÜYÜK SÜRPRİZLER VE TARİHİ ROTAYLA GELİYOR!",
                 "cat": "motogp",
