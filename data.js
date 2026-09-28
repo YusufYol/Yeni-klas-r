@@ -5795,6 +5795,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 155,
+                "title": "MANUEL GONZALEZ'DEN GELECEK AÇIKLAMASI: \"MOTOGP İÇİN DOĞRU ZAMANI BEKLİYORUM\"",
+                "cat": "motogp",
+                "date": "2026-09-28 19:26",
+                "content": "Moto2'de şampiyonluk yolunda rakiplerine karşı büyük bir üstünlük kuran ve en yakın takipçisinin hatırı sayılır bir farkla önünde yer alan Manuel Gonzalez, sezon sonu kariyer planlamasıyla ilgili dikkat çekici açıklamalarda bulundu. Genç İspanyol pilot, 2027 sezonu için MotoGP kapısının aralanmaması durumunda kariyerine nasıl yön vereceğine dair sinyaller verirken, önündeki tüm alternatifleri değerlendirmeye devam ediyor.<br><br>Mevcut griddeki bazı isimler MotoGP'ye geçiş biletini cebine koyarken, Gonzalez'in henüz üst düzey kategoriye adım atamamış olması dikkat çekiyor. Takım patronu Jürgen Lingg, pilotunun kariyerinde bu sıçramayı yapamaması halinde ya Intact GP ile yola devam edeceğini ya da World Superbike (WorldSBK) için rekabetçi bir koltuk arayacağını dile getirmişti. Buna karşın Gonzalez, mevcut durumunu oldukça olgun ve sakin bir perspektifle ele alıyor. Bulunduğu ortamdan duyduğu memnuniyeti dile getiren başarılı pilot, \"Şu anda olabileceğim en iyi yerdeyim. Takımımdan çok memnunum ve ortamım harika. Yarış kazanmaktan keyif alırken neden yeni bir maceraya atılayım ki? Elbette MotoGP’ye hazırım ve orada potansiyelimi göstermek istiyorum. Ancak her şey anında gerçekleşmiyor; bazen anı yaşamak ve doğru zamanı beklemek gerekir\" sözleriyle düşüncelerini özetliyor.<br><br>Eğer Gonzalez bu sezonu zirvede tamamlar ve Moto2’de bir yıl daha kalmayı seçerse, serinin tarihine adını yazdıracak çok özel bir istatistiğin peşinden gidecek. Moto2 tarihinde bugüne kadar sadece Tito Rabat (2015) ve Johann Zarco (2016) şampiyonluklarının ardından bir sezon daha kalarak unvanlarını savunmayı seçmişti. Bu isimlerden Zarco üst üste iki kez şampiyonluğa ulaşarak sınıfın tek çifte şampiyonu olurken, Rabat ise unvanını korumak için çıktığı sezonu üçüncü sırada tamamlamıştı. Her iki pilot da bu sürecin ardından MotoGP'ye yükselme başarısı göstermişti.<br><br>Sezonun kalan bölümü hem şampiyonluk düğümünün çözülmesi hem de genç pilotun geleceğine dair rota tayini açısından büyük bir heyecana sahne olacak. Gonzalez'in Moto2 hikayesini bir sezon daha uzatıp uzatmayacağı ve MotoGP rüyasını ne zaman gerçeğe dönüştüreceği, pistteki mücadelenin gidişatıyla birlikte netlik kazanacak.",
+                "img": "Resimler/MotoGP Haberler/1790612759712_IMG_9836.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 153,
                 "title": "QUARTARARO YILLARDIR SİMGESİ OLAN MARKAYLA YOLLARI AYIRIYOR!",
                 "cat": "motogp",
