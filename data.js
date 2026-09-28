@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 156,
+                "title": "VERSTAPPEN’DEN F1 YÖNETİMİNE ORTA DOĞU ÇAĞRISI: \"SAVAŞ VARKEN ORAYA GİTMEMELİYİZ\"",
+                "cat": "formula 1",
+                "date": "2026-09-28 19:37",
+                "content": "Sezonun sonuna yaklaşılırken Formula 1 takvimindeki Katar ve Abu Dabi yarışlarının geleceği belirsizliğini koruyor. Bölgedeki devam eden çatışmalar ve gerilimler nedeniyle Formula 1 cephesinden dikkat çekici bir çıkış geldi. Dört kez dünya şampiyonu Max Verstappen, bölgedeki riskli duruma dikkat çekerek bu yarışların yapılmaması gerektiğini savundu.<br><br>Azerbaycan Grand Prix’si öncesinde Viaplay’e konuk olan yıldız pilot, normal şartlarda Katar ve Abu Dabi'de yarışmaktan keyif aldığını belirtti. Ancak mevcut konjonktürde bu durumun değiştiğini vurgulayan Verstappen, düşüncelerini şu sözlerle aktardı:<br><br>\"Yakınlarda bir savaş sürerken ve ülkeler arası bu denli büyük gerilimler varken bence kesinlikle oraya gitmemeliyiz. Böyle bir tabloda elinizdeki sözleşmelerin ya da anlaşmaların hiçbir geçerliliği kalmıyor. Tabii ki nihai karar bana ait değil.\"<br><br>Formula 1 yönetimi için ekonomik açıdan en büyük gelir kalemlerinden biri olan Orta Doğu ayaklarının iptal edilmesi şu an için son çare olarak masada duruyor. Yönetimin bu yarışları iptal etmesi durumunda, sezonun Imola'da yapılacak sürpriz bir yarışla tamamlanması planlanıyor.<br><br>Bu olası senaryoyu değerlendiren Hollandalı pilot, Imola seçeneğine sıcak baktığını belirterek, \"Eğer alternatif olarak Imola’ya gidersek, sezon sonundaki o yağmurlu hava şartlarında muhtemelen son derece kaotik bir yarış izleriz. Ancak tüm riskleri ve şartları hesaba kattığımda benim için hiçbir sakıncası yok, çünkü Imola gerçekten harika bir pist\" ifadelerini kullandı.<br><br>Ekim ortasına kadar nihai kararını vermesi beklenen F1 yönetiminin atacağı adım merakla beklenirken, sezonun 1984 yılından bu yana ilk kez soğuk ve yağışlı bir Avrupa pistinde tamamlanıp tamamlanmayacağı önümüzdeki günlerde netleşecek.",
+                "img": "Resimler/Formula 1 Haberler/1790613430422_IMG_9837.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 154,
                 "title": "F1, 2027'DE STRATEJİYİ DEĞİŞTİRİYOR MU?: HEDEF DAHA FAZLA AŞINAN LASTİKLER",
                 "cat": "formula 1",
