@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 161,
+                "title": "AYRILIK İDDİALARINA NET CEVAP: ALONSO, 2027 SEZONUNDA DA ASTON MARTIN’DE!",
+                "cat": "formula 1",
+                "date": "2026-09-29 21:27",
+                "content": "Fernando Alonso’nun Formula 1’deki geleceği netleşti. Mevcut kontratının 2026 sonunda bitecek olması nedeniyle uzun süredir emeklilik iddiaları ve geleceği hakkında spekülasyonlarla anılan İspanyol pilot, kariyerine Silverstone ekibinde devam etme kararı aldı. Yeni anlaşma doğrultusunda deneyimli pilot, 2027 sezonunun sonuna kadar Aston Martin’de direksiyon başında olacak.<br><br>2026 yılındaki teknik regülasyonların ve F1 yönetiminin atacağı adımların kararında büyük rol oynayacağını daha önce dile getiren şampiyon pilot; FIA Başkanı Mohammed Ben Sulayem ve F1 CEO'su Stefano Domenicali ile de temaslarda bulunmuştu. Tüm bu değerlendirmelerin ardından takımda kalmayı seçen Alonso, yarışmaya olan tutkusunun devam ettiğini vurguladı. Takımın uzun vadeli vizyonuna ve tesislerine olan inancını belirten İspanyol sürücü, en üst seviyede rekabet edebilecek güce sahip olduğunu bir kez daha gösterdi.<br><br>Bununla birlikte, Aston Martin’in son dönemdeki sportif tablosu pek de parlak ilerlemiyor. Takım, özellikle 2026 kural değişikliklerine oldukça zorlu bir başlangıç yaparken, Honda güç ünitesinin rekabetten uzak kalması ve rakiplerin geliştirme yarışındaki üstünlüğü Silverstone ekibini geriye itti. Geride kalan 15 yarış sonucunda takım, yalnızca Alonso’nun hanesine yazdırmayı başardığı 3 puanla klasmanın 10 basamağında ve yalnızca yeni katılımcı Cadillac’ın önünde yer alabiliyor.<br><br>Tüm bu zorluklara rağmen geleceğe yatırım yapmaya devam eden İngiliz ekibi, kadro istikrarını bozmayarak Lance Stroll’ün de sözleşmesini yenilediğini duyurdu. Williams günlerinden bu yana takımın başarısı için ter döken Kanadalı pilot, Silverstone’daki dokuzuncu sezonuna hazırlanırken fabrikaydaki büyük dönüşüme ve gelişim sürecine olan inancını dile getirdi.<br><br>Takımın patronu Lawrence Stroll ise iki deneyimli pilotla yola devam etmenin organizasyon için büyük bir kazanım olduğunun altını çizdi. Kısa vadede performans krizini aşmaya odaklandıklarını belirten Stroll, uzun vadeli şampiyonluk hedeflerine ulaşmak için gereken vizyona ve kadro kalitesine sahip olduklarını ifade etti.",
+                "img": "Resimler/Formula 1 Haberler/1790706452434_IMG_9849.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 159,
                 "title": "SEBASTIAN VETTEL’DEN F1’E YEŞİL IŞIK: \"KAPILARI TAMAMEN KAPATMIŞ DEĞİLİM\"",
                 "cat": "formula 1",
