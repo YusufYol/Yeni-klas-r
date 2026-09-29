@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 158,
+                "title": "FORMULA 1'DE SEPANG DÖNÜŞÜ: PİRELLİ'NİN LASTİK TERCİHİ 2017 YILINA DAYANIYOR",
+                "cat": "formula 1",
+                "date": "2026-09-29 18:06",
+                "content": "Sepang'ın Formula 1 takvimine sürpriz dönüşü, sadece takımları değil, lastik tedarikçisi Pirelli'yi de oldukça kısıtlı bir zaman çizelgesinin içine soktu. 4 Ekim'deki yarış için sadece 10 haftalık bir hazırlık süresi olması, İtalyan üreticiyi önemli bir karara yöneltti.<br><br>Normalde güncel pist verileriyle çalışan Pirelli, bu kez zaman darlığı ve saha ölçümleri için ekip gönderememesi nedeniyle 2017 yılındaki verilere odaklandı. Pirelli Motor Sporları Direktörü Dario Marrafuschi, 2017'deki geniş lastik geçişinin günümüz araç paketlerine çok benzediğini belirterek seçimlerini bu yıla dayandıracaklarını açıkladı.<br><br>Buna göre Pirelli, Sepang hafta sonu için C2 (sert), C3 (orta) ve C4 (yumuşak) hamurlarını piste getireceğini duyurdu.<br><br>Ancak 9 yıl önceki verilere dayanılması ve pistin güncel asfalt yapısının önceden detaylıca haritalandırılamamış olması büyük bir risk olarak değerlendiriliyor. Üstelik hem mevcut araç neslinin hem de önceki yer etkili (ground-effect) araçların Sepang'da hiç yarışmamış olması, takımların simülatör çalışmalarını zorlaştırıyor. Takımlar simülasyonda bazı senaryoları test edebilse de, lastiklerin bu pist için gerçekten kusursuz çalışıp çalışmayacağı yarış hafta sonundaki ilk seanslara kadar büyük bir soru işareti olarak kalacak.",
+                "img": "Resimler/Formula 1 Haberler/1790694364550_IMG_9846.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 157,
                 "title": "İDDİALAR ARTIYOR: FERRARI'DE VASSEUR DÖNEMI KAPANIYOR MU?",
                 "cat": "formula 1",
