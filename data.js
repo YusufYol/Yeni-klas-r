@@ -5835,6 +5835,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 160,
+                "title": "NİCOLO BULEGA’NIN MOTOGP GEÇİŞİ VE DUCATI’NİN YENİ DÖNEM PLANI",
+                "cat": "motogp",
+                "date": "2026-09-29 19:25",
+                "content": "Ducati yönetimi, Superbike’taki başarılarının ardından 2027 sezonunda MotoGP’ye adım atmaya hazırlanan Nicolo Bulega’nın geleceği hakkında dikkat çekici açıklamalarda bulundu. İtalyan sürücünün yeni nesil 850cc prototip motosikletle yakaladığı ivme, fabrika ekibinin dikkatini çekmeyi başardı.<br><br>Mugello’da geçirdiği talihsiz kaza ve ardından yaşadığı omuz sakatlığı nedeniyle geçtiğimiz haftalardaki Avusturya testlerinde pistten uzak kalan Bulega, Cremona’daki zorlu hafta sonunu üç ikincilikle tamamlasa da sezonun 10. ayağında şampiyonluğunu erkenden ilan etti. Klasik MotoGP geçiş rotasından farklı bir yol izleyerek fabrika takımına yükselen başarılı pilot, Ducati Corse Genel Müdürü Gigi Dall’Igna’nın da övgüsünü aldı.<br><br>Dall’Igna, WorldSBK.com’a yaptığı değerlendirmede, Bulega'nın klasik serüvenin dışında bir yoldan MotoGP'ye geçiş yapacağını belirterek şu ifadeleri kullandı:<br>\"Bu, alışılmışın dışında bir yolculuk. Ancak Nicolo, Supersport ve Superbike kategorilerinde muazzam işler çıkardı. 850cc’lik yeni motosikletin gelişim sürecinde de bizimle çok yakın bir çalışma yürüttü ve ortaya koyduğu performanstan son derece memnunuz. Bu başarıların ardından kendisini önümüzdeki sezon MotoGP kadromuza katma kararını aldık.\"<br><br>Bulega’nın en üst sınıfta neler başarabileceğini öngörmek için henüz erken olduğunu vurgulayan Ducati yöneticisi, asıl tablonun Valencia testlerinde netleşeceğini belirtti: \"Şu aşamada kesin bir tahminde bulunmak güç, Valencia testlerini görmemiz gerekiyor. Ancak farklı pistlerdeki test sürüşlerinde kaydettiği tur zamanları umut vericiydi. MotoGP'de de iddialı işler yapacağına inancımız tam.\"<br><br>Diğer yandan, Bulega’nın Ducati WorldSBK fabrika takımından ayrılacak olmasıyla birlikte boşalacak koltuğa kimin oturacağı merak konusu olmaya devam ediyor. Franco Morbidelli ve Claudio Domenicali’nin sinyalleri doğrultusunda, 2017 Moto2 şampiyonu Morbidelli’nin Iker Lecuona ile birlikte takımdaki yerini almasına kesin gözüyle bakılıyor.",
+                "img": "Resimler/MotoGP Haberler/1790699141483_IMG_9848.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 155,
                 "title": "MANUEL GONZALEZ'DEN GELECEK AÇIKLAMASI: \"MOTOGP İÇİN DOĞRU ZAMANI BEKLİYORUM\"",
                 "cat": "motogp",
