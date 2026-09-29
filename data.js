@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 157,
+                "title": "İDDİALAR ARTIYOR: FERRARI'DE VASSEUR DÖNEMI KAPANIYOR MU?",
+                "cat": "formula 1",
+                "date": "2026-09-29 12:20",
+                "content": "Formula 1 dünyasını sarsan kulis bilgileri, İtalyan devi Ferrari’de yaprak dökümünün kapıda olduğunu gösteriyor. Sezonun geri kalanında beklentilerin çok uzağında kalan Ferrari'de, takım patronu Frederic Vasseur'ün koltuğu sallanıyor.<br><br>2026 sezonuna Mercedes'in baskın temposuna karşı verilen dirençle başlayan İtalyan ekibi; Lewis Hamilton’ın unutulmaz Barselona zaferi, Silverstone ve Spa’daki umut veren tablolarıyla taraftarlarına şampiyonluk umudu aşılamıştı.<br><br>Ancak yaz arasından sonraki tablo adeta kabusa döndü. Budapeşte ve Zandvoort hayal kırıklıklarıyla geçerken, ev sahibi oldukları Monza GP’de yaşananlar bardağı taşıran son damla oldu. Pilatlar arası pist içi sürtüşmeler ve umulan etkiyi bir türlü yaratamayan ADUO-2 motor güncellemesi, krizin fitilini ateşledi. Red Bull ve McLaren'ın aradaki farkı açması, Mercedes'in de gerisinde kalınması Ferrari yönetimini harekete geçirdi.<br><br>Paddock kaynaklarından ve PlanetF1’in yazarlarından Thomas Maher'in aktardığı bilgilere göre, Ferrari Başkanı John Elkann ve CEO Benedetto Vigna süreçle ilgili nihai kararını verdi. Vasseur ile yolların ayrılmasına kesin gözüyle bakılırken, bunun tamamen bir ayrılık mı yoksa kulüp içinde farklı bir idari görev mi olacağı henüz netlik kazanmadı.<br><br>Dikkat çeken detaylardan biri de Vasseur’ün son dönemdeki hal ve hareketleri. Normalde neşeli, enerjik ve dışa dönük tavırlarıyla tanınan Fransız yöneticinin, son strateji toplantılarında alışılmadık şekilde içine kapanık olması ve sorulara kısa geçiştirmelerle yanıt vermesi dikkatlerden kaçmadı.<br><br>Taraflardan henüz resmi bir açıklama yapılmasa da, Bakü padoğundan yayılan bu güçlü rüzgarlar Vasseur'ün Ferrari'deki günlerinin sayılı olduğunu ortaya koyuyor. Tamımdaki bu büyük değişimin rüzgarları F1 sezonunun geri kalanına damgasını vuracak gibi görünüyor.",
+                "img": "Resimler/Formula 1 Haberler/1790673631937_IMG_9845.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 156,
                 "title": "VERSTAPPEN’DEN F1 YÖNETİMİNE ORTA DOĞU ÇAĞRISI: \"SAVAŞ VARKEN ORAYA GİTMEMELİYİZ\"",
                 "cat": "formula 1",
