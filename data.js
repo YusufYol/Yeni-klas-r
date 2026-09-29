@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 159,
+                "title": "SEBASTIAN VETTEL’DEN F1’E YEŞİL IŞIK: \"KAPILARI TAMAMEN KAPATMIŞ DEĞİLİM\"",
+                "cat": "formula 1",
+                "date": "2026-09-29 19:13",
+                "content": "Formula 1 tarihinin unutulmaz isimleri arasında yer alan dört kez dünya şampiyonu olan Sebastian Vettel, uzun bir aradan sonra geleceğine dair dikkat çeken açıklamalarda bulundu. 2022 sezonunun sonunda aktif yarış kariyerine nokta koyan Alman pilot, padoka kapıları tamamen kapatmadığını ancak şu an için aceleci bir karar alma niyetinde olmadığını belirtti.<br><br>Aston Martin ile geçirdiği son yılların ardından spordan uzaklaşan Vettel, emeklilik dönemini huzurlu bir şekilde sürdürüyor. Zamanını ailesiyle geçirdiğini ve evindeki küçük çiftlikle ilgilendiğini dile getiren deneyimli isim, bu süreçten büyük keyif aldığını ifade etti.<br><br>BBC 5Live’a konuk olan Vettel, F1’e olası bir dönüş ihtimali hakkında net konuştu. Herhangi bir takımla masaya oturmadığını ve aktif bir arayış içinde olmadığını vurgulayan şampiyon pilot, \"Takımlarla görüşüp CV göndermiyorum\" sözleriyle durumun şu an için tamamen akışına bıraktığını belirtti. Buna rağmen padoktaki gelişmeleri yakından izlediğini gizlemeyen Vettel, gelecekte farklı bir rolde F1 ailesine dönebileceğinin sinyallerini verdi.<br><br>Kariyerinin son döneminde ve emekliliğinde çevre bilinci ile sürdürülebilirlik projelerine ağırlık veren Alman sporcu, F1’in 2030 net sıfır emisyon hedefi gibi kritik konuları yakından takip ediyor. Sporun geleceği adına fikir üretmeye devam ettiğini belirten Vettel, pistlerin hem içinde hem de dışında bu vizyonu desteklemeyi sürdürüyor.<br><br>Geçtiğimiz dönemde Michael Schumacher’in unutulmaz 2002 model Ferrari’si ile Monza’da gerçekleştirdiği sürüşle hayranlarına nostaljik anlar yaşatan Vettel, şimdilik pistlerden uzak, sakin ve doğayla iç içe bir yaşam sürüyor. Ancak tecrübeli ismin gelecekte padoka hangi kapıdan ve nasıl bir rolle döneceği şimdiden merak konusu.",
+                "img": "Resimler/Formula 1 Haberler/1790698375366_IMG_9847.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 158,
                 "title": "FORMULA 1'DE SEPANG DÖNÜŞÜ: PİRELLİ'NİN LASTİK TERCİHİ 2017 YILINA DAYANIYOR",
                 "cat": "formula 1",
