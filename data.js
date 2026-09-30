@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 163,
+                "title": "HAAS’TA OCON DÖNEMİ KAPANIYOR: AYRILIK RESMİYET KAZANDI!",
+                "cat": "formula 1",
+                "date": "2026-09-30 16:30",
+                "content": "Formula 1 dünyasından dikkat çekici bir ayrılık haberi geldi. Esteban Ocon, sosyal medya hesapları üzerinden yaptığı resmi açıklama ile 2026 sezonunun sonunda Haas F1 Takımı'ndan ayrılacağını duyurdu. 2025 FIA Formula 1 Dünya Şampiyonası sezonunda TGR Haas F1 Takımı'na katılan başarılı pilot, bu süreçte takımla birlikte toplam 39 yarışa çıkarken, kariyerindeki toplam Grand Prix start sayısını ise 195'e ulaştırdı.<br><br>Ocon, yaptığı açıklamada ayrılık kararını duyururken zorlu koşullara ve kontrolü dışındaki etkenlere dikkat çekti. Takımdan başı dik ve ortaya koyduğu performansla gurur duyarak ayrıldığını belirten deneyimli pilot, \"Hâlâ motiveyim, hâlâ açım. Bu kesinlikle Formula 1 kariyerimin sonu değil\" sözleriyle geleceğe yönelik mesajlar verdi. Şu anki odak noktasının kalan yarış hafta sonları olduğunu vurgulayan Ocon, sezonun geri kalanında araçtan maksimum performansı çıkarmak için çalışmaya devam edeceğini ifade etti.<br><br>Haas Takım Patronu Ayao Komatsu ise Ocon'un takıma katıldığı günden bu yana yaptığı katkılara dikkat çekti. Büyük kural değişikliklerinin yaşandığı bu zorlu sezonda VF-26'nın geliştirilmesinde Ocon'un sürüş deneyimi ve geri bildirimlerinin kritik bir rol oynadığını belirten Komatsu, profesyonelliği ve bağlılığı için pilotuna teşekkür etti.<br><br>Her iki taraf da ortaklaşa aldıkları bu ayrılık kararının ardından, 2026 sezonunun son yarışına kadar tam bir profesyonellikle çalışmayı sürdüreceklerinin altını çizdi. Önlerinde hâlâ pek çok yarış olduğunu belirten takım ve pilot, sezonu en iyi şekilde tamamlamak için ortak hedef doğrultusunda mücadeleye devam ediyor.",
+                "img": "Resimler/Formula 1 Haberler/1790775009601_IMG_9859.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 162,
                 "title": "LEWİS HAMİLTON'DAN MONAKO GP'DEKİ SPRİNT KARARINA SERT ELEŞTİRİ: \"HİÇBİR ANLAMI YOK\"",
                 "cat": "formula 1",
