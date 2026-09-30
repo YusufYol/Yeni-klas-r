@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 162,
+                "title": "LEWİS HAMİLTON'DAN MONAKO GP'DEKİ SPRİNT KARARINA SERT ELEŞTİRİ: \"HİÇBİR ANLAMI YOK\"",
+                "cat": "formula 1",
+                "date": "2026-09-30 13:46",
+                "content": "Monako Grand Prix'si, 2027 yılında Formula 1 tarihinin ilk sprint formatlı mücadelesine ev sahipliği yapmaya hazırlanıyor. Bu hamleyle birlikte, o sezon rekor kırarak 10'a çıkacak olan sprint yarışlarından biri Monako'da koşulacak. 2027 takviminin perde arayacağı açılış yarışı Bahreyn'de, büyük final ise Abu Dabi'de gerçekleştirilecek.<br><br>F1 yönetiminin bu kararı almasındaki temel motivasyon, Monako'daki sıralama turlarının sezonun en büyüleyici anlarından biri olarak kabul edilmesi. Yeni formülle beraber hafta sonu boyunca iki ayrı sıralama seansı heyecanı yaşanacak; ancak takvimdeki sprint sıralamaları, pilotlar yalnızca bir saatlik tek bir antrenman seansına çıkabildikten hemen sonra yapılacak.<br><br>Üç kez Monako galibi olan Lewis Hamilton, bu hamlenin pistin kronik sorunlarını çözmeyeceğini belirterek kararı eleştirdi.<br>Hamilton, Monako'nun yapısı itibarıyla standart şablonların dışına çıkılması gerektiğini şu sözlerle vurguladı:<br><br>\"Bana hiç mantıklı gelmiyor ama tabii ki kararları ben vermiyorum. Olumlu tarafından bakarsak belki bir sıralama seansı daha izleyeceğiz ki bu oldukça güzel. Ancak her yerde uygulanan yarış formatının aynısı olmamalı; farklı bir şey olması gerekiyor.\"<br><br>Mevcut sprint formatlarının genel olarak spora değer kattığını ancak Monako pisti için yetersiz kaldığını belirten deneyimli pilot, yarışın doğasındaki sorunlara dikkat çekti:<br><br>\"Burada yarış olabildiğince sıkıcı. Sprint yarışı bu sorunun çözümü değil, bunu açıkça söyleyebilirim.\"",
+                "img": "Resimler/Formula 1 Haberler/1790765212531_IMG_9858.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 161,
                 "title": "AYRILIK İDDİALARINA NET CEVAP: ALONSO, 2027 SEZONUNDA DA ASTON MARTIN’DE!",
                 "cat": "formula 1",
