@@ -4299,3 +4299,17 @@ h3,
         color: #ffffff;
     }
 }
+/* === Mobil düzeltme: açık zeminde haber başlıkları görünsün, hero siyahlığı kalksın === */
+@media (max-width: 1024px) {
+    .mobile-hero-body {
+        background: transparent;
+    }
+    .mobile-hero-title,
+    .mobile-big-title,
+    .mobile-news-row-title {
+        color: var(--asphalt-black);
+    }
+    .mobile-hero-summary {
+        color: #555b6b;
+    }
+}
