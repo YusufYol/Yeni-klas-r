@@ -753,19 +753,6 @@ function initAppEngine() {
         const heroMainNews = allNews[0] || null;
         const heroSubNews = allNews.slice(1, 3);
 
-        // Milli Sporcularımız news filter
-        const nationalKeywords = ['milli', 'toprak', 'öncü', 'alp aksoy', 'zayn', 'sofuoğlu', 'ayhancan', 'türkkan', 'bölükbaşı'];
-        let nationalNews = allNews.filter(n => {
-            const c = (n.cat || '').toLowerCase();
-            const b = (n.customBadge || '').toLowerCase();
-            const t = (n.title || '').toLowerCase();
-            return c.includes('milli') || b.includes('milli') || nationalKeywords.some(k => t.includes(k));
-        }).slice(0, 4);
-
-        if (nationalNews.length === 0) {
-            nationalNews = allNews.slice(3, 7);
-        }
-
         // Feed news: from index 3 up to 15
         const feedNews = allNews.slice(3, 15);
 
@@ -792,18 +779,6 @@ function initAppEngine() {
                         
                         <!-- Bento Manşet Grubu (1 Büyük Manşet + 2 Yan Haber) -->
                         <section class="home-hero-bento" id="home-hero-bento"></section>
-
-                        <!-- Milli Sporcularımız Vitrini (Racing News TR Özgün Bölümü) -->
-                        <section class="national-showcase-section">
-                            <div class="magazine-section-header">
-                                <h3 class="magazine-section-title">
-                                    <span class="flag-icon">🇹🇷</span> MİLLİ SPORCULARIMIZ
-                                </h3>
-                                <button class="magazine-see-all-btn" onclick="handleRoute('pilots', 'milli sporcularımız')">TÜMÜNÜ GÖR ❯</button>
-                            </div>
-                            <div class="national-cards-grid" id="national-news-grid"></div>
-                        </section>
-
 
                         <!-- Güncel Haberler Grid -->
                         <section class="home-news-section">
@@ -886,9 +861,6 @@ function initAppEngine() {
 
         // Bento Manşetini Doldur
         renderBentoHero(document.getElementById('home-hero-bento'), heroMainNews, heroSubNews);
-
-        // Milli Sporcular Vitrinini Doldur
-        renderNationalNewsGrid(document.getElementById('national-news-grid'), nationalNews);
 
         // Güncel Haberler Grid'ini Doldur
         const newsGrid = document.getElementById('home-news-grid');
