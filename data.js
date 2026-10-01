@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 166,
+                "title": "ISACK HADJAR'DAN SEPANG ÖNCESİ CEZA İTİRAFI!",
+                "cat": "formula 1",
+                "date": "2026-10-01 19:59",
+                "content": "Sakatlığının ardından sahalara dönen genç pilot Isack Hadjar, Formula 1 takviminde yer alan Bahreyn Grand Prix'si (Malezya'da koşulacak yarış hafta sonu) öncesinde önemli bir açıklama yaparak grid cezası alacağını duyurdu.<br><br>Güç ünitesi bileşenlerinde bu sezon sınırları çoktan aşmış olan Red Bull sürücüsü, takımı henüz resmi bir parça değişimi açıklamasa da Sepang'da 5 sıra geriden başlama cezası alacağını basın toplantısında bizzat doğruladı.<br><br>Bakü'deki performanslarını değerlendiren Hadjar, güncellemelerin katkısına değinirken Sepang Uluslararası Pisti'nin araçları için daha gerçekçi bir test niteliği taşıdığını vurguladı:<br><br>\"Bakü zaten aracımıza her halükârda uyacak bir pistti. Getirdiğimiz güncelleme paketinin elbette katkısı oldu ancak Malezya gibi daha geleneksel bir pist, gerçek durumumuzu anlamamız için daha iyi bir referans olacaktır.\"<br><br>Pistin yapısı gereği Bakü'ye kıyasla biraz daha geride kalabileceklerini belirten genç pilot, tüm zorluklara rağmen podyum hedefini masada tutuyor:<br><br>\"Açıkçası pistin yapısı nedeniyle burada biraz daha az rekabetçi olmamızı bekliyorum. Yine de bu hafta sonu podyum için mücadele edebilirsek harika olur. Ancak benim açımdan kolay olmayacak çünkü beş sıra grid cezası alacağım.\"<br><br>Bilek sakatlığı sonrası çıktığı ilk yarış olan Bakü'de duvarların getirdiği risk yüzünden oldukça temkinli bir yol izlediğini belirten Hadjar, Sepang'da taarruza geçmeye hazırlanıyor:<br><br>\"Sepang’ın pist yapısı ilk saniyede gaza yüklenip sonuna kadar aracı zorlamanıza imkân tanıyor. Etrafta sizi durduracak duvarlar yok, son derece açık bir pist. Bu yüzden ışıklar söner sönmez rekabetçi olabiliyorsunuz.\"<br><br>\"Bakü'deyse sınırı aştığınız an kendinizi duvarda bulabilirsiniz. Sakatlığın ardından piste çıktığım ilk yarışımda böyle bir şey yaşamak istemediğim için adımlarımı temkinli attım. Ancak bu hafta sonu benim için tamamen normal geçecek, bu yüzden hemen risk almaya başlamam gerekiyor.\"<br><br>Cezasına rağmen geçişe oldukça elverişli olan Sepang'da iyi bir yarış temposu yakalayarak tırmanışa geçmeyi hedefleyen Hadjar, hafta sonunun hem kendisi hem de takımı adına nasıl geçeceğine dair ipuçlarını şimdiden verdi.",
+                "img": "Resimler/Formula 1 Haberler/1790873983633_IMG_9914.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 165,
                 "title": "ARVİD LİNDBLAD'A BAHREYN GP ÖNCESİNDE AĞIR CEZA: SEPANG’A ARKA SIRALARDAN BAŞLAYACAK!",
                 "cat": "formula 1",
