@@ -3978,8 +3978,10 @@ h3,
     .mobile-hero-card {
         cursor: pointer;
         margin-bottom: 18px;
-        padding-bottom: 16px;
+        padding-bottom: 0;
         border-bottom: 1px solid #1e222e;
+        border-radius: 8px;
+        overflow: hidden;
         transition: opacity 0.2s ease;
     }
     .mobile-hero-card:active {
@@ -3989,9 +3991,9 @@ h3,
         width: 100%;
         aspect-ratio: 16 / 9;
         overflow: hidden;
-        border-radius: 8px;
+        border-radius: 8px 8px 0 0;
         background: #141722;
-        margin-bottom: 12px;
+        margin-bottom: 0;
     }
     .mobile-hero-img {
         width: 100%;
@@ -4000,7 +4002,9 @@ h3,
         display: block;
     }
     .mobile-hero-body {
-        padding: 0 2px;
+        padding: 10px 10px 2px 10px;
+        background: #0f1118;
+        border-radius: 0 0 8px 8px;
     }
     .mobile-news-meta {
         display: flex;

@@ -556,7 +556,7 @@ function initAppEngine() {
                             if (tp.length >= 2) {
                                 const sTime = new Date(y, m, d, parseInt(tp[0], 10), parseInt(tp[1], 10), 0);
                                 if (sTime > now) {
-                                    countdownLabel = `${(s.name || 'SEANS').toUpperCase()} BAŞLANGIÇ:`;
+                                    countdownLabel = `${(s.name || 'SEANS').toUpperCase()}`;
                                     break;
                                 }
                             }
@@ -601,7 +601,6 @@ function initAppEngine() {
                     <div class="mobile-hero-body">
                         <div class="mobile-news-meta">
                             <span class="mobile-news-cat">${heroCat}</span>
-                            <span class="mobile-news-time">${heroTime}</span>
                         </div>
                         <h2 class="mobile-hero-title">${hero.title}</h2>
                         <p class="mobile-hero-summary">${getFirstTwoSentences(hero.content)}</p>
@@ -630,7 +629,6 @@ function initAppEngine() {
                         <div class="mobile-big-body">
                             <div class="mobile-news-meta">
                                 <span class="mobile-news-cat">${nCat}</span>
-                                <span class="mobile-news-time">${nTime}</span>
                             </div>
                             <h3 class="mobile-big-title">${n.title}</h3>
                             <p class="mobile-big-summary">${getFirstTwoSentences(n.content)}</p>
@@ -649,7 +647,6 @@ function initAppEngine() {
                         <div class="mobile-news-row-content">
                             <div class="mobile-news-meta">
                                 <span class="mobile-news-cat">${nCat}</span>
-                                <span class="mobile-news-time">${nTime}</span>
                             </div>
                             <h3 class="mobile-news-row-title">${n.title}</h3>
                         </div>
@@ -682,7 +679,7 @@ function initAppEngine() {
             <div class="mobile-carousel-section">
                 <div class="mobile-carousel-header">
                     <h3 class="mobile-carousel-heading">ÖNE ÇIKAN HABERLER</h3>
-                    <span class="mobile-carousel-hint">KAYDIRIN 👉</span>
+                    <span class="mobile-carousel-hint">GÜNCEL HABERLER</span>
                 </div>
                 <div class="mobile-carousel-track">
                     ${carouselCardsHtml}
