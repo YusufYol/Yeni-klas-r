@@ -3846,3 +3846,450 @@ h3,
         height: 90px;
     }
 }
+
+/* ==========================================================================
+   Mobile & Tablet Dedicated Homepage Layout (Phones & Tablets)
+   ========================================================================== */
+@media (min-width: 1025px) {
+    .mobile-home-layout {
+        display: none !important;
+    }
+    .desktop-home-layout {
+        display: block !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .desktop-home-layout {
+        display: none !important;
+    }
+    .mobile-home-layout {
+        display: block !important;
+        width: 100%;
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 10px 14px 28px;
+        box-sizing: border-box;
+    }
+
+    /* 1. Mobile Race & Countdown Card */
+    .mobile-race-card {
+        background: #12151f;
+        border: 1px solid #232838;
+        border-radius: 12px;
+        padding: 16px 14px;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+    }
+    .mobile-race-header {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        flex-wrap: wrap;
+        margin-bottom: 4px;
+    }
+    .mobile-race-badge {
+        background: var(--primary-red);
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        font-size: 0.72rem;
+        padding: 3px 8px;
+        border-radius: 4px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+    }
+    .mobile-race-gp {
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 0.95rem;
+        letter-spacing: 0.3px;
+    }
+    .mobile-race-track {
+        color: #8c96ab;
+        font-size: 0.8rem;
+        margin-bottom: 12px;
+        padding-left: 2px;
+    }
+    .mobile-countdown-box {
+        background: rgba(0, 0, 0, 0.4);
+        border: 1px solid rgba(255, 255, 255, 0.06);
+        border-radius: 8px;
+        padding: 12px 10px;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+    .mobile-countdown-label {
+        color: var(--primary-red);
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 0.76rem;
+        text-transform: uppercase;
+        letter-spacing: 0.8px;
+        margin-bottom: 6px;
+    }
+    .mobile-countdown-digits {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.45rem;
+        font-weight: 900;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        gap: 4px;
+    }
+    .mobile-countdown-digits .cd-num {
+        font-size: 1.45rem;
+        font-weight: 900;
+        color: #ffffff;
+        letter-spacing: 0.5px;
+    }
+    .mobile-countdown-digits .cd-lbl {
+        font-size: 0.68rem;
+        font-weight: 700;
+        color: #8c96ab;
+        margin-right: 6px;
+    }
+    .mobile-prev-results-btn {
+        display: block;
+        width: 100%;
+        background: #1a1e2b;
+        border: 1px solid #2d3447;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 0.82rem;
+        padding: 11px 16px;
+        border-radius: 8px;
+        cursor: pointer;
+        text-align: center;
+        letter-spacing: 0.5px;
+        transition: all 0.2s ease;
+    }
+    .mobile-prev-results-btn:hover,
+    .mobile-prev-results-btn:active {
+        background: var(--primary-red);
+        border-color: var(--primary-red);
+        transform: translateY(-1px);
+    }
+
+    /* 2. Mobile Hero Card (Latest News - Photo top, text below) */
+    .mobile-hero-card {
+        cursor: pointer;
+        margin-bottom: 18px;
+        padding-bottom: 16px;
+        border-bottom: 1px solid #1e222e;
+        transition: opacity 0.2s ease;
+    }
+    .mobile-hero-card:active {
+        opacity: 0.85;
+    }
+    .mobile-hero-img-wrap {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        overflow: hidden;
+        border-radius: 8px;
+        background: #141722;
+        margin-bottom: 12px;
+    }
+    .mobile-hero-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+    .mobile-hero-body {
+        padding: 0 2px;
+    }
+    .mobile-news-meta {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 6px;
+    }
+    .mobile-news-cat {
+        color: var(--primary-red);
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.6px;
+    }
+    .mobile-news-time {
+        color: #8c96ab;
+        font-size: 0.75rem;
+        font-weight: 600;
+    }
+    .mobile-hero-title {
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 1.25rem;
+        line-height: 1.35;
+        margin: 0 0 8px 0;
+        letter-spacing: -0.2px;
+    }
+    .mobile-hero-summary {
+        color: #a0a6b5;
+        font-family: 'Outfit', sans-serif;
+        font-size: 0.9rem;
+        line-height: 1.5;
+        font-style: italic;
+        margin: 0;
+    }
+
+    /* 3. Mobile News Row (5 items list format) */
+    .mobile-news-row {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        padding: 12px 0;
+        border-bottom: 1px solid #1b1e2a;
+        cursor: pointer;
+        transition: background 0.15s ease;
+    }
+    .mobile-news-row:active {
+        opacity: 0.85;
+    }
+    .mobile-news-thumb-wrap {
+        width: 105px;
+        height: 72px;
+        flex-shrink: 0;
+        border-radius: 6px;
+        overflow: hidden;
+        background: #141722;
+    }
+    .mobile-news-thumb {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+    .mobile-news-row-content {
+        flex: 1;
+        min-width: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 4px;
+    }
+    .mobile-news-row-title {
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 0.88rem;
+        line-height: 1.35;
+        margin: 0;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    /* 4. Mobile Big Card (Every 6th item) */
+    .mobile-news-card-big {
+        cursor: pointer;
+        padding: 16px 0;
+        border-bottom: 1px solid #1e222e;
+        transition: opacity 0.2s ease;
+    }
+    .mobile-news-card-big:active {
+        opacity: 0.85;
+    }
+    .mobile-big-img-wrap {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        overflow: hidden;
+        border-radius: 8px;
+        background: #141722;
+        margin-bottom: 12px;
+    }
+    .mobile-big-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+    .mobile-big-body {
+        padding: 0 2px;
+    }
+    .mobile-big-title {
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 1.18rem;
+        line-height: 1.35;
+        margin: 0 0 8px 0;
+        letter-spacing: -0.2px;
+    }
+    .mobile-big-summary {
+        color: #a0a6b5;
+        font-family: 'Outfit', sans-serif;
+        font-size: 0.88rem;
+        line-height: 1.5;
+        font-style: italic;
+        margin: 0;
+    }
+
+    /* 5. Horizontal Carousel (First 10 news) */
+    .mobile-carousel-section {
+        margin: 24px 0 16px 0;
+        padding-top: 16px;
+        border-top: 1px solid #202434;
+    }
+    .mobile-carousel-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 12px;
+        padding: 0 2px;
+    }
+    .mobile-carousel-heading {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        font-size: 0.95rem;
+        color: #ffffff;
+        letter-spacing: 0.5px;
+        margin: 0;
+    }
+    .mobile-carousel-hint {
+        font-size: 0.72rem;
+        font-weight: 700;
+        color: #8c96ab;
+    }
+    .mobile-carousel-track {
+        display: flex;
+        gap: 12px;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        padding: 4px 2px 14px 2px;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: thin;
+        scrollbar-color: #2e3448 transparent;
+    }
+    .mobile-carousel-track::-webkit-scrollbar {
+        height: 4px;
+    }
+    .mobile-carousel-track::-webkit-scrollbar-thumb {
+        background: #2e3448;
+        border-radius: 4px;
+    }
+    .mobile-carousel-card {
+        flex: 0 0 240px;
+        scroll-snap-align: start;
+        background: #141722;
+        border: 1px solid #232737;
+        border-radius: 8px;
+        overflow: hidden;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+    }
+    .mobile-carousel-card:active {
+        opacity: 0.85;
+    }
+    .mobile-carousel-img-wrap {
+        position: relative;
+        width: 100%;
+        height: 135px;
+        background: #1a1e28;
+    }
+    .mobile-carousel-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+    .mobile-carousel-badge {
+        position: absolute;
+        top: 8px;
+        left: 8px;
+        background: rgba(0, 0, 0, 0.8);
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.65rem;
+        font-weight: 800;
+        padding: 3px 7px;
+        border-radius: 4px;
+        letter-spacing: 0.5px;
+    }
+    .mobile-carousel-body {
+        padding: 10px 12px 14px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .mobile-carousel-title {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 0.84rem;
+        line-height: 1.35;
+        color: #ffffff;
+        margin: 0;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    /* 6. All News Button */
+    .mobile-allnews-wrapper {
+        display: flex;
+        justify-content: center;
+        margin: 18px 0 10px 0;
+    }
+    .mobile-allnews-btn {
+        width: 100% !important;
+        max-width: 380px;
+        padding: 14px 24px !important;
+        font-size: 0.92rem !important;
+        text-align: center;
+        box-shadow: 0 4px 16px rgba(37, 99, 235, 0.35);
+    }
+
+    /* 7. Follow Us Section */
+    .mobile-social-section {
+        background: #12151f;
+        border: 1px solid #232838;
+        border-radius: 12px;
+        padding: 18px 14px;
+        margin-top: 18px;
+        text-align: center;
+    }
+    .mobile-social-heading {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        font-size: 0.92rem;
+        color: #ffffff;
+        letter-spacing: 1px;
+        margin: 0 0 14px 0;
+    }
+    .mobile-social-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .mobile-social-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 11px 12px;
+        border-radius: 8px;
+        background: #1a1e2b;
+        color: #ffffff;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 0.8rem;
+        border: 1px solid #282e3f;
+        transition: all 0.2s ease;
+    }
+    .mobile-social-btn:hover,
+    .mobile-social-btn:active {
+        background: var(--primary-red);
+        border-color: var(--primary-red);
+        color: #ffffff;
+    }
+}

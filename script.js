@@ -62,7 +62,48 @@ function initAppEngine() {
         return allNews;
     }
 
+    function getFirstTwoSentences(htmlOrText) {
+        if (!htmlOrText) return '';
+        const text = htmlOrText
+            .replace(/<br\s*\/?>/gi, ' ')
+            .replace(/<[^>]*>/g, ' ')
+            .replace(/&nbsp;/g, ' ')
+            .replace(/&quot;/g, '"')
+            .replace(/\s+/g, ' ')
+            .trim();
 
+        const sentences = text.match(/[^.!?]+[.!?]+(?:\s|$)/g);
+        if (sentences && sentences.length >= 2) {
+            return (sentences[0].trim() + ' ' + sentences[1].trim());
+        } else if (sentences && sentences.length === 1) {
+            return sentences[0].trim();
+        }
+        return text.slice(0, 160) + '...';
+    }
+
+    function getTimeAgo(dateStr) {
+        if (!dateStr) return '';
+        const isoStr = dateStr.includes('T') ? dateStr : dateStr.replace(' ', 'T');
+        const d = new Date(isoStr);
+        if (isNaN(d.getTime())) return formatDate(dateStr);
+        const now = new Date();
+        const diffMs = now - d;
+        if (diffMs < 0) return formatDate(dateStr);
+        const diffSec = Math.floor(diffMs / 1000);
+        const diffMin = Math.floor(diffSec / 60);
+        const diffHour = Math.floor(diffMin / 60);
+        const diffDay = Math.floor(diffHour / 24);
+
+        if (diffMin < 60) {
+            return `${Math.max(1, diffMin)} dk`;
+        } else if (diffHour < 24) {
+            return `${diffHour} s`;
+        } else if (diffDay < 7) {
+            return `${diffDay} g`;
+        } else {
+            return formatDate(dateStr);
+        }
+    }
 
     // 1. Data Helper
     function getCategoryData(cat) {
@@ -351,6 +392,9 @@ function initAppEngine() {
 
     function handleRoute(view, cat, pushState = true, round = null) {
         window.scrollTo({ top: 0, behavior: 'smooth' });
+        if (window.mobileCountdownInterval) {
+            clearInterval(window.mobileCountdownInterval);
+        }
 
         if (pushState) {
             const isLocal = window.location.protocol === 'file:';
@@ -418,6 +462,277 @@ function initAppEngine() {
         setTimeout(refreshAds, 300);
     }
 
+    // --- Mobile Layout Helpers ---
+    function startMobileCountdown(targetTime) {
+        if (window.mobileCountdownInterval) {
+            clearInterval(window.mobileCountdownInterval);
+        }
+        if (!targetTime) return;
+
+        const updateTicker = () => {
+            const digitsEl = document.getElementById('mobile-countdown-digits');
+            if (!digitsEl) {
+                clearInterval(window.mobileCountdownInterval);
+                return;
+            }
+            const now = new Date();
+            const diff = targetTime - now;
+
+            if (diff <= 0) {
+                digitsEl.innerHTML = '<span style="color:#22c55e; font-size:1.05rem; font-weight:800;">CANLI / SEANS BAŞLADI</span>';
+                clearInterval(window.mobileCountdownInterval);
+                return;
+            }
+
+            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+            let out = '';
+            if (days > 0) {
+                out += `<span class="cd-num">${days}</span><span class="cd-lbl">GÜN</span> `;
+            }
+            out += `<span class="cd-num">${hours.toString().padStart(2, '0')}</span><span class="cd-lbl">SAAT</span> `;
+            out += `<span class="cd-num">${minutes.toString().padStart(2, '0')}</span><span class="cd-lbl">DK</span> `;
+            out += `<span class="cd-num">${seconds.toString().padStart(2, '0')}</span><span class="cd-lbl">SN</span>`;
+            digitsEl.innerHTML = out;
+        };
+
+        updateTicker();
+        window.mobileCountdownInterval = setInterval(updateTicker, 1000);
+    }
+
+    function buildMobileHomeHtml(nextEvent, allNews) {
+        // 1. Race Countdown Card
+        let raceCardHtml = '';
+        if (nextEvent) {
+            const catName = nextEvent.category ? nextEvent.category.toUpperCase() : 'FORMULA 1';
+            const gpTitle = (nextEvent.gp || '').toUpperCase();
+            const country = nextEvent.country ? nextEvent.country.toUpperCase() : '';
+            const track = nextEvent.track || '';
+
+            let prevEvent = null;
+            if (nextEvent.category) {
+                const catData = getCategoryData(nextEvent.category.toLowerCase());
+                if (catData && catData.calendar) {
+                    const now = new Date();
+                    const pastEvents = catData.calendar.filter(e => {
+                        if (e.status !== "Tamamlandı" && e.status !== "Tamamlandi") return false;
+                        const parts = (e.isoDate || '').split('-');
+                        let eDate = new Date();
+                        if (parts.length === 3) eDate = new Date(parts[0], parts[1] - 1, parts[2]);
+                        else eDate = new Date(e.isoDate);
+                        return eDate < now;
+                    });
+                    if (pastEvents.length > 0) {
+                        pastEvents.sort((a, b) => new Date(b.isoDate) - new Date(a.isoDate));
+                        prevEvent = pastEvents[0];
+                    }
+                }
+            }
+
+            const prevBtnHtml = prevEvent ? `
+                <button class="mobile-prev-results-btn" onclick="handleRoute('results', '${nextEvent.category.toLowerCase()}', true, '${prevEvent.round || prevEvent.track}')">
+                    ÖNCEKİ YARIŞ SONUÇLARI ❯
+                </button>
+            ` : `
+                <button class="mobile-prev-results-btn" onclick="handleRoute('calendar', '${nextEvent.category.toLowerCase()}')">
+                    YARIŞ TAKVİMİ ❯
+                </button>
+            `;
+
+            let countdownLabel = 'YARIŞ BAŞLANGICINA KALAN SÜRE:';
+            if (nextEvent.sessions && nextEvent.sessions.length > 0) {
+                const now = new Date();
+                const parts = (nextEvent.isoDate || '').split('-');
+                if (parts.length === 3) {
+                    const y = parseInt(parts[0], 10);
+                    const m = parseInt(parts[1], 10) - 1;
+                    const d = parseInt(parts[2], 10);
+                    for (let s of nextEvent.sessions) {
+                        if (s.time) {
+                            const tp = s.time.split(':');
+                            if (tp.length >= 2) {
+                                const sTime = new Date(y, m, d, parseInt(tp[0], 10), parseInt(tp[1], 10), 0);
+                                if (sTime > now) {
+                                    countdownLabel = `${(s.name || 'SEANS').toUpperCase()} BAŞLANGIÇ:`;
+                                    break;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            raceCardHtml = `
+                <div class="mobile-race-card">
+                    <div class="mobile-race-header">
+                        <span class="mobile-race-badge">${catName}</span>
+                        <span class="mobile-race-gp">${gpTitle}${country ? ` • ${country}` : ''}</span>
+                    </div>
+                    ${track ? `<div class="mobile-race-track">${track}</div>` : ''}
+                    <div class="mobile-countdown-box">
+                        <div class="mobile-countdown-label">${countdownLabel}</div>
+                        <div class="mobile-countdown-digits" id="mobile-countdown-digits">
+                            <span class="cd-num">--</span><span class="cd-lbl">SAAT</span>
+                            <span class="cd-num">--</span><span class="cd-lbl">DK</span>
+                            <span class="cd-num">--</span><span class="cd-lbl">SN</span>
+                        </div>
+                    </div>
+                    ${prevBtnHtml}
+                </div>
+            `;
+        }
+
+        // 2. Feed: Hero + 5 list + 1 big + 5 list + 1 big + 5 list
+        let feedHtml = '';
+        if (allNews.length > 0) {
+            const hero = allNews[0];
+            const heroImg = hero.img ? (hero.img.startsWith('Resimler/') ? `${window.APP_ROOT}${hero.img}` : hero.img) : `${window.APP_ROOT}Resimler/Logo/Racing News TR Logo.jpeg`;
+            const heroCat = hero.customBadge ? formatBadge(hero.customBadge) : (hero.cat || 'HABERLER').toUpperCase();
+            const heroTime = getTimeAgo(hero.date);
+
+            feedHtml += `
+                <div class="mobile-hero-card" onclick="handleRoute('news-detail', '${hero.cat}', true, '${hero.id}')">
+                    <div class="mobile-hero-img-wrap">
+                        <img src="${heroImg}" alt="${hero.title}" class="mobile-hero-img" onerror="this.src='${window.APP_ROOT}Resimler/Logo/Racing News TR Logo.jpeg'">
+                    </div>
+                    <div class="mobile-hero-body">
+                        <div class="mobile-news-meta">
+                            <span class="mobile-news-cat">${heroCat}</span>
+                            <span class="mobile-news-time">${heroTime}</span>
+                        </div>
+                        <h2 class="mobile-hero-title">${hero.title}</h2>
+                        <p class="mobile-hero-summary">${getFirstTwoSentences(hero.content)}</p>
+                    </div>
+                </div>
+            `;
+        }
+
+        const remainingNews = allNews.slice(1, 18);
+        let listCount = 0;
+        let bigCount = 0;
+
+        for (let i = 0; i < remainingNews.length; i++) {
+            const n = remainingNews[i];
+            const nImg = n.img ? (n.img.startsWith('Resimler/') ? `${window.APP_ROOT}${n.img}` : n.img) : `${window.APP_ROOT}Resimler/Logo/Racing News TR Logo.jpeg`;
+            const nCat = n.customBadge ? formatBadge(n.customBadge) : (n.cat || 'HABERLER').toUpperCase();
+            const nTime = getTimeAgo(n.date);
+
+            if (listCount === 5 && bigCount < 2) {
+                // 6th news is a Big Image Card
+                feedHtml += `
+                    <div class="mobile-news-card-big" onclick="handleRoute('news-detail', '${n.cat}', true, '${n.id}')">
+                        <div class="mobile-big-img-wrap">
+                            <img src="${nImg}" alt="${n.title}" class="mobile-big-img" onerror="this.src='${window.APP_ROOT}Resimler/Logo/Racing News TR Logo.jpeg'">
+                        </div>
+                        <div class="mobile-big-body">
+                            <div class="mobile-news-meta">
+                                <span class="mobile-news-cat">${nCat}</span>
+                                <span class="mobile-news-time">${nTime}</span>
+                            </div>
+                            <h3 class="mobile-big-title">${n.title}</h3>
+                            <p class="mobile-big-summary">${getFirstTwoSentences(n.content)}</p>
+                        </div>
+                    </div>
+                `;
+                listCount = 0;
+                bigCount++;
+            } else {
+                // List Row
+                feedHtml += `
+                    <div class="mobile-news-row" onclick="handleRoute('news-detail', '${n.cat}', true, '${n.id}')">
+                        <div class="mobile-news-thumb-wrap">
+                            <img src="${nImg}" alt="${n.title}" class="mobile-news-thumb" onerror="this.src='${window.APP_ROOT}Resimler/Logo/Racing News TR Logo.jpeg'">
+                        </div>
+                        <div class="mobile-news-row-content">
+                            <div class="mobile-news-meta">
+                                <span class="mobile-news-cat">${nCat}</span>
+                                <span class="mobile-news-time">${nTime}</span>
+                            </div>
+                            <h3 class="mobile-news-row-title">${n.title}</h3>
+                        </div>
+                    </div>
+                `;
+                listCount++;
+            }
+        }
+
+        // 3. Horizontal Carousel of First 10 News
+        let carouselCardsHtml = '';
+        const top10 = allNews.slice(0, 10);
+        top10.forEach(n => {
+            const nImg = n.img ? (n.img.startsWith('Resimler/') ? `${window.APP_ROOT}${n.img}` : n.img) : `${window.APP_ROOT}Resimler/Logo/Racing News TR Logo.jpeg`;
+            const nCat = n.customBadge ? formatBadge(n.customBadge) : (n.cat || 'HABERLER').toUpperCase();
+            carouselCardsHtml += `
+                <div class="mobile-carousel-card" onclick="handleRoute('news-detail', '${n.cat}', true, '${n.id}')">
+                    <div class="mobile-carousel-img-wrap">
+                        <img src="${nImg}" alt="${n.title}" class="mobile-carousel-img" onerror="this.src='${window.APP_ROOT}Resimler/Logo/Racing News TR Logo.jpeg'">
+                        <span class="mobile-carousel-badge">${nCat}</span>
+                    </div>
+                    <div class="mobile-carousel-body">
+                        <h4 class="mobile-carousel-title">${n.title}</h4>
+                    </div>
+                </div>
+            `;
+        });
+
+        const carouselHtml = `
+            <div class="mobile-carousel-section">
+                <div class="mobile-carousel-header">
+                    <h3 class="mobile-carousel-heading">ÖNE ÇIKAN HABERLER</h3>
+                    <span class="mobile-carousel-hint">KAYDIRIN 👉</span>
+                </div>
+                <div class="mobile-carousel-track">
+                    ${carouselCardsHtml}
+                </div>
+            </div>
+        `;
+
+        // 4. Tüm Haberler Button
+        const allNewsBtnHtml = `
+            <div class="mobile-allnews-wrapper">
+                <button class="category-explore-btn all-news-btn mobile-allnews-btn" onclick="handleRoute('news', 'all')">
+                    TÜM HABERLER ❯
+                </button>
+            </div>
+        `;
+
+        // 5. Bizi Takip Edin
+        const followUsHtml = `
+            <div class="mobile-social-section">
+                <h4 class="mobile-social-heading">BİZİ TAKİP EDİN</h4>
+                <div class="mobile-social-grid">
+                    <a href="https://instagram.com" target="_blank" rel="noopener" class="mobile-social-btn instagram">
+                        Instagram
+                    </a>
+                    <a href="https://twitter.com" target="_blank" rel="noopener" class="mobile-social-btn x-twitter">
+                        X (Twitter)
+                    </a>
+                    <a href="https://youtube.com" target="_blank" rel="noopener" class="mobile-social-btn youtube">
+                        YouTube
+                    </a>
+                    <a href="https://tiktok.com" target="_blank" rel="noopener" class="mobile-social-btn tiktok">
+                        TikTok
+                    </a>
+                </div>
+            </div>
+        `;
+
+        return `
+            <div class="mobile-home-layout">
+                ${raceCardHtml}
+                <div class="mobile-news-feed">
+                    ${feedHtml}
+                </div>
+                ${carouselHtml}
+                ${allNewsBtnHtml}
+                ${followUsHtml}
+            </div>
+        `;
+    }
+
     // 3. Renderers
     function renderHome() {
         const nextEvent = getGlobalNextEvent();
@@ -428,25 +743,13 @@ function initAppEngine() {
             if (catData && catData.news) {
                 const len = catData.news.length;
                 catData.news.forEach((n, idx) => {
-                    allNews.push({ ...n, _revIdx: len - idx });
+                    allNews.push({ ...n, _revIdx: len - idx, cat: n.cat || cat });
                 });
             }
         });
 
         if (allNews.length > 0) {
-            allNews.sort((a, b) => {
-                let dateA = new Date(a.date ? a.date.replace(' ', 'T') : 0);
-                let dateB = new Date(b.date ? b.date.replace(' ', 'T') : 0);
-                if (isNaN(dateA.getTime())) dateA = new Date(0);
-                if (isNaN(dateB.getTime())) dateB = new Date(0);
-
-                const dateCompare = dateB - dateA;
-                if (dateCompare !== 0) return dateCompare;
-
-                const idA = parseInt(a.id) || 0;
-                const idB = parseInt(b.id) || 0;
-                return idB - idA;
-            });
+            allNews.sort(sortNewsByDateDesc);
         }
 
         // Hero Bento: 1 main headline + 2 secondary stories
@@ -462,7 +765,6 @@ function initAppEngine() {
             return c.includes('milli') || b.includes('milli') || nationalKeywords.some(k => t.includes(k));
         }).slice(0, 4);
 
-        // Fallback for national if not enough: get from general highlight
         if (nationalNews.length === 0) {
             nationalNews = allNews.slice(3, 7);
         }
@@ -473,8 +775,8 @@ function initAppEngine() {
         // Top 5 Trending articles for sidebar
         const trendingNews = allNews.slice(0, 5);
 
-        mainContent.innerHTML = `
-            <div class="home-page-container fade-in">
+        const desktopLayoutHtml = `
+            <div class="desktop-home-layout">
                 <!-- 1. Son Haberler Akan Bant (Ticker) -->
                 <div class="news-ticker-bar">
                     <div class="ticker-label">
@@ -485,7 +787,7 @@ function initAppEngine() {
                     </div>
                 </div>
 
-                <!-- 2. İki Kolonlu Magazin Düzeni (Seçenek A) -->
+                <!-- 2. İki Kolonlu Magazin Düzeni -->
                 <div class="home-magazine-layout">
                     
                     <!-- SOL KOLON: Ana Haber Akışı & Magazin Bloğu (~68%) -->
@@ -547,7 +849,7 @@ function initAppEngine() {
                             </div>
                         </div>
 
-                        <!-- 4. Bizi Takip Edin (Sosyal Medya) -->
+                        <!-- 5. Bizi Takip Edin (Sosyal Medya) -->
                         <div class="sidebar-widget social-widget">
                             <div class="sidebar-widget-header">
                                 <span class="sidebar-widget-title">BİZİ TAKİP EDİN</span>
@@ -573,6 +875,15 @@ function initAppEngine() {
             </div>
         `;
 
+        const mobileLayoutHtml = buildMobileHomeHtml(nextEvent, allNews);
+
+        mainContent.innerHTML = `
+            <div class="home-page-container fade-in">
+                ${desktopLayoutHtml}
+                ${mobileLayoutHtml}
+            </div>
+        `;
+
         // Ticker'ı Başlat
         initNewsTicker(allNews);
 
@@ -594,6 +905,33 @@ function initAppEngine() {
         renderSidebarRaceWidget(document.getElementById('sidebar-race-widget'), nextEvent);
         renderSidebarStandingsWidget(document.getElementById('sidebar-standings-widget'));
         renderSidebarTrendingWidget(document.getElementById('sidebar-trending-widget'), trendingNews);
+
+        // Mobil Geri Sayım Ticker'ını Başlat
+        if (nextEvent) {
+            let targetTime = nextEvent.endDateTime;
+            if (nextEvent.sessions && nextEvent.sessions.length > 0) {
+                const now = new Date();
+                const parts = (nextEvent.isoDate || '').split('-');
+                if (parts.length === 3) {
+                    const y = parseInt(parts[0], 10);
+                    const m = parseInt(parts[1], 10) - 1;
+                    const d = parseInt(parts[2], 10);
+                    for (let s of nextEvent.sessions) {
+                        if (s.time) {
+                            const tp = s.time.split(':');
+                            if (tp.length >= 2) {
+                                const sTime = new Date(y, m, d, parseInt(tp[0], 10), parseInt(tp[1], 10), 0);
+                                if (sTime > now) {
+                                    targetTime = sTime;
+                                    break;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            startMobileCountdown(targetTime);
+        }
     }
 
     function renderBentoHero(container, mainNews, subNews) {
