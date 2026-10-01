@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 165,
+                "title": "ARVİD LİNDBLAD'A BAHREYN GP ÖNCESİNDE AĞIR CEZA: SEPANG’A ARKA SIRALARDAN BAŞLAYACAK!",
+                "cat": "formula 1",
+                "date": "2026-10-01 11:40",
+                "content": "Racing Bulls takımı, genç yetenek Arvid Lindblad'ın sezonun sıradaki mücadelesi olan Bahreyn Grand Prix'sinde grid cezası alacağını resmen duyurdu. Yapılan açıklamaya göre, pilotun güç ünitesi havuzuna beşinci bir ünitenin eklenmesi cezanın kapısını araladı.<br><br>Formula 1 yönetmeliklerine göre, sürücülerin bir sezon boyunca cezadan kaçınabilmesi için içten yanmalı motor, turbo ve egzoz gibi kritik bileşenlerde dört adetlik kullanım sınırı bulunuyor. Diğer güç ünitesi parçaları için ise farklı kotalar uygulanıyor. Sınırların aşılması durumunda ilk ihlalde 10 sıra, sonraki her yeni parça için ise 5'er sıra geriden başlama cezası veriliyor. Toplam cezanın 15 sıra ve üzerine çıkması halinde ise pilotlar doğrudan gridin en arkasına gönderiliyor.<br><br>Sezon başından bu yana güç ünitesi havuzunu idareli kullanan ve bu alanda herhangi bir ceza almayan Lindblad, bu hamleyle birlikte yarışa start alacağı podyum sıralamasının en gerisinde yer alacak.",
+                "img": "Resimler/Formula 1 Haberler/1790844004232_IMG_9884.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 164,
                 "title": "FERNANDO ALONSO’DAN NET MESAJ: “İÇİMDEKİ ALEV HÂLÂ YANIYOR, BIRAKMAYA NİYETİM YOK”",
                 "cat": "formula 1",
