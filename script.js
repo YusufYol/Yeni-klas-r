@@ -24,6 +24,45 @@ function initAppEngine() {
         return dateStr;
     }
 
+    function parseNewsDate(dateStr) {
+        if (!dateStr) return 0;
+        const isoStr = dateStr.includes('T') ? dateStr : dateStr.replace(' ', 'T');
+        const d = new Date(isoStr);
+        const time = d.getTime();
+        return isNaN(time) ? 0 : time;
+    }
+
+    function sortNewsByDateDesc(a, b) {
+        const timeA = parseNewsDate(a.date);
+        const timeB = parseNewsDate(b.date);
+        const diff = timeB - timeA;
+        if (diff !== 0) return diff;
+        return (parseInt(b.id) || 0) - (parseInt(a.id) || 0);
+    }
+
+    function getAllNews() {
+        const allNews = [];
+        const seenKeys = new Set();
+        Object.keys(APP_DATA).forEach(catKey => {
+            const catData = APP_DATA[catKey];
+            if (catData && Array.isArray(catData.news)) {
+                catData.news.forEach(n => {
+                    const uniqueKey = `${n.cat || catKey}_${n.id || n.title}`;
+                    if (!seenKeys.has(uniqueKey)) {
+                        seenKeys.add(uniqueKey);
+                        allNews.push({
+                            ...n,
+                            cat: n.cat || catKey
+                        });
+                    }
+                });
+            }
+        });
+        allNews.sort(sortNewsByDateDesc);
+        return allNews;
+    }
+
+
 
     // 1. Data Helper
     function getCategoryData(cat) {
@@ -59,22 +98,9 @@ function initAppEngine() {
         if (target === 'f1' || target === 'formula1') return APP_DATA['formula 1'];
         if (target === 'motogp') return APP_DATA['motogp'];
 
-        // "haberler" → tüm kategorilerden haberleri birleştir
-        if (target === 'haberler' || target === 'tumhaberler' || target === 'all') {
-            const allNews = [];
-            Object.keys(APP_DATA).forEach(k => {
-                if (APP_DATA[k].news) allNews.push(...APP_DATA[k].news);
-            });
-            allNews.sort((a, b) => {
-                let dA = new Date(a.date ? a.date.replace(' ', 'T') : 0);
-                let dB = new Date(b.date ? b.date.replace(' ', 'T') : 0);
-                if (isNaN(dA.getTime())) dA = new Date(0);
-                if (isNaN(dB.getTime())) dB = new Date(0);
-                const dc = dB - dA;
-                if (dc !== 0) return dc;
-                return (parseInt(b.id) || 0) - (parseInt(a.id) || 0);
-            });
-            return { news: allNews, pilots: [], teams: [], standings: {}, calendar: [], resultsHistory: {} };
+        // "all" / "tumhaberler" → tüm haberler (tüm kategoriler ortak)
+        if (target === 'all' || target === 'tumhaberler' || target === 'tum-haberler') {
+            return { news: getAllNews(), pilots: [], teams: [], standings: {}, calendar: [], resultsHistory: {} };
         }
 
         // 4. Tüm anahtarları tarayarak normalize edilmiş hallerini karşılaştır
@@ -339,6 +365,9 @@ function initAppEngine() {
         }
 
         switch (view) {
+            case 'all-news':
+                renderCategoryNews('all');
+                break;
             case 'news':
                 renderCategoryNews(cat);
                 break;
@@ -486,14 +515,8 @@ function initAppEngine() {
                             <div id="home-news-grid" class="news-feed-grid"></div>
                             
                             <div class="home-feed-actions">
-                                <button class="category-explore-btn f1-btn" onclick="handleRoute('news', 'formula 1')">
-                                    FORMULA 1 HABERLERİ ❯
-                                </button>
-                                <button class="category-explore-btn all-news-btn" onclick="handleRoute('news', 'haberler')">
+                                <button class="category-explore-btn all-news-btn" onclick="handleRoute('news', 'all')">
                                     TÜM HABERLER ❯
-                                </button>
-                                <button class="category-explore-btn motogp-btn" onclick="handleRoute('news', 'motogp')">
-                                    MOTOGP HABERLERİ ❯
                                 </button>
                             </div>
                         </section>
@@ -518,7 +541,7 @@ function initAppEngine() {
                             </div>
                             <div class="sidebar-widget-body" style="padding: 14px;">
                                 <p style="font-size:0.8rem; color:#555; margin:0 0 12px 0; line-height:1.5;">Formula 1, MotoGP, WEC ve tüm kategorilerdeki haberleri tarih sırasına göre tek sayfada görüntüle.</p>
-                                <button class="sidebar-action-btn primary full-width" onclick="handleRoute('news', 'haberler')">
+                                <button class="sidebar-action-btn primary full-width" onclick="handleRoute('news', 'all')">
                                     TÜM HABERLERİ GÖR ❯
                                 </button>
                             </div>
@@ -1284,19 +1307,28 @@ function initAppEngine() {
     }
 
     function renderCategoryNews(cat) {
-        const categoryData = getCategoryData(cat);
-        const news = categoryData.news || [];
+        const isAllNews = cat && ['all', 'tum-haberler', 'tumhaberler', 'tüm haberler', 'tum_haberler'].includes(cat.toLowerCase().trim());
 
+        let news = [];
         let titleText = 'HABERLER';
-        const formattedCat = cat.toLocaleLowerCase('tr-TR');
-        if (formattedCat === 'formula 1' || formattedCat === 'f1') {
-            titleText = 'FORMULA 1 HABERLERİ';
-        } else if (cat.toLowerCase() === 'motogp') {
-            titleText = 'MOTOGP HABERLERİ';
-        } else if (cat.toLowerCase() === 'milli sporcularımız') {
-            titleText = 'MİLLİ SPORCULARIMIZIN HABERLERİ';
-        } else if (cat.toLowerCase() === 'haberler') {
+
+        if (isAllNews) {
             titleText = 'TÜM HABERLER';
+            news = getAllNews();
+        } else {
+            const categoryData = getCategoryData(cat);
+            news = categoryData.news || [];
+
+            const formattedCat = (cat || '').toLocaleLowerCase('tr-TR');
+            if (formattedCat === 'formula 1' || formattedCat === 'f1') {
+                titleText = 'FORMULA 1 HABERLERİ';
+            } else if (formattedCat === 'motogp') {
+                titleText = 'MOTOGP HABERLERİ';
+            } else if (formattedCat === 'milli sporcularımız') {
+                titleText = 'MİLLİ SPORCULARIMIZIN HABERLERİ';
+            } else {
+                titleText = 'HABERLER';
+            }
         }
 
         mainContent.innerHTML = `
@@ -1313,18 +1345,9 @@ function initAppEngine() {
         const displayNews = (filter = '') => {
             container.innerHTML = '';
             const filtered = news.filter(n =>
-                n.title.toLowerCase().includes(filter.toLowerCase()) ||
-                n.content.toLowerCase().includes(filter.toLowerCase())
-            ).sort((a, b) => {
-                let dateA = new Date(a.date);
-                let dateB = new Date(b.date);
-                if (isNaN(dateA.getTime())) dateA = new Date(0);
-                if (isNaN(dateB.getTime())) dateB = new Date(0);
-
-                const dateCompare = dateB - dateA;
-                if (dateCompare !== 0) return dateCompare;
-                return (b.id || 0) - (a.id || 0);
-            });
+                (n.title || '').toLowerCase().includes(filter.toLowerCase()) ||
+                (n.content || '').toLowerCase().includes(filter.toLowerCase())
+            ).sort(sortNewsByDateDesc);
 
             filtered.forEach((n, idx) => {
                 const card = createNewsCard(n);
@@ -2116,7 +2139,17 @@ function initAppEngine() {
 
     function renderNewsDetail(cat, id) {
         const categoryData = getCategoryData(cat);
-        const news = (categoryData.news || []).find(n => n.id == id);
+        let news = (categoryData.news || []).find(n => n.id == id);
+
+        if (!news) {
+            // ID ile tüm kategorilerde ara
+            for (let k of Object.keys(APP_DATA)) {
+                if (APP_DATA[k] && Array.isArray(APP_DATA[k].news)) {
+                    news = APP_DATA[k].news.find(n => n.id == id);
+                    if (news) break;
+                }
+            }
+        }
 
         if (!news) {
             console.error("News not found:", cat, id);
