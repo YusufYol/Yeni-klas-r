@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 164,
+                "title": "FERNANDO ALONSO’DAN NET MESAJ: “İÇİMDEKİ ALEV HÂLÂ YANIYOR, BIRAKMAYA NİYETİM YOK”",
+                "cat": "formula 1",
+                "date": "2026-10-01 11:35",
+                "content": "Aston Martin’in deneyimli pilotu Fernando Alonso, Formula 1’deki geleceği ve takım patronu Lawrence Stroll ile gerçekleştirdiği yeni sözleşme görüşmelerine dair samimi açıklamalarda bulundu.<br><br>İspanyol pilot, takımla anlaşma sürecinin son derece pürüzsüz ilerlediğini belirterek, Stroll ile masaya oturduklarında iki tarafın da ortak bir noktada buluşmasının uzun sürmediğini ifade etti. Bu süreci oldukça kısa bir diyalogla özetleyen Alonso, karşılıklı iradelerin aynı yönde olması sayesinde resmi adımların hızla atıldığını kaydetti.<br><br>Sezon içerisindeki sportif dalgalanmalara ve zorluklara rağmen pistlere olan tutkusundan ödün vermeyen dünya şampiyonu pilot, rekabet etme arzusunun hala ilk günkü gibi taze olduğunu vurguladı. Gelecek sezonların rekabet şartları garantilenmemiş olsa bile yarışma hissinin her şeyin önüne geçtiğini belirten Alonso, şu değerlendirmeyi yaptı:<br><br>\"Günün sonunda kendimi hâlâ hızlı hissediyorum, motiveyim ve yaptığım işten keyif alıyorum. Eğer evde oturup televizyondan yarışları izliyor olsaydım, oradakilerden daha iyisini yapabileceğimi hissederdim. İçimdeki o alevin hâlâ yandığını hissediyorum ve bu his devam ettikçe bırakma zamanının gelmediğini düşünüyorum.\"<br><br>Kariyerinin bu evresinde zinde kalabilmesini geçmişte verdiği iki yıllık araya bağlayan tecrübeli pilot, o dönem F1'den tamamen kopmanın kendisine çok iyi geldiğini dile getirdi. Zihinsel olarak sıfırlanmasının ve farklı motor sporlarını deneyimlemesinin bugünkü motivasyonunu doğrudan beslediğini belirten Alonso, bu nefes alma süresi olmasa muhtemelen bugün çoktan yarışmayı bırakmış olacağını sözlerine ekledi.",
+                "img": "Resimler/Formula 1 Haberler/1790843729088_IMG_9882.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 163,
                 "title": "HAAS’TA OCON DÖNEMİ KAPANIYOR: AYRILIK RESMİYET KAZANDI!",
                 "cat": "formula 1",
