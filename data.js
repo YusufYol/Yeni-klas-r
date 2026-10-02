@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 171,
+                "title": "RAKİP TAKIMLARDAN VASSEUR'E NET DESTEK",
+                "cat": "formula 1",
+                "date": "2026-10-02 19:01",
+                "content": "Ferrari’de son dönemde tartışma konusu olan ve hakkında spekülasyonlar üretilen takım patronu Fred Vasseur, padondaki meslektaşlarından tam destek aldı. Alpine’in deneyimli ismi Flavio Briatore ile Williams’ın patronu James Vowles, Fransız yöneticinin sırtındaki yükün her zamankinden ağır olduğuna dikkat çekti.<br><br>Christian Horner'ın Ferrari vurgulu açıklamalarıyla hareketlenen spekülasyon ortamına rakiplerden tepki gecikmedi. Vowles, rekabet dinamiklerine rağmen Vasseur’ün ortaya koyduğu tabloyu teslim etmek gerektiğini vurguladı: \"Normal şartlarda birbirimizin altını kazmaya çalışırız. Fakat Ferrari'nin bu sezon yakaladığı istikrar ve aerodinamik alandaki yenilikçi çözümleri ortada; açıkçası birçoğumuz onların mühendislik hamlelerinden ilham alıyoruz. Fred bu koltuk için kesinlikle doğru isim.\"<br><br>Aynı zamanda bu mesleğin doğasındaki kırılganlığa parmak basan Williams patronu, \"Takım patronu olarak hepimizin pozisyonu pamuk ipliğine bağlı. Ancak Ferrari gibi efsanevi bir yapıda zirve de dip de çok keskin yaşanıyor; Fred'in göğüslemek zorunda kaldığı baskı katsayısı hepimizinkinden katbekat fazla\" değerlendirmesinde bulundu.<br><br>Medya dinamiklerine ve spekülatif haber döngülerine uzun yıllardır aşina olan Flavio Briatore ise basının iki yüzlü yaklaşımına dikkat çekti. Alpine yöneticisi, \"İşler yolunda giderken seslerini çıkarmazlar ama kriz anında timsah gözyaşlarıyla ortaya çıkarlar. Bu baskıyla yaşamayı öğrenmek zorundayız, ancak Maranello'daki mercek altında olma hali Fred'in işini bizlerinkine kıyasla çok daha meşakkatli kılıyor\" dedi.<br>Tüm bu iddiaların orta yerinde kalan Fred Vasseur ise çıkan dedikoduların takım içi aidiyet duygusunu ve çalışma barışını zedelediğini ifade ederken, dışarıdaki gürültüyü tamamen kapatarak sadece pistteki sonuçlara odaklandığının altını çizdi.",
+                "img": "Resimler/Formula 1 Haberler/1790956866626_IMG_9966.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 170,
                 "title": "2026 BAHREYN GP 2. ANTRENMAN: CHARLES LECLERC LİDER KAPATTI, ISACK HADJAR'DAN GÖZ KAMAŞTIRAN TAKİP!",
                 "cat": "formula 1",
