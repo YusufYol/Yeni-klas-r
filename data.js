@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 167,
+                "title": "2026 BAHREYN GP'DE 1. GÜNÜN İLK SEANSI: İLK ANTRENMANIN ZİRVESİNDE MAX VERSTAPPEN VAR!",
+                "cat": "formula 1",
+                "date": "2026-10-02 10:09",
+                "content": "Bahreyn Grand Prix'sinin 1. antrenman seansı tamamlandı. Bulutlu hava ve yüksek nem oranının etkili olduğu seans boyunca takımlar ve pilotlar veri toplamak için pistte uzun süre geçirdi.<br><br>Seansın başlarında piste çıkan Colapinto yol tutuşunun yetersizliğinden bahsetti. Pilotların hızlı turlarını tamamlamasıyla birlikte Max Verstappen 1:38.883'lük derecesiyle ilk dakikalarda öne geçti. Bu aşamada Russell 1:38.932 ile ikinci sırada yer alırken, Antonelli de liderin yaklaşık yarım saniye gerisinde kaldı.<br><br>Seansın ortalarına doğru Hadjar 1:38.303 yaparak liderliği ele geçirdi. Ardından Hamilton orta sektördeki performansıyla 1:38.590 kaydetti, ancak takım arkadaşı Leclerc 1:38.367'lik turuyla onun önüne geçti.<br><br>İkinci yarıda ise temposunu artıran Russell 1:37.903 ile zirveye çıktı. Sonrasında Verstappen ilk sektörde en iyi zamanı yaparak 1:37.520 kaydetti ve seansın sonuna kadar bu liderliği korudu. Antonelli seansı 1:38.580 ile 5. sırada tamamlarken, Gasly 7. ve Hulkenberg de ilk 10 içerisinde yer aldı.<br><br>Seansın kalan bölümünde dereceyi değiştiren bir hamle gelmedi. Max Verstappen en hızlı turuyla ilk sırada yer alırken, George Russell ikinci, Hadjar ise üçüncü sırada seansı noktaladı.",
+                "img": "Resimler/Formula 1 Haberler/1790924989934_IMG_9926.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 166,
                 "title": "ISACK HADJAR'DAN SEPANG ÖNCESİ CEZA İTİRAFI!",
                 "cat": "formula 1",
