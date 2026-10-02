@@ -5905,6 +5905,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 169,
+                "title": "ALEX MARQUEZ’DEN JAPONYA’DA TARİHİ REKOR: ANA ANTRENMANIN ZİRVE İSMİ OLDU!",
+                "cat": "motogp",
+                "date": "2026-10-02 11:31",
+                "content": "MotoGP Dünya Şampiyonası'nda heyecan Japonya Grand Prix'si ile devam ediyor. Hafta sonunun kaderini belirleyecek kritik ana antrenman seansında pist, adeta bir nefes kesme mücadelesine sahne oldu. Günün sonunda rekor turuyla boy gösteren Alex Marquez zirvenin sahibi olurken, temsilcimiz Toprak Razgatlıoğlu seansı 21. basamakta tamamladı.<br><br>Japonya’daki bir saatlik seansın yeşil ışıkla birlikte başlamasıyla birlikte pilotlar zaman kaybetmeden piste çıktı. Ancak seansın başları kazalara ve dramatik anlara sahne oldu.<br><br>Seansın hemen başında Alex Rins, 3. virajda kontrolü kaybederek çakıl havuzunu boyladı. Kısa süre sonra ise 1:44.841’lik derecesiyle zirveye yerleşen Luca Marini kaza yaptı. Marini, motosikletini bırakarak garaja yürümek zorunda kaldı.<br><br>Seansın bitimine 9 dakika kala Ai Ogura’nın motosikletinden yoğun dumanlar yükseldi. Büyük bir soğukkanlılıkla aracını güvenli bir noktaya çeken Ogura’nın motosikletinde korkulan olmadı ve alevlenme yaşanmadı. Piste sızan yağ nedeniyle hakemler seansı kırmızı bayrakla durdurdu. Yaklaşık 10 dakikalık temizlik çalışmasının ardından Ogura, yedek motosikletiyle kaldığı yerden devam etti.<br><br>Seansın ikinci yarısında tempomun tavan yaptığı dakikalarda liderlik koltuğu adeta el değiştirdi. Pedro Acosta ve Marco Bezzecchi temposunu artırarak sırayla zirveyi zorlasa da, Marc Marquez sahneye çıkarak 1:43.138’lik derecesiyle liderliği ele geçirdi.<br><br>Son bölüme girilirken Johann Zarco'nun sert kazası, pistteki rekabetin ne denli yüksek olduğunun bir göstergesiydi. Seansın son anlarında ise Alex Marquez, attığı kusursuz turla 1:42.811 rekor zamana imza atarak tüm rakiplerini geride bıraktı ve günün en hızlı ismi unvanını aldı.<br><br>Genç yetenek Fermin Aldeguer çok küçük bir farkla doğrudan Q2 biletini kaçırırken; milli temsilcimiz Toprak Razgatlıoğlu, zorlu ana antrenman seansını 21. sırada kapattı.",
+                "img": "Resimler/MotoGP Haberler/1790929879989_IMG_9932.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 168,
                 "title": "2026 MOTOGP JAPONYA GP: İLK ANTRENMANDA EN HIZLISI MARC MARQUEZ OLDU",
                 "cat": "motogp",
