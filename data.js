@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 170,
+                "title": "2026 BAHREYN GP 2. ANTRENMAN: CHARLES LECLERC LİDER KAPATTI, ISACK HADJAR'DAN GÖZ KAMAŞTIRAN TAKİP!",
+                "cat": "formula 1",
+                "date": "2026-10-02 13:23",
+                "content": "2026 Bahreyn Grand Prix'sinin cuma günkü son seansı olan ikinci antrenmanda en hızlı dereceye imza atan isim Charles Leclerc oldu.<br><br>Sepang Pisti'nde gerçekleştirilen seans, oldukça yüksek sıcaklık değerlerine sahne oldu. Çalışma öncesinde hava sıcaklığı 33°C, pist sıcaklığı ise 61°C olarak ölçüldü. Termometreler yüksek değerleri gösterse de gökyüzünün kapalı olması ve yağmur ihtimali takımların stratejilerini yakından etkiledi.<br><br>Pit çıkışındaki yeşil ışıkla birlikte pilotlar arka arkaya turlara başladı ve piste ilk çıkan isim Esteban Ocon oldu. Sürücülerin büyük bölümü C4 orta hamurlu lastikleri tercih ederken; Pierre Gasly, Oscar Piastri, Lando Norris, Valtteri Bottas ve Sergio Perez yumuşak hamurla başlangıç yapmayı seçti.<br><br>Mücadelenin ilk 10 dakikası geride kalırken Max Verstappen kaydettiği 1:37.785'lik dereceyle zaman tablosunun tepesine yerleşti. Bu esnada Mercedes cephesinde George Russell ve Kimi Antonelli yumuşak lastiklerle sıralama simülasyonlarına odaklanmıştı.<br><br>Seansın ortalarına doğru hareketlilik doruğa ulaştı. Kırmızı logolu yumuşak hamura geçen Charles Leclerc, 1:37.528'lik harika bir turla liderliği ele geçirdi. Genç yetenek Isack Hadjar ise etkileyici bir performans sergileyerek seansı Leclerc'in hemen ardından ikinci sırada takip etti. Bu anlarda Lewis Hamilton, sağ aynasından görüş alamadığını överek takımına rapor iletti. Seansın kalan bölümünde ise pilotlar genellikle yarış simülasyonları üzerine çalıştı ve nispeten sakin bir akış izlendi.<br><br>Cuma gününü noktalayan damalı bayrağın dalgalanmasıyla beraber zirvenin sahibi değişmedi. Leclerc ilk sırayı korurken, sürpriz isim Isack Hadjar ikinci sıraya adını yazdırdı. <br>Lando Norris üçüncü, Max Verstappen dördüncü olurken, ilk beşliği tamamlayan sürücü Lewis Hamilton oldu.",
+                "img": "Resimler/Formula 1 Haberler/1790936626950_IMG_9949.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 167,
                 "title": "2026 BAHREYN GP'DE 1. GÜNÜN İLK SEANSI: İLK ANTRENMANIN ZİRVESİNDE MAX VERSTAPPEN VAR!",
                 "cat": "formula 1",
