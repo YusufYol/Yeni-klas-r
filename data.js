@@ -5905,6 +5905,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 168,
+                "title": "2026 MOTOGP JAPONYA GP: İLK ANTRENMANDA EN HIZLISI MARC MARQUEZ OLDU",
+                "cat": "motogp",
+                "date": "2026-10-02 10:13",
+                "content": "2026 MotoGP Dünya Şampiyonası'nda heyecan Japonya Grand Prix'si ile devam ediyor. Motegi Pisti'nde gerçekleştirilen hafta sonunun ilk antrenman seansı yağmurlu havaya sahne olurken, zirveyi kapan isim deneyimli sürücü Marc Marquez oldu.<br><br>Seansın başlamasıyla birlikte pistte önemli geri dönüşler yaşandı. Sakatlığını atlatan Tech3 sürücüsü Maverick Vinales ve uzun süredir yarışmayan HRC yedek pilotu Somkiat Chantra, bu seansla beraber yeniden pistlere döndü.<br>Ancak yeşil ışıkların yanmasından kısa süre sonra başlayan hafif yağmur, sürücülerin işini zorlaştırdı. 11. virajda kaza yapan Takaaki Nakagami seansa erken veda ederken, HRC, Japon pilotun sol köprücük kemiğinde kırık tespit edildiğini ve hafta sonu yarışamayacağını duyurdu.<br><br>Yağmurun etkisiyle pilotların birçoğu erken dakikalarda garaja çekilmeyi tercih etti. Bu sırada pistte kalmaya devam eden temsilcimiz Toprak Razgatlıoğlu kısa süreliğine de olsa zaman tablosunda zirveye yerleşerek dikkatleri üzerine çekti.<br><br>Seansın son bölümlerinde pistin kurumaya yüz tutmasıyla tempolar yükseldi. Önce Marco Bezzecchi, ardından Alex Marquez liderliği eline geçirdi. Seansın sonuna doğru ise en iyi dereceyi yapan Marc Marquez 1:44.073'lük derecesiyle seansın lideri oldu.<br><br>Zirve takibinde Jorge Martin ikinci, Marco Bezzecchi ise üçüncü sırada yer aldı. Onları Alex Marquez ve Johann Zarco takip etti. Milli temsilcimiz Toprak Razgatlıoğlu ise antrenman seansını 15. basamakta tamamladı.",
+                "img": "Resimler/MotoGP Haberler/1790925206756_IMG_9927.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 160,
                 "title": "NİCOLO BULEGA’NIN MOTOGP GEÇİŞİ VE DUCATI’NİN YENİ DÖNEM PLANI",
                 "cat": "motogp",
