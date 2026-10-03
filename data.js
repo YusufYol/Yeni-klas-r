@@ -5935,6 +5935,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 176,
+                "title": "ALEX MARQUEZ'E MOTEGİ KAZASI SONRASI CEZA!",
+                "cat": "motogp",
+                "date": "2026-10-03 11:45",
+                "content": "Gresini takımının İspanyol sürücüsü Alex Marquez, MotoGP Japonya Grand Prix'si Sprint yarışının ilk turunda yaptığı kazanın ardından pazar günkü ana yarış için iki uzun tur cezası aldı.<br><br>Sprint yarışının açılış turunda 3. viraja yaklaşırken Pedro Acosta'nın motosikletinin arka kısmına temas eden Marquez, ikilinin kaza yaparak yarış dışı kalmasına yol açtı. Bu temasın ardından olaydan kaçamayarak kazaya karışan Fabio Di Giannantonio da yarışa erken veda eden bir diğer isim oldu.<br><br>Yarış hakemleri, Marquez'in hamlesini sezonun ilk kural ihlali olarak kayda geçirdi. Yapılan resmi açıklamada, hareketin MGP-CC5 protokolleri çerçevesinde değerlendirildiği vurgulandı:<br><br>\"Birden fazla sürücü için tehlikeli bir durum oluşturan ve/veya kazaya neden olan hareketler bu kapsamda değerlendirilir. Sezonun ilk ihlali olması nedeniyle bu durumda uygulanacak uygun ceza iki uzun tur cezasıdır.\"<br><br>Bu karar doğrultusunda Alex Marquez, pazar günü gerçekleştirilecek büyük Japonya Grand Prix'sinde iki uzun tur cezasını çekmek zorunda kalacak.",
+                "img": "Resimler/MotoGP Haberler/1791017102076_IMG_9973.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 175,
                 "title": "MOTEGİ'DE NEFES KESEN SPRİNT: MARC MARQUEZ ZİRVEDE, DİEGO MOREİRA PODYUMDA",
                 "cat": "motogp",
