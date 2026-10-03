@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 172,
+                "title": "2026 BAHREYN GP 3. ANTRENMAN SEANSI: ANTONELLİ ZİRVEYİ KAPTI, RED BULL YAKIN TAKİPTE",
+                "cat": "formula 1",
+                "date": "2026-10-03 10:55",
+                "content": "2026 Formula 1 Sezonu'nun heyecanı Bahreyn Grand Prix'si ile devam ediyor. Sıralama turları öncesindeki son hazırlık seansı olan 3. antrenman seansında temposunu artıran Kimi Antonelli, attığı hızlı turla zaman tablosunun zirvesine adını yazdırdı.<br><br>Seans başlangıcında pit yolundaki yeşil ışıkların yanmasına rağmen pilotlar piste çıkmak için acele etmedi. Sessizliği bozan ilk isimler Sergio Perez, Franco Colapinto ve Liam Lawson olurken, Alpine'in genç pilotu Colapinto yumuşak hamurlu lastiklerle art arda üç tur atarak erken saatlerde veri topladı. Bu dakikalarda Max Verstappen, Isack Hadjar, Kimi Antonelli, George Russell, Lewis Hamilton ve Fernando Alonso gibi iddialı isimlerin bir süre daha garajda kalmayı tercih etmesi dikkat çekti. Lando Norris ise orta sertlikteki lastikleriyle kaydettiği 1:37.161'lik derecesiyle seansın ilk bölümünde liderliği elinde tutuyordu.<br><br>Mücadelenin ortalarına yaklaşılırken pist üzerindeki karbon parçalar nedeniyle seansa kısa bir süre ara verildi. Oliver Bearman’ın aracından kopan bir parçanın yarış çizgisi üzerinde tehlike yaratmasıyla çıkan kırmızı bayrak, ekiplerin hızlı müdahalesiyle kısa sürede kaldırılarak yeşil bayraklara yerini bıraktı.<br><br>Pist yeniden hareketlendiğinde, takımlar C4 hamurlu lastiklerle performans denemeleri gerçekleştirdi. Seansın kalan dakikaları nispeten sakin geçerken, damalı bayrağın sallandığı andaki en hızlı isim 1:36.302'lik derecesiyle Kimi Antonelli oldu. Genç İtalyan pilotu, Max Verstappen onu ikinci sıradan takip ederken Isack Hadjar’da üçüncü sıraya yerleşti. <br>İlk beşi tamamlayan isim Mercedes'ten George Russell olurken, Charles Leclerc beşinci ve Lewis Hamilton altıncı basamaklarda tamamladı. Günün ilk onu ise McLaren pilotları, Franco Colapinto ve Arvid Lindblad'ın sıralamada yer almasıyla şekillendi.",
+                "img": "Resimler/Formula 1 Haberler/1791014155636_IMG_9968.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 171,
                 "title": "RAKİP TAKIMLARDAN VASSEUR'E NET DESTEK",
                 "cat": "formula 1",
