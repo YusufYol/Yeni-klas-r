@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 177,
+                "title": "FORMULA 1’DE BELİRSİZLİK SONA ERDİ: 2026 SEZONU KATAR VE ABU DABİ İLE KAPANACAK!",
+                "cat": "formula 1",
+                "date": "2026-10-03 11:51",
+                "content": "Orta Doğu'da yaşanan çatışmalar ve güvenlik endişeleri nedeniyle aylardır belirsizlik yaşayan Formula 1 takviminde son sözü CEO Stefano Domenicali söyledi. Domenicali, Sky kanalına yaptığı açıklamada sezonun planlandığı gibi Katar ve Abu Dabi'de tamamlanacağını doğruladı.<br><br>Belirsizlik döneminde Bahreyn ve Suudi Arabistan etaplarında yaşanan iptallerin ardından alternatif planlar masaya yatırılmıştı. Ancak MotoGP'nin Katar kararını koruması ve gerekli güvenlik güvencelerinin alınması F1 yönetiminin rahat bir nefes almasını sağladı.<br><br>Stefano Domenicali, mevcut durum ve alınan teminatlarla ilgili net konuştu:<br>\"Takvimi doğruladık. Dolayısıyla sezonun son iki Grand Prix'si Katar ve Abu Dabi'de gerçekleştirilecek. Elimizdeki bilgiler ve almamız gereken güvenceler doğrultusunda izlediğimiz yön bu. Yıl sonuna kadar uygulamamız gereken strateji bu olacak.\"<br><br>A planı olarak Orta Doğu turu netleşmiş olsa da, F1 yönetimi her ihtimale karşı tedbiri elden bırakmıyor. Olası bir risk durumunda sezon finalinin 6 Aralık'ta Imola'da yapılabilmesi için hazırlıklar ve tribün kurulumları arka planda yedek plan olarak sürdürülmeye devam ediyor.",
+                "img": "Resimler/Formula 1 Haberler/1791017470415_IMG_9974.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 172,
                 "title": "2026 BAHREYN GP 3. ANTRENMAN SEANSI: ANTONELLİ ZİRVEYİ KAPTI, RED BULL YAKIN TAKİPTE",
                 "cat": "formula 1",
