@@ -5935,6 +5935,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 173,
+                "title": "MOTOGP JAPONYA GP İKİNCİ ANTRENMANINDA EN HIZLI İSİM BEZZECCHI OLDU, TOPRAK 22. SIRADA",
+                "cat": "motogp",
+                "date": "2026-10-03 11:29",
+                "content": "MotoGP Dünya Şampiyonası'nda heyecan, Motegi Pisti'nde düzenlenen Japonya Grand Prix'si ile hız kesmeden devam ediyor. Sıralama turları öncesindeki kritik 2. antrenman seansı, güneşli ve sıcak hava koşulları altında gerçekleştirildi. 30 dakikalık seansın sonucunda en hızlı isim Aprilia sürücüsü Marco Bezzecchi oldu.<br><br>Sürücülerin büyük bölümü seansa ön tarafta orta, arkada ise yumuşak hamurlu lastiklerle başlarken; Bezzecchi, Bastianini, Binder, Acosta ve Aldeguer gibi isimler arka lastikte orta hamuru tercih etti.<br><br>Seansın ilk dakikalarında Franco Morbidelli'nin yaşadığı büyük motor arızası nedeniyle kırmızı bayraklar sallandı ve seansa kısa bir süre ara verildi. Yeşil bayrakların yeniden sallanmasının ardından pistte rekabet kızıştı. Francesco Bagnaia 1:44.422'lik derecesiyle bir ara zirveye yerleşirken, milli temsilcimiz Toprak Razgatlıoğlu ilk dakikalarda 20. sırada yer alıyordu.<br><br>Seansın orta bölümüne girildiğinde Marc Marquez 1:43.564 ile liderliği ele geçirdi. Bu esnada Fermin Aldeguer ve Ai Ogura, bir dakikalık arayla 9. virajda kazalar yaşayarak seansın talihsiz isimleri oldular.<br><br>Kalan dakikalarda temposunu artıran Marco Bezzecchi, kaydettiği 1:43.321'lik tur zamanıyla seansın zirvesine adını yazdırdı. Lideri yakından takip eden Jorge Martin ikinci, genç yetenek Pedro Acosta ise üçüncü sırayı elde etti.<br><br>Zirve mücadelesinin hemen arkasında Marc Marquez dördüncü, Fabio Di Giannantonio beşinci ve Enea Bastianini altıncı sırada yer aldı.<br>Milli gururumuz Toprak Razgatlıoğlu ise zorlu antrenman seansını 22. sırada tamamladı.",
+                "img": "Resimler/MotoGP Haberler/1791016197384_IMG_9969.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 169,
                 "title": "ALEX MARQUEZ’DEN JAPONYA’DA TARİHİ REKOR: ANA ANTRENMANIN ZİRVE İSMİ OLDU!",
                 "cat": "motogp",
