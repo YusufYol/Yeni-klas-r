@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 179,
+                "title": "MAX VERSTAPPEN 2026 SEZONUNUN İLK POLE POZİSYONUNU KAZANDI: \"BAŞARMIŞ OLMAK İNANILMAZ\"",
+                "cat": "formula 1",
+                "date": "2026-10-03 12:39",
+                "content": "Bahreyn Grand Prix’sinde cesur bir performansla sıralama turlarının zirvesine çıkan Max Verstappen, 2026 sezonundaki ilk pole pozisyonunu hanesine yazdırdı. Red Bull'un deneyimli pilotu, seans sonrasında yaptığı açıklamada bu başarının kendileri için ne kadar anlamlı olduğuna dikkat çekti.<br><br>Sezonun başlangıcından bu yana türlü zorluklarla mücadele ettiklerini belirten dört kez dünya şampiyonu, uzun süredir bu anı beklediklerini vurguladı. Seansın ardından hissettiklerini şu ifadelerle özetledi:<br><br>\"Harika bir duygu. En önde yer alabilmek için epey zamandır uğraşıyorduk. Zaman zaman çok yaklaştığımız anlar oldu ancak sezona başladığımız o zorlu nokta düşünüldüğünde, nihayet başarmış olmak gerçekten inanılmaz. Bugünkü tablodan ötürü son derece mutluyum. Yarın startı ilk sırada alacağımız için ana hedefimiz tabii ki zafer olacak.\"",
+                "img": "Resimler/Formula 1 Haberler/1791020350162_IMG_9975.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 178,
                 "title": "2026 BAHREYN GP SIRALAMASINDA NEFES KESTEN MÜCADELE: VERSTAPPEN POLÜ KAPTı, HAMİLTON İKİNCİ!",
                 "cat": "formula 1",
