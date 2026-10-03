@@ -5935,6 +5935,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 175,
+                "title": "MOTEGİ'DE NEFES KESEN SPRİNT: MARC MARQUEZ ZİRVEDE, DİEGO MOREİRA PODYUMDA",
+                "cat": "motogp",
+                "date": "2026-10-03 11:41",
+                "content": "2026 MotoGP Dünya Şampiyonası'nda Japonya Grand Prix'sinin sprint yarışı büyük çekişmeye sahne olurken, zafer Marc Marquez'in oldu. Motegi Pisti'ndeki mücadele, son dakika hamleleri ve yarış sonrası gelen cezalarla adeta nefes kesti.<br><br>Mücadelenin 3. turunda Enea Bastianini, Bezzecchi'yi ustaca geçerek üçüncülük koltuğuna oturdu. Lastik stratejisinin dezavantajını yaşayan Bezzecchi; Diego Moreira ve Ai Ogura'ya da geçilerek 6. basamağa kadar geriledi.<br><br>12 turun tamamlanmasıyla damalı bayrağı ilk sırada gören isim Marc Marquez oldu. Arkasında ise Jorge Martin ile Enea Bastianini ikincilik için son metreye kadar nefes kesen bir düello sergiledi ve seansı sırasıyla ikinci ve üçüncü sırada tamamladılar.<br><br>Ancak yarış kabini, damalı bayrak sonrasında karıştırıldı. Pist sınırlarını ihlal ettikleri gerekçesiyle Jorge Martin ve Enea Bastianini cezaya çarptırıldı. Bu karar doğrultusunda sıralama değişti ve Diego Moreira harika bir yükselişle ikinciliğe terfi etti. İlk beş sırayı Ai Ogura tamamlarken, Bezzecchi altıncı oldu.<br>Temsilcimiz Toprak Razgatlıoğlu, zorlu Motegi sprint seansının ardından damalı bayrağı 17. sırada gördü.",
+                "img": "Resimler/MotoGP Haberler/1791016877925_IMG_9971.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 174,
                 "title": "MOTO GP’DE JORJE MARTİN'DEN REKOR: JAPONYA'DA POLE POZİSYONU İSPANYOL PİLOTUN!",
                 "cat": "motogp",
