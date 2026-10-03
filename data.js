@@ -5935,6 +5935,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 174,
+                "title": "MOTO GP’DE JORJE MARTİN'DEN REKOR: JAPONYA'DA POLE POZİSYONU İSPANYOL PİLOTUN!",
+                "cat": "motogp",
+                "date": "2026-10-03 11:36",
+                "content": "2026 MotoGP Dünya Şampiyonası’nın büyük bir heyecana sahne olan Japonya Grand Prix'si sıralama turları, nefes kesen anların ardından tamamlandı. Mükemmel hava şartlarının ve yüksek pist tutuşunun pilotlara üst düzey tempoda sürüş imkanı tanıdığı seansta, damalı bayrağı en önde gören isim Jorge Martin oldu.<br><br>Pist üstündeki rekabetin ilk nefes kestiği bölüm olan Q1'de, ev sahibi pilot Ai Ogura ile Francesco Bagnaia arasında kıyasıya bir liderlik mücadelesi yaşandı. Bu esnada Brad Binder'ın 12. virajda gerçekleştirdiği yüksek hızlı kaza seansa damga vurdu. Kazanın ardından çıkan sarı bayraklar nedeniyle Raul Fernandez'in kusursuz turu iptal edilse de, İspanyol pilot pes etmeyerek tekrarladığı harika turla Q2 biletini cebine koydu. Q1 seansını Ai Ogura lider tamamlarken, Fernandez hemen arkasından ikinci olarak bir üst tura adını yazdırdı. Ülkemizi temsil eden Toprak Razgatlıoğlu ise bu seanstaki en iyi derecesi olan 1:44.031'lik zamanıyla pite 22. sırada demir attı.<br><br>Heyecanın doruğa çıktığı 15 dakikalık Q2 seansında ise temposunu erkenden yakalayan Marc Marquez, kaydettiği 1:42.481'lik dereceyle liderlik tahtına oturdu. Ancak seansın son bölümlerinde vites artıran Jorge Martin, kusursuz bir performans sergileyerek 1:42.371'lik rekor turuyla tüm rakiplerini geride bırakmayı başardı ve pole pozisyonunun sahibi oldu.<br><br>Marc Marquez, son dakikalarda liderliği geri almak için girdiği riskli mücadelede 4. virajda taşlık alana taşınca turunu tamamlayamadı ve zamanını geliştiremedi. Pedro Acosta ise seansın son anlarında gösterdiği muazzam çıkışla 1:42.493'lük derece elde ederek ilk üçü tamamlayan isim oldu.<br><br>Bu sonuçlarla birlikte Jorge Martin yarışa en avantajlı konumdan başlayacak. Temsilcimiz Toprak Razgatlıoğlu ise zorlu mücadelede 22. cepten start alarak üst sıralara tırmanmaya çalışacak.",
+                "img": "Resimler/MotoGP Haberler/1791016562665_IMG_9970.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 173,
                 "title": "MOTOGP JAPONYA GP İKİNCİ ANTRENMANINDA EN HIZLI İSİM BEZZECCHI OLDU, TOPRAK 22. SIRADA",
                 "cat": "motogp",
