@@ -5965,6 +5965,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 180,
+                "title": "MİCHELİN'DEN JAPONYA GP ÖNCESİ RADİKAL YASAK: YUMUŞAK LASTİK KULLANILMAYACAK!",
+                "cat": "motogp",
+                "date": "2026-10-03 17:17",
+                "content": "MotoGP’de Japonya Grand Prix’si öncesinde yaşanan şiddetli aşınma problemleri, lastik sağlayıcısı Michelin’i radikal bir karar almaya itti. Motegi Pisti'ndeki sprint yarışında arka lastiklerin adeta parçalanması ve pilotların ciddi güvenlik riskleriyle karşı karşıya kalması üzerine, yumuşak hamurlu arka lastiklerin ana yarışta kullanımı tamamen yasaklandı.<br><br>Marc Márquez’in zaferiyle kapanan sprint mücadelesi, lastik dayanıklılığı açısından adeta bir kabusa dönerken podyum mücadelesi veren isimlerden Jorge Martín, son turda hızını tamamen kaybederek gridin en yavaşı oldu ve yarışı ancak zorlukla bitirebildi. Öte yandan Pecco Bagnaia’nın arka lastiğinin tam ortasından yarılması paddock genelinde büyük bir güvenlik alarmına yol açarken, yarışta Marco Bezzecchi ve Jack Miller haricindeki tüm sürücülerin yumuşak hamuru tercih etmiş olması krizin boyutunu gözler önüne serdi.<br><br>Yaşanan bu gelişmelerin ardından Michelin MotoGP Direktörü Piero Taramasso, toplanan veriler doğrultusunda yumuşak lastik seçeneğinin listeden çıkarıldığını duyurdu. Taramasso, orta hamurun dikkatli bir kullanım gerektireceğini, takviyeli sert arka lastiğin ise tüm yarış boyunca istikrarlı bir tempo arayan ekipler için en ideal ve güvenli seçenek olarak önerildiğini belirtti.<br><br>Sprint yarışında orta hamuru tercih eden isimlerden olan Jack Miller ise pazar günkü ana yarış öncesi yaptığı değerlendirmede, lastiğinin ortasında kendisininkine yakın ciddi kabarmalar oluştuğunu ifade ederek pazar günü herkesin sert lastik kullanmak zorunda kalacağının garantisini verdi. Miller ayrıca, sabahki 10 dakikalık ısınma seansının bu ani değişim ve motor ayarları için yetersiz kalacağına dikkat çekti.",
+                "img": "Resimler/MotoGP Haberler/1791037042164_IMG_9979.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 176,
                 "title": "ALEX MARQUEZ'E MOTEGİ KAZASI SONRASI CEZA!",
                 "cat": "motogp",
