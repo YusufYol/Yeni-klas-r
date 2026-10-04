@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 186,
+                "title": "BAHREYN GP SONRASI HAMİLTON'DAN ÇARPICI İTİRAF: \"BU PİSTTEKİ EN İYİ YARIŞIMDI\"",
+                "cat": "formula 1",
+                "date": "2026-10-04 13:57",
+                "content": "Kaotik hava koşullarına ve stratejik hatalara sahne olan Bahreyn Grand Prix'sinde podyuma çıkmayı başaran Lewis Hamilton, yarışın ardından dikkat çekici açıklamalarda bulundu.<br>Sezonun bu dikkat çekici mücadelesini üçüncü sırada tamamlayan Ferrari'nin deneyimli pilotu, yarışın başında yaşanan lastik tercih hatası nedeniyle geriye düştüğünü ancak asla pes etmediğini vurguladı.<br><br>Yarışın ilk bölümünde yaşananları anlatan İngiliz pilot, şu ifadeleri kullandı:<br><br>\"Öncelikle Max’e kocaman tebrikler. Gerçekten de aşırı zorlu bir yarıştı. Başlangıçta yanlış bir karar verdik ve bu durum işleri çok zorlaştırdı. Herkesin farkı açtığını görebiliyordum ve ekranda bir dakika geride kaldığımı fark ettiğimde yarışın bizim için bittiğini sanmıştım. Ancak pes etmedim ve sadece önüme baktım.\"<br><br>Zorlu mücadeleyi podyumla taçlandırmalarında pit ekibinin kritik rol oynamasına dikkat çeken Hamilton, sözlerini şöyle tamamladı:<br><br>\"Ekip pit stoplarda harika bir iş çıkardı. Çok sayıda lastik değişimi ve çok fazla karmaşa yaşandı. Dürüst olmak gerekirse bu pistteki tüm yıllar arasındaki en iyi yarış buydu, özellikle de harika seyirciler sayesinde. Herkese çok teşekkür ederim.\"",
+                "img": "Resimler/Formula 1 Haberler/1791111423119_IMG_9858.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 185,
                 "title": "KİMİ ANTONELLİ'DEN MALEZYA'DA İKİNCİLİK DEĞERLENDİRMESİ: \"MAKSİMUMU BAŞARDIK\"",
                 "cat": "formula 1",
