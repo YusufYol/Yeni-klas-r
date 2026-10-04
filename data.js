@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 189,
+                "title": "LECLERC'DEN BAHREYN GP DEĞERLENDİRMESİ: \"YAĞMURDA RİSKLİ KARARLAR KAÇINILMAZ\"",
+                "cat": "formula 1",
+                "date": "2026-10-04 15:48",
+                "content": "Bahreyn Grand Prix’sini dördüncü sırada bitiren Charles Leclerc, yağmurlu ve olaylı geçen yarışın ardından açıklamalarda bulundu. Hem formasyon turunda yaşanan teknik aksaklıkları hem de stratejik hamleleri değerlendiren Monakolu pilot, Red Bull’un operasyonel başarısına dikkat çekti.<br><br>Yarışın genel gidişatını özetleyen Leclerc, hafta sonunun kendileri için iki farklı uç noktada yaşandığını belirtti. İlk bölümde her şeyin aleyhlerine işlediğini, ancak ikinci yarıda tablonun tersine döndüğünü ifade eden pilot, \"İlk bölümde ters gidebilecek ne varsa ters gitti, ikinci bölümde ise her şey yolunda gitti. Sonuç olarak bu iki zıt durum birbirini dengeledi ve olmamız gereken yerde, yani potansiyelimizin maksimumunda finishi gördük\" dedi. Öte yandan, yarış boyunca ön sıralardaki rakipleri Kimi ve Max'in bugünkü temposunun kendileri için fazla güçlü olduğunu da sözlerine ekledi.<br><br>Yarış öncesi formasyon turunda yaşanan belirsizliklere değinen Leclerc, pistteki su sıçramaları ve ani hız değişimleri nedeniyle oldukça tedirgin anlar yaşadıklarını paylaştı. Yaklaşık 20 km/s hızla çakılı kaldıkları o anları anlatan deneyimli pilot, F1 araçlarının bu tip hava şartlarındaki güvenilmezliğine şu sözlerle dikkat çekti:<br><br>\"Bir Formula 1 aracında bunu görmek oldukça ürkütücü. Viraj çıkışında bazen fazladan 100 beygir alıyor, bazen de 100 beygir kaybediyorsunuz. Gücün kontrolü tamamen sizde olmuyor; böylesine düşük görüş mesafesinde bu durum büyük kazalara davetiye çıkarabilir.\"<br><br>Yumuşak lastik tercihiyle ilgili stratejik riskleri de masaya yatıran Leclerc, kararın arkasında olduklarını ancak zemin verilerini okumakta yanıldıklarını belirtti. Asfalttaki su birikintilerinin miktarını öngörmenin zorluğuna değinen pilot, Red Bull'un bu konudaki başarısına vurgu yaptı:<br><br>\"Sağanak yağmur koşullarında her zaman riskli kararlar alınır; bu kez yumuşak lastik tercihi yanlıştı.\"<br><br>\"İki araçla farklı stratejiler denediğinizde tanım gereği bir taraf doğru, diğeri yanlış yapıyor.\"<br><br>\"Ancak Red Bull gibi her iki araçla da çoğu zaman doğru kararı veren bir takım var. Onların bizden neleri daha iyi yaptığını masaya yatırıp incelemeliyiz.\"",
+                "img": "Resimler/Formula 1 Haberler/1791118104523_IMG_0005.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 188,
                 "title": "TOTO WOLFF'TAN BAHREYN ŞOKU: \"EN KÖTÜ DENEYİMLERİMDEN BİRİYDİ\"",
                 "cat": "formula 1",
