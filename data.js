@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 184,
+                "title": "MAX VERSTAPPEN, BAHREYN'DE 2026'NIN İLK ZAFERİNİ KUTLADI: \"KONTROLÜ ELDEN BIRAKMADIK\"",
+                "cat": "formula 1",
+                "date": "2026-10-04 13:47",
+                "content": "Formula 1’de olağanüstü anlara sahne olan ve olumsuz hava koşulları nedeniyle yaklaşık doksan dakika gecikmeyle start alan kaotik Bahreyn Grand Prix’si, Red Bull pilotu Max Verstappen’in zaferiyle tamamlandı. <br>Malezya’da gerçekleştirilen mücadele, aynı zamanda Hollandalı sürücünün 2026 sezonundaki ilk birinciliği olarak kayıtlara geçti.<br><br>Yarış öncesi bastıran şiddetli yağmur ve formasyon turunda yaşanan ani güç kesintisi gibi teknik engeller, gridde büyük bir belirsizlik yaratmıştı. Ancak Red Bull cephesinin geçiş lastiği hamlesi, yarışın kaderini belirleyen kritik eşik oldu. Zorlu hava şartlarına ve güvenlik aracı periyotlarına rağmen hata yapmayan dört kez dünya şampiyonu, tempoyu adım adım yükselterek damalı bayrağı ilk sırada gördü.<br><br>Podyum seremonisinin ardından basın mensuplarına açıklamalarda bulunan Verstappen, geride bıraktıkları meşakkatli sürecin ardından gelen bu galibiyetin kendileri için ayrı bir motivasyon kaynağı olduğunu vurguladı.<br><br>Deneyimli pilot yarış sonundaki değerlendirmesinde şu ifadeleri kullandı:<br>\"Geçtiğimiz sezon ve bu yıla girerken kaydettiğimiz gelişim düşünüldüğünde, bu başarı bizim için gerçekten muazzam bir anlam taşıyor. Takımdaki herkesle ayrı ayrı gurur duyuyorum; burada zirveye çıkmak harika bir his.\"<br><br>\"Start öncesi oldukça çalkantılı anlar yaşadık; özellikle yağmur altındaki ilk formasyon turunda ani bir güç kaybı meydana geldi. Doğru zamanda geçiş lastiklerine geçerek en doğru hamleyi yaptık ve sonrasında tamamen tempomuza odaklanarak kontrolü ele aldık.\"<br><br>\"İlk sıraya yerleştikten sonra araya giren Güvenlik Aracı planlarımızı bir an için etkilese de, ekiple birlikte durumu kusursuz şekilde yöneterek yarışı galibiyetle kapattık.\"",
+                "img": "Resimler/Formula 1 Haberler/1791110841079_IMG_9998.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 183,
                 "title": "2026 BAHREYN GP’DE ZAFER VERSTAPPEN’İN! ANTONELLİ İKİNCİ, HAMILTON ÜÇÜNCÜ",
                 "cat": "formula 1",
