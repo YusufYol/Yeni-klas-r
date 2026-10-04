@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 185,
+                "title": "KİMİ ANTONELLİ'DEN MALEZYA'DA İKİNCİLİK DEĞERLENDİRMESİ: \"MAKSİMUMU BAŞARDIK\"",
+                "cat": "formula 1",
+                "date": "2026-10-04 13:52",
+                "content": "Mercedes pilotu Kimi Antonelli, Malezya’da yapılan yarışın ardından yaptığı açıklamalarda, hafta sonunu podyumun ikinci basamağında tamamlayarak ellerindeki en iyi potansiyeli ortaya koyduklarını ifade etti.<br><br>Yarış boyunca zorlandıklarını ancak ikincilikten memnun ayrıldıklarını belirten genç pilot, zirvedeki isimleri de tebrik etmeyi ihmal etmedi. Red Bull ve Max Verstappen'in kusursuz bir hafta sonu geçirdiğini vurgulayan Antonelli, şu değerlendirmelerde bulundu:<br><br>\"Bugünkü performansımızla ulaşabileceğimiz en üst noktaya ulaştık. Max ve Red Bull ekibini harika hafta sonları için yürekten kutlarım. Takım olarak önümüzde hâlకа atılması gereken adımlar ve çalışmamız gereken alanlar var. Normalden daha fazla zorlandığımız bir yarış oldu ancak buradan ikincilikle ayrılmak yine de sevindirici.\"<br><br>Şampiyona liderliğini sürdüren Antonelli, zorlu mücadeleyi geride bırakarak gelecek yarışlar için gelişim alanlarına odaklanacaklarının sinyalini verdi.",
+                "img": "Resimler/Formula 1 Haberler/1791111120054_IMG_9999.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 184,
                 "title": "MAX VERSTAPPEN, BAHREYN'DE 2026'NIN İLK ZAFERİNİ KUTLADI: \"KONTROLÜ ELDEN BIRAKMADIK\"",
                 "cat": "formula 1",
