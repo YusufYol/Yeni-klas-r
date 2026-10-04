@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 187,
+                "title": "LECLERC’TEN FERRARI’YE ÖZELEŞTİRİ: “BU KONUDA GELİŞMEMİZ GEREKİYOR”",
+                "cat": "formula 1",
+                "date": "2026-10-04 14:10",
+                "content": "Ferrari pilotu Charles Leclerc, yarışın ardından yaptığı açıklamalarda takımın stratejik kararlarını değerlendirdi. Monakolu pilot, yarışın başlangıcında doğru kararı verdiklerini düşündüklerini ancak daha sonra bunun yanlış olduğunun ortaya çıktığını söyledi.<br><br>Leclerc, yarış içerisindeki koşullara verilen tepkiler konusunda Ferrari’nin rakiplerinin gerisinde kaldığını kabul etti.<br><br>“Yarışın başında doğru seçimi yaptığımızı düşünmüştük, ama yanılmışız.”<br><br>Rakip takımların benzer koşullarda daha doğru kararlar verdiğine dikkat çeken Leclerc, özellikle Red Bull’u örnek gösterdi.<br><br>“Diğer takımların, örneğin Red Bull’un, bu koşullarda sürekli doğru seçimleri yaptıkları da doğru, bizim ise yapmadığımız. Bu konuda gelişmemiz gerekiyor.”<br><br>Leclerc’in açıklamaları, Ferrari’nin özellikle değişken yarış koşullarında stratejik karar alma konusunda hâlâ geliştirmesi gereken noktalar bulunduğunu ortaya koydu.<br><br>Ferrari cephesinde sezon boyunca zaman zaman gündeme gelen strateji tartışmaları, Leclerc’in bu sözleriyle birlikte yeniden dikkatleri üzerine çekti.",
+                "img": "Resimler/Formula 1 Haberler/1791112211740_9A13D592-C4CC-4962-8DD9-A48F20A89FE9.jpeg",
+                "author": "Emre Boz",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Emre Boz.png"
+            },
+            {
                 "id": 186,
                 "title": "BAHREYN GP SONRASI HAMİLTON'DAN ÇARPICI İTİRAF: \"BU PİSTTEKİ EN İYİ YARIŞIMDI\"",
                 "cat": "formula 1",
