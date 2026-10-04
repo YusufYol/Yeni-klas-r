@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 188,
+                "title": "TOTO WOLFF'TAN BAHREYN ŞOKU: \"EN KÖTÜ DENEYİMLERİMDEN BİRİYDİ\"",
+                "cat": "formula 1",
+                "date": "2026-10-04 14:39",
+                "content": "Mercedes takım patronu Toto Wolff, Bahreyn Grand Prix'sinin ardından hiç de planladıkları gibi bir hafta sonu geçirmediklerini belirterek dürüst açıklamalarda bulundu. Beklenen hıza bir türlü ulaşamadıklarını ve yarış boyunca her şeyin ters gittiğini vurgulayan deneyimli yönetici, yaşanan sorunların takımı derinden sarstığını ifade etti.<br><br>Yarışın son bölümlerinde George Russell'ın aracında görülen problemin bir güç ünitesi arızasından kaynaklandığını doğrulayan Wolff, bu durumun hem pilotun şampiyonluk mücadelesi hem de takımlar klasmanı açısından ağır bir darbe olduğunun altını çizdi. Güvenlik aracı periyotlarındaki şanssızlıkların ve Lewis Hamilton ile yaşanan kıyasıya mücadelenin stratejilerini tamamen altüst ettiğini belirten Wolff, \"Burada bulunmayı ne kadar sevsem de, dürüst söylemek gerekirse bu kariyerimdeki en kötü deneyimlerden biriydi\" diyerek hayal kırıklığını gizlemedi.<br><br>Mevcut performans açığını kapatmak için acilen çalışmalara ağırlık vereceklerini söyleyen Mercedes patronu, sorunların üstesinden gelerek en kısa sürede toparlanacaklarına olan inancını dile getirdi.",
+                "img": "Resimler/Formula 1 Haberler/1791113948157_IMG_0004.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 187,
                 "title": "LECLERC’TEN FERRARI’YE ÖZELEŞTİRİ: “BU KONUDA GELİŞMEMİZ GEREKİYOR”",
                 "cat": "formula 1",
