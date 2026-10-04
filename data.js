@@ -5965,6 +5965,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 182,
+                "title": "MOTEGİ’DE LASTİK SÜRPRİZİ: \"SERT LASTİĞİ DAHA ERKEN KULLANABİLİRDİK!\"",
+                "cat": "motogp",
+                "date": "2026-10-04 11:39",
+                "content": "MotoGP takımları, Motegi pistindeki yarış hafta sonunda lastik stratejileri konusunda büyük bir yanılgı yaşadıklarını itiraf etti. Yeniden asfaltlanan pist yüzeyi için yalnızca alternatif bir yedek plan olarak görülen güçlendirilmiş karkaslı sert lastik, hafta sonu boyunca neredeyse tamamen göz ardı edilmişti. <br>Sürücüler antrenman turlarında ağırlıklı olarak yumuşak ve orta hamurlara odaklanmıştı.<br><br>Ancak hesaplar, sprint yarışında yumuşak hamurun beklenmedik problemler yaratmasıyla altüst oldu. Bu gelişme üzerine Michelin, yumuşak lastiği yarış havuzundan çıkararak Grand Prix için daha sert hamura geçilmesini tavsiye etti. Pazar sabahı gerçekleştirilen uzatılmış ısınma seansında ilk kez sert lastikle piste çıkan ekipler, hamurun sunduğu üstün performansı görünce şaşkınlık yaşadı.<br><br>Yarışın ardından açıklamalarda bulunan isimlerden Fabio Quartararo, kimsenin yüzüne bakmadığı bir lastiğin en iyi seçenek haline gelmesini \"biraz çılgınca\" olarak nitelendirdi.<br>Güçlendirilmiş yapısıyla dikkat çeken lastikten övgüyle bahseden Marc Marquez ise, \"Bu hamur zaman turu için bile harika bir seçenek olabilirdi. Normalde herkes diğer alternatiflerin daha hızlı olduğunu düşünür ama bence bu lastik gerçekten kusursuzdu\" diyerek ısınma seansındaki performansın herkesi şaşırttığını belirtti.<br><br>Şampiyona lideri Jorge Martin de sert lastiğin sunduğu denge ve yol tutuş seviyesinden etkilendiğini vurgulayarak, bu hamuru hafta sonunun erken seanslarında test etmemiş olmaktan duyduğu pişmanlığı dile getirdi.",
+                "img": "Resimler/MotoGP Haberler/1791103189580_IMG_9995.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 181,
                 "title": "MOTEGI'DE MARC MARQUEZ RÜZGARI: JAPONYA GP'NİN GALİBİ BELLİ OLDU!",
                 "cat": "motogp",
