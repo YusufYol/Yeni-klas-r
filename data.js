@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 190,
+                "title": "WILLIAMS'TA TÜM ODAK 2027: \"ŞİMDİDEN ÇALIŞMAYA BAŞLADIK\"",
+                "cat": "formula 1",
+                "date": "2026-10-05 19:49",
+                "content": "Bahreyn Grand Prix'sinin ardından açıklamalarda bulunan Williams Takım Patronu James Vowles, mevcut sezondaki performans eksikliklerine dikkat çekerken tüm planlarını önümüzdeki yıla çevirdiklerini duyurdu.<br><br>Yarış hafta sonunun zorlu koşullar altında geçtiğini belirten deneyimli yönetici, ani bastıran sağanak yağış ve kırmızı bayraklarla kesilen seansların stratejik hamleleri zorunlu kıldığını ifade etti. Doğru zamanlamayla geçiş lastiklerine geçerek önemli bir avantaj yakaladıklarını, ancak güvenlik aracının bu farkı erittiğini ve sonrasında istenen hıza ulaşamadıklarını dile getirdi.<br><br>Arka gruptaki rakiplerine kıyasla dahi tempoda geride kaldıklarını kabul eden Vowles, şu değerlendirmelerde bulundu:<br><br>\"İyi bir konumdaymış gibi göründüğümüz anlar olsa da oldukça zorlu bir yarışı geride bıraktık. Güvenlik aracı ardındaki mesafelerin kapanmasıyla birlikte doğru kararları vermekte zorlandık ve istediğimiz tempomuz da yoktu.\"<br><br>Takım olarak kısa vadede Singapur'daki yarışa odaklandıklarını belirten Vowles, asıl büyük hedefin 2027 sezonu olduğunu vurguladı. 2027'de her şeyi kusursuz yapmak adına şimdiden yoğun bir mesai harcadıklarını ifade eden patron, gelecek yıllar için umutlu olduklarının altını çizdi.",
+                "img": "Resimler/Formula 1 Haberler/1791218981398_IMG_0028.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 189,
                 "title": "LECLERC'DEN BAHREYN GP DEĞERLENDİRMESİ: \"YAĞMURDA RİSKLİ KARARLAR KAÇINILMAZ\"",
                 "cat": "formula 1",
