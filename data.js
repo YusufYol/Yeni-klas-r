@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 193,
+                "title": "AUDİ, SİNGAPUR GRAND PRİX'Sİ İÇİN YEPYENİ BİR TASARIMLA PİSTTE YERİNİ ALMAYA HAZIRLANIYOR!",
+                "cat": "formula 1",
+                "date": "2026-10-05 20:06",
+                "content": "Audi, Marina Bay'in göz alıcı ışıkları altında koşulacak Singapur Grand Prix'si için özel olarak tasarlanan yeni renk düzenini duyurdu.<br><br>Markanın ikonik renk şemasına eklenen mavi ışıltılar, Singapur'un dinamik atmosferinden ve şehrin ışıltılı yansımalarından ilham alıyor. Arka kanat ve sidepod bölümlerinde yer alan bu özel efekt, yarış otomobilinin gece boyunca pistin farklı noktalarındaki ışık oyunlarıyla birlikte kabuk değiştirmesine olanak tanıyacak.<br><br>Tasarımın, mevcut geometrik çizgileri korurken şehrin kültürel dokusuna da zarafetle göz kırptığını belirten Audi F1 Baş Marka ve Ticari Sorumlusu Stefano Battiston, projeyle ilgili şu değerlendirmelerde bulundu: \"Formula 1, taraftarlara nerede olurlarsa olsunlar bu ailenin bir parçası olduklarını hissettirmektir. Singapur için hazırladığımız bu özel tasarım, şehrin enerjisini markamızla buluşturuyor. Sadece yarış pistiyle sınırlı kalmayıp adidas iş birliğiyle genişleyen bu koleksiyon ve etkinlikler, taraftarlarımıza takımla bağ kurmaları için yepyeni kapılar aralıyor.\"",
+                "img": "Resimler/Formula 1 Haberler/1791219983463_IMG_0032.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 192,
                 "title": "HAAS'TAN STRATEJİ İTİRAFI: \"FARKLI TAKTİK UYGULAMAK HATA OLDU\"",
                 "cat": "formula 1",
