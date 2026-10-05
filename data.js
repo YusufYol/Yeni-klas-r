@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 191,
+                "title": "CHRISTIAN HORNER'DAN RED BULL'A ÖVGÜ DOLU SÖZLER: \"SIFIRDAN ZİRVEYE İNANILMAZ BİR YOLCULUK\"",
+                "cat": "formula 1",
+                "date": "2026-10-05 19:53",
+                "content": "Formula 1 dünyasında yankı uyandıran gelişmeyle birlikte, eski Red Bull takım patronu Christian Horner, takımın Malezya'da elde ettiği sezonun ilk zaferinin ardından övgü dolu açıklamalarda bulundu.<br><br>Max Verstappen'in Malezya'da kazandığı yarış, aynı zamanda 2026 sezonunun da ilk galibiyeti olarak kayıtlara geçti.<br><br>Uzun yıllar Red Bull'un başında yer alan ve Ford ortaklığıyla hayata geçirilen Red Bull Powertrains projesinin en önemli mimarlarından biri olan Horner, takımdan ayrılmış olmasına rağmen bu tarihi başarıya sessiz kalmadı. Honda'nın F1'den ayrılacağı dönemin ardından sıfırdan kurulan güç ünitesi fabrikası ve yürütülen devasa işe alım süreci, bugün meyvelerini vermeye başladı.<br><br>Sosyal medya hesabından duygu ve düşüncelerini paylaşan deneyimli isim, şu ifadeleri kullandı:<br><br>\"Beş yıl içinde boş bir araziden yarış kazanan bir güç ünitesi üreticisine... Red Bull Ford Powertrains'e, Max'e ve tüm takıma büyük tebrikler. İnanılmaz bir başarı!\"<br><br>Öte yandan, F1 padokuna geri dönme sinyalleri veren Christian Horner'ın gelecekteki projelerinde sadece bir yönetici olarak değil, aynı zamanda takım ortağı ve hisse sahibi olarak yer almak istediği biliniyor.",
+                "img": "Resimler/Formula 1 Haberler/1791219223119_IMG_0029.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 190,
                 "title": "WILLIAMS'TA TÜM ODAK 2027: \"ŞİMDİDEN ÇALIŞMAYA BAŞLADIK\"",
                 "cat": "formula 1",
