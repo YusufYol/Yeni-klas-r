@@ -11497,6 +11497,17 @@ const APP_DATA = {
     "haberler": {
         "news": [
             {
+                "id": 194,
+                "title": "İSTANBUL PARK 2027 SEZONUNDA FORMULA 2 VE FORMULA 3 TAKVİMLERİNDE YER ALACAK",
+                "cat": "haberler",
+                "date": "2026-10-05 21:45",
+                "content": "Uluslararası Otomobil Federasyonu (FIA), 2027 Formula 2 ve Formula 3 yarış takvimlerini resmi olarak paylaştı ve İstanbul Park, iki seride de yarışlara ev sahipliği yapacak pistler arasına adını yazdırdı.<br><br>Yapılan açıklamaya göre, 14 ayaklık bir maratondan oluşacak 2027 Formula 2 sezonu, mart ayında Bahreyn'in ev sahipliğindeki Sakhir yarışıyla start alacak. Takvim; sırasıyla Cidde, Melbourne ve Montreal duraklarının ardından haziran ayında Monte Carlo ile Avrupa etabına geçecek. Yaz arası öncesinde Silverstone ve Spielberg pistlerinde kapışacak olan pilotlar, eylül ayında ise Monza, Madrid ve Bakü'de hız kesmeyecek.<br><br>Ekim ayına gelindiğinde ise Formula 2 heyecanı ilk defa İstanbul Park'a taşınacak. İstanbul'un ardından bir diğer yeni lokasyon olan Mexico City'ye gidecek olan seri, aralık ayındaki Katar ve Abu Dhabi yarışlarıyla finiş görecek.<br>FIA Başkanı Mohammed Ben Sulayem, İstanbul Park ve Mexico City'nin takvime dahil edilmesinin önemine vurgu yaparak, bu hamlenin seriyi geniş kitlelerle buluşturacağını ve genç yeteneklere farklı pist kültürlerini deneyimleme şansı tanıyacağını belirtti.<br><br>Öte yandan Formula 3 takvimi de netleşti. F3 sezonu mart ayında Bahreyn ve Cidde ayaklarıyla başlayacak; takvimde ayrıca Melbourne, Montreal, Monaco, Silverstone, Avusturya, Monza ve Madrid gibi önemli duraklar bulunacak. F3 heyecanı ise ekim ayının başında Türkiye'de gerçekleştirilecek büyük finalle son bulacak.",
+                "img": "Resimler/Haberler/1791225942014_IMG_0040.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png",
+                "customBadge": "Formula 2 ve Formula 3"
+            },
+            {
                 "id": 126,
                 "title": "BORUSAN OTOMOTİV MOTORSPORT HOLLANDA’DA PODYUMA ÇIKTI",
                 "cat": "haberler",
