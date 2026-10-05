@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 192,
+                "title": "HAAS'TAN STRATEJİ İTİRAFI: \"FARKLI TAKTİK UYGULAMAK HATA OLDU\"",
+                "cat": "formula 1",
+                "date": "2026-10-05 19:58",
+                "content": "Haas Takım Patronu Ayao Komatsu, değişken hava koşulları ve olaylı geçen Bahreyn Grand Prix'sinin ardından takımın strateji tercihleriyle ilgili önemli açıklamalarda bulundu. Pilotlar arasında farklı taktikler izleme kararından pişmanlık duyduğunu belirten Komatsu, hem strateji hatalarının hem de pit stoplardaki talihsizliklerin yarışın gidişatını olumsuz etkilediğini vurguladı.<br><br>Yarış koşullarının son derece zorlu olduğunu dile getiren Komatsu, griddeki iki pilota da aynı stratejiyi uygulamanın daha doğru bir yaklaşım olacağını kabul etti. Özellikle Ollie Bearman'ın pit stop zamanlamasında geç kaldıklarını belirten Japon yönetici, pistin hızla kuruyacağı yönündeki beklentilerinin boşa çıktığını ifade etti.<br><br>Yaşanan tüm olumsuzluklara rağmen bazı pozitif detayların da altını çizen Komatsu, Esteban Ocon'un geçiş lastikleri üzerindeki ve sert hamurdaki performansının güçlü olduğunu belirtti. Ancak pit girişindeki taşma ve ideal olmayan pit stop süresi nedeniyle Racing Bulls'a karşı pozisyon kaybettiklerini, sonrasında ise yeni lastiklerin fazla zorlanmasıyla Ocon'un yarışının tehlikeye girdiğini aktardı.<br><br>Zorlu hafta sonunu geride bıraktıklarını söyleyen Komatsu, çıkarılan derslerle birlikte tamamen önümüzdeki Singapur Grand Prix'sine odaklandıklarını belirtti.",
+                "img": "Resimler/Formula 1 Haberler/1791219477048_IMG_0030.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 191,
                 "title": "CHRISTIAN HORNER'DAN RED BULL'A ÖVGÜ DOLU SÖZLER: \"SIFIRDAN ZİRVEYE İNANILMAZ BİR YOLCULUK\"",
                 "cat": "formula 1",
