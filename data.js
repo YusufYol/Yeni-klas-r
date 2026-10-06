@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 196,
+                "title": "FRED VASSEUR'DEN MEDYA TEPKİSİ: \"BİZİ DESTEKLEYEN BİR YAKLAŞIMA İHTİYACIMIZ VAR\"",
+                "cat": "formula 1",
+                "date": "2026-10-06 18:25",
+                "content": "Ferrari’nin uzun süren şampiyonluk hasreti ve İtalyan basınındaki yoğun baskı, takım patronu Fred Vasseur’ün son açıklamalarıyla yeniden gündemin merkezine oturdu. Maranello ekibinin üzerindeki bu yoğun odağın, diğer takımlarla kıyaslandığında çok daha farklı bir boyutta seyrettiği biliniyor.<br><br>Tarihinin en uzun şampiyonluk kuraklığını yaşayan İtalyan ekibinde, 2008 yılındaki son zaferin üzerinden geçen 18 yıllık süreç, medyadan gelen eleştirilerin sertliğini de artırıyor. Basın toplantısında yaşanan iletişim gerilimlerinin ardından konuşan Vasseur, karşılaştığı tablodan haberdar olduğunu ancak bazı eleştirilerin adil olmadığını vurguladı.<br><br>Zor dönemlerde ekibini korumanın en önemli sorumluluğu olduğunu belirten deneyimli yönetici, \"Bu göreve gelirken tablonun nasıl olacağını biliyordum, bu yüzden sürpriz yaşamadım. Ancak suçun doğrudan birilerinin üzerine yıkılması ve zaman zaman saldırıların kişisel bir boyuta taşınması doğru değil. Takım olarak birlikte kazanıp birlikte zorlanıyoruz; benim görevim de ekibimi savunmak. Tabii ki bu süreçte bizi yapıcı bir şekilde destekleyen medyaya da ihtiyacımız var\" ifadelerini kullandı.",
+                "img": "Resimler/Formula 1 Haberler/1791300301743_IMG_0050.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 195,
                 "title": "İDDİALARA GÖRE FORMULA 1, 2030'DA AFRİKA KITAINE GERİ DÖNMEYE HAZIRLANIYOR: ROTA RUANDA!",
                 "cat": "formula 1",
