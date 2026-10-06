@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 195,
+                "title": "İDDİALARA GÖRE FORMULA 1, 2030'DA AFRİKA KITAINE GERİ DÖNMEYE HAZIRLANIYOR: ROTA RUANDA!",
+                "cat": "formula 1",
+                "date": "2026-10-06 18:11",
+                "content": "Motor sporları dünyasında heyecan yaratan ve kulisleri hareketlendiren çok konuşulacak bir iddia gündeme geldi. İddialara göre Formula 1, uzun yıllar sonra Afrika kıtasına dönüşünü 2030 yılında Ruanda Grand Prix'si ile gerçekleştirecek.<br><br>RacingNews365'in paylaştığı bilgilere dayandırılan iddialara göre, taraflar arasında anlaşmanın sağlandığı ve resmi açıklamanın yıl içinde, hatta önümüzdeki haftalarda yapılmasının beklendiği ifade ediliyor.<br><br>Ruanda Devlet Başkanı Paul Kagame'nin ülkesini küresel motor sporlarının merkezine taşımak için son yıllarda yürüttüğü stratejik girişimlerin bu iddiada büyük payı olduğu belirtiliyor. Kigali'nin 2024 yılındaki FIA Genel Kurulu ve Ödül Töreni'ne ev sahipliği yapması ve Kagame'nin bu süreçte F1 adaylığı için yaptığı açıklamalar, sürecin fitilini ateşleyen adımlar olarak öne çıkıyor. Başkan Kagame'nin, 2025 Azerbaycan Grand Prix'si sırasında FIA Başkanı Mohammed Ben Sulayem ve F1 CEO'su Stefano Domenicali ile temaslarını sürdürmesi de iddiaları güçlendiren detaylar arasında yer alıyor.<br><br>Ortaya atılan planlara göre, yarış için Kigali'nin yaklaşık 40 kilometre dışında, Bugesera Uluslararası Havalimanı yakınlarında tamamen kalıcı yeni bir pist inşa edilmesi kararlaştırıldı.<br><br>Pist tasarımının ise eski F1 pilotu Alexander Wurz'un sahibi olduğu WurzDesign tarafından üstlenileceği öne sürülüyor. Şirketin halihazırda Suudi Arabistan'daki Qiddiya Speed Park projesinde Tilke Engineering ile ortak çalışmalar yürütmesi, projenin ciddiyetine dair iddiaları destekleyen unsurlar arasında gösteriliyor.<br><br>Tüm bu iddialar resmiyet kazanırsa, 2030 yılı itibarıyla Formula 1 takvimine yepyeni bir soluk eklenmiş olacak.",
+                "img": "Resimler/Formula 1 Haberler/1791299469504_IMG_0049.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 193,
                 "title": "AUDİ, SİNGAPUR GRAND PRİX'Sİ İÇİN YEPYENİ BİR TASARIMLA PİSTTE YERİNİ ALMAYA HAZIRLANIYOR!",
                 "cat": "formula 1",
