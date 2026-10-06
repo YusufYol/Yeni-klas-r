@@ -6095,6 +6095,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 197,
+                "title": "TOPRAK RAZGATLIOĞLU'NDAN JAPONYA GP'Sİ SONRASI FREN İSYANI: \"SINIRLARDA SAVAŞIYORUM\"",
+                "cat": "motogp",
+                "date": "2026-10-06 18:30",
+                "content": "Pramac Yamaha ile mücadele eden milli motosikletçimiz Toprak Razgatlıoğlu, Japonya Grand Prix'sinde yaşadığı fren sorunları nedeniyle zor bir hafta sonunu geride bıraktı. Motegi pistindeki sıralama turlarını son sırada tamamlayıp yarıştan 17. olarak ayrılan şampiyon pilot, motosikleti durdurmakta büyük güçlük çektiğini belirtti.<br><br>Yarışın ardından yaptığı değerlendirmelerde arka lastiğin ön tarafı ittiğini ve bunun sürüş istikrarını tamamen bozduğunu vurgulayan Razgatlıoğlu, yarış boyunca yaşadığı çaresizliği şu sözlerle özetledi: \"Yarışta yine aynı problemi yaşadım. Bu lastik de frenleme sırasında motosikleti çok fazla öne doğru itiyor.\"<br><br>Yarışın ilk turlarındaki kabusa dikkat çeken ve motosiklete henüz tam anlamıyla güvenemediğini belirten milli sporcu, açıklamalarını şöyle sürdürdü:<br><br>\"Ancak altı tur geçtikten sonra ritmimi buldum ve tempomu da çok daha iyi hale getirdim. Özellikle altıncı turdan sonra 1:44'lü dereceler yapabildiğimi gördüm. Ama bu, sonuç almak için yeterli değildi çünkü ben de limitte sürüyordum. Birkaç turdan sonra daha iyi sürmeye başladım ama hâlâ aynı problemi yaşıyıyorum. Hâlâ motosiklete güvenerek sürmüyorum. Her zaman limitte sürüyorum ve motosikleti kolayca durduramıyorum.\"<br><br>Diğer Yamaha sürücülerinin tecrübelerine ve motosikleti durdurma konusundaki başarılarına da değinen Toprak, kendisinin ise frenlemede ön lastiği sürekli kilitlediğini ve bu yüzden çok fazla zaman kaybettiğini şu ifadelerle aktardı:<br><br>\"Bu çok garip çünkü diğer sürücülere baktığınızda biraz daha geç fren yapıyorlar ama motosikleti çok daha kolay durduruyorlar. Motosikletle savaşıyorum. Bu yüzden her turda aynı tempoyu korumak çok zor. Fabio motosikleti sürme konusunda çok daha iyi çünkü motosikleti nasıl durduracağını biliyor. Ayrıca onlar çok daha deneyimli. Uzun yıllardır Yamaha motosikleti kullanıyorlar ve motosikleti nasıl durduracaklarını biliyorlar. Ben frenleme sırasında ön lastiği çok fazla kilitliyorum ve çok şey kaybediyorum.\"<br><br>Fren problemlerinin çözülmesi halinde potansiyelini tam olarak yansıtabileceğine inanan şampiyon pilot, sözlerini şu umut dolu cümleyle noktaladı: \"Eğer daha iyi hissedersem ve motosikleti doğru noktada durdurabilirsem, tur zamanımı çok daha fazla geliştirebileceğimi düşünüyorum.\"",
+                "img": "Resimler/MotoGP Haberler/1791300617825_IMG_0051.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 182,
                 "title": "MOTEGİ’DE LASTİK SÜRPRİZİ: \"SERT LASTİĞİ DAHA ERKEN KULLANABİLİRDİK!\"",
                 "cat": "motogp",
