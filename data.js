@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 202,
+                "title": "MALEZYA ZAFERİYLE COŞAN VERSTAPPEN’İN GÖZÜ SİNGAPUR’DA: \"KAPATILMAMIŞ BİR DEFTERİM VAR\"",
+                "cat": "formula 1",
+                "date": "2026-10-07 19:43",
+                "content": "Malezya’da damalı bayrağı ilk sırada görerek 2026 sezonundaki ilk birinciliğini alan Max Verstappen, rotayı kariyerinde henüz podyumun zirvesine çıkamadığı Singapur Grand Prix’sine çevirdi.<br><br>Red Bull adına bu sezonun açılış zaferine imza atan Hollandalı pilot, aynı zamanda takımın kendi ürettiği güç ünitesiyle kazandığı ilk yarış olması nedeniyle büyük bir gurur yaşadıklarını vurguladı. Bu başarının ardından vakit kaybetmeden önlerindeki mücadeleye odaklandığını belirten dört kez dünya şampiyonu, şu değerlendirmelerde bulundu:<br><br>\"Malezya’da zirveye çıkmak tarif edilemez bir histi. Kendi motorumuzla ilk birinciliğimizi tatmak tüm ekip için uzun süredir beklenen, çok kıymetli bir gurur kaynağı oldu. Her hafta sonu aracı bir adım ileri taşımak adına çalışıyoruz. Temennim, bu yoğun üçlü yarış serisinin kapanış ayağı olan Singapur’da da aynı ivmeyi korumak.\"<br><br>Kariyerinde henüz zafer göremediği Marina Bay Pisti'nin zorlayıcı şartlarına değinen Verstappen, sözlerini şöyle noktaladı:<br><br>\"Malezya’daki üstünlüğümüz piste özel dinamiklerden kaynaklanmış olabilir; dolayısıyla Singapur’daki şartların nasıl gelişeceği kritik rol oynayacak. Şehir pistlerini her zaman sevmişimdir; viraj sayısı fazla ve zemin bir hayli dalgalı. Yüksek sıcaklık yıpratıcı bir faktör olsa da mücadelenin gece ışıkları altında gerçekleşecek olması bir nebze rahatlatıcı. Singapur bugüne dek kazanamadığım nadir yerlerden biri, bu yüzden orada kapatmam gereken açık bir hesap var.\"",
+                "img": "Resimler/Formula 1 Haberler/1791391404304_IMG_0069.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 200,
                 "title": "HAAS İLE YOLLARI AYRILACAK OLAN OCON'A FORMULA E'DEN SÜRPRİZ DAVET",
                 "cat": "formula 1",
