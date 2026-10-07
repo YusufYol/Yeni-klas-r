@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 200,
+                "title": "HAAS İLE YOLLARI AYRILACAK OLAN OCON'A FORMULA E'DEN SÜRPRİZ DAVET",
+                "cat": "formula 1",
+                "date": "2026-10-07 17:54",
+                "content": "Kariyerinde yeni bir dönemece giren 30 yaşındaki Esteban Ocon için motor sporları dünyasında alternatif rotalar şekillenmeye başladı. Geçtiğimiz haftalarda Haas takımının sözleşmesini yenilemeyeceğini açıklamasıyla 2026 sezonu sonunda serbest kalacağı kesinleşen Fransız pilot, kariyer planlamasında Formula 1'i ilk sırada tutuyor. Ocon, ana gridde kalıcı olamaması durumunda F1'de yedek pilotluk görevine bile sıcak baktığını belirtse de, farklı serilerden gelen ilgi şimdiden dikkat çekiyor.<br><br>Bu ilginin en somut hali, Formula E cephesinden geldi. Gelişmeleri yakından izleyen Formula E CEO’su Jeff Dodds, tecrübeli sürücüye açık bir kapı bırakarak, tamamen elektrikli bu şampiyonanın Ocon için \"mükemmel bir yuva\" olabileceği mesajını verdi.<br><br>Ancak CEO'nun bu sıcak yaklaşımına rağmen, kısa vadeli bir transferin önünde ciddi takvim engelleri bulunuyor. Formula E takımlarının, önümüzdeki ay Madrid'de gerçekleştirilecek resmi sezon öncesi testleri için sürücü kadrolarını tamamlaması şart. Bu testlerin F1 Las Vegas Grand Prix'si ile tamamen aynı günlere denk gelmesi, Ocon'un yakın sezonda elektrikli seriye geçiş yapmasını pratik olarak imkansız kılıyor.<br><br>Uzmanlara göre Fransız pilotun Formula E gridine katılması için en gerçekçi ve makul hedef 2028 yılı. Diğer yandan Formula E'nin, F1 pilotları gözündeki prestiji de giderek artıyor. Max Verstappen, Lando Norris ve Fernando Alonso gibi yıldız isimlerin övgüyle bahsettiği yeni jenerasyon Gen4 araçlarının, ilerleyen dönemde Ocon gibi tecrübeli F1 pilotlarını seriye çekmek için büyük bir koz olacağı düşünülüyor.",
+                "img": "Resimler/Formula 1 Haberler/1791384847522_IMG_0065.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 199,
                 "title": "FERNANDO ALONSO'DAN MALEZYA STARTINA İSYAN: \"KARAR TAMAMEN ADALETSİZDİ\"",
                 "cat": "formula 1",
