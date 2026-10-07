@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 199,
+                "title": "FERNANDO ALONSO'DAN MALEZYA STARTINA İSYAN: \"KARAR TAMAMEN ADALETSİZDİ\"",
+                "cat": "formula 1",
+                "date": "2026-10-07 15:42",
+                "content": "Malezya Grand Prix'sinde yaşanan kaotik başlangıç prosedürü, Aston Martin'in tecrübeli pilotu Fernando Alonso'nun büyük tepkisini çekti. İspanyol sürücü, formasyon turunda meydana gelen krizin ardından yarış kontrolünün uyguladığı çözümü sert sözlerle eleştirdi.<br><br>Hatırlanacağı üzere, 2026 kurallarıyla gelen yeni nesil güç ünitelerindeki bir yazılım hatası, aralarında Lewis Hamilton'ın da bulunduğu birçok aracın formasyon turunda pistte kalmasına neden olmuştu. Start prosedürünü askıya alan FIA yönetimi, yaklaşık 40 dakikalık bir duraklamanın ardından tartışmalı bir karara imza atarak araçları sıralama turlarındaki orijinal dizilimine göre yeniden grid'e yerleştirdi.<br><br>Alonso, kural kitabında yer alan \"start askıya alındığında araçlar pit yoluna giriş sırasına göre dizilir\" maddesinin açıkça ihlal edildiğini belirterek duruma isyan etti. Alınan kararı adaletsiz bulduğunu vurgulayan çifte dünya şampiyonu, \"Güvenlik tehlikesi varsa yarışı durdurup sorunu çözersiniz, bunu anlarım. Ancak o araçlar zaten yarış dışıydı. Normalde görevliler aracı iter ve pistten çıkarır; tıpkı diğer yarışlarda biz yolda kaldığımızda yapıldığı gibi. Kariyerimde böyle bir şeye ilk defa şahit oluyorum,\" dedi.<br><br>Bu sezon kendi aracı arıza yaptığında benzer bir tolerans gösterilmediğini ima eden İspanyol pilot, Hamilton'ın çakıl havuzunda olmasının yönetimde büyük bir panik yarattığını ve sürecin oldukça tuhaf işlediğini savundu.<br><br>Spordaki aşırı teknoloji kullanımının taraftarları spordan uzaklaştırdığına da dikkat çeken Alonso, \"Sorunun tam olarak ne olduğunu Singapur'da açıklamak zorunda kalacaklar. İşin içinde o kadar çok teknoloji var ki, günün sonunda ekran başındaki izleyici hiçbir şey anlamıyor,\" ifadelerini kullandı.<br><br>Tüm bu krizin gölgesinde damalı bayrağı 8. sırada gören tecrübeli pilot, Aston Martin takımına 2026 sezonundaki şu ana kadarki en iyi derecesini kazandırdı. FIA yetkilileri ise eleştirilere, problemin tekil bir arıza değil, birçok aracı aynı anda etkileyen genel bir yazılım hatası kaynaklı bir sistem çökmesi olduğunu ve gridin büyük bir kısmının yarış dışı kalmasının sporun prestijine ciddi zarar vereceğini belirterek yanıt verdi. Yarış kontrolü, böylesine olağanüstü ve teknik bir krizin, kural kitabındaki standart prosedürlerin inisiyatif kullanılarak esnetilmesini gerektirdiğini savundu.<br><br>Tartışmaların, Alonso'nun da işaret ettiği gibi önümüzdeki Singapur Grand Prix'sinde gerçekleştirilecek pilotlar toplantısının bir numaralı gündem maddesi olması bekleniyor.",
+                "img": "Resimler/Formula 1 Haberler/1791376964450_IMG_0057.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 198,
                 "title": "MERCEDES DOĞRULADI: SİNGAPUR'DA GEORGE RUSSELL GRİDİN EN ARKASINDAN BAŞLAYACAK!",
                 "cat": "formula 1",
