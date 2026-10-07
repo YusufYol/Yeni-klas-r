@@ -6125,6 +6125,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 201,
+                "title": "MOTOGP PADDOCK’UNDA KARTLAR YENİDEN DAĞITILIYOR: 2027’DE ÇİFTE SIRALAMA DÖNEMİ BAŞLIYOR",
+                "cat": "motogp",
+                "date": "2026-10-07 18:02",
+                "content": "Motosiklet yarışlarının zirvesi MotoGP, 2027 sezonuyla birlikte yarış hafta sonu takvimini baştan aşağı yeniliyor. Red Bull Ring’de bir araya gelen takımların katılımıyla onaylanan yeni taslak, organizasyonun 2023’te hayatımıza soktuğu sprint heyecanını çok daha bağımsız bir yapıya kavuşturuyor.<br><br>Verilen kararın merkezinde, sprint mücadelesi ile ana Grand Prix’nin grid belirleme süreçlerinin birbirinden tamamen ayrılması yatıyor. Mevcut yapıda cumartesi sabahı atılan turlar her iki yarışın da kaderini çizerken, 2027’den itibaren cuma gününe 15 dakikalık bağımsız bir \"Sprint Sıralama\" seansı dahil edilecek. Pazar günkü ana yarışın gridi içinse cumartesi günkü klasik Q1-Q2 formatı korunacak. Böylece cumartesi öğleden sonra koşulacak kısa yarış, artık cuma günkü özel seansın derecelerine göre start alacak.<br><br>MOTOGP 2027 SEANS ÇİZELGESİ:<br><br>Cuma:<br> 1. Antrenman: 45 dakika<br> 2. Antrenman: 30 dakika<br> Sprint Sıralama (SQ): 15 dakika <br><br>Cumartesi:<br> 3. Antrenman: 20 dakika<br> Resmi Sıralama Turları: Q1 (15 dk) ve Q2 (15 dk)<br> Sprint Yarışı<br><br>Pazar:<br> Grand Prix",
+                "img": "Resimler/MotoGP Haberler/1791385369280_IMG_0066.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 197,
                 "title": "TOPRAK RAZGATLIOĞLU'NDAN JAPONYA GP'Sİ SONRASI FREN İSYANI: \"SINIRLARDA SAVAŞIYORUM\"",
                 "cat": "motogp",
