@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 198,
+                "title": "MERCEDES DOĞRULADI: SİNGAPUR'DA GEORGE RUSSELL GRİDİN EN ARKASINDAN BAŞLAYACAK!",
+                "cat": "formula 1",
+                "date": "2026-10-07 15:35",
+                "content": "Geçtiğimiz hafta sonu Malezya Grand Prix'sinde büyük bir şanssızlık yaşayan George Russell için beklenen kötü haber geldi. Mercedes, güç ünitesi kotasının aşılması nedeniyle İngiliz pilotun bu hafta sonu koşulacak Singapur GP'sine gridin en arkasından başlayacağını resmi olarak duyurdu.<br><br>Russell, Malezya'da güvenlik aracı periyodunda üçüncü sırada ilerlerken, yarışın bitimine yalnızca beş tur kala motor arızası sebebiyle yarış dışı kalmıştı. Geçtiğimiz yıl Singapur'da galibiyete uzanan başarılı pilot için bu cezanın zamanlaması, sezonun ilerleyen yarışları için planlanan yeni motor güncellemesini kullanma ihtimalini de riske atıyor. Sky'ın aktardığı bilgilere göre Mercedes mühendisleri, bu dezavantajı ortadan kaldırmak ve güncellenmiş yeni güç ünitesini Singapur'a yetiştirebilmek adına fabrikada yoğun bir mesai harcıyor.<br><br>Takım Patronu Toto Wolff, Russell'ın Malezya'daki arıza nedeniyle pazar günkü yarışa son sıradan başlayacağını doğrularken, yaşanan durumu şu sözlerle değerlendirdi: \"Geçen hafta sonu ortaya koyduğu üst düzey performans ve elinden kayıp giden harika sonuç göz önüne alındığında, bu ceza elbette hepimiz için çok can sıkıcı. Ancak motor sporlarının ve Formula 1'in doğasında maalesef bunlar var. Şimdi tüm konsantrasyonumuzu, ona ön sıralara tırmanabilmesi için en hızlı aracı ve en iyi fırsatları sunmaya verdik. Yılın bu son sprint hafta sonundan çıkarabileceğimiz maksimum puanı çıkarmak ve öğrenmeye devam etmek zorundayız.\"<br><br>Malezya'da yaşanan genel performans kaybı hakkında da konuşan Wolff, araçtaki sorunu çözmek için yoğun bir veri analizi sürecinde olduklarını vurguladı. Wolff açıklamalarını şöyle tamamladı:<br><br>\"Malezya takımımız için oldukça yıpratıcı bir hafta sonuydu. Beklentilerin altında kalan performansımızın temel nedenlerini bulmak için aralıksız çalışıyoruz. Odaklanmamız gereken bazı temel noktaları tespit ettik ancak Formula 1 dünyasında basit çözümler yoktur; kesin bir kanıya varmadan önce çok daha kapsamlı verilere ihtiyacımız var. Singapur'un kendine has pist yapısı, nerede olduğumuzu tam olarak görebilmemiz için bize harika bir test imkanı tanıyor. Bu doğrultuda, hafta sonu boyunca hem en güncel aero paketimizi hem de aracın bir önceki versiyonunu piste çıkararak kapsamlı bir karşılaştırma yapacağız.\"",
+                "img": "Resimler/Formula 1 Haberler/1791376546548_IMG_0056.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 196,
                 "title": "FRED VASSEUR'DEN MEDYA TEPKİSİ: \"BİZİ DESTEKLEYEN BİR YAKLAŞIMA İHTİYACIMIZ VAR\"",
                 "cat": "formula 1",
