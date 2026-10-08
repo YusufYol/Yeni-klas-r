@@ -1702,7 +1702,7 @@ const APP_DATA = {
                 {
                     "pos": 1,
                     "name": "Andrea Kimi Antonelli #12",
-                    "pts": 302,
+                    "pts": 320,
                     "team": "Mercedes-AMG Petronas F1 Team"
                 },
                 {
@@ -1714,43 +1714,43 @@ const APP_DATA = {
                 {
                     "pos": 3,
                     "name": "Lewis Hamilton #44",
-                    "pts": 199,
+                    "pts": 214,
                     "team": "Scuderia Ferrari HP"
                 },
                 {
                     "pos": 4,
-                    "name": "Lando Norris #1",
-                    "pts": 186,
-                    "team": "McLaren Formula 1 Team"
+                    "name": "Charles Leclerc #16",
+                    "pts": 191,
+                    "team": "Scuderia Ferrari HP"
                 },
                 {
                     "pos": 5,
-                    "name": "Charles Leclerc #16",
-                    "pts": 179,
-                    "team": "Scuderia Ferrari HP"
+                    "name": "Lando Norris #1",
+                    "pts": 188,
+                    "team": "McLaren Formula 1 Team"
                 },
                 {
                     "pos": 6,
                     "name": "Max Verstappen #3",
-                    "pts": 163,
+                    "pts": 188,
                     "team": "Oracle Red Bull Racing"
                 },
                 {
                     "pos": 7,
                     "name": "Oscar Piastri #81",
-                    "pts": 120,
+                    "pts": 128,
                     "team": "McLaren Formula 1 Team"
                 },
                 {
                     "pos": 8,
                     "name": "Isack Hadjar #6",
-                    "pts": 86,
+                    "pts": 96,
                     "team": "Oracle Red Bull Racing"
                 },
                 {
                     "pos": 9,
                     "name": "Liam Lawson #30",
-                    "pts": 59,
+                    "pts": 65,
                     "team": "Visa Cash App RB F1 Team"
                 },
                 {
@@ -1762,7 +1762,7 @@ const APP_DATA = {
                 {
                     "pos": 11,
                     "name": "Arvid Lindblad #41",
-                    "pts": 37,
+                    "pts": 38,
                     "team": "Visa Cash App RB F1 Team"
                 },
                 {
@@ -1797,21 +1797,21 @@ const APP_DATA = {
                 },
                 {
                     "pos": 17,
+                    "name": "Fernando Alonso #14",
+                    "pts": 7,
+                    "team": "Aston Martin Aramco F1 Team"
+                },
+                {
+                    "pos": 18,
                     "name": "Carlos Sainz Jr. #55",
                     "pts": 7,
                     "team": "Williams Racing"
                 },
                 {
-                    "pos": 18,
+                    "pos": 19,
                     "name": "Alexander Albon #23",
                     "pts": 5,
                     "team": "Williams Racing"
-                },
-                {
-                    "pos": 19,
-                    "name": "Fernando Alonso #14",
-                    "pts": 3,
-                    "team": "Aston Martin Aramco F1 Team"
                 },
                 {
                     "pos": 20,
@@ -1828,12 +1828,6 @@ const APP_DATA = {
                 {
                     "pos": 22,
                     "name": "Valtteri Bottas #77",
-                    "pts": 0,
-                    "team": "Cadillac Formula 1 Team"
-                },
-                {
-                    "pos": 23,
-                    "name": "Sergio Pérez #11",
                     "pts": 0,
                     "team": "Cadillac Formula 1 Team"
                 }
