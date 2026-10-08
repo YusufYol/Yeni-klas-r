@@ -7950,7 +7950,54 @@ const APP_DATA = {
                 "date": "9-11 Ekim",
                 "track": "Mandalika",
                 "isoDate": "2026-10-11",
-                "status": "Bekliyor"
+                "status": "Sıradaki",
+                "trackDetails": {
+                    "len": "4,301 km",
+                    "turns": "17",
+                    "opened": "2022",
+                    "record": "1:28.832 (Marco Bezzecchi)",
+                    "firstWinner": "Miguel Oliveira (2022)",
+                    "mostWinsPilot": "Miguel Oliveira, Francesco Bagnaia, Jorge Martín ve Fermín Aldeguer (1'er Galibiyet)",
+                    "mostWinsTeam": "Ducati (3 Galibiyet)",
+                    "img": "",
+                    "description": "Lombok Adası'nın büyüleyici Hint Okyanusu kıyılarında yer alan Pertamina Mandalika, yüksek hızlı akan virajları, egzotik tatil atmosferi ve sıkça değişen hava koşullarıyla MotoGP takviminin en görkemli kıyı caddesi pistlerinden biridir."
+                },
+                "len": "4,301 km",
+                "turns": "17",
+                "sessions": [
+                    {
+                        "name": "Cuma: 1. Antrenman Seansı",
+                        "time": "05:45"
+                    },
+                    {
+                        "name": "Cuma: Ana Antrenman Seansı",
+                        "time": "10:00"
+                    },
+                    {
+                        "name": "Cumartesi: 2. Antrenman Seansı",
+                        "time": "05:10"
+                    },
+                    {
+                        "name": "Cumartesi: Sıralama Turları 1",
+                        "time": "05:50"
+                    },
+                    {
+                        "name": "Cumartesi: Sıralama Turları 2",
+                        "time": "06:15"
+                    },
+                    {
+                        "name": "Cumartesi: Sprint Yarışı",
+                        "time": "10:00"
+                    },
+                    {
+                        "name": "Pazar: Isınma Turları",
+                        "time": "05:40"
+                    },
+                    {
+                        "name": "Pazar: Yarış",
+                        "time": "10:00"
+                    }
+                ]
             },
             {
                 "round": 18,
