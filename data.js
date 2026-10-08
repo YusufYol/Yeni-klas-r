@@ -12024,52 +12024,52 @@ const APP_DATA = {
                 {
                     "pos": 1,
                     "name": "Aprilia Racing",
-                    "pts": 570
+                    "pts": 617
                 },
                 {
                     "pos": 2,
                     "name": "Ducati Lenovo Team",
-                    "pts": 450
+                    "pts": 495
                 },
                 {
                     "pos": 3,
                     "name": "Trackhouse Racing",
-                    "pts": 425
+                    "pts": 453
                 },
                 {
                     "pos": 4,
                     "name": "Red Bull KTM Factory Racing",
-                    "pts": 328
+                    "pts": 342
                 },
                 {
                     "pos": 5,
-                    "name": "Pertamina Enduro VR46",
-                    "pts": 286
+                    "name": "BK8 Gresini Racing MotoGP",
+                    "pts": 289
                 },
                 {
                     "pos": 6,
-                    "name": "BK8 Gresini Racing MotoGP",
-                    "pts": 282
+                    "name": "Pertamina Enduro VR46",
+                    "pts": 287
                 },
                 {
                     "pos": 7,
                     "name": "Repsol Honda Team",
-                    "pts": 134
+                    "pts": 143
                 },
                 {
                     "pos": 8,
                     "name": "Red Bull KTM Tech3",
-                    "pts": 112
+                    "pts": 133
                 },
                 {
                     "pos": 9,
                     "name": "Castrol Honda LCR",
-                    "pts": 110
+                    "pts": 122
                 },
                 {
                     "pos": 10,
                     "name": "Monster Energy Yamaha MotoGP",
-                    "pts": 85
+                    "pts": 90
                 },
                 {
                     "pos": 11,
