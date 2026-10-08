@@ -155,6 +155,34 @@ function initAppEngine() {
         return { news: [], pilots: [], teams: [], standings: {}, calendar: [], resultsHistory: {} };
     }
 
+    // Seans zamanı: isoDate yarış günüdür; "Cuma:", "Cumartesi:" gibi önekler yarış gününe göre geriye hesaplanır.
+    // Saatler Türkiye saatidir (UTC+3), her cihazda aynı anı gösterir.
+    function getSessionDateTime(event, session) {
+        const parts = (event.isoDate || '').split('-');
+        if (parts.length !== 3 || !session || !session.time) return null;
+        const tp = session.time.split(':');
+        if (tp.length < 2) return null;
+        const y = parseInt(parts[0], 10), m = parseInt(parts[1], 10), d = parseInt(parts[2], 10);
+        const raceDow = new Date(Date.UTC(y, m - 1, d)).getUTCDay();
+        const dayMap = { 'pazar': 0, 'pazartesi': 1, 'sali': 2, 'salı': 2, 'çarşamba': 3, 'carsamba': 3, 'perşembe': 4, 'persembe': 4, 'cuma': 5, 'cumartesi': 6 };
+        const prefix = (session.name || '').split(':')[0].trim().toLocaleLowerCase('tr-TR');
+        let back = 0;
+        if (prefix in dayMap) back = (raceDow - dayMap[prefix] + 7) % 7;
+        const pad = n => String(n).padStart(2, '0');
+        const base = new Date(Date.UTC(y, m - 1, d - back));
+        return new Date(`${base.getUTCFullYear()}-${pad(base.getUTCMonth() + 1)}-${pad(base.getUTCDate())}T${pad(parseInt(tp[0], 10))}:${pad(parseInt(tp[1], 10))}:00+03:00`);
+    }
+
+    function getNextSessionTime(event) {
+        if (!event || !event.sessions) return null;
+        const now = new Date();
+        for (const s of event.sessions) {
+            const t = getSessionDateTime(event, s);
+            if (t && t > now) return { time: t, session: s };
+        }
+        return null;
+    }
+
     // Global Event Logic
     function getGlobalNextEvent() {
         const now = new Date(); // Dinamik güncel tarih
@@ -193,24 +221,26 @@ function initAppEngine() {
                 }
             }
 
-            const parts = e.isoDate.split('-');
-            if (parts.length === 3) {
-                const year = parseInt(parts[0], 10);
-                const month = parseInt(parts[1], 10) - 1;
-                const day = parseInt(parts[2], 10);
-
-                e.endDateTime = new Date(year, month, day, raceHour, raceMinute, 0);
-                // Yarış saatinden 3 saat sonrasına kadar ekranda kalması için 3 saat ekle
-                e.endDateTime.setHours(e.endDateTime.getHours() + 3);
+            const raceS = (e.sessions || []).find(x => x.name.toLowerCase().includes('yarış') && !x.name.toLowerCase().includes('sprint') && !x.name.toLowerCase().includes('sıralama'));
+            const raceT = raceS ? getSessionDateTime(e, raceS) : null;
+            if (raceT) {
+                e.endDateTime = new Date(raceT.getTime() + 3 * 60 * 60 * 1000);
             } else {
-                e.endDateTime = new Date(e.isoDate);
-                e.endDateTime.setHours(23, 59, 59);
+                const parts = e.isoDate.split('-');
+                e.endDateTime = new Date(parseInt(parts[0], 10), parseInt(parts[1], 10) - 1, parseInt(parts[2], 10), 23, 59, 59);
             }
         });
 
         // Sadece "Sıradaki" ve bitiş zamanı şu andan büyük olanları filtrele, sonra tarihe göre sırala
-        const upcoming = allEvents.filter(e => (e.status === "Sıradaki" || e.status === "Siradaki") && e.endDateTime > now);
+        const upcoming = allEvents.filter(e => {
+            const st = (e.status || '').toLowerCase();
+            const done = st.includes('tamamland') || st.includes('ptal');
+            return !done && e.endDateTime > now;
+        });
+        // Admin panelinde "Sıradaki" işaretlenen yarışlar öncelikli; yoksa en yakın bitmemiş yarış seçilir
+        const isNext = e => /s[ıi]radaki/i.test(e.status || '');
         upcoming.sort((a, b) => {
+            if (isNext(a) !== isNext(b)) return isNext(a) ? -1 : 1;
             // Aynı tarihe denk gelen yarışlarda Formula 1'i öne al
             if (a.isoDate === b.isoDate) {
                 if (a.category === 'FORMULA 1' && b.category !== 'FORMULA 1') return -1;
@@ -543,26 +573,9 @@ function initAppEngine() {
             `;
 
             let countdownLabel = 'YARIŞ BAŞLANGICINA KALAN SÜRE:';
-            if (nextEvent.sessions && nextEvent.sessions.length > 0) {
-                const now = new Date();
-                const parts = (nextEvent.isoDate || '').split('-');
-                if (parts.length === 3) {
-                    const y = parseInt(parts[0], 10);
-                    const m = parseInt(parts[1], 10) - 1;
-                    const d = parseInt(parts[2], 10);
-                    for (let s of nextEvent.sessions) {
-                        if (s.time) {
-                            const tp = s.time.split(':');
-                            if (tp.length >= 2) {
-                                const sTime = new Date(y, m, d, parseInt(tp[0], 10), parseInt(tp[1], 10), 0);
-                                if (sTime > now) {
-                                    countdownLabel = `${(s.name || 'SEANS').toUpperCase()}`;
-                                    break;
-                                }
-                            }
-                        }
-                    }
-                }
+            const nextSess = getNextSessionTime(nextEvent);
+            if (nextSess) {
+                countdownLabel = `${(nextSess.session.name || 'SEANS').toUpperCase()}`;
             }
 
             raceCardHtml = `
@@ -878,27 +891,8 @@ function initAppEngine() {
         // Mobil Geri Sayım Ticker'ını Başlat
         if (nextEvent) {
             let targetTime = nextEvent.endDateTime;
-            if (nextEvent.sessions && nextEvent.sessions.length > 0) {
-                const now = new Date();
-                const parts = (nextEvent.isoDate || '').split('-');
-                if (parts.length === 3) {
-                    const y = parseInt(parts[0], 10);
-                    const m = parseInt(parts[1], 10) - 1;
-                    const d = parseInt(parts[2], 10);
-                    for (let s of nextEvent.sessions) {
-                        if (s.time) {
-                            const tp = s.time.split(':');
-                            if (tp.length >= 2) {
-                                const sTime = new Date(y, m, d, parseInt(tp[0], 10), parseInt(tp[1], 10), 0);
-                                if (sTime > now) {
-                                    targetTime = sTime;
-                                    break;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
+            const nextSess = getNextSessionTime(nextEvent);
+            if (nextSess) targetTime = nextSess.time;
             startMobileCountdown(targetTime);
         }
     }
