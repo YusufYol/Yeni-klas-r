@@ -2422,7 +2422,7 @@ const APP_DATA = {
                 "turns": "19",
                 "sessions": [
                     {
-                        "name": "Cuma: 1. Antrenman",
+                        "name": "Cuma: 1. Antrenman Seansı",
                         "time": "12:30"
                     },
                     {
