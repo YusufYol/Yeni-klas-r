@@ -1836,27 +1836,27 @@ const APP_DATA = {
                 {
                     "pos": 1,
                     "name": "Mercedes-AMG Petronas F1 Team",
-                    "pts": 538
+                    "pts": 556
                 },
                 {
                     "pos": 2,
                     "name": "Scuderia Ferrari HP",
-                    "pts": 378
+                    "pts": 405
                 },
                 {
                     "pos": 3,
                     "name": "McLaren F1 Team",
-                    "pts": 306
+                    "pts": 316
                 },
                 {
                     "pos": 4,
                     "name": "Oracle Red Bull Racing",
-                    "pts": 263
+                    "pts": 298
                 },
                 {
                     "pos": 5,
                     "name": "Visa Cash App RB F1 Team",
-                    "pts": 83
+                    "pts": 90
                 },
                 {
                     "pos": 6,
@@ -1881,7 +1881,7 @@ const APP_DATA = {
                 {
                     "pos": 10,
                     "name": "Aston Martin Aramco F1 Team",
-                    "pts": 3
+                    "pts": 7
                 },
                 {
                     "pos": 11,
