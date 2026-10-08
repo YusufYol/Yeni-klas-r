@@ -2412,7 +2412,42 @@ const APP_DATA = {
                 "date": "9-11 Ekim",
                 "track": "Marina Bay",
                 "isoDate": "2026-10-11",
-                "status": "Bekliyor"
+                "status": "Sıradaki",
+                "trackDetails": {
+                    "len": "4,927 km",
+                    "turns": "19",
+                    "opened": "2008",
+                    "record": "1:33.808 (Lewis Hamilton)",
+                    "firstWinner": "Fernando Alonso (2008)",
+                    "mostWinsPilot": "Sebastian Vettel (5 Galibiyet)",
+                    "mostWinsTeam": "Ferrari ve Mercedes (5 Galibiyet)",
+                    "img": "",
+                    "description": "Formula 1 tarihinin ilk gece yarışına ev sahipliği yapan Marina Bay, Singapur'un büyüleyici şehir ışıkları altında yüksek nem, dar virajlar ve sıfır hata payıyla pilotların fiziksel sınırlarını en çok zorlayan ikonik caddelerden biridir."
+                },
+                "len": "4,927 km",
+                "turns": "19",
+                "sessions": [
+                    {
+                        "name": "Cuma: 1. Antrenman",
+                        "time": "12:30"
+                    },
+                    {
+                        "name": "Cuma: Sprint Sıralama Turları",
+                        "time": "15:30"
+                    },
+                    {
+                        "name": "Cumartesi: Sprint Yarış",
+                        "time": "12:00"
+                    },
+                    {
+                        "name": "Cumartesi: Sıralama Turları",
+                        "time": "16:00"
+                    },
+                    {
+                        "name": "Pazar: Yarış",
+                        "time": "15:00"
+                    }
+                ]
             },
             {
                 "round": 20,
