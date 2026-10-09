@@ -6428,6 +6428,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 205,
+                "title": "2026 MOTOGP ENDONEZYA GP: İLK ANTRENMANIN GALİBİ BEZZECCHİ OLDU, TOPRAK 15. SIRADA YER ALDI",
+                "cat": "motogp",
+                "date": "2026-10-09 14:36",
+                "content": "MotoGP dünya şampiyonasında heyecan Endonezya Grand Prix'si ile devam ederken, hafta sonunun açılış seansında pistin en hızlı ismi Marco Bezzecchi oldu. Temsilcimiz Toprak Razgatlıoğlu ise ilk antrenmanı 15. basamakta bitirdi.<br><br>Güneşli ve elverişli hava koşullarında başlayan 45 dakikalık ilk antrenman seansında sürücüler piste orta arka hamurlu lastiklerle çıktı. Mücadelenin hemen başında Raul Fernandez ve Fabio Di Giannantonio temposuyla dikkat çekerken, zirve ismi kısa süreli aralıklarla el değiştirdi. Seansın ilerleyen bölümlerinde Raul Fernandez 1:30.534'lük derecesiyle bir kez daha liderliği yakaladı.<br><br>Açılış seansı bazı talihsiz anlara da sahne oldu. Diego Moreira ve Fermin Aldeguer 1. virajda yaptıkları kazaları yara almadan atlatırken, Ai Ogura 8. ve 9. virajlar arasında yaşadığı kaza sonrasında yaşadığı teknik aksaklıklar sebebiyle seansa geri dönemedi.<br><br>Seansın son bölümlerine girilirken Marco Bezzecchi kaydettiği 1:30.132'lik kusursuz turuyla günün en hızlı derecesine imza attı ve liderliği kimseye bırakmadı. Bu sırada temsilcimiz Toprak ile Francesco Bagnaia arasında pist üzerinde kısa süreli bir tehlike yaşandı. Yamaha'sının viraj içi hızı nedeniyle yavaşlayan Toprak, dış çizgiden gelen Bagnaia'yı pist dışına taşır gibi olunca İtalyan pilot tepki gösterdi. Hakemlerin incelemeye aldığı bu pozisyonda temsilcimize herhangi bir ceza çıkmadı.<br>Antrenmanın son anlarında ise Marc Marquez vites yükseltti. İspanyol efsane, 1:30.369'luk derecesiyle sekizincilikten ikinciliğe tırmanmayı başardı.<br><br>Damalı bayrağın sallandığı seansın sonunda Marco Bezzecchi zirvedeki yerini korurken, son anlarda harika bir çıkış yapan Marc Marquez ikinci, Bezzecchi'nin takım arkadaşı Jorge Martin ise üçüncü oldu. Temsilcimiz Toprak Razgatlıoğlu ise 1:31.372'lik en iyi tur zamanıyla ilk seansı 15. sırada tamamladı.",
+                "img": "Resimler/MotoGP Haberler/1791545797729_IMG_0082.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 201,
                 "title": "MOTOGP PADDOCK’UNDA KARTLAR YENİDEN DAĞITILIYOR: 2027’DE ÇİFTE SIRALAMA DÖNEMİ BAŞLIYOR",
                 "cat": "motogp",
