@@ -6428,6 +6428,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 207,
+                "title": "MARC MARQUEZ: “DUCATI İLE APRILIA ARASINDA GERÇEK BİR FARK VAR!”",
+                "cat": "motogp",
+                "date": "2026-10-09 15:28",
+                "content": "Endonezya Grand Prix'sinin ilk gün antrenmanlarına Aprilia damgasını vururken, Ducati cephesinden dikkat çekici açıklamalar geldi. Takımın deneyimli pilotu Marc Marquez, Aprilia ile aralarındaki performans farkının net bir gerçek olduğunu ve bunu saklamanın bir anlamı kalmadığını belirtti.<br><br>Mandalika Pisti'nde gerçekleştirilen seanslarda Aprilia ekibi adeta rüzgar gibi esti. Trackhouse adına yarışan Raul Fernandez, pist rekorunu kırarak zirveye adını yazdırırken; Noale merkezli üretici ilk üç sırayı kapatarak rakiplerine gözdağı verdi. En iyi dereceyi elde eden Ducati sürücüsü olan Marc Marquez ise günü beşinci sırada, KTM'den Pedro Acosta'nın bile gerisinde kapattı.<br><br>Yapısı gereği hızlı ve akıcı virajlarıyla bilinen Mandalika, geçmişten bu yana Ducati'nin lastik tercihleri ve motosiklet karakteristiği nedeniyle zorlandığı parkurlardan biri olarak dikkat çekiyor. Marquez de kariyeri boyunca bu pistte şanssızlıklar yaşadığını ve pazar günkü ana yarışlarda henüz damalı bayrağı göremediğini hatırlattı.<br><br>Günü değerlendiren İspanyol pilot, seansa beklentilerinden daha iyi bir başlangıç yaptıklarını ancak öğleden sonra tablonun netleştiğini ifade etti. Aradaki yarım saniyelik farkın yapay olmadığını vurgulayan Marquez, şu değerlendirmelerde bulundu:<br><br>\"Aslında güne fena başlamadık, temelimiz kabul edilebilir düzeydeydi. Ancak Assen ve Silverstone'da yaşayacağımızı öngördüğümüz tablo burada da karşımıza çıktı; Aprilia bizden bir adım önde. Raul'un temposu ortada ve aradaki yarım saniyelik fark kesinlikle gerçek, bunu gizleyemeyiz.\"<br><br>Mevcut şartlar altında podyum mücadelesi verebilmek için motosiklet üzerinde ciddi değişiklikler yapmaları gerektiğini belirten son dünya şampiyonu, yarış galibiyetini şu aşamada mantıklı bir hedef olarak görmediğini sözlerine ekledi. Ducati cephesinin elindeki paketle maksimumu alabilmek için çalışmaya devam edeceğini belirten tecrübeli sürücü, \"Damalı bayrak sallanana kadar hiçbir şey kesin değil, elimizden gelenin en iyisini yapacağız\" diyerek hafta sonu için mücadele mesajı verdi.",
+                "img": "Resimler/MotoGP Haberler/1791548932425_IMG_9927.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 206,
                 "title": "2026 MOTOVGP ENDONEZYA GP: RAUL FERNANDEZ ANTRENMANA DAMGA VURDU, TOPRAK 16. OLDU",
                 "cat": "motogp",
