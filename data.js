@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 209,
+                "title": "SQ1'DEKİ KAOSUN NEDENİ ORTAYA ÇIKTI: FIA İNSAN HATASINI DOĞRULADI!",
+                "cat": "formula 1",
+                "date": "2026-10-09 18:03",
+                "content": "Singapur Grand Prix'si sprint sıralama turlarında yaşanan tartışmalı anların ardından FIA'dan resmi açıklama geldi. İlk seans sırasında ortaya çıkan güç modu krizinin arkasında insan kaynaklı bir hata olduğu kabul edildi.<br>Singapur'da nefes kesen hafta sonu sürerken, sprint sıralama turlarında yaşanan aksaklıklar FIA'nın yaptığı resmi açıklamayla netlik kazandı. Pist üzerindeki kalıntılar nedeniyle sallanan kırmızı bayrak sonrasında \"Geçiş Modu\"nun devreye sokulmasında büyük bir aksaklık yaşandığı duyuruldu.<br><br>Yarış kontrol merkezinden yapılan açıklamada, hatanın detayları şu sözlerle paylaşıldı:<br><br>“Sprint sıralama turlarının ilk seansında karşılaşılan zamanlama sorunundan bağımsız olarak, yarış kontrolde insan kaynaklı bir hata yaşanmıştır. Söz konusu hata nedeniyle SQ1'deki kırmızı bayrak periyodunun ardından Geçiş Modu kullanıma sunulamamıştır.”<br><br>Yeniden start anında modun aktif olmadığının fark edilmesinin ardından sistemin aceleyle 27 saniyeliğine devreye sokulduğu, hemen sonrasında ise tekrar kapatıldığı belirtildi.<br><br>Yaşanan talihsizliğin bazı pilotların piste çıkış planlarını ve tur sürelerini doğrudan sabote ettiğini itiraf eden federasyon, sorunun sadece ilk seansla sınırlı kaldığını vurguladı:<br><br>“FIA, yaşanan bu hatanın bazı araçların performansına olumsuz etkide bulunduğunu kabul etmektedir. Ancak sprint sıralama turlarının ikinci ve üçüncü seansları bu durumdan etkilenmemiştir.”<br><br>Öte yandan FIA'nın yayınladığı resmi bildiride, SQ1 seansı esnasında ekranlarda görülen zamanlama ve veri akışı problemlerine değinmemesi ise dikkat çekti.",
+                "img": "Resimler/Formula 1 Haberler/1791558188839_IMG_0086.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 208,
                 "title": "MARİNA BAY'DE NEFES KESEN SPRİNT TURLARI: VERSTAPPEN ZİRVEYİ KİMSEYE BIRAKMADI!",
                 "cat": "formula 1",
