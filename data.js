@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 212,
+                "title": "LANDO NORRIS'TEN SİNGAPUR'DA SERT ÖZELEŞTİRİ: \"BAHANE ARAMIYORUM, SUÇLU BENİM!\"",
+                "cat": "formula 1",
+                "date": "2026-10-09 19:05",
+                "content": "McLaren'ın yıldız pilotu Lando Norris, Singapur Grand Prix'si sprint sıralama turlarının ardından dürüst açıklamalarıyla dikkat çekti. Beklenen tempoyu yakalayamamasının tek sebebinin kendisi olduğunu belirten Britanyalı pilot, arkasına sığınacak hiçbir mazereti olmadığını vurguladı.<br><br>Sıralama seansındaki performansını masaya yatıran Norris, temposuzluğun araçtaki frenlerden kaynaklanıp kaynaklanmadığına dair soruları net bir dille reddetti. \"Sorun kesinlikle frenler değil,\" diyen Norris, \"Sadece iyi bir tur çıkaramadım. Hepsi bu, hiçbir bahanem yok\" sözleriyle sorumluluğu doğrudan üstlendi.<br><br>Hafta sonunun şimdiye kadarki bölümünü ve takımın yaşadığı yakıt enjeksiyonu iddialarını da değerlendiren başarılı pilot, şu ana kadar araçta sürüşü etkileyecek kritik bir problemle karşılaşmadığını belirtti.<br><br>Takımın arka planda yoğun bir mesai harcadığını belirten Norris, şu ifadeleri kullandı:<br><br>\"Yakıt sistemiyle ilgili detaylara tam olarak hakim değilim, ekip bu konuyu derinlemesine inceliyor. Oldukça yoğun bir gündü. Ancak genel tabloya baktığımızda her şey yolunda görünüyor; birbirimize daha yakın duruyor ve tamamen işimize odaklanıyoruz. Kısa ve net söylemek gerekirse; bugün yeterince iyi bir iş çıkaramadım.\"",
+                "img": "Resimler/Formula 1 Haberler/1791561954529_IMG_0089.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 211,
                 "title": "CHARLES LECLERC'TEN SINGAPUR GP’DE AÇIKLAMA: \"SON YARIŞLARDA GERÇEK PERFORMANSIMIZI KAYBETTİK!”",
                 "cat": "formula 1",
