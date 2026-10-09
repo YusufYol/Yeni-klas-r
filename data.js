@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 211,
+                "title": "CHARLES LECLERC'TEN SINGAPUR GP’DE AÇIKLAMA: \"SON YARIŞLARDA GERÇEK PERFORMANSIMIZI KAYBETTİK!”",
+                "cat": "formula 1",
+                "date": "2026-10-09 19:02",
+                "content": "Singapur Grand Prix'si sprint sıralamalarını üçüncü sırada noktalayan Charles Leclerc, Ferrari'nin son dönemdeki düşüşüne dikkat çekti. Sezonun son bölümünde geriye düştüklerini net bir şekilde ifade eden Monakolu pilot, rakipleriyle mücadele etmekte zorlandıklarını saklamadı.<br><br>Sıralama seansının ardından konuşan başarılı sürücü, SQ2'deki turun beklentilerini karşıladığını söylese de rakiplerinin iki soğutma turu tercihine karşılık kendilerinin tek turda kaldığını, ancak bunun arkasına sığınmayacaklarını belirtti.<br><br>Leclerc, takımın durumunu şu sözlerle özetledi: \"Son üç-dört yarıştır asıl hızımızdan uzaklaştık. Şu an galibiyet mücadelesi verecek seviyede değiliz; ancak otomobilde hâlâ açığa çıkmayı bekleyen bir potansiyel var. Yapacağımız doğru hamlelerle zirveye yeniden ortak olabiliriz.\"<br><br>Pist üzerindeki zorluklara da değinen deneyimli pilot, Singapur'un yapısı gereği geçişe pek izin vermediğini, bu yüzden pazar günkü ana yarış öncesi asıl kritik sınavın cumartesi günkü sıralama seansında verileceğini vurguladı.",
+                "img": "Resimler/Formula 1 Haberler/1791561724235_IMG_0088.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 210,
                 "title": "SİNGAPUR’DA YARIŞ SONRASI MERCEDES ÇIKMAZI: RUSSELL ESKİ PAKETLE PARLADI, ANTONELLİ ÇÖZÜM ARIYOR",
                 "cat": "formula 1",
