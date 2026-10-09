@@ -6428,6 +6428,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 206,
+                "title": "2026 MOTOVGP ENDONEZYA GP: RAUL FERNANDEZ ANTRENMANA DAMGA VURDU, TOPRAK 16. OLDU",
+                "cat": "motogp",
+                "date": "2026-10-09 14:40",
+                "content": "2026 MotoGP Endonezya Grand Prix'sinin nefes kesen ana antrenman seansı, peş peşe gelen kazalar ve büyük çekişmeye sahne oldu. Seansın en hızlı ismi tur rekorunu da kıran Raul Fernandez olurken, milli temsilcimiz Toprak Razgatlıoğlu 16. sıranın sahibi oldu.<br>Önceki seansın (Moto2) uzaması nedeniyle 35 dakikalık bir rötarla start alan ana antrenman seansında, yeşil bayrakların sallanmasıyla birlikte pilotlar hızla piste akın etti. Tüm isimlerin ön tarafta yumuşak, arkada ise yumuşak ve orta hamurlu lastikleri tercih ettiği gözlendi.<br><br>Mücadelenin hemen başında Marco Bezzecchi, kaydettiği 1:30.272'lik derecesiyle liderliği ele geçirdi. Bu esnada Fermin Aldeguer 17. virajda talihsiz bir kaza yaşayarak erken bir şekilde pit alanına döndü. Temsilcimiz Toprak Razgatlıoğlu ise seansın bu anlarında 15. basamakta yer alıyordu.<br>Seansın ortalarına doğru Raul Fernandez vites yükseltti. 1:29.793lük turuyla Bezzecchi'yi geride bırakıp zirveye yerleşen İspanyol sürücüyü Fabio Quartararo takip etti. Ancak Fransız pilot, kısa süre sonra sert bir kaza yaparak herkesi korkuttu. Bu dakikalarda Fabio Di Giannantonio ise zaman tablosunun tepesine tırmanmayı başardı.<br><br>Seansın son dakikaları adeta bir kaza festivaline döndü. Jorge Martin'in motosikletinin arka aerodinamik parçaları kopup piste saçılırken, Enea Bastianini de kaza yapan isimler kervanına katıldı.<br>Zirvedeki yerini sağlamlaştırmak isteyen Raul Fernandez, harika bir tur atarak 1:28.725 ile tur rekorunu kırdı ve liderliğini perçinledi. Marc Marquez ise seansın sonunda ikinci sıraya tırmanmayı başardı.<br>Seansın başındaki kazasını telafi etmek için tekrar piste çıkan Fermin Aldeguer bu kez mekanik bir arıza engeliyle karşılaşarak garaja çekildi. Ardından sırasıyla Diego Moreira, Alex Marquez, Alex Rins ve Enea Bastianini'nin peş peşe yaptıkları kazalar seansa damga vurdu.<br><br>Yoğun kazalar ve sarı bayraklar altında sallanan damalı bayrak sonrasında liderlik koltuğunu bırakmayan Raul Fernandez, ana antrenmanı zirvede tamamladı. Marco Bezzecchi ikinci olurken, Jorge Martin üçüncü sırayı elde etti. Milli gururumuz Toprak Razgatlıoğlu ise zorlu geçen ve kazalarla noktalanan seansı 16. sırada tamamladı.",
+                "img": "Resimler/MotoGP Haberler/1791546055368_IMG_0083.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 205,
                 "title": "2026 MOTOGP ENDONEZYA GP: İLK ANTRENMANIN GALİBİ BEZZECCHİ OLDU, TOPRAK 15. SIRADA YER ALDI",
                 "cat": "motogp",
