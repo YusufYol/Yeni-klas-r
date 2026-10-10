@@ -6478,6 +6478,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 214,
+                "title": "MANDALİKA'DA SÜRPRİZ POLE: RAUL FERNANDEZ KAZANDI, TOPRAK 19. SIRADA!",
+                "cat": "motogp",
+                "date": "2026-10-10 12:10",
+                "content": "MotoGP Endonezya Grand Prix’sinde heyecan dolu sıralama turları geride kaldı. Mandalika Pisti’nde nefes kesen seansın galibi, kariyerinde ilk kez pole pozisyonuna uzanan Raul Fernandez oldu. Temsilcimiz Toprak Razgatlıoğlu ise zorlu mücadeleyi 19. sırada tamamladı.<br><br>İdeal hava koşulları ve antrenmanlara benzer zemin şartlarında başlayan birinci sıralama seansı, üst üste gelen kazalarla dikkat çekti. Seansın başında motosikletinin kontrolünü kaybeden Johann Zarco, aracını toparlayıp piste dönmeyi başardı.<br><br>Ai Ogura’nın 1:30.569 ile liderliği almasının ardından Fermin Aldeguer ikinci sıraya yerleşti. Son 5 dakikaya girilirken derecesini 1:29.729’a çeken Ogura, hemen ardından çakıl havuzuna savrularak motosikletinde ciddi hasara yol açan bir kaza yaptı. Kısa bir süre sonra Zarco seanstaki ikinci kazasını yaşarken, Toprak Razgatlıoğlu’nun takım arkadaşı Jack Miller da düşen isimler arasına katıldı. Birinci virajda Enea Bastianini ve Diogo Moreira’nın da düşmesiyle seans iyice hareketlendi; her iki pilot da önemli bir problem yaşamadan ayağa kalktı.<br><br>Seansın son anlarında 1:29.639 ile liderliğe tırmanan Aldeguer ve kazasına rağmen derecesi ikinci sırada kalan Ogura, adlarını Q2’ye yazdırmayı başardı. Temsilcimiz Toprak Razgatlıoğlu ise 1:30.532’lik zamanıyla Q1’i 9. sırada noktalayarak yarışa 19. cepten başlama hakkı elde etti.<br><br>Günün en hızlı 12 isminin pole savaşına sahne olan Q2’de açılışı Marc Marquez yaptı; İspanyol pilot 1:29.265 ile erken liderliği aldı. Ancak Marco Bezzecchi temposunu hızla artırarak 1:28.961 ile zirveyi Marquez’den söktü aldı. Bu sırada güçlü bir tur çıkaran Raul Fernandez de 1:29.172 ile ikinci sıraya yerleşti.<br><br>Pite girip son ayarlarını yapan sürücüler, bitime 5 dakika kala son kozlarını paylaşmak üzere piste döndü. Fernandez, attığı 1:28.852’lik müthiş turla zaman tablosunun tepesine tırmandı.<br><br>Bezzecchi, ilk iki sektörde mor derecelerle gelerek pole pozisyonunu zorlarken Aldeguer kaza yaptı. Sallanan sarı bayraklar nedeniyle İtalyan sürücü hız kesmek zorunda kaldı. Seansın son anlarında bayraklar kalksa da ne Bezzecchi ne de Marquez kalan sürede fark yaratacak tempoyu yakalayamadı ve turlarını bıraktı.<br><br>Böylece Raul Fernandez, kariyerinin ilk MotoGP pole pozisyonunu elde ederek pazar günkü yarış öncesi büyük bir avantaj yakaladı.",
+                "img": "Resimler/MotoGP Haberler/1791623410133_IMG_0094.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 213,
                 "title": "BEZZECCHİ MANDALİKA'DA 2. ANTRENMAN SEANSINDA ZİRVEYİ ALDI, TOPRAK RAZGATLIOĞLU'NDAN KORKUTAN KAZA!",
                 "cat": "motogp",
