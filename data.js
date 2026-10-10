@@ -6478,6 +6478,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 213,
+                "title": "BEZZECCHİ MANDALİKA'DA 2. ANTRENMAN SEANSINDA ZİRVEYİ ALDI, TOPRAK RAZGATLIOĞLU'NDAN KORKUTAN KAZA!",
+                "cat": "motogp",
+                "date": "2026-10-10 12:01",
+                "content": "2026 MotoGP Endonezya Grand Prix'si hafta sonu nefes kesen anlara sahne olurken, sıralama turları öncesindeki son antrenman seansında Marco Bezzecchi adını zirveye yazdırmayı başardı. Ancak seansa damgasını vuran olay, milli temsilcimiz Toprak Razgatlıoğlu'nun yaşadığı talihsiz ve sert kaza oldu.<br><br>Mandalika Pisti'nde cumartesi sabahı düzenlenen 2. antrenman seansında pilotlar genellikle yumuşak hamurlu ön ve arka lastikleri tercih ederken, sadece Brad Binder ile Ai Ogura arka tarafta orta hamurla piste çıkmayı seçti. Seansın ilk dakikalarında Raul Fernandez 1:29.899'luk derecesiyle hızla liderliğe yükselirken, Pedro Acosta onu 0.3 saniye farkla takip etti.<br><br>Seansın henüz ilk dakikalarında turlarını atarken sert bir kaza yapan Toprak Razgatlıoğlu, doğrudan sağ omzunun üzerine düştü. Düştükten sonra sağ omzunu tuttuğu görülen başarılı sürücünün durumu endişe yaratırken, pist görevlileri hemen kırmızı bayrak sallayarak seansı durdurdu.<br><br>Pistteki temizlik çalışmalarının ardından yeşil bayraklar yeniden sallandı ve seans kaldığı yerden devam etti. Takımdan yapılan ilk açıklamalara göre, kazada sağ omzu çıkan Toprak'ın omzunun sağlık ekipleri tarafından yerine oturtulduğu bildirildi. Yaşadığı bu talihsizliğe rağmen seansı bırakmayan temsilcimiz, antrenmanı 19. sırada tamamladı.<br><br>Seansın orta bölümüne gelindiğinde vites yükselten Marco Bezzecchi, kaydettiği 1:29.560'lık harika tur zamanıyla liderliği ele geçirdi. Bu esnada tecrübeli isim Aleix Espargaro da bir kaza yaparak motosikletiyle garaja dönmek zorunda kaldı.<br><br>Damalı bayrağın sallandığı seansın sonunda Marco Bezzecchi adını zirveye yazdırarak birinci olurken, Raul Fernandez ikinci, Marc Marquez ise üçüncü sıranın sahibi oldu; ayrıca Fabio Di Giannantonio dördüncü, Jorge Martin beşinci ve Pedro Acosta da seansı altıncı sırada tamamladı.",
+                "img": "Resimler/MotoGP Haberler/1791622907315_IMG_0093.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 207,
                 "title": "MARC MARQUEZ: “DUCATI İLE APRILIA ARASINDA GERÇEK BİR FARK VAR!”",
                 "cat": "motogp",
