@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 222,
+                "title": "FERNANDO ALONSO GELECEK PLANLARINA AÇIKLIK GETİRDİ: GÜNDEMİNDE DAKAR VE GT3 YOK",
+                "cat": "formula 1",
+                "date": "2026-10-10 17:02",
+                "content": "Aston Martin’in deneyimli pilotu Fernando Alonso, motor sporları dünyasında dolaşan gelecek planlarına dair söylentilere Singapur Grand Prix’si öncesinde gerçekleştirdiği basın toplantısıyla nokta koydu.<br><br>İki kez dünya şampiyonu İspanyol sürücü, özellikle 2027 Dakar Rallisi’ne katılacağı yönündeki iddiaları net bir dille yalanlayarak şu ifadeleri kullandı:<br><br>“2027 Dakar Rallisi planlarım arasında kesinlikle yer almıyor. Formula 1 takviminin yoğunluğu ve gereksinimleri böyle bir organizasyonla uyuşmuyor. F1 arenası dışında farklı bir projeye adım atacağım gün geldiğinde bunu bizzat ben açıklarım; kulaktan dolma söylentilere veya spekülasyonlara gerek yok.”<br><br>Adı son dönemde GT3 kategorisiyle de anılan tecrübeli pilot, bu ihtimalin de masada olmadığını vurguladı. GT3’ün üst düzey bir odaklanma istediğini belirten Alonso, “Her motor sporları disiplini ciddi bir hazırlık ve antrenman süreci gerektirir; GT3 de farksız değil. Alanında uzman sürücülerin yer aldığı, son derece çekişmeli bir seri” diyerek farklı kategorilere geçiş iddialarına kapıyı kapattı.",
+                "img": "Resimler/Formula 1 Haberler/1791640928653_IMG_0124.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 221,
                 "title": "FIA'DAN 2027 İÇİN HAREKETLİ KANAT AYARI: FERRARI'NIN \"MACARENA\" ÇÖZÜMÜ DEĞİŞMEK ZORUNDA MI?",
                 "cat": "formula 1",
