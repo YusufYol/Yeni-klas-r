@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 221,
+                "title": "FIA'DAN 2027 İÇİN HAREKETLİ KANAT AYARI: FERRARI'NIN \"MACARENA\" ÇÖZÜMÜ DEĞİŞMEK ZORUNDA MI?",
+                "cat": "formula 1",
+                "date": "2026-10-10 15:59",
+                "content": "FIA, 2027 teknik düzenlemeleri kapsamında hareketli aerodinamik parçaların çalışma dinamiklerine doğrudan müdahale etmeye hazırlanıyor. Federasyonun masadaki en kritik planı, hareketli kanatların kapanma süresini 400 milisaniyeden 300 milisaniyeye çekmek.<br><br>İtalyan ekibinin egzoz gazı yönlendirmesiyle çalışan FTM konsepti 2027 regülasyonlarıyla tamamen rafa kalkarken, asıl soru işaretleri hareketli arka kanat mekanizması üzerinde yoğunlaşıyor. İlk olarak Şanghay'da SF-26 üzerinde görülen ve ardından Red Bull, McLaren ile Racing Bulls'un da kendi yorumlarıyla benimsediği sistem, sezon ortasında güvenlik tartışmalarına konu olmuştu. Hatırlanacağı üzere Max Verstappen, Avusturya sıralama turlarında ve Britanya GP'de kanat mekanizmasındaki sorunlar nedeniyle tehlikeli anlar yaşamış, sorunlar ancak Macaristan'a doğru çözülebilmişti.<br><br>Bu olayların ardından teknik incelemelerini sıkılaştıran federasyon, parçanın kapanma hızının ötesinde, yeniden maksimum yere basma gücü üretmeye başladığı geçiş anındaki hava akışı davranışını inceledi. Alınan son karara göre Macarena tipi tasarımlar tamamen yasaklanmayacak; ancak kapanma süresinin 0,3 saniyeye indirilmesi mekanik dengeleri baştan yazacak.<br><br>Bu kural güncellemesi özellikle Maranello cephesini zorlayabilir. Rakipleri kanat dönüş açısını 150-160 derece civarında tutarken, Ferrari'nin geliştirdiği mekanizma 270 dereceye kadar dönen çok daha radikal bir hareket aralığına sahip. Üstelik hidrolik aktüatörü merkezi konumdan kanat kenar plakasına taşıyan Ferrari mühendislerinin, böylesine geniş bir rotasyonu 100 milisaniye daha kısa sürede tamamlaması ciddi bir mühendislik meydan okuması anlamına geliyor.<br><br>Takımın 270 derecelik bu karakteristik açıdan vazgeçip rakiplerinin daha kompakt tasarımlarına mı yöneleceği, yoksa mevcut mimariyi hızlandıracak bir ara çözüm mü üreteceği merak konusu. Ancak padoktan gelen bilgiler, Ferrari tarafında panik havası olmadığını ve mühendislerin 2027 paketi için gereken adaptasyonu şimdiden simülasyonlara dahil ettiğini gösteriyor.",
+                "img": "Resimler/Formula 1 Haberler/1791637137135_IMG_0123.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 220,
                 "title": "MCLAREN’DA SON TUR GERİLİMİ: NORRIS VE PIASTRI’DEN ÇARPIŞMA SONRASI İLK AÇIKLAMALAR",
                 "cat": "formula 1",
