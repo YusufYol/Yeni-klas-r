@@ -6508,6 +6508,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 219,
+                "title": "BRIVIO’DAN MARQUEZ VE MARTIN’E SERT TEPKİ: “İLK VİRAJDA GEREKSİZ BİR AGRESİFLİK VARDI”",
+                "cat": "motogp",
+                "date": "2026-10-10 14:22",
+                "content": "Endonezya GP sprint yarışının henüz ilk anlarında meydana gelen ve birden fazla sürücüyü saf dışı bırakan kaza, padoğu hareketlendirdi. Trackhouse Racing’in patronu Davide Brivio, yaşanan kaosun arkasındaki temel nedenin Marc Marquez ve Jorge Martin’in aşırı hırslı sürüşü olduğunu savundu.<br><br>Mandalika’da koşulan 13 turluk sprint mücadelesi, kırmızı ışıkların sönmesiyle birlikte büyük bir gerilime sahne oldu. Pole pozisyonundan kalkan Raul Fernandez ve fabrika Aprilia'sıyla Marco Bezzecchi dış hattı tutarken; iç çizgide VR46’dan Fabio Di Giannantonio ve çizgiyi zorlayan Marc Marquez yer alıyordu. İlk viraj girişinde Di Giannantonio’nun hafifçe dışa açılmasıyla Marquez motosikletini düzeltmek durumunda kaldı. Bu temas silsilesi Bezzecchi’yi de etkilerken, arkadan gelen Fernandez motosikletinin kontrolünü yitirdi ve her iki Aprilia sürücüsü de kendilerini çakıl havuzunda buldu. Yaşanan bu büyük karışıklık ise en çok geriden gelip liderliği kapan Jorge Martin’e yaradı.<br><br>Yarış sonrası resmi yayına konuşan Trackhouse takım patronu Davide Brivio, Marquez ve Martin’in ilk metrelerdeki tutumunu açıkça eleştirdi:<br><br>\"Gerçekten zor bir an yaşandı. Tekrarlara baktığımızda Jorge ve Marc’ın ilk viraja girerken haddinden fazla agresif davrandığını açıkça görebiliyorsunuz. Maksimum sayıda sıra kapmak adına diğer sürücüleri hiçe sayarak içeri daldılar ve bu tablonun ortaya çıkmasına neden oldular. İlk viraj için gereğinden fazla sert bir yaklaşımdı; gerçi onların tarzını bildiğim için bu tablo beni pek de şaşırtmadı.\"<br><br>Yarış kontrolü ilk virajdaki bu zincirleme kaza için herhangi bir resmi soruşturma açmazken, günün en büyük kaybını şampiyona liderinin 59 puan gerisine düşerek zirve yarışında ağır bir yara alan Marco Bezzecchi yaşadı.",
+                "img": "Resimler/MotoGP Haberler/1791631342785_IMG_0121.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 215,
                 "title": "ENDONEZYA'DA NEFES KESEN SPRİNT: MARC MARQUEZ GERİDEN GELİP KAZANDI, TOPRAK MÜCADELEYİ BIRAKMADI!",
                 "cat": "motogp",
