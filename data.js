@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 220,
+                "title": "MCLAREN’DA SON TUR GERİLİMİ: NORRIS VE PIASTRI’DEN ÇARPIŞMA SONRASI İLK AÇIKLAMALAR",
+                "cat": "formula 1",
+                "date": "2026-10-10 14:29",
+                "content": "Yarışın son turunda pist üstünde karşı karşıya gelen McLaren pilotları Lando Norris ve Oscar Piastri’nin teması, yarış sonrası padokta en çok konuşulan konu oldu. Kazanın ardından mikrofon başına geçen iki pilot da odak noktalarının takım olduğunu vurguladı.<br><br>Olayın hemen ardından sıcağı sıcağına net bir yorum yapmaktan kaçınan Lando Norris, ilk olarak görüntüleri garajda detaylıca analiz etmek istediğini belirtti. Temasa rağmen atağının arkasında duran Britanyalı sürücü, aralarındaki mesafenin yakınlığı sorulduğunda geçiş fırsatının var olduğunu savundu:<br><br>\"Bence orada geçiş için yeterli alan ve imkân vardı. Yine de olanlar sebebiyle telsizden tüm takımdan özür diledim. Şimdi oturup ekiple birlikte görüntüleri izleyecek ve durumu değerlendireceğiz.\"<br><br>Olay anını net bir şekilde göremediğini belirten Oscar Piastri ise pozisyon kaybından ziyade takımın sırtına binen iş yüküne dikkat çekti. Genç pilot, asıl kaybın garajda yaşanacağını ifade ederek şunları söyledi:<br><br>\"Benim açımdan sprint yarışında 4. ya da 5. olmak çok büyük bir fark yaratmıyordu, bu yüzden sonuca takılmıyorum. Asıl canımı sıkan, ekibin her iki aracı da toparlamak için vermek zorunda kalacağı ekstra mesai. Gerçekten takımdaki çalışanlar adına üzgünüm.\"",
+                "img": "Resimler/Formula 1 Haberler/1791631738596_IMG_0122.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 218,
                 "title": "SİNGAPUR GP SIRALAMA SEANSI ERTELENDİ: GÖZLER FIA'NIN YAPACAĞI AÇIKLAMADA",
                 "cat": "formula 1",
