@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 218,
+                "title": "SİNGAPUR GP SIRALAMA SEANSI ERTELENDİ: GÖZLER FIA'NIN YAPACAĞI AÇIKLAMADA",
+                "cat": "formula 1",
+                "date": "2026-10-10 14:16",
+                "content": "Formula 1 Singapur Grand Prix'sinde hava muhalefeti programın aksamasına yol açtı. Marina Bay Cadde Pisti'nde koşulan sprint yarışı öncesinde bastıran şiddetli yağış, sıralama seansının da ertelenmesini beraberinde getirdi.<br><br>Sprint mücadelesine yaklaşık 15 dakika kala pistin belirli bölümlerini etkisi altına alan sağanak nedeniyle pistte su tahliye çalışmaları yapıldı ve başlangıç 30 dakika gecikti. TSİ 12.00'den 12.30'a sarkan yarışta damalı bayrak TSİ 13.16'da sallanırken, zafer Lewis Hamilton ve Charles Leclerc'in önünde bitiş çizgisine ulaşan Max Verstappen'in oldu.<br><br>Günün devamında TSİ 16.00'da başlaması öngörülen sıralama turları ise kural engeline takıldı. FIA sportif regülasyonlarına göre sıralama seansının sprint yarışının tamamlanmasının ardından en erken üç saat sonra başlatılabilmesi gerekiyor. Bitiş saati nedeniyle bu sürenin dolmaması üzerine yetkililer sıralama turlarının ertelendiğini ve seansın yeni başlangıç saatinin kısa süre içinde paylaşılacağını bildirdi.",
+                "img": "Resimler/Formula 1 Haberler/1791630965018_IMG_0120.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 217,
                 "title": "SİNGAPUR’DA KAOSUN GALİBİ VERSTAPPEN: FERRARI ÇİFTE PODYUM YAPTI, MCLAREN’LER SON TURDA BİRBİRİNE GİRDİ!",
                 "cat": "formula 1",
