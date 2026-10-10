@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 216,
+                "title": "VERSTAPPEN'IN ÇOK GERİSİNDE KALAN HADJAR PATLADI: \"BU ARAÇ BANA HİÇ SÜRÜLEBİLİR GELMİYOR\"",
+                "cat": "formula 1",
+                "date": "2026-10-10 12:24",
+                "content": "Red Bull pilotu Isack Hadjar, Singapur Grand Prix'si sprint sıralama seansında yaşadığı ciddi denge ve çekiş problemlerinin ardından sert açıklamalarda bulundu. Hafta sonuna RB22'nin tabanının yere sürtmesi şikayetiyle başlayan genç sürücü, aracın kontrol edilemez bir noktaya geldiğini vurguladı.<br><br>Cuma günkü tek antrenman seansında sert hamur lastiklerle iyi bir ritim yakalayan ve takım arkadaşı Max Verstappen'i geride bırakarak dördüncü sıraya yerleşen Hadjar için işler lastik stratejisi değiştikçe sarpa sardı. Orta hamura geçildiğinde Hollandalı pilotun 0.7 saniye gerisine düşen Fransız sürücü, sprint sıralamasının final bölümünde yumuşak lastiklerle piste çıktı. 1:32.048 kaydederek Verstappen'in zirve derecesinin yaklaşık 0.9 saniye gerisinde kalan Hadjar, pist sınırlarını aştığı gerekçesiyle bu turunu da sildirdi.<br><br>Seans sonrasında RB22 ile yaşadığı uyumsuzluğu dile getiren Hadjar, durumu anlamakta güçlük çektiğini belirtti:<br><br>\"Güne harika bir başlangıç yaptık gibi görünüyordu ancak seanslar ilerledikçe hızımızı tamamen kaybettik. İlk antrenmanda yalnızca sert hamur takılıyken kendimi araca hâkim hissedebildim, hepsi bundan ibaretti.<br><br>Temiz bir tur çıkarmak imkânsızdı; direksiyon başında sürekli araçla boğuştum. Son denememde buna bir de motor sıkıntısı eklendi. Neler olduğunu çözemiyorum, gerçekten çok tuhaf bir durum. Yumuşak lastiklerle yol tutuşu artsa da rakiplerimiz de aynı avantaja sahipti, bu yüzden geride kaldık. Açıkçası araç şu an hiçbir şekilde sürülebilir gibi hissettirmiyor.\"",
+                "img": "Resimler/Formula 1 Haberler/1791624283087_IMG_0099.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 212,
                 "title": "LANDO NORRIS'TEN SİNGAPUR'DA SERT ÖZELEŞTİRİ: \"BAHANE ARAMIYORUM, SUÇLU BENİM!\"",
                 "cat": "formula 1",
