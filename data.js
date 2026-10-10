@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 217,
+                "title": "SİNGAPUR’DA KAOSUN GALİBİ VERSTAPPEN: FERRARI ÇİFTE PODYUM YAPTI, MCLAREN’LER SON TURDA BİRBİRİNE GİRDİ!",
+                "cat": "formula 1",
+                "date": "2026-10-10 13:46",
+                "content": "2026 Formula 1 Singapur Grand Prix’sinde heyecan fırtınası sprint yarışıyla başladı. Marina Bay sokaklarındaki yoğun yağışın vurduğu ve peş peşe kazaların yaşandığı dramatik mücadelede damalı bayrağı ilk sırada gören isim Max Verstappen oldu. Ferrari pilotları çifte podyumla şov yaparken, Russell ve Piastri puan savaşına erken veda etti.<br><br>Pistteki yoğun su birikintisi nedeniyle 30 dakikalık gecikmeyle başlayan 20 turluk sprint seansında start durarak verildi. Beş kırmızı ışık söndüğünde istediği çekişi yakalayamayan Verstappen, liderliği George Russell’a kaptırdı. Arka tarafta ise fırtına gibi bir kalkışa imza atan Lewis Hamilton, altıncı sıradan üçüncülüğe kadar tırmandı. Takım arkadaşı Charles Leclerc dördüncü sıraya otururken, Lando Norris ilk metrelerde tam beş sıra birden kaybederek gerilere düştü.<br><br>Yarışın henüz 2. turunda lider Russell, start-finiş düzlüğüne bağlanırken kontrolü kaybedip bariyerlerle kucaklaştı ve yarışa veda etti. Kazanın ardından piste giren Güvenlik Aracı arkasında adeta yaprak dökümü yaşandı. Lance Stroll ile Sergio Perez girdikleri ikili mücadelede temas yaşayarak yarış dışı kaldı. Mekanik arıza yaşayan Isack Hadjar ve Franco Colapinto araçlarını kenara çekmek zorunda kaldı. Yeniden start verildiğinde Verstappen, arkasındaki Hamilton’ın baskısına direnerek liderliğini korumayı başardı.<br><br>Yarışın orta bölümünde tansiyon yine düşmedi. 16. virajda Alex Albon’un Gabriel Bortoleto’ya arkadan çarpması zincirleme bir kazaya dönüştü; olaydan Valtteri Bottas da nasibini aldı ve hem Bortoleto hem Bottas için yarış orada bitti. Albon ise bitime 5 tur kala takımın talimatıyla pite dönerek mücadeleyi noktaladı.<br><br>Nispeten durulan yarışın son turunda ise ekran başındakileri şoke eden bir McLaren içi temas yaşandı. Takım arkadaşı Oscar Piastri’ye atak yapan Norris, temas sonrası Avustralyalı pilotla birlikte spin attı. Piastri yarış dışı kalırken, Norris büyük yara almasına rağmen puana tutunmayı başardı.<br><br>Tüm bu kaosun arasından hatasız sıyrılan Max Verstappen, Marina Bay sprintinin galibi oldu. İstikrarlı ve hatasız sürüşleriyle Ferrari ikilisi Lewis Hamilton ve Charles Leclerc podyumu tamamlayan isimler oldu.<br><br>McLaren'ların son turdaki temasından en karlı çıkan Kimi Antonelli dördüncü sıraya yükselirken; Liam Lawson beşinci, Oliver Bearman ise altıncı sırayı aldı. Sprintin kalan puanları Nico Hülkenberg ve yaralı McLaren'ıyla Lando Norris'e gitti.",
+                "img": "Resimler/Formula 1 Haberler/1791629181962_IMG_0119.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 216,
                 "title": "VERSTAPPEN'IN ÇOK GERİSİNDE KALAN HADJAR PATLADI: \"BU ARAÇ BANA HİÇ SÜRÜLEBİLİR GELMİYOR\"",
                 "cat": "formula 1",
