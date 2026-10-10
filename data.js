@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 224,
+                "title": "SİNGAPUR’DA ZİRVE VERSTAPPEN’IN: \"TAM OLARAK İSTEDİĞİMİZİ ALDIK\"",
+                "cat": "formula 1",
+                "date": "2026-10-10 18:02",
+                "content": "Red Bull Racing’in şampiyon pilotu Max Verstappen, Singapur Grand Prix'si sıralama turlarında en hızlı dereceye imza atarak yarışa ilk cepten başlama hakkı kazandı. Başarılı pilot, elde edilen bu pole pozisyonunun takım açısından taşıdığı öneme dikkat çekti.<br><br>Zorlu seansın ardından konuşan Hollandalı sürücü, Marina Bay Pisti'nde hafta sonunun başından bu yana yakaladıkları güçlü ivmenin altını çizdi.<br><br>Mücadeleyi değerlendiren Verstappen, \"Sıralama seansı boyunca rekabet oldukça yoğundu ve farklar kıl payı kaldı. Ancak hafta sonunun tamamında otomobilin performansı üst seviyedeydi. Geliştirilebilecek ufak detaylar her zaman bulunsa da attığımız tur bizi ilk sıraya taşımaya yetti. Buradaki temel gayemiz tam olarak buydu, dolayısıyla son derece memnunum. Takım olarak yakaladığımız yükselişi Singapur’da pole pozisyonuyla taçlandırmak bizim adımıza son derece değerli bir sonuç oldu,\" ifadelerini kullandı.",
+                "img": "Resimler/Formula 1 Haberler/1791644561927_IMG_0126.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 223,
                 "title": "2026 SİNGAPUR GP: YAĞMUR SONRASI GELEN NEFES KESEN SEANSTA POLE MAX VERSTAPPEN’IN, FERRARI İKİLİSİ TAKİPTE!",
                 "cat": "formula 1",
