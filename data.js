@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 223,
+                "title": "2026 SİNGAPUR GP: YAĞMUR SONRASI GELEN NEFES KESEN SEANSTA POLE MAX VERSTAPPEN’IN, FERRARI İKİLİSİ TAKİPTE!",
+                "cat": "formula 1",
+                "date": "2026-10-10 17:59",
+                "content": "Marina Bay Şehir Pisti'nde koşulan Singapur Grand Prix'si sıralama turlarında damalı bayrağı zirvede gören isim Red Bull pilotu Max Verstappen oldu. Sprint yarışındaki yoğun yağışın ardından seans yarım saatlik rötarlı başlarken, kuruyan zeminde son ana kadar süren pole mücadelesinde Charles Leclerc ikinci, Lewis Hamilton ise üçüncü sırayı kaptı.<br><br>Sprint seansını vuran şiddetli fırtınanın dinmesiyle gecikmeli olarak yeşil ışığın yandığı Q1'de pilotlar kaygan zeminde tutunmakta zorlandı. Esteban Ocon ve Lance Stroll'ün son anda atlattığı bariyer temaslarının ardından ilk ciddi dereceler gelmeye başladı. Fransız çaylak Isack Hadjar güç ünitesi ve vites kutusu arızası nedeniyle erken havlu atarken; Lewis Hamilton, Lando Norris ve Oscar Piastri arasında kıyasıya bir liderlik savaşı yaşandı. İlk bölümün sonunda Fernando Alonso, Alexander Albon, Lance Stroll, Sergio Perez, Valtteri Bottas ve seansı garajda tamamlayan Hadjar elenmekten kurtulamadı.<br><br>İkinci bölümde pistin hızlanmasıyla dereceler ciddi oranda aşağı çekildi. Mercedes pilotları Kimi Antonelli ve George Russell'ın rekabetiyle başlayan Q2'de, Hamilton 1:31.766 ile zirveye yerleşti. Vites geçişlerindeki sertlikten şikâyet eden Verstappen ise son bölüme doğru attığı 1:31.639'luk turla toparlanarak üst sıralara tırmandı. Franco Colapinto'nun duvara sürtünerek zaman kaybettiği seans sonunda; Carlos Sainz, Nico Hülkenberg, Oliver Bearman, Esteban Ocon, Gabriel Bortoleto ve Colapinto ilk 10 dışı kalarak elenen isimler oldu.<br><br>Kritik Q3 seansında ise tansiyon tavan yaptı. İlk denemelerde 1:31.373 kaydeden Verstappen çıtayı oldukça yukarı koydu. Mercedes cephesinden Antonelli ve Ferrari'den Hamilton bu dereceyi zorlasa da Hollandalı pilotu geçmeyi başaramadı. Son anlarda sahneye çıkan Charles Leclerc, 1:31.427 ile takım arkadaşı Hamilton'ı geride bırakarak ikinci cebe yerleşti.<br><br>Verstappen'in ilk sıradaki yerini koruduğu seansta Red Bull pole pozisyonuna uzanırken, arkasındaki Leclerc ve Hamilton ikilisi pazar günkü yarış öncesinde gridin ilk çizgilerini nefes kesen bir kapışmaya hazırladı.",
+                "img": "Resimler/Formula 1 Haberler/1791644384236_IMG_0125.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 222,
                 "title": "FERNANDO ALONSO GELECEK PLANLARINA AÇIKLIK GETİRDİ: GÜNDEMİNDE DAKAR VE GT3 YOK",
                 "cat": "formula 1",
