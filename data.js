@@ -6478,6 +6478,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 215,
+                "title": "ENDONEZYA'DA NEFES KESEN SPRİNT: MARC MARQUEZ GERİDEN GELİP KAZANDI, TOPRAK MÜCADELEYİ BIRAKMADI!",
+                "cat": "motogp",
+                "date": "2026-10-10 12:17",
+                "content": "2026 MotoGP sezonunun Endonezya ayağında koşulan sprint yarışı, son turlara kadar süren büyük bir heyecana sahne oldu. 13 turluk kısa yarışta damalı bayrağı ilk sırada gören isim deneyimli pilot Marc Marquez oldu.<br><br>Yarışın startıyla birlikte ilk virajda büyük bir kaos yaşandı. Liderliği savunan Fernandez ile Bezzecchi çarpışarak kendilerini çakıl havuzunda buldu ve yarış dışı kaldı. Bu kazanın ardından liderlik koltuğuna Jorge Martin otururken, Marc Marquez ikinci, Ai Ogura ise üçüncü sıraya yerleşti.<br><br>Temposunu artıran Martin, 5. tura gelindiğinde Marquez ile olan farkı 1.5 saniyeye kadar açtı. Bu sırada pist limitlerini zorlayan Marquez, Di Giannantonio, Acosta ve Aldeguer hakemlerden uyarı aldı. Ancak İspanyol şampiyon Marquez pes etmedi; turlar ilerledikçe aradaki farkı adım adım eritti ve 9. turda harika bir iç viraj atağıyla Martin’i geride bırakarak liderliği kaptı.<br><br>Yarışın kırılma anı ise 11. turda yaşandı. Marquez'i kovalayan Martin, virajda dışarı taşınca hem Ai Ogura’ya hem de Fabio Di Giannantonio’ya geçilerek dördüncülüğe kadar geriledi.<br><br>Kalan turlarda kontrolü elden bırakmayan Marc Marquez, zafere uzanan isim oldu. Yarışı Ogura ikinci, Di Giannantonio ise üçüncü sırada tamamlayarak podyumu paylaştı.<br>Kolundaki sakatlığa rağmen Endonezya'da piste çıkan temsilcimiz Toprak Razgatlıoğlu ise zorlu şartlarda mücadeleyi bırakmayarak damalı bayrağı 19. sırada gördü.",
+                "img": "Resimler/MotoGP Haberler/1791623828422_IMG_0095.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 214,
                 "title": "MANDALİKA'DA SÜRPRİZ POLE: RAUL FERNANDEZ KAZANDI, TOPRAK 19. SIRADA!",
                 "cat": "motogp",
