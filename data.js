@@ -12322,6 +12322,17 @@ const APP_DATA = {
     "haberler": {
         "news": [
             {
+                "id": 227,
+                "title": "AYHANCAN GÜVEN VE GMG RACING’DEN ABD’DE TARİHİ ZAFER: INDIANAPOLIS 8 SAAT YARIŞINDA REKOR FARKLA ŞAMPİYONLUK!",
+                "cat": "haberler",
+                "date": "2026-10-11 14:29",
+                "content": "Milli sporcumuz Ayhancan Güven, Amerika Birleşik Devletleri’nde düzenlenen efsanevi Indianapolis 8 Saat yarışında genel klasmanda zirveye yerleşerek motor sporları tarihine geçecek bir başarı kazandı.<br><br>Intercontinental GT Challenge (IGTC) takviminin final mücadelesi olan organizasyonda GMG Racing adına piste çıkan Red Bull sporcusu Ayhancan Güven, takım arkadaşlarıyla beraber kusursuz bir strateji ve tempo ortaya koydu. Üç sürücünün dönüşümlü olarak mücadele ettiği 8 saatlik dayanıklılık yarışında bitiş çizgisini en önde geçen ekip, Indianapolis Motor Speedway’de damalı bayrağı ilk sırada karşıladı.<br><br>Pek çok açıdan tarihi ilklere sahne olan bu unutulmaz zaferle birlikte Ayhancan Güven, Amerika kıtasındaki ilk birinciliğini hanesine yazdırırken; Porsche organizasyondaki ilk genel klasman şampiyonluğunu kazandı ve Pro-Am kategorisinde yarışan bir otomobil seri tarihinde ilk kez tüm rakiplerini geride bırakarak genel klasmanda zirveye yerleşti.<br><br>Yarış boyunca temposunu koruyan GMG Racing ekibi, en yakın rakibinin 55 saniye önünde zafere ulaşarak serinin bugüne kadarki en büyük zaman farkıyla kazanılan galibiyetine de imza attı.<br>Toplam 27 otomobilin start aldığı çekişmeli yarışta ikinciliği Todd Coleman, Aaron Telitz ve Thomas Fleming üçlüsünden oluşan McLaren 720S GT3 EVO ekibi elde etti. Podyumun üçüncü basamağına ise Justin Rothberg, Connor De Phillippi ve Robby Foley pilotajındaki BMW M4 GT3 EVO ekibi çıktı.",
+                "img": "Resimler/Haberler/1791718181343_IMG_0139.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png",
+                "customBadge": "DTM"
+            },
+            {
                 "id": 194,
                 "title": "İSTANBUL PARK 2027 SEZONUNDA FORMULA 2 VE FORMULA 3 TAKVİMLERİNDE YER ALACAK!",
                 "cat": "haberler",
