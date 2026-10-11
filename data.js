@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 230,
+                "title": "SİNGAPUR’DA İLK ZAFERİNİ KAZANAN MAX VERSTAPPEN: \"HIZIMIZ VE TEMPOMUZ TAM İSTEDİĞİMİZ GİBİYDİ\"",
+                "cat": "formula 1",
+                "date": "2026-10-11 17:22",
+                "content": "Marina Bay Pisti'nde kariyerinin ilk Singapur Grand Prix galibiyetine uzanan dört dünya şampiyonluğu bulunan Max Verstappen, damalı bayrağı en önde geçmesinin ardından açıklamalarda bulundu.<br><br>Yarışa ilk cepten başlayıp liderliğini koruyarak zafere ulaşan Hollandalı pilot, kusursuz bir performans sergilediklerini belirterek şunları kaydetti:<br><br>\"Geriye dönüp baktığımda gerçekten harika bir galibiyet aldığımızı görüyorum. Temiz bir yarış çıkardık; hızımız ve genel tempomuz tam da hedeflediğimiz noktadaydı. Hem yumuşak hem de orta hamur lastiklerde güçlü bir performans gösterdik. Gerçi orta hamurda genel olarak herkes ufak tefek zorluklar yaşadı ama sonuçta işimizi başarıyla tamamladık. Marina Bay'de nihayet kazanabilmiş olmak beni fazlasıyla mutlu etti.\"<br><br>Kalkış anının kritik olduğunu vurgulayan Red Bull pilotu, \"Startta elimden gelen tüm çabayı gösterdim ve şansıma kıl payı da olsa liderliği elimde tutmayı başardım,\" dedi.<br><br>Son haftalardaki yükselen ivmelerine de değinen Verstappen, garajdaki atmosferin altını çizerek sözlerini noktaladı:<br><br>\"Arka arkaya koştuğumuz son iki yarış bizim adımıza son derece verimli geçti. Takımdaki kazanma isteğini ve motivasyonu hissetmek harika. Bu ekiple mücadele etmekten büyük keyif alıyorum. Umarım sezonun kalan kısmında da aynı ritmi koruyup rekabetin tadını çıkarmaya devam ederiz.\"",
+                "img": "Resimler/Formula 1 Haberler/1791728539629_IMG_0142.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 229,
                 "title": "SİNGAPUR’DA PODYUMA ÇIKAN LECLERC: \"KALKIŞ ANINDA DAHA ATAK DAVRANABİLİRDİM\"",
                 "cat": "formula 1",
