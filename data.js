@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 229,
+                "title": "SİNGAPUR’DA PODYUMA ÇIKAN LECLERC: \"KALKIŞ ANINDA DAHA ATAK DAVRANABİLİRDİM\"",
+                "cat": "formula 1",
+                "date": "2026-10-11 17:17",
+                "content": "Singapur Grand Prix’sini Max Verstappen ve Kimi Antonelli’nin arasında, ikinci basamakta noktalayan Charles Leclerc, sergilediği sürüşten genel hatlarıyla tatmin olduğunu belirtti. Monakolu pilot, yarışın kaderini değiştirebilecek tek anın start olduğunu söyledi.<br><br>Yarışa hızlı bir giriş yaptıklarını vurgulayan Ferrari pilotu, ilk bölümde yaşanan lastik yıpranmasının hızlarını kestiğini aktardı:<br><br>\"Mücadeleye güçlü başladık fakat ilk bölümde lastiklerimiz beklediğimizden hızlı eridi. Güvenlik aracının piste girmesiyle alternatif bir taktiğe yöneldik ve finişe kadar bu planın sonuç vereceğinden umutluydum. Son bölümde tempoyu çok yükselttim; bu da lastiklerimin rakiplerime göre daha çabuk tükenmesine yol açtı. Yine de sahaya her şeyimi koydum, içim rahat. Belki kalkışta biraz daha yırtıcı olabilirdim, bunun haricinde masada bırakılmış bir şey yoktu.\"<br><br>Ferrari'nin saf hız anlamında zirvedeki rakipleriyle arasındaki farkı henüz kapatamadığına dikkat çeken Leclerc, getirilen güncellemelerin olumlu ancak eksik olduğunu şu sözlerle ifade etti:<br><br>\"Araca eklenen ufak güncellemeler bize kesinlikle bir ivme kazandırdı fakat bu farkı tamamen eritmek için kafi değil. Sezon bitimine kadar mücadeleyi bırakmayacağız; rakiplerimizi yakalamak istiyorsak aracı yeni parçalarla geliştirmeye devam etmeliyiz.\"",
+                "img": "Resimler/Formula 1 Haberler/1791728253075_IMG_0088.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 228,
                 "title": "MARİNA BAY'DE TARİHİ YARIŞ: MAX VERSTAPPEN SİNGAPUR’DA ŞEYTANIN BACAĞINI KIRDI! LECLERC İKİNCİ, ANTONELLI ÜÇÜNCÜ",
                 "cat": "formula 1",
