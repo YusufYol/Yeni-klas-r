@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 231,
+                "title": "MERCEDES'İN GENÇ YILDIZI PODYUMDA: \"LANDO VE LEWIS ÇEKİŞİRKEN ARADAN SIYRILDIM\"",
+                "cat": "formula 1",
+                "date": "2026-10-11 17:27",
+                "content": "Mercedes'in parlayan yıldızı Kimi Antonelli, Marina Bay pistinde koşulan zorlu Singapur Grand Prix'sini üçüncü sırada tamamlayarak podyum sevinci yaşadı. Yarış boyu hatasız bir sürüş ortaya koyan genç pilot, finish ardından kritik anları ve şampiyonluk senaryolarını aktardı.<br><br>Fiziksel şartların sürücüleri fazlasıyla zorladığı yarışın ardından konuşan Antonelli, \"Şartlar inanılmaz ağırdı ama damalı bayrağı podyumda görmek her şeye değdi. Lando ile Lewis piste birbirleriyle kapışırken oluşan boşluğu çok iyi değerlendirdim ve ikisini birden geride bıraktım. Takımıma bu üçüncülüğü kazandırmak benim için paha biçilemez bir mutluluk,\" dedi.<br><br>Önümüzdeki durak olan Austin'deki Birleşik Devletler GP'sinde matematiksel olarak şampiyonluğunu ilan etme ihtimali kendisine yöneltildiğinde şaşkınlığını gizleyemeyen İtalyan sürücü, \"Cidden böyle bir ihtimal var mı? Şimdilik bu hesapları bir kenara bırakalım. Tek yapmamız gereken orada da en yüksek performansımızı gösterip kusursuz bir hafta sonu çıkarmak,\" ifadelerini kullandı.",
+                "img": "Resimler/Formula 1 Haberler/1791728829945_IMG_0143.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 230,
                 "title": "SİNGAPUR’DA İLK ZAFERİNİ KAZANAN MAX VERSTAPPEN: \"HIZIMIZ VE TEMPOMUZ TAM İSTEDİĞİMİZ GİBİYDİ\"",
                 "cat": "formula 1",
