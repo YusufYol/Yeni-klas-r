@@ -6628,6 +6628,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 233,
+                "title": "ADELAIDE GP İÇİN DEV ORTAKLIK: MOTOGP VE RED BULL GÜÇLERİNİ BİRLEŞTİRDİ",
+                "cat": "motogp",
+                "date": "2026-10-12 17:59",
+                "content": "MotoGP’nin 2027 takviminde Phillip Island’ın koltuğuna oturmaya hazırlanan Adelaide Grand Prix'si, piste inmeden önce çok önemli bir ticari desteği arkasına aldı. Organizatörler, Avustralya’daki yeni durak için Red Bull ile iki yıllık ana sponsorluk sözleşmesi imzalandığını duyurdu.<br><br>Anlaşmayla birlikte yarış, 2027 ve 2028 sezonlarında resmi olarak “Red Bull Grand Prix of Australia” ismiyle anılacak. Efsanevi Phillip Island'a bu yılın ardından veda edecek olan şampiyona, böylece mücadelesini Adelaide sokaklarına taşıyacak. Kent merkezindeki geçici pistte düzenlenecek organizasyonun, şampiyonanın sondan bir önceki randevusu olması hedefleniyor.<br><br>Yeni ortaklıktan duyduğu heyecanı dile getiren MotoGP Üst Düzey Yöneticisi Carlos Ezpeleta, Adelaide hamlesinin şampiyona tarihi için yeni bir sayfa açacağını belirtti. Ezpeleta, motor sporları kültüründe köklü bir yere sahip olan Red Bull ile yola çıkmanın organizasyonun vizyonunu güçlendirdiğini vurgulayarak, cadde pisti konseptinin hem tribünler hem de padok için benzersiz bir atmosfer yaratacağını kaydetti.<br><br>Güney Avustralya Başbakanı Peter Malinauskas da iş birliğinin bölgenin küresel vitrini açısından taşıdığı öneme dikkat çekti. Malinauskas, Red Bull seviyesindeki dünya devlerinin desteğinin eyaletin spor turizmi potansiyeline duyulan güveni gösterdiğini ve Adelaide'i takvimde mutlaka deneyimlenmesi gereken noktalardan birine dönüştüreceğini ifade etti.<br><br>Daha önce Amerika (COTA) ve San Marino ayaklarında da isim sponsorluğunu üstlenen enerji içeceği devi, böylece takvimdeki varlığını daha da pekiştirmiş oldu. İki hafta sonra şampiyonaya veda turu atacak olan Phillip Island yarışının ise şu an için belirlenmiş bir isim sponsoru bulunmuyor.",
+                "img": "Resimler/MotoGP Haberler/1791817145837_IMG_0152.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 219,
                 "title": "BRIVIO’DAN MARQUEZ VE MARTIN’E SERT TEPKİ: “İLK VİRAJDA GEREKSİZ BİR AGRESİFLİK VARDI”",
                 "cat": "motogp",
