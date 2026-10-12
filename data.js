@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 232,
+                "title": "NORRIS'TEN PIASTRI TEMASINA DAİR NET AÇIKLAMA: \"KENDİMDEN ÖNCE TAKIMI DÜŞÜNMELİYDİM! \"",
+                "cat": "formula 1",
+                "date": "2026-10-12 17:54",
+                "content": "Singapur GP Sprint yarışında takım arkadaşı Oscar Piastri ile çarpışan Lando Norris, olayla ilgili tavrını değiştirerek hatasını kabul etti ve tüm McLaren ekibinden açıkça özür diledi.<br><br>Marina Bay Pisti'nde koşulan sprint mücadelesinin son anlarında, altıncılık savaşı veren McLaren pilotları 5. virajda karşı karşıya gelmişti. Norris’in içeriden yaptığı agresif atak girişimi temasla sonuçlanmış; spin atan sürücülerden Piastri yarış dışı kalırken, Norris çizgiyi sekizinci sırada geçerek takıma yalnızca tek puan kazandırabilmişti.<br><br>Pist üstündeki bu kaza McLaren garajında tansiyonu yükseltti. Takım patronu Andrea Stella, yaşananları sert bir dille \"kabul edilemez\" olarak nitelendirirken, Austin etabı öncesinde konunun garaj içinde detaylı şekilde ele alınacağını vurgulamıştı.<br><br>Olayın hemen ardından yaptığı ilk değerlendirmede içeride boşluk gördüğünü ve atağının arkasında durduğunu ima eden Norris, pazar günkü ana yarışı dördüncü sırada bitirdikten sonra çok daha özeleştirel bir tavır sergiledi.<br><br>Zaman geçtikçe pozisyonu daha net değerlendirdiğini belirten Britanyalı pilot, şu ifadeleri kullandı:<br><br>\"O şekilde bir hamleye kalkışmam kesinlikle doğru değildi. Kağıt üzerinde bir açık görünse bile en başından bu riski almamam gerekirdi. Bireysel hedeflerimden önce arkamdaki büyük ekibi düşünmek zorundayım. Tamamen benim hatamdı ve takımı yüzüstü bıraktım. Tüm çalışma arkadaşlarıma bir özür borcum var; bir dahaki sefere çok daha dikkatli olacağım.\"",
+                "img": "Resimler/Formula 1 Haberler/1791816852708_IMG_0151.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 231,
                 "title": "MERCEDES'İN GENÇ YILDIZI PODYUMDA: \"LANDO VE LEWIS ÇEKİŞİRKEN ARADAN SIYRILDIM\"",
                 "cat": "formula 1",
