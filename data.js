@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 234,
+                "title": "FORMULA 1, 30 YIL SONRA YENİDEN AFRİKA’DA: RUANDA İLE 10 YILLIK DEV ANLAŞMA!",
+                "cat": "formula 1",
+                "date": "2026-10-13 12:49",
+                "content": "Formula 1 yönetimi, motor sporları dünyasını heyecanlandıran tarihi bir karara imza atarak takvime Afrika kıtasını yeniden dahil ediyor. Yapılan resmi açıklamaya göre Ruanda, en erken 2030 yılından itibaren Formula 1 takvimine girecek ve 10 yıl boyunca Afrika Grand Prix'sine ev sahipliği yapacak. Bu hamleyle birlikte F1, son olarak 1993'te Güney Afrika'da koşulan yarıştan tam 37 yıl sonra ilk kez Afrika topraklarına dönmüş olacak.<br><br>Yarışlar, Ruanda’nın başkenti Kigali’nin yaklaşık 40 kilometre güneyinde konumlanan ve yapımı süren Bugesera Uluslararası Havalimanı bölgesinde düzenlenecek. Eski F1 pilotu Alex Wurz ve uzman tasarım ekibinin imzasını taşıyan yeni pist projesi, bölgenin engebeli doğal coğrafyası kullanılarak pilotlara hem teknik hem de fiziksel açıdan meydan okuyan bir sürüş deneyimi sunacak şekilde projelendirildi. Bugesera Pisti, Ruanda Kalkınma Kurulu'nun altyapı, turizm ve ekonomik büyüme hedeflerinin en kritik halkalarından biri olarak görülüyor.<br><br>Başkent Kigali’de gerçekleşen lansman toplantısına Ruanda Devlet Başkanı Paul Kagame, F1 CEO’su Stefano Domenicali ve FIA Başkanı Mohammed Ben Sulayem bizzat katıldı.<br><br>Anlaşmanın kıta için bir dönüm noktası olduğunu vurgulayan Ruanda Devlet Başkanı Paul Kagame, motor sporlarının zirvesinin 30 yılı aşkın süredir Afrika'dan uzak kaldığına dikkat çekerek şu değerlendirmelerde bulundu:<br><br>\"Bugün tüm Afrika için tarihi bir gün. Dünyanın zirvesindeki şampiyona 30 yılı aşkın süredir bu kıtaya uğramıyordu ve bu tablo artık değişiyor. Ruanda olarak Afrika genelindeki 100 milyondan fazla genç motor sporları tutkunu adına bu ev sahipliğinden gurur duyuyoruz. Bu gençlerimiz F1'i yalnızca izlemeyi değil; geleceğin mühendisleri, teknisyenleri ve pilotları olarak bu ekosistemin parçası olmayı hak ediyor. Bu 10 yıllık ortaklık sadece bir yarış hafta sonu organizasyonu değil; istihdam, turizm ve altyapı boyutuyla doğrudan ülkemizin geleceğine ve halkımıza yapılan kalıcı bir yatırımdır.\"",
+                "img": "Resimler/Formula 1 Haberler/1791884964639_IMG_0159.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 232,
                 "title": "NORRIS'TEN PIASTRI TEMASINA DAİR NET AÇIKLAMA: \"KENDİMDEN ÖNCE TAKIMI DÜŞÜNMELİYDİM! \"",
                 "cat": "formula 1",
