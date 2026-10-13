@@ -12422,6 +12422,17 @@ const APP_DATA = {
     "haberler": {
         "news": [
             {
+                "id": 238,
+                "title": "TOSFED 9. MALİ GENEL KURULU GERÇEKLEŞTİRİLDİ",
+                "cat": "haberler",
+                "date": "2026-10-13 16:41",
+                "content": "Türkiye Otomobil Sporları Federasyonunun (TOSFED) 9. Mali Genel Kurulu, 13 Ekim 2026’da Ankara’da yapıldı. Mitat Ülküden’in divan başkanlığını üstlendiği genel kurulda, federasyonun faaliyet ve denetim raporları ibra edilirken 2027 ve 2028 yıllarına ilişkin tahmini bütçeler de görüşülerek karara bağlandı.<br><br>Genel kurulda konuşan TOSFED Başkanı Eren Üçlertoprağı, İstanbul Park’ın işletmesinin federasyona geçmesini otomobil sporları açısından önemli bir dönüm noktası olarak değerlendirdi. Üçlertoprağı, pistin sporculara, kulüplere ve tüm otomobil sporları camiasına hizmet etmesini hedeflediklerini belirterek İstanbul Park’ın oluşturduğu katma değerin camiaya yansımaya başladığını söyledi.<br><br>İstanbul Park’ta kapsamlı bir yenileme ve modernizasyon çalışması yapılacağını aktaran Üçlertoprağı, pistin içine uluslararası standartlarda bir karting pisti de inşa edileceğini ifade etti. Projenin genç sporcuların yetişmesine katkı sağlayacağını belirten TOSFED Başkanı, tesisle ilgili çalışmaların genel sekreter tarafından yapılacak sunumla üyelerle paylaşılacağını kaydetti.<br><br>“FORMULA 1’İN DÖNÜŞÜ SPORUMUZUN İMKÂNLARINI ARTIRACAK”<br><br>Formula 1’in Türkiye’ye dönüşünün otomobil sporları ve kulüpler için yeni fırsatlar yaratacağını dile getiren Üçlertoprağı, bu kez organizasyonun promotörlüğünü TOSFED’in üstleneceğini söyledi. Kulüplerin desteğine ihtiyaç duyduklarını vurgulayan Üçlertoprağı, “Artık yarışı açık alanda izlemek yerine, ev sahibi siz olacaksınız” ifadelerini kullandı.<br><br>Federasyonun itibarının ve kaynaklarının güçlenmesinin yerel organizasyonlara verilen desteği de artıracağını belirten Üçlertoprağı, Formula 1’in dönüşüyle birlikte otomobil sporlarının imkânlarının genişleyeceğini kaydetti. Geçtiğimiz pazar günü düzenlenen Türkiye Pist Şampiyonası yarışında yaklaşık 11 bin seyircinin ağırlandığını da hatırlattı.<br><br>Üçlertoprağı, TOSFED’in son dönemde hem İstanbul Park’ın yeniden faaliyete geçirilmesi hem de Formula 1’in Türkiye’ye dönüşü için yoğun bir çalışma yürüttüğünü söyledi. Kulüplerin emeği, devletin ve Gençlik ve Spor Bakanlığının desteğiyle otomobil sporlarının gelişmeye devam ettiğini belirten TOSFED Başkanı, camianın birlik içinde çalışmasının önemine dikkat çekti.<br><br>Konuşmasının sonunda Cumhurbaşkanı Recep Tayyip Erdoğan’a, Gençlik ve Spor Bakanı Dr. Osman Aşkın Bak’a, bakanlık yöneticilerine, kulüp başkanlarına ve camianın tüm üyelerine teşekkür eden Üçlertoprağı, TOSFED’in bir aile olduğunu vurgulayarak federasyon yönetiminin çalışmayı sürdüreceğini ifade etti.",
+                "img": "Resimler/Haberler/1791898900803_646ca49e-6e11-46a7-8d45-6f4c7970886c.jpeg",
+                "author": "Emre Boz",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Emre Boz.png",
+                "customBadge": "TOSFED"
+            },
+            {
                 "id": 227,
                 "title": "AYHANCAN GÜVEN VE GMG RACING’DEN ABD’DE TARİHİ ZAFER: INDIANAPOLIS 8 SAAT YARIŞINDA REKOR FARKLA ŞAMPİYONLUK!",
                 "cat": "haberler",
