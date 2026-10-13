@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 236,
+                "title": "FORMULA 1, 10 YILLIK ANLAŞMAYLA AFRİKA’YA DÖNÜYOR",
+                "cat": "formula 1",
+                "date": "2026-10-13 15:17",
+                "content": "Formula 1, Ruanda’da yarış düzenlenmesi için 10 yıllık anlaşma imzalandığını resmen duyurdu. “Formula 1 Afrika Grand Prix’si” adıyla takvime katılacak yarışın, 2030’ların başında yapılması planlanıyor. Böylece F1, 1993’ten bu yana ilk kez Afrika kıtasında yarışacak.<br><br>Yarış, başkent Kigali’nin yaklaşık 40 kilometre güneyinde, Bugesera’da inşa edilecek yeni pistte düzenlenecek. Kigali Uluslararası Havalimanı’nın yakınında konumlanacak pistin FIA 1. sınıf standartlarında yapılması ve tamamlanmasının ardından yarışa ev sahipliği yapması bekleniyor.<br><br>F1’in açıkladığı bilgilere göre anlaşma, Ruanda’da tek bir yarış hafta sonundan daha fazlasını hedefliyor. Pist alanının yıl boyunca uluslararası motor sporları etkinlikleri, büyük organizasyonlar, konferanslar ve eğlence etkinlikleri için kullanılması planlanıyor. Yarışın kesin tarihi ve pistin yapım sürecine ilişkin ayrıntılar ilerleyen dönemde açıklanacak.<br><br>Afrika’daki son Formula 1 yarışı, 1993 Güney Afrika Grand Prix’siydi. Kyalami’de düzenlenen yarışın ardından kıta, 2030’ların başında Ruanda ile yeniden F1 takvimine dönmeye hazırlanıyor.",
+                "img": "Resimler/Formula 1 Haberler/1791893845997_IMG_0749.jpeg",
+                "author": "Emre Boz",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Emre Boz.png"
+            },
+            {
                 "id": 235,
                 "title": "ZARARA RAĞMEN GERİ ADIM YOK: RENAULT, ALPINE İLE FORMULA 1’DE KALIYOR",
                 "cat": "formula 1",
