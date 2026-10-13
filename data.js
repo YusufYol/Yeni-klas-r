@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 239,
+                "title": "ALONSO’DAN SİNGAPUR ELEŞTİRİLERİNE HAMILTON’LI GÖNDERME: \"DEMEK Kİ GEÇİŞ YAPILABİLİYORMUŞ!\"",
+                "cat": "formula 1",
+                "date": "2026-10-13 21:12",
+                "content": "Singapur Grand Prix’sinde geçiş imkânlarının kısıtlı olması bir kez daha tartışma konusu olurken, deneyimli pilot Fernando Alonso Marina Bay pistinin yapısını savundu. İspanyol sürücü, pistte geçiş yapılamadığı yönündeki eleştirilere yanıt verirken eski rakibi Lewis Hamilton üzerinden esprili bir çıkış yaptı.<br><br>Ferrari koltuğundaki Lewis Hamilton, Marina Bay’de riskli bir stratejiye imza attı. Yarışa orta hamurla başlayan Britanyalı pilot, henüz 18. turda yumuşak lastiğe geçerek tek pit stop planından saptı. Kalan 44 turu aynı yumuşak setle tamamlamak zorunda kalan yedi kez dünya şampiyonu, Sanal Güvenlik Aracı periyodunda takımın pite girme çağrısını geri çevirdi. İkinci sırada sürdürdüğü mücadelede lastiklerinin tamamen tükenmesiyle gerileyen Hamilton, finish çizgisini altıncı sırada geçebildi.<br><br>Özellikle 54. turda Kimi Antonelli’ye geçildikten sonraki son sekiz turda İtalyan çaylağa karşı tur başına yaklaşık 3,6 saniye kaybeden Hamilton, yarış sonrası hatanın kendisinde olduğunu kabul etti.<br><br>Yarışı 15. sırada noktalayan Aston Martin pilotu Alonso ise Marina Bay’in karakterini savunarak geçmişten örnek verdi. Sokak pistlerinde sonucun büyük oranda sıralama turlarında belirlendiğini vurgulayan Alonso, şu ifadeleri kullandı:<br><br>\"Pistte değiştirilebilecek pek bir şey olduğunu sanmıyorum. Formula 1’de Senna, Prost ve Schumacher döneminden bu yana sokak pistlerinde yarışın yüzde 90’ı sıralama turlarıdır. 2010’da burada Red Bull benden tur başına 0,8 saniye daha hızlıyken pole pozisyonunu aldım ve Sebastian’ı (Vettel) 62 tur boyunca arkamda tuttum. Pistin doğası bu. Yine de yarışta bazı geçişler gördük. Ekranlara baktığımda Hamilton’ın epey sıra kaybettiğini gördüm; demek ki geçiş yapılacak birkaç yer varmış!\"<br><br>Alonso’nun kendi hafta sonu ise teknik problemler nedeniyle hayal kırıklığıyla geçti. Aston Martin AMR26, Singapur boyunca Honda güç ünitesindeki sürülebilirlik sorunlarıyla boğuştu. Sıralama turlarının ardından tespit edilen turbo arızası sebebiyle yeni bir üniteye geçen İspanyol pilot, sorunların çözülmediğini yarış içinde tecrübe ettiklerini belirtti.<br><br>Güç ünitesinde yolunda gitmeyen noktaları çözmek zorunda olduklarını belirten Alonso, \"Önümüzde zorlu yarışlar var ancak yavaş virajlarıyla Meksika ve ardından Las Vegas gibi sokak pistleri bizim için fırsat olabilir. Turbo gecikmesi ve sürülebilirlik problemlerini acilen aşmalıyız. Bize ciddi zaman kaybettiren bu sorunları bu hafta sonu acı bir şekilde öğrendik.\" değerlendirmesinde bulundu.",
+                "img": "Resimler/Formula 1 Haberler/1791915151314_IMG_0167.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 237,
                 "title": "ORIHARA: \"TURBO ARZALI DEĞİLDİ, ALONSO'NUN HİSLERİNE GÜVENDİK\"",
                 "cat": "formula 1",
