@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 237,
+                "title": "ORIHARA: \"TURBO ARZALI DEĞİLDİ, ALONSO'NUN HİSLERİNE GÜVENDİK\"",
+                "cat": "formula 1",
+                "date": "2026-10-13 16:10",
+                "content": "Singapur Grand Prix’sine pit alanından başlamak zorunda kalan Fernando Alonso ile motor tedarikçisi Honda arasında parça değişimi konusunda farklı açıklamalar geldi. Aston Martin pilotunun kapalı park kurallarını çiğnemesine yol açan güç ünitesi ve süspansiyon müdahaleleri, arka planda ilginç bir kararı açığa çıkardı.<br><br>İspanyol basınına konuşan Alonso, değişimin temel gerekçesi olarak turboda yaşanan arızayı işaret etmişti. Ancak Honda cephesinden gelen açıklama bu durumu yalanladı. Honda Racing Başmühendisi Shintaro Orihara, telemetri kayıtlarında turboya dair hiçbir aksaklık görülmediğini, kararın tamamen Alonso’nun geri bildirimleri doğrultusunda alındığını belirtti.<br><br>Orihara, kararın perde arkasını şu sözlerle aktardı:<br><br>\"Turboda teknik bir arıza yoktu, verilerimiz de gayet temizdi. Fakat bir pilot, aracı hissetme konusunda sahip olduğumuz en hassas sensördür. Fernando’nun bildirimlerini göz ardı etmedik ve onun isteği üzerine parçayı yeniledik. Önümüzdeki iki haftalık arayı kullanarak çıkarılan turboyu detaylı şekilde test edeceğiz.\"<br><br>Pite çekilerek grid avantajını kaybeden Alonso ise yarış boyunca motor tarafında başka aksaklıklarla boğuştuğunu dile getirdi. Özellikle enerji geri kazanım ve aktarım sistemlerinde ciddi verimsizlik yaşadıklarını vurgulayan tecrübeli pilot, \"Enerji ihtiyacımız olan anlarda devreye girmedi; bilhassa sanal güvenlik aracının ardından ciddi vakit ve sıra kaybettik. Bu problemi hızla çözmemiz şart\" ifadelerini kullandı.",
+                "img": "Resimler/Formula 1 Haberler/1791897026051_IMG_0161.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 236,
                 "title": "FORMULA 1, 10 YILLIK ANLAŞMAYLA AFRİKA’YA DÖNÜYOR",
                 "cat": "formula 1",
