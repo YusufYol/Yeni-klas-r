@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 235,
+                "title": "ZARARA RAĞMEN GERİ ADIM YOK: RENAULT, ALPINE İLE FORMULA 1’DE KALIYOR",
+                "cat": "formula 1",
+                "date": "2026-10-13 12:53",
+                "content": "Renault Grubu, pistte yaşanan mali kayıplara ve zorlu tabloya rağmen Formula 1 projesinden vazgeçmeyeceğini net bir dille ortaya koydu. Fransız devinin Alpine markası altında yürüttüğü F1 operasyonu, maliyetine rağmen stratejik önemini koruyor.<br><br>Renault tepe yöneticisi François Provost, BFM TV’ye verdiği röportajda griddeki varlıklarını sürdürme kararlılığını vurgularken mevcut ekonomik tablonun zorluklarını da açık yüreklilikle paylaştı. F1 yatırımlarının karşılığını alabilmek için sportif başarının şart olduğunu belirten Provost, podyum ve ilk 3-4 sıra mücadelesi vermeden beklenen etkinin yakalanamayacağını ifade etti.<br><br>Pistin tek Fransız üreticisi konumundaki Renault adına konuşan Provost, projenin arkasında durma gerekçelerini şu sözlerle özetledi:<br><br>\"Formula 1, küresel çapta en çok takip edilen spor organizasyonlarından biri. Bu şampiyonada Fransa'yı temsil eden tek marka Alpine ve kokpitte de Fransız bir pilotumuz yer alıyor. Şu an için para kaybettiğimiz ve işlerin zor ilerlediği bir gerçek; ancak F1'de kalmaya devam etmemizin temel nedeni de bu temsil gücü. Kendimize yüksek ve iddialı hedefler koymak zorundayız.\"<br><br>Mevcut mali tablodaki kayıplara rağmen Fransız kimliğini global arenada temsil etmeyi önceliklendiren Renault, Alpine ile motor sporlarının zirvesindeki mücadelesini kararlılıkla sürdürecek.",
+                "img": "Resimler/Formula 1 Haberler/1791885188406_IMG_0160.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 234,
                 "title": "FORMULA 1, 30 YIL SONRA YENİDEN AFRİKA’DA: RUANDA İLE 10 YILLIK DEV ANLAŞMA!",
                 "cat": "formula 1",
