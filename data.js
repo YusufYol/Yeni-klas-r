@@ -8645,7 +8645,54 @@ const APP_DATA = {
                 "date": "23-25 Ekim",
                 "track": "Phillip Island",
                 "isoDate": "2026-10-25",
-                "status": "Bekliyor"
+                "status": "Sıradaki",
+                "trackDetails": {
+                    "len": "4,448 km",
+                    "turns": "12",
+                    "opened": "1989",
+                    "record": "1:27.246 (Jorge Martin)",
+                    "firstWinner": "Wayne Gardner (1989)",
+                    "mostWinsPilot": "Valentino Rossi ve Casey Stoner (6 Galibiyet)",
+                    "mostWinsTeam": "Honda (16 Galibiyet)",
+                    "img": "",
+                    "description": "Okyanus kıyısındaki büyüleyici konumu, yüksek hızlı akan virajları ve değişken hava koşullarıyla Phillip Island, sürücü yeteneğini en üst düzeyde sınayan MotoGP takviminin en efsanevi pistlerinden biridir."
+                },
+                "len": "4,448 km",
+                "turns": "12",
+                "sessions": [
+                    {
+                        "name": "Cuma: 1. Antrenman",
+                        "time": "02:45"
+                    },
+                    {
+                        "name": "Cuma: Ana Antrenman Seansı",
+                        "time": "07:00"
+                    },
+                    {
+                        "name": "Cumartesi: 2. Antrenman Seansı",
+                        "time": "02:10"
+                    },
+                    {
+                        "name": "Cumartesi: Sıralama Turları 1",
+                        "time": "02:50"
+                    },
+                    {
+                        "name": "Cumartesi: Sıralama Turları 2",
+                        "time": "03:15"
+                    },
+                    {
+                        "name": "Cumartesi: Sprint Yarışı",
+                        "time": "07:00"
+                    },
+                    {
+                        "name": "Pazar: Isınma Turları",
+                        "time": "01:40"
+                    },
+                    {
+                        "name": "Pazar: Yarış",
+                        "time": "06:00"
+                    }
+                ]
             },
             {
                 "round": 19,
