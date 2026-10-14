@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 240,
+                "title": "HAMILTON’DAN MARINA BAY ÇAĞRISI: “DAHA UZUN BİR DÜZLÜK PİSTİ MÜKEMMEL YAPAR”",
+                "cat": "formula 1",
+                "date": "2026-10-14 08:26",
+                "content": "Lewis Hamilton, Singapur Grand Prix’sinin koşulduğu Marina Bay Caddesi Pisti’nin gerçek potansiyeline ulaşabilmesi için yerel organizatörlerin ve yetkililerin yeni bir pist revizyonuna gitmesi gerektiğini belirtti. Britanyalı pilot, özellikle geçiş imkanlarını artıracak uzun bir düzlüğün eksikliğine dikkat çekti.<br><br>Hafta sonu boyunca zirve mücadelesinin içinde yer alan Hamilton, cumartesi günkü sprint mücadelesini Max Verstappen’in hemen ardında ikinci sırada tamamlarken, ana yarış için yapılan sıralama seansında ise pole pozisyonundaki Verstappen ve takım arkadaşı Charles Leclerc’in yalnızca 0,2 saniye gerisinde kalarak üçüncü cebi kaptı.<br><br>Zirvedeki bu küçük zaman farklarına rağmen 19 virajdan oluşan cadde pistinin karakterini değerlendiren Hamilton, geçiş yapmanın zorluğuna vurgu yaptı. Marina Bay daha önce 2013’te meşhur \"Singapore Sling\" şikanının kaldırılması ve 2023’te tribün inşaatları sebebiyle son sektördeki virajların iptal edilip yerine yaklaşık 400 metrelik bir düzlük eklenmesi gibi güncellemeler görmüştü; ancak yıldız pilota göre bu adımlar henüz yeterli değil.<br><br>Basın mensuplarına açıklamalarda bulunan Hamilton, Singapur atmosferini çok sevdiğini ancak pist düzeninin tekerlek tekerleğe mücadeleleri kısıtladığını ifade etti:<br><br>\"Burada yarışmaktan büyük keyif alıyorum. Ancak Max ile de konuşuyorduk; buranın kusursuz bir yarış pistine dönüşmesi için kesinlikle daha uzun bir düzlüğe ihtiyacı var. Sıralama turlarında tek tur atmak inanılmaz keyifli fakat yarış dinamiğine gelince iş değişiyor. Arkadan gelen bir aracın atağa kalkabileceği neredeyse tek bir nokta var. Örneğin 16. virajdaki zemin dalgalanmaları ve tümsekler araçların altından kıvılcımlar çıkmasına yol açıyor. Bence burayı yüzde yüz mükemmel kılacak dokunuşlar yapılabilir. Sprint yarışı yağmur sayesinde oldukça keyifli geçti; fakat zemin kuru kalsaydı muhtemelen tamamen lastik korumaya dayalı, son derece temposuz ve sıkıcı bir mücadele izlerdik.\"",
+                "img": "Resimler/Formula 1 Haberler/1791955609981_IMG_0172.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 239,
                 "title": "ALONSO’DAN SİNGAPUR ELEŞTİRİLERİNE HAMILTON’LI GÖNDERME: \"DEMEK Kİ GEÇİŞ YAPILABİLİYORMUŞ!\"",
                 "cat": "formula 1",
