@@ -2730,7 +2730,42 @@ const APP_DATA = {
                 "date": "23-25 Ekim",
                 "track": "Austin",
                 "isoDate": "2026-10-25",
-                "status": "Bekliyor"
+                "status": "Sıradaki",
+                "trackDetails": {
+                    "len": "5,513 km",
+                    "turns": "20",
+                    "opened": "2012",
+                    "record": "1:36.169 (Charles Leclerc)",
+                    "firstWinner": "Lewis Hamilton (2012)",
+                    "mostWinsPilot": "Lewis Hamilton (5 Galibiyet)",
+                    "mostWinsTeam": "Oracle Red Bull Racing (5 Galibiyet)",
+                    "img": "",
+                    "description": "Circuit of the Americas, 1. viraja çıkılan ikonik dik yokuşu, efsanevi pistlerden ilham alan hızlı viraj kombinasyonları ve heyecan verici geçiş noktalarıyla Amerika'daki Formula 1 coşkusunun kalbidir."
+                },
+                "len": "5,513 km",
+                "turns": "20",
+                "sessions": [
+                    {
+                        "name": "Cuma: 1. Antrenman Seansı",
+                        "time": "20:30"
+                    },
+                    {
+                        "name": "Cumartesi: 2. Antrenman Seansı",
+                        "time": "00:00"
+                    },
+                    {
+                        "name": "Cumartesi: 3. Antrenman Seansı",
+                        "time": "20:30"
+                    },
+                    {
+                        "name": "Pazar: Sıralama Turları",
+                        "time": "00:00"
+                    },
+                    {
+                        "name": "Pazar: Yarış",
+                        "time": "23:00"
+                    }
+                ]
             },
             {
                 "round": 21,
