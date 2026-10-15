@@ -2110,6 +2110,12 @@ const APP_DATA = {
                     "name": "Valtteri Bottas #77",
                     "pts": 0,
                     "team": "Cadillac Formula 1 Team"
+                },
+                {
+                    "pos": 23,
+                    "name": "Sergio Perez #11",
+                    "pts": 0,
+                    "team": "Cadillac Formula 1 Team"
                 }
             ],
             "teams": [
@@ -12937,6 +12943,66 @@ const APP_DATA = {
                     "name": "Maverick Vinales #12",
                     "pts": 12,
                     "team": "Red Bull KTM Tech3"
+                },
+                {
+                    "pos": 23,
+                    "name": "Iker Lecuona #7",
+                    "pts": 9,
+                    "team": "BK8 Gresini Racing MotoGP"
+                },
+                {
+                    "pos": 24,
+                    "name": "Augusto Fernandez",
+                    "pts": 6,
+                    "team": "Yamaha Factory Racing"
+                },
+                {
+                    "pos": 25,
+                    "name": "Pol Espargaro",
+                    "pts": 5,
+                    "team": "Red Bull KTM Tech3"
+                },
+                {
+                    "pos": 26,
+                    "name": "Takaaki Nakagami",
+                    "pts": 3,
+                    "team": "Repsol Honda Team"
+                },
+                {
+                    "pos": 27,
+                    "name": "Somkiat Chantra",
+                    "pts": 3,
+                    "team": "Castrol Honda LCR"
+                },
+                {
+                    "pos": 28,
+                    "name": "Cal Crutchlow",
+                    "pts": 0,
+                    "team": "Castrol Honda LCR"
+                },
+                {
+                    "pos": 29,
+                    "name": "Jonas Folger",
+                    "pts": 0,
+                    "team": "Red Bull KTM Tech3"
+                },
+                {
+                    "pos": 30,
+                    "name": "Lorenzo Salvadori",
+                    "pts": 0,
+                    "team": "Trackhouse Racing"
+                },
+                {
+                    "pos": 31,
+                    "name": "Michele Pirro",
+                    "pts": 0,
+                    "team": "BK8 Gresini Racing MotoGP"
+                },
+                {
+                    "pos": 32,
+                    "name": "Aleix Espargaro",
+                    "pts": 0,
+                    "team": "Honda HRC Test Team"
                 }
             ],
             "teams": [
