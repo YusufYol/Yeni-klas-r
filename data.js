@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 243,
+                "title": "SEPANG DÖNÜŞÜMLÜ TAKVİMLE GRID'E DÖNMEYE HAZIRLANIYOR: İŞTE MALEZYA'NIN FORMULA 1 PLANI!",
+                "cat": "formula 1",
+                "date": "2026-10-15 17:57",
+                "content": "Dokuz yıllık hasretin ardından bu sezon Bahreyn Grand Prix'sinin yerini alarak Formula 1 sahnesine dönen Sepang Uluslararası Pisti, motor sporları dünyasında kalıcı bir yer edinmenin formülünü arıyor.<br><br>Yarış haftasında tribünlerin tıklım tıklım dolması ve organizasyonun sorunsuz tamamlanması, Malezya tarafında büyük bir heyecan yarattı. Ancak ülke yönetimi, yüksek maliyetleri dengelemek adına takvimde her yıl yer almak yerine daha esnek bir modeli hayata geçirmek istiyor. Masadaki ana plan; Malezya'nın takvimdeki bir ya da birkaç farklı pistle ortaklaşa çalışıp yarışı dönüşümlü olarak birkaç yılda bir organize etmesi.<br><br>Sürece dair değerlendirmelerde bulunan Malezya Gençlik ve Spor Bakanı Mohammed Taufiq Johari, farklı bir ülkeyle ortak hareket etme fikrini masaya yatırdıklarını belirterek, \"Yarışı birkaç yılda bir düzenleme seçeneğini değerlendiriyoruz. Bu modelin uygulanabilirliğini görmek adına ilk temasları başlattık ve şartları inceliyoruz\" ifadelerini kullandı.",
+                "img": "Resimler/Formula 1 Haberler/1792076224142_IMG_0196.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 242,
                 "title": "HAAS’TA YENİ DÖNEM: BREZİLYALI YILDIZ RAFAEL CAMARA 2027’DE GRID’E ADIM ATIYOR!",
                 "cat": "formula 1",
