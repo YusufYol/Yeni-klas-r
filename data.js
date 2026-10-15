@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 241,
+                "title": "RUANDA'NIN FORMULA 1 SÖZLEŞMESİ SONRASI GÜNEY AFRİKA'DAN AÇIKLAMA: “YENİLMEDİK, ÇALIŞMALARIMIZI HIZLANDIRDIK.”",
+                "cat": "formula 1",
+                "date": "2026-10-15 17:49",
+                "content": "Formula 1’in Afrika kıtasına geri dönüş planları kapsamında Ruanda ile 2030’lu yıllardan itibaren geçerli olacak 10 yıllık bir sözleşme imzalaması, gözleri kıtanın diğer güçlü adayı Güney Afrika’ya çevirdi. Kigali yakınlarındaki Bugesera bölgesinde inşa edilecek FIA 1. Derece lisanslı RISE Motordrome pistinde koşulacak yarışın duyurulması, kamuoyunda \"Güney Afrika takvim biletini Ruanda’ya kaptırdı mı?\" tartışmalarını başlattı.<br><br>Geçmişte ikonik Kyalami pistiyle geri dönüş hazırlığı yapan ancak bütçe teminatları nedeniyle süreci askıya almak zorunda kalan Güney Afrika cephesinden konuya ilişkin açıklama gecikmedi. Güney Afrika Spor, Sanat ve Kültür Bakanı Gayton McKenzie, basına yaptığı değerlendirmede ortaya atılan \"yenilgi\" iddialarını kesin bir dille reddetti.<br><br>Sürecin ülkeler arası bir rekabetten ziyade bağımsız başvuru süreçlerine dayandığını vurgulayan McKenzie, Ruanda’nın başarısını tebrik ederek şu açıklamalarda bulundu:<br><br>\"Ruanda’yı 2030’lu yıllarda takvime dahil olacağı için içtenlikle kutluyorum; kıtamız adına bundan yalnızca memnuniyet duyarız. Sosyal medyada Güney Afrika’nın kaybettiğine yönelik yorumlar gerçeği yansıtmıyor; çünkü bu bir kura ya da şans oyunu değil. Ruanda bu girişimi çok uzun zaman önce, ben henüz görevde dahi değilken başlattı ve gerekli tüm adımları planlı şekilde attı. Biz sürece sonradan dahil olduk ve Formula 1 yönetiminin talep ettiği kriterleri adım adım karşılıyoruz. İki ülke birbirine rakip olarak bu yarışta yer almıyor.\"<br><br>Ruanda’nın takvimdeki yerini garantiye almasının Güney Afrika’nın motivasyonunu artırdığına dikkat çeken Bakan McKenzie, hedeflerinin Ruanda’dan daha erken bir tarihte, yani 2028 veya 2029 sezonunda şampiyonaya dahil olmak olduğunu belirtti.<br><br>Finansal altyapıyı sağlamlaştırmak adına dev adımlar attıklarını aktaran McKenzie; MTN, Betway, Discovery ve Canal+ gibi uluslararası kuruluşlarla sponsorluk anlaşmalarını tamamladıklarını, ayrıca ülkenin köklü bankalarından biriyle varılan büyük iş birliğinin de çok yakında özel bir lansmanla duyurulacağını sözlerine ekledi.",
+                "img": "Resimler/Formula 1 Haberler/1792075753138_IMG_0193.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 240,
                 "title": "HAMILTON’DAN MARINA BAY ÇAĞRISI: “DAHA UZUN BİR DÜZLÜK PİSTİ MÜKEMMEL YAPAR”",
                 "cat": "formula 1",
