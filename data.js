@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 242,
+                "title": "HAAS’TA YENİ DÖNEM: BREZİLYALI YILDIZ RAFAEL CAMARA 2027’DE GRID’E ADIM ATIYOR!",
+                "cat": "formula 1",
+                "date": "2026-10-15 17:53",
+                "content": "Amerikan ekibi TGR Haas F1 Takımı, geleceğe yönelik önemli bir hamleye imza atarak Brezilyalı genç yetenek Rafael Camara ile çok yıllık bir anlaşma sağladığını duyurdu. Camara, 2026 sezonunun bitimiyle birlikte takıma veda edecek olan Esteban Ocon’un koltuğuna 2027 itibarıyla oturacak.<br><br>Alt serilerde gösterdiği istikrarlı ve baskın performansla dikkatleri üzerine çeken Camara, basamakları hızla tırmandı. 2024 yılında Formula Regional Avrupa Şampiyonası'nda zafere ulaşan genç pilot, başarısını 2025'te Formula 3 şampiyonluğuyla taçlandırdı. Kariyerine Formula 2'de Invicta takımıyla devam eden Brezilyalı sürücü, şu anda en yakın rakibi Nikola Tsolov’un 7 puan önünde liderlik koltuğunda oturuyor. Camara, sezonu zirvede tamamlaması durumunda FRECA, F3 ve F2 şampiyonluklarını aralıksız üç yılda kazanan ilk pilot olarak tarihe geçecek.<br><br>F1 hayaline kavuşan genç yetenek, anlaşmanın ardından yaptığı açıklamada heyecanını paylaştı:<br><br>\"TGR Haas F1 Takımı ile Formula 1 gridine adım atacak olmaktan büyük bir gurur ve mutluluk duyuyorum. Kariyerimin bu kritik eşiğinde bana inanan Gene Haas ve Ayao Komatsu’ya teşekkür ederim. Gelişimimde devasa payı olan Ferrari Sürücü Akademisi'ne ve desteğini benden hiçbir zaman esirgemeyen aileme minnettarım. Artık tamamen bu büyük meydan okumaya odaklandım; önümde öğrenecek çok şey var ve takımla birlikte çalışmaya başlamak için sabırsızlanıyorum.\"<br><br>Takım patronu Ayao Komatsu ise genç sürücünün potansiyeline vurgu yaparak transferi şu sözlerle değerlendirdi:<br><br>\"Rafael Camara gibi olağanüstü bir yeteneği aramıza kattığımız için çok memnunuz. Alt serilerdeki başarıları zaten ortada ancak Formula 2'deki çaylak yılında Monako ve Montreal gibi hatayı affetmeyen pistlerdeki sıralama performansı, onun saf hızını gözler önüne serdi. Portekiz’deki eski araç testlerimizde (TPC) kısıtlı zamana rağmen direksiyon başında sergilediği olgunluk ve çıkardığı turlar bizi gerçekten etkiledi. Takım olarak Rafael’in potansiyelini en üst düzeye çıkarabileceği, kendini güvende hissedeceği güçlü bir ortam sunmaya hazırız.\"",
+                "img": "Resimler/Formula 1 Haberler/1792076034114_IMG_0194.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 241,
                 "title": "RUANDA'NIN FORMULA 1 SÖZLEŞMESİ SONRASI GÜNEY AFRİKA'DAN AÇIKLAMA: “YENİLMEDİK, ÇALIŞMALARIMIZI HIZLANDIRDIK.”",
                 "cat": "formula 1",
