@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 244,
+                "title": "PORSCHE MOBIL 1 SUPERCUP TOSFED İSTANBUL PARK'TA: 2027 FORMULA 1 TÜRKİYE GP HAFTA SONUNDA HEYECAN KATLANIYOR!",
+                "cat": "formula 1",
+                "date": "2026-10-15 22:17",
+                "content": "Formula 1 Turkish Grand Prix heyecanı, destek serileriyle birlikte zirveye taşınıyor. Formula 2 ve Formula 3 serilerinin ardından, dünyanın en çekişmeli tek marka şampiyonalarından biri olan Porsche Mobil 1 Supercup da TOSFED İstanbul Park pistine geri dönüyor.<br><br>Milli sporcumuz Ayhancan Güven’in üç sezon boyunca podyum mücadelesi vererek adını duyurduğu prestijli seri, 01-03 Ekim 2027 tarihlerinde İstanbul’da motor sporları tutkunlarıyla buluşacak. Böylece TOSFED İstanbul Park, aynı hafta sonunda üç dev destek serisine birden ev sahipliği yaparak tarihi anlara sahne olacak.<br><br>Konuya ilişkin değerlendirmelerde bulunan TOSFED Başkanı Eren Üçlertoprağı, organizasyonun büyüklüğüne şu sözlerle dikkat çekti:<br><br>\"Attığımız adımların ardından, yarışseverlerimize unutulmaz bir deneyim sunmak için verdiğimiz sözleri tutmanın gururunu yaşıyoruz. F2 ve F3 serilerinin yanına Porsche Mobil 1 Supercup’ı da ekleyerek ülkemize kazandırdık. 2027 Formula 1 takviminde F2, F3 ve Porsche serilerinin tamamını aynı hafta sonunda ağırlayan dünyadaki beş ülkeden biri olacağız. Daha da önemlisi; hem F3 hem de Porsche Supercup sezon finalleri İstanbul Park'ta koşulacak. Tüm yerli ve yabancı yarış tutkunlarını bu büyük şölene ortak olmak üzere şimdiden TOSFED İstanbul Park’a davet ediyoruz.\"<br><br>Yarış için bilet ön kayıt başvuruları ise turkishgp.tosfed.org.tr web sitesi üzerinden alınıyor.",
+                "img": "Resimler/Formula 1 Haberler/1792091863876_IMG_0197.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 243,
                 "title": "SEPANG DÖNÜŞÜMLÜ TAKVİMLE GRID'E DÖNMEYE HAZIRLANIYOR: İŞTE MALEZYA'NIN FORMULA 1 PLANI!",
                 "cat": "formula 1",
