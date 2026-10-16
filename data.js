@@ -7013,6 +7013,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 246,
+                "title": "ALEX MARQUEZ UYARDI: \"ŞAMPİYONLUK İÇİN MARC’IN SIR DIŞI BİR PERFORMANS SERGİLEMESİ ŞART\"",
+                "cat": "motogp",
+                "date": "2026-10-16 14:06",
+                "content": "MotoGP’de sezonun final düzlüğüne girilirken şampiyonluk savaşı nefes kesmeye devam ediyor. Alex Marquez, şampiyonluk ipini göğüsleyebilmek adına kardeşi Marc Marquez’in, Aprilia’nın üstünlük kurabileceği kritik pistlerde yeteneğini konuşturup \"özel numaralarını\" sergilemesi gerektiğini ifade etti.<br><br>Endonezya Grand Prix’si geride kalırken sezonun tamamlanmasına yalnızca beş yarış kaldı. Ducati adına yarışan Marc Marquez ile Aprilia’nın parlayan yıldızı Jorge Martin arasındaki puan mücadelesi ise adeta alev almış durumda. Mandalika’daki sprint zaferinin ardından ana yarışı 6. sırada tamamlayan Marc Marquez, hafta sonunu en yakın takipçisi Jorge Martin ile aynı puanla noktaladı ve genel klasmandaki 2 puanlık avantajını korumayı başardı.<br><br>Kardeşinin zorlu bir virajı kayıpsız döndüğünü belirten Alex Marquez, Mandalika etabını şöyle değerlendirdi: \"Tam anlamıyla bir zafer olarak adlandıramasak da Marc açısından daima zorlayıcı geçen bir hafta sonundan yara almadan çıkmayı bildi. Her iki pilot da hanesine 22'şer puan yazdırdı ve Marc bir anlamda durumu kurtardı.\"<br><br>Önlerindeki takvimin Aprilia ve Jorge Martin lehine avantajlar barındırdığına işaret eden Alex Marquez, kardeşinin ekstra bir performans ortaya koyması gerektiğini şu sözlerle vurguladı: \"Önümüzde Phillip Island , Lusail  ve Portimao gibi Aprilia'nın fazlasıyla etkili olabileceği pistler var. Bu sebeple düğüm son ana kadar çözülmeyecek. Marc'ın o alışık olduğumuz sıra dışı yeteneklerini ve özel sürüşlerini tam da bu kritik yarışlarda piste yansıtması gerekecek.\"<br><br>Sezonun kalan beş pisti arasında yalnızca Portimao’da podyumun zirvesine çıkamayan Marc Marquez; Avustralya, Malezya, Katar ve Valencia'da daha önce defalarca zafere ulaşmıştı.<br><br>Endonezya’daki mücadelenin ardından padokta en çok konuşulan konulardan biri de takımların olası stratejik müdahaleleri oldu. Aprilia cephesinde Marco Bezzecchi’nin şampiyonluk yolunda Martin’e destek verme ihtimalini değerlendiren Alex Marquez, Ducati'nin de vakti geldiğinde stratejik adımlar atabileceğini belirtti:<br><br>\"Aprilia'nın gayesi ortada; şampiyonluğu kazanmak istiyorlar ve tüm sürücüleriyle bu doğrultuda temas halindeler. Ducati tarafında da benzer bir planlamanın vakti gelecektir fakat şu an için bu kararı almak adına biraz erken. Yine de her pazar damalı bayrağa kadar en iyi sonuç için mücadele ederken tüm ihtimalleri göz önünde bulunduracağız.\"",
+                "img": "Resimler/MotoGP Haberler/1792148799042_IMG_0204.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 233,
                 "title": "ADELAIDE GP İÇİN DEV ORTAKLIK: MOTOGP VE RED BULL GÜÇLERİNİ BİRLEŞTİRDİ",
                 "cat": "motogp",
