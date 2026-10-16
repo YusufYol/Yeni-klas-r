@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 247,
+                "title": "ABU DABİ GP İÇİN GÜVENLİK İDDİALARINA NOKTAYI KOYDU: “SEZON FİNALİ PLANDIĞI GİBİ YAPILACAK!”",
+                "cat": "formula 1",
+                "date": "2026-10-16 14:58",
+                "content": "Orta Doğu’da tırmanan gerilim ve bölgedeki güvenlik kaygıları Formula 1 takvimini tartışmaya açarken, Abu Dabi Grand Prix organizatörlerinden iddiaları sonlandıran net bir açıklama geldi. Sezon finaline ev sahipliği yapan Ethara’nın CEO’su Saif Rashid Al Noaimi, 6 Aralık’taki yarışın hiçbir aksama olmadan takvime uygun şekilde gerçekleştirileceğini duyurdu.<br><br>Son haftalarda Suudi Arabistan’daki stratejik noktalara ve Riyad Havalimanı çevresine yönelik artan saldırılar, hem hemen komşu konumdaki Katar GP hem de Yas Marina’daki sezon finali için soru işaretleri yaratmıştı. F1 yönetiminin süreci yakından izlediği ve olası bir kriz senaryosunda İtalya’daki Imola Pisti’ni tek yarışlık bir acil durum alternatifi olarak beklettiği konuşulsa da organizasyon cephesi geri adım atmıyor.<br><br>Dubai Eye 103.8FM mikrofonlarına konuşan Al Noaimi, hazırlıkların tüm hızıyla devam ettiğini belirterek şu ifadeleri kullandı:<br><br>\"Yarış planlandığı gibi gerçekleşecek. Takvimde hiçbir sapma yok; sezon finalini 6 Aralık’ta Yas Marina Pisti’nde koşacağız. Pist alanında hummalı bir çalışma var ve tarihimizin en geniş Paddock Club alanını inşa ediyoruz.\"<br><br>Organizasyonun devasa operasyonel boyutuna da dikkat çeken Al Noaimi, hafta sonu boyunca 12 binin üzerinde misafir ağırlayacaklarını, sahada akredite edilen çalışan sayısının 40 bine ulaştığını belirtti. Yüzde 90’ı yerel vatandaşlardan oluşan 1.500 gönüllü ve 220’yi aşkın tedarikçi firmanın devrede olduğunu vurgulayan CEO, yerel ekosistemin gücüyle Abu Dabi’nin bu büyük finale eksiksiz ev sahipliği yapacağını yineledi.",
+                "img": "Resimler/Formula 1 Haberler/1792151898260_IMG_0205.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 244,
                 "title": "PORSCHE MOBIL 1 SUPERCUP TOSFED İSTANBUL PARK'TA: 2027 FORMULA 1 TÜRKİYE GP HAFTA SONUNDA HEYECAN KATLANIYOR!",
                 "cat": "formula 1",
