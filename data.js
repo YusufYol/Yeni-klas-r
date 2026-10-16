@@ -13107,6 +13107,16 @@ const APP_DATA = {
     "haberler": {
         "news": [
             {
+                "id": 245,
+                "title": "ALP AKSOY, FERRARI SÜRÜCÜ AKADEMİSİ’NE KATILDI!",
+                "cat": "haberler",
+                "date": "2026-10-16 13:24",
+                "content": "Türk motor sporları adına tarihi bir gelişme yaşandı. Genç millî pilot Alp Aksoy, 2027 sezonunda Ferrari Sürücü Akademisi kadrosunda yer alacak.<br><br>Ferrari tarafından resmen açıklanan 2027 akademi kadrosuna seçilen Alp Aksoy, gelecek sezon Formula Regional Avrupa Şampiyonası’nda (FRECA) mücadele edecek.<br><br>Kariyerine Ferrari’nin desteğiyle devam edecek olan genç pilot, dünyanın en prestijli sürücü gelişim programlarından birinde kendisini gösterme fırsatı bulacak. Ferrari Sürücü Akademisi, genç yetenekleri üst kategorilere ve Formula 1’e hazırlamasıyla biliniyor.<br><br>Alp Aksoy’un akademiye katılması, Türk motor sporlarının uluslararası arenadaki yükselişi açısından da büyük önem taşıyor. Genç pilotun 2027 sezonunda FRECA’daki performansı yakından takip edilecek.",
+                "img": "Resimler/Haberler/1792146279492_IMG_0793.jpeg",
+                "author": "Emre Boz",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Emre Boz.png"
+            },
+            {
                 "id": 238,
                 "title": "TOSFED 9. MALİ GENEL KURULU GERÇEKLEŞTİRİLDİ",
                 "cat": "haberler",
