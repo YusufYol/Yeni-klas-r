@@ -13167,6 +13167,16 @@ const APP_DATA = {
     "haberler": {
         "news": [
             {
+                "id": 253,
+                "title": "FERRARI AKADEMİSİ'NE KATILAN ALP AKSOY: \"HEDEFİM KENDİ ÜLKEMDE YARIŞMAK\"",
+                "cat": "haberler",
+                "date": "2026-10-17 18:44",
+                "content": "Genç yeteneğimiz Alp Aksoy, dünyanın en köklü ve prestijli takımlarından Ferrari’nin Sürücü Akademisi’ne seçilerek kariyerinde dev bir sıçrama yaptı. 2027 sezonunda Formula Bölgesel Avrupa Şampiyonası'nda (FRECA) boy göstermeye hazırlanan 16 yaşındaki milli pilot, hedeflerini ve transfer sürecinin perde arkasını paylaştı.<br><br>Formula 4 sahnesine Prema Racing çatısı altında adım atan ve Formula Trophy Serisi’ni şampiyonlukla tamamlayarak dikkatleri üzerine çeken Alp, gösterdiği üstün performansla dev ekiplerin radarına girdi. Pistlerde sergilediği hız ve istikrar, genç pilotun Ferrari Sürücü Akademisi'nin kapılarını aralamasını sağladı.<br><br>Charles Leclerc, Sergio Perez ve Oliver Bearman gibi günümüz Formula 1 yıldızlarının yetiştiği köklü akademide gelişimini sürdürecek olan Alp Aksoy, 2030 yılı için koyduğu Formula 1 hedefine artık çok daha yakın olduğunu vurguladı.<br><br>Ferrari ailesine katılmanın kendisi ve Türkiye adına büyük bir gurur olduğunu belirten Alp Aksoy, bir yıllık zorlu izleme sürecini şu sözlerle anlattı:<br><br>\"Formula 1'in en prestijli takımı Ferrari'nin bünyesine dahil olduğum için hem kendi adıma hem de ülkem adına tarifsiz bir mutluluk yaşıyorum. İlk temasımızın üzerinden bir yıl geçti. Bu 12 aylık periyotta beni kapsamlı simülatör ve mental testlere tabi tuttular; antrenmanlarımı ve yarışlarımı yerinde takip ettiler. Sonuç olarak zirve hedefim olan Formula 1’e doğru dev bir adım daha attık.\"<br><br>İtalyan devinin efsanevi merkezi Maranello’da geçireceği dönemin kendisi için büyük bir motivasyon kaynağı olduğunu ifade eden genç sürücü:<br><br>\"Artık pistlere ve antrenmanlara Ferrari logosuyla çıkacak olmak muazzam bir güç veriyor. Maranello'da takımla birlikte dilediğim gibi simülatör seansları ve pist antrenmanları gerçekleştirebileceğim. Ferrari teknik ekibinin doğrudan yanımda olması, F1 hayalime giden yolda bana paha biçilemez bir katkı sunacak.\"<br><br>Türkiye'nin yeniden Formula 1 takvimine dönme heyecanına da değinen Alp Aksoy, en büyük arzusunu şu sözlerle noktaladı:<br><br>\"Formula 1'in tekrar Türkiye'ye geliyor olması heyecan verici. Bir gün kendi evimde, Türk bayrakları ve kendi vatandaşlarımın önünde bir Formula 1 pilotu olarak piste çıkmak benim en büyük hayalim.\"",
+                "img": "Resimler/Haberler/1792251880902_IMG_0243.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 250,
                 "title": "WEC BARSELONA'DA POLE FLEMING'E GİTTİ: SALİH YOLUÇ İLK 10'DA, AYHANCAN 12. SIRADA",
                 "cat": "haberler",
