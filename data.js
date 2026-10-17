@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 251,
+                "title": "HAAS F1, GODZİLLA TEMASIYLA AUSTIN PİSTİNE ÇIKIYOR!",
+                "cat": "formula 1",
+                "date": "2026-10-17 14:21",
+                "content": "Suzuka’da sergilediği çarpıcı görünümle motor sporları dünyasında ses getiren Haas F1 Takımı, sinema tarihinin ikonik figürü Godzilla’yı bu kez kendi evine taşıyor. Amerikan temsilcisi, Birleşik Devletler Grand Prix’sinin koşulacağı Circuit of the Americas (COTA) pistinde Japon eğlence devi TOHO iş birliğiyle hazırlanan özel bir renk düzeniyle yarışacak.<br><br>Sezonun 18. mücadelesine sahne olacak Austin hafta sonunda Esteban Ocon ve Oliver Bearman, Japonya’dakinden tamamen farklı ve yenilenmiş bir Godzilla tasarımı taşıyan araçların direksiyonuna geçecek. Tematik dokunuş yalnızca araç gövdesiyle sınırlı kalmayacak; sürücü tulumlarından pit duvarı ve garaj ekipmanlarına kadar tüm takım bu canavarlar temasına bürünecek.<br><br>İş birliği aynı zamanda beyaz perdeyle de doğrudan bir köprü kuruyor. Austin yarışı, ABD sinemalarında 6 Kasım’da vizyona girmesi planlanan yeni \"Godzilla Minus Zero\" filminin hemen öncesinde gerçekleşerek stratejik bir tanıtım hamlesine dönüşüyor.<br><br>Yeni tasarım ve merakla beklenen \"Godzilla x TGR Haas F1 Team\" taraftar koleksiyonu, 19 Ekim Pazartesi günü dijital platformlar üzerinden görücüye çıkacak. Hafta sonu boyunca düzenlenecek taraftar buluşmalarında Takım Patronu Ayao Komatsu, yarış pilotları Ocon ve Bearman ile birlikte yedek sürücü Jack Doohan ve F1 Academy temsilcisi Kaylee Countryman yer alacak. Tasarımı yakından görmek isteyen yarışseverler için özel şov aracı, 23-25 Ekim tarihleri arasında Barton Creek Square'de sergilenecek.<br><br>Ortaklığı değerlendiren Takım Patronu Ayao Komatsu, Suzuka'da elde ettikleri başarının ardından Godzilla efsanesini takımlarının anavatanı Amerika’ya taşımaktan büyük heyecan duyduklarını belirterek, Formula 1'de böylesi devam niteliğindeki konsept tasarımların hem ekip hem de taraftarlar için unutulmaz bir deneyim sunduğunu vurguladı.",
+                "img": "Resimler/Formula 1 Haberler/1792236113188_IMG_0230.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 249,
                 "title": "MERCEDES, AUSTIN ÖNCESİ DÜĞMEYE BASTI: ÇİFT ARAÇTA YENİ TEKNİK PAKET VE ÖN KANAT PİSTE ÇIKIYOR",
                 "cat": "formula 1",
