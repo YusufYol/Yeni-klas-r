@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 252,
+                "title": "FERRARI'NİN 2027 YEDEK VE TEST PİLOTU DINO BEGANOVIC OLARAK OLDU!",
+                "cat": "formula 1",
+                "date": "2026-10-17 15:39",
+                "content": "Ferrari Sürücü Akademisi bünyesinde yetişen genç yetenek Dino Beganovic, 2027 sezonu itibarıyla İtalyan ekibinin resmi Formula 1 yedek ve test pilotluğu görevine getirildi.<br><br>İsveçli pilot, önümüzdeki sezon boyunca Maranello merkezli takımda simülatör ve araç geliştirme çalışmalarını sürdürürken, aynı zamanda yarış hafta sonlarında olası bir ihtiyaç halinde ana pilotların yerini almaya hazır resmi yedek sürücü unvanını taşıyacak. Beganovic daha önce de Ferrari adına resmi antrenman seanslarında piste çıkmış; 2025 yılında Bahreyn ve Avusturya’da SF-25’in kokpitine geçerken, 2026 sezonunda ise Barselona ve Avusturya’da takımın güncel aracıyla serbest antrenman turları atmıştı.<br><br>Gelişmeyi sosyal medya hesaplarından doğrulayan Beganovic, yaptığı açıklamada şu ifadelere yer verdi:<br><br>\"Haber resmiyet kazandı: Ferrari Formula 1 takımının resmi yedek ve test pilotuyum. Bu yolculukta beni destekleyen ve bana inanan herkese çok teşekkür ederim. Benim için yepyeni bir başlangıç olacak.\"<br><br>Formula 2 şampiyonasındaki ikinci sezonunu geride bırakmaya hazırlanan genç sürücü, serideki son iki yıllık döneminde üç yarış galibiyetine imza attı ve mevcut sezonda pilotlar klasmanında beşinci sırada mücadelesini sürdürüyor.",
+                "img": "Resimler/Formula 1 Haberler/1792240792319_IMG_0233.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 251,
                 "title": "HAAS F1, GODZİLLA TEMASIYLA AUSTIN PİSTİNE ÇIKIYOR!",
                 "cat": "formula 1",
