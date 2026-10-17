@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 248,
+                "title": "TOTO WOLFF'TEN MERCEDES'TEKİ KAYIRMACILIK SÖYLEMLERİNE SERT ÇIKIŞ: \"BUNU İDDİA EDENLER AKLINI KAÇIRMIŞ OLMALI!\"",
+                "cat": "formula 1",
+                "date": "2026-10-17 12:35",
+                "content": "Mercedes-AMG Formula 1 Takımı patronu Toto Wolff, 2026 sezonunda şampiyonluk yarışını önde götüren çaylak pilot Kimi Antonelli’ye ayrıcalık tanındığı ve George Russell’ın ikinci plana itildiği yönündeki söylentilere son noktayı koydu. Takım içindeki dengelerin bozulduğu yönündeki iddiaları sert bir dille eleştiren Wolff, padokta ve sosyal medyada yankı uyandıran spekülasyonlara kapıyı kapattı.<br><br>2026 sezonunun ilerleyen haftalarında Antonelli’nin Russell ile arasındaki puan farkını 102’ye kadar çıkarması, Mercedes garajında İtalyan sürücüye gizli bir destek sağlandığı teorilerini gündeme taşımıştı. Brackley merkezli ekibin kaynaklarını tek bir pilota kanalize ettiği yönündeki eleştirilere yanıt veren Wolff, takım yönetiminde şeffaflık ve eşitliğin temel prensip olduğunu dile getirdi.<br><br>Pilot yönetimindeki adil yaklaşımını Formula 1'deki ilk yıllarında edindiği tecrübelere dayandıran Avusturyalı yönetici, efsanevi pilot Alain Prost ile geçmişte yaptığı bir diyaloğu hatırlattı:<br><br>\"Formula 1 kariyerimin başından bu yana, Williams günlerim de dahil olmak üzere, her iki garaja karşı da tamamen dürüst ve şeffaf kalmayı prensip edindim. Henüz çok yeniyken bir yarışın gridinde Alain Prost’a, Ayrton Senna ile aralarının neden bu kadar bozulduğunu sormuştum. Bana, McLaren'da takımın gerçek niyetini asla anlayamadıklarını, bir gün el üstünde tutulurken iki ay sonra perde arkasındaki siyasetin kurbanı gibi hissettiklerini anlatmıştı. O gün, takımımdaki dengeyi korumayı kendime misyon edindim. Lewis ve Nico döneminde de bunu yönetmek kolay değildi ancak dürüstlükten asla taviz vermedim.\"<br><br>Her iki pilotuna da eşit mesafede ve derin bir bağla yaklaştığını ifade eden Wolff, ortaya atılan kayırmacılık iddialarını gerçeği yansıtmayan bir yanılsama olarak nitelendirdi:<br><br>\"Kimi'yi 11 yaşından bu yana takip ediyoruz; gelişimini ve böylesine erken bir aşamada şampiyonluk savaşı verebilecek seviyeye gelişini izlemek muazzam bir gurur. Öte yandan George ile aramızdaki bağ çok özel ve güçlü. Pist dışında da ailelerimizle birlikte vakit geçiriyoruz; seyahatlerimizi, antrenmanlarımızı ve günlük hayatımızı görseler aramızdaki güvenin boyutunu anlarlar. Takım içi ilişkilerin nasıl yürüdüğünden habersiz insanların böyle mesnetsiz suçlamalar üretmesi gerçekten can sıkıcı. Tam da bu nedenle bu tür akıl dışı yorumları ciddiye almıyorum.\"",
+                "img": "Resimler/Formula 1 Haberler/1792229703280_IMG_0225.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 247,
                 "title": "ABU DABİ GP İÇİN GÜVENLİK İDDİALARINA NOKTAYI KOYDU: “SEZON FİNALİ PLANDIĞI GİBİ YAPILACAK!”",
                 "cat": "formula 1",
