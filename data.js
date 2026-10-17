@@ -13147,6 +13147,17 @@ const APP_DATA = {
     "haberler": {
         "news": [
             {
+                "id": 250,
+                "title": "WEC BARSELONA'DA POLE FLEMING'E GİTTİ: SALİH YOLUÇ İLK 10'DA, AYHANCAN 12. SIRADA",
+                "cat": "haberler",
+                "date": "2026-10-17 14:18",
+                "content": "FIA Dünya Dayanıklılık Şampiyonası’nın (WEC) Barselona ayağında koşulacak 6 Saat mücadelesi öncesi LMGT3 kategorisinde grid dizilimi belli oldu. Sabah saatlerindeki yoğun sisin dağılmasıyla Circuit de Barcelona-Catalunya’da başlayan kritik seansta Garage 59 sürücüsü Thomas Fleming pole pozisyonunun sahibi oldu.<br><br>10 numaralı McLaren koltuğunda 1:40.933’lük derece yakalayan İngiliz pilot, pazar günkü yarış öncesi avantajı kaptı. Fleming, seansın son anlarında liderliği zorlayan Manthey Porsche pilotu Riccardo Pera’yı sadece 0.122 saniye farkla geride bırakarak zirveye tutundu. Pera ikinci sırayı alarak ilk çizgiyi tamamlarken, AF Corse adına 21 numaralı Ferrari ile piste çıkan Simon Mann 0.465 saniye geride üçüncü basamağa yerleşti. Dördüncü sıra ise TF Sport Corvette ile yarışan Jonny Edgar’ın oldu.<br><br>Orta sıralarda Rui Andrade altıncı, Sean Gelael yedinci ve Clemens Schmid sekizinci sırada seansı noktaladı. Proton Competition’ın Ford Mustang ikilisi Ben Tuck ile Giammarco Levorato ise ilk 10’u tamamlayan isimler oldu.<br><br>Türkiye’yi temsil eden sürücülerden Salih Yoluç, 34 numaralı TF Sport Corvette ile ilk 10’un son sırasında kendine yer buldu. Gridde mücadele eden bir diğer milli sporcumuz Ayhancan Güven ise seansı 12. sırada tamamlayarak yarış için pozisyon aldı.<br><br>Bronz dereceli pilotların katıldığı ilk eleme seansında ise en hızlı tur 1:42.082 ile Salih Yoluç’un takım arkadaşı Peter Dempsey’den gelmişti. Seansın son anlarında iyi bir tempo yakalayan Eric Powell , Tom Van Rompuy’u yalnızca 0.018 saniye farkla saf dışı bırakıp Hyperpole biletini kaparken, Van Rompuy 11. sırada kalarak elenen ilk isim oldu.",
+                "img": "Resimler/Haberler/1792235895683_IMG_0229.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png",
+                "customBadge": "WEC"
+            },
+            {
                 "id": 245,
                 "title": "ALP AKSOY, FERRARI SÜRÜCÜ AKADEMİSİ’NE KATILDI!",
                 "cat": "haberler",
