@@ -7083,6 +7083,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 256,
+                "title": "AI OGURA’DAN GELEN İTİRAF: HONDA TEKLİFİNİ NEDEN GERİ ÇEVİRDİ?",
+                "cat": "motogp",
+                "date": "2026-10-18 16:14",
+                "content": "Asia Talent Cup kökenli olup Moto3 ve Moto2 serüvenini Honda Team Asia çatısı altında geçiren Ai Ogura’nın, MotoGP basamağına Japon üreticiyle tırmanması uzun süre kaçınılmaz bir senaryo olarak değerlendiriliyordu. 2024 sezonunda LCR Honda koltuğu için en güçlü aday konumundayken masadaki teklifi geri çeviren Japon sürücü, o dönem aldığı sürpriz kararın perde arkasını ilk kez araladı.<br><br>Alt sınıflarda yarışırken önceliğini şampiyonluk unvanına veren Ogura, 2024’te MT Helmets - MSI bünyesinde Moto2 Dünya Şampiyonu olduktan sonra MotoGP sahnesine Trackhouse Aprilia formasıyla giriş yaptı. Bu stratejik hamle kısa sürede sonuç verdi; genç pilot Hollanda TT’de elde ettiği birincilikle 2004 yılından bu yana premier sınıfta zafere uzanan ilk Japon isim olarak tarihe geçti.<br><br>Konuya ilişkin Crash’e açıklamalarda bulunan 25 yaşındaki sürücü, Honda’yı reddetme gerekçesini iki temel unsura bağladı:<br><br>\"Honda’nın teklifini kabul etmedim çünkü o aşamada MotoGP seviyesi için kendimi hazır hissetmiyordum. Üst lige adım atmadan önce mutlaka bir dünya şampiyonluğu elde etme hedefim vardı. Kararımı şekillendiren başlıca iki faktör bunlardı.\"<br><br>Kariyer adımlarını katı planlarla belirlemediğini vurgulayan Ogura, şartlara göre hareket ettiğini belirtti:<br><br>\"Tamamen içinde bulunduğum anın dinamiklerine bakarak kariyerim için en doğru seçimi yaptım. Ortada önceden kurgulanmış uzun vadeli planlar yoktu. Önünüze gelen fırsatlar pistteki neticelerinizle doğrudan bağlantılıdır; dolayısıyla 3-4 yıl sonrasını bugünden kurgulayamazsınız. Koşullar sezondan sezona farklılaşır. Geçmiş tercihlerim üzerine duygusal muhasebelere girmem, değiştiremeyeceğiniz konuları tartışmanın da bir faydası yok. Bu sebeple kararımdan ötürü oldukça memnunum.\"<br><br>Trackhouse’un kadrosunda tutma çabalarına rağmen yükselen grafiğiyle dikkat çeken Ogura, 2027 sezonu için fabrika ekibi Monster Energy Yamaha ile anlaşma imzalayarak Jorge Martin’in yeni takım arkadaşı oldu. 2022 Almanya GP’sinden bu yana galibiyete hasret kalan ve toparlanma mücadelesi veren Yamaha projesindeki sorumluluğuna da değinen Japon pilot, kendi sınırlarını net bir şekilde çizdi:<br><br>\"Benim pistteki rolüm motoru limitlerinde sürmek ve teknik ekibe en doğru veriyi sağlamaktır. Beni bu süreçte nasıl değerlendirecekleri tamamen onların tasarrufunda; gelişim takviminin detaylarını Yamaha yönetimine sormak gerekir. Sürücü olarak benim odaklandığım tek görev, tur zamanlarını aşağı çekmek ve üzerime düşen işi eksiksiz yapmaktır.\"",
+                "img": "Resimler/MotoGP Haberler/1792329280905_IMG_0251.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 246,
                 "title": "ALEX MARQUEZ UYARDI: \"ŞAMPİYONLUK İÇİN MARC’IN SIR DIŞI BİR PERFORMANS SERGİLEMESİ ŞART\"",
                 "cat": "motogp",
