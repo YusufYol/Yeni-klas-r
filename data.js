@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 254,
+                "title": "LANDO NORRIS’İN TAKIMI LN4 FUSION FORMULA 2 HEDEFİ İÇİN GERİ SAYIMDA",
+                "cat": "formula 1",
+                "date": "2026-10-18 11:47",
+                "content": "Formula 1 pilotu Lando Norris’in kurduğu LN4 Fusion, gözünü Formula 2 gridine dikti. 2027 sezonunda şampiyonaya dahil olmak isteyen takımın başvurusu, serinin yönetim birimi tarafından mercek altına alındı.<br>FIA Formula 2 CEO’su Bruno Michel, 2027-2029 dönemini kapsayan üç yıllık yeni döngü için takım belirleme sürecinde sona yaklaştıklarını açıkladı. LN4 Fusion’ın resmi katılım başvurusunda bulunduğunu doğrulayan Michel, nihai kararın bir ila bir buçuk ay içinde duyurulacağını belirtti.<br><br>Şampiyonaya gösterilen yoğun ilgiden memnuniyet duyduklarını belirten Michel, mevcut katılımcı sayısını artırmayı düşünmediklerini vurguladı. Serinin finansal sürdürülebilirliğini korumanın öncelikleri olduğunu hatırlatan Michel; F1’deki 22 pilotluk mevcut yapıya paralel olarak F2’de de 22 sürücünün ideal dengeyi sağladığını, bu nedenle grid kapasitesini koruyarak sadece en uygun adayları seçeceklerini ifade etti.<br><br>Eylül başında duyurulan ve AIX Racing’in varlıklarını bünyesine katarak yola çıkan LN4 Fusion, 2027 sonuna kadar geçerli Formula 3 katılım hakkını halihazırda elinde bulunduruyor. Takımın F3 kadrosunda Gabriel Gomez ve James Egozi ikilisinin yarışacağı kesinleşirken, asıl büyük hamlenin Formula 2 seviyesinde gerçekleşmesi hedefleniyor.<br><br>Kendi kariyerinde yakaladığı imkanları genç yeteneklere aktarmayı misyon edindiğini vurgulayan Norris, motorsporlarının zirvesine giden yolun yalnızca saf yetenekle açıklanamayacağına dikkat çekti. F1’e ulaşma sürecinde doğru çevreye ve güçlü bir rehberliğe sahip olmanın önemine değinen başarılı pilot, kurduğu bu yapıyla doğru desteği ve zamanlamayı yeni nesil yarışçılara sunarak kalıcı bir iz bırakmak istediğini dile getirdi.",
+                "img": "Resimler/Formula 1 Haberler/1792313221501_IMG_0248.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 252,
                 "title": "FERRARI'NİN 2027 YEDEK VE TEST PİLOTU DINO BEGANOVIC OLDU!",
                 "cat": "formula 1",
