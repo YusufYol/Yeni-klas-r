@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 255,
+                "title": "RAFAEL CAMARA FORMULA 1'DEKİ YARIŞ NUMARASINI BELİRLEDİ: GRID'İN YENİ 50 NUMARASI",
+                "cat": "formula 1",
+                "date": "2026-10-18 13:02",
+                "content": "2027 sezonunda Haas koltuğuna oturarak Formula 1 dünyasına adım atmaya hazırlanan Rafael Camara, kariyeri boyunca taşıyacağı kalıcı yarış numarasını resmen duyurdu. Esteban Ocon'un yerine Amerikan ekibine katılacak olan Brezilyalı genç yetenek, padokta 50 numara ile mücadele edecek.<br><br>Mevcut Formula 2 şampiyona lideri olan Camara, mart ayında gerçekleştirilecek Bahreyn Grand Prix'siyle birlikte piste 50 numarayla çıkacak. Genç sürücü bu tercihiyle, modern Formula 1 döneminde 50'yi kalıcı kişisel numarası olarak tescil ettiren ilk pilot unvanını da elde edecek.<br><br>50 numara, son olarak 2024 sezonunda Oliver Bearman tarafından kullanılmıştı. O dönem Kevin Magnussen'in cezası ve sağlık sorunları nedeniyle Azerbaycan ile Brezilya yarışlarında Haas direksiyonuna geçen Bearman, yedek sürücü statüsünde olduğu için takımın tahsis ettiği geçici havuz numarasını taşımıştı. İngiliz pilot, 2025'te tam zamanlı grid koltuğunu devraldığında ise kişisel tercihi olan 87 numarayı seçmişti.<br><br>Tercihinin ardındaki hikâyeyi paylaşan Camara, asıl hedefinin 5 numara olduğunu ancak bu numaranın Gabriel Bortoleto tarafından kullanılması sebebiyle farklı bir arayışa girdiğini belirtti. Karar sürecinde ailesinin önemli bir rol oynadığını vurgulayan Brezilyalı pilot, şu ifadeleri kullandı:<br><br>\"Kariyerim boyunca 50 numarayı kullanacağım. Aslında ilk tercihim 5 numaraydı fakat şu anda o numara Gabriel'de. Konuyu babamla değerlendirirken 50 numarada karar kıldık; çünkü doğum tarihim 05/05/2005. Babam bana 'Sen 50'sin' dedi. Doğum tarihimle kusursuz bir uyum yakaladı, bu nedenle gelecek sezondan itibaren bu numarayla yarışacağım.\"",
+                "img": "Resimler/Formula 1 Haberler/1792317729740_IMG_0250.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 254,
                 "title": "LANDO NORRIS’İN TAKIMI LN4 FUSION FORMULA 2 HEDEFİ İÇİN GERİ SAYIMDA",
                 "cat": "formula 1",
