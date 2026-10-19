@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 258,
+                "title": "FERRARI'DEN AUSTIN'E ÖZEL BEYAZ DOKUNUŞ: LECLERC VE HAMILTON İÇİN YENİ TULUM TASARIMI TANITILDI",
+                "cat": "formula 1",
+                "date": "2026-10-19 13:19",
+                "content": "Formula 1’de gözler Amerika Grand Prix'sine çevrilirken, Scuderia Ferrari hafta sonuna damga vuracak özel hazırlıklarını duyurmaya başladı. Şampiyona genel klasmanında 444 puanla ikinci sırada yer alan İtalyan devi, Austin yarışında Charles Leclerc ve Lewis Hamilton'ın giyeceği özel tulum tasarımlarını resmi sosyal medya hesapları üzerinden tanıttı.<br><br>Tanıtılan yeni tasarımda en çok öne çıkan detay, Ferrari’nin alışılagelmiş kırmızı ağırlıklı çizgisine kıyasla beyaz rengin baskın şekilde kullanılması oldu. Pilotlar, bu çarpıcı tulumların yanı sıra tasarımla bütünlük sağlayan beyaz yarış ayakkabılarıyla piste çıkacak.<br><br>Öte yandan Ferrari, tulum lansmanı öncesinde X ve Instagram hesaplarında paylaştığı \"Yakında Austin'de...\" notuyla taraftarlarını heyecanlandırdı. Bu gizemli paylaşım, İtalyan ekibinin Amerika GP hafta sonunda yalnızca tulumlarla yetinmeyip araca özel yeni bir renk düzeniyle de piste çıkabileceği beklentisini güçlendirdi.",
+                "img": "Resimler/Formula 1 Haberler/1792405142587_IMG_0258.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 257,
                 "title": "CHRISTIAN HORNER, NIKI LAUDA’NIN MERCEDES TEKLİFİNİ NEDEN REDDETTİĞİNİ ANLATTI",
                 "cat": "formula 1",
