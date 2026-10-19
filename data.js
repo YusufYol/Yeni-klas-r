@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 257,
+                "title": "CHRISTIAN HORNER, NIKI LAUDA’NIN MERCEDES TEKLİFİNİ NEDEN REDDETTİĞİNİ ANLATTI",
+                "cat": "formula 1",
+                "date": "2026-10-19 12:10",
+                "content": "Christian Horner, Niki Lauda’nın 2013 yılında kendisini Mercedes’e katılmaya ikna etmeye çalıştığını açıkladı. Horner, Lauda’nın teklifini dinlediğini ancak Red Bull’daki başarı döneminin ortasında takımından ayrılmayı düşünmediğini söyledi.<br><br>Lauda’nın kendisine, “Sana bir yarışçı olarak saygı duyuyorum. Gelmeni istiyorum. Üstelik Helmut [Marko] irenç bir p,” dediğini aktaran Horner, o dönemde Sebastian Vettel’in kariyerinin en güçlü dönemlerinden birini yaşadığını ve Red Bull’un yükselişini sürdürdüğünü belirtti.<br><br>Horner, teklif karşısındaki yanıtını ise şu sözlerle anlattı: “Niki, Red Bull ile Dünya Şampiyonlukları kazanıyorum.”<br><br>Red Bull, Horner’ın takım patronluğu yaptığı dönemde 2010’dan 2013’e kadar üst üste dört kez takımlar şampiyonluğunu kazandı.",
+                "img": "Resimler/Formula 1 Haberler/1792401037793_FB061A79-DD00-44DF-B77E-671DA9261B24.jpeg",
+                "author": "Emre Boz",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Emre Boz.png"
+            },
+            {
                 "id": 255,
                 "title": "RAFAEL CAMARA FORMULA 1'DEKİ YARIŞ NUMARASINI BELİRLEDİ: GRID'İN YENİ 50 NUMARASI",
                 "cat": "formula 1",
