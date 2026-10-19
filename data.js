@@ -7103,6 +7103,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 259,
+                "title": "NICOLO BULEGA PERDE ARKASINI ANLATTI: \"VR46 ÖNCESİNDE EN GÜÇLÜ İHTİMAL KTM’YDİ.\"",
+                "cat": "motogp",
+                "date": "2026-10-19 16:12",
+                "content": "Dünya Superbike Şampiyonası’nda Ducati ile zirveye çıkarak şampiyonluk unvanını elde eden Nicolo Bulega, 2027 MotoGP gridine geçiş sürecine dair dikkat çeken açıklamalarda bulundu. Valentino Rossi’nin sahibi olduğu VR46 Ducati ile el sıkışmadan önceki transfer dönemini değerlendiren İtalyan pilot, o süreçte en somut ve gerçekçi alternatifin Avusturyalı üretici KTM olduğunu dile getirdi.<br><br>2026 takviminde Ducati’nin yeni 850cc motor hacmine sahip prototipini ve Pirelli lastiklerini kapsayan kapsamlı test programının merkezinde yer alan Bulega, transfer pazarındaki yoğun taş trafiği nedeniyle Ducati ailesinde kalma şansının bir ara tehlikeye girdiğini hatırlattı. GPOne’a konuşan başarılı sürücü, o günlerde masada duran diğer opsiyonların arka planını şu sözlerle paylaştı:<br><br>\"Sürücü pazarında dengeleri belirleyen ana isimlerin hamlelerini tamamlamasını beklemek durumundaydık. O aşamada KTM ihtimali gerçekten masadaydı ve bana kalırsa aralarındaki en somut seçenek de oydu; menajerim yetkililerle temas halindeydi ve görüşmeler yapılmıştı. Aprilia ise şartlar gereği daha zayıf bir ihtimal olarak kaldı. Yine de ilk günden beri önceliğimin Ducati ile yola devam etmek olduğunu açıkça belirttim. 2022’de bu aileye katıldım; Supersport ile başlayan bağımız doğrudan fabrika takımıyla Superbike macerasına dönüştü. Zaferler kazandık ve nihayetinde dünya şampiyonluğuna ulaştık. Ducati bünyesinde kalmak en büyük hedefimdi ve bunu başardık. Artık önümüzde yepyeni bir sayfa var.\"<br><br>2027 sezonunda VR46 Ducati garajında Fermin Aldeguer ile güçlerini birleştirecek olan Bulega, yeni teknik regülasyonlar ve Pirelli hamurları üzerindeki kapsamlı test mesaisi sayesinde şimdiden griddeki rakiplerinin radarına girmiş durumda. Paddocktaki genel görüş, İtalyan pilotun edindiği bu erken test avantajıyla yeni dönemin ilk yarışlarından itibaren doğrudan podyum mücadelesine ortak olacağı yönünde.",
+                "img": "Resimler/MotoGP Haberler/1792415545054_IMG_0260.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 256,
                 "title": "AI OGURA’DAN GELEN İTİRAF: HONDA TEKLİFİNİ NEDEN GERİ ÇEVİRDİ?",
                 "cat": "motogp",
