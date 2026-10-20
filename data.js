@@ -7103,6 +7103,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 260,
+                "title": "TOPRAK RAZGATLIOĞLU AMELİYAT OLACAK: MİLLİ SPORCU 2026 MOTOGP SEZONUNU KAPATTI!",
+                "cat": "motogp",
+                "date": "2026-10-20 12:24",
+                "content": "MotoGP padoğundaki gururumuz Toprak Razgatlıoğlu’ndan motor sporları camiasını üzen resmi açıklama geldi. Endonezya Grand Prix'sinde geçirdiği talihsiz kaza sonucu omzundan sakatlanan milli motosikletçimiz, bıçak altına yatacağı için 2026 sezonunun kalan bölümünde mücadele edemeyecek.<br><br>Mandalika Pisti'nde yaşanan kazanın ardından yapılan kapsamlı tıbbi kontroller, omzdaki hasarın başlangıçta tahmin edilenden çok daha ciddi olduğunu ortaya koydu. Uzman doktorların değerlendirmesi sonucunda, milli sporcunun sağlığına ve eski formuna eksiksiz kavuşabilmesi adına cerrahi müdahalenin kaçınılmaz olduğuna karar verildi. Razgatlıoğlu, 26 Ekim'de İtalya'nın Milano kentinde ameliyat masasına yatacak.<br><br>Operasyonun ardından uzun bir rehabilitasyon sürecine girecek olan temsilcimiz; başta tutkunu olduğu Phillip Island'daki Avustralya Grand Prix'si olmak üzere sezonun son 4 yarışını kaçıracak. Yamaha cephesinin ise kalan yarışlarda Toprak'ın boşluğunu test sürücüsü Augusto Fernández ile doldurması bekleniyor.<br><br>Sezonu erken noktalamak zorunda kaldığı için büyük bir üzüntü duyduğunu belirten Toprak Razgatlıoğlu, yaptığı açıklamada duygularını şu sözlerle ifade etti:<br><br>\"Avustralya Grand Prix'sini kaçıracak olmak beni derinden yaraladı. Phillip Island kariyerim boyunca bana unutulmaz anlar yaşatan, en sevdiğim pistlerden biri. Orada bir MotoGP motosikletiyle yarışmayı iple çekiyordum; bu yüzden durumu kabullenmek benim için çok daha zor.<br><br>Mandalika'daki kazanın ardından yapılan detaylı kontroller, sakatlığın ilk düşündüğümüzden ciddi boyutta olduğunu gösterdi. Piste yüzde yüz hazır dönebilmek ve tam olarak iyileşmek için ameliyat olmaktan başka çaremiz kalmadı. Bu kararı almak hiç kolay olmadı ancak hem doktorlarımla hem de ekibimle görüştükten sonra geleceğim için en doğru adımın bu olduğuna karar verdik.\"",
+                "img": "Resimler/MotoGP Haberler/1792488234417_IMG_0268.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 259,
                 "title": "NICOLO BULEGA PERDE ARKASINI ANLATTI: \"VR46 ÖNCESİNDE EN GÜÇLÜ İHTİMAL KTM’YDİ.\"",
                 "cat": "motogp",
