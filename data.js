@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 265,
+                "title": "FIA’DAN TEKNİK HAMLE: SIRALAMA TURLARINA ÖZEL JANT DÖNEMİ BAŞLAMADAN BİTTİ",
+                "cat": "formula 1",
+                "date": "2026-10-21 15:46",
+                "content": "Formula 1’de takımların performans arayışında rotayı çevirdiği jant tasarımları, maliyetli ve karmaşık bir teknoloji savaşına dönüşmeden federasyonun radarına takıldı. FIA, sıralama turları ile yarış seansları için farklı jantların üretilmesini öngören yeni geliştirme dalgasını kural değişikliğiyle engelledi.<br><br>2026 regülasyonlarıyla birlikte standart jant zorunluluğunun kalkması, takımlara kendi jantlarını üretme esnekliği kazandırmıştı. Bu özgürlük, lastik sıcaklığını doğrudan etkileyen kritik bir aerodinamik ve termal avantaja dönüştü. Nitekim İspanya’da Ferrari’nin arka lastiklerin soğutulması amacıyla getirdiği yeni jantlar, Lewis Hamilton’ın zafere ulaşmasında belirleyici oldu. Benzer şekilde McLaren da ön lastikleri hızla ısıtıp arkaları serin tutacak özel geometriye sahip jantlarla performans çıtasını yukarı çekti.<br><br>Lastik üreticisi Pirelli adına konuşan baş mühendis Simone Berra, jantların lastik ve tekerlek ısısını dengelemede geçmişe kıyasla çok daha baskın bir rol oynadığını ve genel sıcaklık seviyelerini düşürdüğünü vurguladı.<br>Sezon boyunca elde edilen bu veriler, kış döneminde takımların sadece tek bir hızlı tura özel (lastikleri en ideal çalışma penceresine sokan) sıralama jantları ile uzun mesafe yarışlarında aşırı ısınmayı önleyecek yarış jantlarını ayırmaya başlayacağına işaret ediyordu. Ancak bu senaryo, bütçe kısıtlamalarına rağmen takımları devasa bir harcama yarışına sokma riski taşıyordu.<br><br>Gidişatın uç noktalara taşınmasını istemeyen FIA, Dünya Motor Sporları Konseyi’nin onayıyla 2027 teknik kurallarına net bir sınır getirdi:<br><br>-Sprint veya ana yarış öncesinde kapalı park (parc fermé) kuralları başladığı andan itibaren takımlar tek tip ön ve arka jant konfigürasyonu kullanmak zorunda olacak.<br><br>-Sıralama seansı ile yarış arasında jant tasarımında veya özelliklerinde herhangi bir değişikliğe izin verilmeyecek.<br><br>-Bir aracın jantları takılı halde pit yolundan ayrılması, o jantın resmen kullanıldığı anlamına gelecek ve kural kapsamına girecek.<br><br>Böylece FIA, takımların tek tur performansı ve yarış temposu için ayrı ayrı jant seti üreterek bütçeleri zorlamasının önüne 2027 sezonu başlamadan set çekmiş oldu.",
+                "img": "Resimler/Formula 1 Haberler/1792586759283_IMG_0307.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 264,
                 "title": "FERRARI, MERCEDES'İN KİLİT İSMİ JASPER VAN SCHAICK’İ KADROSUNA KATTI: HAMILTON İLE MARANELLO'DA YENİDEN BULUŞMA",
                 "cat": "formula 1",
