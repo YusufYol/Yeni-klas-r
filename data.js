@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 264,
+                "title": "FERRARI, MERCEDES'İN KİLİT İSMİ JASPER VAN SCHAICK’İ KADROSUNA KATTI: HAMILTON İLE MARANELLO'DA YENİDEN BULUŞMA",
+                "cat": "formula 1",
+                "date": "2026-10-21 15:41",
+                "content": "Formula 1’de şampiyonluk yolundaki rekabet pist üstünde olduğu kadar teknik departmanlarda da tüm hızıyla sürüyor. Geliştirme yarışında çıtayı yukarı taşımak isteyen Ferrari, doğrudan rakibi Mercedes’in teknik ekibinden dikkat çeken bir transfere imza attı. Mercedes’in motor operasyonlarında uzun yıllar boyunca kritik görevler üstlenen Jasper van Schaick, bundan böyle İtalyan ekibinin şasi kanadında ter dökecek.<br><br>Kariyerinde yaklaşık sekiz yıllık bir Mercedes AMG High Performance Powertrains geçmişi bulunan van Schaick, Ekim ayı itibarıyla Maranello’da şasi araç sistemleri uzmanı olarak göreve başladı. 2018 yılından bu yana güç ünitesi tasarımı ile araç şasisi arasındaki uyumu sağlayan projelerde kilit mühendislik sorumlulukları üstlenen tecrübeli isim, geçtiğimiz yıl terfi ettiği konsept mühendisliği rolüyle de yeni nesil güç ünitelerinin geliştirilmesine katkı sağlamıştı. Güç ünitesi ile şasi dinamiklerini aynı potada eritebilen bu çok yönlü tecrübe, teknik detayların belirleyici olduğu modern F1 döneminde Ferrari için oldukça stratejik bir kazanım olarak görülüyor.<br><br>Bu transferin bir diğer heyecan verici boyutu ise Lewis Hamilton ile yolların yeniden kesişmesi oldu. Van Schaick’in Mercedes’teki dönemi, İngiliz pilotun peş peşe şampiyonluklar kazanıp rekorları altüst ettiği en parlak yıllara denk geliyor. Hamilton’ın son dönemde aracın temposuna dair hissettiği eksiklikleri sıkça dile getirdiği bir dönemde gerçekleşen bu buluşma, takım içindeki teknik iletişimin güçlenmesi açısından da önem taşıyor. Geçtiğimiz yıl Ferrari koltuğuna oturduktan sonra adaptasyon sürecinde zor anlar yaşayan Hamilton, bu sezon Barselona’daki zaferiyle formunu geri kazandığını kanıtlamış ve şampiyona yarışında yeniden iddialı konuma gelmişti.<br><br>İtalyan ekibinin bu teknik hamlesi, takvimde kritik bir dönemece girilirken geldi. Austin’de koşulacak Amerika Grand Prix’si öncesinde Hamilton, topladığı 229 puanla sürücüler sıralamasında üçüncülüğünü korumaya çalışıyor. Ancak son yarışlarda galibiyete uzanan Max Verstappen’in yalnızca sekiz puan geride nefesini hissettirmesi, kalan yarışlardaki rekabetin dozunu artırıyor. Takımlar klasmanında ise 444 puanla ikinci sırada yer alan Ferrari, arkasındaki McLaren baskısına karşı yerini sağlamlaştırmak ve sezonu en üst noktada tamamlamak için hem pistte hem de fabrikada tüm kozlarını oynuyor.",
+                "img": "Resimler/Formula 1 Haberler/1792586487132_IMG_0306.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 263,
                 "title": "MERCEDES GÜNCELLEMEYİ ÇÖZEMEZSE AUSTIN ANTONELLI İÇİN KABUSA DÖNÜŞEBİLİR: PALMER'DAN KRİTİK UYARI!",
                 "cat": "formula 1",
