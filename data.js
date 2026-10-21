@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 262,
+                "title": "CADILLAC'TAN AUSTIN'E ÖZEL KOVBOY DOKUNUŞU: ABD GP'DE YENİ TASARIMLA PİSTE ÇIKIYOR",
+                "cat": "formula 1",
+                "date": "2026-10-21 11:21",
+                "content": "Formula 1'deki ilk ev sahibi yarışına çıkmaya hazırlanan Cadillac F1 Takımı, Circuit of the Americas'ta düzenlenecek Amerika Birleşik Devletleri Grand Prix'si için Teksas’ın simgesi haline gelen kovboy kültüründen ilham alan özel bir renk düzeni tanıttı.<br><br>Kendi seyircisi önünde ilk kez piste çıkacak olan ABD merkezli Cadillac, Austin hafta sonunda taraftarlarını etkileyici bir sürprizle karşılıyor. Takımın tecrübeli pilotları Valtteri Bottas ve Sergio Perez'in direksiyonuna geçeceği MAC-26, Teksas eyaletinin köklü kovboy mirasını ve yerel ruhunu yansıtan özel detaylarla donatıldı.<br><br>Takım için tarihi bir kilometre taşı niteliği taşıyan hafta sonunda pist üstündeki heyecan ilk seansla başlayacak. Cadillac, cuma günü gerçekleştirilecek 1. Antrenman Seansı'nda Sergio Perez'in koltuğunu genç Amerikalı yetenek Colton Herta'ya emanet edecek.<br><br>Bu sezonki dördüncü antrenman seansına çıkmaya hazırlanan Herta, kendi ülkesindeki Formula 1 taraftarlarının önünde piste çıkarak MAC-26'nın direksiyonunda önemli veriler toplamayı hedefliyor.<br><br>Cadillac, hem Teksas temalı özel görsel kimliği hem de ev sahibi tribünlerin desteğiyle Austin'de unutulmaz bir hafta sonuna imza atmayı amaçlıyor.",
+                "img": "Resimler/Formula 1 Haberler/1792570864791_IMG_0286.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 261,
                 "title": "RED BULL, RB23 İÇİN YENİ BİR SAYFA AÇIYOR",
                 "cat": "formula 1",
