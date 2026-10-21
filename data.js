@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 266,
+                "title": "FIA’DAN F1’DE V8 SİNYALİ: GELECEĞİN MOTOR YOL HARİTASI BİRKAÇ AY İÇİNDE NETLEŞİYOR",
+                "cat": "formula 1",
+                "date": "2026-10-21 15:51",
+                "content": "Formula 1’de son dönemde en çok tartışılan konuların başında gelen güç ünitesi kuralları için FIA cephesinden yeni bir hamle geldi. Mevcut düzenlemelerin yarattığı eleştiriler ve \"yapay geçiş\" tartışmaları sürerken, FIA Başkanı Mohammed Ben Sulayem, 2030 yılı itibarıyla V8 motorların spora dönmesine yönelik çalışmaların hız kazandığını açıkladı.<br><br>2026 sezonuyla birlikte hayatımıza giren ve içten yanmalı motor ile elektrik enerjisini yarı yarıya dengeleyen yeni nesil güç üniteleri, ilk günden bu yana padokta ve pilotlar arasında eleştiri oklarının hedefi olmuştu. Birçok yıldız ismin mevcut yapıyı \"Mario Kart\" veya \"steroidli Formula E\" olarak nitelendirmesi, sporun köklerindeki ses ve ruh arayışını yeniden alevlendirdi. Her ne kadar 2027 ve 2028 yılları için içten yanmalı motor oranlarının kademeli olarak yüzde 58 ve yüzde 60 seviyelerine çıkarılması planlansa da, FIA Başkanı Ben Sulayem en son 2013'te kullanılan V8 konseptini en gürültülü şekilde geri getirmekte kararlı.<br><br>Ruanda’da düzenlenen Afrika Grand Prix’si onay toplantısında basın mensuplarının sorularını yanıtlayan Ben Sulayem, takımlar ve üreticiler arasında henüz resmi bir imza atılmasa da sürecin olumlu bir ivmeyle ilerlediğini vurguladı. Taraflara teknik taslakların iletildiğini belirten başkan, esprili bir dille uzlaşmanın kaçınılmaz olduğuna dikkat çekti: \"Henüz resmi bir anlaşma yok ama olacak, aksi takdirde V8 yerine belki V16 motor kullanmak zorunda kalacaklar ve bunu onlar da biliyor.\"<br><br>Yeni konseptin en büyük avantajının maliyet düşüşü ve sadelik olacağını savunan Ben Sulayem, karmaşık MGU-H, MGU-K ve devasa batarya sistemlerinden arındırılmış bir V8 yapısının üreticileri zorlamayacağını ifade etti. Ar-Ge harcamalarının yarı yarıya ineceğini, üretim süreçlerinin kısalacağını belirten FIA lideri; bütçe sınırı çerçevesinde araçların hafifletileceğini, motor dayanıklılığı ile güç dengesinin ise en verimli şekilde kurulacağını kaydetti.<br><br>Takımlara ve motor üreticilerine imkansız bir takvim dayatmayacaklarını da sözlerine ekleyen Ben Sulayem, sürecin son virajına girildiğini belirtti: \"Önümüzdeki birkaç ay içinde teknik çerçevenin netleşmesini umuyorum. Üreticileri geri bildirim vermeleri için yönlendiriyoruz ve artık onlardan gelecek nihai yanıtları bekliyoruz.\"",
+                "img": "Resimler/Formula 1 Haberler/1792587070027_IMG_0308.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 265,
                 "title": "FIA’DAN TEKNİK HAMLE: SIRALAMA TURLARINA ÖZEL JANT DÖNEMİ BAŞLAMADAN BİTTİ",
                 "cat": "formula 1",
