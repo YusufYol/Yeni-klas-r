@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 267,
+                "title": "FORMULA 1'DE AMERİKA HEYECANI: MERCEDES'TEN AUSTIN İÇİN ÖZEL MANUFAKTUR DOKUNUŞU",
+                "cat": "formula 1",
+                "date": "2026-10-21 15:53",
+                "content": "Mercedes, Petronas ortaklığını kutladığı unutulmaz yarışın ardından hız kesmeden yeni bir görsel sürprize imza atıyor. Alman üretici, bu hafta sonu Circuit of the Americas pistinde düzenlenecek olan ABD Grand Prix'si için özel olarak tasarlanan göz alıcı mavi renk düzenini resmen tanıttı.<br><br>Takımın lüks kişiselleştirme ve tasarım programı olan MANUFAKTUR iş birliğiyle hayata geçirilen bu özel konsept, Austin mücadelesine ayrı bir estetik katmaya hazırlanıyor. Hatırlanacağı üzere iki yarış önce Petronas onuruna aracın burun bölümünde yeşilimsi mavi tonlara yer veren Alman ekip, Amerika ayağında ise iş birliğini bir üst seviyeye taşıyor. Bu hafta sonu boyunca W15'in ikonik gümüş hatları yerini, MANUFAKTUR programının zarafetini ve özgün ruhunu yansıtan büyüleyici bir mavi tonuna bırakacak.<br><br>Pist üstünde hem hızıyla hem de estetik duruşuyla dikkat çekecek olan bu özel tasarım, Formula 1 severlere Texas'ta görsel bir şölen sunmaya şimdiden hazır!",
+                "img": "Resimler/Formula 1 Haberler/1792587235503_IMG_0309.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 266,
                 "title": "FIA’DAN F1’DE V8 SİNYALİ: GELECEĞİN MOTOR YOL HARİTASI BİRKAÇ AY İÇİNDE NETLEŞİYOR",
                 "cat": "formula 1",
