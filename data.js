@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 261,
+                "title": "RED BULL, RB23 İÇİN YENİ BİR SAYFA AÇIYOR",
+                "cat": "formula 1",
+                "date": "2026-10-21 11:12",
+                "content": "Red Bull’un teknik direktörü Pierre Waché, takımın 2027 sezonunda kullanacağı RB23’e mevcut RB22’den çok az parça aktaracağını açıkladı. Waché, aracın farklı alanlarında gelişim fırsatları gördüklerini ve yeni parçalar üzerinde çalıştıklarını söyledi.<br><br>Yeni teknik düzenlemeler ve bütçe sınırı, takımların geliştirme planlarını etkilerken Red Bull; paketleme, aerodinamik ve mekanik alanlarda iyileştirme hedefliyor. Waché, bu nedenle RB22’den RB23’e taşınacak parçaların sınırlı olacağını belirtti.<br><br>Waché, “Daha azı daha çok. 2027’ye neredeyse hiçbir şey taşınmayacak. Geliştirebileceğimizi düşündüğümüz pek çok alan tespit ettik. Bazı parçaları aktaracağız ancak bu çok küçük bir miktar olacak. Örneğin şanzıman ve şasi farklı olacak,” ifadelerini kullandı.",
+                "img": "Resimler/Formula 1 Haberler/1792570368695_6FF64EE4-FD05-4F93-B74D-19C0A7348197.jpeg",
+                "author": "Emre Boz",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Emre Boz.png"
+            },
+            {
                 "id": 258,
                 "title": "FERRARI'DEN AUSTIN'E ÖZEL BEYAZ DOKUNUŞ: LECLERC VE HAMILTON İÇİN YENİ TULUM TASARIMI TANITILDI",
                 "cat": "formula 1",
