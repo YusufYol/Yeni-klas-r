@@ -13307,6 +13307,17 @@ const APP_DATA = {
     "haberler": {
         "news": [
             {
+                "id": 268,
+                "title": "MOTUL 2026 TÜRKİYE KARTİNG ŞAMPİYONASI'NDA FİNAL HEYECANI KÖRFEZ'DE YAŞANACAK!",
+                "cat": "haberler",
+                "date": "2026-10-21 17:25",
+                "content": "Türkiye Karting Şampiyonası'nda büyük final için geri sayım başladı. MOTUL 2026 Türkiye Karting Şampiyonası'nın büyük final mücadelesi olan Körfez Karting Yarışı, 24-25 Ekim tarihlerinde TOSFED Körfez Yarış Pisti'nde hız tutkunlarıyla buluşacak.<br><br>Otomobil Sporlarında Kadın Spor Kulübü tarafından; Aydoğanlar Otomotiv, Mua ve Gigi’s katkılarıyla hayata geçirilen bu prestijli organizasyonda, 2026 yılının şampiyonları nihayet belli olacak.<br><br>Organizasyon komitesi, kadın sporcuların motorsport branşındaki katılımını artırmak amacıyla anlamlı bir detaya imza atıyor. Şampiyonada kadın sporcular katılım bedeli ödemeden start alabilecek.<br><br>Hız ve rekabet dolu bu heyecanlı hafta sonu, her iki gün boyunca motorsporları severler tarafından tamamen ücretsiz olarak pistten takip edilebilecek.<br><br>Körfez Karting Yarışı Programı<br><br>24 Ekim Cumartesi (1. Gün)<br> 09.30 - 10.20: Resmi Antrenmanlar<br> 11.00 - 11.40: Sıralama Turları<br> 12.40 - 14.45: 1. Ayak Elemeleri<br> 14.50 - 17.00: 2. Ayak Elemeleri<br><br>25 Ekim Pazar (Final Günü)<br> 10.00 - 12.10: Yarı Finaller<br> 13.00 - 15.20: Büyük Finaller<br> 15.45: Ödül Töreni",
+                "img": "Resimler/Haberler/1792592746282_IMG_0314.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png",
+                "customBadge": "Karting"
+            },
+            {
                 "id": 253,
                 "title": "FERRARI AKADEMİSİ'NE KATILAN ALP AKSOY: \"HEDEFİM KENDİ ÜLKEMDE YARIŞMAK\"",
                 "cat": "haberler",
