@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 270,
+                "title": "PIERO FERRARI’DEN AÇIK KAPI: \"BABAMIN ARACINDA BİR İTALYAN GÖRMEK KİMİN HOŞUNA GİTMEZ Kİ?\"",
+                "cat": "formula 1",
+                "date": "2026-10-22 12:33",
+                "content": "Formula 1’de sezonun son virajına girilirken Takımlar Şampiyonası'nda ikincilik mücadelesini sürdüren Ferrari cephesinden geleceğe dair çarpıcı mesajlar geldi. Efsanevi kurucu Enzo Ferrari’nin oğlu ve şirketin başkan yardımcısı Piero Ferrari, Quotidiano Sportivo’ya verdiği özel demeçte hem takımın mevcut durumunu değerlendirdi hem de genç İtalyan yetenek Kimi Antonelli hakkında samimi açıklamalarda bulundu.<br><br>İtalyan devinin bu sezon dalgalı bir grafik çizdiğine dikkat çeken Piero Ferrari, hedeflere ulaşmak için kelimelerden çok pistteki icraatın önemli olduğunu vurguladı:<br><br>\"Gelişim gösterdiğimizi lafla değil, pistte aldığımız somut sonuçlarla kanıtlamak zorundayız. Sezon boyunca harika anlarımız da oldu, zorlandığımız anlar da... Artık tüm odağımız, yıllardır bu başarıyı bekleyen tutkulu taraftarlarımıza hak ettikleri zaferleri sunmak olmalı. Gösterdikleri benzersiz sabır için her birine minnettarım.\"<br><br>Röportajın en dikkat çeken kısmı ise Mercedes himayesinde yetişen genç İtalyan yıldız adayı Kimi Antonelli ile ilgili sözleri oldu. Piero Ferrari, Antonelli’yi bir gün Maranello kırmızısı içinde görme hayalini şu sözlerle dile getirdi:<br><br>\"Öncelikle Kimi’yi gösterdiği başarılı performanstan ötürü yürekten kutluyorum. Elbette işin profesyonel tarafında sözleşmeler, mevcut taahhütler ve dengeler var. Ancak duygusal olarak bakarsanız; babamın adını taşıyan o ikonik otomobilde İtalyan bir pilotun yarıştığını görmek kime gurur vermez ki? Üstelik Bologna kökenli bir gencin de böyle bir fırsata 'hayır' diyeceğini sanmıyorum. Belki bir gün bu hayal gerçeğe dönüşür; neden olmasın?\"",
+                "img": "Resimler/Formula 1 Haberler/1792661636007_IMG_0333.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 269,
                 "title": "FIA BAŞKANI BEN SULAYEM'DEN ORTA DOĞU YARIŞLARI İÇİN GÜVENLİK GÜVENCESİ: \"EN UFAK BİR TEHLİKE OLSA AİLEM ORADA KALMAZDI\"",
                 "cat": "formula 1",
