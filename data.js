@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 271,
+                "title": "HOCKENHEIM, FORMULA 1’E DÖNMEK İÇİN GÖRÜŞMELERİNİ SÜRDÜRÜYOR",
+                "cat": "formula 1",
+                "date": "2026-10-22 15:14",
+                "content": "Almanya’nın köklü pistlerinden Hockenheim, Formula 1 takvimine yeniden girebilmek için F1 yönetimiyle temaslarını sürdürüyor.<br><br>Pist yetkilileri, takvimde yer alabilmek adına görüşmelere devam ederken sürecin önündeki en büyük engel ekonomik koşullar olarak öne çıkıyor. Kamu desteğinin oldukça sınırlı olması, Hockenheim’ın tek bir yarış düzenlemek için gerekli yatırımı yapmasını zorlaştırıyor.<br><br>Hockenheim yetkililerinin, yalnızca bir kez yarış düzenlemek amacıyla yatırım yapmak veya rotasyon sistemine dahil olmak istemediği belirtiliyor. Bu nedenle pistin Formula 1 takvimine dönüşü için görüşmelerin nasıl sonuçlanacağı merakla bekleniyor.",
+                "img": "Resimler/Formula 1 Haberler/1792671249526_A93727A3-C04D-4DCA-A56D-C2BEF7064C0E.jpeg",
+                "author": "Emre Boz",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Emre Boz.png"
+            },
+            {
                 "id": 270,
                 "title": "PIERO FERRARI’DEN AÇIK KAPI: \"BABAMIN ARACINDA BİR İTALYAN GÖRMEK KİMİN HOŞUNA GİTMEZ Kİ?\"",
                 "cat": "formula 1",
