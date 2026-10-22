@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 269,
+                "title": "FIA BAŞKANI BEN SULAYEM'DEN ORTA DOĞU YARIŞLARI İÇİN GÜVENLİK GÜVENCESİ: \"EN UFAK BİR TEHLİKE OLSA AİLEM ORADA KALMAZDI\"",
+                "cat": "formula 1",
+                "date": "2026-10-22 12:29",
+                "content": "Formula 1'de sezonun finaline doğru yaklaşılırken, Orta Doğu'daki yarışların güvenliğine ilişkin soru işaretlerine Uluslararası Otomobil Federasyonu'ndan net bir yanıt geldi. FIA Başkanı Mohammed Ben Sulayem, takvimin son durakları olan Katar ve Abu Dhabi Grand Prix’lerinin herhangi bir aksama olmadan, planlandığı gibi koşulacağını açıkladı.<br><br>Bölgedeki durumun tamamen kontrol altında ve güvenli olduğunu vurgulayan Ben Sulayem, kamuoyundaki endişeleri kendi ailesini örnek göstererek giderdi. Bölgede huzurlu bir ortamın hakim olduğunu belirten Ben Sulayem, \"Çocuklarım şu anda bizzat orada yaşıyor. En ufak bir tereddüdüm ya da güvenlik şüphem olsaydı, onları orada bırakıp buraya gelebilir miydim? Katar ve Abu Dhabi'de şartlar gayet güvenli, takvimde hiçbir değişiklik yok ve iki yarış da seyircisiyle buluşacak\" ifadelerini kullandı.<br><br>Federasyon olarak tüm kararları titizlikle ve sağduyuyla aldıklarının altını çizen FIA Başkanı, ne pilotların ne takım çalışanlarının ne de görevlilerin güvenliğini riske atacak bir adım atmayacaklarını hatırlattı. Ben Sulayem ayrıca, her ne kadar mevcut şartlarda bir aksaklık öngörülmese de olası beklenmedik senaryolara karşı federasyonun B planını hazırda tuttuğunu da sözlerine ekledi.",
+                "img": "Resimler/Formula 1 Haberler/1792661356664_IMG_0331.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 267,
                 "title": "FORMULA 1'DE AMERİKA HEYECANI: MERCEDES'TEN AUSTIN İÇİN ÖZEL MANUFAKTUR DOKUNUŞU",
                 "cat": "formula 1",
