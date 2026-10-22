@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 272,
+                "title": "2026 FORMULA 1 ABD GP: KIMI ANTONELLI ŞAMPİYONLUK İÇİN AUSTIN PİSTİNDE! İŞTE YARIŞ TAKVİMİ, SEANS SAATLERİ VE YAYIN KANALI",
+                "cat": "formula 1",
+                "date": "2026-10-22 18:56",
+                "content": "Formula 1’de sezonun 18. durağı olan Amerika Birleşik Devletleri Grand Prix'si, 23-25 Ekim tarihleri arasında Austin’deki Circuit of the Americas (COTA) pistinde nefes kesen bir mücadeleye sahne olmaya hazırlanıyor.<br><br>Singapur Grand Prix’sinin ardından topladığı 340 puanla şampiyona liderliğini perçinleyen Mercedes pilotu Kimi Antonelli, Formula 1 tarihinin en genç dünya şampiyonu unvanına çok yakın. İtalyan genç yetenek; en yakın takipçisi ve takım arkadaşı George Russell’ın 102 puan, Ferrari sürücüsü Lewis Hamilton’ın ise 111 puan önünde liderliğini sürdürüyor.<br>Antonelli, Austin'de matematiksel olarak şampiyonluğunu ilan etme fırsatına sahip. Mercedes pilotunun ABD'de şampiyonluğunu erkenden taçlandırması için yarışı kazanması, Russell’ın dokuzuncu ya da daha geride kalması, Hamilton’ın ise ilk dördün dışında finish görmesi gerekiyor.<br><br>Austin’de gerçekleştirilecek antrenman, sıralama turları ve ana yarışın canlı yayın programı:<br><br>23 Ekim Cuma<br> 1. Antrenman Seansı: 20:30 | Yayın: F1 TV / beIN SPORTS 4<br><br>24 Ekim Cumartesi<br> 2. Antrenman Seansı: 00:00 | Yayın: F1 TV / beIN SPORTS 4<br><br> 3. Antrenman Seansı: 20:30 | Yayın: F1 TV / beIN SPORTS 4<br><br> 25 Ekim Pazar<br>Sıralama Turları: 00:00 | Yayın: F1 TV / beIN SPORTS 4<br> <br>Yarış: 23:00 | Yayın: F1 TV / beIN SPORTS 4",
+                "img": "Resimler/Formula 1 Haberler/1792684590886_IMG_0352.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 271,
                 "title": "HOCKENHEIM, FORMULA 1’E DÖNMEK İÇİN GÖRÜŞMELERİNİ SÜRDÜRÜYOR",
                 "cat": "formula 1",
