@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 278,
+                "title": "ABD GP ÖNCESİ ÜÇ PİLOTA MOTOR CEZASI: LINDBLAD, BORTOLETO VE COLAPINTO GRİDDE GERİYE DÜŞÜYOR",
+                "cat": "formula 1",
+                "date": "2026-10-23 22:36",
+                "content": "Austin’de yapılacak ABD GP öncesinde grid dizilimi güç ünitesi cezalarıyla sarsıldı. İzin verilen parça havuzunu aşarak araçlarında motor değişikliğine giden Arvid Lindblad, Gabriel Bortoleto ve Franco Colapinto, Circuit of the Americas'taki ana yarışa gerilerden başlamak zorunda kalacak.<br><br>Sezonun kritik virajında takımlar parça değişimlerine yönelirken, üç sürücünün aldığı cezaların ayrıntıları şu şekilde:<br><br>Gabriel Bortoleto, hafta sonunun en ağır faturasını ödeyen isim oldu. Aracında komple güç ünitesi yenilenen Brezilyalı çaylak; içten yanmalı motor, turbo ve egzozda limitler içinde kalsa da dördüncü enerji deposu ve dördüncü kontrol elektroniğine geçti. Sezonluk izin verilen üç adedin aşılması nedeniyle toplamda 20 sıra ceza alan Bortoleto, pazar günkü yarışa gridin en arkasından başlayacak.<br><br>Franco Colapinto, aracında sezonun dördüncü kontrol elektroniği ünitesine geçiş yapılan Arjantinli sürücü, havuz sınırını ilk kez aştığı için yönetmelik gereği 10 sıralık bir grid cezasıyla karşı karşıya kaldı.<br><br>Arvid Lindblad, sezonluk dört adetlik kotası bulunan içten yanmalı motorda altıncı üniteye geçen genç pilot, bu aşımı daha önce de yaptığı için hafifletilmiş yaptırımla 5 sıra geriye düşecek. Kurallar gereği, ilk aşımda verilen 10 sıralık ceza sonraki geçişlerde 5 sıraya iniyor.<br><br>Cumartesi günü yapılacak sıralama turlarında elde edecekleri dereceler ne olursa olsun, üç pilot da pazar günkü yarış öncesinde bu cezaları çekerek sıralamada gerileyecek.",
+                "img": "Resimler/Formula 1 Haberler/1792784182658_IMG_0380.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 277,
                 "title": "AUSTIN'DE İLK RAUNT FERRARI'NİN: LECLERC AÇILIŞ SEANSINDA LİDER, VERSTAPPEN VE NORRIS YAKIN TAKİPTE",
                 "cat": "formula 1",
