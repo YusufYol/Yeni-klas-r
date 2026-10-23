@@ -7213,6 +7213,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 273,
+                "title": "KAZALAR VE SÜRPRİZLERLE DOLU BAŞLANGIÇ: PHILLIP ISLAND İLK RAUNDUNDA KAZANAN MARQUEZ!",
+                "cat": "motogp",
+                "date": "2026-10-23 07:07",
+                "content": "MotoGP’de heyecan Avustralya’nın efsanevi Phillip Island pistinde başladı. Kazaların ve mekanik arızaların damga vurduğu hareketli ilk antrenman seansında, Gresini Racing sürücüsü Marc Marquez 1:27.985’lik derecesiyle en hızlı isim olmayı başardı. İkinci sırayı ise sert bir kaza atlatmasına rağmen piste güçlü dönen Raul Fernandez aldı.<br><br>Yeşil ışıkların yanmasıyla birlikte sürücüler asfalt sıcaklığı ve zemin tutuşunu tartmak adına piste döküldü. Isınma turlarının ardından Marco Bezzecchi, Jorge Martin ve Raul Fernandez erken zaman turlarıyla ön plana çıktı. Seansın ilk dakikalarında liderlik Bezzecchi’nin elindeyken, sakatlığı bulunan Fermin Aldeguer’in yerine piste çıkan Iker Lecuona, bariyerlerde sonlanan sert bir kaza geçirdi. İspanyol sürücü kendi imkânlarıyla ayağa kalkarak garajın yolunu tuttu.<br><br>Kısa süre sonra Marc Marquez, Bezzecchi’yi 0.186 saniye geride bırakarak ilk sıraya yükselse de İtalyan pilotun yanıtı gecikmedi; 1:29.246 ile zirveyi geri aldı.<br><br>Seansın orta bölümü oldukça hareketli geçti. Red Bull KTM sürücüsü Brad Binder’ın motosikletinden yoğun dumanlar yükseldi. Mekanik problem yaşayan Güney Afrikalı pilot, aracını güvenli bir noktada durdurup hemen uzaklaşırken seans bayrak sallanmadan devam etti.<br><br>Binder’ın arızasından hemen sonra ise Raul Fernandez korkutan bir kaza yaptı. Virajda kontrolünü kaybederek taklalar atan ve çakıl havuzunu aşarak bariyerlere çarpan genç sürücü, sağ elini tutarak bir süre yerde kaldı. Sağlık kontrolünün ardından ciddi bir sorunu olmadığı anlaşılan Fernandez, pes etmeyerek garajdan yeniden piste döndü.<br><br>Son 15 dakikaya girilirken temponun dozu iyice arttı. Bezzecchi 1:28.898’e inerek liderliğini pekiştirirken, Marquez sadece 0.022 saniye farkla arkasında yer aldı. İlerleyen turlarda Marquez 1:28.423 ile tepeye çıksa da Bezzecchi 1:28.278 kaydederek zirve savaşını sürdürdü.<br>Kazadan müthiş bir dirençle dönen Fernandez, seansın 30. dakikasında liderliği ele geçirmeyi başardı. Bitime kısa süre kala sahneye Jack Miller çıktı. En hızlı zamanı yaparak taraftarlarını heyecanlandıran Avustralyalı pilot, hemen ardından ilk virajda sert biçimde taklalar atarak yerde kaldı. Miller kazayı yara almadan atlattı ve ayakta garaja döndü.<br><br>Seansın kapanış turlarında Fernandez, Miller'ın derecesini geride bırakıp tekrar ilk sıraya tırmansa da son sözü Marc Marquez söyledi. 1:27.985’lik kusursuz bir tur çıkaran sekiz kez dünya şampiyonu, kazalarla dolu 1. antrenman seansını zirvede tamamlamayı başardı. Raul Fernandez ikinci sırayı alarak seansın kahramanı oldu.",
+                "img": "Resimler/MotoGP Haberler/1792728462992_IMG_0369.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 260,
                 "title": "TOPRAK RAZGATLIOĞLU AMELİYAT OLACAK: MİLLİ SPORCU 2026 MOTOGP SEZONUNU KAPATTI!",
                 "cat": "motogp",
