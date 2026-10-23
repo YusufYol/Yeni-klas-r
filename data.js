@@ -7223,6 +7223,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 276,
+                "title": "AVUSTRALYA’DA KORKUTAN TEMAS: BEZZECCHI VE ALEX MARQUEZ ÇARPIŞMASINA CEZA ÇIKMADI!",
+                "cat": "motogp",
+                "date": "2026-10-23 15:27",
+                "content": "MotoGP Avustralya Grand Prix’sinin açılış antrenman seansına, Marco Bezzecchi ile Alex Marquez arasında yaşanan yürekleri ağza getiren kaza damgasını vurdu. Hızlı viraj çıkışında yaşanan yüksek süratli temasın ardından yarış komiserleri inceleme başlatsa da olay yarış kazası olarak değerlendirildi ve herhangi bir yaptırım uygulanmadı.<br><br>Olay, Phillip Island pistinin yüksek süratli üçüncü virajının ardından, dördüncü viraja doğru yapılan sert frenleme anında meydana geldi. Önündeki Gresini Ducati sürücüsü Alex Marquez'in erken fren yapmasıyla kaçış açısı arayan Aprilia pilotu Bezzecchi, İspanyol rakibinin bacağına çarpmaktan kurtulamadı. Çarpışmanın şiddetiyle Aprilia'nın ön kaportası dağılırken, çim alana taşan Bezzecchi motosikletini kontrol edemeyerek kendini yerde buldu. Pistteki enkazın temizlenmesi amacıyla seansa kısa süreliğine kırmızı bayrakla ara verildi.<br><br>Düşüş sırasında motosikletinin altında kalarak geçmişteki diz sakatlığı nedeniyle kısa süreli korku yaşayan İtalyan sürücü, kazayı yara almadan atlattı. Hızla garaja dönüp piste yeniden çıkan Bezzecchi, 1:26.775’lik etkileyici turuyla seansı lider tamamlayarak güçlü bir geri dönüşe imza attı.<br><br>Kazayı değerlendiren Bezzecchi, \"Olağanüstü bir durum yoktu; birbirimize çok yakındık. Frenajda biraz hareketlenince kaçmaya çalıştım ama bacağına temas ettim. Çimlere çıkınca da motosikleti bıraktım, tamamen yarışın doğasında olan bir temas\" açıklamasında bulundu.<br><br>Seansın son anlarında kendisi de ayrı bir kaza geçiren Alex Marquez ise olay anında kendi çizgisine odaklandığını belirtti. Temasın bir hesap hatasından kaynaklandığını savunan Marquez, \"O an arkamda neler olduğunu bilmiyorum. Kendi tempomda ilerliyordum; sanırım benden daha hızlı olduğu için beni geçmek istedi ancak mesafeyi biraz yanlış hesapladı. Neyse ki kimseye bir şey olmadı, üzerinde durulacak büyük bir mesele değil\" ifadelerini kullandı.<br><br>Olayı mercek altına alan FIM MotoGP komiserler kurulu, her iki pilotun ifadeleri ve telemetri verilerini inceledikten sonra herhangi bir kural ihlali bulunmadığına ve ek bir cezaya gerek olmadığına hükmetti.",
+                "img": "Resimler/MotoGP Haberler/1792758450419_IMG_0373.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 274,
                 "title": "PHILLIP ISLAND'DA NEFES KESEN SEANS: BEZZECCHI KAZAYA RAĞMEN ZİRVEDE, FERNANDEZ İKİNCİ!",
                 "cat": "motogp",
