@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 277,
+                "title": "AUSTIN'DE İLK RAUNT FERRARI'NİN: LECLERC AÇILIŞ SEANSINDA LİDER, VERSTAPPEN VE NORRIS YAKIN TAKİPTE",
+                "cat": "formula 1",
+                "date": "2026-10-23 21:48",
+                "content": "Formula 1 Amerika Grand Prix'si heyecanı Circuit of the Americas (COTA) pistinde başlarken, hafta sonunun ilk antrenman seansına Charles Leclerc damgasını vurdu. Güneşli bir Teksas gününde gerçekleştirilen seans boyunca Ferrari'nin güçlü temposu dikkat çekerken, Monakolu pilot 1:36.052'lik derecesiyle açılış seansını en üst basamakta tamamladı.<br><br>Yeşil ışıkla birlikte pit yolundan piste çıkan ekipler farklı stratejilerle seansa giriş yaptı. Ferrari ve McLaren cephesi orta hamurlarla asfalta inerken, Mercedes ve Red Bull açılışı sert lastiklerle yaptı. Seansın erken evrelerinde Max Verstappen, direksiyonu sola çevirdiğinde otomobilin olağandışı tepkiler verdiğinden şikayetçi oldu. Benzer şekilde George Russell da ön kanadın yüksek hızlı virajlarda yeterli verimi sağlayamadığını ve dengesizlik yarattığını telsizden aktardı.<br><br>İlk yarım saatlik dilimde liderlik sürekli el değiştirdi. Lando Norris ve Lewis Hamilton'ın kısa süreli liderliklerinin ardından Leclerc kontrolü ele geçirdi. Hafta sonu matematiksel şampiyonluk ihtimali bulunan çaylak pilot Kimi Antonelli ise ritim bulmakta zorlanmadı; Norris'in binde 1 saniye gerisinde kalarak ön gruba tutunmayı başardı.<br><br>Seansın ikinci yarısında yumuşak lastiklerin takılmasıyla dereceler hızla aşağı çekildi. Leclerc 1:36.052 ile çıtayı belirlerken, Verstappen 1:35.860 ile en hızlı dereceyi kaydetse de 19. virajda pist sınırlarını aştığı gerekçesiyle bu tur silindi. Bu iptalin ardından Hollandalı sürücü, 0.084 saniyelik çok küçük bir farkla Leclerc'in arkasında ikinci sıraya razı oldu.<br><br>Son bölümde takımlar yarış simülasyonlarına ve uzun sürüşlere yöneldi. Nico Hülkenberg aktarma organlarında yaşadığı teknik bir problem sebebiyle seansı erken noktalamak zorunda kalırken, orta sıralarda Aston Martin pilotları 12 ve 13. basamaklarda yer buldu.<br><br>Damalı bayrak sallandığında zirvenin sahibi Leclerc olurken; Verstappen ikinci, güçlü sektör derecelerine rağmen son sektörde zaman kaybeden Norris ise 0.245 saniye geride üçüncü sırada yer aldı.",
+                "img": "Resimler/Formula 1 Haberler/1792781312733_IMG_0088.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 275,
                 "title": "ESTEBAN OCON GELECEĞİ KONUSUNDA NET: “PERFORMANSIMLA BU GRİDDE OLMAYI HAK EDİYORUM”",
                 "cat": "formula 1",
