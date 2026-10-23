@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 275,
+                "title": "ESTEBAN OCON GELECEĞİ KONUSUNDA NET: “PERFORMANSIMLA BU GRİDDE OLMAYI HAK EDİYORUM”",
+                "cat": "formula 1",
+                "date": "2026-10-23 15:23",
+                "content": "Haas’ın koltuğunu genç yetenek Rafael Camara’ya devredecek olan Esteban Ocon, Formula 1 kariyerinin sona erdiği yönündeki iddialara sert ve kendinden emin bir dille yanıt verdi. Amerikan ekibinin Oliver Bearman’ın yanına Ferrari Akademisi çaylağı Camara’yı getireceğini duyurmasının ardından koltuksuz kalan 30 yaşındaki Fransız pilot, padoktaki yerini korumak için mücadeleden vazgeçmeyeceğini vurguladı.<br><br>Austin’de koşulacak Amerika Grand Prix’si öncesinde basın mensuplarının karşısına geçen Ocon, bu hafta sonunun Formula 1’deki veda turlarından biri olduğu yorumlarını reddetti. Takımdaki ayrılık kararının pist üstündeki saf hız ve performansla hiçbir ilgisi olmadığını açık bir dille ifade eden deneyimli pilot, kariyeri boyunca elde ettiği başarıların griddeki yerini haklı çıkardığını savundu.<br><br>Kariyer basamaklarını zaferlerle tırmandığını hatırlatan Ocon, şu ifadeleri kullandı:<br><br>“Buraya her zaman aracın potansiyelini sonuna kadar zorlamaya ve en iyisini yapmaya geldim. Daha önce de belirttim; Formula 1 padoğunda olmayı hak ediyorum. Gelecek sezon burada yer alamayacak olmamın ardında pek çok farklı etken var fakat bunların hiçbiri performans kaynaklı değil. Kartingden Formula Renault’ya, F3 ve GP3’ten Formula 1’e kadar yarıştığım her seride kürsünün en üst basamağına çıktım, yarışlar kazandım. Eğer değerlendirme yalnızca saf performansa dayanıyorsa, yerimin burası olduğu çok açık. Bu yüzden F1 defterinin benim için kapandığına asla inanmıyorum.”<br><br>Kendi koltuğuna geçecek olan Rafael Camara’nın potansiyelini övgüyle karşılayan Ocon, gridde yaşanan koltuk değişimlerinin adaletini tartışmak yerine kendi değerinin altını çizmeyi tercih etti:<br><br>“Rafa hakkında söyleyebileceğim tek şey, F1 şansını sonuna kadar hak ettiği olur. Alt serilerde ne denli yetenekli bir pilot olduğunu zaten gösterdi. Kimin gridi hak edip etmediği polemiğine girmeyeceğim; sonuçlara bakarsanız Rafa kesinlikle burada olmayı hak ediyor. Ancak bu durum, benim F1 dışına itilmeyi hak ettiğim anlamına gelmez. Şu an kenara itilmeyi kabullenmiyorum ve önümüzdeki sezon için bir çıkış yolu bulmak adına temaslarımızı sürdürüyoruz. Şu anki ana odağım ise Austin’de ve kalan üç yarışta pist üstünde en güçlü performansımı sergilemek.”<br><br>Padoğun tecrübeli isimlerinden olan Ocon, kalan yarışlarda sergileyeceği mücadeleyle geleceğine dair kapıları aralık tutmayı ve F1 kariyerini yeniden canlandıracak bir fırsat yakalamayı hedefliyor.",
+                "img": "Resimler/Formula 1 Haberler/1792758225198_IMG_0372.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 272,
                 "title": "2026 FORMULA 1 ABD GP: KIMI ANTONELLI ŞAMPİYONLUK İÇİN AUSTIN PİSTİNDE! İŞTE YARIŞ TAKVİMİ, SEANS SAATLERİ VE YAYIN KANALI",
                 "cat": "formula 1",
