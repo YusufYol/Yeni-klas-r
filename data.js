@@ -7213,6 +7213,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 274,
+                "title": "PHILLIP ISLAND'DA NEFES KESEN SEANS: BEZZECCHI KAZAYA RAĞMEN ZİRVEDE, FERNANDEZ İKİNCİ!",
+                "cat": "motogp",
+                "date": "2026-10-23 09:43",
+                "content": "MotoGP Avustralya Grand Prix’sinde cuma gününün belirleyici ana antrenman seansı, Phillip Island’ın zorlu rüzgarına ve peş peşe gelen olaylara sahne oldu. Sıcak ve kuru bir havada başlayan seansta şartlar stabil görünse de sert rüzgar ve pistteki temaslar tansiyonu bir an olsun düşürmedi.<br><br>Seansın hemen başında Jack Miller, 6. virajda yaşadığı kazanın ardından Pramac Yamaha'sından dökülen parçalar ve hasar sebebiyle siyah-turuncu bayrakla pite çağrıldı. Pistin gerilim seviyesi ise 3. viraj çıkışında tavan yaptı; Marco Bezzecchi, Alex Marquez ile yaşadığı temas sonucu çim alana taşarak motosikletinin kontrolünü kaybetti ve düştü. Piste saçılan parçalar nedeniyle kırmızı bayrak sallanarak seansa kısa bir ara verildi.<br><br>Yeniden başlayan seansta liderlik Marc Marquez, Jorge Martin ve Pedro Acosta arasında hızla el değiştirdi. Seans ortalarında Toprak Razgatlıoğlu’nun yerine piste çıkan Augusto Fernandez 11. virajda kaza yaparken, seansın son saniyelerinde bu kez Alex Marquez yerde kaldı.<br><br>Tüm bu kaosa ve geçirdiği kazaya rağmen ön tarafta orta, arkada sert hamura geçerek ritmini bulan Marco Bezzecchi, son anlarda attığı güçlü turla damalı bayrağı zirvede gördü. İtalyan sürücünün en yakın takipçisi Raul Fernandez olurken, Marc Marquez üçüncü sırayı aldı. Ai Ogura dördüncü, Jorge Martin ise seansı beşinci sırada noktaladı.",
+                "img": "Resimler/MotoGP Haberler/1792737790480_IMG_9969.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 273,
                 "title": "KAZALAR VE SÜRPRİZLERLE DOLU BAŞLANGIÇ: PHILLIP ISLAND İLK RAUNDUNDA KAZANAN MARQUEZ!",
                 "cat": "motogp",
