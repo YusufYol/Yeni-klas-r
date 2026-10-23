@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 279,
+                "title": "GÜNCELLENMİŞ FERRARİ’YLE LECLERC, AUSTIN’DE CUMA GÜNÜNÜ LİDER TAMAMLADI",
+                "cat": "formula 1",
+                "date": "2026-10-24 02:35",
+                "content": "Charles Leclerc, ABD Grand Prix’si öncesinde Austin’de gerçekleştirilen iki antrenman seansında da günün en hızlı ismi oldu. Ferrari’nin güncellenmiş paketiyle piste çıkan Monakolu pilot, ilk seansta elde ettiği liderliğin ardından ikinci seansta da zirveyi bırakmadı.<br><br>Ferrari, Austin’e getirdiği güncellemeleri ilk antrenman seansında yalnızca Leclerc’in aracında kullandı. Takım, güncellenmiş paketin performansını Lewis Hamilton’ın aracıyla karşılaştırarak veri topladı. Leclerc, ilk seansta 1:36.052’lik derecesiyle en hızlı isim olmuştu.<br><br>İkinci seansta da güçlü performansını sürdüren Leclerc, 1:35.291’lik turuyla zirvede yer aldı. Kimi Antonelli, Ferrari pilotunun yalnızca 0.042 saniye gerisinde ikinci sırayı alırken Max Verstappen liderin 0.189 saniye arkasında üçüncü oldu.<br><br>Böylece Leclerc, güncellenmiş Ferrari’yle çıktığı cuma gününü iki antrenman seansının da lideri olarak tamamladı. Ferrari, ilk seansta topladığı verileri değerlendirerek hafta sonunun geri kalanı için araç ayarları üzerinde çalışacak.<br><br>İkinci antrenman seansının ilk üç sırası:<br><br>1. Charles Leclerc<br>2. Kimi Antonelli<br>3. Max Verstappen",
+                "img": "Resimler/Formula 1 Haberler/1792798495528_IMG_1003.jpeg",
+                "author": "Emre Boz",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Emre Boz.png"
+            },
+            {
                 "id": 278,
                 "title": "ABD GP ÖNCESİ ÜÇ PİLOTA MOTOR CEZASI: LINDBLAD, BORTOLETO VE COLAPINTO GRİDDE GERİYE DÜŞÜYOR",
                 "cat": "formula 1",
