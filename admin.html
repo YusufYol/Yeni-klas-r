@@ -630,15 +630,46 @@
             return new TextDecoder().decode(bytes);
         }
 
+        async function fetchRawFile(path, sha) {
+            const token = (localStorage.getItem('gh_token') || '').trim();
+            const user = (localStorage.getItem('gh_user') || 'YusufYol').trim();
+            const repo = (localStorage.getItem('gh_repo') || 'Yeni-klas-r').trim();
+            const encodedPath = path.split('/').map(seg => encodeURIComponent(seg)).join('/');
+            const url = `https://api.github.com/repos/${user}/${repo}/contents/${encodedPath}?t=${Date.now()}`;
+            const headers = { 'Accept': 'application/vnd.github.raw+json' };
+            if (token) headers['Authorization'] = `Bearer ${token}`;
+            let res = await fetch(url, { headers }).catch(() => null);
+            if ((!res || !res.ok) && token) {
+                res = await fetch(url, { headers: { 'Accept': 'application/vnd.github.raw+json' } }).catch(() => null);
+            }
+            if (!res || !res.ok) {
+                // Son çare: blob API (100 MB'a kadar)
+                if (sha) {
+                    const blobUrl = `https://api.github.com/repos/${user}/${repo}/git/blobs/${sha}`;
+                    const bh = { 'Accept': 'application/vnd.github.raw+json' };
+                    if (token) bh['Authorization'] = `Bearer ${token}`;
+                    const br = await fetch(blobUrl, { headers: bh }).catch(() => null);
+                    if (br && br.ok) return await br.text();
+                }
+                throw new Error('data.js içeriği okunamadı (dosya çok büyük olabilir).');
+            }
+            return await res.text();
+        }
+
         async function getAppData() {
             const dataResponse = await githubRequest('contents/data.js', 'GET');
             const sha = dataResponse.sha;
             const cleanB64 = (dataResponse.content || '').replace(/\s/g, '');
             let currentContent;
-            try {
-                currentContent = base64ToUtf8(cleanB64);
-            } catch (e) {
-                currentContent = decodeURIComponent(escape(atob(cleanB64)));
+            if (!cleanB64) {
+                // GitHub Contents API 1 MB üzeri dosyalarda içeriği boş döndürür; ham (raw) içerik ayrıca çekilir.
+                currentContent = await fetchRawFile('data.js', sha);
+            } else {
+                try {
+                    currentContent = base64ToUtf8(cleanB64);
+                } catch (e) {
+                    currentContent = decodeURIComponent(escape(atob(cleanB64)));
+                }
             }
 
             const startMarker = "const APP_DATA = ";
