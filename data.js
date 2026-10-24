@@ -7253,6 +7253,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 280,
+                "title": "JORGE MARTIN’E PHILLIP ISLAND'DA AĞIR DARBE: BİLEĞİ KIRILAN İSPANYOL PİLOT AVUSTRALYA GP’SİNDE YOK!",
+                "cat": "motogp",
+                "date": "2026-10-24 18:45",
+                "content": "MotoGP 2026 sezonunun en kritik virajına girilirken Phillip Island’da şampiyonluk dengelerini altüst eden bir kaza yaşandı. Aprilia adına yarışan 2024 dünya şampiyonu Jorge Martin, Avustralya Grand Prix’si sprint mücadelesinde geçirdiği ağır kazanın ardından sağ bileğindeki kırık sebebiyle ana yarıştan çekilmek zorunda kaldı.<br><br>Cumartesi günü koşulan sprint yarışının 8. turunda, şampiyonluktaki en büyük rakibi Marc Marquez ile kıyasıya bir liderlik savaşı veren Martin, pistin yüksek hızlı ve affetmeyen 8. virajında kontrolünü kaybetti. Çakıl havuzuna sert bir şekilde savrulan İspanyol sürücü, pist görevlileri tarafından sedyeyle taşınarak acil olarak pist tıp merkezine götürüldü.<br><br>Pistteki tıp merkezinde yapılan ilk kontroller ve çekilen röntgenlerin ardından Aprilia resmi açıklamayı gecikmeden yaptı. İtalyan üreticiden yapılan açıklamada, Martin’in sağ ön kolundaki radius (döner) kemiğinde net bir kırık, ulna (dirsek) kemiğinin uç kısmında ise kırık şüphesi tespit edildiği belirtildi. Yapılan tıbbi değerlendirme sonucu İspanyol pilotun Pazar günkü ana yarış için \"yarışamaz\" raporu aldığı bildirildi.<br><br>Kaza sonrası durumu hakkında konuşan Martin, olayın ciddiyetine kıyasla daha büyük bir yara almadığı için şanslı olduğunu vurguladı:<br><br>\"Şu an güvendeyim ve hayattayım; en kritik olanı da bu. Korkutucu ve çok sert bir düşüştü, bu yüzden daha vahim bir hasar almadığıma seviniyorum. Görünen o ki küçük bir kemik, bu açıdan içim rahat. Şimdi ileri tetkikler ve tedavi planı için Melbourne’e geçiyorum. Önümüzdeki günlerin ne getireceğini orada göreceğiz.\"<br><br>Martin, yaşadığı bu sakatlığın şampiyona mücadelesine etkisi hakkındaki soruları ise yanıtsız bıraktı.<br><br>Sprint yarışını kazanan Ducati pilotu Marc Marquez, bu zaferle birlikte puan farkını 10’a yükselterek şampiyona liderliğini pekiştirmişti. Martin’in Pazar günkü ana yarışı kaçıracak olması, puan farkının daha da açılmasına zemin hazırlayarak şampiyonluk umutlarına devasa bir darbe vurdu.<br><br>Avustralya ile start alan; Malezya ve Katar ile devam edecek bu yoğun üçlü yarış takviminde Martin’in önümüzdeki hafta Malezya GP’sine yetişip yetişemeyeceği ise henüz belirsizliğini koruyor. Aprilia cephesinden detaylı rehabilitasyon süreciyle ilgili yeni bir açıklama bekleniyor.",
+                "img": "Resimler/MotoGP Haberler/1792856742175_IMG_0416.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 276,
                 "title": "AVUSTRALYA’DA KORKUTAN TEMAS: BEZZECCHI VE ALEX MARQUEZ ÇARPIŞMASINA CEZA ÇIKMADI!",
                 "cat": "motogp",
