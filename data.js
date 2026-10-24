@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 281,
+                "title": "AUSTIN’DE HAMILTON RÜZGÂRI: ŞAMPİYON PİLOT 3. ANTRENMANI LİDER KAPATTI!",
+                "cat": "formula 1",
+                "date": "2026-10-24 21:42",
+                "content": "2026 Formula 1 sezonunun Amerika ayağında sıralama turları öncesi son hazırlıklar tamamlandı. Austin’deki COTA pistinde gerçekleştirilen 3. antrenman seansında damalı bayrağı en hızlı turla gören isim Lewis Hamilton oldu.<br><br>Seans başlangıcında pist sıcaklığının 39°C, hava sıcaklığının ise 27°C dolaylarında seyrettiği Austin'de gökyüzü bulutlarla kaplıydı. Yeşil ışığın yanmasıyla birlikte piste ilk adımı atan isimler Sergio Perez ve Franco Colapinto oldu. Perez sert hamurla 1:38.880'lik bir açılış yaparken, Colapinto ve Gabriel Bortoleto orta hamurlarla veri toplamayı tercih etti.<br><br>Gridin büyük kısmı seansın ilk 15 dakikasında garajda kalarak beklemeyi seçerken, yumuşak lastiklerle piste çıkan Lewis Hamilton 1:36.716 ile zaman tablosunun tepesine yerleşti. Britanyalı pilot, seansın orta bölümüne yaklaşılırken temposunu 1:35.561 seviyesine çekerek liderliğini sağlamlaştırdı; en yakın takipçisi ise Red Bull sürücüsü Max Verstappen oldu.<br><br>Pistin kauçuk tutması ve hızlanmasıyla dereceler arka arkaya gelmeye başlasa da sürücüler için seans hatasız geçmedi. Özellikle viraj çıkışlarında pist sınırlarının aşılması çok sayıda tur derecesinin silinmesine yol açtı.<br><br>Isack Hadjar pist dışına taştığı bir anın ardından telsizden takımına taban kontrolü çağrısında bulunurken, Max Verstappen ise seansın son bölümlerine doğru art arda yaşadığı lastik blokajlarıyla dikkat çekti.<br><br>Seansın son anlarında yumuşak lastiklerle son hücumlar yapıldı. Damalı bayrak sallandığında Lewis Hamilton, 1:34.893'lük derecesiyle hafta sonunun üçüncü antrenmanını en tepede tamamlamayı başardı. Max Verstappen ikinci sırayı alırken, Ferrari'nin diğer pilotu Charles Leclerc seansı üçüncü tamamlayarak İtalyan ekibine güçlü bir seans tablosu getirdi.<br><br>Mercedes pilotları George Russell ve Kimi Antonelli dördüncü ve beşinci sırayı alarak istikrarlı turlar kaydetti. McLaren cephesinde Oscar Piastri ile Lando Norris sırasıyla seansı tamamlarken, aralarına Nico Hülkenberg girerek dikkat çeken bir performans ortaya koydu.",
+                "img": "Resimler/Formula 1 Haberler/1792867368427_IMG_0417.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 279,
                 "title": "GÜNCELLENMİŞ FERRARİ’YLE LECLERC, AUSTIN’DE CUMA GÜNÜNÜ LİDER TAMAMLADI",
                 "cat": "formula 1",
