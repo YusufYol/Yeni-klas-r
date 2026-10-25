@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 286,
+                "title": "VASSEUR’DEN NET AÇIKLAMA: “SIRALAMADAKİ KAYIP İÇİN RÜZGÂRI BAHANE ETMEK SAÇMALIK”",
+                "cat": "formula 1",
+                "date": "2026-10-25 20:49",
+                "content": "Austin’de gerçekleştirilen Amerika Grand Prix’si sıralama turlarında serbest antrenmanların parlayan yıldızı Ferrari, kritik seansta beklenen sıçramayı yapamadı. İtalyan ekibinin takım patronu Frederic Vasseur ise seans sonrası yaptığı değerlendirmede, sonuçları değişen rüzgâr koşullarına bağlamanın hiçbir haklı gerekçesi olamayacağını vurguladı.<br><br>Teksas’taki hazırlık turları boyunca hem Charles Leclerc hem de Lewis Hamilton oldukça güçlü bir performans ortaya koymuştu. Özellikle Hamilton’ın 2024 Monza’dan bu yana ilk kez son antrenman seansında zirveye yerleşmesi, yarış öncesi Maranello cephesini pole pozisyonunun en büyük adayı konumuna getirdi. Fakat bu üstünlük son bölüme taşınamadı. Q3 seansının sonunda Leclerc dördüncü, yalnızca 0,044 saniye gerisindeki takım arkadaşı Hamilton ise beşinci cebe yerleşebildi.<br><br>Pole pozisyonunu kazanan Kimi Antonelli’nin son denemesindeki hatasına rağmen bu avantajı değerlendiremeyen Kırmızıların önünde Antonelli’nin yanı sıra Max Verstappen ve Isack Hadjar da yer aldı.<br><br>Seansın ardından Sky Sports F1 mikrofonlarına konuşan Vasseur, hafta sonu boyunca ellerinde bulunan potansiyeli son viraja kadar koruduklarını ancak kritik anlarda operasyonel olarak daha kusursuz olmaları gerektiğini söyledi:<br><br>\"Hafta sonu genelinde ve tüm antrenmanlarda harika bir ritmimiz vardı; son viraja kadar pole mücadelesinin içindeydik, bu yüzden karışık duygular içerisindeyiz. Q3’te tur zamanlarını geliştirmek herkes adına zordu. Evet, pistte rüzgâr etkili olmuş olabilir fakat şartlar tüm pilotlar için birebir aynıydı. Çıkıp rüzgârı bahane gösteremeyiz, bu tam anlamıyla saçmalık olur. Elimizde ilk çizgiyi alacak güç vardı; yapmamız gereken şey son turu daha iyi yönetmekti.\"<br><br>Formula 1’de dengelerin pamuk ipliğine bağlı olduğuna değinen deneyimli yönetici, anlık değişkenlerin pilotları bir anda \"kahramandan sıfıra\" dönüştürebileceğini belirtti:<br><br>\"Ufak bir frenaj hatası veya beklenmedik bir esinti, sizi sadece birkaç salise içinde ikinci basamaktan altıncı sıraya fırlatabilir. Potansiyelimizi değerlendirirken gerçekçi ve sakin kalmalıyız. Önümüzde lastik aşınmasının yüksek olacağı çetin bir yarış var; asıl mücadele orada başlayacak.\"",
+                "img": "Resimler/Formula 1 Haberler/1792950562547_IMG_0425.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 284,
                 "title": "COTA'DA TÜMSEK TARTIŞMASI: HAMILTON’DAN VERSTAPPEN’E GÖNDERMELİ \"OMURGA\" YANITI",
                 "cat": "formula 1",
