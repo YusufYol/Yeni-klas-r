@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 287,
+                "title": "AUSTIN’DE ZAFER MERCEDES’İN: ANTONELLI AMERİKA’DA KAZANDI, PODYUM NEFES KESTİ!",
+                "cat": "formula 1",
+                "date": "2026-10-26 00:56",
+                "content": "Formula 1’de sezonun heyecan verici duraklarından Circuit of the Americas, 2026 Amerika Grand Prix’siyle unutulmaz anlara sahne oldu. 27°C hava ve 38°C pist sıcaklığında koşulan yarışta damalı bayrağı ilk sırada gören isim, baştan sona kontrollü bir sürüş sergileyen Mercedes’in genç yıldızı ve şampiyona lideri Kimi Antonelli oldu.<br><br>Yarışa pole pozisyonunda başlayan Antonelli, arkasındaki Red Bull ve Ferrari pilotlarının aksine yumuşak hamur yerine orta lastik tercihinde bulundu. Kırmızı ışıkların sönmesiyle birlikte mükemmel bir çıkış yapan İtalyan sürücü, ilk virajda yerini koruyarak liderliğini perçinledi. Gridin arkasında ise Ferrari’den Charles Leclerc fırtınası esti; Monakolu pilot harika bir ivmeyle iki basamak birden yükselerek ikinciliğe yerleşti. Üçüncü sıradan kalkan Isack Hadjar ise dördüncülüğe gerileyerek kalkışın en büyük kaybını yaşadı.<br><br>Mücadelenin ilk turları temaslar ve cezalarla hareketlendi. Franco Colapinto’nun aracından kopan parçalar arkadaki Lance Stroll tarafından raporlanırken; George Russell starttaki pist dışı kazanımı nedeniyle 5 saniye, Pierre Gasly ile temas yaşayan Oliver Bearman ise 10 saniye zaman cezası aldı. Bearman bu cezanın hemen ardından yarıştan çekilmek zorunda kaldı.<br><br>Strateji savaşlarının fitilini 14. turda pite girerek yine yumuşak hamura geçen Max Verstappen ateşledi. Lewis Hamilton ise orta hamuru tercih ederek alternatif bir strateji denedi. Verstappen ikinci pitine kadar liderliği devraldı ancak Hollandalı pilotun pite yönelmesiyle Antonelli yeniden zirveye oturarak kontrolü eline aldı. Yarışın ilerleyen turlarında Colapinto ve Fernando Alonso da garaja dönerek Amerika macerasını noktalayan isimler oldu.<br><br>Son 10 tura girildiğinde COTA pistinde podyum savaşı doruk noktasına ulaştı. Verstappen, Norris ve Leclerc arasında saniyeler eridi. Verstappen önce Norris’i avlayarak ikinciliği aldı, hemen ardından Leclerc de ivmesini kaybeden Norris’i geride bıraktı. Pes etmeyen Leclerc, 49. turda Verstappen’e de mükemmel bir atak yaparak ikincilik basamağına yükseldi. Lastik sorunu yaşayan Norris ise pozisyon kaybetmeye devam etti ve arkasından hızla gelen Hamilton’a da boyun eğdi.<br><br>Bitime 5 tur kala Cadillac sürücüsü Valtteri Bottas’ın motor arızasıyla yolda kalması Sanal Güvenlik Aracı (VSC) periyodunu başlattı. Kalan turlarda hata yapmayan Kimi Antonelli, Austin’de zafere uzanırken podyumu Leclerc ve Verstappen tamamladı.",
+                "img": "Resimler/Formula 1 Haberler/1792965404228_IMG_0427.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 286,
                 "title": "VASSEUR’DEN NET AÇIKLAMA: “SIRALAMADAKİ KAYIP İÇİN RÜZGÂRI BAHANE ETMEK SAÇMALIK”",
                 "cat": "formula 1",
