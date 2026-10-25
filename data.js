@@ -7283,6 +7283,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 285,
+                "title": "PHILLIP ISLAND'DA İPTALİN PERDE ARKASI: YARIŞI PİST DEĞİL, HELİKOPTER PROSEDÜRÜ DURDURDU",
+                "cat": "motogp",
+                "date": "2026-10-25 20:44",
+                "content": "Phillip Island’da hafta sonuna damga vuran ertelemeler ve ardından Moto3, Moto2 ile MotoGP ana yarışının peş peşe iptal edilmesi padokta geniş yankı uyandırdı. Ekran başındaki izleyiciler ve bazı sürücüler pist zeminini yer yer yarışa elverişli bulsa da, yeşil bayrağın sallanmamasının ardında doğrudan tıbbi tahliye protokollerine dayanan kritik bir kuralın yattığı ortaya çıktı.<br><br>Marc Marquez gibi tecrübeli isimler geçmişte çok daha zorlu hava koşullarında piste çıktıklarını dile getirse de, yarış kontrolünün eli resmi güvenlik regülasyonları nedeniyle bağlandı. İptal kararını getiren temel unsur, pistin durumundan ziyade olası bir acil müdahalede devreye girmesi gereken tıbbi helikopterin uçuş limitleri oldu.<br><br>Yürürlükteki güvenlik protokollerine göre, kaza anında ağır yaralanabilecek bir sürücünün acil sevki için tıbbi helikopterin kalkış yapabilmesi şart koşuluyor. Kural gereği, hem pist sahasında hem de sevk edilecek merkez hastanenin bulunduğu bölgede hava şartlarının en az 60 dakikalık kesintisiz ve güvenli bir görüş açısı sunması gerekiyor. Melbourne ile Phillip Island hattındaki değişken ve kapalı hava dalgası, bu 1 saatlik güvenlik koridorunun açılmasına izin vermedi.<br><br>Konuya ilişkin detayları paylaşan MotoGP Yarış Direktörü Graham Webb, kararın tartışmaya kapalı bir güvenlik zorunluluğundan doğduğunu belirtti. Phillip Island'ın coğrafi konumuna dikkat çeken Webb, şu değerlendirmelerde bulundu:<br><br>\"Temel kısıtlamamız doğrudan tıbbi helikopterin uçuş güvenliğiyle ilgili. Melbourne ve ada genelinde hava şartları aniden sertleşebiliyor. Yarışa onay verebilmemiz için helikopterin hem Phillip Island hem de Melbourne hava sahasında en az 60 dakika boyunca net bir görüş koridoruna sahip olması şart. Bu tamamen sürücü sağlığını garantiye alma kuralı.\"<br><br>Takvimdeki diğer pistler ile Phillip Island arasındaki farka da değinen Webb, karayolu alternatifinin bulunmayışının kararda belirleyici olduğunu vurguladı:<br><br>\"Birçok pistte en yakın tam teşekküllü hastaneye karayoluyla 45 dakikanın altında ulaşılabildiği için ambulans sevkini B planı olarak kullanabiliyoruz. Ancak Phillip Island’da en yakın hastane karayoluyla 45 dakikadan çok daha uzakta. Dolayısıyla tamamen hava ambulansına bağımlıyız ve doğrudan hava durumunun şartlarına teslim oluyoruz. Yarışın yapılamaması üzücü ama güvenlik her zaman ilk sırada gelir.\"<br><br>Pist üstündeki rüzgar ve yağmur dalgalanmalarına rağmen asıl krizin hava koridorunda yaşanması, Avustralya Grand Prix'sinin pazar günkü tüm yarış programının güvenlik duvarına takılarak noktalanmasına neden oldu.",
+                "img": "Resimler/MotoGP Haberler/1792950280299_IMG_0424.png",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 283,
                 "title": "FIRTINA ENGELİ: MOTOGP AVUSTRALYA GRAND PRIX'Sİ İPTAL EDİLDİ, PHILLIP ISLAND'A VEDA!",
                 "cat": "motogp",
