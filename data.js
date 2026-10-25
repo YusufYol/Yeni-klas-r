@@ -7273,6 +7273,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 283,
+                "title": "FIRTINA ENGELİ: MOTOGP AVUSTRALYA GRAND PRIX'Sİ İPTAL EDİLDİ, PHILLIP ISLAND'A VEDA!",
+                "cat": "motogp",
+                "date": "2026-10-25 11:32",
+                "content": "MotoGP dünyasının en ikonik duraklarından biri olan Phillip Island, takvime yarışsız ve buruk bir tabloyla veda etti. Şiddetli fırtına ve sağanak yağışın Avustralya kıyılarını vurması sonucu, 2026 Avustralya Grand Prix'si güvenlik gerekçesiyle resmi olarak iptal edildi.<br><br>Hafta sonunun son gününde hava koşullarının giderek kötüleşmesi üzerine yetkililer ilk olarak Moto3 ve Moto2 mücadelelerini programdan çıkardı. Ana yarış için hava durumunun düzelmesini bekleyen organizasyon, pist üstündeki yoğun su birikintileri ve düşük görüş mesafesinin tıbbi helikopter operasyonlarını imkansız kılması nedeniyle TSİ 08.30 sularında start alması planlanan MotoGP yarışını da rafa kaldırdı.<br><br>Önümüzdeki sezondan itibaren yerini Adelaide cadde yarışına devretmeye hazırlanan efsanevi Phillip Island pisti, böylece şanına yakışır bir final yarışı göremeden takvimden çıkmış oldu. <br>Tribünleri dolduran binlerce yarışsevere teşekkür etmek isteyen padok yönetimi ise alternatif bir plan uyguladı; sürücüler güvenlik aracının arkasında sembolik tek bir tur atarak ana düzlükte seyircileri selamladı.<br><br>Pazar günkü iptal kararı, şampiyona mücadelesindeki dengeleri de doğrudan değiştirdi. Cumartesi günü koşulan sprint yarışında kaza yaparak sağ ön kolunu kıran ve ana yarışta start alamayacak olan Jorge Martin, yarışın yapılamamasıyla birlikte en yakın rakibi Marc Marquez'e puan kaptırma tehlikesinden kurtulmuş oldu.<br><br>Gelecek hafta Sepang'da yeniden piste dönmeyi amaçlayan Martin, yarış koşulmadığı için şampiyonluk yarışındaki iddiasını canlı tuttu. Şampiyona lideri Marc Marquez ise Malezya'ya aradaki 10 puanlık farkı koruyarak gidiyor.",
+                "img": "Resimler/MotoGP Haberler/1792917146027_IMG_0420.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 280,
                 "title": "JORGE MARTIN’E PHILLIP ISLAND'DA AĞIR DARBE: BİLEĞİ KIRILAN İSPANYOL PİLOT AVUSTRALYA GP’SİNDE YOK!",
                 "cat": "motogp",
