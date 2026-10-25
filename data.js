@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 284,
+                "title": "COTA'DA TÜMSEK TARTIŞMASI: HAMILTON’DAN VERSTAPPEN’E GÖNDERMELİ \"OMURGA\" YANITI",
+                "cat": "formula 1",
+                "date": "2026-10-25 11:38",
+                "content": "Austin’de düzenlenen Amerika Grand Prix’si öncesinde Circuit of the Americas pistinin dalgalı ve engebeli asfaltı pilotları ikiye böldü. Zemindeki sarsıntıların fiziksel olarak yıpratıcı olduğunu söyleyerek omurgasının zarar gördüğünden dert yanan Max Verstappen’e, tecrübeli rakibi Lewis Hamilton’dan dikkat çeken bir karşı çıkış geldi.<br><br>Red Bull pilotunun sert eleştirilerinin aksine, zorlu zemin şartlarının Formula 1’in doğasında olduğunu savunan Hamilton, pürüzsüz pistlerin heyecanı öldürdüğünü belirtti. Şikâyet etmek yerine zorluklarla mücadele etmenin pilotaj kalitesini ortaya çıkardığını ifade eden yedi kez dünya şampiyonu pilot, sıralama turlarının ardından çarpıcı değerlendirmelerde bulundu.<br><br>Pistteki tümseklerin sürüşe ayrı bir dinamizm kattığını vurgulayan Hamilton, şartlardan memnun olduğunu şu sözlerle dile getirdi:<br><br>\"Ben şahsen bu engebeleri seviyorum, çünkü piste gerçek bir kimlik kazandırıyor. Aracın altınızdan kaydığı anları yakalamaya çalışmak ve otomobili kontrol altında tutmak için savaşmak benim bayıldığım bir his. Her şeyin kusursuz olduğu bir ortamda pist dümdüz olabilirdi ama o zaman da bütün ruhunu kaybederdi. COTA'yı özel kılan şey tam olarak bu zorluklar. Evet, 9 ve 19. virajlar biraz sarsıntılı, ilk virajda ise bizim açımızdan bir sorun yok. Günün sonunda tüm pilotlar aynı şartlarda yarışıyor. Sürekli sızlananlar var ama ben 41 yaşıma geldim ve omurgam hâlâ sapasağlam.\"<br><br>Ana yarış öncesi rakiplerinin temposunu da değerlendiren Britanyalı sürücü, Red Bull’un düzlük hızına dikkat çekti. Kendi performansından memnun olmasına rağmen farkı kapatamadıklarını belirten Hamilton:<br><br>\"Hafta sonu boyunca elde ettiğimiz verileri inceledik. İlk viraja yaklaşırken batarya kullanımını kestiğimiz noktalarda Red Bull farkı açmayı sürdürüyor. Benzer bir tablo 11 ve 12. viraj girişlerinde de karşımıza çıkıyor, bunu analizlerde çok net görebiliyoruz. Sebebini tam kestiremiyorum; turum oldukça temizdi ve araç da harika hissettiriyordu. Sanırım bu hafta sonu sadece bizden daha hızlılar.\" ifadelerini kullandı.",
+                "img": "Resimler/Formula 1 Haberler/1792917495919_IMG_0421.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 282,
                 "title": "2026 ABD GP SIRALAMA: ANTONELLI'DEN AUSTIN'DE ÇARPICI POLE, VERSTAPPEN İKİNCİ, HADJAR ÜÇÜNCÜ SIRADA!",
                 "cat": "formula 1",
