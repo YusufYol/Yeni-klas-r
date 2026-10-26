@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 288,
+                "title": "VERSTAPPEN'DEN ÇARPICI SÖZLER: \"TELSİZİ BIRAKIP İŞARET DİLİ KULLANALIM, DAHA UCUZA GELİR!\"",
+                "cat": "formula 1",
+                "date": "2026-10-26 17:50",
+                "content": "Amerika Grand Prix'sinde podyumun son basamağında yer alan Max Verstappen, Red Bull'un bir türlü çözülemeyen telsiz krizine sert tepki gösterdi. Yarış boyunca pit duvarıyla sağlıklı iletişim kuramayan Hollandalı pilot, yaşanan aksaklıkları \"tam bir felaket\" olarak yorumladı.<br><br>Yarışı Kimi Antonelli ve Charles Leclerc'in ardından üçüncü sırada tamamlayan Verstappen, podyuma çıkmasına rağmen yarış içindeki teknik karmaşadan oldukça rahatsızdı. Mühendisleriyle iletişim kurmakta zorlanan dünya şampiyonu, yarış sonrası basın toplantısında konunun açılması üzerine sert ifadeler kullandı.<br><br>Sorunun bu sezon ikinci kez tekrarlandığını belirten bir gazeteciye itiraz eden Hollandalı sürücü, tablonun çok daha vahim olduğunu vurguladı:<br><br>\"Bu ikinci değil, bu sezon kaçıncı kez başımıza geldiğini artık ben bile sayamaz oldum. Belki de telsizi bırakıp işaret diliyle anlaşmaya başlamalıyız; muhtemelen takım için daha ucuza gelir! Gerçekten tam bir felaket ve inanılmaz derecede sinir bozucu.\"<br><br>Red Bull garajındaki iletişim krizi yalnızca Verstappen'in değil, takım arkadaşı Isack Hadjar'ın yarışını da doğrudan etkiledi. İlk turda üçüncü cepten altıncılığa kadar gerileyen Hadjar, mühendislerinin direktiflerini alamadığı için yarışa yanlış ayarlarla başladığını belirtti.<br><br>Yarışın ardından Sky Sports F1 mikrofonlarına konuşan genç pilot, \"Telsiz bağlantım berbattı, pit duvarından gelen hiçbir şeyi duyamadım. Muhtemelen pit yolundan yanlış bir motor haritasıyla ayrıldım,\" diyerek garajdaki telsiz probleminin pahalıya patladığını dile getirdi.",
+                "img": "Resimler/Formula 1 Haberler/1793026202855_IMG_0430.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 287,
                 "title": "AUSTIN’DE ZAFER MERCEDES’İN: ANTONELLI AMERİKA’DA KAZANDI, PODYUM NEFES KESTİ!",
                 "cat": "formula 1",
