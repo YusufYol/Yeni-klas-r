@@ -9452,15 +9452,15 @@ const APP_DATA = {
                 "isoDate": "2026-11-01",
                 "status": "Sıradaki",
                 "trackDetails": {
-                    "len": "",
-                    "turns": "",
-                    "opened": "",
-                    "record": "",
+                    "len": "5,548 km",
+                    "turns": "15",
+                    "opened": "1991",
+                    "record": "1:56.337 (Francesco Bagnaia)",
                     "firstWinner": "",
-                    "mostWinsPilot": "",
-                    "mostWinsTeam": "",
+                    "mostWinsPilot": "Valentino Rossi (7 Galibiyet)",
+                    "mostWinsTeam": "Honda (34 Galibiyet)",
                     "img": "",
-                    "description": ""
+                    "description": "Boğucu sıcaklığı, yüksek nem oranı ve iki uzun düzlüğü birleştiren teknik virajlarıyla hem sürücülerin fiziksel sınırlarını zorlayan hem de motorlarını soğutma ve aerodinamik performansını test eden takvimin en ikonik pistlerinden biridir."
                 },
                 "sessions": [
                     {
@@ -9495,7 +9495,9 @@ const APP_DATA = {
                         "name": "Pazar: Yarış",
                         "time": "10:00"
                     }
-                ]
+                ],
+                "len": "5,548 km",
+                "turns": "15"
             },
             {
                 "round": 20,
