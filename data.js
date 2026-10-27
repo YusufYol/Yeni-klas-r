@@ -13606,7 +13606,7 @@ const APP_DATA = {
                     "team": "Ducati Lenovo Team",
                     "time": "19'09.411",
                     "gap": "-",
-                    "pts": 25,
+                    "pts": 12,
                     "laps": 0,
                     "fastest": true,
                     "status": "Finished"
@@ -13617,7 +13617,7 @@ const APP_DATA = {
                     "team": "BK8 Gresini Racing MotoGP",
                     "time": "19'09.734",
                     "gap": "+0.323",
-                    "pts": 20,
+                    "pts": 9,
                     "laps": 0,
                     "fastest": false,
                     "status": "Finished"
@@ -13628,7 +13628,7 @@ const APP_DATA = {
                     "team": "Pertamina Enduro VR46",
                     "time": "19'10.001",
                     "gap": "+0.590",
-                    "pts": 16,
+                    "pts": 7,
                     "laps": 0,
                     "fastest": false,
                     "status": "Finished"
@@ -13639,7 +13639,7 @@ const APP_DATA = {
                     "team": "Aprilia Racing",
                     "time": "19'10.485",
                     "gap": "+1.074",
-                    "pts": 13,
+                    "pts": 6,
                     "laps": 0,
                     "fastest": false,
                     "status": "Finished"
@@ -13650,7 +13650,7 @@ const APP_DATA = {
                     "team": "Red Bull KTM Factory Racing",
                     "time": "19'13.100",
                     "gap": "+3.689",
-                    "pts": 11,
+                    "pts": 5,
                     "laps": 0,
                     "fastest": false,
                     "status": "Finished"
@@ -13661,7 +13661,7 @@ const APP_DATA = {
                     "team": "Trackhouse Racing",
                     "time": "19'15.557",
                     "gap": "+6.146",
-                    "pts": 10,
+                    "pts": 4,
                     "laps": 0,
                     "fastest": false,
                     "status": "Finished"
@@ -13672,7 +13672,7 @@ const APP_DATA = {
                     "team": "Red Bull KTM Factory Racing",
                     "time": "19'16.844",
                     "gap": "+7.433",
-                    "pts": 9,
+                    "pts": 3,
                     "laps": 0,
                     "fastest": false,
                     "status": "Finished"
@@ -13683,7 +13683,7 @@ const APP_DATA = {
                     "team": "Prima Pramac Yamaha MotoGP",
                     "time": "19'17.193",
                     "gap": "+7.782",
-                    "pts": 8,
+                    "pts": 2,
                     "laps": 0,
                     "fastest": false,
                     "status": "Finished"
@@ -13694,7 +13694,7 @@ const APP_DATA = {
                     "team": "Castrol Honda LCR",
                     "time": "19'20.133",
                     "gap": "+10.722",
-                    "pts": 7,
+                    "pts": 1,
                     "laps": 0,
                     "fastest": false,
                     "status": "Finished"
@@ -13705,7 +13705,7 @@ const APP_DATA = {
                     "team": "BK8 Gresini Racing MotoGP",
                     "time": "19'20.184",
                     "gap": "+10.773",
-                    "pts": 6,
+                    "pts": 0,
                     "laps": 0,
                     "fastest": false,
                     "status": "Finished"
@@ -13716,7 +13716,7 @@ const APP_DATA = {
                     "team": "Monster Energy Yamaha MotoGP",
                     "time": "19'20.626",
                     "gap": "+11.215",
-                    "pts": 5,
+                    "pts": 0,
                     "laps": 0,
                     "fastest": false,
                     "status": "Finished"
@@ -13727,7 +13727,7 @@ const APP_DATA = {
                     "team": "Red Bull KTM Tech3",
                     "time": "19'20.848",
                     "gap": "+11.437",
-                    "pts": 4,
+                    "pts": 0,
                     "laps": 0,
                     "fastest": false,
                     "status": "Finished"
@@ -13738,7 +13738,7 @@ const APP_DATA = {
                     "team": "Monster Energy Yamaha MotoGP",
                     "time": "19'20.979",
                     "gap": "+11.568",
-                    "pts": 3,
+                    "pts": 0,
                     "laps": 0,
                     "fastest": false,
                     "status": "Finished"
@@ -13749,7 +13749,7 @@ const APP_DATA = {
                     "team": "Pertamina Enduro VR46",
                     "time": "19'27.688",
                     "gap": "+18.277",
-                    "pts": 2,
+                    "pts": 0,
                     "laps": 0,
                     "fastest": false,
                     "status": "Finished"
@@ -13760,7 +13760,7 @@ const APP_DATA = {
                     "team": "Yamaha Factory Racing",
                     "time": "19'47.356",
                     "gap": "+37.945",
-                    "pts": 1,
+                    "pts": 0,
                     "laps": 0,
                     "fastest": false,
                     "status": "Finished"
