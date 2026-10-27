@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 290,
+                "title": "TOTO WOLFF ADETA KALKAN OLDU: \"SUÇ GEORGE'UN DEĞİL BİZİM, O ZİRVEYİ HAK EDİYOR!\"",
+                "cat": "formula 1",
+                "date": "2026-10-27 11:49",
+                "content": "Mercedes Takım Patronu Toto Wolff, Red Bull'un eski danışmanı Helmut Marko’nun George Russell hakkındaki karamsar yorumlarına sert çıkarak Britanyalı pilotunun arkasında durdu.<br><br>Helmut Marko, sezonun son virajına girilirken Russell'ın artık Mercedes içinde bir numaralı pilot statüsünü çaylak takım arkadaşı Kimi Antonelli’ye kaptırdığını öne sürmüş ve Britanyalı pilotun kariyeri boyunca bir daha şampiyonluk mücadelesi veremeyeceğini iddia etmişti.<br><br>Wolff ise vatandaşı Marko'nun bu değerlendirmesine kesin bir dille katılmadığını belirtti. Russell’ın saf yeteneğinin ve geçmiş başarılarının göz ardı edilemeyeceğini vurgulayan Wolff, pilotunun alt kategorilerdeki üstün performansını hatırlattı:<br><br>\"Helmut benim Avusturyalı, pek de dost canlısı olmayan eski bir dostum ve fikirlerine saygı duyarım. Ancak George konusunda kesinlikle yanılıyor. Russell, alt serilerdeki çaylak sezonlarında F2 ve F3 şampiyonlukları elde etmiş, kartingde Avrupa zirvesine çıkmış bir isim. O, yarıştığı her kategoride kazandı ve pistteki en iyi pilotlar arasında anılmayı sonuna kadar hak ediyor.\"<br><br>Russell’ın 2026 sezonunda yaşadığı performans dalgalanmalarının ve şampiyonluk yarışından kopma noktasına gelmesinin ana nedeninin araç karakteristiği olduğunu belirten Mercedes patronu, faturayı takıma kesti:<br><br>\"George şampiyon olmak için gereken tüm donanıma sahip. Buradaki temel sorun, mevcut aracın onun sürüş stiline tam olarak uymaması. Aracı onun çalışma aralığına getirdiğimizde neler yapabildiğini zaten görüyoruz; ancak dengeden uzaklaştığımızda George, Kimi'ye kıyasla çok daha fazla zorlanıyor. Bu durum pilotun değil, tamamen bizim sorumluluğumuz. Önümüzdeki sezon ona rekabetçi ve kontrol edebileceği bir araç sunduğumuzda şampiyonluk için mücadele edeceğinden şüphem yok.\"<br><br>Amerika GP'sini sekizinci sırada tamamlayan ve Azerbaycan zaferinin ardından istikrarlı bir grafik yakalamakta zorlanan Russell, şampiyonluk yarışında avantajı tamamen Antonelli'ye kaptırmış durumda. Genç İtalyan pilotun Meksika'da elde edeceği dokuzunculuk dahi şampiyonluğunu ilan etmesine yetecek. Ancak Mercedes cephesi, içeride yaşanan bu dengelere rağmen Russell’ın uzun vadeli potansiyeline olan inancını koruyor.",
+                "img": "Resimler/Formula 1 Haberler/1793090971277_IMG_0446.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 289,
                 "title": "HAMİLTON’DAN AUSTIN SONRASI SİTEM DOLU SÖZLER: \"KEŞKELERLE VAKİT KAYBETMENİN ANLAMI YOK\"",
                 "cat": "formula 1",
