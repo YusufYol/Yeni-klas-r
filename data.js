@@ -3140,7 +3140,42 @@ const APP_DATA = {
                 "date": "30 Ekim-1 Kasım",
                 "track": "Mexico City",
                 "isoDate": "2026-11-01",
-                "status": "Bekliyor"
+                "status": "Sıradaki",
+                "trackDetails": {
+                    "len": "4,304 km",
+                    "turns": "17",
+                    "opened": "1963",
+                    "record": "1:17'774 (Valtteri Bottas)",
+                    "firstWinner": "Jim Clark (1963)",
+                    "mostWinsPilot": "Max Verstappen (5 Galibiyet)",
+                    "mostWinsTeam": "Oracle Red Bull Racing (5 Galibiyet)",
+                    "img": "",
+                    "description": "Deniz seviyesinden 2.200 metre yüksekteki ince havasıyla motorları ve aerodinamik yapıyı zorlayan Mexico City GP, 1.2 km'lik devasa ana düzlüğü ve unutulmaz Foro Sol stadyum bölümünün coşkulu atmosferiyle takvimin en renkli yarışlarından biridir."
+                },
+                "len": "4,304 km",
+                "turns": "17",
+                "sessions": [
+                    {
+                        "name": "Cuma: 1. Antrenman Seansı",
+                        "time": "21:30"
+                    },
+                    {
+                        "name": "Cuma: 2. Antrenman Seansı",
+                        "time": "01:00"
+                    },
+                    {
+                        "name": "Cumartesi: 3. Antrenman Seansı",
+                        "time": "20:30"
+                    },
+                    {
+                        "name": "Cumartesi: Sıralama Turları",
+                        "time": "00:00"
+                    },
+                    {
+                        "name": "Pazar: Yarış",
+                        "time": "23:00"
+                    }
+                ]
             },
             {
                 "round": 22,
