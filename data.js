@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 289,
+                "title": "HAMİLTON’DAN AUSTIN SONRASI SİTEM DOLU SÖZLER: \"KEŞKELERLE VAKİT KAYBETMENİN ANLAMI YOK\"",
+                "cat": "formula 1",
+                "date": "2026-10-27 11:44",
+                "content": "Amerika Grand Prix'sini geride bırakan Lewis Hamilton, Austin'de geçirdiği zorlu hafta sonunun ardından hayal kırıklığını gizlemedi. Beklentilerin uzağında kalan İngiliz pilot, yarış sonrasında yaptığı değerlendirmelerde özellikle araç ayarlarındaki dengesizlikten dert yandı.<br><br>Cumartesi günü araç üzerinde radikal değişikliklere gitmek zorunda kaldığını belirten tecrübeli sürücü, ideal ayarları yakalayamamanın faturasını yarışta ödedi.<br><br>Sky Sports UK mikrofonlarına konuşan Hamilton, yarış sonrasındaki gergin ve moralsiz tavrıyla dikkat çekti. Muhabir Craig Slater’ın, \"Sanal güvenlik aracı girmeseydi Max Verstappen'i geçip Ferrari'ye çifte podyum getirebilir miydin?\" sorusu üzerine sitem eden şampiyon pilot, \"Her yarış sonrası aynı şey oluyor; hep 'yapabilirdim, etmeliydim, olabilirdi' senaryoları konuşuluyor...\" diyerek varsayımlar üzerinden konuşmanın anlamsız olduğunu vurguladı.<br><br>Takım arkadaşı Charles Leclerc’in hafta sonu boyunca sergilediği güçlü performansı takdir eden Hamilton, şu ifadeleri kullandı:<br><br>\"Charles harika bir iş çıkararak McLaren ile olan mücadelemizde takımlar şampiyonası ikinciliğini korumamızı sağladı. Benim açımdan ise durum farklı; önümüzdeki yarışlarda bu araçtan çok daha fazlasını çıkarmak zorundayım. Doğru ayar dengesini bulduğumuz takdirde potansiyelimin çok daha yüksek olduğuna inanıyorum.\"<br><br>Austin'de yaşadığı sıkıntıları sezonun önceki yarışlarına benzeten Hamilton, aynı senaryonun tekrarlanmasından duyduğu rahatsızlığı şu sözlerle tamamladı:<br><br>\"Bu noktaya neden ve nasıl geldiğimizi analiz etmemiz şart, çünkü bu tabloyu ilk kez görmüyoruz. Silverstone'da da tamamen aynı problemi yaşamıştım. Charles ile aramızdaki farklı ayar tercihleri yüzünden virajlarda aracı istediğim gibi döndüremiyordum ve onun temposuna ayak uyduramamıştım. Ne yazık ki burada da benzer bir hikaye izledik.\"",
+                "img": "Resimler/Formula 1 Haberler/1793090665148_IMG_0445.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 288,
                 "title": "VERSTAPPEN'DEN ÇARPICI SÖZLER: \"TELSİZİ BIRAKIP İŞARET DİLİ KULLANALIM, DAHA UCUZA GELİR!\"",
                 "cat": "formula 1",
