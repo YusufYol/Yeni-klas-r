@@ -9450,7 +9450,52 @@ const APP_DATA = {
                 "date": "30 Ekim-1 Kasim",
                 "track": "Sepang",
                 "isoDate": "2026-11-01",
-                "status": "Bekliyor"
+                "status": "Sıradaki",
+                "trackDetails": {
+                    "len": "",
+                    "turns": "",
+                    "opened": "",
+                    "record": "",
+                    "firstWinner": "",
+                    "mostWinsPilot": "",
+                    "mostWinsTeam": "",
+                    "img": "",
+                    "description": ""
+                },
+                "sessions": [
+                    {
+                        "name": "Cuma: 1. Antrenman Seansı",
+                        "time": "05:45"
+                    },
+                    {
+                        "name": "Cuma: Ana Antrenman Seansı",
+                        "time": "10:00"
+                    },
+                    {
+                        "name": "Cumartesi: 2. Antrenman Seansı",
+                        "time": "05:10"
+                    },
+                    {
+                        "name": "Cumartesi: Sıralama Turları 1",
+                        "time": "05:50"
+                    },
+                    {
+                        "name": "Cumartesi: Sıralama Turları 2",
+                        "time": "06:15"
+                    },
+                    {
+                        "name": "Cumartesi: Sprint Yarışı",
+                        "time": "10:00"
+                    },
+                    {
+                        "name": "Pazar: Isınma Turları",
+                        "time": "05:40"
+                    },
+                    {
+                        "name": "Pazar: Yarış",
+                        "time": "10:00"
+                    }
+                ]
             },
             {
                 "round": 20,
