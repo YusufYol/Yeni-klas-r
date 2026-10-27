@@ -13826,38 +13826,38 @@ const APP_DATA = {
             "pilots": [
                 {
                     "pos": 1,
+                    "name": "Marc Marquez #93",
+                    "pts": 365,
+                    "team": "Ducati Lenovo Team"
+                },
+                {
+                    "pos": 2,
                     "name": "Jorge Martin #89",
                     "pts": 355,
                     "team": "Aprilia Racing"
                 },
                 {
-                    "pos": 2,
-                    "name": "Marc Marquez #93",
-                    "pts": 353,
-                    "team": "Ducati Lenovo Team"
-                },
-                {
                     "pos": 3,
                     "name": "Marco Bezzecchi #72",
-                    "pts": 309,
+                    "pts": 315,
                     "team": "Aprilia Racing"
                 },
                 {
                     "pos": 4,
-                    "name": "Ai Ogura #79",
-                    "pts": 259,
-                    "team": "Trackhouse Racing"
+                    "name": "Pedro Acosta #37",
+                    "pts": 263,
+                    "team": "Red Bull KTM Factory Racing"
                 },
                 {
                     "pos": 5,
-                    "name": "Pedro Acosta #37",
-                    "pts": 258,
-                    "team": "Red Bull KTM Factory Racing"
+                    "name": "Ai Ogura #79",
+                    "pts": 263,
+                    "team": "Trackhouse Racing"
                 },
                 {
                     "pos": 6,
                     "name": "Fabio Di Giannantonio #49",
-                    "pts": 245,
+                    "pts": 252,
                     "team": "Pertamina Enduro VR46"
                 },
                 {
@@ -13869,7 +13869,7 @@ const APP_DATA = {
                 {
                     "pos": 8,
                     "name": "Alex Marquez #73",
-                    "pts": 172,
+                    "pts": 181,
                     "team": "BK8 Gresini Racing MotoGP"
                 },
                 {
@@ -13899,20 +13899,20 @@ const APP_DATA = {
                 {
                     "pos": 13,
                     "name": "Brad Binder #33",
-                    "pts": 104,
+                    "pts": 107,
                     "team": "Red Bull KTM Factory Racing"
                 },
                 {
                     "pos": 14,
-                    "name": "Fabio Quartararo #20",
-                    "pts": 74,
-                    "team": "Monster Energy Yamaha MotoGP"
+                    "name": "Diogo Moreira #11",
+                    "pts": 75,
+                    "team": "Castrol Honda LCR"
                 },
                 {
                     "pos": 15,
-                    "name": "Diogo Moreira #11",
+                    "name": "Fabio Quartararo #20",
                     "pts": 74,
-                    "team": "Castrol Honda LCR"
+                    "team": "Monster Energy Yamaha MotoGP"
                 },
                 {
                     "pos": 16,
@@ -13935,7 +13935,7 @@ const APP_DATA = {
                 {
                     "pos": 19,
                     "name": "Jack Miller #43",
-                    "pts": 28,
+                    "pts": 30,
                     "team": "Prima Pramac Yamaha MotoGP"
                 },
                 {
@@ -13955,66 +13955,6 @@ const APP_DATA = {
                     "name": "Maverick Vinales #12",
                     "pts": 12,
                     "team": "Red Bull KTM Tech3"
-                },
-                {
-                    "pos": 23,
-                    "name": "Iker Lecuona #7",
-                    "pts": 9,
-                    "team": "BK8 Gresini Racing MotoGP"
-                },
-                {
-                    "pos": 24,
-                    "name": "Augusto Fernandez",
-                    "pts": 6,
-                    "team": "Yamaha Factory Racing"
-                },
-                {
-                    "pos": 25,
-                    "name": "Pol Espargaro",
-                    "pts": 5,
-                    "team": "Red Bull KTM Tech3"
-                },
-                {
-                    "pos": 26,
-                    "name": "Takaaki Nakagami",
-                    "pts": 3,
-                    "team": "Repsol Honda Team"
-                },
-                {
-                    "pos": 27,
-                    "name": "Somkiat Chantra",
-                    "pts": 3,
-                    "team": "Castrol Honda LCR"
-                },
-                {
-                    "pos": 28,
-                    "name": "Cal Crutchlow",
-                    "pts": 0,
-                    "team": "Castrol Honda LCR"
-                },
-                {
-                    "pos": 29,
-                    "name": "Jonas Folger",
-                    "pts": 0,
-                    "team": "Red Bull KTM Tech3"
-                },
-                {
-                    "pos": 30,
-                    "name": "Lorenzo Salvadori",
-                    "pts": 0,
-                    "team": "Trackhouse Racing"
-                },
-                {
-                    "pos": 31,
-                    "name": "Michele Pirro",
-                    "pts": 0,
-                    "team": "BK8 Gresini Racing MotoGP"
-                },
-                {
-                    "pos": 32,
-                    "name": "Aleix Espargaro",
-                    "pts": 0,
-                    "team": "Honda HRC Test Team"
                 }
             ],
             "teams": [
