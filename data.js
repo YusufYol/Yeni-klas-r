@@ -7333,6 +7333,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 291,
+                "title": "TOPRAK RAZGATLIOĞLU'NDAN OPERASYON SONRASI İLK MESAJ: \"DAHA GÜÇLÜ DÖNECEĞİM!\"",
+                "cat": "motogp",
+                "date": "2026-10-27 14:54",
+                "content": "MotoGP’deki gururumuz Toprak Razgatlıoğlu, Endonezya Grand Prix'sinde yaşadığı talihsiz kazanın ardından bıçak altına yattı. Pramac Yamaha adına piste çıkan milli motosikletçimiz, İtalya’nın Milano kentinde omzundan başarılı bir operasyon geçirdi.<br><br>Endonezya’da hafta sonu gerçekleştirilen seanslarda meydana gelen sert kaza sonrası omzundan ciddi bir darbe alan Razgatlıoğlu, pazar günkü ana yarıştan çekilmek zorunda kalmıştı. Yapılan kapsamlı tıbbi kontroller sonucunda cerrahi müdahalenin kaçınılmaz olduğu tespit edilen temsilcimiz, ameliyatın ardından 2026 sezonunun kalan yarışlarında mücadele edemeyecek.<br><br>Milano’daki operasyonun ardından sosyal medya hesaplarından sağlık durumuna ilişkin açıklamalarda bulunan Toprak, moralinin iyi olduğunu ve fiziksel toparlanma sürecine şimdiden başladığını duyurdu. Kariyerinde ilk kez bir sezonu erkenden noktalamak zorunda kaldığını vurgulayan başarılı sporcu, paylaşımında şu ifadelere yer verdi:<br><br>\"Bazen beklenmedik durumlarla karşılaşabiliyoruz. Yarış kariyerimde ilk defa bir sezonu erken kapatmak zorunda kaldığım için açıkçası zor bir süreçten geçiyorum; mücadeleleri ekrandan takip etmek gerçekten çok garip hissettiriyor. Ancak pistlere eskisinden çok daha güçlü dönebilmek adına bu omuz ameliyatını oldum. Şimdiden omzumu hareket ettirmeye başladım fakat tamamen hazır olmak biraz zaman alacak. İnşallah en kısa sürede yeniden motosikletimin başında olacağım. Yamaha ailesine, takımıma, doktorlarıma ve bu süreçte desteğini, dualarını esirgemeyen tüm yarışseverlere yürekten teşekkür ederim. Yeni zaferler için mücadeleye devam edeceğiz.\"<br><br>Rehabilitasyon programına İtalya’da start veren milli sporcumuzun hedefi, kış testlerine tamamen hazır bir şekilde girerek yeni sezonda yeniden zirveye oynamak.",
+                "img": "Resimler/MotoGP Haberler/1793102093425_IMG_0450.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 285,
                 "title": "PHILLIP ISLAND'DA İPTALİN PERDE ARKASI: YARIŞI PİST DEĞİL, HELİKOPTER PROSEDÜRÜ DURDURDU",
                 "cat": "motogp",
