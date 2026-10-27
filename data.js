@@ -2476,32 +2476,32 @@ const APP_DATA = {
                 {
                     "pos": 1,
                     "name": "Mercedes-AMG Petronas F1 Team",
-                    "pts": 578
+                    "pts": 607
                 },
                 {
                     "pos": 2,
                     "name": "Scuderia Ferrari HP",
-                    "pts": 444
+                    "pts": 474
                 },
                 {
                     "pos": 3,
-                    "name": "McLaren F1 Team",
-                    "pts": 339
+                    "name": "Oracle Red Bull Racing",
+                    "pts": 355
                 },
                 {
                     "pos": 4,
-                    "name": "Oracle Red Bull Racing",
-                    "pts": 332
+                    "name": "McLaren F1 Team",
+                    "pts": 355
                 },
                 {
                     "pos": 5,
                     "name": "Visa Cash App RB F1 Team",
-                    "pts": 100
+                    "pts": 102
                 },
                 {
                     "pos": 6,
                     "name": "BWT Alpine F1 Team",
-                    "pts": 68
+                    "pts": 69
                 },
                 {
                     "pos": 7,
