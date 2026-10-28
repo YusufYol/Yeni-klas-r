@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 293,
+                "title": "MEKSİKA GP'DE KOLTUK DEVRİ: VERSTAPPEN İLK SEANSTA YERİNİ IWASA'YA BIRAKIYOR",
+                "cat": "formula 1",
+                "date": "2026-10-28 12:44",
+                "content": "Formula 1’de takımların çaylak sürücülere şans tanıma zorunluluğu, Meksika Grand Prix’sinde padokta hareketli dakikalara sahne olacak. Red Bull’un şampiyon pilotu Max Verstappen, cuma günü gerçekleştirilecek ilk serbest antrenman seansında piste çıkmayarak aracını genç yetenek Ayumu Iwasa’ya teslim edecek.<br><br>F1 kuralları doğrultusunda her as pilotun sezon içinde en az iki seansı genç sürücülere devretmesi gerekiyor. Bu hakkını ilk olarak İtalya GP’sinde kullanan Verstappen, Hermanos Rodriguez Pisti’nde bu kuralı ikinci kez uygulayarak sezonluk kotasını tamamlayacak. Hollandalı sürücü, bu seansın ardından 2026 takvimindeki kalan tüm antrenmanlarda Red Bull kokpitinde kalmaya devam edecek.<br><br>Red Bull yedek sürücüsü Ayumu Iwasa, RB22 ile bu sezonki dördüncü cuma antrenmanı deneyimini yaşayacak. Japon yarışçı daha önce Barselona ve Monza’da ana takım Red Bull ile, Avusturya’da ise Racing Bulls koltuğunda piste çıkmıştı.<br><br>Meksika’da genç pilotlara yer açan tek isim Verstappen değil. Padoğun önde gelen diğer takımları da ilk seansta benzer bir rotasyona gidiyor. <br><br>Mercedes’de, George Russell, W17 koltuğunu Danimarkalı sürücü Frederik Vesti’ye bırakacak. Oscar Piastri, ilk seansı İtalyan genç pilot Leonardo Fornaroli’ye devredecek. Williams’da ise Alex Albon yerine İngiliz çaylak Luke Browning piste çıkacak.<br><br>Hermanos Rodriguez Pisti'nin cuma günkü açılış seansı, hem şampiyona mücadelesi veren takımların genç yetenekleri test etmesine hem de çaylak sürücülerin Formula 1 sahnesinde kendilerini kanıtlamasına olanak tanıyacak.",
+                "img": "Resimler/Formula 1 Haberler/1793180638940_IMG_0479.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 292,
                 "title": "FORMULA 1'DE V8 ÇAĞINA DÖNÜŞ PLANI: 1.000 BEYGİRLİK YENİ TURBO HİBRİT DÖNEMİ KAPIDA!",
                 "cat": "formula 1",
