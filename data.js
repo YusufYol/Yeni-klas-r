@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 294,
+                "title": "SERGIO PEREZ, CADILLAC İLE OLAN SÖZLEŞMESİNİ UZATTI",
+                "cat": "formula 1",
+                "date": "2026-10-28 18:30",
+                "content": "Formula 1’in en taze ekibi Cadillac, geleceğini tecrübeli ellere teslim etti. Amerikan temsilcisi, Meksikalı yıldız Sergio Perez ile el sıkışarak sözleşmesini en az 2029 sezonunun sonuna kadar uzattığını duyurdu.<br><br>Valtteri Bottas ile birlikte direksiyona geçen Perez, hem sergilediği sürüş hem de pit duvarına sağladığı rehberlikle projenin merkezine yerleşti. Kendi evindeki Meksika Grand Prix’si arifesinde netlik kazanan bu imza, Perez’in padoktaki varlığını perçinlerken Cadillac’ın uzun vadeli yarış vizyonuna dair de net bir mesaj verdi.<br><br>Hafta sonu kendi taraftarı karşısında Formula 1 tarihindeki 300. startını almaya hazırlanan tecrübeli sürücü, bu barajı aşabilen elit pilotlar listesine 7. sıradan dahil olacak. İmzalanan kontratın sonuna gelindiğinde 39 yaşına ve tam 18 yıllık bir F1 geçmişine ulaşacak olan Checo; Schumacher, Raikkonen, Barrichello ve Button gibi sporun mihenk taşlarını yarış sayısında geride bırakacak. Bu tablo, Meksikalı pilotu sadece Alonso ve Hamilton ikilisinin gerisinde, tüm zamanların en deneyimli üçüncü ismi yapacak.<br><br>Perez cephesinde sular durulsa da garajın Fin kanadında belirsizlik sürüyor. 2027 sonrasında Bottas’ın koltuğuna kimin geçeceği henüz netleşmezken, kulislerde Colton Herta, Frederik Vesti ve Yuki Tsunoda isimleri yüksek sesle konuşulmaya başlandı bile.<br><br>Anlaşmanın ardından değerlendirmelerde bulunan Cadillac CEO’su Dan Towriss, istikrarın önemine dikkat çekerek şunları kaydetti:<br><br>\"Formula 1’de kalıcı başarı yakalamak, sağlam adımlarla ilerleyen bir maratondur. Checo gibi elit seviyede tecrübeye ve liderlik vasfına sahip bir ismi projemizde tutmak, çaylak yılımızda inşa ettiğimiz güçlü yapıyı daha da ileriye taşımak için aradığımız kararlılığı simgeliyor.\"",
+                "img": "Resimler/Formula 1 Haberler/1793201439112_IMG_0501.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 293,
                 "title": "MEKSİKA GP'DE KOLTUK DEVRİ: VERSTAPPEN İLK SEANSTA YERİNİ IWASA'YA BIRAKIYOR",
                 "cat": "formula 1",
