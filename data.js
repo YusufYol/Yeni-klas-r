@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 295,
+                "title": "AUSTIN’DE PODYUMA ÇIKAN LECLERC İDDİALI: “BU SEZON MUTLAKA KAZANACAĞIZ! ”",
+                "cat": "formula 1",
+                "date": "2026-10-28 18:35",
+                "content": "Ferrari’nin Monakolu pilotu Charles Leclerc, Singapur’un ardından Birleşik Devletler Grand Prix’sinde de podyumun ikinci basamağına çıkarak istikrarlı formunu sürdürdü. Austin’e getirilen teknik güncellemelerin SF-26’ya getirdiği hızdan memnun olan Leclerc, sezon finali öncesinde en az bir galibiyet alabileceklerine inandığını vurguladı.<br><br>Yarışa üçüncü cepten başlayan Leclerc, henüz start anında takım arkadaşı Lewis Hamilton ve Isack Hadjar’ı geride bırakarak agresif bir açılış yaptı. İlk virajın ardından batarya enerjisini stratejik noktalarda devreye sokan genç pilot, Max Verstappen’i de avlayarak ikinciliğe tırmandı. Yarış boyunca Verstappen ile kıran kırana bir taktik savaşı veren ve son turlarda lastik avantajını kusursuz kullanarak rakibini bir kez daha mağlup eden Leclerc, tek pit stop kumarı tutan Kimi Antonelli’nin arkasında ikinci olarak damalı bayrağı gördü.<br><br>Antrenman turlarındaki dominant tempoya rağmen sıralama turlarının son bölümünde lastik ısıtma sorunları yaşadıklarını belirten Leclerc, potansiyel bir zaferin Q3’te kaçtığını düşünüyor. Hafta sonunu ve yarış anındaki hamlelerini değerlendiren Monakolu sürücü, şu ifadeleri kullandı:<br><br>“Kalkış anım çok iyiydi. İlk viraj çıkışında gereksiz bir risk almak istemedim ancak Lewis arkamdan çok iyi geliyordu. Ben de 3, 4 ve 5. virajlarda Max’i yakalayabilmek için hibrit gücümü biraz daha cömertçe kullandım. Kokpitte tek bir anın bile boş geçmediği, sürekli mücadele ettiğimiz harika bir yarış oldu. Kimi’nin tek pit stopa yöneldiğini görünce bir an kazanabileceğimizi düşündüm. Hesaplamalarımıza göre son turlarda lastiklerinin düşüşe geçmesi gerekiyordu ama Kimi harika idare etti ve hiç zorlanmadı.”<br><br>Austin’de podyumda yer almasına rağmen takım olarak henüz kusursuz seviyede olmadıklarının altını çizen Leclerc, gelecek yarışlar için umutlu:<br><br>“Antrenman seanslarında çok hızlıydık fakat Q3’te lastikleri doğru çalışma aralığına sokamadık; galibiyeti belki de orada bıraktık. Takım olarak her koşulda aynı sağlamlığı gösterebilmek için hâlâ katetmemiz gereken yol var. Ancak son iki-üç haftadır sürüş tarzımla aracın ayarları arasında harika bir uyum yakaladık. Hem Singapur’da hem de burada birinciliğe çok yaklaştık. Bu yükselişin karşılığını çok yakında alacağımıza ve sezon bitmeden en az bir yarış kazanabileceğimize tüm kalbimle inanıyorum.”",
+                "img": "Resimler/Formula 1 Haberler/1793201699522_IMG_0502.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 294,
                 "title": "SERGIO PEREZ, CADILLAC İLE OLAN SÖZLEŞMESİNİ UZATTI",
                 "cat": "formula 1",
