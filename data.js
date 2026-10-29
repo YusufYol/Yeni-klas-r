@@ -7662,6 +7662,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 298,
+                "title": "JORGE MARTIN MALEZYA GP'DE PİSTE ÇIKMAYA HAZIRLANIYOR!",
+                "cat": "motogp",
+                "date": "2026-10-29 15:29",
+                "content": "Avustralya GP hafta sonunda yaşadığı kaza sonrası piste çıkamayan Jorge Martin, Malezya Grand Prix'si öncesinde kritik ilk engeli aştı. FIM Sağlık Ekibi ve MotoGP'nin resmi doktoru Angel Charte tarafından perşembe günü muayene edilen İspanyol sürücü, cuma sabahı yapılacak ilk serbest antrenman seansına katılabilmek için yeşil ışık aldı.<br><br>Phillip Island'daki sprint yarışında yüksek hızda kaza yaparak sakatlanan Martin, ana yarışın olumsuz hava şartları sebebiyle iptal edilmesine rağmen şampiyona liderliğini Marc Marquez'e kaptırmış ve 10 puan geriye düşmüştü. Sepang'da şampiyonluk umutlarını yeniden canlandırmayı hedefleyen Aprilia pilotunun hafta sonunun kalanında piste çıkıp çıkamayacağı ise FP1 sonrasında yapılacak ikinci muayenenin ardından netlik kazanacak.<br><br>Aprilia cephesinde sakatlık endişesi yaşayan bir diğer isim ise Trackhouse sürücüsü Raul Fernandez oldu. El parmağındaki kırığa rağmen kontrolleri başarıyla geçen Fernandez de Martin gibi cuma günkü ilk antrenman için onay aldı. Sakatlığının ilerleme riskine karşın piste çıkmayı tercih eden Fernandez'in durumu da ilk seansın hemen ardından sağlık heyeti tarafından tekrar değerlendirilecek.",
+                "img": "Resimler/MotoGP Haberler/1793276959237_IMG_0517.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 296,
                 "title": "MOTOGP'DE KATAR KRİZİ: SÜRÜCÜLER GÜVENCE İÇİN MASADA, KRİTİK 48 SAAT BAŞLADI",
                 "cat": "motogp",
