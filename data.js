@@ -7652,6 +7652,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 296,
+                "title": "MOTOGP'DE KATAR KRİZİ: SÜRÜCÜLER GÜVENCE İÇİN MASADA, KRİTİK 48 SAAT BAŞLADI",
+                "cat": "motogp",
+                "date": "2026-10-29 12:36",
+                "content": "Gelecek hafta koşulması planlanan Katar Grand Prix'si öncesinde MotoGP padoğunda tansiyon düşmüyor. Orta Doğu'daki bölgesel güvenlik riskleri nedeniyle endişelerini dile getiren sürücüler, yarışa katılımlarını resmî şartlara bağlamak amacıyla Malezya'nın Sepang pistinde yeniden olağanüstü bir toplantı gerçekleştirdi. Grid ile organizasyon yönetimi arasındaki düğümün önümüzdeki iki gün içinde çözülmesi hedefleniyor.<br><br>Nisan ayında yapılması planlanan ancak bölgesel çatışmalar sebebiyle 8 Kasım haftasına ötelenen yarış öncesinde sürücüler, güvenlik konusunda somut adımlar bekliyor. Sepang'daki zirvede pilotlar, organizatörden yalnızca sözlü vaatler değil; bağlayıcı, yazılı taahhütler talep etme kararı aldı. Masadaki ana maddeler arasında:<br><br>-Olası acil durumlar için kapsamlı bir tahliye planının oluşturulması,<br><br>-Katar hava sahasının aniden kapanması ihtimaline karşı doğacak lojistik ve konaklama maliyetlerini üstlenecek özel sigorta teminatları,<br><br>-En kötü senaryoda tüm padok personelinin güvenli bir şekilde ülkelerine iadesini garanti eden hukuki protokoller yer alıyor.<br><br>Katar yönetimi yarışın tamamen güvenli bir ortamda yapılabileceğini vurgularken, padokta yer alan birçok pilotun vatandaşı olduğu ülkelerin dışişleri bakanlıkları bölgeye yönelik \"zorunlu olmadıkça seyahat etmeyin\" uyarılarını koruyor. Şampiyona yönetimi pilotlardan profesyonel sorumluluk ve bağlılık beklerken; yarışçılar can güvenliği risklerinin kendi omuzlarına yüklenmesine itiraz ediyor.<br><br>Hem organizasyona karşı sözleşme yükümlülükleri bulunan hem de pilotlarının endişelerini haklı bulan takım yönetimleri ise iki taraf arasında köprü kurmaya çalışıyor.<br><br>Doha'daki temaslarının ardından geri dönen MotoGP Üst Yöneticisi Carlos Ezpeleta'nın sürücülerle yapacağı son görüşmelerin ardından, Katar GP'sinin kaderi resmen netlik kazanacak.",
+                "img": "Resimler/MotoGP Haberler/1793266583937_IMG_0515.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 291,
                 "title": "TOPRAK RAZGATLIOĞLU'NDAN OPERASYON SONRASI İLK MESAJ: \"DAHA GÜÇLÜ DÖNECEĞİM!\"",
                 "cat": "motogp",
