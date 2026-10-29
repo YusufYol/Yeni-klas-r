@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 297,
+                "title": "SEBASTIAN VETTEL’DEN YILLAR SONRA GELEN FERRARİ İTİRAFI: “BASKI VE KORKU YÜZÜNDEN EĞLENCEYİ UNUTTUK”",
+                "cat": "formula 1",
+                "date": "2026-10-29 15:21",
+                "content": "Formula 1 tarihinin en çok konuşulan ortaklıklarından biri olan Sebastian Vettel - Ferrari birlikteliği, ardında hem büyük zaferler hem de derin bir hayal kırıklığı bıraktı. 2015 yılında Maranello’ya çocukluk kahramanı Michael Schumacher’in izinden gitmek ve şampiyonluk hasretine son vermek için gelen dört kez dünya şampiyonu Alman pilot, İtalyan ekibinde geçirdiği altı yılı ve kapalı kapılar ardında yaşananları ARD ekranlarında yayımlanan Being Sebastian Vettel belgeselinde samimiyetle anlattı.<br><br>Kırmızı tulumla 14 zafere imza atarak Schumacher ve Niki Lauda’nın ardından Ferrari tarihinin en çok yarış kazanan üçüncü ismi olan Vettel, başarıların arka planında çok ağır bir psikolojik yük taşıdıklarını belirtti.<br><br>Red Bull dönemindeki dinamik ve rahat ortamla Ferrari’deki atmosferi kıyaslayan tecrübeli pilot, Maranello’da en çok eksikliğini hissettiği şeyin yarış tutkusunun getirdiği neşe olduğunu ifade etti. Takım içindeki gergin havayı dağıtmak için bizzat çaba gösterdiğini söyleyen Vettel, o günleri şu sözlerle hatırlattı:<br><br>“Onlara yaptıkları işe ve emeğe sonsuz saygı duyduğumu ancak önceki deneyimlerime kıyasla burada çok temel bir şeyin eksik kaldığını söyledim: Eğlenmek. Ortamı yumuşatmak için garaja İtalyan müzikleri çalabileceğimiz bir hoparlör dahi getirdim. Fakat ilk zamanlar hoparlör kullanmak bile kesin bir kuralla yasaklanmıştı.”<br><br>Ferrari üzerindeki devasa kamuoyu ve medya baskısının karar alma süreçlerini felce uğrattığını savunan Vettel, hata yapma kaygısının takımı tutuklaştırdığını dile getirdi. Hafta sonu kötü geçtiğinde pazartesi gününün nasıl bir kabusa dönüşeceğini sürekli düşündüklerini belirten Alman pilot; organizasyon olarak cesaretten uzak, fazla çekingen ve temkinli davrandıkları için ellerindeki kritik şampiyonluk fırsatlarını harcadıklarını kaydetti.<br><br>2020 sezonu sonunda Ferrari’nin sözleşme yenilememe kararı alarak Carlos Sainz ile anlaşması, Vettel için kabullenmesi zor bir dönemin başlangıcı oldu. Ayrılık anındaki ruh halini gizlemeyen dört kez dünya şampiyonu, “O kararla birlikte başarısızlığımın resmileştiğini hissettim ve uzun bir süre faturayı tamamen kendime kestim,” diyerek Maranello defterini kapatırken yaşadığı iç hesaplaşmayı gözler önüne serdi.",
+                "img": "Resimler/Formula 1 Haberler/1793276485393_IMG_0516.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 295,
                 "title": "AUSTIN’DE PODYUMA ÇIKAN LECLERC İDDİALI: “BU SEZON MUTLAKA KAZANACAĞIZ! ”",
                 "cat": "formula 1",
