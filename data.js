@@ -7662,6 +7662,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 299,
+                "title": "SEPANG'DA AÇILIŞ MARC MARQUEZ'DEN: MALEZYA'DA KIRMIZI BAYRAK VE SAKATLIK GÖLGESİNDE İLK SEANS",
+                "cat": "motogp",
+                "date": "2026-10-30 13:06",
+                "content": "2026 MotoGP Dünya Şampiyonası'nın Malezya ayağı, Sepang Uluslararası Pisti'nde koşulan hareketli ve olaylı ilk antrenman seansıyla başladı. Hafta sonunun açılış seansında temposunu konuşturan şampiyona lideri Marc Marquez, 1:58.912'lik derecesiyle zaman tablosunun en tepesine yerleşmeyi başardı.<br><br>Yeşil ışıkların yanmasıyla birlikte gözler, hafta sonu öncesi sağlık kontrolünden geçen ve piste çıkma onayı alan Jorge Martin’in üzerindeydi. Çoğu sürücünün orta hamur lastik kombinasyonunu tercih ettiği ilk dakikalarda Marc Marquez, attığı temiz turlarla liderliği erkenden eline aldı. Marco Bezzecchi yaklaşık yarım saniyelik farkla İspanyol sürücüyü takip ederken, seansın ilerleyen bölümlerinde tempo giderek arttı.<br><br>Piste çıkıp kendini test eden isimlerden biri olan Trackhouse sürücüsü Raul Fernandez için seans kabusla sonuçlandı. Attığı 5 turun ardından garaja dönen Fernandez’in Malezya GP’sinden çekildiği duyuruldu. Trackhouse ekibinden yapılan resmi açıklamada; Fernandez'in Endonezya Sprint yarışındaki kazasında sağ işaret parmağında oluşan kırığın motosikleti kontrol etmesine engel olduğu ve Şampiyona Tıbbi Direktörü’nün incelemesi sonucu İspanyol sürücünün yarışa devam etmesinin uygun bulunmadığı bildirildi.<br><br>Seansın bitimine yaklaşık 15 dakika kala Sepang'da kırmızı bayraklar havaya kalktı. Arka düzlüğün sonunda Iker Lecuona'nın motosikletinden kopan ön çamurluk parçalarının piste saçılması üzerine yarış kontrol seansı durdurma kararı aldı. Pistin temizlenmesinin ardından kalan turlar için yeşil bayrak yeniden sallandı.<br>Kalan sürede zirvedeki dereceyi geçebilen çıkmadı ve Marc Marquez 1:58.912 ile damalı bayrağı ilk sırada gördü. Seans boyunca güçlü bir ritim tutturan Marco Bezzecchi ikinci sırayı alırken, çaylak yıldız Pedro Acosta üçüncü olarak podyum adayları arasında yer aldı.<br><br>Brad Binder dördüncü, Alex Marquez ise beşinci olarak ilk beşi tamamlayan isimler oldu. Onları Franco Morbidelli ve Johann Zarco izlerken; fiziksel olarak henüz tam formunda olmayan Jorge Martin, seansı liderin 2.3 saniye ardında 19. sırada kapattı.",
+                "img": "Resimler/MotoGP Haberler/1793354756984_IMG_0532.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 298,
                 "title": "JORGE MARTIN MALEZYA GP'DE PİSTE ÇIKMAYA HAZIRLANIYOR!",
                 "cat": "motogp",
