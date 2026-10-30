@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 302,
+                "title": "2026 MEKSİKA GP: ŞAMPİYONLUK DÜĞÜMÜ ÇÖZÜLÜYOR MU? İŞTE YARIŞ PROGRAMI VE YAYIN BİLGİLERİ",
+                "cat": "formula 1",
+                "date": "2026-10-30 13:39",
+                "content": "Formula 1'de Amerika kıtası heyecanı ara vermeden devam ediyor. Üç ayaklı kıta serisinin ikinci durağı olan 2026 Meksika Grand Prix'si, 30 Ekim - 1 Kasım tarihleri arasında Autodromo Hermanos Rodriguez pistinde koşulacak. Şampiyonluk yarışında kritik viraj niteliğindeki hafta sonunun tüm seans detayları ve canlı yayın akışı belli oldu.<br><br>Austin'deki galibiyetiyle zirvedeki hakimiyetini sağlamlaştıran Kimi Antonelli, kariyerinin ilk Formula 1 dünya şampiyonluğuna çok yaklaştı. Amerika GP'de podyumu Charles Leclerc ve Lando Norris gibi rakipleriyle paylaşan genç İtalyan pilot, puanını 365'e yükselterek rakipleriyle arasındaki farkı iyice açtı. Takım arkadaşı George Russell ise Austin'de yaşadığı kabus gibi hafta sonunun ardından 242 puanda kaldı ve yalnızca 1 puan ardındaki Lewis Hamilton'ın baskısını ensesinde hissetmeye başladı.<br><br>Takımlar şampiyonasında ise Mercedes 607 puanla rahat bir liderlik sürdürürken, Ferrari 474 puanla takibini sürdürüyor; Red Bull ise üçüncülük koltuğunu devralmış durumda. Matematiksel olarak Russell ve Hamilton'ın umutları sürse de Antonelli'nin Mexico City'de unvanı garantilemesi için pazar günkü mücadeleyi en az dokuzuncu sırada tamamlaması yeterli olacak.<br><br>İşte 2026 Meksika Grand Prix'sinin seans günleri, başlangıç saatleri ve canlı yayın bilgileri:<br><br>30 Ekim Cuma<br>1. Antrenman Turları: 21:30 | F1 TV / beIN SPORTS 4<br><br>1. Antrenman Turları: 01:00 | F1 TV / beIN SPORTS 4<br><br>31 Ekim Cumartesi<br>1. Antrenman Turları: 20:30 | F1 TV / beIN SPORTS 4<br><br>Sıralama Turları: 00:00 | F1 TV / beIN SPORTS 4<br><br>1 Kasım Pazar<br>Yarış: 23:00 | F1 TV / beIN SPORTS 4",
+                "img": "Resimler/Formula 1 Haberler/1793356782219_IMG_0535.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 301,
                 "title": "RUSSELL AUSTIN'DEKİ 50 SANİYELİK FARKIN NEDENİNİ AÇIKLADI: \"PAKET ÇOK DAR BİR ARALIKTA ÇALIŞIYOR\"",
                 "cat": "formula 1",
