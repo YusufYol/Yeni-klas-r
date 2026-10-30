@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 303,
+                "title": "FORMULA 1’DE ORTA DOĞU ENDİŞESİ: PİLOTLAR GÜVENLİK GÜNDEMİYLE TOPLANMAYA HAZIRLANIYOR",
+                "cat": "formula 1",
+                "date": "2026-10-30 17:12",
+                "content": "Formula 1’de 2026 sezonunun finaline doğru geri sayım sürerken, takvimin son iki durağı olan Katar ve Abu Dabi yarışları öncesinde Orta Doğu’daki jeopolitik kriz pilotların bir numaralı gündem maddesi haline geldi. Bölgedeki tırmanan askeri gerilim ve güvenlik riskleri, padokta hem sürücülerin hem de takım personelinin güvenliğine dair ciddi soru işaretleri doğurmuş durumda.<br><br>Benzer bir tedirginlik geçtiğimiz günlerde MotoGP padoğunda da somut bir adıma dönüştü. Avustralya hafta sonunda bir araya gelen 22 MotoGP sürücüsü, yaklaşan Katar yarışı öncesinde güvenlik endişelerini masaya yatırmak üzere özel bir toplantı gerçekleştirdi. Her iki şampiyonanın ticari haklarının da Liberty Media çatısı altında bulunması, dikkatleri kaçınılmaz olarak Formula 1 yönetimine ve FIA’ya çevirdi.<br><br>Ferrari pilotu Charles Leclerc, bölgedeki risklerin pilotlar arasında görmezden gelinmediğini ve resmi temasların çok yakın olduğunu doğruladı. Monakolu sürücü, Grand Prix Sürücüler Birliği (GPDA) nezdinde konunun yakında açılacağını belirterek şu ifadeleri kullandı:<br><br>\"Bence bu, görüşmeler sırasında kesinlikle gündeme gelecek bir konu. GPDA aracılığıyla bu konuyu henüz çok fazla konuşmadık ancak ele almamız gereken konular listesinde kesinlikle yer alacak.\"<br><br>Konuya dair temkinli ve gerçekçi bir yaklaşım sergileyen Sergio Perez ise MotoGP sürücülerinin attığı adımı haklı bulduğunu ifade etti. Bölgedeki belirsizliğe ve dinamiklerin anlık olarak değişebileceğine dikkat çeken Meksikalı pilot, sürecin hassasiyetini şu sözlerle aktardı:<br><br>\"Şu anda kimse ne olacağını bilmiyor. Durum bir günden diğerine değişebilir ve gerilim tırmanabilir. Şu ana kadar MotoGP'de gördüklerimize bakılırsa bence doğru olanı yapıyorlar. Ancak bu tür durumların günden güne değişebileceğini düşünüyorum.\"<br><br>Nihai kararın tamamen organizatörlere ve yönetim kademesine ait olduğunu hatırlatan Perez, güvenlik konusunda sorumluluğun yetkililerde olduğunu vurguladı:<br><br>\"Kararları veren biz değiliz. Bu kararları alan kişilerin elbette bu konuda tam sorumluluğu olacak. Dolayısıyla bizim bu konuda söyleyecek çok fazla sözümüz yok.\"<br><br>Formula 1 kafilesinin dört hafta sonra Katar'a, ardından sezon finali için Abu Dabi’ye seyahat etmesi planlanırken; GPDA, FIA ve Liberty Media arasındaki güvenlik görüşmelerinden çıkacak kararlar padoğun ana odağı olmayı sürdürüyor.",
+                "img": "Resimler/Formula 1 Haberler/1793369574345_IMG_0538.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 302,
                 "title": "2026 MEKSİKA GP: ŞAMPİYONLUK DÜĞÜMÜ ÇÖZÜLÜYOR MU? İŞTE YARIŞ PROGRAMI VE YAYIN BİLGİLERİ",
                 "cat": "formula 1",
