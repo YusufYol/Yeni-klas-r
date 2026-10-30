@@ -7662,6 +7662,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 300,
+                "title": "2026 MOTOGP MALEZYA GP: MARC MARQUEZ DÜŞTÜĞÜ SEANSTA LİDERLİĞİ ALDI, ALEX MARQUEZ VE OGURA TAKİPTE",
+                "cat": "motogp",
+                "date": "2026-10-30 13:10",
+                "content": "2026 MotoGP Dünya Şampiyonası Malezya Grand Prix'si ana antrenman seansı, peş peşe gelen kazalar ve yüksek tempoyla tamamlandı. Son sektörde motosikletinin kontrolünü kaybedip çakıl havuzuna giren Marc Marquez, kaza sonrası piste dönerek 1:57.000'lık derecesiyle seansın en hızlı ismi olmayı başardı.<br><br>Bir saatlik seansın başlangıcında sürücülerin büyük bölümü yumuşak hamurları tercih ederken aralarında Marc Marquez, Brad Binder ve Ai Ogura'nın da yer aldığı grup orta arka lastiklerle piste çıktı. İlk dakikalarda Johann Zarco ve Marco Bezzecchi öne fırlarken, liderlik koltuğu Fabio Di Giannantonio’nun 1:57.982'lik turuyla el değiştirdi.<br><br>Seansın erken evresinde 12. virajda Jorge Martin ciddi bir denge kaybı yaşayıp düşmekten son anda kurtuldu. Jack Miller ise ekranlara yansımayan 4. virajdaki kazasının ardından motosikletini pit yoluna kadar itmek zorunda kaldı.<br><br>Seansın ilk çeyreği biterken yumuşak lastiklere geçen Marc Marquez, hızlı turunu tamamlarken ön tekerleğin tutuşunu kaybetmesi sonucu yerde kaldı. İspanyol pilot garaja dönüp seansa devam ederken, Aprilia cephesinden Martin için olumsuz haber geldi. Takım, Dr. Angel Charte'nin yönlendirmesiyle Martin'in toparlanabilmesi adına antrenmanın geri kalanında piste çıkmayacağını bildirdi.<br><br>Derecelerin aşağı çekildiği son bölümde Diego Moreira geçici olarak zirveye çıksa da Marc Marquez piste döndükten sonra attığı 1:57.000 ile çıtayı ulaşılamaz bir seviyeye taşıdı. Kardeşi Alex Marquez, 1:57.109'luk derecesiyle ikinci basamağa tırmanarak Marquez kardeşleri ilk ikiye taşıdı. Japon sürücü Ai Ogura ise 1:57.167 koşarak üçüncü sırayı kaptı.<br><br>Seansın son beş dakikası ise kazaların gölgesinde geçti. Enea Bastianini viraj girişinde düşerek pist üzerinde riskli bir noktada kaldı ancak kısa sürede kalkmayı başardı. Johann Zarco 7. virajda düşerek bacağını motosikletin altında bıraktı. Francesco Bagnaia ise 1. virajda dengesini kaybederek antrenmanı erken noktaladı.<br><br>Son anlarda gelen kazalar nedeniyle derecelerini geliştiremeyen pilotlar damalı bayrağı Marc Marquez'in gerisinde gördü. Böylece Malezya'da ilk seans, Marc Marquez'in zirvesi, Alex Marquez'in takibi ve Ai Ogura'nın üçüncülüğüyle tamamlandı.",
+                "img": "Resimler/MotoGP Haberler/1793355026060_IMG_0533.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 299,
                 "title": "SEPANG'DA AÇILIŞ MARC MARQUEZ'DEN: MALEZYA'DA KIRMIZI BAYRAK VE SAKATLIK GÖLGESİNDE İLK SEANS",
                 "cat": "motogp",
