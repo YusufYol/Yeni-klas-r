@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 305,
+                "title": "2026 MEKSİKA GP 2. ANTRENMAN SEANSI: CHARLES LECLERC EN HIZLI İSİM OLDU, HAMILTON TEKNİK SORUNLA YOLDA KALDI, NORRIS İKİNCİ SIRADA YER ALDI",
+                "cat": "formula 1",
+                "date": "2026-10-31 11:36",
+                "content": "Formula 1 Meksika Grand Prix’sinde heyecan 2. antrenman seansıyla sürerken, Ferrari pilotu Charles Leclerc 1:17.827’lik derecesiyle zirvedeki yerini korumayı başardı. Lando Norris’in ikinci olduğu seansta, Ferrari garajı Lewis Hamilton’ın yaşadığı teknik arıza nedeniyle sarsıldı.<br><br>Yeşil ışıkların yanmasıyla birlikte garajlardan piste çıkan takımlar, doğrudan hızlı turlara odaklandı. Seansın açılışında Isack Hadjar ve Oliver Bearman dikkat çeken ilk isimler olurken; Bearman, ilk turunun ardından karşılaştığı yazılım arızası yüzünden erken şekilde pite dönmek zorunda kaldı. İlk 10 dakikalık bölüm tamamlandığında Charles Leclerc 1:18.257 ile en tepeye tırmanırken, takım arkadaşı Lewis Hamilton hemen arkasında ikinci sırayı aldı.<br><br>Temponun yükseldiği ilk çeyrekte 14. virajda tansiyon arttı. Dış çizgiden içeri kapanmak isteyen Liam Lawson ile Max Verstappen arasında yaşanan temas sonucu piste saçılan parçalar nedeniyle seans kırmızı bayrakla durduruldu. FIA komiserleri kazayı incelemeye alırken, temizlik çalışmalarının ardından yaklaşık 40 dakikalık süresi kalan seans yeniden hareketlendi.<br><br>Yeniden başlama sinyaliyle birlikte Kimi Antonelli orta hamur lastiklerle güçlü bir çıkış yaparken, McLaren pilotu Lando Norris 1:18.161 kaydederek liderliği Leclerc’in ellerinden aldı.<br><br>Orta sektörde oldukça rekabetçi zamanlar üreten Lewis Hamilton, 13. viraja gelindiğinde aracında ani bir güç kaybı yaşadı. Telsizden gelen talimat doğrultusunda İngiliz pilot otomobilini pist kenarına park ederek seansa erken veda etti. Aracın tahliyesi esnasında devreye giren Sanal Güvenlik Aracı (VSC) periyodunun ardından mücadele kaldığı yerden devam etti.<br><br>Yeşil bayrakların dalgalanmasıyla birlikte Leclerc peş peşe hızlı sektörlerle yanıt vererek önce 1:17.966, ardından derecesini 1:17.827’ye çekerek seansın nihai zirvesini belirledi. Son 20 dakikalık dilimde George Russell 1:17.933’lük turuyla takım arkadaşı Antonelli’yi geride bırakıp üçüncülüğe yerleşirken, Max Verstappen de attığı hızlı turla beşinci basamağa kadar yükseldi.<br><br>Seansın kapanış bölümünde pilotların uzun tur ve yarış simülasyonlarına odaklanmasıyla dereceler değişmedi. Charles Leclerc damalı bayrağı ilk sırada karşılarken, Lando Norris 0.103 saniye geride ikinci, George Russell ise üçüncü sırayı tamamladı. Yolda kalan Lewis Hamilton seansı 11. sırada noktalarken, gözler yarış hakemlerinin Verstappen-Lawson temasında vereceği karara çevrildi.",
+                "img": "Resimler/Formula 1 Haberler/1793435785569_IMG_0553.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 304,
                 "title": "MEKSİKA GP 1. ANTRENMAN: CHARLES LECLERC LİDER, MERCEDES PİLOTLARI YAKIN TAKİPTE!",
                 "cat": "formula 1",
