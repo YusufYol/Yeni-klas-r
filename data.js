@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 306,
+                "title": "HAAS'TA ŞOK GELİŞME: OCON MEKSİKA GP'DEN ÇEKİLDİ, DİREKSİYON HİRAKAWA'YA EMANET!",
+                "cat": "formula 1",
+                "date": "2026-10-31 19:23",
+                "content": "Formula 1 Meksika Grand Prix'sinde Haas cephesinde yarış haftasının seyrini değiştiren sürpriz bir pilot değişikliği yaşandı. Amerikan ekibi, Fransız sürücü Esteban Ocon’un hafta sonunun kalan bölümünde mücadele edemeyeceğini ve kokpite yedek pilot Ryo Hirakawa’nın geçeceğini duyurdu.<br><br>Takım cephesi Ocon’un yarıştan çekilme nedeni konusunda ayrıntı vermekten kaçınırken, durumun sağlık sorunlarıyla bağlantılı olmadığını belirtmekle yetindi.<br><br>Cuma günü gerçekleştirilen ilk antrenman seansında çaylak sürücü kotasıyla VF-26'nın koltuğuna oturan ve seansı 15. basamakta tamamlayan Hirakawa, böylece kariyerinde tarihi bir dönüm noktasına ulaştı. Cumartesi günkü 3. antrenman turlarından itibaren pistte olacak olan 32 yaşındaki Japon pilot, sıralama turlarında ve Pazar günkü 71 turluk zorlu yarışta çaylak takım arkadaşı Oliver Bearman ile birlikte Haas adına puan arayacak.<br><br>Dayanıklılık yarışlarının köklü isimlerinden biri olan Hirakawa; Toyota GAZOO Racing bünyesinde 2022 ve 2023 FIA Dünya Dayanıklılık Şampiyonluğu (WEC) ile 2022 Le Mans 24 Saat zaferlerini kazanmıştı. Tecrübeli sürücü, Meksika'da kariyerinin ilk Formula 1 grand prix startını alarak en üst düzey motor sporları arenasında boy gösterecek.",
+                "img": "Resimler/Formula 1 Haberler/1793463821750_IMG_0688.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 305,
                 "title": "2026 MEKSİKA GP 2. ANTRENMAN SEANSI: CHARLES LECLERC EN HIZLI İSİM OLDU, HAMILTON TEKNİK SORUNLA YOLDA KALDI, NORRIS İKİNCİ SIRADA YER ALDI",
                 "cat": "formula 1",
