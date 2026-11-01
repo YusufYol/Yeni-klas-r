@@ -7752,6 +7752,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 312,
+                "title": "ALEX MARQUEZ KATAR GP'DE OLMAYACAK:\"KOLUMDA NE KAS KALDI NE DE GÜÇ!”",
+                "cat": "motogp",
+                "date": "2026-11-01 20:59",
+                "content": "Malezya Grand Prix’sinde pole pozisyonunu podyumla taçlandırarak parmak ısırtan bir performans sergileyen Alex Marquez, yarışın hemen ardından radikal bir mola kararı aldı. Mayıs ayında Barselona’da geçirdiği ağır kazanın izlerini bir türlü silemeyen İspanyol pilot, omzundaki dayanılmaz ağrılar ve şiddetli enfeksiyon sebebiyle bıçak altına yatıyor. Bu cerrahi müdahale nedeniyle Marquez, önümüzdeki Katar GP’de motosikletinin başında olamayacak.<br><br>Katalonya'daki kırığın ardından yarışlara fedakarlıkla dönen Marquez, son haftalarda fiziksel sınırlarının tükendiğini net bir dille ifade etti. Ağrı kesici desteğinin dahi yetersiz kaldığını ve sağ kolunda güç kaybı yaşadığını vurgulayan tecrübeli sürücü, ameliyat için Madrid yolunu tutuyor. Hedef ise Katar’ı pas geçip tedavi sürecini tamamlayarak Portekiz GP’siyle birlikte sezonun kalan bölümüne eksiksiz bir güçle dönmek.<br><br>Yaşadığı süreci değerlendiren Alex Marquez, mevcut tablonun sürdürülemez olduğunu şu sözlerle özetledi:<br><br>\"Geri döndüğüm andan beri omzumdaki sorunla boğuşuyorum. Ancak yoğun yarış takviminde bu acı artık dayanılmaz boyutlara ulaştı. Yarışlara ancak ağır ağrı kesicilerle çıkabiliyordum fakat son noktada onlar da fayda etmemeye başladı. Kolumdaki kas gücünü neredeyse tamamen kaybettim. Doktorlarımla yaptığımız değerlendirme neticesinde operasyon kaçınılmaz hale geldi. Portimao ve Valencia'da gerçek potansiyelimle pistte olabilmek adına yarın Madrid’de ameliyata giriyorum.\"<br><br>Marquez'in geçireceği operasyonda hem köprücük kemiğindeki sabitleyici plaka çıkarılacak hem de omzunda biriken yoğun ödem ve iltihap temizlenecek. İspanyol sürücünün pistlere dönüş takvimi, Madrid’deki müdahalenin ardından netleşecek.",
+                "img": "Resimler/MotoGP Haberler/1793555993976_IMG_0753.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 311,
                 "title": "MOTOGP PADOĞUNDA KATAR KRİZİ: JACK MILLER 19 PİLOTUN YARIŞMAK İSTEMEDİĞİNİ AÇIKLADI!",
                 "cat": "motogp",
