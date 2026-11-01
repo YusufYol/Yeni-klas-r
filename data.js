@@ -7742,6 +7742,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 309,
+                "title": "MOTOGP’DE ÖNEMLİ KARAR: YAMAHA GÜVENLİK GEREKÇESİYLE KATAR GP’DEN ÇEKİLDİ!",
+                "cat": "motogp",
+                "date": "2026-11-01 15:19",
+                "content": "MotoGP dünyasında taşları yerinden oynatan ve padoğu sarsan bir karar alındı. Gelecek hafta Lusail Pisti’nde koşulması planlanan Katar Grand Prix’si öncesinde artan güvenlik endişeleri, Japon üretici Yamaha’nın şok çekilme kararıyla krize dönüştü.<br><br>Orta Doğu’daki güvenlik riskleri ve Japon hükümetinin Katar için yayınladığı seyahat uyarılarını dikkate alan Yamaha, şirket içi seyahat ve lojistik protokollerini gevşetmeme kararı aldı. Alınan bu kararla birlikte; hem fabrika takımı pilotları Fabio Quartararo ve Alex Rins, hem de Pramac Yamaha cephesinden Jack Miller ve Augusto Fernandez Katar’da piste çıkmayacak.<br><br>Organizatörlerin ve şampiyona yönetiminin olası ağır para cezası ile sportif yaptırım uyarılarına rağmen geri adım atmayan Japon devi, kararın tamamen kendi güvenlik analizleri doğrultusunda, organizatörlerden bağımsız olarak alındığını vurguladı.<br><br>Konuya ilişkin Yamaha cephesinden yapılan açıklamada, bölgedeki mevcut tablonun şirket politikalarını değiştirmek adına güvenli bir ortam sunmadığı ve kararın doğrudan MotoGP yönetimine bildirildiği aktarıldı. Açıklamada ayrıca, şampiyonaya olan bağlılığın devam ettiği ve ekibin bir sonraki durak olan Portekiz Grand Prix’sinde tam kadro yarışa dönmeyi hedeflediği belirtildi.<br><br>Yamaha’nın bu tarihi restinin ardından gözler, diğer üreticilerin nasıl bir adım atacağına ve MotoGP yönetiminin hafta sonuna yönelik alacağı nihai karara çevrildi.",
+                "img": "Resimler/MotoGP Haberler/1793535543909_IMG_0731.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 300,
                 "title": "2026 MOTOGP MALEZYA GP: MARC MARQUEZ DÜŞTÜĞÜ SEANSTA LİDERLİĞİ ALDI, ALEX MARQUEZ VE OGURA TAKİPTE",
                 "cat": "motogp",
