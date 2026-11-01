@@ -7752,6 +7752,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 311,
+                "title": "MOTOGP PADOĞUNDA KATAR KRİZİ: JACK MILLER 19 PİLOTUN YARIŞMAK İSTEMEDİĞİNİ AÇIKLADI!",
+                "cat": "motogp",
+                "date": "2026-11-01 20:53",
+                "content": "MotoGP dünyası, Orta Doğu’da tırmanan bölgesel gerilimin gölgesinde 6-8 Kasım tarihlerinde koşulması planlanan Katar Grand Prix’si öncesi ayakta. Organizasyon yönetiminin Lusail’deki yarışı takvimde tutma ısrarı sürerken, padoğun en sert ve net tepkisi Jack Miller’dan geldi. Avustralyalı pilot, griddeki sürücülerin neredeyse tamamının can güvenliği endişesi taşıdığını ve Lusail pistine çıkmaya karşı olduğunu duyurdu.<br><br>Padoktaki genel havayı ve pilotlar birliğinin ortak duruşunu gözler önüne seren Miller, 22 sürücünün 19'unun bu koşullarda yarışmak istemediğini vurguladı. Takımlara ve pilotlara yönelik olası sportif ya da finansal yaptırımlara rağmen güvenlik riskinin göz ardı edilemeyeceğini belirten tecrübeli isim, kararın yeniden gözden geçirilmesi gerektiğini söyledi:<br><br>\"Diğer birçok isim gibi ben de oraya gitmek istemiyorum. Griddeki 22 pilotun 19’u aynı endişeyi paylaşıyor. Böyle ezici bir çoğunluk aynı fikirdeyken bu yarışta ısrar edilmesini doğru bulmuyorum. Görüşümüzü ve çekincelerimizi yönetime çok açık biçimde aktardık, şimdi sürecin nasıl şekilleneceğini bekliyoruz.\"<br><br>Sürücüler cephesinde ciddi bir kenetlenme olduğunu ve ortak hareket ettiklerini hatırlatan Miller, riskin sadece pistteki pilotlarla sınırlı kalmadığına dikkat çekti:<br><br>\"Sürücüler olarak bir aradayız ve elimizden gelen tüm baskıyı kurduk. Bu duruşu sırf kendimiz için değil; mekanikerlerden lojistik çalışanlarına kadar şampiyonanın parçası olan yüzlerce padoğu emekçisi adına sergiliyoruz. Bugün padoğa adım atıp kime sorsanız benzer cevabı alırsınız; kimse bu şartlar altında yola çıkmak istemiyor.\"<br><br>Katar’ın kendi iç dinamiklerinden ziyade bölgedeki belirsizliklerin ve komşu coğrafyalardaki krizin büyük bir tehlike yarattığını vurgulayan Miller, organizasyonun açık bir hedef haline gelebileceği uyarısında bulundu:<br><br>\"Katar'a veya ülkeye bir karşıtlığım yok, mesele çevre ülkelerdeki sıcak çatışma ve belirsizlik ortamı. Dünyanın bu denli çalkantılı olduğu bir dönemde, küresel çapta böylesine göz önünde bir organizasyonu dayatmak mantıklı değil. Piste çıkacağımız tarih, saat, bulunacağımız koordinatlar her an herkes tarafından biliniyor. Ses getirmek isteyen biri için açık bir hedef durumundayız. Şahsen gitme fikrine zihnen hazır değilim, niyetimizi de masaya koyduk. Umarım sağduyu galip gelir ve doğru karar alınır.\"<br><br>MotoGP yönetiminin ve FIM yetkililerinin, pilotların ve takımların bu sert çıkışı karşısında Katar GP için nasıl bir adım atacağı merakla bekleniyor.",
+                "img": "Resimler/MotoGP Haberler/1793555627030_IMG_0752.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 309,
                 "title": "MOTOGP’DE ÖNEMLİ KARAR: YAMAHA GÜVENLİK GEREKÇESİYLE KATAR GP’DEN ÇEKİLDİ!",
                 "cat": "motogp",
