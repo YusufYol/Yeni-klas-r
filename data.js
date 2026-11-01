@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 310,
+                "title": "FIA’DAN MEKSİKA GP STARTINA ÖZEL SERT TEDBİR: PİSTTEN ÇIKAN POZİSYONUNU DERHAL GERİ VERECEK!",
+                "cat": "formula 1",
+                "date": "2026-11-01 15:24",
+                "content": "FIA, Autódromo Hermanos Rodríguez’de start anında ve yeniden başlangıçlarda yaşanan ilk viraj kaosunu bitirmek için Meksika Grand Prix’sine özel katı bir kural güncellemesine gitti. Yarış hakemleri tarafından takımlara iletilen direktifle birlikte, ilk viraj kompleksinde pist dışına taşarak yerini koruyan pilotlara doğrudan yaptırım uygulanacak.<br><br>Geçtiğimiz yıl startta Charles Leclerc ve Max Verstappen’in çim alandan dönerek yola devam etmesi ve herhangi bir ceza almaması padokta ciddi tartışmalara yol açmış, başta George Russell olmak üzere pek çok isim karara tepki göstermişti. FIA, benzer bir gri alanın önüne geçmek adına kural kitabına yarışa özel net sınırlar ekledi.<br><br>Hakem Kurulu'nun kararına göre; yarışın 1. turunda ve güvenlik aracı sonrası gerçekleşecek tüm yeniden başlangıçların ilk turunda, 1-3 ve 4-6. virajlar arasında piste sığmayan sürücüler varsayılan olarak hem atak hem de savunma pozisyonunda kabul edilecek. Bu da pist dışına çıkıp arkasındaki rakibine karşı yerini koruyan pilotun otomatikman \"kalıcı bir avantaj elde etmiş\" sayılacağı anlamına geliyor.<br><br>Yeni yönerge, avantaj sağlayan pilotların pozisyonu iade etmesi için kesin noktalar da belirledi. 1-3. virajlar arası; pisti terk edip yerini koruyan pilotlar, en geç 4. viraja kadar pozisyonu arkasındaki araca devretmek zorunda. 4-6. virajlar arası; bu bölümde dışarı taşan pilotların pozisyonu geri vermek için en geç 12. viraja kadar süresi olacak.<br><br>Arkadaki aracın kural kapsamına girecek kadar yakın olup olmadığına ise doğrudan yarış hakemleri karar verecek. Bu hamleyle birlikte pazar günkü yarışın ilk metrelerinde pilotların çimleri ya da kaçış alanlarını bir savunma veya atak koridoru olarak kullanmasının önüne geçilmesi hedefleniyor.",
+                "img": "Resimler/Formula 1 Haberler/1793535854385_IMG_0732.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 308,
                 "title": "2026 MEKSİKA GP: HAMILTON FERRARI İLE İLK POLE ZAFERİNE ULAŞTI, RUSSELL İKİNCİ!",
                 "cat": "formula 1",
