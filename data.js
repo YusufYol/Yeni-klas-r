@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 318,
+                "title": "KADRO DIŞI KARARININ ARDINDAN İLK AÇIKLAMA: AYAO KOMATSU MEKSİKA'DAKİ KRİZİN PERDE ARKASINI ANLATTI",
+                "cat": "formula 1",
+                "date": "2026-11-02 23:21",
+                "content": "Formula 1 Meksika Grand Prix’sinde Esteban Ocon’un koltuğunu sürpriz bir şekilde yedek pilot Ryo Hirakawa’ya devreden Haas cephesinde sular durulmuyor. Hafta sonuna damga vuran bu flaş hamlenin ardından sessizliğini bozan Takım Patronu Ayao Komatsu, tüm inisiyatifin kendisine ait olduğunu duyurarak padoktaki dedikodulara doğrudan yanıt verdi.<br><br>Fransız yayıncı Canal+ mikrofonlarına konuşan Komatsu, Fransız pilotu kadro dışı bırakma kararının perde arkasını paylaştı. Basında yer alan sert tartışma ve kavga söylentilerini kesin bir dille yalanlayan Japon yönetici, bu adımın duygusal bir tepkiyle değil, uzun ve detaylı bir değerlendirme sürecinin sonunda atıldığını belirtti.<br><br>Takım sahibi Gene Haas ile süreci istişare ettiğini ve tam yetki aldığını dile getiren Komatsu, kararın arkasında durduğunu şu sözlerle aktardı:<br><br>\"Tüm şartları masaya yatırdığımızda, takımı korumak ve en sağlıklı adımı atmak adına onu hafta sonundan çekmenin en doğru hamle olduğuna kanaat getirdim. Bu basitçe ya da anlık bir öfkeyle verilmiş bir karar değil. Aksine, yapabileceğim tek şeyin bu olduğunu hissettiğim kaçınılmaz bir adımdı. Gene Haas bana güvendi ve yetkiyi tamamen bana bıraktı; dolayısıyla sürecin tüm sorumluluğu bana ait. Kesinlikle iddia edildiği gibi aramızda fiziksel bir temas ya da kavga yaşanmadı.\"<br><br>Takım içindeki geleceği belirsizliğini koruyan Esteban Ocon’un bir sonraki durak olan Brezilya Grand Prix’sinde kokpite dönüp dönmeyeceği ise netlik kazanmadı. Komatsu, mevcut yaptırımın yalnızca Meksika hafta sonuyla sınırlı tutulduğunu belirterek önümüzdeki yarışlar için kapıyı açık bıraktı.",
+                "img": "Resimler/Formula 1 Haberler/1793650891040_IMG_0779.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 317,
                 "title": "HAMILTON VE LECLERC'İN KAPIŞMASINI DEĞERLENDİREN VERSTAPPEN: \"İKİ TANE BİR NUMARA PİLOTLARI VAR VE BU ONLARA GALİBİYETİ KAYBETTİRDİ\"",
                 "cat": "formula 1",
