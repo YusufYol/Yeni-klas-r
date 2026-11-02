@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 314,
+                "title": "HAMILTON’DAN LECLERC’E ÇOK AĞIR İTHAM: “BİZİ KENDİ PİLOTUMUZ SABOTE ETTİ!”",
+                "cat": "formula 1",
+                "date": "2026-11-02 16:06",
+                "content": "Meksika Grand Prix’sinde yaşanan ilk tur teması, Ferrari garajında tansiyonu zirveye taşıdı. Yarışa pole pozisyonunda başlamasına karşın takım arkadaşı Charles Leclerc ile girdiği çekişmenin ardından üçüncülüğe kadar gerileyen Lewis Hamilton, yarışın bitimiyle birlikte Monakolu pilota ve yaşananlara sert tepki gösterdi.<br><br>Mücadelenin 4. virajında Leclerc’in agresif atağı sonrasında iki Ferrari aracının da pist dışına taştığını ve bu tablonun Max Verstappen’e altın tepside bir galibiyet sunduğunu vurgulayan Britanyalı pilot, duble yapabilecekleri bir yarışta çok ağır bir yara aldıklarını dile getirdi.<br><br>Takım içi dengelerin ve ortak hedeflerin zedelendiğine dikkat çeken 7 kez dünya şampiyonu, Maranello merkezli ekibin bu sürece derhal ve kararlı bir şekilde müdahale etmesi gerektiğini belirtti. Hamilton, hissettiği kırgınlığı ve öfkeyi şu sözlerle aktardı:<br><br>\"Şu aşamada ne yapmamız gerektiği konusunda net değilim. Takım içinde bu meseleyi nasıl çözeceğimizi ya da şu anki kızgınlığımla bu süreci nasıl yöneteceğimi kestiremiyorum. Bir tarafım Kimi Antonelli'nin şampiyonluğunun sevincini yaşarken, diğer tarafım pistte başımıza gelenler yüzünden tarifsiz bir öfke içinde.\"<br><br>Fabrikadaki yüzlerce çalışanın emeğine vurgu yapan Hamilton, hız ve tempo olarak ilk iki basamağı rahatlıkla kapatabilecek güçte olduklarının altını çizdi:<br><br>\"4. viraja ilk iki sırayı alarak girmiştik. Pozisyonlarımızı koruyabilseydik yarış bizim lehimize akıp gidecekti. Ancak takım arkadaşınızın ortak başarıya odaklanmak yerine adeta aleyhinize mücadele ettiğini ve bunun sonucunda geriye düştüğünüzü görmek kabullenmesi çok güç bir durum.\"<br><br>Takım bilincinin sözleşmenin ve profesyonelliğin temel şartı olduğunu hatırlatan tecrübeli pilot, sözlerini şöyle tamamladı:<br><br>\"Kokpitteyken verdiğiniz her kararın, arka planda gece gündüz ter döken koca bir ekibi doğrudan etkilediğini idrak etmeniz gerekiyor; sanırım bu farkındalık yıllar geçtikçe, yaş aldıkça kazanılıyor. Geçmişte de takım arkadaşlarımla kıyasıya mücadele ettim; her zaman kusursuz olamayabilirsiniz ama olayların büyük çoğunluğunda doğru olanı yapmak zorundasınız. Masaya oturduğumuzda kolay bir konuşma geçmeyecek, fakat bu yüzleşmeyi yapmak zorundayız.\"",
+                "img": "Resimler/Formula 1 Haberler/1793624784107_IMG_0767.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 313,
                 "title": "2026 MEKSİKA GP: VERSTAPPEN ZİRVEYE ÇIKTI, TARİH YAZAN ANTONELLI DÜNYA ŞAMPİYONLUĞUNU İLAN ETTİ!",
                 "cat": "formula 1",
