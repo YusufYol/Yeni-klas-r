@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 317,
+                "title": "HAMILTON VE LECLERC'İN KAPIŞMASINI DEĞERLENDİREN VERSTAPPEN: \"İKİ TANE BİR NUMARA PİLOTLARI VAR VE BU ONLARA GALİBİYETİ KAYBETTİRDİ\"",
+                "cat": "formula 1",
+                "date": "2026-11-02 18:49",
+                "content": "Meksika Grand Prix’sinde podyumun en üst basamağına çıkan Max Verstappen, yarışın ardından yaptığı çarpıcı açıklamalarla İtalyan ekibini hedef aldı. Dört kez dünya şampiyonu Hollandalı pilot, Ferrari garajındaki iç çekişmenin Red Bull adına kusursuz bir zafere kapı araladığını belirtti.<br><br>Gridin beşinci cebinden başladığı mücadelede sakinliğini koruyarak ön gruptaki tansiyonu izleyen Verstappen, Lewis Hamilton ile Charles Leclerc arasındaki sert liderlik kapışmasını avantaja çevirdi. İkilinin pist sınırlarını aşarak zaman kaybetmesiyle Hamilton'ı avlayan tecrübeli sürücü, ardından Red Bull pit duvarının kusursuz zamanlaması ve Leclerc’in aldığı 5 saniyelik ceza sayesinde liderlik koltuğuna oturdu.<br><br>Yarışın son turlarında Hamilton'ın yoğun baskısına geçit vermeyerek 2026 sezonundaki üçüncü zaferini hanesine yazdıran Verstappen, finiş çizgisini geçtikten sonra Sky Sports F1 mikrofonlarına konuştu. Kusursuz bir takım operasyonu yönettiklerini vurgulayan şampiyon pilot, rakiplerinin hatasını şu sözlerle değerlendirdi:<br><br>\"Oldukça çetin bir yarıştı fakat biz takım halinde stratejimizi kusursuz işlettik; strateji masasında herkes doğru zamanda en doğru adımları attı. Charles ile aynı anda pite girme hamlemiz bize kritik bir avantaj sağladı ve liderliği devraldık.\"<br><br>Ferrari'deki ikili rekabetin kırmızıları zafere taşıyacak hızdan kopardığını açıkça dile getiren Verstappen, sözlerini şöyle tamamladı:<br><br>\"Bugün pistte Ferrari pilotlarının birbirleriyle giriştiği amansız savaşı lehimize çevirdik. Garajda 'iki tane bir numara' olunca her ikisi de sonuna kadar direniyor, bu anlaşılabilir bir durum. Fakat günün sonunda birbirlerine karşı verdikleri bu üstünlük yarışı, onlara neredeyse ellerinde olan bir galibiyete mâl oldu.\"",
+                "img": "Resimler/Formula 1 Haberler/1793634563093_IMG_0778.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 316,
                 "title": "TOTO WOLFF'TAN ANTONELLI’YE ÖVGÜLER: \"KIMI ANTONELLI HERKESE ROL MODEL OLMALI\"",
                 "cat": "formula 1",
