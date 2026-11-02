@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 316,
+                "title": "TOTO WOLFF'TAN ANTONELLI’YE ÖVGÜLER: \"KIMI ANTONELLI HERKESE ROL MODEL OLMALI\"",
+                "cat": "formula 1",
+                "date": "2026-11-02 18:42",
+                "content": "Meksika Grand Prix’sinde elde ettiği üçüncülükle sezonun bitimine dört yarış kala Formula 1 tarihinin en genç dünya şampiyonu unvanını kazanan Kimi Antonelli, padokta yeni bir dönemin kapısını araladı. Yarış sonrası açıklamalarda bulunan Mercedes Takım Patronu Toto Wolff, genç İtalyan pilotun şampiyonluğunun yalnızca pist üstündeki bir zafer olmadığını, Formula 1'in sürücü kültüründe köklü bir zihniyet değişimini simgelediğini vurguladı.<br><br>Padoktaki mevcut sürücü profiline sert eleştiriler yönelten Wolff, \"Ne pahasına olursa olsun kazanma hırsıyla hareket eden, bencil, fırsatçı ve acımasız yarışçı profili artık miladını doldurdu\" ifadelerini kullandı. Antonelli’nin alçakgönüllülüğü, dürüstlüğü ve saygıyı temsil ettiğini belirten Avusturyalı yönetici, şunları kaydetti:<br><br>\"Artık karakteriyle öne çıkan yeni bir şampiyonumuz var. Kimi; alt serilerdeki gençlerin yanı sıra mevcut gridde kendini ayrıcalıklı zanneden, telsizden sürekli şikâyet edip duran ve kaza yapan sürücüler için de gerçek bir örnek olmalı. 20 yaşındaki bu gence bakın ve kendinize çeki düzen verin. FIA Başkanı Mohammed Ben Sulayem, F1 CEO'su Stefano Domenicali ve benim geleceğin pilotunda görmek istediğimiz profil tam olarak bu. Çünkü saf yetenek herkes de var; aslolan iyi bir insan kalabilmek.\"<br><br>Antonelli ile yarış öncesinde yaptığı özel görüşmeye de değinen Wolff, İtalyan sanayici Gianni Agnelli'nin torunu Lapo Elkann ile geçmişteki bir sohbetini hatırlattı. Agnelli'nin ömrü boyunca \"güncelliğini ve önemini hiç kaybetmeyen\" bir figür olduğunu belirten Wolff, Antonelli için de benzer bir kariyer vizyonu çizdiklerini aktardı:<br><br>\"Kimi'ye, önündeki en az 25 yıllık yarış kariyeri boyunca güncelliğini ve saygınlığını koruması gerektiğini söyledim. Bu başarının tek seferlik bir zirve olarak kalmasına izin vermeyeceğiz. Günümüzde artık kimsenin yüzüne bakmadığı, yan yana fotoğraf bile çektirmediği unutulmuş dünya şampiyonları var. Kimi'nin böyle olmaması için gelişimine tüm ekiple birlikte rehberlik edeceğiz.\"",
+                "img": "Resimler/Formula 1 Haberler/1793634144425_IMG_0777.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 315,
                 "title": "WOLFF HATAYI ÜSTLENDİ: \"GEORGE'A HAK ETTİĞİ ARACI VEREMEDİK\"",
                 "cat": "formula 1",
