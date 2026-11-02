@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 315,
+                "title": "WOLFF HATAYI ÜSTLENDİ: \"GEORGE'A HAK ETTİĞİ ARACI VEREMEDİK\"",
+                "cat": "formula 1",
+                "date": "2026-11-02 16:14",
+                "content": "Meksika Grand Prix’sinde podyumun zirvesini hedeflerken mekanik aksaklıkların ve temasların kurbanı olan George Russell için hafta sonu tam bir kabusa dönüştü. Sıralama turlarında pole pozisyonunu saniyenin binde biri farkla kaçırarak ilk çizgiye yerleşen Britanyalı pilot, yarış başladığı andan itibaren teknik talihsizliklerin ve şanssızlıkların ardı ardına gelmesiyle büyük bir hayal kırıklığı yaşadı.<br><br>Işıklar söner sönmez devreye girmesi gereken enerji geri kazanım ve dağıtım sistemindeki arıza, Russell’ın kalkışta adeta durma noktasına gelmesine ve peş peşe sıralar kaybetmesine yol açtı. Yaşadığı tempo kaybının hemen ardından Red Bull çaylağı Isack Hadjar ile temas yaşayarak 10 saniyelik zaman cezasına çarptırılan 28 yaşındaki sürücü, damalı bayrağı ancak altıncı sırada görebildi. Garajın diğer tarafında çaylak takım arkadaşı Kimi Antonelli’nin üçüncü olarak podyum sevinci yaşaması, Mercedes cephesinde tezat dolu bir tablo oluşturdu.<br><br>Hafta sonunun ardından mikrofon başına geçen takım patronu Toto Wolff ise suçu doğrudan takıma yıkarak pilotundan açıkça özür diledi.<br><br>Mücadeleyi Sky Sports F1 ekranlarına değerlendiren Wolff, özeleştiri yapmaktan çekinmedi:<br><br>\"Bugün George’u yine tamamen yüzüstü bıraktık; onu hayal kırıklığına uğrattık. Start anında tam olarak neyin ters gittiğini henüz netleştiremedik ama orada galibiyet savaşı verebilecek hıza sahipti. Yaşanan enerji eksikliği yarışını resmen mahvetti. Bizim tek bir pilotumuz yok, pistte iki araçla yarışıyoruz. Bu sezon araç George’un tarafında bir türlü istikrar yakalayamadı ve üzerine bu tür talihsizlikler eklenince can sıkıcı bir tablo çıkıyor. Bu sorunları çözmek zorundayız. Onun için psikolojik olarak ne kadar yıpratıcı bir an olduğunu biliyorum. Benim asıl görevim, şampiyonluk yarışında ona hak ettiği aracı ve desteği eksiksiz sağlamak.\"<br><br>Meksika’daki puan kaybı Russell’a şampiyona sıralamasında da ağır bir darbe vurdu. İkincilik koltuğunu kaybederek dördüncülüğe kadar gerileyen İngiliz sürücü; ikinci basamaktaki Max Verstappen’in 11, üçüncü sıraya yerleşen eski takım arkadaşı Lewis Hamilton’ın ise 9 puan gerisine düştü.",
+                "img": "Resimler/Formula 1 Haberler/1793625253804_IMG_0768.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 314,
                 "title": "HAMILTON’DAN LECLERC’E ÇOK AĞIR İTHAM: “BİZİ KENDİ PİLOTUMUZ SABOTE ETTİ!”",
                 "cat": "formula 1",
