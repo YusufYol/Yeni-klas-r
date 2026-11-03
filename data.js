@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 319,
+                "title": "TARİHİN EN GENÇ FORMULA 1 DÜNYA ŞAMPİYONU KIMI ANTONELLI:  \"GÖZYAŞLARIM YÜZÜNDEN PİSTİ GÖREMEDİM\"",
+                "cat": "formula 1",
+                "date": "2026-11-03 20:48",
+                "content": "Meksika Grand Prix’sinde damalı bayrağı üçüncü sırada görerek Formula 1 kariyerinin henüz ikinci sezonunda dünya şampiyonluğuna uzanan Kimi Antonelli, spor tarihinin en genç şampiyonu unvanını elde etti.<br><br>Hafta sonu boyunca hem fiziksel zorluklarla hem de sıralama turlarındaki aksaklıklarla mücadele eden genç İtalyan pilot, yarışın ilk bölümünde temkinli bir strateji izledi. Start anında güvenliği ön planda tutarak Max Verstappen’e geçilen Antonelli, kırmızı bayrak periyodunun ardından daha agresif bir çizgiye geçti. Yeniden startta risk alarak Charles Leclerc’i geride bırakan pilot, podyum basamağını güvenceye alarak şampiyonluk için gereken puanı cebine koydu.<br><br>Yarışın son turunda yaşadığı yoğun duygu patlamasını aktaran Antonelli, çocukluk ve karting yıllarından bu yana kurduğu hayalin gerçeğe dönüştüğü anlarda direksiyon başında gözyaşlarına engel olamadığını belirtti. Ağlamaktan ötürü görüşünün kısıtlandığını ve olası bir kazadan kaçınmak adına temposunu düşürdüğünü ifade eden şampiyon sürücü, o anları şu sözlerle paylaştı:<br><br>\"Son turda gözyaşlarım yüzünden önümü net göremiyordum ve bu yüzden muhtemelen iki saniye kaybettim. Karting yıllarımdan bugüne kadar verdiğim tüm emekler bir anda gözümün önünden geçti. Hata yapıp kaza yapmamak için bilinçli olarak yavaşladım ve sadece iki Ferrari'nin silüetini takip ederek aracı çizgiden geçirmeye odaklandım. Çizgiyi geçtiğimde ise hissettiğim şey tarif edilemez bir rahatlama ve mutluluktu.\"<br><br>Tarihe geçen bu sonucun ardından Antonelli, kalan yarışlarda şampiyonluk baskısı olmadan tamamen mücadelenin tadını çıkarmaya odaklanacağını vurguladı.",
+                "img": "Resimler/Formula 1 Haberler/1793728133457_IMG_0796.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 318,
                 "title": "KADRO DIŞI KARARININ ARDINDAN İLK AÇIKLAMA: AYAO KOMATSU MEKSİKA'DAKİ KRİZİN PERDE ARKASINI ANLATTI",
                 "cat": "formula 1",
