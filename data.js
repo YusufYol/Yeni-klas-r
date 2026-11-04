@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 321,
+                "title": "MCLAREN'IN INTERLAGOS HAMLESİ: HEM ŞAMPİYONA ÜÇÜNCÜLÜĞÜ HEM 2027 TASARIMI HEDEFTE",
+                "cat": "formula 1",
+                "date": "2026-11-04 11:36",
+                "content": "Formula 1'de sezon finaline doğru heyecan tırmanırken McLaren, Sao Paulo Grand Prix’si öncesinde teknik cephaneliğini genişletiyor. Macaristan’da devreye sokulan paketin ardından zirveye ortak olan ancak son haftalarda hız kaybı yaşayan Woking merkezli ekip, Brezilya’ya kapsamlı bir aerodinamik güncellemeyle adım atıyor. Takımlar Şampiyonası'nda Red Bull'un 17 puan gerisinde dördüncü sırada bulunan İngiliz temsilcisi, üçüncülük basamağını geri almak için gözünü Interlagos'a dikti.<br><br>Takımın Brezilya hafta sonuna getirdiği paket yalnızca mevcut sezonun puan savaşını değil, gelecek yılın mühendislik rotasını da doğrudan etkileyecek. Güncelleme listesinde ön kanat, arka kanat ve kritik taban parçaları yer alıyor.<br><br>Teknik cephedeki yol haritasına dair değerlendirmelerde bulunan Aerodinami Direktörü Peter Prodromou, özellikle yeni ön kanat tasarımının stratejik önemine dikkat çekti. Interlagos'un teknik yapısının yeni parçaları test etmek için ideal bir zemin sunduğunu belirten Prodromou, şu ifadeleri kullandı:<br><br>\"Geliştirme programımız doğrultusunda piste ön kanat, arka kanat ve taban elemanlarını kapsayan yeniliklerle çıkıyoruz. Buradaki temel gayemiz son yarışlarda yitirdiğimiz ivmeyi yeniden yakalamak, sezonu güçlü kapatmak ve 2027'ye sağlam bir temel hazırlamak. Sao Paulo karakteristiği gereği otomobilimizin potansiyelini tartmak adına her zaman kusursuz bir referans noktası olmuştur. Bu parçaların bizi lider gruba daha da yaklaştıracağına inanıyoruz. Şampiyona mücadelesi sürüyor; üçüncülük hedefimiz için gereken adımları atıyoruz. Buradan toplayacağımız telemetri verileri gelecek yılın tasarım sürecinde kilit rol oynayacak. Hatta getirdiğimiz bu yeni ön kanat mimarisini doğrudan 2027 aracımızın lansman konfigürasyonuna aktarmayı planlıyoruz.\"<br><br>McLaren, Interlagos'un yüksek rakım ve değişken hava koşullarında hem Red Bull ile olan puan farkını eritmeyi hem de 2027 gridine çıkacak otomobilin aerodinamik temelini şimdiden sağlama almayı amaçlıyor.",
+                "img": "Resimler/Formula 1 Haberler/1793781383586_IMG_0863.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 320,
                 "title": "HAAS’TA ERKEN VEDA: ESTEBAN OCON İLE AYRILIK YAŞANDI, INTERLAGOS’TA DİREKSİYON RAFAEL CAMARA’YA EMANET",
                 "cat": "formula 1",
