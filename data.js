@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 323,
+                "title": "LECLERC BABA OLDU: FERRARI’DE INTERLAGOS ÖNCESİ SÜRPRİZ KOLTUK DEĞİŞİMİ!",
+                "cat": "formula 1",
+                "date": "2026-11-04 16:13",
+                "content": "Formula 1 padokunun sevilen ismi Charles Leclerc, kariyerinin en heyecanlı ve özel virajını bu hafta pistlerin dışında aldı. Ferrari’nin Monakolu yıldızı ve eşi Alexandra, ilk bebekleri \"Bianca\"nın 3 Kasım Salı günü dünyaya gelişiyle anne-baba olmanın mutluluğunu yaşadı.<br><br>Yılın başında dünyaevine giren ve ağustos ayında ailelerinin büyüyeceğini müjdeleyen çift, kızlarının doğum haberini duygusal bir paylaşımla duyururken, bu mutlu gelişme Leclerc’in Brezilya GP programında zorunlu bir esnekliğe yol açtı. Ailesinin yanında kalmak için seyahat planını erteleyen 29 yaşındaki pilot, perşembe günkü resmi basın toplantısına ve cuma sabahı Interlagos'ta koşulacak olan ilk serbest antrenman seansına katılamayacak. Ancak başarılı sürücü, hafta sonunun kalan kısmında SF-26'nın direksiyonundaki yerini alacak.<br><br>İtalyan ekibinde ilk antrenman için asıl plan genç yetenek Rafael Camara'yı piste sürmekti; fakat Brezilyalı sürücünün Esteban Ocon'un yerine Haas garajında piste çıkacak olması dengeleri tamamen değiştirdi. Kırmızıların tercihi ise gelecek sezon takımın yedek sürücülüğünü üstlenecek olan İsveçli genç pilot Dino Beganovic oldu.<br><br>Bahreyn ve Avusturya'nın ardından bu sezon üçüncü kez Ferrari kokpitine kurulacak olan Beganovic, böylece kariyerinin dördüncü F1 1. antrenman deneyimini Brezilya'nın efsanevi pistinde yaşayarak Leclerc'in koltuğunu devralacak.",
+                "img": "Resimler/Formula 1 Haberler/1793798006911_IMG_0873.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 322,
                 "title": "FIA INTERLAGOS'UN HIZ KORİDORLARINI BELİRLEDİ: BREZİLYA GP'DE ÇİFTE DÜZLÜK MODU DÖNEMİ",
                 "cat": "formula 1",
