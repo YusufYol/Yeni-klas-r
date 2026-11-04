@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 322,
+                "title": "FIA INTERLAGOS'UN HIZ KORİDORLARINI BELİRLEDİ: BREZİLYA GP'DE ÇİFTE DÜZLÜK MODU DÖNEMİ",
+                "cat": "formula 1",
+                "date": "2026-11-04 13:11",
+                "content": "FIA, 2026 Formula 1 sezonunun Brezilya ayağı öncesinde Interlagos pistinde kullanılacak aktif aerodinamik noktalarını netleştirdi. DRS'nin yerini alan yeni sistem kapsamında pilotlar, hafta sonu boyunca belirlenen iki ayrı bölgede kanat açılarını değiştirerek hava direncini düşürebilecek.<br><br>Yapılan açıklamaya göre \"Düzlük Modu\" ilk olarak start-finiş düzlüğünde, ardından da 3 ve 4. virajlar arasında uzanan ikinci hızlanma koridorunda devreye girecek. 2026 regülasyonlarının getirdiği bu teknoloji, araçların düzlüklerde hem ön hem de arka kanat elemanlarını açarak azami sürate ulaşmasını, viraj girişlerindeyse kanatları eski konumuna getirerek gereken yere basma kuvvetini yakalamasını amaçlıyor. Pistlerin karakterine göre sayısı esnetilen bu bölgeler; takvimin önceki duraklarından Avustralya ve Singapur'da beş noktaya kadar çıkmış, dar cadde pisti Monako'da ise güvenlik gerekçesiyle tamamen devre dışı bırakılmıştı.<br><br>Pist üstündeki teknik detayların yanı sıra gözler hafta sonu şampiyonluk düğümüne çevrilmiş durumda. Meksika Grand Prix'sinde genç yeteneği Kimi Antonelli ile pilotlar klasmanında zafere ulaşan Mercedes, Brezilya'da çifte taç hedefliyor. Alman ekibi, en yakın takipçisi Ferrari'den sadece 3 puan daha fazla toplamayı başarırsa, 2021'den bu yana hasret kaldığı Takımlar Şampiyonluğu kupasını matematiksel olarak garantileyecek.<br><br>Tarihsel tabloya bakıldığında ise Brezilya'da son galibiyet McLaren pilotu Lando Norris'e aitken, Mercedes Interlagos'ta en son 2022 yılında George Russell ile podyumun en üst basamağına çıkmıştı.",
+                "img": "Resimler/Formula 1 Haberler/1793787079162_IMG_0865.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 321,
                 "title": "MCLAREN'IN INTERLAGOS HAMLESİ: HEM ŞAMPİYONA ÜÇÜNCÜLÜĞÜ HEM 2027 TASARIMI HEDEFTE",
                 "cat": "formula 1",
