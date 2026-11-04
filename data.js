@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 320,
+                "title": "HAAS’TA ERKEN VEDA: ESTEBAN OCON İLE AYRILIK YAŞANDI, INTERLAGOS’TA DİREKSİYON RAFAEL CAMARA’YA EMANET",
+                "cat": "formula 1",
+                "date": "2026-11-04 10:34",
+                "content": "Formula 1 padokunda beklenen ayrılık resmileşti. Haas F1 Takımı, Fransız pilot Esteban Ocon ile olan birlikteliğini derhal sonlandırdığını duyurdu. Alınan kararla birlikte Ocon, 2026 sezonunun kalan yarışlarında Amerikan ekibinin koltuğunda yer almayacak.<br><br>Meksika GP'sinde Ocon’un koltuğuna oturarak hanesine puan yazdırmayı başaran Ryo Hirakawa’nın Dünya Dayanıklılık Şampiyonası’ndaki (WEC) yarış çakışması, Haas cephesinde planları hızlandırdı. Normal şartlarda 2027 sezonu itibarıyla takıma katılması kararlaştırılan Ferrari Sürücü Akademisi üyesi Rafael Camara, bu beklenmedik gelişmeyle birlikte F1 arenasındaki ilk çıkışını erkene çekmiş oldu. Genç yetenek, kariyerinin ilk Formula 1 hafta sonunu kendi evinde, İnterlagos’ta Brezilyalı taraftarların önünde yaşayacak.<br><br>Kararın arka planına dair değerlendirmelerde bulunan Takım Patronu Ayao Komatsu, bu adımın uzun vadeli hedefler doğrultusunda atıldığını vurguladı:<br><br>\"Esteban Ocon’a bu sezon kalan mücadelelerde piste çıkmayacağını ilettik. Meksika sürecinde de gördüğümüz üzere bu tip radikal kararlar kolay alınmıyor; fakat takımımızın uzun vadeli geleceği ve çıkarları adına en doğru adımın bu olduğuna inanıyoruz. Aramızda geçen diyalogların detayları takım içinde kalacaktır.<br><br>Brezilya’da Ollie Bearman’ın takım arkadaşı olarak Rafael Camara’yı piste çıkaracağız. Kendisi ağustos ayında gerçekleştirdiğimiz TPC testlerinde potansiyelini fazlasıyla ispatladı. Rafa'yı kendi seyircisinin önünde takıma dahil etmekten ve ilk F1 sınavında onunla çalışmaktan ötürü sabırsızlanıyoruz.\"<br><br>Genç Brezilyalı Camara, Sao Paulo Grand Prix’sinde Bearman ile birlikte Haas’ın puan mücadelesine ortak olacak.",
+                "img": "Resimler/Formula 1 Haberler/1793777637682_IMG_0862.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 319,
                 "title": "TARİHİN EN GENÇ FORMULA 1 DÜNYA ŞAMPİYONU KIMI ANTONELLI:  \"GÖZYAŞLARIM YÜZÜNDEN PİSTİ GÖREMEDİM\"",
                 "cat": "formula 1",
