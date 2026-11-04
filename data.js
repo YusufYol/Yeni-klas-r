@@ -7862,6 +7862,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 324,
+                "title": "RIVOLA’DAN PADDOCK’A REST: “GÖREVİNİZİ YAPMAYACAKSANIZ PİSTE ÇIKMAYIN!”",
+                "cat": "motogp",
+                "date": "2026-11-04 16:17",
+                "content": "Orta Doğu’da tırmanan bölgesel gerilim MotoGP padoğunu ikiye bölerken, tartışmalara son noktayı koyan en sert çıkış Aprilia cephesinden geldi. Pilotların büyük çoğunluğunun güvenlik endişesi taşıdığı ve Yamaha’nın yarıştan çekildiğini duyurduğu kriz ortamında, Aprilia CEO’su Massimo Rivola organizasyonun aldığı kararlara tam destek verdi.<br><br>Güvenlik garantilerinin verildiği bir ortamda yarıştan kaçınmanın kabul edilemez olduğunu vurgulayan Rivola; sürücülerden mühendislere, yöneticilerden basın mensuplarına kadar herkesin profesyonel sorumluluklarına sadık kalması gerektiğini belirtti. Şampiyona dinamiklerinden ya da bireysel çıkarlardan ziyade kurumsal kararların bağlayıcılığına dikkat çeken İtalyan yönetici, resmi makamların onayı varken yaratılan panik havasını eleştirdi.<br><br>Görev bilincinin altını çizen Rivola, pist dışındaki belirsizlikleri gerekçe gösterenlere açık bir mesaj göndererek, bu şartlar altında işini yapmaya hazır olmayanların evde kalmayı tercih edebileceğini, yönetimin yeşil ışık yaktığı her yarışa eksiksiz şekilde çıkacaklarını ifade etti.<br><br>Ducati, KTM ve Honda gibi dev üreticiler de Aprilia ile benzer bir tutum sergileyerek organizatörlerin güvenlik protokollerine güvendiklerini bildirirken, Katar Grand Prix’si öncesinde padoktaki fikir ayrılığı derinleşmeye devam ediyor.",
+                "img": "Resimler/MotoGP Haberler/1793798221888_IMG_0874.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 312,
                 "title": "ALEX MARQUEZ KATAR GP'DE OLMAYACAK:\"KOLUMDA NE KAS KALDI NE DE GÜÇ!”",
                 "cat": "motogp",
