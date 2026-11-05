@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 326,
+                "title": "LIVERPOOL’UN SAHİBİ FENWAY SPORTS GROUP, CADILLAC F1 TAKIMININ ÇOĞUNLUK HİSSESİNE TALİP OLDU",
+                "cat": "formula 1",
+                "date": "2026-11-05 12:26",
+                "content": "Premier Lig ekiplerinden Liverpool’un çatı şirketi Fenway Sports Group (FSG), Formula 1 sahnesine adım atmak için harekete geçti. Amerikan spor yatırımları devi, padoktaki ilk sezonunu geçiren Cadillac Formula 1 takımının çoğunluk hissesini devralmak isteyen güçlü adaylar arasına girdi.<br><br>Finans ve spor basınına yansıyan bilgilere göre, Cadillac operasyonunun kontrolünü elinde bulunduran TWG Global’in sahibi milyarder iş insanı Mark Walter, takımdaki hâkim hisselerini elden çıkarma seçeneklerini masaya yatırdı. Yaklaşık 2,24 milyar sterlin değer biçilen F1 operasyonunun olası satışı, Walter cephesinde dikkat çeken bir rota değişikliği olarak değerlendiriliyor. Daha önce Cadillac projesini uzun vadeli bir yapı olarak tanımlayan ve takımı satmayı düşünmediğini vurgulayan Walter; geçtiğimiz yaz Los Angeles Lakers’taki kontrol payı ile Chelsea FC’deki yüzde 13’lük hissesini devretmesinin ardından, F1 takımını da benzer bir tasfiye sürecine dahil etmeyi değerlendiriyor.<br><br>Liverpool’daki yaklaşık yüzde 38’lik hissesini Jeff Bezos’un da yer aldığı bir konsorsiyuma devrettikten sonra kasasını güçlendiren FSG, Cadillac’ın kontrolünü almak adına temaslarını sıklaştırdı. NASCAR’da mücadele eden RFK Racing’in yüzde 50 ortağı konumundaki grup, bu hamleyle küresel motor sporları portföyünü Formula 1 ile taçlandırmayı hedefliyor. Ancak masada tek alıcı FSG değil; Cadillac hisseleri için yaklaşık altı farklı grubun daha devrede olduğu ve ciddi bir teklif yarışının yaşandığı ifade ediliyor.<br><br>F1’deki çaylak sezonunda henüz puanla tanışamayan Amerikan temsilcisi, takımlar klasmanının dibinde yer alıyor. Takımın bu sezonki en iyi derecesi Valtteri Bottas’ın Çin Grand Prix’sinde ulaştığı 13.'lük oldu. Gelecek planlamasını sürdüren yönetim, Bottas’ın koltuğunu Colton Herta’ya emanet etmeyi tartışıyor. Süper lisans alabilmek için gereken son puanların peşinde olan Herta, São Paulo Grand Prix'sinde altıncı kez 1. antrenman seansında piste çıkarak lisans şartını tamamlamaya çalışacak.<br><br>2027 sezonu için pilot kadrosunu henüz netleştirmeyen Cadillac, geçtiğimiz günlerde deneyimli pilot Sergio Perez ile 2030’a kadar sürecek uzun soluklu bir sözleşme uzatmasına imza atarak geleceğe dair ilk garantisini almıştı.",
+                "img": "Resimler/Formula 1 Haberler/1793870769597_IMG_0895.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 325,
                 "title": "TOTO WOLFF'TAN SİSTEM DERSİ: BU ŞANS DEĞİL, 9 YILLIK CESARETİN VE EMEĞİN ZAFERİ!",
                 "cat": "formula 1",
