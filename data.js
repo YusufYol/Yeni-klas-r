@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 325,
+                "title": "TOTO WOLFF'TAN SİSTEM DERSİ: BU ŞANS DEĞİL, 9 YILLIK CESARETİN VE EMEĞİN ZAFERİ!",
+                "cat": "formula 1",
+                "date": "2026-11-05 12:19",
+                "content": "Meksika GP'sinde genç yetenek Kimi Antonelli ile Formula 1 padoğunda tarihi bir zafere imza atan Mercedes, sadece bir kupa kazanmakla kalmadı; pilot yetiştirme vizyonunun da zirvesini tescilledi. Takımın patronu Toto Wolff, İtalyan pilotun şampiyonluğa uzanan yolculuğunu değerlendirirken Ferrari ve Red Bull’un sürücü politikalarını hedef tahtasına koydu.<br><br>Henüz karting yıllarında keşfettikleri Antonelli'yi 18 yaşında, F1 tecrübesi bulunmadan doğrudan ana takım koltuğuna oturtma kararlarının arkasında durduklarını belirten Wolff, rakiplerinin böyle bir cesareti asla gösteremeyeceğini vurguladı. Maranello cephesinin genç sürücülere yaklaşımını eleştiren deneyimli yönetici, \"Ferrari veya Red Bull bünyesinde kalsaydı, tıpkı Oliver Bearman örneğinde olduğu gibi yıllarca alt takımlarda sırasını beklemek zorunda kalırdı. Kimse onu doğrudan gridin en rekabetçi aracına koymazdı,\" sözleriyle ezeli rakiplerine açık bir göndermede bulundu.<br><br>Antonelli’nin başarısının tesadüf değil, 9 yıllık kesintisiz bir yatırım ve sarsılmaz bir güvenin eseri olduğunu dile getiren Wolff; antrenör desteğinden özel F1 testlerine kadar tüm maliyeti üstlenen tek takım olduklarının altını çizdi. Zorlu dönemlerde dahi genç pilota olan inançlarını kaybetmediklerini ifade eden Mercedes patronu, elde edilen dünya şampiyonluğunu şahsi bir gururdan öte, kurdukları sistemin haklı galibiyeti olarak nitelendirdi.",
+                "img": "Resimler/Formula 1 Haberler/1793870394868_IMG_0894.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 323,
                 "title": "LECLERC BABA OLDU: FERRARI’DE INTERLAGOS ÖNCESİ SÜRPRİZ KOLTUK DEĞİŞİMİ!",
                 "cat": "formula 1",
