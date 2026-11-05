@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 328,
+                "title": "AUDI’DEN INTERLAGOS’A ÖZEL GÖRSEL ŞÖLEN: SÃO PAULO SOKAKLARI PİSTE TAŞINIYOR",
+                "cat": "formula 1",
+                "date": "2026-11-05 14:36",
+                "content": "Formula 1 takviminin en köklü duraklarından São Paulo Grand Prix’si öncesinde Audi, Brezilyalı çaylağı Gabriel Bortoleto’nun kendi evindeki ilk yarışına özel kapsamlı bir görsel dönüşüm hazırladı. Takımın ana ortaklarından Revolut ile hayata geçirilen proje kapsamında, Audi’nin yarış kimliği baştan aşağı kentin yerel dokusuyla harmanlandı.<br><br>Hafta sonu boyunca Interlagos pistinde boy gösterecek olan tasarım, São Paulo kentinin meşhur sokak mozaiklerinde yer alan ikonik \"Piso Paulista\" geometrik motiflerinden ilham alıyor. Yalnızca Audi R26 aracının dış giydirmesiyle sınırlı kalmayan bu konsept; garaj duvarlarından pit duvarına, teknik ekibin kıyafetlerinden pilot tulumlarına kadar tüm takım alanına yansıtıldı. Böylece daha önce tanıtılan sınırlı sayıdaki banka kartı ve sokak modası koleksiyonu, pist üzerindeki bu bütünsel kimlikle tamamlanmış oldu.<br><br>Takımın hem yerel kahraman Bortoleto hem de tecrübeli ismi Nico Hülkenberg ile mücadele edeceği hafta sonunda kullanılacak tasarım hakkında konuşan Audi Marka ve Ticari Operasyonlar Lideri Stefano Battiston, kentin enerjisini yansıtmanın önemine değindi.<br><br>Battiston, São Paulo'nun özgün ruhunu yarış ortamındaki her ayrıntıya taşımak istediklerini belirterek şu ifadeleri kullandı:<br><br>\"São Paulo kendine has çok güçlü bir karaktere sahip. Revolut ile tasarladığımız özel R26 deseni, daha önceki kart projemizin ve Adidas 'Sampa Soul' serisinin ardından bu hikâyeyi doğrudan asfalta taşıyor. Tulumlardan garaj detaylarına uzanan bu yaklaşım, ortaklarımızın uzmanlıklarını birleştirdiğimizde ortaya nasıl kusursuz ve birbirine bağlı bir bütün çıktığının kanıtı. Gabi’nin kendi tribünleri önünde yarışacağı bu hafta sonunda, taraftarlarla kurduğumuz bağı bu denli anlamlı bir görsel dille taçlandırmaktan heyecan duyuyoruz.\"<br><br>Interlagos tribünlerini dolduracak Brezilyalı yarışseverler, hafta sonu boyunca hem kendi pilotlarını hem de şehirlerinin simge motiflerini Audi garajında bir arada izleme fırsatı bulacak.",
+                "img": "Resimler/Formula 1 Haberler/1793878565139_IMG_0897.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 327,
                 "title": "2026 SAO PAULO GP: BREZİLYA’DA HEYECAN BAŞLIYOR, SEANS SAATLERİ VE YAYIN BİLGİSİ",
                 "cat": "formula 1",
