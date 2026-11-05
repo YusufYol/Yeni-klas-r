@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 327,
+                "title": "2026 SAO PAULO GP: BREZİLYA’DA HEYECAN BAŞLIYOR, SEANS SAATLERİ VE YAYIN BİLGİSİ",
+                "cat": "formula 1",
+                "date": "2026-11-05 12:32",
+                "content": "Formula 1’de Amerika kıtasındaki üçlü yarış maratonu, motor sporları tarihinin en köklü duraklarından biri olan Brezilya’da noktalanıyor. Şampiyonada sezonun 20. durağı olan Sao Paulo Grand Prix’si, 6-8 Kasım tarihleri arasında efsanevi Interlagos Pisti’nde koşulacak. Paddock, Sao Paulo yarışının ardından verilecek bir haftalık arayla birlikte Las Vegas gecelerine doğru yol alacak.<br><br>Geçtiğimiz hafta sonu yapılan Meksika Grand Prix’si unutulmaz anlara sahne oldu. Yarışı üçüncü sırada tamamlayan çaylak Kimi Antonelli, 2026 Formula 1 Dünya Şampiyonluğunu ilan ederek tarihin en genç şampiyonu unvanıyla rekorlar kitabına adını yazdırdı. Meksika'da damalı bayrağı ilk sırada gören Max Verstappen pilotlar klasmanında ikinciliğe tırmanırken, Ferrari ikilisinin ilk turdaki temas dolu mücadelesinin ardından Lewis Hamilton podyumun ikinci basamağında yer bulmuştu.<br><br>Pilotlar şampiyonu netleşmiş olsa da Brezilya’da gözler takımlar şampiyonluğu mücadelesine çevrilecek. Mercedes, Interlagos hafta sonunda Ferrari’den en az 3 puan daha fazla toplaması halinde 2026 Takımlar Şampiyonluğunu matematiksel olarak ilan etme şansına sahip.<br><br>Formula 1 tutkunlarının merakla beklediği hafta sonunun tüm seans saatleri ve Türkiye yayın bilgileri şu şekilde:<br><br>6 Kasım Cuma<br>1. Antrenman Seansı: 18:30 – F1 TV / beIN SPORTS 4<br><br>2.Antrenman Seansı: 22:00 – F1 TV / beIN SPORTS 4<br><br>7 Kasım Cumartesi<br>3.Antrenman Seansı: 17:30 – F1 TV / beIN SPORTS 4<br><br> Sıralama Turları: 21:00 – F1 TV / beIN SPORTS 4<br><br>8 Kasım Pazar<br> Yarış: 20:00 – F1 TV / beIN SPORTS 4",
+                "img": "Resimler/Formula 1 Haberler/1793871154258_IMG_0896.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 326,
                 "title": "LIVERPOOL’UN SAHİBİ FENWAY SPORTS GROUP, CADILLAC F1 TAKIMININ ÇOĞUNLUK HİSSESİNE TALİP OLDU",
                 "cat": "formula 1",
