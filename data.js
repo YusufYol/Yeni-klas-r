@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 329,
+                "title": "HAMİLTON MEKSİKA GERİLİMİNİ MERCEDES YILLARIYLA KIYASLADI: \"ORADA ÇOK DAHA KÖTÜ ANLAR YAŞADIM\"",
+                "cat": "formula 1",
+                "date": "2026-11-05 14:43",
+                "content": "Meksika Grand Prix’sinde yaşanan ilk tur felaketi, Ferrari garajındaki dengeleri sarsmaya devam ediyor. Takım arkadaşı Charles Leclerc ile girdiği liderlik mücadelesinde temas yaşayan ve galibiyeti Max Verstappen’e kaptıran Lewis Hamilton, yarış sonrası sessizliğini bozarak dikkat çekici açıklamalarda bulundu.<br><br>İtalyan devinde yaşanan bu krizi geçmiş kariyeriyle kıyaslayan yedi kez dünya şampiyonu, yaşadığı hayal kırıklığına rağmen durumun abartılmaması gerektiği görüşünde. McLaren yıllarında Fernando Alonso ile, Mercedes döneminde ise Nico Rosberg ile yaşadığı amansız şampiyonluk savaşlarını hatırlatan İngiliz pilot, geçmişte çok daha yıkıcı fırtınalar atlattığını belirtti.<br><br>Olay anında lider koltuğunda oturan taraf olduğuna dikkat çeken tecrübeli sürücü, hamlenin arkadan gelen Leclerc tarafından düşüncesizce yapıldığını ima ederek tepkisini şu sözlerle dile getirdi:<br><br>\"Eğer arkadan gelip tüm riski alan ve günün sonunda takıma galibiyeti kaybettiren kişi ben olsaydım, fabrikadaki yüzlerce çalışanın karşısına geçip hesap vermek zorunda kalırdım. Fakat burada roller tam tersiydi; lider bendim ve atılan bu adım tamamen gereksiz bir maceradan ibaretti.\"<br><br>Pist üstündeki sürtüşmenin ardından takım içi kriz yönetimine değinen Hamilton, Mercedes günlerinde çok daha yıpratıcı olaylar tecrübe ettiğini söyledi:<br><br>\"Mercedes’te gerçekten berbat, başa çıkması son derece güç anlar yaşadım. O döneme bakınca Ferrari'deki tabloyu devasa bir felaket olarak görmüyorum. Fred Vasseur süreci toparlamak adına elinden gelenin en iyisini yapıyor. Yarıştan önce de heyecanla yanıma gelmiş, iki aracın da zirvede bitirmesini ne kadar çok istediğini anlatmıştı.\"<br><br>Maranello fabrikasındaki personelin gece gündüz çalışarak aracı geliştirdiğini ve Meksika'da rahat bir duble yapabilecek potansiyele sahip olduklarını vurgulayan İngiliz pilot, yönetimin bu olaya karşı henüz somut bir adım atmadığını belirterek sözlerini noktaladı: \"Takımın bu konuda nasıl bir aksiyon alacağını zaman gösterecek; bekleyip göreceğiz.\"",
+                "img": "Resimler/Formula 1 Haberler/1793878981197_IMG_0898.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 328,
                 "title": "AUDI’DEN INTERLAGOS’A ÖZEL GÖRSEL ŞÖLEN: SÃO PAULO SOKAKLARI PİSTE TAŞINIYOR",
                 "cat": "formula 1",
