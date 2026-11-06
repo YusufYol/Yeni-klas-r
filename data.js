@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 330,
+                "title": "NORRIS'TEN SAO PAULO GP ÖNCESİ GÜNCELLEME UYARISI: \"ARACI KULLANMAK DAHA DA ZORLAŞABİLİR\"",
+                "cat": "formula 1",
+                "date": "2026-11-06 15:06",
+                "content": "McLaren, Formula 1 takviminin kritik duraklarından Sao Paulo Grand Prix’sine getirdiği yeni aerodinamik parçalarla çıkmaya hazırlanırken, son dünya şampiyonu Lando Norris hafta sonuna temkinli yaklaşıyor. İngiliz pilot, Interlagos'a getirilen güncellemelerin saf performansı artırmasını umut etse de sürüş dinamiklerini daha da karmaşık hale getirme riski taşıdığını vurguladı.<br><br>Brezilya’daki medya gününde basının karşısına geçen Norris, geçtiğimiz yıl tüm seansları domine ederek kazandığı yarışın kendisine büyük bir moral verdiğini hatırlatarak söze başladı. Ancak İngiliz pilot, bu hafta sonu araca eklenecek parçaların her şeyi bir anda çözmeyebileceğinin altını çizdi.<br><br>Meksika GP'sinin ardından gelişim kaydetme motivasyonunu koruduklarını belirten 26 yaşındaki pilot, getirilen parçalar hakkında şu değerlendirmelerde bulundu:<br><br>\"Bu hafta sonu piste süreceğimiz bazı küçük güncellemeler var ve bunların bizi ileriye taşımasını temenni ediyoruz. Fakat bu parçaların aracı sürmeyi kolaylaştırıp kolaylaştırmayacağını kestirmek zor; hatta tam aksine sürüşü daha da zorlaştırabilir. Asıl beklentimiz saf performans anlamında bir adım atabilmek. Bu adımı atarsak, yapacağımız ayar değişiklikleriyle aracı daha tutarlı bir dengeye kavuşturabiliriz.\"<br><br>Mühendislerin gece gündüz çalıştığını ifade eden Norris, günümüz regülasyonlarında en kritik noktanın sürücünün araca duyduğu güven olduğunu ekledi:<br><br>\"Ekip sadece tur zamanını düşürmek için değil, bizlerin o sınırları zorlarken ihtiyaç duyduğumuz geri bildirimleri veren bir araç ortaya çıkarmak için ter döküyor. Aracımızın potansiyeli başından beri vardı ancak o potansiyeli piste yansıtmak her zaman göründüğü kadar kolay olmuyor. Umarım bu küçük dokunuşlar hafta sonu boyunca meyvesini verir.\"",
+                "img": "Resimler/Formula 1 Haberler/1793966799697_IMG_0914.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 329,
                 "title": "HAMİLTON MEKSİKA GERİLİMİNİ MERCEDES YILLARIYLA KIYASLADI: \"ORADA ÇOK DAHA KÖTÜ ANLAR YAŞADIM\"",
                 "cat": "formula 1",
