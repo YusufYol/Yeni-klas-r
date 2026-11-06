@@ -3514,7 +3514,42 @@ const APP_DATA = {
                 "date": "6-8 Kasım",
                 "track": "São Paulo",
                 "isoDate": "2026-11-08",
-                "status": "Bekliyor"
+                "status": "Sıradaki",
+                "trackDetails": {
+                    "len": "4,309 km",
+                    "turns": "15",
+                    "opened": "1973",
+                    "record": "1:10.540 (Valtteri Bottas)",
+                    "firstWinner": "Emerson Fittipaldi (1973)",
+                    "mostWinsPilot": "Alain Prost (6 Galibiyet)",
+                    "mostWinsTeam": "McLaren F1 Team (12 Galibiyet)",
+                    "img": "",
+                    "description": "Saat yönünün tersine akan yapısı, coşkulu tribünleri ve öngörülemez hava koşullarıyla bilinen efsanevi Interlagos pisti; yüksek rakımı, teknik viraj birleşimleri ve heyecan dolu geçiş noktalarıyla Formula 1 takviminin en ikonik ve şampiyonluk düğümlerinin çözüldüğü unutulmaz duraklarından biridir."
+                },
+                "len": "4,309 km",
+                "turns": "15",
+                "sessions": [
+                    {
+                        "name": "Cuma: 1. Antrenman Seansı",
+                        "time": "18:30"
+                    },
+                    {
+                        "name": "Cuma: 2. Antrenman Seansı",
+                        "time": "22:00"
+                    },
+                    {
+                        "name": "Cumartesi: 3. Antrenman Seansı",
+                        "time": "17:30"
+                    },
+                    {
+                        "name": "Cumartesi: Sıralama Turları",
+                        "time": "21:00"
+                    },
+                    {
+                        "name": "Pazar: Yarış",
+                        "time": "20:00"
+                    }
+                ]
             },
             {
                 "round": 23,
