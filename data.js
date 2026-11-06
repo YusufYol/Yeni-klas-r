@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 338,
+                "title": "MARANELLO’DA KIRMIZI ÇİZGİ ÇEKİLDİ: VASSEUR’DEN HAMILTON VE LECLERC’E “ÖNCE FERRARI” ULTIMATOMU",
+                "cat": "formula 1",
+                "date": "2026-11-07 00:00",
+                "content": "Meksika Grand Prix’sinde yaşanan ilk tur kazasıyla galibiyet fırsatını piste gömen Scuderia Ferrari cephesinde tansiyon Brezilya öncesi kontrol altına alındı. Takım patronu Fred Vasseur, Lewis Hamilton ile Charles Leclerc arasında cereyan eden pist üstü gerilimin ardından Sao Paulo’da acil bir kriz toplantısı gerçekleştirdi. Fransız yönetici, pilotların kişisel hırslarının takım çıkarlarının önüne geçemeyeceğini net bir dille bildirdi.<br><br>Meksika’da yarışa ilk iki sıradan başlayıp duble hedeflenirken yaşanan temas, Maranello merkezinde ciddi bir hayal kırıklığı yaratmıştı. Interlagos padokunda iki yıldız sürücüyle yüz yüze bir görüşme yapan Vasseur, sürecin takım hedefleri açısından kaçınılmaz bir hesaplaşma olduğunu ifade etti.<br><br>Gerçekleştirilen görüşmenin son derece yapıcı geçtiğini aktaran Fred Vasseur, pilotların pist üstü sınırları yeniden kavradığını kaydetti. Sahip oldukları kadronun kazanma arzusunun yüksek olduğunu ancak bunun takıma zarar veremeyeceğini belirten Vasseur, temel kuralın kırmızı tulumun temsil ettiği değerlere sadakat olduğunu vurguladı.<br><br>Fransız patron, pistte ve fabrikada gecesini gündüzüne katan yüzlerce çalışanın emeğine dikkat çekerek şu değerlendirmelerde bulundu:<br><br>\"Görüşmemiz son derece yapıcı geçti ve karşılıklı pozisyonlarımızı netleştirdik. Bu konuşma artık bir zorunluluk haline gelmişti; konuyu burada noktalayıp tamamen sıradaki mücadeleye odaklanıyoruz. Ancak temel kuralımız asla değişmez: Birbirlerine koşulsuz saygı gösterecekler. İkisi de zirveyi hedefleyen safkan yarışçılar fakat her şeyden önce markaya, takıma ve Maranello’da emek veren personele karşı sorumlu olduklarını unutmamalılar.\"<br><br>Monza ve Madrid yarışlarından itibaren şampiyonada en istikrarlı puan toplayan ekip olduklarını hatırlatan Vasseur, iki iddialı sürücüye sahip olmanın getirdiği riskleri kabul etti:<br><br>\"Gridde yan yana duran iki güçlü pilota sahipseniz bu tür gerilimler bazen kaçınılmaz olabiliyor. Şu an şampiyona ikinciliğindeysek bu onların hızı sayesindedir; fakat madalyonun diğer yüzünü de doğru idare etmek bizim görevimiz. Meksika’da ilk iki sırayı alıp zafere ulaşamamak açık bir yönetimsel başarısızlıktır ve gereken refleksi göstermek zorundaydık. Toplantının nihai özeti açıktır: Ferrari her şeyin üzerindedir. Markanın ağırlığı, fabrikanın emeği ve tribündeki taraftar her zaman kişisel hedeflerden önce gelir.\"<br><br>Brezilya Grand Prix’si öncesi kartların yeniden dağıtıldığı Ferrari garajında gözler, Interlagos’un zorlu zemininde Hamilton-Leclerc ikilisinin sergileyeceği takım dinamiklerine çevrildi.",
+                "img": "Resimler/Formula 1 Haberler/1793998832187_IMG_0929.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 337,
                 "title": "2026 BREZİLYA GP 2. ANTRENMAN: INTERLAGOS'TA ZİRVE ANTONELLI'NİN, NORRIS VE VERSTAPPEN TAKİPTE",
                 "cat": "formula 1",
