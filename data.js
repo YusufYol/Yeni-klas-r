@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 335,
+                "title": "2026 SAO PAULO GP 1. ANTRENMAN SEANSI: INTERLAGOS'TA NORRIS LİDER, ANTONELLI VE VERSTAPPEN ÇOK YAKIN",
+                "cat": "formula 1",
+                "date": "2026-11-06 20:08",
+                "content": "Formula 1’de sezonun heyecan dolu duraklarından biri olan 2026 Sao Paulo Grand Prix'si, hareketli geçen ilk antrenman seansıyla başladı. Interlagos Pisti'nde gerçekleştirilen seansın en hızlı ismi, son bölümdeki derecesiyle zirveye yerleşen McLaren pilotu Lando Norris oldu.<br><br>Pit yolu çıkışındaki yeşil ışıkla birlikte başlayan 60 dakikalık seansta, birçok takım çaylak ve yedek pilotlarına şans verdi. Yeni baba olan Charles Leclerc'in yerine Ferrari koltuğuna Dino Beganovic otururken; McLaren'da Oscar Piastri yerine Leonardo Fornaroli, Cadillac'ta Sergio Perez yerine Colton Herta, Audi'de Nico Hülkenberg yerine Freddie Slater, Alpine'de Pierre Gasly yerine Gabriele Mini ve Williams'ta Carlos Sainz yerine Luke Browning piste çıktı. Seansın başlarında telsizden takımıyla iletişim kuran Lewis Hamilton, pist yüzeyinin fazlasıyla kaygan olduğunu aktardı.<br><br>İlk 10 dakikalık dilim geride kalırken Red Bull pilotu Max Verstappen, 1:12.959 ile zaman tablosunun tepesine çıkan ilk isim oldu; taze şampiyon Kimi Antonelli ise bu anlarda ikinci sıradaydı. Kısa bir süre sonra Freddie Slater'ın kullandığı Audi aracının 9 ve 10. virajlar arasında yolda kalması nedeniyle seans kırmızı bayrakla durduruldu. Yaklaşık 5 dakikalık temizlik ve tahliye çalışmasının ardından pist yeniden yeşile döndü.<br><br>Seansın orta bölümünde Antonelli, 1:12.777'lik derecesiyle liderliği Verstappen'in elinden aldı. Ancak yumuşak (kırmızı logolu) lastiklerle piste dönen Verstappen, derecesini 0.8 saniye daha geliştirerek liderliği yeniden geri kazandı. Seans boyunca mekanik sorunlar yaşayan Williams sürücüsü Alex Albon ise aracını pist dışındaki güvenli bir alana çekerek seansa erken veda etmek zorunda kaldı.<br><br>Son anlara girilirken tüm gridin yumuşak hamurlu lastiklerle zaman turu denemeleri yaptığı görüldü. 1:11.717'lik derecesiyle zirveye yerleşen Lando Norris, damalı bayrak sallandığında da seansı lider tamamlayan isim oldu. Mercedes'in genç yıldızı Kimi Antonelli sadece 0.082 saniye farkla ikinci sırayı alırken, Max Verstappen seansı üçüncü tamamladı.<br><br>Lewis Hamilton'ın dördüncü sırada tamamladığı antrenmanda George Russell beşinci, Isack Hadjar ise altıncı en hızlı zamanın sahibi oldu.",
+                "img": "Resimler/Formula 1 Haberler/1793984904398_IMG_0926.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 334,
                 "title": "SAINZ'DAN ESKİ TAKIM ARKADAŞI LECLERC'E DESTEK: \"ZİRVE SAVAŞINDA GERİLİM KAÇINILMAZ\"",
                 "cat": "formula 1",
