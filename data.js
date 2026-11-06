@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 331,
+                "title": "RALF SCHUMACHER'DEN HAMILTON VE MARANELLO YÖNETİMİNE ELEŞTİRİ: \"FERRARI'NİN ÜSTÜNDE DEĞİLSİN!\"",
+                "cat": "formula 1",
+                "date": "2026-11-06 15:13",
+                "content": "Eski Formula 1 pilotu Ralf Schumacher, Meksika Grand Prix'sinde yaşananların ardından Lewis Hamilton'ı ve Ferrari içindeki güç dengelerini hedef aldı. Yarışın ilk anlarında Charles Leclerc ile girdiği liderlik mücadelesi sonrası telsizden ceza talep eden ve takıma sert uyarılarda bulunan Hamilton, Alman yorumcudan çok sert eleştiriler aldı.<br><br>Meksika GP'sinin startında şikanı dışarıdan kesip avantaj sağladığı için 5 saniye ceza alan Leclerc'in hamlesinden ziyade, İngiliz pilotun reaksiyonunu masaya yatıran Schumacher, Hamilton'ın bir sürücü sınırlarını aştığını savundu.<br><br>Hamilton’ın telsiz konuşmalarını kabul edilemez bulan Schumacher, tecrübeli pilotun takıma karşı takındığı tavrı şu sözlerle eleştirdi:<br><br>\"Lewis Hamilton kendini Ferrari’nin üzerinde konumlandırıyor. Kendi takım arkadaşınızın ceza alması için telsizden lobi yapmak bir yana, ardından adeta Al Capone gibi 'Büyük problemler yaşayacağız' diyerek açıkça gözdağı veriyor. Bu resmen kuyruğun gövdeyi sallaması; bir pilottan ziyade takım patronu gibi davranıyor. Şahsen böyle bir saygısızlığa asla göz yummazdım.\"<br><br>Schumacher, iki pilot arasındaki bu kontrolsüz rekabetin İtalyan ekibine pahalıya patladığına dikkat çekerek takım yönetimine de çağrıda bulundu. Meksika'da Ferrari'nin rahat bir zafer elde edebilecek tempoya sahip olduğunu belirten eski F1 pilotu, \"Bu gidişata acilen müdahale edilmeli. İki sürücü de birbirinin yarışını sabote etti ve Ferrari kazanabileceği bir hafta sonundan puansız ya da hasarla döndü. Düzen yeniden kurulmazsa bu kriz derinleşir,\" diyerek Maranello merkezli ekibin yönetim zaafiyetini eleştirdi.",
+                "img": "Resimler/Formula 1 Haberler/1793967232793_IMG_0915.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 330,
                 "title": "NORRIS'TEN SAO PAULO GP ÖNCESİ GÜNCELLEME UYARISI: \"ARACI KULLANMAK DAHA DA ZORLAŞABİLİR\"",
                 "cat": "formula 1",
