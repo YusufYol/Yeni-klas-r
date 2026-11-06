@@ -14918,57 +14918,57 @@ const APP_DATA = {
                 {
                     "pos": 1,
                     "name": "Aprilia Racing",
-                    "pts": 670
+                    "pts": 687
                 },
                 {
                     "pos": 2,
                     "name": "Ducati Lenovo Team",
-                    "pts": 531
+                    "pts": 572
                 },
                 {
                     "pos": 3,
                     "name": "Trackhouse Racing",
-                    "pts": 499
+                    "pts": 514
                 },
                 {
                     "pos": 4,
                     "name": "Red Bull KTM Factory Racing",
-                    "pts": 370
+                    "pts": 413
                 },
                 {
                     "pos": 5,
                     "name": "BK8 Gresini Racing MotoGP",
-                    "pts": 315
+                    "pts": 333
                 },
                 {
                     "pos": 6,
                     "name": "Pertamina Enduro VR46",
-                    "pts": 311
+                    "pts": 330
                 },
                 {
                     "pos": 7,
                     "name": "Repsol Honda Team",
-                    "pts": 147
+                    "pts": 156
                 },
                 {
                     "pos": 8,
                     "name": "Red Bull KTM Tech3",
-                    "pts": 139
+                    "pts": 153
                 },
                 {
                     "pos": 9,
                     "name": "Castrol Honda LCR",
-                    "pts": 126
+                    "pts": 129
                 },
                 {
                     "pos": 10,
                     "name": "Monster Energy Yamaha MotoGP",
-                    "pts": 99
+                    "pts": 108
                 },
                 {
                     "pos": 11,
                     "name": "Prima Pramac Yamaha MotoGP",
-                    "pts": 48
+                    "pts": 49
                 }
             ]
         }
