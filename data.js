@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 332,
+                "title": "MERCEDES RİSK ALDI: GEORGE RUSSELL BREZİLYA’DA GRID CEZASIYLA YARIŞACAK",
+                "cat": "formula 1",
+                "date": "2026-11-06 15:19",
+                "content": "Mercedes-AMG Petronas pilotu George Russell, Formula 1 sezonunun kritik duraklarından São Paulo Grand Prix'sine grid cezasıyla başlayacak. Interlagos Pisti'ndeki mücadele öncesinde güç ünitesinde stratejik bir parça değişimine giden Alman ekibi, İngiliz sürücünün aracındaki içten yanmalı motoru (ICE) yeniledi. Kurallar gereği belirlenen parça sınırının aşılmasıyla birlikte Russell, pazar günkü ana yarışa sıralama turlarında elde edeceği derecenin 5 sıra gerisinden başlama cezası aldı.<br><br>Yapılan teknik müdahalede V6 motor bloğu, krank mili, pistonlar ve silindir kapakları gibi mekanik bileşenler tamamen taze bir üniteyle değiştirilirken, turbo ve hibrit (MGU) sistemlerine dokunulmadı.<br><br>Kararın tesadüf olmadığını ve uzun süredir planlanan bir adım olduğunu vurgulayan 26 yaşındaki pilot, geçiş yapmanın görece daha kolay olduğu Interlagos'un bu taktik için bilinçli olarak seçildiğini dile getirdi.<br><br>Eski takım arkadaşı Lewis Hamilton'ın 2021 yılında aynı pistte arka sıralardan başlayarak zafere ulaştığı tarihi yarışı hatırlatan Russell, hedefini podyum olarak belirledi:<br><br>\"Singapur'dan bu yana sezonun kalan bölümünde bir noktada motor cezası almamız gerekeceğini biliyorduk ve bu hamleyi yapmak adına Brezilya'nın ideal bir pist olduğuna karar verdik. Lewis birkaç sezon önce burada çok daha gerilerden gelip olağanüstü bir geri dönüşle kazanmıştı. Bizim aldığımız 5 sıralık ceza telafi edilemeyecek bir dezavantaj değil; pazar günü sonuna kadar mücadele edip üst basamaklara tırmanacağız.\"",
+                "img": "Resimler/Formula 1 Haberler/1793967547737_IMG_0916.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 331,
                 "title": "RALF SCHUMACHER'DEN HAMILTON VE MARANELLO YÖNETİMİNE ELEŞTİRİ: \"FERRARI'NİN ÜSTÜNDE DEĞİLSİN!\"",
                 "cat": "formula 1",
