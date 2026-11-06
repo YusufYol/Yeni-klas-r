@@ -7942,6 +7942,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 333,
+                "title": "KATAR’DA PERDE AÇILDI: İLK SEANSIN LİDERİ MARC MARQUEZ!",
+                "cat": "motogp",
+                "date": "2026-11-06 15:40",
+                "content": "2026 MotoGP Dünya Şampiyonası Katar Grand Prix’sinde heyecan resmen başladı. Losail Uluslararası Pisti’nde gerçekleştirilen hafta sonunun ilk antrenman seansında en hızlı isim, ritmini erken bulan Marc Marquez oldu.<br><br>Yeşil ışığın yanması ve pit yolunun açılmasıyla birlikte sürücüler doğrudan piste yöneldi. Açılış dakikaları özellikle Jake Dixon için şanssız başladı; 15. virajda dengesini kaybeden Dixon kaza yaparak garajın yolunu tuttu.<br><br>Seansın ilk 10 dakikası geride kalırken Marco Bezzecchi, 1:52.665’lik derecesiyle liderliği eline alarak dikkatleri üzerine çekti. Tam bu anlarda Brad Binder da tıpkı Dixon gibi motosikletinin kontrolünü kaybederek seansın ikinci kazasına imza attı.<br><br>Bezzecchi’nin temposuna yanıt vermekte gecikmeyen Marc Marquez, önce 1:52.379 ile ilk sıraya tırmandı, 45 dakikalık sürenin son bölümünde ise derecesini 1:52.278’e çekerek liderliğini perçinledi.<br><br>Son anlarda Pedro Acosta yaşadığı mekanik arıza nedeniyle motosikletini pist kenarında bırakmak zorunda kalsa da seansı dördüncü sırada bitirmeyi başardı. Damalı bayrak sallandığında Marquez zirvede kalırken, güçlü bir seans geçiren Marco Bezzecchi ikinci, Fabio Di Giannantonio ise üçüncü sırayı elde etti. İlk beşi tamamlayan son isim ise Jorge Martin oldu.",
+                "img": "Resimler/MotoGP Haberler/1793968851045_IMG_0917.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 324,
                 "title": "RIVOLA’DAN PADDOCK’A REST: “GÖREVİNİZİ YAPMAYACAKSANIZ PİSTE ÇIKMAYIN!”",
                 "cat": "motogp",
