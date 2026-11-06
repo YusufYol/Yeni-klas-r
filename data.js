@@ -8224,6 +8224,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 336,
+                "title": "LUSAIL’DE NEFES KESEN SEANS: DI GIANNANTONIO REKORLA ZİRVEDE, MARQUEZ TALİHSİZLİĞE RAĞMEN İKİNCİ!",
+                "cat": "motogp",
+                "date": "2026-11-06 20:13",
+                "content": "MotoGP Katar Grand Prix’sinde cuma gününün en kritik mücadelesi olan ana antrenman seansı, Lusail Uluslararası Pisti’nin ışıkları altında büyük bir heyecana sahne oldu. Bir saatlik seans boyunca dereceler sürekli yenilenirken, damalı bayrağı pist rekorunu altüst ederek ilk sırada gören isim Fabio Di Giannantonio oldu.<br><br>Yeşil ışıkların yanmasıyla birlikte sürücüler doğrudan piste çıkarak yarış ayarları ve zemin tutuşu üzerine odaklandı. İlk dakikalarda Jorge Martin’in öncülüğünde başlayan tempo savaşı, kısa sürede Marc Marquez, Marco Bezzecchi ve Di Giannantonio’nun liderlik düellosuna dönüştü. Seansın ilk çeyreği geride kalırken Bezzecchi, 1:51.764’e kadar çektiği derecesiyle üstünlüğü eline aldı. Hemen ardından Di Giannantonio, 1:51.105 ile çıtayı daha da yukarı taşıyarak seansın ilk yarısını lider kapatmayı başardı. Çaylak Ai Ogura ise bu bölümde sergilediği güçlü performansla üçüncü sıraya kadar tırmandı.<br><br>Seansın orta bölümünde tansiyon aniden yükseldi. Hızlı turunda olan Marc Marquez, motosikletinin zincirinin kopmasıyla yolda kaldı. Arızalanan motosikletini pist kenarında tek ayağıyla iterek pite getirmeye çalışan İspanyol sürücünün yardımına pist girişinde mekanikerleri yetişti. Garaja hızla ulaştırılan Marquez, ikinci motosikletine geçerek seansın son bölümüne hazırlandı.<br><br>Kalan 15 dakikalık dilimde doğrudan Q2 bileti kapmak isteyen sürücüler yumuşak hamurlara yöneldi ve pistte zaman savaşları başladı. Yaşadığı teknik sorunun ardından piste adeta fırtına gibi dönen Marc Marquez, 1:50.925 yaparak liderliği devraldı; Francesco Bagnaia ise hemen ardına yerleşti.<br><br>Son anlarda tempo inanılmaz seviyelere ulaştı. Bezzecchi 1:50.694 ile zirveye adını yazdırsa da son sözü İtalyan sürücü Fabio Di Giannantonio söyledi. Seansın bitimine dakikalar kala mükemmel bir tura imza atan Di Giannantonio, 1:50.406 ile Lusail'de pist rekorunu kırarak seansın en hızlısı oldu. Son denemesinde farkı kapatmaya çalışan Marquez çok az farkla ikinci sırada kalırken, seans boyunca istikrarlı bir görüntü çizen Bezzecchi ilk üçü tamamladı. Bagnaia ve Raul Fernandez ise güçlü turlarıyla üst sıralardaki yerlerini perçinlediler.",
+                "img": "Resimler/MotoGP Haberler/1793985224299_IMG_0927.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 333,
                 "title": "KATAR’DA PERDE AÇILDI: İLK SEANSIN LİDERİ MARC MARQUEZ!",
                 "cat": "motogp",
