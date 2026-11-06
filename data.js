@@ -10194,7 +10194,54 @@ const APP_DATA = {
                 "date": "6-8 Kasim",
                 "track": "Lusail",
                 "isoDate": "2026-11-08",
-                "status": "Bekliyor"
+                "status": "Sıradaki",
+                "trackDetails": {
+                    "len": "5,380 km",
+                    "turns": "16",
+                    "opened": "2004",
+                    "record": "1:51.762 (Enea Bastianini)",
+                    "firstWinner": "Sete Gibernau (2004)",
+                    "mostWinsPilot": "Casey Stoner ve Valentino Rossi (4 Galibiyet)",
+                    "mostWinsTeam": "Yamaha (10 Galibiyet)",
+                    "img": "",
+                    "description": "Çölün ortasında devasa projektörler altında düzenlenen MotoGP'nin ilk gece yarışı olan Lusail pisti; 1 kilometreyi aşan muazzam ana düzlüğü, yüksek hızlı akıcı virajları ve kum fırtınalarıyla değişen yol tutuş dengesiyle sezonun en görkemli mücadelelerine ev sahipliği yapar."
+                },
+                "len": "5,380 km",
+                "turns": "16",
+                "sessions": [
+                    {
+                        "name": "Cuma: 1. Antrenman Seansı",
+                        "time": "14:45"
+                    },
+                    {
+                        "name": "Cuma: Ana Antrenman Seansı",
+                        "time": "19:00"
+                    },
+                    {
+                        "name": "Cumartesi: 2. Antrenman Seansı",
+                        "time": "14:00"
+                    },
+                    {
+                        "name": "Cumartesi: Sıralama Turları 1",
+                        "time": "14:40"
+                    },
+                    {
+                        "name": "Cumartesi: Sıralama Turları 2",
+                        "time": "15:05"
+                    },
+                    {
+                        "name": "Cumartesi: Sprint Yarışı",
+                        "time": "19:00"
+                    },
+                    {
+                        "name": "Pazar: Isınma Turları",
+                        "time": "14:40"
+                    },
+                    {
+                        "name": "Pazar: Yarış",
+                        "time": "19:00"
+                    }
+                ]
             },
             {
                 "round": 21,
