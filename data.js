@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 343,
+                "title": "FORMULA 1'DE İLK GÜNÜNDE HAAS PİLOTU CAMARA'YA KINAMA CEZASI",
+                "cat": "formula 1",
+                "date": "2026-11-07 15:50",
+                "content": "Esteban Ocon ile yolların ayrılmasının ardından kendi ülkesinde Haas direksiyonuna geçen Rafael Camara, Formula 1 kariyerinin ilk gününde hakemlerin yaptırımıyla karşılaştı. Genç pilot, Brezilya Grand Prix’sinin antrenman seansında Charles Leclerc’i engellediği gerekçesiyle resmi kınama cezası aldı.<br><br>Cuma günü koşulan 2. serbest antrenmanda, ana düzlüğe bağlanan hızlı viraj kombinasyonunda Leclerc’in hızlı turunu baltalayan Brezilyalı sürücü, seansın hemen ardından inceleme altına alındı. Hakemler, telsiz üzerinden art arda gelen uyarılara rağmen yarış çizgisini terk etmeyen Camara’nın tehlikeli bir duruma yol açtığını; Ferrari pilotu Leclerc’in ise temastan kaçınmak için çim alana çıkarak olası bir kazayı güçlükle önlediğini vurguladı.<br><br>Hakem heyetinin yayımladığı resmi raporda olaya ilişkin şu ifadelere yer verildi:<br><br>\"51 numaralı araca (Camara), 16 numaralı aracın (Leclerc) hızlı turunda yaklaştığı bilgisi birden fazla kez iletilmiştir. Buna karşın 51 numaralı araç ideal yarış çizgisinde kalmayı sürdürmüştür. 16 numaralı araç, çarpışmanın önüne geçebilmek için sağa kaçış yapmak durumunda kalmış ve aracının önemli bir kısmıyla pist dışına taşmıştır. Oluşan bu tablo kesinlikle tehlike arz etmekteydi ve 51 numaralı aracın diğer pilotu engellememek adına çok daha temkinli davranması gerekiyordu. Antrenman turlarındaki bu tip engellemelerde mutat yaptırım resmi uyarı olsa da, mevcut vakanın ciddiyeti doğrultusunda kınama cezası uygulanması kararlaştırılmıştır.\"",
+                "img": "Resimler/Formula 1 Haberler/1794055826398_IMG_0940.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 340,
                 "title": "OSCAR PIASTRI BREZİLYA'DA GÜNCELLEMELERDEN UMUTLU: \"ARAÇ BİZE GÜVEN VERİYOR\"",
                 "cat": "formula 1",
