@@ -8264,6 +8264,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 342,
+                "title": "KATAR SIRALAMA TURLARINDA ŞOV: BEZZECCHI 1:50.028 İLE ZİRVEDE, MARQUEZ İKİNCİ!",
+                "cat": "motogp",
+                "date": "2026-11-07 15:45",
+                "content": "Losail Pisti'nde gerçekleştirilen 2026 MotoGP Katar Grand Prix'si sıralama turlarında pole pozisyonunun sahibi, kırdığı rekor turla İtalyan sürücü Marco Bezzecchi oldu.<br><br>Hafta sonunun ilk sıralama mücadelesi olan 15 dakikalık Q1 seansı, yeşil bayrakların sallanmasıyla start aldı. Seansın açılış bölümlerinde Pedro Acosta, 1:51.454'lük derecesiyle Fermin Aldeguer'in 0.3 saniye önünde liderliğe yerleşti. Temposunu artırmaya devam eden Acosta, tur süresini 1:51.143'e çekerek zirvedeki yerini sağlamlaştırdı.<br><br>Ancak seansın son anlarında sahneye çıkan Fermin Aldeguer, kaydettiği 1:50.876'lık zamanla liderliği Acosta'nın elinden almayı başardı. Bu sonuçlarla birlikte Q2 biletini cebine koyan iki isim Aldeguer ve Acosta oldu.<br><br>Pole pozisyonunun sahibini belirleyecek olan Q2 seansında sürücüler Losail'de sınırları zorladı. Seansın hemen başında Brad Binder talihsiz bir kaza geçirirken, pistteki ilk iddialı hamle Marc Marquez'den geldi. İspanyol pilot, 1:50.361 ile tur rekorunu kırarak geçici olarak ilk sıraya oturdu.<br><br>Kısa süre sonra Marco Bezzecchi, 1:50.065'lik derecesiyle liderliği devraldı ve çıtayı daha da yukarı taşıdı. Son denemelerde temposunu kusursuz bir şekilde artıran Bezzecchi, 1:50.028'e kadar çektiği rekor turuyla Katar GP'sinde pole pozisyonunu perçinledi.<br><br>Marc Marquez seansı ikinci basamakta tamamlarken, damalı bayrağın altından geçen Fabio Di Giannantonio üçüncü sırayı elde etti. Ön grubun hemen arkasında Raul Fernandez dördüncü, Francesco Bagnaia beşinci ve Ai Ogura ise altıncı sırada yer bularak yarış için griddeki yerlerini aldılar.",
+                "img": "Resimler/MotoGP Haberler/1794055532506_IMG_0938.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 341,
                 "title": "KATAR GP 2. ANTRENMAN SEANSI: BEZZECCHI LİDERLİĞİ ALDI, TRACKHOUSE SÜRÜCÜLERİ ZİRVEYİ ZORLADI",
                 "cat": "motogp",
