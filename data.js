@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 340,
+                "title": "OSCAR PIASTRI BREZİLYA'DA GÜNCELLEMELERDEN UMUTLU: \"ARAÇ BİZE GÜVEN VERİYOR\"",
+                "cat": "formula 1",
+                "date": "2026-11-07 13:07",
+                "content": "Sao Paulo Grand Prix’si cuma gününü yeni paketle tamamlayan Oscar Piastri, McLaren'ın Interlagos pistine getirdiği teknik güncellemelerin ilk verilerinden oldukça memnun kaldı.<br><br>Hafta sonunun ilk serbest antrenman seansında koltuğunu takımın çaylak yedek pilotu Leonardo Fornaroli’ye devreden Avustralyalı sürücü, piste yalnızca ikinci seansta çıktı. İkinci seansta kaydettiği 1:11.084’lük derecesiyle takım arkadaşı Lando Norris’in yalnızca 0.068 saniye ardında 5. sırayı alan Piastri, seans sonrası yaptığı değerlendirmelerde yeni parçaların vadettiği potansiyele dikkat çekti.<br><br>Geliştirmelerin pist üstündeki karşılığından cesaret aldıklarını belirten Piastri, şu ifadeleri kullandı:<br><br>\"Araç genel hatlarıyla oldukça dengeli ve iyi hissettiriyor. Getirdiğimiz güncellemelerin olumlu geri dönüşler sunması hepimizi cesaretlendirdi. Şimdi bu zeminin üzerine inşa ederek cumartesi günkü sıralama turları öncesinde aracı en verimli çalışma penceresine oturtmaya odaklanacağız.\"<br><br>Zirve mücadelesi için biraz daha mesafe katetmeleri gerektiğini hatırlatan 25 yaşındaki pilot, ilk antrenmanda topladığı veriler için genç meslektaşına da teşekkür etti:<br><br>\"Ön gruptaki rakiplerimizle farkı kapatmak adına hâlâ atmamız gereken adımlar var; fakat tüm tabloya baktığımızda hafta sonuna gayet sağlam bir başlangıç yaptık. İlk seansta aracı teslim edip faydalı veriler toplayan Leo’ya da teşekkür borçluyuz. Gece boyunca masaya yatıracağımız çok fazla detay var. Hedefimiz, cumartesi gününden itibaren bu ivmeyi bir basamak daha yukarı taşımak.\"",
+                "img": "Resimler/Formula 1 Haberler/1794046046652_IMG_0936.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 339,
                 "title": "TOTO WOLFF'TAN OCON YORUMU: \"HERKES ELİNDEN GELENİ YAPTI, PATRONUN KARARINA SAYGI DUYULMALI\"",
                 "cat": "formula 1",
