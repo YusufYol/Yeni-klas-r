@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 344,
+                "title": "SAO PAULO GP 3. ANTRENMAN: VERSTAPPEN ZİRVEDE, GENÇ ŞAMPİYON ANTONELLI İKİNCİ SIRADA",
+                "cat": "formula 1",
+                "date": "2026-11-07 18:56",
+                "content": "Formula 1 Sao Paulo Grand Prix’sinde sıralama turları öncesindeki son hazırlık seansı tamamlandı. Interlagos Pisti’nde gerçekleştirilen üçüncü antrenman seansında en hızlı dereceyi Red Bull pilotu Max Verstappen elde etti.<br><br>Pit yolunun açılmasıyla başlayan 60 dakikalık seansta sürücüler oldukça sıcak şartlarla karşılaştı; hava sıcaklığı 31°C, asfalt sıcaklığı ise 52°C civarındaydı. Piste adım atan ilk sürücü Nico Hülkenberg olurken, seansın ilk dakikaları çeşitli teknik şikayetlere sahne oldu. Taze şampiyon Kimi Antonelli vites geçişlerinde ve direksiyonda problem yaşadığını bildirirken, Verstappen de direksiyonunun sağ tarafa çektiğini takıma iletti.<br><br>Tüm gridin orta hamur lastiklerle turladığı ilk 10 dakikalık bölümün ardından Antonelli, 1:12.497’lik derecesiyle zaman tablosunun en üst basamağına çıktı.<br><br>Seansın ilk yarısında teknik sorunlar ve ayar mesaisi hız kesmedi. Aston Martin garajı, ERS arızası tespit ettiği Lance Stroll’ü acilen pite çağırdı. Benzer dakikalarda Red Bull, Isack Hadjar’ı ayar değişiklikleri için içeri alırken, Lewis Hamilton motordan gelen titreşimlerden şikayet ederek seansına kısa bir ara verdi. Ferrari cephesinde ise Charles Leclerc’e, 1. viraj çevresinde kısa süre içinde yağmur geçişi olabileceği uyarısı yapıldı.<br><br>Seansın orta bölümü geride kalırken Antonelli derecesini 1:12.209’a çekerek liderliğini korumayı başardı. İtalyan pilotun en yakın takipçisi ise Verstappen oldu.<br><br>Sakin geçen ara bölümün ardından, son 10 dakikaya girilirken yumuşak (kırmızı logolu) hamurlara geçen Verstappen, 1:11.622 kaydederek seansın en hızlı zamanına imza attı ve zirveyi devraldı.<br><br>Damalı bayrak sallandığında Max Verstappen seansı ilk sırada tamamlarken, Kimi Antonelli ikinci, Lando Norris ise üçüncü sırada yer aldı. Onları sırasıyla George Russell, Charles Leclerc ve Oscar Piastri takip etti.",
+                "img": "Resimler/Formula 1 Haberler/1794066979756_IMG_0942.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 343,
                 "title": "FORMULA 1'DE İLK GÜNÜNDE HAAS PİLOTU CAMARA'YA KINAMA CEZASI",
                 "cat": "formula 1",
