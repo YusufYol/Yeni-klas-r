@@ -8264,6 +8264,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 341,
+                "title": "KATAR GP 2. ANTRENMAN SEANSI: BEZZECCHI LİDERLİĞİ ALDI, TRACKHOUSE SÜRÜCÜLERİ ZİRVEYİ ZORLADI",
+                "cat": "motogp",
+                "date": "2026-11-07 15:41",
+                "content": "MotoGP’de Katar hafta sonu ikinci antrenman seansıyla devam ederken, seansın en hızlı derecesine Marco Bezzecchi imza attı.<br>Yeşil bayrağın sallanmasıyla başlayan 30 dakikalık kritik seansta sürücüler, ilk turlarda ağırlıklı olarak yarış ayarlarını dengelemeye ve Lusail zeminindeki yol tutuşunu test etmeye odaklandı. Temponun yükselmesiyle birlikte zaman tablosunun tepesi hızla hareketlendi.<br><br>Seansın erken bölümüne damgasını vuran isim Marc Marquez oldu. İlk hızlı denemesinde 1:52.226 ile liderliğe kurulan İspanyol pilot, peş peşe attığı bir sonraki turda çıtayı 1:52.034’e çekerek yerini perçinledi.<br><br>Orta bölüme geçilirken dereceler peş peşe gelişti. Fermin Aldeguer, attığı 1:52.035’lik turla Marquez’in yalnızca 0.001 saniye ardında ikinci sıraya yerleşerek dikkat çekerken, Diogo Moreira da üst sıralarda tutunmaya çalıştı. Ancak son viraja girilirken sahneye Marco Bezzecchi çıktı. İtalyan sürücü, kaydettiği 1:51.571 ile seansın en rekabetçi derecesini yaparak liderlik koltuğunu Marquez’den devraldı.<br><br>Seansın son anlarında ise Trackhouse ekibinin temposu ön plana çıktı. Raul Fernandez, arka arkaya geliştirdiği turlarla derecesini 1:51.684’e kadar çekerek Bezzecchi’nin hemen ardında ikinci sıraya yerleşti. Takım arkadaşı Ai Ogura ise ilk iki sektörde oldukça güçlü mor sektörlerle gelmesine karşın turun son bölümündeki zaman kaybıyla 1:51.837’de kaldı ve üçüncü sırayı aldı.<br><br>Damalı bayrak sallandığında Bezzecchi’nin 1:51.571’lik derecesini geçebilen çıkmadı. Böylece seans Marco Bezzecchi’nin liderliği, Raul Fernandez’in ikinciliği ve Ai Ogura’nın üçüncülüğüyle tamamlandı.",
+                "img": "Resimler/MotoGP Haberler/1794055295480_IMG_0937.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 336,
                 "title": "LUSAIL’DE NEFES KESEN SEANS: DI GIANNANTONIO REKORLA ZİRVEDE, MARQUEZ TALİHSİZLİĞE RAĞMEN İKİNCİ!",
                 "cat": "motogp",
