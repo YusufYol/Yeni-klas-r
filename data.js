@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 345,
+                "title": "ANLAŞMA YAPILDI: BREZİLYA GRAND PRIX 2035 YILINA KADAR FORMULA 1 TAKVİMİNDE KALACAK",
+                "cat": "formula 1",
+                "date": "2026-11-07 19:01",
+                "content": "Motor sporları dünyasının en heyecan verici ve tarihi duraklarından biri olan Brezilya Grand Prix’si, uzun vadeli geleceğini garanti altına aldı. Formula 1 yönetimi, São Paulo’daki efsanevi Interlagos Pisti ile mevcut sözleşmeyi 5 yıl daha uzatan yeni bir anlaşmaya imza attı. Böylece şampiyona, en az 2035 sezonunun sonuna kadar Brezilya topraklarında boy göstermeyi sürdürecek.<br><br>Yarım asrı aşkın süredir takvimin vazgeçilmez rotaları arasında bulunan Interlagos, son yıllarda gördüğü yoğun ilgiyle öne çıkıyor. Nitekim 2025 organizasyonunda 303 bini aşan seyirci sayısıyla tarihi bir rekora imza atan yarış, São Paulo ekonomisine de yaklaşık 2,3 milyar Brezilya Reali düzeyinde devasa bir girdi sağladı. Belediye Başkanı Ricardo Nunes’in sunduğu yerel yönetim desteği sayesinde pist ve çevresindeki tesislerin çağdaş standartlara kavuşturulması hedeflenirken, bu uzun vadeli imzanın F1’in Güney Amerika pazarındaki güçlü varlığı ve medya operasyonları adına kritik bir hamle olduğu vurgulanıyor.<br><br>Anlaşmanın ardından değerlendirmelerde bulunan Formula 1 Başkanı ve CEO’su Stefano Domenicali, Brezilya’nın şampiyonanın kimliğindeki yerine dikkat çekti:<br><br>\"Brezilya, Formula 1’in hem geçmişinde hem de yarınlarında vazgeçilmez bir yere sahip. Yapılan 5 yıllık bu yeni anlaşmayla birlikte 2035’e dek São Paulo’da piste çıkacak olmaktan büyük heyecan duyuyoruz. Brezilyalı yarışseverlerin motorsporlarına duyduğu tutku gerçekten benzersiz; Interlagos’a adım attığımız her an gerek tribünlerde gerekse kentin sokaklarında bu eşsiz coşkuyu iliklerimize kadar hissediyoruz.\"",
+                "img": "Resimler/Formula 1 Haberler/1794067292462_IMG_0943.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 344,
                 "title": "SAO PAULO GP 3. ANTRENMAN: VERSTAPPEN ZİRVEDE, GENÇ ŞAMPİYON ANTONELLI İKİNCİ SIRADA",
                 "cat": "formula 1",
