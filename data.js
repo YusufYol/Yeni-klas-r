@@ -8294,6 +8294,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 346,
+                "title": "2026 MOTOGP KATAR SPRİNT: MARQUEZ KAZANDI, BAGNAIA SERT BİR KAZAYLA VEDA ETTİ",
+                "cat": "motogp",
+                "date": "2026-11-07 22:13",
+                "content": "2026 MotoGP sezonunun Katar’da yapılan sprint yarışı, büyük kazalara ve nefes kesen temaslara sahne oldu. Losail Pisti'ndeki dramatik mücadelede damalı bayrağı ilk sırada gören isim Marc Marquez olurken; şampiyonluk adaylarından Francesco Bagnaia korkutan bir kazayla, Marco Bezzecchi ise Marquez ile yaşadığı temasın ardından mücadeleye erken veda etti.<br><br>Yarış öncesi başlangıç gridinde dikkat çeken en önemli detay lastik seçimleriydi. İlk 15 pilot arasında yumuşak arka hamurla piste çıkma cesaretini yalnızca Marc Marquez ile Fabio Di Giannantonio gösterdi.<br><br>11 turluk mücadelenin ilk startında pole pozisyonunun sahibi Marco Bezzecchi temposunu koruyarak ilk viraja lider girmeyi başardı. Arka grupta ise Raul Fernandez iyi bir atakla Francesco Bagnaia'yı geride bırakıp dördüncülüğe yerleşti.<br><br>Daha ilk turun son bölümünde, 16. virajda Fermin Aldeguer ile Francesco Bagnaia arasında çok sert bir temas meydana geldi. Yüksek hızda motosikletinden fırlayan Bagnaia acı bir şekilde yere savruldu. Kazanın hemen ardından kırmızı bayraklar sallandı ve yarış durduruldu. İlk müdahalesi pistte yapılan İtalyan sürücü ambulansla merkeze götürülürken, olaya neden olan Aldeguer'e çifte uzun tur cezası kesildi.<br><br>Henüz iki tur tamamlanabildiği için yaklaşık 5 dakikalık aranın ardından yarış orijinal grid pozisyonlarıyla tekrar başlatıldı. Yeniden başlangıç öncesinde Jorge Martin yumuşak hamura geçiş yaparken, Di Giannantonio ise tercihini orta hamurdan yana kullandı; diğer isimler lastiklerini korudu.<br><br>İkinci startta Marquez çok daha atak bir kalkışla Bezzecchi'yi avlayarak liderliği eline geçirdi. Jorge Martin de güçlü bir ivmeyle üçüncü turun başında dördüncü sıraya kadar tırmandı.<br><br>Ön tarafta pes etmeyen Bezzecchi, Marquez'i baskı altına alıp liderlik için atak denemelerinde bulundu. Ancak ikili arasında yaşanan temas Bezzecchi'nin düşerek yarış dışı kalmasıyla sonuçlandı. Hakem heyeti pozisyonu incelemeye alsa da olayı bir yarış kazası olarak değerlendirip ceza vermedi.<br><br>Yaşanan kargaşa sırasında Jorge Martin anlık olarak liderliğe yükselse de tecrübeli Marquez yerini hızla geri aldı ve kalan turlarda kontrolü elden bırakmayarak 10 turun sonunda galibiyete uzandı.<br><br>Son viraja kadar süren nefes kesici ikincilik savaşında gülen taraf Fabio Di Giannantonio oldu ve podyumun ikinci basamağını kaptı. Jorge Martin ise üçüncülükle yetindi.<br><br>Podyumun hemen arkasında Raul Fernandez dördüncü, Johann Zarco beşinci sırada finiş gördü. İlk 7'yi tamamlayan diğer isimler ise sırasıyla Pedro Acosta ve Ai Ogura oldu.",
+                "img": "Resimler/MotoGP Haberler/1794078785857_IMG_0945.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 342,
                 "title": "KATAR SIRALAMA TURLARINDA ŞOV: BEZZECCHI 1:50.028 İLE ZİRVEDE, MARQUEZ İKİNCİ!",
                 "cat": "motogp",
