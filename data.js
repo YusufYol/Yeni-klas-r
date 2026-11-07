@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 339,
+                "title": "TOTO WOLFF'TAN OCON YORUMU: \"HERKES ELİNDEN GELENİ YAPTI, PATRONUN KARARINA SAYGI DUYULMALI\"",
+                "cat": "formula 1",
+                "date": "2026-11-07 13:04",
+                "content": "Mercedes Takım Patronu Toto Wolff, Meksika Grand Prix'sinde Haas ile yolları ani şekilde ayrılan Esteban Ocon ve Takım Patronu Ayao Komatsu arasında patlak veren gerilime dair dikkat çekici açıklamalarda bulundu.<br><br>Uzun yıllar Mercedes Genç Sürücü Programı çatısı altında Fransız pilotun kariyerini yakından takip eden Wolff, Haas cephesinde yaşanan krizde Komatsu’nun takım içi dinamikleri ve ekibini koruma refleksiyle hareket ettiğine dikkat çekti. Ocon’un Formula 1’e adım attığı ilk günlerde Fred Vasseur ile birlikte verdikleri büyük maddi desteği de hatırlatan tecrübeli yönetici, nihai noktada takım patronunun çizdiği sınırlara ve kararlarına saygı duyulması gerektiğinin altını çizdi.<br><br>Haas içinde yaşanan süreci değerlendiren Toto Wolff, şu ifadeleri kullandı:<br><br>\"Günün sonunda mesele, Ayao'nun takımı temsil etme ve ekibini belli durumlardan koruma sorumluluğunu üstlenmesi gereken bir noktaya evrildi. Diğer taraftan Esteban muhtemelen dile getirdiği ifadelerde hiçbir sakınca görmüyordu. Ancak her ne olursa olsun, son kararı her zaman takımın verdiği gerçeğini kabullenmek zorundasınız. Çizgiyi nerede çekeceğine ve ne zaman 'dur' denileceğine takım patronu karar verir; Ayao'nun hayata geçirdiği şey de tam olarak buydu.\"<br><br>Ocon’un kariyer basamaklarını tırmanış sürecindeki bilinmeyen bir finansal fedakarlığı da ilk kez bu kadar net paylaşan Wolff, sözlerini şöyle tamamladı:<br><br>\"Mercedes tarafında Gwen Lagrue aracılığıyla Esteban’ın menajerliğini devralmıştık. Gravity kapandıktan sonra Gwen ile bu sayede bir araya geldik ve GP3 serisinde Fred Vasseur ile ortak bir çalışma yürüttük; nitekim orada şampiyonluğa ulaştık. Sonrasında Formula 1’de doğrudan bir fırsat doğmayınca rotamızı DTM’e çevirdik ve o süreci de birlikte yönettik.<br><br>Pek fazla kişinin bildiğini sanmıyorum; 2016 Belçika Grand Prix'sinde Manor'da aniden boşa çıkan koltuğu alabilmemiz için 2 milyon dolarlık bir kaynağa ihtiyaç vardı. Biz Mercedes olarak bu miktarın 1 milyon dolarını karşılayabileceğimizi söyledik ancak geriye 1 milyon dolarlık bir açık kalıyordu. İşte o noktada Fred, sırf Esteban bu şansı kaçırmasın diye kalan 1 milyon doları kendi cebinden ödedi. Yıllar boyunca hepimizin Esteban’ın en iyi fırsatları yakalaması adına elinden gelen her şeyi yaptığına inanıyorum.\"",
+                "img": "Resimler/Formula 1 Haberler/1794045844547_IMG_0935.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 338,
                 "title": "MARANELLO’DA KIRMIZI ÇİZGİ ÇEKİLDİ: VASSEUR’DEN HAMILTON VE LECLERC’E “ÖNCE FERRARI” ULTIMATOMU",
                 "cat": "formula 1",
