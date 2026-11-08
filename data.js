@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 348,
+                "title": "MERCEDES'TE TELSİZ KRİZİ: GEORGE RUSSELL SAO PAULO'DA KAÇAN POLE POZİSYONUNUN ARDINDAKİ İLETİŞİM KAZASINI ANLATTI",
+                "cat": "formula 1",
+                "date": "2026-11-08 11:43",
+                "content": "Interlagos’ta yağmurun damga vurduğu dramatik sıralama seansını ikinci sırada tamamlayan George Russell, seansın kritik anlarında Mercedes garajına gösterdiği sert tepkinin perde arkasını paylaştı. İngiliz pilot, Lando Norris’in zirvede tamamladığı günde, takım içi bir iletişim aksaklığı nedeniyle pole pozisyonunu ellerinden kaçırdıklarını ifade etti.<br><br>Şiddetli yağış nedeniyle sık sık kırmızı bayraklarla bölünen seansın final bölümünde Russell, günün en kritik anlarından birini yaşadı. Hızlı turuna hazırlandığı sırada Williams pilotu Alex Albon’un arkasında kalan Britanyalı sürücüye, telsizden turunu bırakması ve yavaşlaması yönünde talimat geldi. Takımın bir deneme hakkı daha kalacağı varsayımıyla verdiği bu karar, hemen ardından yağmurun şiddetini artırmasıyla pahalıya patladı.<br><br>Seansın ardından basının karşısına geçen Russell, yaşadığı hayal kırıklığını gizlemedi:<br><br>\"Yaşanan tamamen bir iletişim kazasıydı. Yağmur bastırmadan önce önümüzde bir tur fırsatının daha olduğunu düşünmüştük. Çok tempolu bir turdaydım ancak Albon önüme çıkınca takımdan turu kesmem gerektiği söylendi. Tam o esnada hava şartları kötüleşti ve yağmur başladı. Bu gerçekten can sıkıcı. Nerede yanlış hesap yaptığımızı ve bu kararın arkasındaki gerekçeleri detaylıca analiz etmeliyiz.\"<br><br>Islak zemin koşullarında aracına ve temposuna son derece güvendiğini belirten Russell, şartların kendilerinden yana olduğunu ve en hızlı dereceyi elde edebilecek potansiyeli hissettiğini sözlerine ekledi.<br><br>Gelen talimata direnip tura devam etmeyi düşünüp düşünmediği sorulan 26 yaşındaki pilot, yarış stratejisinde karşılıklı güvenin esas olduğunu vurguladı:<br><br>\"Hava tahminleri ve radar ekranları benim değil, duvardaki ekibin önünde açık. Kokpitteyken takıma güvenmekten başka şansınız olmuyor. Geriye dönüp baktığımızda bunun hatalı bir hamle olduğu çok açık. Hatta karar alındığı anda bile pistteki yağışın arttığını hissedebiliyorduk. Doğal olarak en çok canı yanan direksiyondaki pilot oluyor ama bu bir ekip işi. Bugün kolektif bir hesaplama hatası yaptık ve takımda en az benim kadar üzgün olan çalışma arkadaşlarım var.\"<br><br>Hafta sonunun geri kalanına odaklanmaları gerektiğini hatırlatan Britanyalı pilot, \"Moralimizi bozmamalıyız. Pistte rekabetçi bir hız sergiledik ve asıl puanlar yarın dağıtılacak. Olumlu verilere odaklanıp yarışta elimizden geleni yapacağız,\" diyerek sözlerini tamamladı.",
+                "img": "Resimler/Formula 1 Haberler/1794127410902_IMG_0953.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 347,
                 "title": "2026 BREZİLYA GP: YAĞMUR ALTINDA GEÇEN SIRALAMA TURLARINDA POLE POZİSYONU NORRIS'İN",
                 "cat": "formula 1",
