@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 349,
+                "title": "LECLERC'TEN AÇIK SÖZLÜ İTİRAF: \"FERRARI YAĞMURDA HEP ÇARESİZ KALDI\"",
+                "cat": "formula 1",
+                "date": "2026-11-08 14:19",
+                "content": "Brezilya Grand Prix’si sıralama turlarında dördüncü cebi alan Charles Leclerc, elde ettiği dereceden tatmin olmadığını dile getirdi. Monakolu pilot, İtalyan ekibin yağışlı havalardaki performans zaafiyetine dikkat çekerken, Interlagos’ta toplanan kritik bilgilerin ilerleyen dönemde takıma ışık tutacağını aktardı.<br><br>Seansı dördüncü tamamlamanın kendisinde burukluk yarattığını belirten Leclerc, 10 sıralık grid cezası nedeniyle piste daha cesur ve deneysel yaklaşımlarla çıktıklarını ifade etti. Hangi noktalarda geride kaldıklarını ve neleri doğru yaptıklarını görmeleri açısından oldukça öğretici bir seans geçirdiklerini söyleyen 29 yaşındaki sürücü, bu deneyimin gelecek yarışlar adına faydalı bir kazanım olduğunu kaydetti.<br><br>Kariyerinin alt kategorilerinde ıslak zeminlerde fazlasıyla iddialı olduğunu hatırlatan Leclerc, Maranello merkezli ekipteki dokuz yıllık sürecinde tablonun tamamen tersine döndüğünü vurguladı:<br><br>\"Genç serilerde yağmur altındaki hızım en büyük gücümdü; fakat Ferrari bünyesinde geçirdiğim dokuz seneye baktığımda, ıslak zemin seansları istisnasız en zayıf karnımız oldu. Bu durum yalnızca mevcut regülasyonlarla alakalı değil; 2019’da da aynı dertten muzdariptik, 2023’te de, bugün de durum değişmedi. Temelde takımın yarış felsefesiyle ilgili bir tıkanıklık söz konusu.\"<br><br>Brezilya’daki teknik mücadelenin ötesinde Leclerc, yeni doğan bebeğiyle birlikte hayatının en büyülü günlerini yaşadığını da samimiyetle anlattı. Baba olmanın bakış açısını kökten değiştirdiğini dile getiren başarılı pilot, hislerini şu sözlerle paylaştı:<br><br>\"Kariyerimin ve yaşamımın belki de en özel haftasını geride bırakıyorum. Pistteki mücadele bir yana, evde sizi bekleyen bir hayat var ve böyle dönemlerde gerçekte neyin önemli olduğunu anlıyorsunuz. Kızıma kavuştuğum andan perşembe günü Fred ve Lewis ile masaya oturana dek aklımda sadece o vardı. Elbette kaskı takıp vizörü indirdiğiniz anda her şeyi unutup yarışa odaklanıyorsunuz; fakat inişli çıkışlı tüm anlarda aile, olaylara çok daha sağlıklı bir pencereden bakmanızı sağlıyor.\"",
+                "img": "Resimler/Formula 1 Haberler/1794136784992_IMG_0954.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 348,
                 "title": "MERCEDES'TE TELSİZ KRİZİ: GEORGE RUSSELL SAO PAULO'DA KAÇAN POLE POZİSYONUNUN ARDINDAKİ İLETİŞİM KAZASINI ANLATTI",
                 "cat": "formula 1",
