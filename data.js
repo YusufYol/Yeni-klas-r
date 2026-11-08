@@ -8324,6 +8324,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 350,
+                "title": "KATAR GP'DE ZAFER BEZZECCHI'NİN: MARQUEZ İKİNCİ, FERNANDEZ ÜÇÜNCÜ OLDU",
+                "cat": "motogp",
+                "date": "2026-11-08 21:15",
+                "content": "MotoGP takviminin heyecan dozu yüksek duraklarından Katar’da zafer, kusursuz bir yarış çıkaran Marco Bezzecchi’nin oldu. İtalyan sürücü, Losail Uluslararası Pisti’ndeki 22 turluk mücadeleyi baştan sona kontrol altında tutarak damalı bayrağı en önde görmeyi başardı.<br><br>Kırmızı ışıkların sönmesiyle birlikte mükemmel bir kalkışa imza atan Bezzecchi, ilk viraja lider girerek yarışın ritmini belirleyen isim oldu. Arka grupta ise ilk turlardan itibaren kıyasıya bir sıra kapma savaşı yaşandı. Startta Marc Marquez ikinciliğe yerleşse de Raul Fernandez hemen sonraki virajda agresif bir atakla ikincilik koltuğunu devraldı.<br><br>Yarışın henüz ikinci turunda Pedro Acosta’nın atağına yanıt veremeyen Marc Marquez dördüncülüğe kadar geriledi. Ancak Acosta’nın bu üstünlüğü uzun sürmedi; 6. turda yaşadığı lastik basıncı problemi nedeniyle temposu ciddi şekilde düşen çaylak sürücü, Marquez’in kendisini geçmesine karşı direnç gösteremedi. 17. tura gelindiğinde aynı teknik aksaklık nedeniyle Acosta bir sıra daha feda etmek zorunda kalarak Ai Ogura’ya geçildi.<br><br>Mücadelenin orta bölümünde Bezzecchi temposunu daha da artırdı. 10. turda kaydettiği 1:52.691’lik en hızlı turla birlikte hem lastiklerini korudu hem de takipçileriyle arasındaki mesafeyi açmaya başladı. Jorge Martin orta sıralarda 8. basamağa tırmanarak puan barajında ilerlerken, 15. turda Ogura, Enea Bastianini’yi geride bırakarak beşinciliğe tırmandı. Hemen ardından Diogo Moreira mekanik bir arızayla yarış dışı kalırken, Brad Binder da mücadeleye veda eden bir diğer isim oldu.<br><br>Son turlara girilirken lider Bezzecchi 3.5 saniyenin üzerine çıkardığı farkla galibiyeti büyük ölçüde garantiledi. Asıl heyecan ise podyumun diğer basamakları için yaşandı. Son üç tura girilirken aradaki farkı tamamen eriten Marc Marquez, ana düzlükte yaptığı cesur atakla Fernandez’i geride bırakarak ikinciliği kaptı.<br><br>Katar gecesinde damalı bayrağı ilk sırada gören Marco Bezzecchi görkemli bir galibiyete imza atarken, son anlardaki atağıyla Marc Marquez ikinci, güçlü bir tempo sergileyen Raul Fernandez ise podyumu tamamlayan üçüncü isim oldu.",
+                "img": "Resimler/MotoGP Haberler/1794161697389_IMG_0958.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 346,
                 "title": "2026 MOTOGP KATAR SPRİNT: MARQUEZ KAZANDI, BAGNAIA SERT BİR KAZAYLA VEDA ETTİ",
                 "cat": "motogp",
