@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 352,
+                "title": "21. SIRADAN PODYUMA UZANAN VERSTAPPEN: \"YARIŞIN BÜYÜK BÖLÜMÜNDE ARACIN DENGESİ FELAKETTİ\"",
+                "cat": "formula 1",
+                "date": "2026-11-09 14:44",
+                "content": "Sao Paulo Grand Prix'sinde gridin en arkalarından başlayıp podyumun ikinci basamağına tırmanan Max Verstappen, elde ettiği etkileyici sonuca rağmen RB22'nin dengesizliğine sert tepki gösterdi.<br><br>Yeni güç ünitesine geçişi nedeniyle yarışa 21. cepten başlayan Red Bull pilotu, Interlagos'ta yağmurun ve değişken zemin şartlarının damga vurduğu mücadelede peş peşe geçişlerle Lando Norris'in hemen arkasında ikinci sıraya kadar yükseldi. Ancak damalı bayrağın ardından telsizde duyulan ses, podyuma çıkan bir pilottan çok hayal kırıklığı yaşayan bir yarışçının öfkesini yansıtıyordu.<br><br>Yarış biter bitmez telsizden mühendislerine seslenen Hollandalı yıldız, \"Tanrım! Yarışın yüzde 85'ini tam anlamıyla berbat bir araçla tamamladım. İkincilik güzel ama bu şekilde değil. Bu aracı sürmek tam bir felaketti; ıslak ya da kuru zeminde hayatımda böyle bir şey tecrübe etmedim, gerçekten çok kötüydü\" sözleriyle yaşadığı sıkıntıyı açıkça dile getirdi.<br><br>Yarışın ardından düzenlenen basın toplantısında RB22'nin yol tutuş problemlerini detaylandıran Verstappen, ilk turlardaki güçlü tırmanışın ardından lastik değişimleriyle birlikte dengenin tamamen bozulduğunu vurguladı:<br><br>\"Bu kadar gerilerden start aldığınızda tek hedefiniz önünüzdeki araçları birer birer ve hızla geride bırakmaktır. İlk bölüm bizim adımıza kusursuz işledi; kısa süre içinde ilk 10 içerisine girmeyi başardık. Tempomuz başlangıçta gayet yerindeydi fakat kuru zemin lastiklerine geçtiğimiz andan itibaren yüksek hızlı virajlarda baş edemediğimiz bir önden kayma problemi başladı. Aracı pistte tutmak ve kontrol etmek inanılmaz derecede güçleşti.\"<br><br>Aracın tam potansiyelinde olması durumunda galibiyet mücadelesinin dahi mümkün olduğunu ima eden dünya şampiyonu, sözlerini şu şekilde tamamladı:<br><br>\"Günün sonunda ikinci bitirmek elbette kıymetli ve puan açısından harika. Ancak araç elime düzgün bir şekilde gelseydi çok daha fazlasını yapabileceğimi biliyordum. Ne yazık ki yarışın büyük kısmını kontrolü son derece zor bir araçla idare ederek bitirmek zorunda kaldım. Önümüzdeki yıl umarım buralardan değil, ait olduğumuz ön sıralardan başlarız.\"",
+                "img": "Resimler/Formula 1 Haberler/1794224660722_IMG_0963.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 351,
                 "title": "INTERLAGOS’TA YAĞMUR VE KAOSUN GALİBİ NORRIS: MERCEDES BEŞ YIL SONRA YENİDEN ŞAMPİYON!",
                 "cat": "formula 1",
