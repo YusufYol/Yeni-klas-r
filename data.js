@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 353,
+                "title": "VERSTAPPEN’DEN FERRARİ’YE GÖNDERME: “İKİ BİRİNCİ PİLOTLA ASLA ÇALIŞMAM!”",
+                "cat": "formula 1",
+                "date": "2026-11-10 12:28",
+                "content": "Formula 1’in yıldız isimlerinden Max Verstappen, takımlardaki pilot hiyerarşisi hakkında yaptığı açıklamalarla dikkatleri üzerine çekti. Hollandalı sürücü, bir takımda iki eşit statüde birinci pilot bulunmasının doğru olmadığını savunarak kendi yönetim anlayışını açıkça ortaya koydu.<br><br>Formula 1’de geçmişte sıkça uygulanan birinci ve ikinci pilot sistemi, son yıllarda yerini iki güçlü sürücünün aynı takımda mücadele ettiği yapılara bıraktı. Ancak bu durum, özellikle şampiyonluk hedefleyen ekiplerde zaman zaman takım içi sorunlara neden olabiliyor.<br><br>Ferrari’de Lewis Hamilton ile Charles Leclerc arasında yaşanan rekabet de bu tartışmanın yeniden gündeme gelmesini sağladı. Her iki pilotun da kazanma hedefiyle mücadele etmesi, takımın stratejik kararlarını zaman zaman zorlaştırabiliyor.<br><br>Konu hakkında görüşleri sorulan Verstappen, takım patronu olması durumunda iki birinci pilotla kesinlikle çalışmayacağını belirtti.<br><br>Hollandalı pilot, düşüncesini şu sözlerle ifade etti:<br><br>“Bunu daha önce de söyledim ve birçok kişi benimle aynı fikirde değil. Ancak takım patronu olsaydım, iki birinci pilotum asla olmazdı. Çünkü Ferrari’de Meksika’da Hamilton ile Leclerc arasında yaşananlar gibi durumlar ortaya çıkıyor.”<br><br>Verstappen, iki sürücünün de kendisini kazanabilecek konumda görmesinin takım içerisinde sorunlara yol açabileceğini belirterek sözlerini şöyle sürdürdü:<br><br>“İkisi de diğerine yol vermiyor çünkü ikisi de kazanabileceklerine inanıyor. Ben de böyleyim. Takım patronu olsaydım bu düzeni değiştirirdim.”<br><br>Red Bull pilotu, takım içerisindeki görev dağılımının sezon başından itibaren açıkça belirlenmesi gerektiğini düşünüyor. Verstappen'e göre birinci ve ikinci pilot ayrımının net olması, pist üzerindeki gereksiz rekabetin önüne geçebilir.<br><br>Bu konudaki yaklaşımını örnekle açıklayan 4 kez dünya şampiyonu, şu ifadeleri kullandı:<br><br>“Net bir şekilde belirlenmiş bir birinci ve ikinci pilot olsaydı, ilk viraja birinci ve ikinci sırada girer, yarışı da aynı pozisyonlarda tamamlarlardı. Ya da birinci ve üçüncü olabilirlerdi.”",
+                "img": "Resimler/Formula 1 Haberler/1794302894924_B4D2A1B5-3901-4BC3-9071-3C096FC3FB7D.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 352,
                 "title": "21. SIRADAN PODYUMA UZANAN VERSTAPPEN: \"YARIŞIN BÜYÜK BÖLÜMÜNDE ARACIN DENGESİ FELAKETTİ\"",
                 "cat": "formula 1",
