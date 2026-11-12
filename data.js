@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 357,
+                "title": "MERCEDES'TE YENİDEN DOĞUŞUN SIRRI 'GÜVEN': RUSSELL'DAN TOTO WOLFF'E LİDERLİK ÖVGÜSÜ",
+                "cat": "formula 1",
+                "date": "2026-11-12 13:10",
+                "content": "Mercedes, 2021 yılından bu yana süren şampiyonluk hasretine Sao Paulo Grand Prix'sinde son vererek 9. takımlar şampiyonluğunu ilan etti. Takımın yıldız pilotu George Russell'a göre, Brackley merkezli ekibin yeniden zirveye dönmesinin arkasındaki en büyük güç, kriz anlarında bile ekibine olan inancını yitirmeyen Toto Wolff'ün liderlik tarzı.<br><br>Bilindiği üzere Alman üretici, 2022-2025 yılları arasını kapsayan yer etkisi kural döneminde ciddi performans dalgalanmaları yaşamış ve alışık olduğu şampiyonluklardan uzak kalmıştı. Ancak bu sancılı dört yıllık süreçte takım içindeki kenetlenme hiç bozulmadı.<br><br>Performansın düştüğü o zor günlerde yaşananları değerlendiren Russell, kriz yönetimindeki başarısı nedeniyle takım patronu Wolff'ün hakkını teslim etti. İngiliz pilot, \"Son yıllarda gerçekten çok zorlu sınavlardan geçtik. Fakat Toto'nun liderliğinde en saygı duyduğum şey, zirvedeyken de, dibe vurduğumuzda da aynı insanlarla yola devam etmemiz oldu,\" ifadelerini kullandı. O dönemde panik halinde kimsenin işten çıkarılmadığına dikkat çeken Russell, \"Şampiyonluk tüm takımın başarısı ancak işlerin en ters gittiği anlarda bile ekibine gösterdiği o sarsılmaz sadakat ve güven için Toto'ya özel bir teşekkür borçluyuz.\" diyerek patronunu onurlandırdı.<br><br>Interlagos'taki zaferin ardından basının sorularını yanıtlayan Toto Wolff ise takımın istikrarı hakkındaki övgülere kendi penceresinden açıklık getirdi. Son dönemde ekibe taze kan olarak katılan yeni isimler de olduğunu hatırlatan Wolff, Mercedes'in içerideki çalışma kültürünü tanımlamak için 'güven ortamı' ifadesini seçti.<br><br>Takım olarak \"işe al-kov\" kültüründen çok uzak olduklarının altını çizen Avusturyalı yönetici, kalıcı başarının sırrını şu sözlerle özetledi: \"Biz, çalışanların potansiyellerini ortaya çıkarabildiği, hata yapmaktan korkmadığı ve fikirlerini tamamen şeffaf bir şekilde dile getirebildiği bir çalışma ekosistemi sunuyoruz. Sadece birkaç sezon değil, on yıllar boyunca bu sporda zirveye oynamak istiyorsanız, kurmanız gereken zihniyet tam olarak budur.\"",
+                "img": "Resimler/Formula 1 Haberler/1794478197914_IMG_1041.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 356,
                 "title": "HAMILTON'DAN 'HESAPLI DAVRANIYOR' DİYENLERE CEVAP: \"NABZIM 170 İKEN MANŞETLERİ DÜŞÜNEMEM!\"",
                 "cat": "formula 1",
