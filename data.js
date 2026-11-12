@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 358,
+                "title": "RACING BULLS'TA KADRO DEĞİŞMEDİ: LAWSON VE LINDBLAD 2027'DE DE PİSTTE!",
+                "cat": "formula 1",
+                "date": "2026-11-12 14:32",
+                "content": "Racing Bulls, 2027 Formula 1 sezonunda mücadele edeceği sürücü kadrosunu resmen açıkladı. Takım, başarılı bir uyum yakalayan Liam Lawson ve Arvid Lindblad ikilisiyle önümüzdeki yıl da devam etme kararı aldı.<br><br>Son dönemde padokta dolaşan dedikodular, Racing Bulls'un genç yetenek Nikola Tsolov ile masaya oturduğu ve Lawson'ın koltuğunun tehlikede olduğu yönündeydi. Tsolov'a sağlanan özel test imkanları da bu ayrılık söylentilerini oldukça alevlendirmişti. Ancak Yeni Zelandalı pilot Liam Lawson, gösterdiği istikrarlı performansla bu iddialara pist üstünde en güzel cevabı verdi. Özellikle son dönemde art arda ilk 10'a girerek takımına değerli puanlar kazandıran Lawson, takım yönetiminin kararında kilit rol oynayarak koltuğunu garantiledi.<br><br>Öte yandan, Formula 1'deki ilk yılında oldukça umut verici bir çaylak sezonu geçiren Arvid Lindblad da takımın güvenini boşa çıkarmadı ve ikinci sezonu için anlaşmayı cebine koydu.<br><br>Kararın duyurulmasının ardından değerlendirmelerde bulunan Takım Patronu Alan Permane, her iki pilotun da yıl boyunca sergilediği potansiyelden ve kaydettikleri gelişimden son derece memnun olduklarını belirtti. Permane, \"Bu ikilinin bizim için en doğru ve en iyi sürücü kadrosu olduğuna inancım tam. 2027'de hedeflerimize ulaşmak ve bu yılki ilerlememizin üzerine koyarak bir adım daha ileri gitmek adına elimizde çok sağlam bir temel var.\" ifadelerini kullandı.<br><br>Racing Bulls ile yola devam edeceği için büyük bir sevinç yaşadığını belirten Lawson, takımın hızlı bir araç üretmek için ortaya koyduğu çabaya vurgu yaptı. Markalar klasmanındaki beşincilik mücadelesinin tarihi bir anlam taşıdığına dikkat çeken yetenekli pilot, \"Fabrikadaki ve pistteki herkesin çok ciddi bir emeği var. Arvid ile birlikte inşa ettiğimiz bu güçlü ivmeyi 2027'ye taşımak için sabırsızlanıyorum.\" dedi.<br><br>F1'deki ilk yılını \"gerçekten özel bir deneyim\" olarak nitelendiren genç yetenek Arvid Lindblad ise, sezon öncesi testlerden bu yana çok büyük tecrübeler edindiğini ve önümüzdeki yıl bu birikimlerin üzerine koyarak Liam ile birlikte yarışacak olmaktan büyük heyecan duyduğunu dile getirdi.",
+                "img": "Resimler/Formula 1 Haberler/1794483111723_IMG_1042.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 357,
                 "title": "MERCEDES'TE BAŞARININ SIRRI 'GÜVEN': RUSSELL'DAN TOTO WOLFF'E LİDERLİK ÖVGÜSÜ",
                 "cat": "formula 1",
