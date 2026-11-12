@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 356,
+                "title": "HAMILTON'DAN 'HESAPLI DAVRANIYOR' DİYENLERE CEVAP: \"NABZIM 170 İKEN MANŞETLERİ DÜŞÜNEMEM!\"",
+                "cat": "formula 1",
+                "date": "2026-11-12 13:04",
+                "content": "Lewis Hamilton, Ferrari takım telsizinden yaptığı hararetli açıklamaların önceden planlanmış bir strateji olduğu yönündeki iddiaları kesin bir dille reddetti. Olaylı Meksika Grand Prix'sinin ardından konuşan İngiliz pilot, duygularını saklamayacağının ve doğru bildiğini söylemekten çekinmeyeceğinin altını çizdi.<br><br>Hatırlanacağı üzere Meksika'daki yarışın açılış turunda iki Ferrari pilotu karşı karşıya gelmiş; pisti keserek liderliği eline geçiren Charles Leclerc 5 saniye ceza alırken, Hamilton bu karmaşada kan kaybederek yarışı kazanan Max Verstappen'in arkasına düşmüştü. Mühendisi Carlo Santi'ye radyodan sert uyarılarda bulunan ve yarışın ardından takım arkadaşı Leclerc'in agresif tutumunu eleştirip acil toplantı çağrısı yapan yedi katlı dünya şampiyonu, bu tepkilerinin medyanın ilgisini çekmek için kurgulandığı eleştirilerine maruz kalmıştı.<br><br>Bu spekülasyonlara oldukça net bir cevap veren Hamilton, kokpit içindeki gerilimi şu sözlerle anlattı: \"Kimin ne düşündüğü gerçekten umurumda değil. Ben duygularını gizleyen biri değilim, o an içimden ne geçiyorsa onu söylerim. Saatte 200 mil hızla giderken ve nabzınız 170 civarındayken, ağzınızdan çıkacakları hesaplayacak ya da basının manşetlerini düşünecek vaktiniz olmaz.\"<br><br>Telsizden şikayet etmenin sadece kişisel bir tepki olmadığını, komiserler kurulunun da pilotlardan bunu talep ettiğini belirten tecrübeli sürücü, Meksika'daki antrenman turlarında Isack Hadjar ile yaşadığı bir olayı örnek gösterdi. Hadjar'ın ilk virajda yarış çizgisini ihlal ettiğini ancak kendisi telsizden tepki vermediği için olayın inceleme altına alınmadığını belirten Hamilton, \"Eğer kollarımı kaldırıp şikayet etseydim soruşturma açılır ve ceza alırdı. Bu yüzden gördüğümüz problemleri anında dile getirmemiz gerekiyor\" dedi.<br><br>Olaylı yarışın ardından Ferrari Takım Patronu Frederic Vasseur'ün yaşananları 'takıma saygısızlık' olarak nitelendirmesi dikkat çekmişti. Ancak Hamilton, bu uyarılara rağmen geri adım atmayacağını vurgulayarak sözlerini tamamladı:<br><br>\"Bazen anlık tepkiler verip sonrasında pişman olabilirsiniz ama samimi davrandığım için asla kimseden özür dilemeyeceğim. Bana kimse konuşma demedi. Bugüne kadar hiç susturulmadım ve bundan sonra da susturulmayacağım.\"",
+                "img": "Resimler/Formula 1 Haberler/1794477891102_IMG_1040.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 355,
                 "title": "PİRELLİ, PİLOTLARIN GERİ BİLDİRİMLERİ ÜZERİNE 2027 İÇİN ISLAK ZEMİN LASTİKLERİNİ GÜNCELLİYOR",
                 "cat": "formula 1",
