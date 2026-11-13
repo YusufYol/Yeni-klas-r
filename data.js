@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 360,
+                "title": "RED BULL VE RACİNG BULLS'UN YENİ YEDEK PİLOTU BELLİ OLDU: NIKOLA TSOLOV!",
+                "cat": "formula 1",
+                "date": "2026-11-13 11:03",
+                "content": "2027 Formula 1 sezonuna yönelik takım kadroları netleşmeye devam ederken, Red Bull cephesinden genç yetenek Nikola Tsolov'un kariyeri için dev bir adım geldi. Racing Bulls takımının önümüzdeki yıl Liam Lawson ve Arvid Lindblad ikilisiyle yarışacağını açıklamasının ardından, Bulgar sürücünün 2027 sezonu boyunca hem Red Bull Racing hem de Racing Bulls'un resmi yedek pilotu olarak görev yapacağı duyuruldu.<br><br>Tsolov'un bu prestijli göreve getirilmesi sürpriz olmadı. Geçtiğimiz yıl Formula 3'te Rafael Camara'nın ardından sezonu ikincilikle kapatan genç yıldız, bu yıl Formula 2'deki çaylak sezonunda adeta fırtına gibi esiyor. Sezonun bitimine Katar ve Abu Dabi yarışları kalmışken altı galibiyete ulaşan Tsolov, şampiyonluk yolunda Camara ve Alex Dunne ile kıyasıya bir rekabetin içinde.<br><br>Tsolov'un F1 kapılarını aralayan bir diğer önemli faktör ise Meksika Grand Prix'sinde piste çıkması oldu. İlk antrenman seansında Racing Bulls direksiyonuna geçen yetenekli pilot, çaylak Lindblad ile karşılaştırıldığında oldukça güçlü ve dikkat çekici bir performans sergileyerek takım yönetiminden tam not aldı.<br><br>Red Bull'un yaptığı resmi açıklamaya göre, 2027 yılı Tsolov için Formula 1 gridine atım atmadan önceki son büyük hazırlık kampı niteliğinde olacak. Bulgar pilot; simülatör gelişim çalışmaları, serbest antrenman seansları, eski araç testleri (TPC) ve özel lastik testlerinden oluşan oldukça yoğun bir mesai harcayacak. Temel amaç, Tsolov'u en üst seviyede yarışabilecek tam donanımlı bir F1 pilotu haline getirmek.<br><br>Kendisine duyulan güvenden dolayı Red Bull ailesine teşekkür eden Nikola Tsolov, vizyonunu net bir şekilde ortaya koydu: \"Amacım çok net, bir Formula 1 pilotu olmak istiyorum.\" Gelecek yılın kariyeri için kritik bir basamak olduğunu belirten genç sürücü, \"Takımın muazzam tecrübesi ve desteğiyle, zamanım geldiğinde F1 gridine adım atmaya hazır olacağımdan hiç şüphem yok. Bu fırsata sahip olmak inanılmaz heyecan verici.\" ifadelerini kullandı.<br><br>Red Bull Takım Patronu Laurent Mekies ise Tsolov'un kısa sürede gösterdiği gelişimden son derece etkilendiklerini gizlemedi. Bulgar pilotun yarış olgunluğuna ve öğrenme azmine dikkat çeken Mekies, “Hem F3'te hem de F2'deki ilk yılında şampiyonluğa oynaması, onun yeteneği ve kararlılığı hakkında her şeyi özetliyor. Nikola olağanüstü yetenekli bir isim ve F1'de çok parlak bir geleceği olduğuna inanıyoruz. 2027 yılındaki en büyük odak noktamız, ona bu yolda ihtiyaç duyduğu tüm deneyimi, araçları ve desteği eksiksiz şekilde sağlamak olacak.” diyerek genç pilota olan güvenlerini vurguladı.",
+                "img": "Resimler/Formula 1 Haberler/1794557020940_IMG_1063.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 359,
                 "title": "MERCEDES'TEN BREZİLYA RAPORU: PİLOTLARI YANILTAN 'TUHAF' ARAÇ DAVRANIŞININ SEBEBİ NEYDİ?",
                 "cat": "formula 1",
