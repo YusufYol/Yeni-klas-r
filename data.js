@@ -12,16 +12,6 @@ const APP_DATA = {
                 "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
             },
             {
-                "id": 363,
-                "title": "FORMULA 1 LAS VEGAS GP ÖNCESİ IŞILTILI YENİ KUPA GÖRÜCÜYE ÇIKTI",
-                "cat": "formula 1",
-                "date": "2026-11-14 15:07",
-                "content": "Formula 1 heyecanının yeni durağı olan Las Vegas Grand Prix’si için geri sayım sürerken, organizasyon komitesi yarışın kazananına takdim edilecek yeni kupayı basına tanıttı. Tasarımında kumarhaneler şehrinin dünyaca ünlü gece manzarasından ve ikonik neon ışıklarından ilham alınan kupa, dikkat çekici detaylarıyla öne çıkıyor.<br><br>Toplam 56 santimetre boyunda ve 3,6 kilogram ağırlığında olan birincilik ödülünün yapım süreci tam altı ay sürdü. Las Vegas Strip üzerindeki efsanevi neon tabelalardan esinlenilerek şekillendirilen kupanın gövdesinde 122 adet ayrı ışık yer alıyor. Bu ışıklar, kupanın formunu oluşturan \"V\" harfinin alt ucunda bir araya gelerek şehrin karakteristik silüetine atıfta bulunuyor.<br><br>Kupanın üretiminde, 2023-2025 dönemindeki Las Vegas GP ödüllerine de imza atan Bowen Studios ve Ore Designs stüdyolarıyla ortaklık sürdürüldü. Tasarım sürecinde geleneksel işçiliğin yanı sıra modern 3 boyutlu modelleme ve görselleştirme teknolojilerinden faydalanıldı.<br><br>Formula 1 Dünya Şampiyonası’nda sezonun son üç ayağından ilki olan Las Vegas Grand Prix’si, 19-21 Kasım tarihleri arasında koşulacak. Takımlar ve pilotlar, Amerika’daki bu gece yarışının ardından şampiyonayı tamamlamak üzere sırasıyla Katar ve Abu Dabi’ye hareket edecek.",
-                "img": "Resimler/Formula 1 Haberler/1794658039287_IMG_1108.jpeg",
-                "author": "Azra Şahin",
-                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
-            },
-            {
                 "id": 362,
                 "title": "SAN SİRO'DA UNUTULMAZ GECE: 70 BİN KİŞİNİN TEZAHÜRATI ANTONELLİ'Yİ AĞLATTI",
                 "cat": "formula 1",
