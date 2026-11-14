@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 362,
+                "title": "SAN SİRO'DA UNUTULMAZ GECE: 70 BİN KİŞİNİN TEZAHÜRATI ANTONELLİ'Yİ AĞLATTI",
+                "cat": "formula 1",
+                "date": "2026-11-14 12:36",
+                "content": "Formula 1 dünyasında kırdığı rekorlarla sezonun en çok konuşulan ismi haline gelen Andrea Kimi Antonelli, bu kez pistte değil, futbol tribünlerinde duygusal bir zafere imza attı. Yarış takvimindeki boşluğu ülkesinde değerlendiren 20 yaşındaki dünya şampiyonu, İtalya'nın UEFA Uluslar Ligi kapsamında Fransa'yı 3-1 mağlup ettiği mücadeleyi Milano'daki tarihi San Siro Stadyumu'ndan takip etti.<br><br>Karşılaşma devam ederken stadyumun dev ekranlarına Antonelli'nin görüntüsünün yansımasıyla birlikte tribünlerde adeta yer yerinden oynadı. 70 bin İtalyan futbolseverin hep bir ağızdan genç pilotun adını haykırması, şampiyon sürücüye büyük bir şaşkınlık ve gurur yaşattı. Beklemediği bu yoğun sevgi seli karşısında gözyaşlarını tutamayan Antonelli'nin kameralara yansıyan ilk tepkisi ise sadece \"Vay canına\" oldu. Şampiyonluk kupasını kaldırmasının ardından kendi ülkesinde halkıyla ilk kez bu denli büyük bir atmosferde buluşan İtalyan yıldız, kariyerinin en özel anlarından birine tanıklık etti.<br><br>Henüz 20 yaşında olmasına rağmen Meksika Grand Prix'sinde sezonun bitimine dört yarış kala mutlu sona ulaşan Antonelli, Formula 1 tarihinin en genç dünya şampiyonu unvanını eline geçirmişti. Bu tarihi başarı aynı zamanda motor sporlarında İtalya'nın 73 yıllık pilotlar şampiyonluğu hasretine de son vermişti.<br><br>Sezon boyunca sergilediği olgun performansla dikkat çeken genç yetenek, kendi evi Monza'da 19. sıradan start alıp zafere ulaşarak 60 yıl sonra İtalya'da yarış kazanan ilk İtalyan pilot olmayı da başarmıştı. Son olarak Brezilya'da elde ettiği beşincilikle Mercedes'in takımlar şampiyonluğunu garantilemesinde başrol oynayan Antonelli, San Siro'daki bu unutulmaz geceyle ülkesinde bir spor ikonuna dönüştüğünü bir kez daha kanıtladı.",
+                "img": "Resimler/Formula 1 Haberler/1794648954765_322EB795-841F-417A-B1BA-7F66A8E2CD40.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 361,
                 "title": "F1'DE ORTA DOĞU ENDİŞESİ: MERCEDES VE FERRARİ PERSONELİNE SEYAHAT ÖZGÜRLÜĞÜ TANIDI",
                 "cat": "formula 1",
