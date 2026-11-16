@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 371,
+                "title": "RALF SCHUMACHER’DEN GEORGE RUSSELL’A SERT ELEŞTİRİ: \"KOLTUĞUNU TOTO WOLFF’A BORÇLU\"",
+                "cat": "formula 1",
+                "date": "2026-11-16 18:29",
+                "content": "Formula 1 dünyasının tecrübeli yorumcusu Ralf Schumacher, 2026 sezonunda beklentilerin uzağında kalan Mercedes pilotu George Russell’ı mercek altına aldı. Sezon başında şampiyonluğun en güçlü adayı olarak görülen Britanyalı pilotun yaşadığı düşüşü değerlendiren Schumacher, Russell’ın takımdaki geleceğinin tamamen Toto Wolff ile kurduğu yakın ilişkiye dayandığını savundu.<br><br>Yeni teknik kuralların yürürlüğe girdiği 2026 sezonunda Mercedes cephesinde dengeler tamamen değişti. Genç yetenek Kimi Antonelli, istikrarlı grafiğiyle Meksika Grand Prix’sinde dünya şampiyonluğunu ilan ederek zirveye yerleşirken; teknik aksaklıklar, şanssızlıklar ve hız eksikliğiyle boğuşan Russell, Brezilya yarışının ardından Max Verstappen’e de geçilerek genel klasmanda üçüncü basamağa indi.<br><br>Katıldığı Backstage Boxengasse podcast programında çarpıcı ifadeler kullanan Schumacher, Russell’ın pist üstündeki performansının yanı sıra medya önündeki tutumunu da eleştirdi. Britanyalı pilotun derin bir hayal kırıklığı yaşadığını belirten Alman yorumcu, şu değerlendirmelerde bulundu:<br><br>\"Yaşadığı hayal kırıklığının ne kadar büyük olduğunu hem tavırlarından hem de açıklamalarından net bir şekilde görebiliyoruz. Şu an onun için işler tam anlamıyla bir kaosa dönüşmüş durumda. Umarım ailesi, kız arkadaşı ve yakın çevresi bu süreçte ona destek olur; çünkü bu çizgide devam ederse yaptığı açıklamalarla kendini iyice köşeye sıkıştıracak ve hatta koltuğunu kaybetme tehlikesiyle yüzleşecek.\"<br><br>Russell’ın mevcut tabloya rağmen takımda kalabilmesini bir şans olarak nitelendiren Schumacher, sözlerini şöyle sürdürdü:<br><br>\"Toto Wolff onun potansiyelini biliyor, onu uzun yıllardır tanıyor ve Antonelli’nin yanında istikrar sağlayacak bir ikinci pilota ihtiyaç duyuyor. Russell bu açıdan kendini şanslı sayabilir. Ancak mevcut gidişat hiç iç açıcı değil. Hem takım arkadaşının gerisinde kalıyor hem de gereğinden fazla konuşuyor; bu dışarıdan bakıldığında hiç hoş bir görüntü oluşturmuyor.\"<br><br>Mercedes yönetimi her ne kadar Britanyalı sürücünün hızına güvense ve gelecek yıl toparlanacağına inansa da son şampiyon Antonelli’nin yeni dönem araçlarına kusursuz uyumu Russell üzerindeki baskıyı her geçen gün büyütüyor.<br><br>2027 sezonunun sonunda kontratı sona erecek olan George Russell için önümüzdeki yıl, hem Formula 1’deki kariyerini sürdürmek hem de dünya şampiyonluğu hedefini canlı tutmak adına kritik bir dönüm noktası olacak.",
+                "img": "Resimler/Formula 1 Haberler/1794842953140_IMG_1167.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 370,
                 "title": "TOTO WOLFF, ANTONELLI’NİN ŞAMPİYONLUĞUNUN ARDINDAN CHRISTIAN HORNER’DAN GELEN TEBRİK MESAJINI PAYLAŞTI",
                 "cat": "formula 1",
