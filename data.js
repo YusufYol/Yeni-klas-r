@@ -8494,6 +8494,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 369,
+                "title": "APRILIA'NIN 2027 MOTOGP PROTOTİPİNDE DİKKAT ÇEKEN RADİKAL AERODİNAMİK TASARIM",
+                "cat": "motogp",
+                "date": "2026-11-16 15:46",
+                "content": "Aprilia'nın 2027 sezonu için geliştirdiği 850cc motor hacmine sahip yeni MotoGP prototipi, takımın test sürücüsü Lorenzo Savadori'nin yaptığı paylaşımla gün yüzüne çıktı. Savadori'nin ortaya koyduğu bu son versiyon, takımın yeni transferi Pecco Bagnaia ve Marco Bezzecchi tarafından 1 Aralık'taki kritik Valencia testinde kullanılacak.<br><br>2027 yılında yürürlüğe girecek olan daha sıkı aerodinamik kurallara rağmen, takımların bu alandaki inovasyon yarışı hız kesmeden devam ediyor. Instagram hesabı üzerinden Pirelli lastiklerinin kullanıldığı yeni makinenin görsellerini ve videosunu paylaşan Savadori'nin motosikletinde en çok dikkat çeken detay, çok katmanlı \"bıyık\" formundaki yeni ön kanat tasarımı oldu. Şu an yarışılan 1000cc'lik RS-GP modelinde \"kutu\" veya \"kapalı döngü\" olarak bilinen kanat yapısını tercih eden Aprilia'nın, yeni prototipte nisan ayındaki versiyona kıyasla çok daha karmaşık ve detaylı bir aero paketi hazırladığı görülüyor.<br><br>Geçtiğimiz hafta Jerez'de gerçekleştirilen test sürüşlerinde Ducati'den Nicolo Bulega'nın hemen arkasında en hızlı ikinci isim olan Savadori, takımın test ekibine de özel olarak teşekkür etti. İtalyan sürücü, arka planda verilen büyük emeğe vurgu yaparak, \"Spot ışıklarından uzak geçirdiğiniz uzun mesailer, tutkunuz, çalışma azminiz ve asla pes etmediğiniz için en içten teşekkürlerimi sunuyorum. Arka planda ne kadar büyük bir gayret gösterdiğinizi çok iyi biliyorum.\" ifadelerini kullandı.<br><br>MotoGP dünyasının gözü artık 1 Aralık'taki sezon sonu Valencia testinde. Tüm 2027 yarışçılarının katılımına açık olacak bu tek günlük organizasyon; resmi zamanlamanın yapılacağı, Pirelli lastiklerinin ve 850cc'lik yeni nesil motosikletlerin sahne alacağı ilk resmi test olma özelliğini taşıyor. Takımların aerodinamik tasarımları üzerindeki geliştirme çalışmalarının, gelecek sezon Buriram'da yapılacak açılış yarışına kadar yoğun bir şekilde sürmesi bekleniyor.",
+                "img": "Resimler/MotoGP Haberler/1794833181507_IMG_1150.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 350,
                 "title": "KATAR GP'DE ZAFER BEZZECCHI'NİN: MARQUEZ İKİNCİ, FERNANDEZ ÜÇÜNCÜ OLDU",
                 "cat": "motogp",
