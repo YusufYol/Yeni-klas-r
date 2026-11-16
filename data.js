@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 368,
+                "title": "HAAS'TA LAS VEGAS KOLTUĞU YENİDEN RAFAEL CAMARA'NIN!",
+                "cat": "formula 1",
+                "date": "2026-11-16 13:09",
+                "content": "Amerikalı Formula 1 takımı Haas, Brezilya'da direksiyon sallayan genç yetenek Rafael Camara'nın Las Vegas Grand Prix'sinde de takımla birlikte piste çıkacağını resmen duyurdu.<br><br>Geçtiğimiz haftalarda Interlagos'taki zorlu hava ve pist koşullarında kariyeri için önemli bir sınav veren Camara, elde ettiği tecrübeleri Las Vegas'ın sokaklarına taşımaya hazırlanıyor. Brezilya yarışının kendisi için çok değerli bir öğrenme süreci olduğunu vurgulayan genç pilot, \"Las Vegas'ta yeniden araca binmek için sabırsızlanıyorum. Şimdi asıl amacımız Brezilya'da attığımız temelin üzerine koyarak adım adım gelişmek ve her seanstan maksimum verimi almak.\" ifadelerini kullandı. Las Vegas'ın kendisi için tamamen bilinmez bir pist olduğuna da değinen Camara, öğrenmesi gereken çok şey olduğunu ancak hafta sonu boyunca gelişimini sürdürmek için elinden gelenin en iyisini yapacağını belirtti.<br><br>Camara'nın Haas ile olan bağları sadece bu kısa süreli fırsatlarla sınırlı kalmayacak gibi görünüyor. Brezilya basınının güvenilir kaynaklarından GE.globo ve Voando Baixo'nun kulis haberlerine göre; Ağustos ayında Portimao'da gerçekleştirilen testler, takım yönetimini fazlasıyla ikna etti. Henüz resmi bir duyuru yapılmamış olsa da, Camara'nın en büyük destekçisi Bradesco ile Haas arasında 2027 sezonu yarış koltuğu için şimdiden el sıkışıldığı ve anlaşmanın fiilen devreye girdiği iddia ediliyor.<br><br>Öte yandan Haas, Las Vegas Grand Prix'sinin ilk antrenman seansında aracın kokpitini Japon pilot Ryo Hirakawa'ya emanet edeceğini de açıkladı.",
+                "img": "Resimler/Formula 1 Haberler/1794823754844_IMG_1146.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 367,
                 "title": "SZAFNAUER'DEN ÇARPICI FERRARİ ANALİZİ: \"HAMILTON DOĞRU SİSTEMDEN GELDİ, BU HATALARI KABULLENEMEZ\"",
                 "cat": "formula 1",
