@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 370,
+                "title": "TOTO WOLFF, ANTONELLI’NİN ŞAMPİYONLUĞUNUN ARDINDAN CHRISTIAN HORNER’DAN GELEN TEBRİK MESAJINI PAYLAŞTI",
+                "cat": "formula 1",
+                "date": "2026-11-16 15:50",
+                "content": "Mercedes Takım Patronu Toto Wolff, genç pilotu Andrea Kimi Antonelli’nin Meksika Grand Prix’sinde 2026 Formula 1 Dünya Şampiyonluğu’nu ilan etmesinin ardından eski Red Bull patronu Christian Horner’ın kendisine tebrik mesajı gönderdiğini açıkladı.<br>Geçmişte, özellikle 2021 Abu Dabi finalinde zirveye çıkan sert rekabetleriyle bilinen ikilinin arasındaki bu temas dikkat çekti. 2025 sezonunun ortasında Red Bull’daki görevinden ayrılan ve o dönemden bu yana padoka dönüş için yaptığı girişimlerden sonuç alamayan Horner, eski rakibinin tarihi başarısına kayıtsız kalmadı.<br><br>Meksika’da zafere ulaşarak Sebastian Vettel’in 2010’da Red Bull ile kırdığı rekoru geride bırakan Antonelli, Formula 1 tarihinin en genç dünya şampiyonu unvanını elde ederken Mercedes’in de altı yıllık şampiyonluk özlemine son vermişti.<br><br>Alman Bild gazetesine konuşan Wolff, Horner’ın kendisiyle iletişime geçip geçmediği yönündeki soruyu doğrulayarak şu ifadeleri kullandı: \"Evet, bana mesaj attı ama bu durum beni şaşırtmadı. Christian ile aramızda saygıya dayalı bir ilişki var, geçmişteki rekabet döneminde de bu böyleydi.\"<br><br>Wolff, eski Red Bull yöneticisinin mesajında tam olarak ne yazdığını da şu sözlerle aktardı: \"'Tebrikler. Kimi bu yıl inanılmaz bir performans sergiledi ve onu bu kadar genç yaşta destekleme cesareti gösterdiğiniz için size saygı duyuyorum.'\"<br><br>Mercedes, Formula 2’de yalnızca bir sezon geçiren Antonelli’yi 2025 yılında doğrudan ana takıma yükseltme kararı nedeniyle yoğun eleştirilere maruz kalmıştı. 2026 sezonu başlarken şampiyonluğun ana favorisi olarak takım arkadaşı George Russell gösteriliyordu.<br><br>Sürecin zorluklarına değinen Wolff, genç sürücüye olan inançlarını hiçbir zaman kaybetmediklerini ancak ona ayrıcalıklı bir konfor alanı da sunmadıklarını vurguladı: \"Sadece biz değil, özellikle Kimi büyük bir baskı altındaydı. Hatta bazıları onun yeteneğini sorguladı ve Formula 1'i, özellikle de Mercedes gibi zirveye oynayan bir takımı hak etmediğini öne sürdü. Ancak biz ondan bir saniye bile şüphe etmedik. Elbette bu, ona her şeyin hazır sunulduğu, kaygısız bir ortam yarattığımız anlamına gelmiyor; kendisinden somut sonuçlar beklediğimiz en başından beri açıktı.\"",
+                "img": "Resimler/Formula 1 Haberler/1794833428835_IMG_1151.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 368,
                 "title": "HAAS'TA LAS VEGAS KOLTUĞU YENİDEN RAFAEL CAMARA'NIN!",
                 "cat": "formula 1",
