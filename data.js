@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 367,
+                "title": "SZAFNAUER'DEN ÇARPICI FERRARİ ANALİZİ: \"HAMILTON DOĞRU SİSTEMDEN GELDİ, BU HATALARI KABULLENEMEZ\"",
+                "cat": "formula 1",
+                "date": "2026-11-16 13:04",
+                "content": "İtalya ve Meksika Grand Prix'lerinin ilk turlarında pilotları arasında yaşanan temaslarla gündeme oturan Ferrari'de, asıl sorunun pist üstünde değil pit duvarında olduğu konuşuluyor. Takım patronu Fred Vasseur, Brezilya GP'si öncesi suları durultmak adına pilotlarla bir araya gelip takım içi yaklaşımın değişmediğini vurgulasa da, dışarıdan gelen eleştirilerin ardı arkası kesilmiyor.<br><br>Konuyu 'High Performance Racing' podcast'inde masaya yatıran Formula 1'in tecrübeli isimlerinden eski takım patronu Otmar Szafnauer ve eski Ferrari yarış mühendisi Rob Smedley, İtalyan ekibinin zayıf karnı olan yarış içi stratejileri değerlendirdi.<br><br>Eski Ferrari çalışanı Smedley, son dört sezonu baz alarak yaptığı kıyaslamada oldukça net konuştu: \"Mercedes ve Red Bull'un yarış içi kararlarına baktığınızda, Ferrari'den çok daha başarılı bir operasyon yürüttüklerini açıkça görebilirsiniz.\"<br><br>Ferrari pit duvarına duyulan güvensizliğin en somut örneği Singapur'da yaşanmış; Lewis Hamilton takımın pit çağrısını reddederek kendi bildiğini okumuş ve sonucunda ikincilikten altıncılığa kadar gerilemişti. Szafnauer'e göre Hamilton'ın takımın kararlarına itaat etmemesinin altında, Charles Leclerc ile aralarındaki tecrübe ve beklenti farkı yatıyor.<br><br>Leclerc'in kariyeri boyunca sadece Ferrari'de yarıştığı için bu tarz strateji zafiyetlerini artık kanıksadığını belirten Szafnauer, durumu şu sözlerle özetledi:<br><br>\"Eğer elinizde harika bir araç, teknoloji ve ekip varsa, 10 yarışın sekizinde doğru stratejiyi kurmanız gerekir. Lewis, Mercedes'te tam olarak böyle bir ortamdan, doğruların yapıldığı bir sistemden geldi. Bu yüzden pit duvarında hatalar yapıldığında sadece hayal kırıklığı yaşamakla kalmıyor; tecrübesine dayanarak takıma 'Bakın, ben bunun çok daha iyi yapılabileceğini biliyorum' diyerek tepkisini koyuyor. Charles ise başka bir takım bilmediği için bu durumu çoktan normalleştirmiş ve alışmış durumda.\"",
+                "img": "Resimler/Formula 1 Haberler/1794823437462_IMG_1145.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 366,
                 "title": "HAMILTON'IN GÖZÜ 2027'DE: \"PİLOTLAR KLASMANI ÖNEMSİZ, ASIL HEDEF FERRARİ İLE İKİNCİLİK\"",
                 "cat": "formula 1",
