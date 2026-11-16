@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 366,
+                "title": "HAMİLTON'IN GÖZÜ 2027'DE: \"PİLOTLAR KLASMANI ÖNEMSİZ, ASIL HEDEF FERRARİ İLE İKİNCİLİK\"",
+                "cat": "formula 1",
+                "date": "2026-11-16 11:58",
+                "content": "Kimi Antonelli'nin dünya şampiyonluğunu ilan etmesinin ardından Lewis Hamilton, sezonun geri kalanındaki stratejisini tamamen Ferrari'nin geleceğine ve takımın başarısına adadığını duyurdu. Yedi kez dünya şampiyonu olan tecrübeli pilot, bireysel sıralamalar yerine aracın 2027 yılındaki gelişimine odaklanmayı seçti.<br><br>Pilotlar şampiyonasını ikinci sırada tamamlama ihtimali sorulduğunda Hamilton, zirvede yer almadığı sürece diğer derecelerin kendisi için hiçbir anlam ifade etmediğini açıkça belirtti. İngiliz pilota göre şu anki tek ve en önemli amaç, Ferrari'nin takımlar klasmanında ikinciliği elde etmesini sağlamak. Bu sonucun takım tarafından fazlasıyla hak edildiğini savunan Hamilton, geçen yıla göre kaydedilen bu büyük ilerlemenin, önümüzdeki sezonlar için çok sağlam bir temel oluşturacağına inanıyor.<br><br>Kalan yarış takvimini gelecek yılın bir provası ve test süreci olarak değerlendiren başarılı sürücü, mühendislerle fabrikada ve pistte yoğun bir mesai harcıyor. Bu sezonki şasinin çok başarılı olduğuna dikkat çeken Hamilton, aracın güçlü dinamiklerini kaybetmeden genel performansı nasıl bir üst seviyeye taşıyabilecekleri konusunda teknik ekiple sürekli fikir alışverişinde bulunduğunu vurguladı.<br><br>2027 sezonu için kafasındaki hedefleri de netleştiren yıldız isim, özellikle fren ayarları ve motor gelişimi üzerinde duruyor. Bu yılki araçta kusursuz bir dayanıklılık yakaladıklarını ancak motor gücü anlamında biraz geride kaldıklarını itiraf eden Hamilton; önümüzdeki yıl Mercedes ve Red Bull ile dişe diş çarpışabilecek, her alanda çok daha iddialı ve güçlü bir araç yaratmak için aralıksız çalıştıklarını sözlerine ekledi.",
+                "img": "Resimler/Formula 1 Haberler/1794819534843_IMG_1139.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 365,
                 "title": "MAX VERSTAPPEN'DEN DEV İŞ BİRLİĞİ: VDK GROUP'UN YENİ MARKA ELÇİSİ OLDU",
                 "cat": "formula 1",
