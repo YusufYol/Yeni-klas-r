@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 373,
+                "title": "WILLIAMS'TAN LAS VEGAS GP'SİNE ÖZEL \"ATLASSIAN\" İMZALI GÖZ ALICI RENK DÜZENİ!",
+                "cat": "formula 1",
+                "date": "2026-11-17 11:26",
+                "content": "Formula 1'de heyecan bu hafta sonu Las Vegas Grand Prix'si ile devam ederken, takımların bu görkemli yarışa yönelik özel hazırlıkları da gün yüzüne çıkıyor. Hafta sonuna özel renk düzenini tanıtan ekiplerden biri de Williams oldu.<br><br>İngiliz ekip, Las Vegas'ın ışıltılı atmosferine uygun olarak hazırladığı bu özel tasarımı teknoloji ortağı Atlassian ile birlikte geliştirdi. Aracın yeni görünümünde, gövde ve motor kapağı boyunca uzanan gökkuşağı renklerindeki dinamik vurgular ve şık lacivert detaylar ön plana çıkıyor. Gece yarışının doğası gereği araca eklenen yansıtıcı yüzeyler, Las Vegas Pisti'nin ikonik aydınlatmaları altında ışığı en iyi şekilde yakalayabilmesi için stratejik olarak özel konumlandırıldı.<br><br>Williams Takım Patronu James Vowles, bu yeni tasarımın takımın köklü geçmişi ve gelecek vizyonu arasında bir köprü kurduğunu belirterek şu açıklamalarda bulundu:<br><br>\"Bir sonraki hedefimiz sadece yeniden doğmak değil; ekibimizin paylaştığı bilgi, birikim ve deneyimden yararlanarak bulunduğumuz noktadan ileriye doğru sağlam adımlarla gelişmek. Atlassian ile birlikte çalışarak neredeyse 50 yıllık geçmişimizi gün yüzüne çıkarmaktan ve bunu geleceğimiz için güçlü bir motivasyon kaynağı olarak kullanmaktan büyük gurur duyuyoruz.\"<br><br>Vowles, yeni tasarımın pistteki duruşuyla ilgili heyecanını ise, \"Bu etkileyici tasarım tam olarak hedeflerimizi yansıtıyor. Aracımızın Las Vegas Strip'in parlak ışıkları altında piste çıkışını görmek için sabırsızlanıyorum.\" sözleriyle dile getirdi.",
+                "img": "Resimler/Formula 1 Haberler/1794903997343_IMG_1199.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 372,
                 "title": "FORMULA 1'DE YENİ DÖNEMİN KAPISI ARALANIYOR: V8 MOTORLARA DÖNÜŞ İÇİN GÖRÜŞMELERE BAŞLANDI!",
                 "cat": "formula 1",
