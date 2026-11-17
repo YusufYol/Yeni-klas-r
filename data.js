@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 372,
+                "title": "FORMULA 1'DE YENİ DÖNEMİN KAPISI ARALANIYOR: V8 MOTORLARA DÖNÜŞ İÇİN GÖRÜŞMELERE BAŞLANDI!",
+                "cat": "formula 1",
+                "date": "2026-11-17 10:34",
+                "content": "Formula 1 dünyası, taraftarların yıllardır özlemini çektiği o yüksek motor seslerine yeniden kavuşabilir. FIA ve F1 motor üreticileri, serinin gelecekteki güç ünitesi kurallarını şekillendirmek üzere son derece kritik bir zirvede bir araya geldi. Gündemin bir numaralı maddesi ise V8 motorların piste geri dönme ihtimali ve yeni nesil güç ünitelerinin teknik alt yapısı.<br><br>Motorsporları kulislerine yansıyan son gelişmelere göre, takımlar ve FIA yeni nesil motorların daha uygun maliyetli, daha basit bir mekanik yapıya sahip ve seyir zevkini artıracak yönde olması gerektiği konusunda ortak bir vizyonda buluştu. Bu hedefler doğrultusunda masaya gelen en dikkat çekici teknik taslak ise 2.1 litrelik V8 içten yanmalı motorlara geçiş yapılması.<br><br>Üreticilerin AR-GE maliyetlerini patlatmamak adına zekice bir formül üzerinde duruluyor: Tamamen sıfırdan bir V8 tasarlamak yerine, şu an araçlarda bulunan 1.6 litrelik V6 motor mimarisine iki silindir daha eklenerek yeni motorun temelinin atılması planlanıyor.<br><br>Teknik değişiklikler sadece silindir sayısıyla sınırlı değil. Yeni dönemde daha küçük boyutlu bir turbo kullanılması ve turbo basıncının aşağı çekilmesi hedefleniyor. Bununla birlikte, elektrik motorunun rolü de azaltılacak. Mevcut sistemde 350 kW olan hibrit gücünün 200 kW seviyesine düşürülmesi planlar dahilinde.<br><br>Dikkat çeken bir diğer detay ise bu gücün kullanımıyla ilgili. Pilotlar 200 kW'lık elektrik desteğinin tamamını her an kullanamayacak. Standart sürüş koşullarında 100 kW'lık enerji devrede olurken, geriye kalan 100 kW'lık ekstra güç adeta bir \"geçiş modu\" gibi sadece atak yaparken veya savunma anlarında pilotun inisiyatifiyle tetiklenebilecek.<br><br>Zirvedeki görüşmelerde her fikir üreticilerden onay almadı. Maliyetleri düşürmek adına ortaya atılan, \"motorun temel blok tasarımının ve üretiminin tek bir bağımsız tedarikçiye verilip, markaların sadece bu bloğu geliştirmesi\" fikri masada kabul görmedi ve reddedildi.<br><br>Peki bu köklü değişim ne zaman hayata geçecek? Başlangıçtaki beklentiler, mevcut V6 hibrit kurallarının 2030 sezonunun sonuna kadar gridde kalması yönündeydi. Ancak FIA Başkanı Mohammed Ben Sulayem'in V8 motorları 2030 yılı itibarıyla yeniden spora kazandırma arzusu biliniyor. Devam eden bu kritik görüşmelerin tamamlanmasıyla birlikte, Formula 1'in yeni motor yol haritasının ve net takvimin resmiyet kazanması bekleniyor.",
+                "img": "Resimler/Formula 1 Haberler/1794900896529_IMG_1194.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 371,
                 "title": "RALF SCHUMACHER’DEN GEORGE RUSSELL’A SERT ELEŞTİRİ: \"KOLTUĞUNU TOTO WOLFF’A BORÇLU\"",
                 "cat": "formula 1",
