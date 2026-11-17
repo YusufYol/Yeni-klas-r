@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 379,
+                "title": "CADILLAC, LAS VEGAS GRAND PRIX İÇİN HAZIRLADIĞI ÖZEL YARIŞ TASARIMINI DUYURDU",
+                "cat": "formula 1",
+                "date": "2026-11-17 18:41",
+                "content": "Formula 1’in yeni üyesi Cadillac, Las Vegas Grand Prix’si öncesinde bu ayağa özel hazırladığı yeni tasarımını tanıttı. Klasik siyah, beyaz ve krom renk paletiyle mücadele eden Amerikan ekibi, motor sporlarının en gözde gece yarışlarından biri olan Las Vegas'ın neon ışıklarına yakışacak yenilikçi detaylarla karşımıza çıkıyor.  <br><br>Las Vegas'ta pistin tozunu attırmaya hazırlanan Cadillac, ikonik beyaz ana gövdesini korurken, özellikle aracın arka bölümünde ve motor kapağında ufuk açıcı dokunuşlara yer verdi. Takımın boya ortağı SPT iş birliğiyle geliştirilen özel kaplamada, sanki şeffaf plastik panellerin ardındakiler görülüyormuş gibi Füturistik ve yarı saydam bir görünüm elde edildi. Bu sayede hayranlara aracın yüzeyinin altına adeta bir bakış atma hissi sunuluyor.  <br><br>Klasik monokrom tarzının dışına çıkarak Silverstone'daki özel görünümün ardından bu sezon ikinci kez ana renk paletinin dışına çıkan Cadillac, Las Vegas’ın neon atmosferine uyum sağlayan yumuşak ama dikkat çekici tonları tercih etti. Küresel ölçekte markasını tanıtmaya devam eden yeni takım, bu özel tasarımle birlikte pistte hem estetik hem de iddialı bir duruş sergilemeyi hedefliyor.  <br><br>Valtteri Bottas ve Sergio Pérez’in direksiyonuna geçeceği araçların, Las Vegas Strip’in nefes kesen aydınlatması altında nasıl bir performans sergileyeceği şimdiden büyük bir merakla bekleniyor.",
+                "img": "Resimler/Formula 1 Haberler/1794930108368_IMG_1239.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 378,
                 "title": "MCLAREN'DEN MOTOR ÜRETİMİ İDDİALARINA NET YANIT: \"MERCEDES İLE YOLA DEVAM, RİSKE GEREK YOK\"",
                 "cat": "formula 1",
