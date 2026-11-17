@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 374,
+                "title": "AMR24 LAS VEGAS'TA BEYAZ OLACAK: ASTON MARTIN'DEN ÖZEL TASARIM",
+                "cat": "formula 1",
+                "date": "2026-11-17 11:36",
+                "content": "Aston Martin Formula 1 Takımı, bu hafta sonu koşulacak olan Las Vegas Grand Prix'si için geleneksel yeşil kimliğinden sıyrılarak sürpriz bir tasarımla piste inmeye hazırlanıyor. Takım, teknoloji ortağı CoreWeave ile iş birliği içinde hazırladığı beyaz ağırlıklı özel renk düzenini resmen tanıttı.<br><br>Alışılagelmiş yeşil rengin büyük ölçüde yerini beyaza bıraktığı bu yeni tasarım, yalnızca estetik bir tercih olmanın ötesinde anlamlar taşıyor. Aston Martin yetkilileri, bu görünümün hava akış dinamiklerini görsel olarak temsil ettiğini belirtiyor. Özel tasarım, aynı zamanda CoreWeave'in bulut altyapısı sayesinde takımın arka planda yürüttüğü aerodinamik modelleme çalışmalarına doğrudan bir atıfta bulunuyor.<br><br>Bu çarpıcı değişikliğin ve iş birliğinin vizyonunu değerlendiren Aston Martin ticari ve pazarlama genel müdürü, Las Vegas'ın bu benzersiz tasarımı tüm dünyaya sergilemek için kusursuz bir sahne olduğunu vurguladı. Asıl heyecan verici gelişmelerin garajın perde arkasında yaşandığını belirten yetkili, CoreWeave'in hem mühendisler arası yarış içi iletişimde hem de aerodinamik gelişim süreçlerinde takımın çalışma pratiklerini baştan aşağı nasıl dönüştürdüğünün altını çizdi.<br><br>Bu hamlenin sadece \"teknoloji kullanmış olmak için\" yapılmadığını da sözlerine ekleyen genel müdür, asıl amacın yeni fırsatların kapısını aralamak ve pistte mümkün olanın sınırlarını sonuna kadar zorlamak için gereken araçlara sahip olmak olduğunu ifade etti.",
+                "img": "Resimler/Formula 1 Haberler/1794904582985_IMG_1198.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 373,
                 "title": "WILLIAMS'TAN LAS VEGAS GP'SİNE ÖZEL \"ATLASSIAN\" İMZALI GÖZ ALICI RENK DÜZENİ!",
                 "cat": "formula 1",
