@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 375,
+                "title": "LAS VEGAS GP HEYECANI BAŞLIYOR: FORMULA 1 YAYIN PROGRAMI VE ŞAMPİYONADA SON DURUM",
+                "cat": "formula 1",
+                "date": "2026-11-17 11:47",
+                "content": "Formula 1, bir haftalık aranın ardından 20-22 Kasım tarihleri arasında Las Vegas Cadde Pisti'nde koşulacak sezonun 21. yarışı ile geri dönüyor. Amerika kıtasındaki bu son yarışın ardından sezonun, henüz kesinleşmemekle birlikte Katar ve Abu Dabi yarışlarıyla tamamlanması planlanıyor.<br><br>Brezilya'daki son yarışta Lando Norris, McLaren ile güçlü bir performans sergileyerek zirvede yer almış, Red Bull ise iki pilotuyla birden podyuma çıkmayı başarmıştı. Hatırlanacağı üzere, Kimi Antonelli'nin sürücüler şampiyonluğunu ilan etmesinin ardından takımı Mercedes de takımlar şampiyonluğunu garantileyerek beş yıllık aradan sonra yeniden zirvenin sahibi olmuştu.<br><br>Şampiyonlar belli olsa da, sezonun tamamlanmasına üç yarış kala ikincilik mücadelesi tüm hızıyla sürüyor. Pilotlar klasmanında Max Verstappen 279 puanla ikinci sırada yer alıyor. Ancak Hollandalı pilotu, 262 puanla George Russell ve 261 puanla Lewis Hamilton oldukça yakından takip ediyor. Takımlar şampiyonasında ise ikinci sıradaki Ferrari, bir alt sıradaki Red Bull ile arasındaki 95 puanlık fark sayesinde nispeten daha rahat bir konumda.<br><br>Las Vegas caddelerinde gerçekleşecek yarışın ikincilik tablosunu nasıl etkileyeceği merak konusu. Türkiye saatiyle sabaha karşı koşulacak Las Vegas Grand Prix'sinin detaylı yayın programı ise şu şekilde:<br><br>2026 Las Vegas GP Hafta Sonu Programı:<br><br>20 Kasım Cuma<br> 1. Antrenman Seansı: 03.30 (F1 TV / beIN SPORTS 4)<br> <br>2. Antrenman Seansı: 07.00 (F1 TV / beIN SPORTS 4)<br><br>21 Kasım Cumartesi<br> 3. Antrenman Seansı: 03.30 (F1 TV / beIN SPORTS 4)<br><br> Sıralama Turları: 07.00 (F1 TV / beIN SPORTS 4)<br><br>22 Kasım Pazar<br> Yarış: 07.00 (F1 TV / beIN SPORTS 4)",
+                "img": "Resimler/Formula 1 Haberler/1794905245060_IMG_1200.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 374,
                 "title": "AMR24 LAS VEGAS'TA BEYAZ OLACAK: ASTON MARTIN'DEN ÖZEL TASARIM",
                 "cat": "formula 1",
