@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 378,
+                "title": "MCLAREN'DEN MOTOR ÜRETİMİ İDDİALARINA NET YANIT: \"MERCEDES İLE YOLA DEVAM, RİSKE GEREK YOK\"",
+                "cat": "formula 1",
+                "date": "2026-11-17 17:00",
+                "content": "Formula 1'de son yıllarda yakaladığı büyük çıkışla dikkatleri üzerine çeken McLaren, güç ünitesi stratejisinde radikal bir değişiklik yapmayı düşünmüyor. Takımın CEO'su Zak Brown, Red Bull'un kendi motorunu üretme hamlesine rağmen bu yola girmeyeceklerini net bir şekilde ifade etti.<br><br>Tarihi boyunca 10 farklı motor üreticisiyle piste çıkan ve 1013 yarışlık F1 serüveninin 484'ünde Mercedes teknolojisine güvenen Woking merkezli ekip, Alman üreticiyle olan iş birliğinden oldukça memnun. 1995-2014 yılları arasındaki ilk uzun soluklu ortaklığın ardından Honda ve Renault dönemleri yaşayan McLaren, 2021'de yeniden Mercedes'e dönmüştü. Bu hamle, takımın hem takımlar hem de pilotlar şampiyonluğuna uzanan zafer zincirinin en önemli yapı taşlarından biri oldu.<br><br>Öte yandan, Red Bull'un kendi güç ünitesini üretme kararı ve bu hamlenin getirdiği erken başarılar padokta farklı tartışmaları beraberinde getirdi. Ancak Zak Brown, her üreticinin bu süreçte aynı şansı yakalayamayabileceğine dikkat çekti. Aston Martin'in yaşadığı zorlukların net bir uyarı niteliği taşıdığını belirten Brown, risk ile ödül dengesini iyi tartmak gerektiğini vurguladı.<br><br>F1 Show'a verdiği röportajda mevcut yapılarından ödün vermeyeceklerini belirten Brown, \"Şu anda kendi motorumuzu üretmek gibi bir planımız yok. Mercedes HPP ile çalışmaktan son derece memnunuz\" dedi.<br><br>\"Müşteri motoruyla şampiyonluk kazanılamayacağı yönündeki efsaneyi tamamen çürüttüğümüzü düşünüyorum\" diyerek sözlerini sürdüren deneyimli yönetici, \"İnsanların artık bu konuda endişelenmesine gerek yok. Red Bull'un yolundan gidip başarılı olabilirsiniz, ancak Aston Martin'in düştüğü zor durumda kalma ihtimaliniz de var. Mercedes ile zirveye çıkabileceğumizi zaten biliyoruz; bu yüzden riske girmeye değer mi, emin değilim. Sezon başında yaşadığımız bazı ufak problemleri kendi motorumuzla çok daha hızlı çözebilirdik, ancak bu işi yanlış yaptığınızda ortaya çıkacak maliyet ve sonuçlar çok ağır olabilir\" değerlendirmesinde bulundu.",
+                "img": "Resimler/Formula 1 Haberler/1794924030691_IMG_1228.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 377,
                 "title": "FERNANDO ALONSO VE SÉBASTIEN LOEB, ASTON MARTIN İLE 2027 DAKAR RALLİSİ'NE KATILIYOR!",
                 "cat": "formula 1",
