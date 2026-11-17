@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 380,
+                "title": "2030 SEZONUNDA FORMULA 1’DE V8 MOTOR DÖNEMİ YENİDEN BAŞLIYOR!",
+                "cat": "formula 1",
+                "date": "2026-11-17 20:26",
+                "content": "Formula 1 dünyasında uzun süredir kapalı kapılar ardında yürütülen motor konsepti tartışmalarında tarihi bir eşik atlandı. Uluslararası Otomobil Federasyonu , 2030 yılından itibaren F1’in saf V8 motor mimarisine geri dönmesi konusunda taraflarla prensip anlaşmasına varıldığını duyurdu. Daha önce geçiş takvimi için 2031 yılı işaret edilirken, yeni kararla birlikte bu devrim niteliğindeki dönüşümün 2030 sezonuna çekilmesi kesinleşti.<br><br>2026 sezonuyla birlikte hayatımıza giren mevcut teknik regülasyonlar, 1,6 litrelik turbo V6 hibrit yapısını korurken elektrik enerjisi oranını yukarı taşımıştı. Ancak güç ünitelerinin aşırı karmaşıklaşması, enerji yönetimi yönetimindeki labirentler ve takımlara binen maliyet yükü, padok içindeki eleştirileri de beraberinde getirdi. Sürdürülebilirlik hedeflerinden ödün vermeden sporun özüne dönme çağrıları, FIA yönetimini harekete geçiren ana etken oldu.<br><br>Sürecin en büyük destekçisi olan FIA Başkanı Mohammed Ben Sulayem, varılan uzlaşmayı Formula 1’in DNA'sı ile yeniden bağ kurma hamlesi olarak nitelendirdi.<br><br>Taraftarların en çok şikayet ettiği konuların başında gelen motor sesinin ve saf yarış hissinin yeniden ön plana çıkacağını vurgulayan Ben Sulayem, konuya ilişkin şu değerlendirmelerde bulundu:<br><br>“Bu prensip anlaşması, Formula 1'in geleceğini şekillendirme konusunda çok kritik bir dönüm noktasıdır. Başından beri hedefimiz; yenilikçilikten ödün vermeden, pilotların yeteneklerini konuşturabileceği, daha hafif, daha basit ve ekonomik araçlar yaratmaktı. V8 motorların dönüşü, dünya genelindeki milyonlarca tutkunun özlediği o muazzam motor sesini ve saf rekabet ruhunu pistlere geri getirecektir.”<br><br>2030 itibarıyla hayata geçmesi planlanan yeni nesil V8 güç üniteleri; daha hafif şasiler, basitleştirilmiş hibrit destek sistemleri ve düşen maliyet yapılarıyla dikkat çekecek. Pilotaj becerisinin teknolojinin önüne geçeceği bu yeni dönem, hem üreticiler hem de takvimdeki yarış organizatörleri tarafından büyük bir heyecanla karşılanıyor. F1 padokunda geleceğin temelleri şimdiden atılırken, motor seslerinin yeniden yükseleceği o büyük tarihe doğru geri sayım resmen başladı.",
+                "img": "Resimler/Formula 1 Haberler/1794936383082_IMG_1244.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 379,
                 "title": "CADILLAC, LAS VEGAS GRAND PRIX İÇİN HAZIRLADIĞI ÖZEL YARIŞ TASARIMINI DUYURDU",
                 "cat": "formula 1",
