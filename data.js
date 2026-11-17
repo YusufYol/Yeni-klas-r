@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 376,
+                "title": "İSTANBUL PARK'A F1 GERİ DÖNÜYOR: 2027 PADDOCK CLUB PAKETLERİ VE FİYATLARI AÇIKLANDI!",
+                "cat": "formula 1",
+                "date": "2026-11-17 15:15",
+                "content": "Formula 1'in 2027 sezonunda, 1-3 Ekim tarihleri arasında İstanbul Park'a geri dönecek olması motor sporları tutkunlarında büyük bir heyecan yaratmıştı. Takvimdeki bu muhteşem dönüşün resmileşmesinin ardından gözler bilet detaylarına çevrilmişti. Beklenen ilk haber, organizasyonun resmi bilet ve konaklama partneri F1 Experiences'tan geldi ve yarış hafta sonunu en üst düzey VIP ayrıcalıklarıyla yaşamak isteyenler için Paddock Club paketlerinin fiyatları resmen duyurdu.<br><br>İstanbul Park'ta lüksün ve hızın zirvesini bir araya getiren özel paketlerin fiyatları ve sunduğu ayrıcalıklar şu şekilde:<br><br>F1 Experiences Suite (₺442.224,40)<br><br>Paddock Club deneyiminin temelini oluşturan bu pakette misafirleri; özel hazırlanan yerel lezzetler, sınırsız içecek sunan premium açık barlar ve pist üstü aksiyonunu dev ekranlardan canlı takip etme imkanı bekliyor. Pakete ayrıca ikonik pit yolu yürüyüşü ve rehber eşliğinde gerçekleştirilecek bir günlük padok turu da dahil.<br><br>Takım Özel Süitleri: Audi Revolut ve TGR Haas<br><br>Favori takımlarının atmosferini daha yakından solumak isteyenler için iki özel seçenek bulunuyor. Audi Revolut F1 Team Club Suite (₺529.371,68) ve TGR Haas F1 Team Club Suite (₺566.742,75) paketleri, standart Paddock Club ayrıcalıklarına ek olarak bir günlük özel takım garajı ziyaretini barındırıyor. Ayrıca bu paketleri tercih eden katılımcılara, ilgili takımın lisanslı ürünleriyle dolu özel bir hediye çantası takdim edilecek.<br><br>Legend | F1 Experiences Suite (₺660.222,34)<br><br>\"Efsane\" paketi, hafta sonu deneyimini bir adım daha öteye taşıyor. Temel VIP hizmetlerinin yanı sıra, bu paketi satın alan taraftarlar tam günlük Paddock Pass erişimine sahip olacak. Yarış sonrasındaki o coşkulu podyum kutlamalarına doğrudan katılım hakkı ve F1 Authentics koleksiyonundan seçilebilecek özel bir hediye de bu paketin öne çıkan detayları arasında.<br><br>House 44 at F1 Paddock Club (₺871.991,77)<br><br>Zirvenin de zirvesi olarak nitelendirilebilecek House 44 süiti, dudak uçuklatan fiyatıyla dikkat çekiyor. Üç gün boyunca bu özel süite erişim sağlayan paket; pit yolu yürüyüşü, müsaitlik durumuna göre pist turu ve rehberli padok gezisi sunuyor. Kamera arkası özel etkinliklerin düzenlendiği bu alanda konuklar, podyum kutlamalarına (yer durumuna bağlı olarak) katılma şansının yanı sıra Lewis Hamilton ve diğer dünyaca ünlü VIP isimlerle aynı atmosferi paylaşma fırsatı yakalayacaklar.",
+                "img": "Resimler/Formula 1 Haberler/1794917704382_IMG_1202.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 375,
                 "title": "LAS VEGAS GP HEYECANI BAŞLIYOR: FORMULA 1 YAYIN PROGRAMI VE ŞAMPİYONADA SON DURUM",
                 "cat": "formula 1",
