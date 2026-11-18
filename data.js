@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 381,
+                "title": "REKABETİN KIZIŞTIĞI LAS VEGAS'TA MERCEDES'TEN STRATEJİK KARAR: YENİ TURBO SADECE ANTONELLI'NİN ARACINDA!",
+                "cat": "formula 1",
+                "date": "2026-11-18 18:10",
+                "content": "Formula 1’de heyecan Las Vegas Grand Prix’si ile devam ederken, Mercedes cephesinden dikkat çekici bir güç ünitesi hamlesi geldi. Red Bull’un yüzde 2'den fazla gerisinde kaldığı belirlenen ve bu doğrultuda ADUO (Sezon İçi Geliştirme ve Güncelleme Hakkı) sistemi kapsamında güncelleme hakkı kazanan Alman ekip, yeni turbo ünitesini ilk kez bu hafta sonu piste çıkaracak.<br><br>Daha önce Amerika Grand Prix’sine yetiştirilemediği için ertelenen bu kritik güncelleme, Las Vegas’ta sadece dünya şampiyonu Andrea Kimi Antonelli’nin W17 aracına entegre edilecek. Takımın tecrübeli pilotu George Russell ise bu hafta sonu yeni turbo ünitesinden mahrum kalacak.<br><br>Bu kararın arkasında tamamen taktiksel bir risk yönetimi ve şampiyona hesapları yatıyor. Sezon boyunca yaşadığı dayanıklılık problemleri ve güç ünitesi sorunları nedeniyle daha önce havuzundaki kotaları aşan George Russell, eğer bu yeni güncellemeyi de alırsa grid cezasıyla karşı karşıya kalacaktı.<br><br>Şu anda sürücüler klasmanında 262 puanla üçüncü sırada yer alan İngiliz pilot; lider Max Verstappen’in 17 puan gerisinde, en yakın takipçisi ve takım arkadaşı Lewis Hamilton’ın ise yalnızca bir puan önünde nefes kesen bir şampiyona mücadelesi veriyor. Mercedes yönetimi, Russell'ın sıralamalardaki avantajını korumak ve olası bir geriye düşme riskini ortadan kaldırmak adına bu hamleden kaçındı.<br><br>Konuyla ilgili Alman ekibin patronu Toto Wolff, sürecin detaylarını ve takımın stratejisini şu sözlerle özetledi:<br><br>\"ADUO kapsamındaki turbo güncellememiz Las Vegas hafta sonunda hazır olacak. Beklenen performans kazanımının nispeten az olması nedeniyle bu adım, aslında güncellemeyi yarış koşullarında test etmeye yönelik olacak. Dolayısıyla güncellemeyi Kimi’nin aracında kullanmayı planlıyoruz.\"<br><br>\"George tarafındaysa önceliğimiz onun grid pozisyonunu korumak. Güncellemeyi onun aracında kullanmayacağız çünkü beklenen performans kazancı bir grid cezası almayı gerektirecek düzeyde değil.\"<br><br>Wolff daha önce yaptığı açıklamalarda da takımın ana odak noktasının George Russell'ın pilotlar klasmanında ulaşabileceği en yüksek noktaya gelmesini sağlamak, sezonu zirvede tamamlamak ve araçtan maksimum verimi almak olduğunun altını çizmişti.<br><br>Las Vegas'ın zorlu pistinde Mercedes, bir yandan Antonelli'nin aracıyla gelecek yıla yönelik değerli veriler toplarken, diğer yandan Russell'ın şampiyonluk yolundaki kritik puanlarını güvence altına alarak temkinli ve akılcı bir yol izlemiş olacak.",
+                "img": "Resimler/Formula 1 Haberler/1795014605980_IMG_1048.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 380,
                 "title": "2030 SEZONUNDA FORMULA 1’DE V8 MOTOR DÖNEMİ YENİDEN BAŞLIYOR!",
                 "cat": "formula 1",
