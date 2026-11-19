@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 383,
+                "title": "LAS VEGAS GP ÖNCESİ KİMİ ANTONELLİ’YE BEŞ SIRA GRİD CEZASI",
+                "cat": "formula 1",
+                "date": "2026-11-19 13:44",
+                "content": "Mercedes, Las Vegas Grand Prix’si öncesinde Kimi Antonelli’nin güç ünitesi bileşenlerinde değişikliğe gidildiğini ve genç pilotun bu nedenle beş sıra grid cezası alacağını resmen duyurdu. Takım, İtalyan sürücünün aracına sezonun altıncı içten yanmalı motorunu takma kararı aldı.<br><br>Bu gelişme, Mercedes’in 2026 güç ünitesi için hazırladığı güncellenmiş turboşarjı pistte devreye alacağı hafta sonuna denk geldi. Takım patronu Toto Wolff, yeni turboşarjın Las Vegas’ta kullanılmaya başlanacağını ancak iki otomobile birden uygulanmayacağını belirtti.<br>Wolff, yeni parça ve stratejilerine ilişkin şu ifadeleri kullandı:<br><br>\"ADUO kapsamında geliştirilen turboşarjı bu hafta sonundan itibaren kullanabileceğiz. Buradaki temel amacımız, geliştirilen parçayı yarış hafta sonu koşullarında test etmek. Beklenen performans kazanımı ise nispeten küçük. Bu parçayı Kimi'nin aracında kullanmayı planlıyoruz. George tarafında ise önceliğimiz grid pozisyonunu korumak. Ancak performans kazanımının büyük olmasını beklemiyoruz.\"<br><br>Antonelli’nin alacağı beş sıralık ceza, doğrudan güncellenmiş turboşarjdan kaynaklanmıyor. İtalyan pilotun bu hafta sonu kullanacağı dördüncü turboşarj, kurallar dahilindeki tahsisat sınırında yer aldığı için ceza getirmiyor. Grid cezasının gerekçesi ise izin verilen limitin üzerine ikinci kez çıkılmasıyla oluşan altıncı içten yanmalı motor kullanımı.<br><br>Öte yandan George Russell, Las Vegas hafta sonunda mevcut turboşarj spesifikasyonuyla yoluna devam edecek. Mercedes’in güncellediği turboşarjın ilerleyen süreçte müşteri takımlarına da açılması planlanırken, McLaren ve Alpine’in de yeni parçayı kullanması bekleniyor.",
+                "img": "Resimler/Formula 1 Haberler/1795085059433_IMG_1293.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 381,
                 "title": "REKABETİN KIZIŞTIĞI LAS VEGAS'TA MERCEDES'TEN STRATEJİK KARAR: YENİ TURBO SADECE ANTONELLI'NİN ARACINDA!",
                 "cat": "formula 1",
