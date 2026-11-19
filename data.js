@@ -15446,6 +15446,17 @@ const APP_DATA = {
     "haberler": {
         "news": [
             {
+                "id": 382,
+                "title": "ALP AKSOY MACAU’DA YAŞADIĞI KAZA SONRASI ELİNDEKİ KIRIK NEDENİYLE YARIŞTAN ÇEKİLDİ",
+                "cat": "haberler",
+                "date": "2026-11-19 13:26",
+                "content": "Temsilcimiz Alp Aksoy, Macau’da düzenlenen organizasyonun antrenman bölümünde geçirdiği kazada elinin kırılması üzerine hafta sonunun geri kalanında piste çıkamayacağını açıkladı.<br><br>Dar yapısı, yüksek duvarları ve hata affetmeyen virajlarıyla bilinen Macau sokak pistinde yarışmaya hazırlanan Aksoy, antrenman seansı sırasında yaşanan kazanın ardından sağlık durumuna ilişkin bilgi verdi. Aldığı darbenin elinde kırığa yol açtığını duyuran genç sürücü, sakatlığı nedeniyle yarış hafta sonunu erken kapatmak zorunda kaldı.<br><br>Kişisel sosyal medya hesabından yaptığı paylaşımla gelişmeyi kamuoyuna duyuran Alp Aksoy, yaşadığı aksaklığı şu sözlerle dile getirdi:<br><br>“Macau pistindeki antrenman seansında yaşadığım kazada aldığım darbe sonucu elimde oluşan kırık nedeniyle hafta sonunu erken noktalıyoruz. Böylesine ikonik bir pistte hafta sonunu bu şekilde kapatmak üzücü ancak; şimdi tedavi sürecine odaklanıp en kısa sürede pistlere geri döneceğim.”<br><br>Macau’daki zorlu hafta sonuna sakatlık nedeniyle veda eden Alp Aksoy, bundan sonraki süreçte elindeki kırığın iyileşmesine yoğunlaşarak yeniden direksiyon başına geçmeyi hedefliyor.",
+                "img": "Resimler/Haberler/1795084002738_IMG_1292.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png",
+                "customBadge": "Formula 4"
+            },
+            {
                 "id": 268,
                 "title": "MOTUL 2026 TÜRKİYE KARTİNG ŞAMPİYONASI'NDA FİNAL HEYECANI KÖRFEZ'DE YAŞANACAK!",
                 "cat": "haberler",
