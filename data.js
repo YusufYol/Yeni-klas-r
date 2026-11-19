@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 385,
+                "title": "CHARLES LECLERC, AKREDİTASYONU ASKIYA ALINAN MUHABİR HAKKINDA İLK KEZ KONUŞTU: \"VERİLEN CEZAYLA HİÇBİR İLGİM YOK\"",
+                "cat": "formula 1",
+                "date": "2026-11-19 19:43",
+                "content": "Charles Leclerc, Daily Mail muhabiri Jonathan McEvoy’un sezonun kalan üç yarışında padok akreditasyonunun askıya alınmasıyla ilgili ilk açıklamasını yaptı. 2026 Las Vegas Grand Prix’si hafta sonu öncesinde basının sorularını yanıtlayan Leclerc, kararı ve arka planını doğrudan kendi ifadeleriyle değerlendirdi.<br><br>Söz konusu yazı ve alınan yaptırım hakkında konuşan Leclerc, \"Yazıyı gördüm ve kullanılan kelimelere oldukça şaşırdım. Bunun dışında söyleyecek fazla bir şeyim yok.\" ifadelerini kullandı. Ceza kararında kendi rolünün bulunmadığını vurgulayan Leclerc, \"Verilen cezaya gelince, bununla kesinlikle hiçbir ilgim yok ve bu konuda da söyleyecek fazla bir şeyim bulunmuyor.\" dedi.<br><br>Medya baskısı ve eleştirilere dair görüşlerini de paylaşan Leclerc, şunları söyledi: \"Formula 1 pilotları olarak bu tür eleştirilere alışkın olduğumuzu düşünüyorum. Aslında tam olarak bu tür eleştirilere değil, genel anlamda eleştirilere ve eleştiren insanlara alışkınız. Gazetecilerin zaman zaman zor sorular sormak ve sert başlıklar atmak gibi bir görevi var. Ancak burada kullanılan kelimelere şaşırdım.\"<br>Tartışmanın başlangıcı, McEvoy’un Meksika Grand Prix’sinin ilk turunda Leclerc ile takım arkadaşı Lewis Hamilton arasında yaşanan temas üzerine kaleme aldığı köşe yazısına dayanıyor. Yazıda Leclerc’e ağır ve aşağılayıcı hakaretler yöneltildi.<br><br>Bu gelişmenin ardından FIA Genel Müdürü Alberto Villarreal, McEvoy’un akreditasyonunun Las Vegas, Katar ve Abu Dabi yarışları için askıya alındığını bildirdi. Muhabirin 2027 sezonunda yeniden padoka dönebileceği belirtiliyor. Yaptırımı doğrulayan FIA sözcüsü ise 2026 Formula 1 Dünya Şampiyonası Medya İlkeleri’ne işaret ederek, medya akreditasyonlarının tamamen FIA’nın takdirine bağlı olduğunu ve gazetecilerin adalet ile profesyonellik standartlarına uymalarının beklendiğini açıkladı.<br><br>Akreditasyonunun iptal edildiğini duyurduğu sonraki köşe yazısında McEvoy, Leclerc hakkındaki ifadesinin \"iyi niyetli bir şakalaşma\" olduğunu savundu ve Ferrari Takım Patronu Fred Vasseur’ün kendisini FIA’ya şikayet ettiğini öne sürdü. Ancak Vasseur’ün veya Ferrari’nin FIA’nın bu disiplin kararıyla bağlantılı olduğunu gösteren herhangi bir kanıt bulunmuyor.",
+                "img": "Resimler/Formula 1 Haberler/1795106632191_IMG_1305.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 384,
                 "title": "ISACK HADJAR: “FARKLI KATEGORİLERDE YARIŞMAK İSTERDİM ANCAK ŞU AN BUNA BÜTÇEM YETMİYOR“",
                 "cat": "formula 1",
