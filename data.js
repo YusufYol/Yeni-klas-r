@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 392,
+                "title": "LIAM LAWSON: “GELECEKTE ÜST SIRALARDA YARIŞABİLECEĞİM BİR TAKIMA GEÇMEK İSTİYORUM”",
+                "cat": "formula 1",
+                "date": "2026-11-20 13:29",
+                "content": "Racing Bulls ile 2027 sezonu için sözleşme yenileyen Liam Lawson, geride kalan başarılı yılın ardından koltuğunu koruma konusunda endişe duymadığını belirtti. 24 yaşındaki Yeni Zelandalı pilot, uzun vadede ise hedefinin şampiyonluk mücadelesi veren daha büyük bir takıma transfer olmak olduğunu dile getirdi.<br><br>Red Bull akademi sürücüsü Nikola Tsolov’un Formula 2’deki performansıyla birlikte Racing Bulls koltuğu için adı geçse de takım, geçtiğimiz hafta Lawson ile yola devam etme kararı almıştı. 2026 sezonunda şu ana kadar 89 puan toplayarak pilotlar klasmanında 9. sırada yer alan Lawson, 38 puandaki çaylak takım arkadaşı Arvid Lindblad’ın önünde takımı markalar şampiyonasında tarihinin en iyi derecesi olan beşinciliğe taşıdı.<br><br>Las Vegas Grand Prix’si öncesinde basın mensuplarının sorularını yanıtlayan Lawson, koltuğunu kaybetme korkusu yaşayıp yaşamadığına dair soruya geçmiş yılla kıyaslama yaparak cevap verdi: \"Pek sayılmaz. Geçen sezona baktığımda bu durumu zihnimde çok fazla büyüttüğümü fark ediyorum. İşler yolunda gitmediğinde kafanızda hep soru işaretleri oluşur. Ancak bu yıl takım olarak her alanda çok iyi bir uyum yakaladık.\"<br><br>Neredeyse tüm pistlerde rekabetçi bir araca sahip olduklarını ve hafta sonlarını hatasız geçirdiklerini vurgulayan Lawson, sözlerini şöyle sürdürdü: \"Koltuğumu hak ettiğimi gösteren pek çok sebep vardı. Yine de belirsizlik ihtimali aklınızın bir köşesinde oluyor. Ben bu düşünceleri uzaklaştırıp sadece sürüşüme odaklanmaya ve keyif almaya çalıştım. Bunu başardığımı düşünüyorum.\"<br><br>2023’teki ilk yarışından bu yana toplam 55 Grand Prix’ye çıkmasına rağmen 2026’nın Formula 1’deki ikinci tam sezonu olduğunu hatırlatan Lawson, geleceğe dair hedeflerini de net bir dille ifade etti: \"Şu anki önceliğimiz markalar beşinciliğini korumak ve 2027’ye en iyi şekilde hazırlanmak. Gelecek yıllarda neler yaşanacağını bilmiyorum ama hepimiz bu sporda kazanmak için varız.\"<br><br>Henüz kendini çok tecrübeli bir pilot olarak görmediğini ve her geçen gün gelişmeye devam ettiğini belirten Yeni Zelandalı sürücü, kariyer planlamasıyla ilgili şunları kaydetti: \"Gelecekte ister Red Bull ana takımı olsun ister başka bir ekip, kariyerimin doğal akışı gereği üst sıralara oynayan bir takıma geçmeyi hedefliyorum. Kariyerimi Racing Bulls'ta noktalamak istemiyorum demek yanlış olmaz. Ancak şu an elimizde harika bir paket var ve çok iyi bir sezon geçiriyoruz. Gelecek yıl da bu form grafiğini sürdürerek her hafta sonundan en iyi sonucu çıkarmaya odaklanacağım.\"",
+                "img": "Resimler/Formula 1 Haberler/1795170542753_IMG_1342.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 391,
                 "title": "FIA’DAN FORMULA 1’DE HAKEMLİK DÜZENİNE TAM ZAMANLI GEÇİŞ KARARI",
                 "cat": "formula 1",
