@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 386,
+                "title": "2026 LAS VEGAS GP 1. ANTRENMAN SEANSI: CADILLAC PİLOTU PEREZ’DEN YAĞMUR ALTINDA SÜRPRİZ LİDERLİK",
+                "cat": "formula 1",
+                "date": "2026-11-20 10:20",
+                "content": "Formula 1 2026 sezonunun Las Vegas ayağında hafta sonunun açılış seansı, olumsuz hava koşullarının gölgesinde ve oldukça düşük pist trafiğiyle tamamlandı. Yağışın etkili olduğu ilk antrenman seansında zaman tablosunun zirvesine Cadillac pilotu Sergio Perez yerleşti.<br><br>Seans başlamadan önce Las Vegas Cadde Pisti’nde yağmur etkili olmaya başladı. Hava sıcaklığının 12°C, pist sıcaklığının ise 14°C olarak ölçüldüğü soğuk zeminde, saat 03.30’da yeşil ışıkların yanmasıyla birlikte takımlar ilk dakikalarda garajlarından çıkmamayı tercih etti.<br><br>Islak zemine tekerlek koyan ilk isim, yoğun yağmur lastikleriyle Cadillac kokpitindeki Sergio Perez oldu. Perez’in turunu tamamlayıp garaja dönmesinin hemen ardından yağışın şiddetini artırması, diğer pilotların da garajda bekleme süresini uzattı.<br><br>Seansın ilk 20 dakikalık bölümü geride kalırken yağmur lastiklerini takan Ryo Hirakawa piste çıktı ve hemen arkasından Rafael Camara da onu takip etti. Ancak her iki sürücü de yalnızca birer tur attıktan sonra garajlarına geri döndü. Seansın yarısına gelindiğinde pist üstündeki hareketlilik hâlâ son derece sınırlıydı. İlerleyen dakikalarda Valtteri Bottas da piste çıkan isimler arasına katılırken, üst sıralardaki dört büyük takımdan piste çıkan ilk isim, bu seansta Lewis Hamilton’ın yerine direksiyon başına geçen Dino Beganovic oldu.<br><br>Hafta sonunun bu açılış bölümünde Fernando Alonso’nun koltuğunda piste çıkan genç isimlerden Jak Crawford da ıslak pist koşullarında sürüş yaparak takımı adına veri topladı.<br><br>Pilotlar zaman zaman pist koşullarını kontrol etmek amacıyla kısa keşif turlarına çıksalar da uzun sürüşler gerçekleşmedi. Bitime 15 dakika kala Ferrari pilotu Charles Leclerc’in de piste çıktığı anlarda liderlik koltuğunda Sergio Perez bulunuyordu; onu ikinci ve üçüncü basamaklarda Haas pilotları izliyordu.<br><br>Kalan sürede dereceleri geliştirecek anlamlı bir zaman turu atılmadı ve damalı bayrağın sallanmasıyla birlikte seansın en hızlı ismi Sergio Perez olarak kayıtlara geçti. Ryo Hirakawa’nın başını çektiği Haas ikilisi seansı ikinci ve üçüncü sıralarda noktalarken, Valtteri Bottas dördüncü sırayı aldı. Lewis Hamilton’ın aracını devralan Dino Beganovic ise ilk beş sırayı tamamlayan isim oldu.",
+                "img": "Resimler/Formula 1 Haberler/1795159245390_IMG_1330.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 385,
                 "title": "CHARLES LECLERC, AKREDİTASYONU ASKIYA ALINAN MUHABİR HAKKINDA İLK KEZ KONUŞTU: \"VERİLEN CEZAYLA HİÇBİR İLGİM YOK\"",
                 "cat": "formula 1",
