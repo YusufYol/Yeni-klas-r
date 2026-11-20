@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 391,
+                "title": "FIA’DAN FORMULA 1’DE HAKEMLİK DÜZENİNE TAM ZAMANLI GEÇİŞ KARARI",
+                "cat": "formula 1",
+                "date": "2026-11-20 12:26",
+                "content": "Formula 1’de hakem kararlarının istikrarını güçlendirmeyi amaçlayan FIA, yeni bir yapılanmaya gidiyor. Federasyonun perşembe günü duyurduğu resmî karara göre, 2027 sezonundan itibaren aşamalı olarak tam zamanlı yarış hakemi görevlendirmesine başlanacak.<br><br>Uzun süredir takımlar, pilotlar ve izleyiciler arasında tartışmalara neden olan karar farklılıklarını azaltmayı hedefleyen uygulama, 2027’de başlayacak işe alım adımıyla hayata geçirilecek. Planlanan model kapsamında, ilerleyen süreçte 12 ile 15 kişiden oluşan sabit bir tam zamanlı hakem kadrosunun oluşturulması öngörülüyor. Yeni yapıya geçilirken mevcut yarı zamanlı hakemler ile eski yarışçılardan oluşan sürücü hakemlerin hafta sonu görevleri sürecek; tam zamanlı kadro bu ekiplere destek verecek.<br><br>Görev alacak tam zamanlı hakemlerin çalışma alanı yalnızca yarış hafta sonlarıyla sınırlı kalmayacak. Bu isimler grand prix aralarında da aktif rol üstlenerek sportif kurallarda muğlak kalan noktaları belirleyecek, düzenlemelerin iyileştirilmesine katkı sunacak ve yeni hakem adaylarının yetişmesinde görev alacak.<br><br>Mevcut gönüllü ve rotasyonlu işleyişten daha kapsamlı bir yapıya geçildiğini vurgulayan FIA Başkanı Mohammed Ben Sulayem, yeni sisteme ilişkin şu ifadeleri kullandı:<br><br>\"FIA hakemlik sisteminde yapılan bu son büyük değişiklik motor sporlarında karar alma süreçleri, adalet ve dürüstlük konularında en yüksek standartları sunma kararlılığımızı yansıtıyor.\"<br><br>\"Tam zamanlı hakemlerin işe alınması, FIA Formula 1 Dünya Şampiyonası'nda özel bir hakemlik ekosistemi kurma yönündeki hedefimize yönelik önemli bir adımdır ve aynı zamanda sporumuzun geleceğine yapılmış bir yatırımdır.\"<br><br>\"Bu gelişme, hakemlik yapımız içinde daha fazla uzmanlık ve süreklilik oluşturmamıza yardımcı olacak. Yönetmelikleri gözden geçirme ve geliştirme yeteneğimizi güçlendirecek, gelecekteki görevlilerin gelişimini destekleyecek ve tüm şampiyonalarımızda en yüksek tutarlılık standartlarını sağlayacaktır.\"",
+                "img": "Resimler/Formula 1 Haberler/1795166795136_IMG_1337.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 390,
                 "title": "NIKE, 2027 SEZONUNDAN İTİBAREN FORMULA 1’İN RESMÎ GİYİM TEDARİKÇİSİ OLUYOR",
                 "cat": "formula 1",
