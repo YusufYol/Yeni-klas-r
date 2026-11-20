@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 395,
+                "title": "PAUL ARON ALPINE’DEN AYRILDI, 2026 KALANINDA YEDEK KOLTUĞU FRED VESTİ’YE GEÇTİ",
+                "cat": "formula 1",
+                "date": "2026-11-20 16:19",
+                "content": "BWT Alpine Formula One Team, Las Vegas Grand Prix’si öncesinde yedek pilotu Paul Aron ile yollarını ayırdığını ve ayrılığın hemen geçerli olacağını açıkladı. Estonyalı sürücünün farklı yarış olanaklarını değerlendirmek amacıyla görevden ayrıldığı belirtilirken, 2026 sezonunun son bölümünde yedek pilotluk görevini Mercedes’in yedek sürücüsü Frederik Vesti üstlenecek.<br><br>Takım tarafından paylaşılan resmi açıklamada, Paul Aron’un farklı yarış fırsatlarına yönelmesi için karşılıklı mutabakata varıldığı ifade edildi. Açıklamada ayrıca Aron’a son iki yıldaki çalışmaları ve yedek pilotluk sürecindeki katkıları için teşekkür edilerek kariyerinin devamında başarı dilekleri iletildi.<br><br>22 yaşındaki Paul Aron, 2025 ve 2026 sezonlarında Alpine ve Audi bünyesinde toplam dokuz Formula 1 antrenman seansında piste çıktı ancak henüz bir Grand Prix hafta sonunda yarış başlangıcı yapmadı. Tam zamanlı bir F1 koltuğu ihtimalinin zayıf görünmesi üzerine yeni alternatifler arayan Aron’un, bu hafta Formula E padoğunda da yer aldığı aktarıldı. Aron’un Alpine adına direksiyon başına geçtiği son seans ise Monza’daki ilk antrenman bölümü oldu.<br><br>Aron’dan boşalan yedek pilotluk görevi için Alpine, 2026 sezonunun geri kalan yarışlarında Mercedes ile yapılan motor iş birliği çerçevesinde Fred Vesti ile ortak opsiyon anlaşması bulunduğunu duyurdu. Bu düzenlemeye göre Vesti, Pierre Gasly veya Franco Colapinto’nun herhangi bir seansa katılamaması halinde Alpine adına göreve çağrılabilecek.<br><br>Mercedes’in yedek pilotu konumundaki Vesti, 2026 takviminde Barselona-Katalonya, Macaristan ve Meksika grand prixlerinde W17 ile antrenman seanslarına katıldı ve Formula 1’deki toplam antrenman sürüş sayısını yediye çıkardı.",
+                "img": "Resimler/Formula 1 Haberler/1795180776087_IMG_1351.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 393,
                 "title": "HAMILTON FERRARI SÖZLEŞMESİNİ ERKEN KONUŞMAYA GEREK GÖRMÜYOR: \"HENÜZ DÜŞÜNMEDİM BİLE\"",
                 "cat": "formula 1",
