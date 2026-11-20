@@ -8724,6 +8724,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 394,
+                "title": "2026 MOTOGP PORTEKİZ GP 1. ANTRENMAN SEANSI SONA ERDİ: PORTİMAO'DA İLK GÜNÜN LİDERİ MARCO BEZZECCHİ",
+                "cat": "motogp",
+                "date": "2026-11-20 16:16",
+                "content": "2026 MotoGP Dünya Şampiyonası'nın Portekiz ayağında hafta sonu heyecanı, Portimao Pisti'nde gerçekleştirilen birinci antrenman seansı ile başladı. 45 dakika süren açılış seansında en hızlı tur zamanına imza atan Marco Bezzecchi, günü zirvede noktaladı.<br><br>Pit yolunun açılmasıyla birlikte tüm sürücüler piste orta hamur lastik tercihleriyle çıkış yaptı. Seansın henüz başlarında 1:39.421'lik derecesiyle liderliği alan Marco Bezzecchi, pist tutuşunun artmasıyla hızlanan tempoda yerini korumak için zorlu bir rekabete girdi. 15. dakikanın geride kalmasının ardından Alex Marquez kısa süreliğine zaman tablosunun ilk sırasına yerleşse de Bezzecchi, 1:39.002'lik turuyla liderliği yeniden devraldı.<br><br>Kazasız ve sakin bir atmosferde ilerleyen seansın sonunda damalı bayrak sallandığında sıralama değişmedi ve Marco Bezzecchi ilk sıranın sahibi oldu. Jorge Martin seansı ikinci sırada tamamlarken, sağ omzundan geçirdiği operasyonun ardından Portimao'da piste dönen Alex Marquez, üçüncü sırayı elde ederek iyileşme sürecinin olumlu ilerlediğini gösterdi.<br><br>Portekiz hafta sonunda şampiyonluğunu ilan etme ihtimali bulunan Marc Marquez, açılış seansını kardeşi Alex Marquez'in hemen gerisinde dördüncü sırada tamamladı. İlk dört sıranın ardından Raul Fernandez beşinci, Fabio Di Giannantonio altıncı ve Jack Miller yedinci en iyi zamana imza attı.<br><br>Portimao'daki ilk antrenman seansında ilk 10 sırayı tamamlayan diğer isimler ise sırasıyla Fermin Aldeguer, Pedro Acosta ve Luca Marini oldu.",
+                "img": "Resimler/MotoGP Haberler/1795180612465_IMG_1350.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 369,
                 "title": "APRILIA'NIN 2027 MOTOGP PROTOTİPİNDE DİKKAT ÇEKEN RADİKAL AERODİNAMİK TASARIM",
                 "cat": "motogp",
