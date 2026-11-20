@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 393,
+                "title": "HAMILTON FERRARİ SÖZLEŞMESİNİ ERKEN KONUŞMAYA GEREK GÖRMÜYOR: \"HENÜZ DÜŞÜNMEDİM BİLE\"",
+                "cat": "formula 1",
+                "date": "2026-11-20 14:27",
+                "content": "Ferrari pilotu Lewis Hamilton, İtalyan takımıyla kontrat yenileme konusunun şu an gündeminde olmadığını açıkça dile getirdi.<br><br>Mercedes'ten 2025 sezonunda Maranello ekibine geçiş yapan yedi dünya şampiyonu sürücünün mevcut anlaşmasının 2027 yılı sonunda biteceği ve sözleşmede opsiyonel bir uzatma maddesi yer aldığı belirtiliyor.<br><br>Las Vegas Grand Prix hafta sonunda basın mensuplarının kış döneminde yeni kontrat masasına oturulup oturulmayacağına dair sorusunu yanıtlayan Hamilton, erken bir adım atmayı düşünmediğini şu sözlerle ifade etti:<br><br>\"Hayır, bunu aklımdan bile geçirmedim. Şu an kontratımın tam ortasındayım. Bu tür pazarlıklar genelde son kontrat yılında gündeme gelir. Masaya ne zaman oturacağımızı bilmiyorum ama bugün bunu konuşmanın ya da kafa yormanın bir anlamı yok.\"<br><br>Öte yandan Las Vegas'taki mücadele, 2007'de McLaren koltuğunda Formula 1 kariyerine başlayan deneyimli yıldızın kariyerindeki 401. yarış olarak kayıtlara geçecek.<br><br>Hamilton, geçtiğimiz günlerde yaptığı açıklamalarda piste 2030'lu yıllarda da devam etmenin ve Formula 1'in olası Ruanda yarışında yer almanın gerçekçi bir ihtimal olduğunu söylemişti. Ocak ayında 42 yaşına basacak olan İngiliz sürücü, 2030 sezonu başladığında 45 yaşında olacak.<br><br>Meksika GP sürecinde kendi çizgisini ve yaşına yönelik eleştirileri değerlendiren Hamilton, şu ifadeleri kullanmıştı:<br><br>\"Bu sporun 70 yıllık tarihinde sizin gibi bir profil daha önce görülmedi; bu yüzden farklı bir kumaştan yapıldığımı düşünüyorum. Elbette yaş ilerledikçe önceden kestiremediğim zorluklar çıkıyor. Ancak kariyerim boyunca yaşla birlikte reflekslerin zayıfladığına dair çok fazla kalıp yargı duydum. Benim tepki sürem, padoktaki en genç rakiplerimin birçoğundan daha iyi. Zihni ve refleksleri diri tutmak için elimizde pek çok yöntem var.\"<br><br>Gelecek planlarına dair net konuşmaktan kaçınan yıldız pilot, sözlerini şöyle sürdürmüştü:<br><br>\"Her şeyi göze almaya hazır olduğunuz sürece —ki ben şu an öyleyim— dört yıl sonra da aynı işi yapıp yapmak istemeyeceğimi bilemem. Yine de şu anda yaptığım işten büyük keyif alıyorum, tamamen işime odaklanmış durumdayım ve yakın gelecekte de bu kararlılığım sürecek.\"",
+                "img": "Resimler/Formula 1 Haberler/1795174054415_IMG_1345.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 392,
                 "title": "LIAM LAWSON: “GELECEKTE ÜST SIRALARDA YARIŞABİLECEĞİM BİR TAKIMA GEÇMEK İSTİYORUM”",
                 "cat": "formula 1",
