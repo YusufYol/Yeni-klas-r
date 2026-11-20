@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 389,
+                "title": "LAS VEGAS GP ÖNCESİ GÜÇ ÜNİTESİ DEĞİŞİKLİKLERİ NEDENİYLE BEŞ PİLOTA GRİD CEZASI VERİLDİ",
+                "cat": "formula 1",
+                "date": "2026-11-20 10:35",
+                "content": "Las Vegas Grand Prix'si öncesinde FIA komiserleri, güç ünitesi bileşenlerinde yapılan değişimler nedeniyle grid cezası alacak beş sürücüyü açıkladı. Yarış boyunca geçiş noktalarının bulunması nedeniyle bazı ekiplerin bu adımı bilinçli bir strateji olarak attığı hafta sonunda, sıralama turlarının ardından beş isim yer kaybı yaşayacak.<br><br>McLaren sürücüsü Oscar Piastri, sezon boyu izin verilen dört içten yanmalı motor kotasını doldurup beşinci üniteye geçtiği için 10 sıra grid cezası aldı. Aynı şekilde 10 sıralık ceza ile karşılaşan bir diğer isim ise Aston Martin pilotu Lance Stroll oldu; Stroll'ün aracına yeni enerji depolama ünitesi ile kontrol elektroniği uygulandı.<br><br>Williams cephesinde Carlos Sainz da sezonluk dört turbo sınırını aşıp beşinci turboya geçmesi sebebiyle 10 sıra geriye düşecek. Mercedes'te Kimi Antonelli, sezonun altıncı içten yanmalı motorunu kullanmaya başlamasının ardından beş sıra grid cezası alırken, Haas pilotu Oliver Bearman ise içten yanmalı motor, turbo ve egzoz sistemindeki değişiklikler sonucunda yarışa son sıradan başlayacak.",
+                "img": "Resimler/Formula 1 Haberler/1795160129963_IMG_1333.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 388,
                 "title": "2026 LAS VEGAS GP 2. ANTRENMAN SEANSINI GEORGE RUSSELL LİDER TAMAMLADI",
                 "cat": "formula 1",
