@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 390,
+                "title": "NIKE, 2027 SEZONUNDAN İTİBAREN FORMULA 1’İN RESMÎ GİYİM TEDARİKÇİSİ OLUYOR",
+                "cat": "formula 1",
+                "date": "2026-11-20 10:39",
+                "content": "Spor giyim devi Nike, 2027 sezonunun başından itibaren Puma’nın yerini alarak Formula 1 ve F1 Academy’nin yeni resmî ortağı ve giyim tedarikçisi oldu. Uzun süredir kulislerde konuşulan bu dev iş birliği kapsamında Nike, gelecek sezonun başlamasıyla birlikte hem Formula 1 hem de F1 Academy bünyesindeki personelin tüm giyim ve ayakkabı ihtiyaçlarını üstlenecek.<br><br>Anlaşma çerçevesinde yalnızca personel ekipmanlarıyla sınırlı kalmayacak olan marka, Formula 1 temalı özel koleksiyonlar da tasarlayacak. Bu iş birliğinin ilk ürünü olan Las Vegas Grand Prix temalı kapsül koleksiyon ise 20 Kasım Cuma günü itibarıyla F1 Hub ve Nike Las Vegas mağazalarında sınırlı sayıda taraftarların beğenisine sunulacak.<br><br>Formula 1 yönetiminden yapılan resmî duyuruda ortaklığın vizyonu şu sözlerle paylaşıldı: \"Nike; ayakkabı, giyim ve aksesuarları kapsayan stil, performans ve yaşam tarzı odaklı koleksiyonların yanı sıra performans yenilikleri ve gelecek nesil sporcular ile taraftarlara yönelik yarış hafta sonu deneyimleriyle motor sporlarının zirvesine yeni bir enerji getirecek.\"<br><br>Nike CEO'su Elliott Hill ise anlaşmaya dair değerlendirmesinde şu ifadeleri kullandı: \"Formula 1 rekabet, hız ve sürekli yenilik arayışıyla ilerliyor. Bu bir sporcu zihniyeti ve Nike olarak bizim de paylaştığımız bir vizyon. Birlikte spora yeni bir enerji getirmek, çalışanlara hizmet etmek ve dünyanın dört bir yanındaki taraftarlara ilham vermek için inanılmaz bir fırsata sahibiz.\"",
+                "img": "Resimler/Formula 1 Haberler/1795160342508_IMG_1334.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 389,
                 "title": "LAS VEGAS GP ÖNCESİ GÜÇ ÜNİTESİ DEĞİŞİKLİKLERİ NEDENİYLE BEŞ PİLOTA GRİD CEZASI VERİLDİ",
                 "cat": "formula 1",
