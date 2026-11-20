@@ -8734,6 +8734,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 396,
+                "title": "2026 MOTOGP PORTEKİZ GP ANA ANTRENMAN SEANSINI ALEX MARQUEZ LİDER TAMAMLADI",
+                "cat": "motogp",
+                "date": "2026-11-20 19:46",
+                "content": "MotoGP 2026 sezonu Portekiz Grand Prix’si hafta sonunun kritik ana antrenman seansında günün en hızlı derecesine Alex Marquez imza attı. 1:37.350’lik tur zamanıyla rakiplerini geride bırakan İspanyol sürücü, seansı zirvede noktalayarak doğrudan Q2 bileti için güçlü bir mesaj verdi.<br><br>Pit yolunun açılmasıyla birlikte piste çıkan isimlerden Diogo Moreira, 1:38.593’lük derecesiyle ilk antrenman seansındaki süresini geliştirerek seansın erken lideri oldu. Ancak kısa süre içinde 3. virajda dengesini kaybederek düşen Moreira’nın sağlık durumunun iyi olduğu bildirilirken, genç sürücü garajına geri döndü. Aynı virajda kontrolünü kaybederek kaza yapan bir diğer isim olan Iker Lecuona da yara almadan ayağa kalkarak pite döndü.<br><br>Seansın ilerleyen dakikalarında Marco Bezzecchi önce 1:38.584, ardından orta bölümde 1:38.316 kaydederek liderlik koltuğuna oturdu ve temposunu giderek artırdı. Yumuşak lastiklere geçtikten sonra pistte üst üste hızlı turlar atılmaya başlandı. Fabio Di Giannantonio 1:39.001 ile kısa süreliğine zirveye çıksa da Bezzecchi 1:37.752 ile liderliği geri aldı. Bu bölümde 1:39.071 ile 10. sırada bulunan Marc Marquez ise garaj molasının ardından piste dönerek 1:37.786’lık derecesiyle ikinci sıraya tırmandı. Öte yandan Iker Lecuona, 4. virajda çakıl havuzuna savrularak seanstaki ikinci kazasını yaşadı ve büyük bir hayal kırıklığıyla garajına döndü.<br><br>Son çeyreğe girilirken liderlik mücadelesi iyice kızıştı. Pedro Acosta 1:37.955 ile üçüncü sıraya yükselirken, Pol Espargaro’nun ilk virajda çakıl havuzuna düşmesi kısa süreli sarı bayraklara neden oldu. Ardından Fermin Aldeguer 1:37.670 ile zirveyi alsa da Bezzecchi 1:37.528 ile yanıt verdi. Çok geçmeden Fabio Di Giannantonio 1:37.432’lik turuyla her iki rakibini de geçerek liderliği devraldı.<br><br>Son 10 dakikaya girildiğinde Marco Bezzecchi ve Jorge Martin güçlü turlarla gelseler de son sektörlerde yaşadıkları zaman kayıpları nedeniyle derecelerini geliştiremediler. Kapanış turlarında sahneye çıkan Alex Marquez, 1:37.350’lik turuyla günün en iyi zamanını kaydederek liderliği aldı. Brad Binder ise son bölümde kaydettiği sürpriz dereceyle 6. sıraya yerleşti. Damalı bayrak sallandıktan sonra son bir deneme daha yapan Bezzecchi, son sektörde vakit kaybedince sırasını koruyamadı.<br><br>Seansın tamamlanmasıyla birlikte Alex Marquez 1:37.350 ile birinci, Fabio Di Giannantonio 1:37.432 ile ikinci, Marco Bezzecchi ise 1:37.528’lik derecesiyle üçüncü sırada yer aldı.",
+                "img": "Resimler/MotoGP Haberler/1795193181442_IMG_1368.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 394,
                 "title": "2026 MOTOGP PORTEKİZ GP 1. ANTRENMAN SEANSI SONA ERDİ: PORTİMAO'DA İLK GÜNÜN LİDERİ MARCO BEZZECCHİ",
                 "cat": "motogp",
