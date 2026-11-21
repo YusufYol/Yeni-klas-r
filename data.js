@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 398,
+                "title": "2026 LAS VEGAS GP SIRALAMA TURLARINDA EN HIZLI İSİM ANTONELLİ OLDU, FERRARİ İLK 10 DIŞINDA KALDI",
+                "cat": "formula 1",
+                "date": "2026-11-21 11:12",
+                "content": "2026 Formula 1 Dünya Şampiyonası’nın Las Vegas ayağında gerçekleştirilen sıralama turlarında zirveye çıkan isim Mercedes pilotu Kimi Antonelli oldu. 1:33.893’lük derecesiyle seansın en hızlı turuna imza atan genç sürücüyü Max Verstappen ve George Russell takip etti. Ancak Antonelli’nin mevcut 5 sıralık grid cezası nedeniyle 22 Kasım Pazar günü Türkiye saati ile 07.00’de başlayacak yarışa ilk cepten Max Verstappen start alacak.<br><br>Hava sıcaklığının 13°C, pist sıcaklığının ise 15°C ölçüldüğü soğuk Las Vegas gecesinde piste ilk çıkan araçlar Cadillac’lar oldu. Seansın başlarında Rafael Camara’nın ilk virajdaki spini kısa süreli sarı bayraklara yol açsa da genç pilot yola devam edebildi.<br><br>İlk zaman turlarında Max Verstappen 1:35.276 ile liderliği alsa da seans boyunca dereceler hızla gelişti. Damalı bayrak sallandığında 1:34.664’lük derecesiyle George Russell ilk sıraya yerleşti. Onu takım arkadaşı Kimi Antonelli ve Ferrari’den Charles Leclerc izledi. Lando Norris dördüncü sırada yer alırken, Red Bull pilotları Max Verstappen ve Isack Hadjar hemen arkasında sıralandı. İlk bölümün sonunda Haas, Cadillac ve Aston Martin sürücüleri sıralama turlarına erken veda etti.<br><br>FIA kaynaklı bir yazılım aksaklığı nedeniyle birkaç dakikalık gecikmeyle başlayan ikinci bölümde piste ilk çıkan isim Isack Hadjar oldu. Seans içinde Lewis Hamilton ilk virajda lastiklerini kilitleyerek pist dışına taştı ve aracının yol tutuşundan yakındı. Oscar Piastri 1:34.966 ile bir ara liderliğe yükselse de seansın sonunda 1:34.394 yapan Max Verstappen zirveyi geri aldı.<br><br>Pierre Gasly’nin ikinci, George Russell’ın ise üçüncü olduğu bu bölümde McLaren pilotları da üst tura adlarını yazdırdı. Kimi Antonelli son anda Q3 biletini cebine koyarken, her iki Ferrari pilotunun da Q2’de elenmesi gecenin en büyük sürprizi oldu. Audi ve Williams pilotları da bu seansta elenen diğer isimler arasında yer aldı.<br><br>Pole pozisyonunun belirleneceği son 13 dakikalık bölümde ilk hızlı turların ardından 1:34.151 ile Max Verstappen geçici liderliği eline geçirdi, Lando Norris ise 0.173 saniye geride ikinci sırada yer aldı.<br><br>Son denemeler için garajdan çıkan pilotların ısınma turundaki hava koridoru arayışı, pist üstünde adeta yarış temposunda yan yana mücadelelere sahne oldu. Yaşanan bu yoğun trafiğin ve çekişmenin ardından son sözü söyleyen Kimi Antonelli, 1:33.893’lük turuyla sıralama turlarını ilk sırada tamamladı. Max Verstappen ikinci, George Russell üçüncü olurken; Lando Norris dördüncü, Isack Hadjar ise beşinci sırayı elde etti.",
+                "img": "Resimler/Formula 1 Haberler/1795248721627_IMG_1387.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 397,
                 "title": "2026 LAS VEGAS GP 3. ANTRENMAN: RUSSELL ZİRVEDE, ANTONELLİ İKİNCİ, NORRİS ÜÇÜNCÜ",
                 "cat": "formula 1",
