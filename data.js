@@ -8764,6 +8764,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 400,
+                "title": "2026 MOTOGP PORTEKİZ GP 2. ANTRENMAN SEANSINDA LİDER ALEX MARQUEZ OLDU",
+                "cat": "motogp",
+                "date": "2026-11-21 14:06",
+                "content": "Portekiz Grand Prix’si hafta sonunun ikinci antrenman seansında günün en hızlı derecesine imza atan sürücü Alex Marquez oldu.<br><br>Teknik kontrollerin tamamlanması ve piste çıkış izninin verilmesiyle birlikte 30 dakikalık seans start aldı. İlk dakikalardan itibaren temponun yükseldiği bölümde liderlik koltuğuna Marc Marquez oturdu. Zarco ilk beş içinde kendine yer bulurken, Acosta ve Fernandez de üst sıralarda dikkat çekti.<br><br>Seansın yaklaşık 10. dakikasında Bezzecchi 1:51.942’lik derecesiyle zirveye çıktı; ancak Marc Marquez 1:51.713’lük turuyla kısa sürede liderliği geri aldı. Acosta ise hemen arkasında üçüncü basamakta yer aldı.<br><br>İlk bölümün geride kalmasıyla birlikte Raul Fernandez, sekizinci virajda motosikletinin kontrolünü kaybederek çakıl havuzuna çıktı. Yaşadığı olayın ardından hayal kırıklığı yaşayan Fernandez, garajın yolunu tuttu. Son 10 dakikaya girilirken pistte kalan Alex Rins, Quartararo, Alex Marquez ve Ogura uzun sürüş programlarına odaklandı.<br><br>Final bölümüne doğru Pedro Acosta 1:51.254’lük zamanıyla liderliği devraldı. Son dakikalarda yeniden piste çıkan Marc Marquez, 1:50.730’luk derecesiyle ilk sıraya yükseldi. Kardeşinin bu hamlesine 1:50.519’luk turla karşılık veren Alex Marquez ise zirveyi ele geçirdi. Acosta, bir sonraki turunda derecesini 1:51.141’e çekse de üçüncülükten yukarı çıkamadı.<br><br>Dama bayrağının sallanmasının ardından sıralamayı değiştiren bir tur kaydedilmedi. Böylece Alex Marquez ikinci antrenman seansını ilk sırada tamamlarken, Marc Marquez ikinci ve Pedro Acosta üçüncü oldu.",
+                "img": "Resimler/MotoGP Haberler/1795259185731_IMG_1396.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 396,
                 "title": "2026 MOTOGP PORTEKİZ GP ANA ANTRENMAN SEANSINI ALEX MARQUEZ LİDER TAMAMLADI",
                 "cat": "motogp",
