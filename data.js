@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 401,
+                "title": "LAS VEGAS GP SIRALAMALARINDA RACING BULLS'A TELSİZ ARIZASI SEBEBİYLE 5.000 EURO CEZA",
+                "cat": "formula 1",
+                "date": "2026-11-21 14:14",
+                "content": "Las Vegas Grand Prix'si sıralama turlarının ardından hakem heyetinin mercek altına aldığı tek vaka olan tehlikeli pit çıkışı konusunda karar netleşti. İkinci seansın son denemeleri öncesinde Racing Bulls, 41 numaralı otomobilin sürücüsü Arvid Lindblad'ı pit alanından gönderirken hızlı şeritte gelen Williams sürücüsü Alexander Albon'un yoluna çıkardı.<br><br>Duruşma sırasında yaşanan aksaklığın kasıtlı olmadığını savunan takım yetkilileri, koordinasyonun telsiz iletişim sistemindeki teknik bir arıza nedeniyle bozulduğunu dile getirerek durumu kabul etti. Hakemler bu gerekçeyi makul bulsa da güvenlik ihlalinin ortadan kalkmadığına hükmetti.<br><br>Verilen karar doğrultusunda Racing Bulls takımı 5.000 euro para cezasına çarptırılırken, sıralama turlarını altıncı basamakta noktalayan Arvid Lindblad'a ekstra bir yaptırım uygulanmadı.<br><br>FIA hakemlerinin resmi raporunda olay ve gerekçelerine dair şu vurgu yapıldı. Pit yerinden hareket eden 41 numaralı aracın, hızlı şeritte ilerleyen 23 numaralı aracın önüne çıkarılmasının tehlikeli sürüş oluşturduğu kaydedildi. Takım temsilcisinin tehlikeli durumu onayladığı ve telsiz arızasının koordinasyonu aksattığı belirtildi. İletişim kopukluğunun kasıtlı olmadığı kabul edilmekle birlikte, bu koşulların başka bir aracın önüne çıkma gerçeğini değiştirmediği ifade edildi. Hakemler ayrıca kesintisiz iletişimin güvenlik kurallarının temel parçası olduğunu ve arıza anlarında devreye girecek uygun yedek prosedürlerin hazır bulundurulması gerektiğini hatırlattı.",
+                "img": "Resimler/Formula 1 Haberler/1795259658324_IMG_1398.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 399,
                 "title": "RUSSELL’DAN VERSTAPPEN’E SERT TEPKİ: \"ARTIK BİRİ DUR DEMELİ\"",
                 "cat": "formula 1",
