@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 404,
+                "title": "VERSTAPPEN: “ELİMDEN GELENİN EN İYİSİNİ YAPIYORUM AMA MEVCUT ARAÇLA DURUM PEK PARLAK DEĞİL”",
+                "cat": "formula 1",
+                "date": "2026-11-21 18:45",
+                "content": "Las Vegas Grand Prix'si sıralama turlarının ardından Hollanda basınına açıklamalarda bulunan Max Verstappen, RB22'de son iki hafta sonudur süregelen sıkıntılara dair önemli detaylar paylaştı. Dört kez dünya şampiyonu pilot, yaşadıkları bu problemin kaynağını tespit ettiklerini ancak hafta sonu boyunca müdahale edemediklerini ifade etti.<br><br>Yaz arasından bu yana takım olarak ilerleme kaydettiklerini belirten Verstappen, buna karşın Brezilya hafta sonunda başlayan ve Las Vegas'ta da etkisini sürdüren aksaklıkların can sıktığını dile getirdi. Yaşadığı sorunun basit bir araç dengesizliğinden kaynaklanmadığını vurgulayan Hollandalı sürücü, durumu şu sözlerle özetledi: \"Sorun denge değil. Araçta ters giden bir şeyler var ama düzeltemiyoruz. Sorunun kaynağını biliyoruz fakat müdahale edemiyoruz. Bu artık aynı sorunu yaşadığımız ikinci hafta sonu oldu ve daha fazla bir şey söyleyemiyorum.\"<br><br>Bu problemin Brezilya'da aniden ortaya çıktığını ve geçmişte gündeme gelen arka aks aşınmasıyla karıştırılmaması gerektiğini kaydeden Verstappen, mevcut tabloda güçlü sonuçlar almanın zorlaştığını belirtti. \"Brezilya'daki o sorun hiç yoktan ortaya çıktı ve hâlâ devam ediyor\" diyen deneyimli pilot, \"Araç bu durumdayken iyi bir sonuç çıkarmak gerçekten kolay değil. Yaşadığım sorunlara rağmen elimden gelenin en iyisini yapmaya çalışıyorum\" ifadelerini kullandı.<br><br>Interlagos'ta aynı sıkıntıyla mücadele etmesine rağmen 21. sıradan ikinciliğe yükselmeyi başaran Verstappen, Las Vegas'taki yarış için benzer bir geri dönüş ihtimaline temkinli yaklaştı. Mevcut koşullarda işlerinin kolay görünmediğini söyleyen Verstappen, \"Dediğim gibi elimden gelenin en iyisini yapmaya çalışıyorum ama mevcut araçla durum pek parlak değil\" dedi.<br><br>Öte yandan Bakü'de yapılan güncellemelerin ardından virajlarda yeniden saldırgan sürüş yapabildiğine değinen Verstappen, Las Vegas'ta lastik yönetiminin de etkisiyle pistin bazı noktalarında zorlandıklarını sözlerine ekledi.",
+                "img": "Resimler/Formula 1 Haberler/1795275898234_IMG_1428.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 402,
                 "title": "LAS VEGAS GP'DE ANTONELLI SIRALAMADA ZİRVEDE, RESMÎ POLE POZİSYONU VERSTAPPEN'İN",
                 "cat": "formula 1",
