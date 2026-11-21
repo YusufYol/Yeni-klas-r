@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 402,
+                "title": "LAS VEGAS GP'DE ANTONELLI SIRALAMADA ZİRVEDE, RESMÎ POLE POZİSYONU VERSTAPPEN'İN",
+                "cat": "formula 1",
+                "date": "2026-11-21 14:25",
+                "content": "Las Vegas Grand Prix'si sıralama turlarının en hızlı derecesini Kimi Antonelli elde etse de, yeni içten yanmalı motor kullanımı nedeniyle aldığı beş sıra grid cezası yarışın başlangıç dizilişini değiştirdi. Cezanın uygulanmasıyla birlikte resmî pole pozisyonu Max Verstappen'e geçti ve Hollandalı pilot kariyerinin 51. pole pozisyonunu hanesine yazdırdı.<br><br>Sıralama turlarının son seansı olan Q3'te 1:33.893'lük zaman kaydeden Mercedes pilotu Antonelli, Verstappen'i 0,258 saniye geride bırakarak günün en hızlı turuna imza attı. Turunda herhangi bir ihlal bulunmadığı için derecesi silinmeyen İtalyan pilot, sıralama sonuçlarında birinci sıradaki yerini ve seansı en hızlı tamamlayan isim unvanını korudu. Ancak hafta sonu öncesinde aldığı beş sıra grid cezası nedeniyle pazar günkü yarışa altıncı sıradan başlaması kesinleşti.<br><br>Formula 1 kurallarına göre sıralama turlarının en hızlı derecesini elde etmek ile yarışa resmî pole pozisyonundan başlamak aynı anlama gelmiyor. Mercedes'in sezonluk izin verilen bileşen sınırını aşarak yeni bir içten yanmalı motor kullanması sonucunda Antonelli'ye verilen beş sıra gerileme cezası, attığı tur zamanını geçersiz kılmayıp yalnızca yarışın başlangıç sıralamasına etki etti.<br><br>Bu kararın ardından sıralama turlarını ikinci en hızlı zamanla tamamlayan Max Verstappen ile Antonelli'nin önündeki diğer pilotlar birer basamak yukarı taşındı. Resmî başlangıç dizilişinin ilk cebine yerleşen Verstappen böylece yarışa pole pozisyonundan başlama hakkı kazanırken, seansın en hızlı ismi Antonelli mücadeleye altıncı sıradan start alacak.",
+                "img": "Resimler/Formula 1 Haberler/1795260332395_IMG_1399.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 401,
                 "title": "LAS VEGAS GP SIRALAMALARINDA RACING BULLS'A TELSİZ ARIZASI SEBEBİYLE 5.000 EURO CEZA",
                 "cat": "formula 1",
