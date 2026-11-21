@@ -8784,6 +8784,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 403,
+                "title": "MARC MARQUEZ ŞAMPİYONLUĞA YÜRÜRKEN KAZA YAPTI, PORTEKİZ SPRİNTİNİ BEZZECCHİ KAZANDI",
+                "cat": "motogp",
+                "date": "2026-11-21 18:39",
+                "content": "2026 MotoGP Dünya Şampiyonası kapsamında düzenlenen Portekiz Grand Prix'sinin sprint mücadelesinde damalı bayrağı ilk sırada gören isim Marco Bezzecchi oldu.<br><br>Olumsuz hava şartları ihtimali sebebiyle başlangıç saati 30 dakika öne çekilen Portimao sprintinde, start öncesinde pist kuru olsa da gökyüzü yağmur ihtimalini işaret eden bulutlarla kaplıydı. Yarış öncesinde hava sıcaklığı 20°C, asfalt sıcaklığı ise 22°C olarak kaydedildi. Tüm pilotlar yarışa ön lastikte orta, arka lastikte ise yumuşak hamur tercihiyle başladı.<br><br>12 turluk yarışın startıyla birlikte beş kırmızı ışığın sönmesinin ardından yerini koruyan Marco Bezzecchi ilk viraja lider dönerken, Marc Marquez Raul Fernandez'in atağına yanıt veremeyerek üçüncülüğe geriledi.<br><br>İkinci tura gelindiğinde artan yağış riski nedeniyle yarış komiserleri beyaz bayrakları çıkararak sürücülere motosiklet değiştirme serbestisi tanıdı. Aynı bölümde Fermin Aldeguer ile Diego Moreira pite yönelerek yarış dışı kaldı.<br>Ön grupta temposunu artıran Marco Bezzecchi, en yakın takipçisi Raul Fernandez ile arasındaki farkı bir saniyenin üzerine taşıdı. İlerleyen turlarda Johann Zarco, 10 ve 11. virajlar arasındaki kesimde yaptığı kazayla sprint yarışını noktaladı.<br><br>Sprint sonunda şampiyonluğunu perçinlemeye oldukça yaklaşan ve üçüncü sırada yoluna devam eden Marc Marquez, bitime iki tur kala kaza yaparak puan şansını bıraktı. Bu gelişmeyle birlikte Marquez'in şampiyonluğu ilan etme ihtimali pazar günkü ana yarışa kaldı.<br><br>12 turun sonunda zafere ulaşan Marco Bezzecchi'nin ardından Raul Fernandez ikinci sırayı aldı ve podyumu Alex Marquez üçüncü sırada tamamladı. Pedro Acosta dördüncü olurken, ilk beşi Jorge Martin noktaladı.",
+                "img": "Resimler/MotoGP Haberler/1795275585298_IMG_1427.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 400,
                 "title": "2026 MOTOGP PORTEKİZ GP 2. ANTRENMAN SEANSINDA LİDER ALEX MARQUEZ OLDU",
                 "cat": "motogp",
