@@ -8874,6 +8874,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 413,
+                "title": "2026 MOTOGP PORTEKİZ GP: MARC MARQUEZ ŞAMPİYONLUĞUNU İLAN ETTİ, YARIŞI BEZZECCHİ KAZANDI!",
+                "cat": "motogp",
+                "date": "2026-11-22 18:15",
+                "content": "2026 MotoGP Dünya Şampiyonası'nın Portekiz ayağında damalı bayrağı ilk sırada gören isim Marco Bezzecchi oldu. Yarışı sekizinci sırada noktalayan Marc Marquez ise bu sonuçla birlikte MotoGP sınıfında sekizinci, genel kariyerinde ise onuncu dünya şampiyonluğunu ilan etti.<br><br>Kuru zemin koşullarında koşulan mücadele öncesinde hava sıcaklığı 18°C olarak ölçülürken, güneşin kendini göstermesiyle asfalt sıcaklığı 26°C'ye yükselerek hafta sonunun en yüksek değerini gördü. Bu şartlar altında pilotların ortak tercihi orta hamur kuru zemin lastikleri oldu.<br><br>Yarışın başlamasıyla birlikte mükemmel bir kalkış gerçekleştiren Marc Marquez, daha ilk virajda Marco Bezzecchi'yi geride bırakarak liderliği eline aldı. Bezzecchi açılış turu tamamlanmadan beşinci basamağa kadar inerken, Raul Fernandez ikinciliğe tırmandı. İlk turda arka grupta ise Johann Zarco ile Alex Marquez temas yaşayarak kaza yaptı.<br><br>İkinci tura girildiğinde Raul Fernandez liderliği devraldı. Hemen ardından Jorge Martin de bulduğu fırsatı değerlendirerek Marquez'i geçti ve ikinci sıraya yerleşti. Üçüncülüğe düşen Marquez, birkaç viraj sonrasında dördüncü sıradaki Bezzecchi'nin atağına engel olamadı.<br>Aynı tur içerisinde temposu rakiplerinin yaklaşık 1 saniye gerisinde kalan Marc Marquez, yedinci sıraya kadar geriledi. İlerleyen bölümde Pedro Acosta'nın 15. virajda düşüp yarışa geri dönmesiyle altıncılığa çıkan Marquez, 10. turda Fabio Di Giannantonio'ya geçilmekten kurtulamadı. Yarışın orta bölümüne gelindiğinde Aprilia sürücüleri ilk üç sıradaki yerlerini korurken, Ai Ogura'nın da Marquez'i geçmesiyle İspanyol pilot sekizinci sıraya indi.<br><br>Mücadelenin 15. turunda Marco Bezzecchi, Raul Fernandez'e yaptığı atakla yarış liderliğini tekrar ele geçirdi. Diğer tarafta ilk turdaki kazanın ardından sağ kolunda sakatlık yaşayan Alex Marquez, pite gelerek yarıştan çekilmek zorunda kaldı.<br><br>Bitime 5 tur kala Brad Binder'ın geçişiyle bir sıra daha kaybeden Marc Marquez, son turda Diego Moreira'nın kaza yapmasıyla birlikte yarışı sekizinci sırada tamamladı ve şampiyonluk ipini göğüsledi.<br><br>Portekiz Grand Prix'sinde podyumun zirvesine Marco Bezzecchi çıkarken, Jorge Martin ikinci, Raul Fernandez ise üçüncü sırada yarışı bitirdi. Bu üçlüyü sırasıyla Fabio Di Giannantonio ve Ai Ogura takip etti.",
+                "img": "Resimler/MotoGP Haberler/1795360545168_IMG_1447.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 403,
                 "title": "MARC MARQUEZ ŞAMPİYONLUĞA YÜRÜRKEN KAZA YAPTI, PORTEKİZ SPRİNTİNİ BEZZECCHİ KAZANDI",
                 "cat": "motogp",
