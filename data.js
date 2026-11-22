@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 411,
+                "title": "LANDO NORRİS: \"LAS VEGAS F1 TARİHİNİN EN KAOTİK YARIŞI OLABİLİR, KAZANABİLİR DE SONUNCU DA OLABİLİRDİM\"",
+                "cat": "formula 1",
+                "date": "2026-11-22 14:16",
+                "content": "Las Vegas Grand Prix'sini Max Verstappen'in ardından ikinci sırada bitiren Lando Norris, damalı bayrak sonrası oldukça dikkat çekici değerlendirmelerde bulundu. Yarışın gidişatını Formula 1 tarihinin en kaotik mücadelelerinden biri olarak tanımlayan McLaren pilotu, pistteki olayların ve sürekli değişen dengelerin hafta sonunu apayrı bir noktaya taşıdığını söyledi.<br><br>Yarışın orta bölümünde kontrolü ve olup biteni kavramakta zorlandığını dile getiren Norris, o anlardaki belirsizliği şu sözlerle anlattı: \"Yarışın yarısında neler olduğunu anlayamadım bile! Bu yarışta her şey mümkündü: Kazanma şansı da yakalayabilirdim, sonunculuğa kadar da gerileyebilirdim!\" Yaşanan karmaşaya rağmen ortaya çıkan tablodan keyif aldığını belirten Norris, \"Kaotik ama eğlenceli bir gündü ve takım olarak iyi bir sonuç elde ettik\" ifadelerini kullandı.<br><br>Çok sayıda geçişin yaşandığı ve temponun sürekli dalgalandığı yarışta herkesin şansı olduğunu vurgulayan McLaren sürücüsü, \"Bence bu yarışı griddeki herhangi bir pilot kazanabilirdi\" dedi. Yarışı kazanan Max Verstappen'i de kutlayan Norris, \"Eğlenceli bir yarıştı. Max'i tebrik ederim, ön tarafta gerçekten iyi bir iş çıkardı\" diye konuştu.<br><br>Yaklaşık 15 saniye boyunca yarışa liderlik etmenin kendisini mutlu ettiğini belirten Norris, bu anı \"Sanırım yaklaşık 15 saniye boyunca liderdim, bu yüzden bununla gurur duyuyorum! Yarışa liderlik ettim ama Max çok iyi sürdü, hiç hata yapmadı ve oldukça hızlıydılar\" sözleriyle aktardı. Yarış öncesinde ilk üç sıra için beklentisi olmadığını da vurgulayan Norris, \"Bizim için iyi bir gündü. İlk iki ya da üç sıradan birini elde etmeyi beklemiyordum, dolayısıyla oldukça olumlu bir sonuç oldu\" diyerek sözlerini noktaladı.",
+                "img": "Resimler/Formula 1 Haberler/1795346202987_IMG_1444.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 410,
                 "title": "SERGIO PEREZ’E LAS VEGAS TEMASI SONRASI KATAR GRAND PRIX’SİNDE 5 SIRA GRİD CEZASI",
                 "cat": "formula 1",
