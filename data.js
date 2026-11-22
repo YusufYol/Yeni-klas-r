@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 406,
+                "title": "VERSTAPPEN ZAFER SONRASI RUSSELL'I HEDEF ALDI: \"KARŞILIK VERMEYE BİLE DEĞMEZ\"",
+                "cat": "formula 1",
+                "date": "2026-11-22 11:21",
+                "content": "Las Vegas Grand Prix'sinin ardından konuşan Max Verstappen, George Russell'ın pist dışındaki açıklamalarına sert ifadelerle karşılık vererek rakibinin sözlerini ciddiye almadığını söyledi.<br><br>İki pilot arasındaki gerginlik, hafta sonunun üçüncü antrenman seansında yaşanan olaylarla tırmanmıştı. Son antrenman bölümünde Russell'ın önüne geçtikten sonra frenaj bölgesine yaklaşırken çizgi değiştiren Verstappen'e karşılık Russell iç çizgiden hamle yapmış ve ikili 14. virajda temas yaşamıştı. Ardından yerini geri alan Verstappen'in el hareketi hakemlerce incelemeye alınmış ve Hollandalı pilota uyarı cezası verilmişti.<br><br>Pazar günkü grand prix'de ise pist üzerindeki kapışmalar galibiyet ve podyum mücadelesine yansıdı. Çekişmeli geçen anların ardından Verstappen damalı bayrağı ilk sırada görerek zafere uzanırken, Russell yarışın son bölümlerinde bariyerlere vurarak podyum şansını kaybetti.<br><br>Yarış sonrasındaki değerlendirmelerinde Russell'ın demeçlerine değinen Verstappen, rakibinin kendisini etkilemediğini şu sözlerle dile getirdi:<br><br>\"Bugün benim için bir başarı hikayesi değil. Mesele şu ki, Russell pist dışında çok fazla konuşuyor. Açıkçası bu beni pek ilgilendirmiyor çünkü benim seviyemin o kadar altında ki, buna karşılık vermeye çalışmamın bile bir anlamı yok. Dolayısıyla beni rahatsız etmiyor.\"<br><br>Verstappen, yarış içinde yaşanan gelişmelerin kendi adına tabloyu değiştirdiğini de belirterek sözlerini şöyle sürdürdü:<br><br>\"Ama gördüğünüz gibi, karma diye bir şey var! Dikiz aynama bakıp neler olduğunu gördüğüm an gerçekten harikaydı. Kendi kendime, 'Harika! Günüm daha da güzelleşiyor' dedim. Ardından yarışı birinci sırada tamamladığımda günüm tamamen mükemmel hale geldi.\"",
+                "img": "Resimler/Formula 1 Haberler/1795335675152_IMG_1435.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 405,
                 "title": "2026 LAS VEGAS GP: NEFES KESEN DÜELLOLARIN ARDINDAN KAZANAN MAX VERSTAPPEN",
                 "cat": "formula 1",
