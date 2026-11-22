@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 408,
+                "title": "LECLERC'DEN FERRARI'YE MESAJ: \"YOLUNDA GİTMEYEN NE VARSA DÜZELTMELİYİZ\"",
+                "cat": "formula 1",
+                "date": "2026-11-22 11:58",
+                "content": "Meksika'nın ardından Las Vegas Grand Prix'sinde de yan yana gelen Charles Leclerc ve Lewis Hamilton arasında gerilim bir kez daha tırmandı. Yarışın final turlarında altıncılık çekişmesi sırasında yaşanan temas, Hamilton'ın spin atıp pozisyon kaybetmesine yol açarken Leclerc'e 10 saniyelik zaman cezası getirdi.<br><br>Yarış sonu açıklamalarında takım içi dinamiklere dikkat çeken Leclerc, aralarındaki pürüzlerin giderilmesi gerektiğini vurguladı. Monakolu pilot, \"İyi gitmeyen noktaları bir an önce toparlamalıyız. Aramızda sert bir kavga çıkacağını sanmıyorum; bugüne dek yaptığımız konuşmaların hiçbiri o noktaya gelmedi. Fakat işlerin bu şekilde yürümesi artık mümkün değil,\" ifadelerini kullandı.<br><br>Medya önünde bu konuları ele almanın kendi açısından da rahatsız edici olduğunu belirten Leclerc, \"Yine zorlayıcı bir tablo var ve açıkçası bunları mikrofonların önünde konuşmak hiç kolay değil. Kabul edilebilir bir tablo değil, şu an için ekleyebileceğim tek şey bu,\" diye konuştu.<br><br>Hafta sonundaki hızlarına da değinen Ferrari sürücüsü, pistteki dengelerin oldukça sıkı olduğunu söyledi: \"SF-26 aracımızın temposu o kadar kötü değildi ama pistteki herkes elindekini iyi kullandı; Alpine'ler dahi oldukça süratliydi. Bir saniyelik farkın altına indiğinizde çekişme o kadar kızışıyor ki öndekinden kopmak neredeyse imkansız hale geliyor. Bu yarışı 'keyifli' diye tanımlayamam, bu biraz saygısızlık olur. Takım adına gerçekten üzgünüm.\"",
+                "img": "Resimler/Formula 1 Haberler/1795337885493_IMG_1439.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 407,
                 "title": "FERRARİ'DE TEMAS SONRASI SOĞUK RÜZGARLAR: HAMİLTON TOPU TAKIMA ATTI",
                 "cat": "formula 1",
