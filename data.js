@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 412,
+                "title": "OSCAR PIASTRI: \"LAS VEGAS'TA ÖNGÖRÜLEMEZ VE ÇILGIN BİR MÜCADELE YAŞANDI\"",
+                "cat": "formula 1",
+                "date": "2026-11-22 14:20",
+                "content": "Las Vegas Grand Prix'sine arka sıralardan başlamasına rağmen sergilediği tırmanışla damalı bayrağı üçüncü sırada gören McLaren pilotu Oscar Piastri, yarışın ardından basın mensuplarının sorularını yanıtladı. Tempo, pit stop trafiği ve hava koridorunun yarattığı çekişmeye değinen Avustralyalı sürücü, yarışın temposunu şu sözlerle özetledi:<br><br>\"Las Vegas'ın dünyanın eğlence başkenti olduğunu söylerler, bu yarışın bir parçası olmak da oldukça keyifliydi. İnanılmaz bir yarıştı.\"<br>Gride geriden dizilirken yarışın nasıl ilerleyeceğini öngöremediğini aktaran Piastri, başlangıçta hızlı yükseldiğini ve araçların tek bir büyük grup halinde kalacağını kısa sürede fark ettiğini belirtti. Pit stop sırasında iki aracın arka arkaya gelmesinin ufak bir aksaklık yarattığını ifade eden başarılı pilot, rekabetin bu denli yakın olduğu bir ortamda bunun sonucu etkilemediğini söyledi.<br><br>Düzlüklerdeki geçiş dinamiklerine ve rakipler arasındaki anlık üstünlüklere dikkat çeken Piastri, yaşadıkları mücadeleyi şöyle anlattı:<br><br>\"Oldukça öngörülemez bir yarıştı, bir düzlükte birini çok kolay geçerken bir sonrakinde zorlanıyordunuz, ardından başka bir rakiple bambaşka güçlü ve zayıf yönler ortaya çıkıyordu.\"<br><br>Üst sıralara çıkıldığında farkın açılabileceği hissiyatının oluşabildiğini ancak geçişlerde asıl belirleyici unsurun hava koridoru olduğunu vurgulayan Piastri, \"Çok çılgın bir yarıştı ve podyumda bitirdiğim için çok mutluyum\" diyerek sözlerini noktaladı.",
+                "img": "Resimler/Formula 1 Haberler/1795346453914_IMG_1443.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 411,
                 "title": "LANDO NORRİS: \"LAS VEGAS F1 TARİHİNİN EN KAOTİK YARIŞI OLABİLİR, KAZANABİLİR DE SONUNCU DA OLABİLİRDİM\"",
                 "cat": "formula 1",
