@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 410,
+                "title": "SERGIO PEREZ’E LAS VEGAS TEMASI SONRASI KATAR GRAND PRIX’SİNDE 5 SIRA GRİD CEZASI",
+                "cat": "formula 1",
+                "date": "2026-11-22 14:09",
+                "content": "FIA hakem heyeti, Las Vegas Grand Prix’sinde yaşanan kazanın ardından Sergio Perez’in Katar Grand Prix’sine beş sıra geriden başlayacağını duyurdu.<br>Las Vegas’taki yarış sırasında Rafael Camara ile girdiği mücadelede yaşanan temas, güvenlik aracının piste çıkmasına neden olmuş ve Meksikalı sürücü için yarışı erken noktalamıştı. Olayın ardından yapılan incelemede hakemler, iç çizgiden atak yapmaya çalışan Perez’in genç Brezilyalı pilotun yanına yeterince yaklaşamadığı ve virajda yer alma hakkı elde edemediği sonucuna vardı.<br>Kazada aracında ağır hasar oluşmasına rağmen damalı bayrağı 16. sırada gören Camara’nın aksine Perez yarışı tamamlayamadı. Hakemler ilk aşamada Perez’e 10 saniyelik zaman cezası öngördü; ancak sürücünün yarış dışı kalması nedeniyle bu yaptırım, takvimdeki bir sonraki yarış olan Katar Grand Prix’sinde uygulanacak 5 sıra grid cezasına dönüştürüldü.",
+                "img": "Resimler/Formula 1 Haberler/1795345773294_IMG_1442.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 409,
                 "title": "VASSEUR: \"BÖYLE BİR TABLOYLA KARŞILAŞACAĞIMI HİÇ ÖNGÖRMEMİŞTİM\"",
                 "cat": "formula 1",
