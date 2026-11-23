@@ -8884,6 +8884,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 415,
+                "title": "ACOSTA, MARQUEZ'İN 10. DÜNYA ŞAMPİYONLUĞUNU DEĞERLENDİRDİ: \"ŞAMPİYON OLMASI KAÇINILMAZDI\"",
+                "cat": "motogp",
+                "date": "2026-11-23 20:05",
+                "content": "Portekiz Grand Prix’si sonunda kariyerinin MotoGP’deki sekizinci, genel toplamda ise onuncu dünya şampiyonluğunu garantileyen Marc Marquez’e, önümüzdeki sezon Ducati fabrika takımında garaj arkadaşı olacak Pedro Acosta’dan dikkat çeken övgüler geldi.<br><br>Portekiz’deki yarışı talihsiz bir kazayla noktalayan Acosta, mücadelenin ardından yaptığı değerlendirmelerde İspanyol pilotun zirveye uzanan yolculuğunun her aşamasını öne çıkardı. Sezonun açılış bölümünde aradığı ritmi bulamayan ve yaşadığı sakatlık nedeniyle pistlerden bir süre uzak kalan Marquez’in, geri dönüşünün ardından sergilediği geri dönüş ve istikrar, 102 puanlık dezavantajın kapanmasında belirleyici oldu. Bu süreçte Jorge Martin ve Marco Bezzecchi cephesinde yaşanan kritik kırılmalar ve Aprilia’nın puan kayıpları da tablonun şekillenmesinde rol oynadı.<br><br>Gelecek yıl Ducati’nin kırmızı motosikletiyle mücadele edecek olmanın heyecanını paylaşan Acosta, Marquez’in şampiyonluğu için şu ifadeleri kullandı:<br><br>\"Gelecek yıl kırmızı motosikletle yarışacağım için mutluyum. Marc gerçek bir şampiyonun nasıl olması gerektiğini herkese gösterdi. Sonuçta sezona en iyi şekilde başlamadı, ardından sakatlık nedeniyle ara vermek zorunda kaldı ve bir şekilde geri dönmeyi başardı. Rakipleri üzerinde baskı kurarak yarışlar kazandı, Aprilia ise işleri tamamen yüzüne gözüne bulaştırdı.\"<br><br>Genç sürücü, takım arkadaşı olacak yıldız ismin başarısına dair uzun süredir aynı görüşte olduğunu da vurgulayarak sözlerini şöyle sürdürdü:<br><br>\"Márquez'in yaptıkları hakkında bir buçuk yıldır ne söylüyorsam bugün de aynısını düşünüyorum. Sonunda şampiyon olması zaten kaçınılmazdı. Yarışta onu biraz savunmada görmek beni şaşırttı ama bu da çok normal, bu yıl yaşanan onca şeyden gerekenden fazla risk almasına hiç ihtiyaç yoktu. Bu şampiyonluğu herkesten çok o hak etti.\"",
+                "img": "Resimler/MotoGP Haberler/1795453505552_IMG_1461.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 413,
                 "title": "2026 MOTOGP PORTEKİZ GP: MARC MARQUEZ ŞAMPİYONLUĞUNU İLAN ETTİ, YARIŞI BEZZECCHİ KAZANDI!",
                 "cat": "motogp",
