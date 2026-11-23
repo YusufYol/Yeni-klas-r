@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 416,
+                "title": "MEKİES: “MAX ZORLU ARACA RAĞMEN KAZANMAYI BAŞARDI”",
+                "cat": "formula 1",
+                "date": "2026-11-23 20:09",
+                "content": "Red Bull Takım Patronu Laurent Mekies, Las Vegas Grand Prix’sinde zafer kazanan Max Verstappen’in, RB22’de süregelen direksiyon hissiyatı ve tutarsızlık problemlerine rağmen yarışa uyum sağlamayı başardığını vurguladı.<br><br>Pole pozisyonundan start aldığı 50 turluk yarışın 34 turunu ilk sırada tamamlayan ve slipstream etkisinin belirleyici rol oynadığı Las Vegas mücadelesinden galibiyetle ayrılan Verstappen, hafta sonu boyunca aracındaki tekrarlayan bir aksaklıkla mücadele etti.<br><br>Brezilya GP’sinden beri hissedilen bu sorunun genel araç dengesinden çok direksiyondaki geri bildirimle bağlantılı olduğunu dile getiren dört kez dünya şampiyonu pilot, durumun güvenlik riski oluşturmadığını ancak viraj girişlerinde agresif sürüşü sınırladığını aktardı.<br><br>Hafta sonu boyunca problemin ortadan kaldırılamadığını açık yüreklilikle ifade eden Mekies, Verstappen’in soğukkanlı sürüşü, savunma hamleleri ve pit duvarıyla kurduğu sağlıklı iletişimle bu eksikliği telafi ettiğini dile getirdi. Mekies konuya ilişkin şu ifadeleri kullandı:<br><br>“Aracın karakteristiğinden kesinlikle memnun değil ve bunu bu hafta sonu çözemeyeceğimizi de hepimiz biliyorduk.”<br><br>“Biz araçtaki sorunu gideremedik ama Max bu duruma uyum sağlamayı başardı ve galibiyete ulaştı.”<br><br>Yarışın son bölümlerine doğru RB22’nin arka bölümünde yaşanan öngörülemezliğin ve hız kaybının farkında olduklarını belirten Red Bull patronu, Madrid hafta sonunda belli adımlar atılsa da kalıcı bir giderim için zamana ihtiyaç duyulduğunu kaydetti.<br><br>Görünüşte basit duran ancak teknik açıdan karmaşık olan bu aksaklığın mevcut pakette tamamen aşılamayacağını kabul eden Mekies, sorunun sezon sonuna kadar ve 2027 sezonunda da Verstappen’in karşısına çıkabileceği uyarısında bulundu.",
+                "img": "Resimler/Formula 1 Haberler/1795453771022_IMG_1462.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 414,
                 "title": "FORMULA 1'DE 2030 DÖNEMİ: ÜRETİCİLERE İKİ TAKIM SINIRI GELİYOR, BAZI TAKIMLAR YENİ MOTOR ARAYACAK!",
                 "cat": "formula 1",
