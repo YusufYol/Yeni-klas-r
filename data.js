@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 418,
+                "title": "STEINER'DAN LECLERC İÇİN ŞAŞIRTAN ÖNERİ: \"CEZA OLARAK HAAS'A GİTSİN\"",
+                "cat": "formula 1",
+                "date": "2026-11-24 17:11",
+                "content": "Las Vegas Grand Prix'sinde Ferrari pilotları Charles Leclerc ve Lewis Hamilton arasında yaşanan çarpışma, pistteki puan kayıplarının yanı sıra padok dışındaki yorumlarla da gündeme oturdu. Meksika yarışının açılış turunda da gerilim yaşayan ikilinin Las Vegas'taki mücadelesinde temas yaşanması ve hakemlerin Leclerc'i suçlu bularak 10 saniyelik zaman cezası vermesi tartışmaları büyüttü.<br><br>Olayın ardından Ferrari cephesinde takım içi disipline yönelik adımların atılması gerektiği vurgulanırken, eski takım patronu Günther Steiner'den dikkat çeken bir çıkış geldi. Takım patronu Fred Vasseur'ün son gelişmeler ışığında birtakım önlemler alınması gerektiğine işaret ettiği süreçte Steiner, Ferrari'nin Monakolu sürücüye yönelik sıra dışı bir yaptırımı masaya yatırmasını savundu.<br><br>Konuk olduğu The Red Flags podcast yayınında konuyu değerlendiren Steiner, Leclerc'in geçici olarak Haas'a gönderilmesinin bir seçenek olabileceğini dile getirdi. Steiner, Ferrari yönetiminin pilotuna şu mesajı verebileceğini ifade etti: \"Eğer Ferrari'de mutlu değilsen sana burada bir koltuk var, geldiğin yere geri dön.\" Leclerc'in ilk antrenman tecrübesiyle Haas garajında boy gösterdiği dönemi ve kendisinin de o süreçte takımda bulunduğunu hatırlatan eski patron, bu ihtimalin bile sürücünün tavırlarını törpüleyebileceğini belirtti: \"Belki onu böyle bir şeyle tehdit etmek bile sakinleşmesini sağlar ve böylece kendisinden ayrılmak zorunda kalmazsınız.\"<br><br>Steiner, yaşanan gerginlik tablosunda Leclerc'in payına dikkat çekerek sözlerini şu ifadeyle noktaladı: \"Ama bu karmaşayı kendisi yarattığı için mutsuz olmayı hak ediyor.\"",
+                "img": "Resimler/Formula 1 Haberler/1795529506864_IMG_1481.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 417,
                 "title": "STEINER’DEN RUSSELL’A POLEMİK UYARISI: “GÜNÜN SONUNDA ZARARLI ÇIKAR”",
                 "cat": "formula 1",
