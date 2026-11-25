@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 420,
+                "title": "FORMULA 1 YÖNETİMİNDEN YENİ MOTOR HAMLESİ: 2028 SEZON ORTASINDA GELİŞİM DURABİLİR",
+                "cat": "formula 1",
+                "date": "2026-11-25 17:36",
+                "content": "Formula 1 yönetiminde, 2030 yılında yürürlüğe girecek yeni motor kuralları öncesinde mevcut hibrit güç ünitelerinin gelişiminin 2028 sezonunun ortasında dondurulması fikri tartışılıyor. Masadaki bu planla birlikte, motor tedarikçileri arasındaki teknik ve mali yük farkının dengelenmesi hedefleniyor.<br><br>The Race tarafından paylaşılan bilgilere göre önerinin temelinde, üreticilerin yeni döneme eşit koşullarda hazırlanması yatıyor. Şu anda pistte Ferrari’nin müşteri motorlarıyla yer alan Cadillac cephesinde General Motors, doğrudan 2030 sezonunda kullanılacak V8 ünitelerin tasarımına odaklanmış durumda. Mevcut hibrit sistemler için herhangi bir geliştirme bütçesi ya da mühendislik mesaisi harcamayan şirket, tüm enerjisini gelecek kurallara ayırabiliyor.<br><br>Buna karşın mevcut düzende takımlara motor sağlayan üreticiler, iki farklı cephede birden mesai harcamak zorunda kalıyor. Bu markalar bir yandan hâlihazırdaki güç ünitelerinin dayanıklılık ve performansını yukarı çekmeye çalışırken, diğer yandan 2030’da başlayacak V8 döneminin hazırlıklarını yürütüyor.<br><br>Gündemdeki planın kabul edilmesi hâlinde, 2028 yılının ortasına kadar motor üreticilerine mevcut ünitelerdeki eksiklerini gidermeleri için yaklaşık bir buçuk sezonluk ek bir zaman tanınacak. Bu sürenin dolmasıyla birlikte mevcut motorlar üzerindeki teknik güncellemeler tamamen sonlandırılacak ve tüm üreticilerin bütçe ile mühendislik kaynaklarını yalnızca 2030 V8 projesine aktarmasının önü açılacak.",
+                "img": "Resimler/Formula 1 Haberler/1795617385160_IMG_1486.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 419,
                 "title": "LAS VEGAS TEMASI SONRASI RALF SCHUMACHER: “HAMILTON FERRARİ'DE LİDERLİĞİNİ KABUL ETTİRMEK İSTİYOR“",
                 "cat": "formula 1",
