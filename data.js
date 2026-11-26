@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 421,
+                "title": "2026 KATAR GRAND PRIX PROGRAMI, SEANS SAATLERİ VE YAYIN KANALLARI",
+                "cat": "formula 1",
+                "date": "2026-11-26 21:30",
+                "content": "Formula 1'de 2026 takvimi sona yaklaşırken perde 27-29 Kasım tarihleri arasında Katar'daki Luseyl Uluslararası Pisti'nde açılıyor. Sezonun sondan bir önceki yarışı olan Katar Grand Prix'sinin ardından 4-6 Aralık haftasında Abu Dabi Grand Prix'si koşulacak ve yıl tamamlanacak.  <br><br>Bir önceki yarış olan Las Vegas Grand Prix'si yüksek tempolu geçerken, yarışı Max Verstappen ilk sırada tamamladı ve podyumda iki McLaren pilotu ona eşlik etti. Hem pilotlar hem de takımlar şampiyonluğu daha önce netleştiği için hafta sonunun asıl odak noktası ikincilik yarışı olacak.<br><br>Pilotlar klasmanında 304 puanla Max Verstappen ikinci sırada bulunuyor. Onun arkasında 267 puanla Lewis Hamilton yer alırken, George Russell ve Lando Norris 264'er puanla takibini sürdürüyor. Takımlar sıralamasında ise 517 puanlı Ferrari ikinci sırada yer alıyor. Üçüncü sıradaki Red Bull Racing 440 puanda bulunurken, McLaren sadece 9 puan geride 431 puanla dördüncü sırada. Orta grubun lideri konumundaki beşinci takım ise Racing Bulls.  <br><br>Luseyl'deki tüm seanslar F1 TV ve beIN SPORTS 4 ekranlarından takip edilebilecek. Program ise şu şekilde olacak:<br><br>27 Kasım Cuma  <br>1. Antrenman Seansı: 16.30 - F1 TV / beIN SPORTS 4<br><br>2. Antrenman Seansı: 20.00 - F1 TV / beIN SPORTS 4<br><br>28 Kasım Cumartesi<br>3. Antrenman Seansı: 17.30 - F1 TV / beIN SPORTS 4<br><br>Sıralama Turları: 21.00 - F1 TV / beIN SPORTS 4  <br>29 Kasım Pazar<br>Yarış: 19.00 - F1 TV / beIN SPORTS 4",
+                "img": "Resimler/Formula 1 Haberler/1795717804556_IMG_1564.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 420,
                 "title": "FORMULA 1 YÖNETİMİNDEN YENİ MOTOR HAMLESİ: 2028 SEZON ORTASINDA GELİŞİM DURABİLİR",
                 "cat": "formula 1",
