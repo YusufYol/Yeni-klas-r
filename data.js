@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 427,
+                "title": "F1 TAKIMLARINA KATAR İÇİN ACİL DURUM TAHLİYE PLANI İLETİLDİ",
+                "cat": "formula 1",
+                "date": "2026-11-27 17:26",
+                "content": "Ortadoğu'daki sıcak çatışmalar nedeniyle takvimden çıkarılıp çıkarılmayacağı haftalarca merak edilen Katar ve Abu Dabi Grand Prix’leri, organizatörlerin sunduğu güvenlik taahhütlerinin ardından takvimde tutuldu. Ancak yarışların yapılmasına karar verilmesine rağmen olası bir kriz senaryosuna karşı perde arkasında hazırlıkların sürdüğü ortaya çıktı.<br><br>Williams sürücüsü Carlos Sainz, Katar hafta sonu kapsamında takımlara acil durum tahliye protokolünün ulaştırıldığını doğruladı. Tehlike anında pistin nasıl boşaltılacağını kapsayan bu prosedür hakkında konuşan Sainz, durumu şu sözlerle özetledi: “Evet, ilgili talimatlar elimizde. Bizi bilgilendirdiler. Ancak bu konuda yorumlayabileceğim tek şey bu. Bana söylenen de bu.”<br><br>Hem Formula 1 yönetiminin hem de FIA’nın söz konusu acil durum senaryosunun ayrıntılarını kamuoyuyla paylaşmaktan kaçındığı görülüyor.<br><br>Öte yandan güvenlik önlemleri ve sigorta krizinin saha yansımaları da dikkat çekiyor. Pist çevresinde görev yapan basın mensuplarına bu tahliye planının iletilmediği aktarılırken, önde gelen birçok haber ajansı ve yayıncı kuruluşun, sigorta şirketlerinin bölge risklerini teminat altına almaması nedeniyle Katar'a gitmeme kararı aldığı kaydedildi.",
+                "img": "Resimler/Formula 1 Haberler/1795789594558_IMG_1597.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 426,
                 "title": "SEBASTIAN VETTEL’DEN FERRARİ İTİRAFI: “DEĞİŞİKLİK YAPMA CESARETİNDEN YOKSUNDUK”",
                 "cat": "formula 1",
