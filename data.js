@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 431,
+                "title": "TOTO WOLFF: “BENİ MERCEDES’TEN KOPARAMAYACAKLARINI BİLİRLER”",
+                "cat": "formula 1",
+                "date": "2026-11-27 19:14",
+                "content": "2026 sezonunda Mercedes’i yeniden şampiyonluk yarışının zirvesine çıkaran Toto Wolff, rakip ekiplerden kendisine hiçbir yaklaşım olmadığını dile getirerek hedeflerini 2036’ya kadar uzanan geniş bir çerçevede anlattı.<br><br>Mercedes Formula 1 takımında üçte birlik paya sahip olan 54 yaşındaki Avusturyalı yönetici, 2026’daki zaferle birlikte pilotlar ve takımlar klasmanlarında elde ettiği toplam 17 şampiyonlukla Ron Dennis’in efsanevi rekorunu yakaladı. Bu dikkat çekici istatistiğe karşın padoktaki diğer yapılardan neden teklif gelmediğini Alman BILD gazetesine değerlendiren Wolff, beş yıllık bir vizyonun ötesinde düşündüğünü ve on yıl sonra da takımın başında yer alabileceğinin sinyallerini verdi.<br><br>Öte yandan 24 yarıştan oluşan yorucu takvimin ilerleyen dönemlerde çalışma düzeninde esneklik gerektirebileceğine işaret eden deneyimli isim, her grand prix’de yer almak yerine daha çok yönetim kurulu başkanı gibi konumlanabileceğini vurguladı:<br><br>“Diğer takımlardan hiç teklif almıyorum. İnanılmaz, değil mi? Ama insanlar muhtemelen artık beni Mercedes'ten koparamayacaklarını biliyor. Ben çok uzun vadeli planlar yapıyorum.”<br><br>“Benim için 'yakın gelecek' 10 yıl sonrası demek. Takımın 10 yıl sonra da başarılı olmaya devam edebilmesi için kararları şimdiden düşünmem, hatta almam gerekiyor. Sağlıklı kalırsam ve bu iş bana hala sıradan bir mesai gibi gelmezse daha uzun yıllar burada kalacağım. Belki o zaman 24 yarış yerine sadece 18 yarışa giderim ve medyada daha az görünürüm.”<br><br>“Rolümü biraz bölüp daha çok yönetim kurulu başkanı gibi hareket etmek isteyebilirim. Ama dediğim gibi, bunun gerçekleşmesi için önce sağlığımı korumam gerekiyor.\"",
+                "img": "Resimler/Formula 1 Haberler/1795796072337_IMG_1602.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 429,
                 "title": "KATAR GP 1. ANTRENMAN: ANTONELLİ EN HIZLI TURU ATTI, RUSSELL VE HADJAR ONU İZLEDİ",
                 "cat": "formula 1",
