@@ -8964,6 +8964,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 424,
+                "title": "MARC MARQUEZ, 2026 SEZONUNUN ARDINDAN EMEKLİ OLACAĞINI AÇIKLADI!",
+                "cat": "motogp",
+                "date": "2026-11-27 13:20",
+                "content": "Ducati Lenovo Team, sosyal medya hesapları üzerinden yaptığı resmi duyuruyla Marc Marquez'in 2026 MotoGP sezonunun sonunda emekliye ayrılacağını açıkladı. Kararla birlikte bu hafta sonu düzenlenecek Valensiya Grand Prix'si, İspanyol sürücünün kariyerindeki son yarış olacak.<br><br>Marquez, geçtiğimiz hafta koşulan MotoGP Portekiz Grand Prix'sinde MotoGP sınıfındaki sekizinci, genel kariyerindeki ise 10. dünya şampiyonluğunu ilan etmişti. Şampiyonluğun hemen ardından gelen bu emeklilik kararı, sezon finali öncesinde haftanın en öne çıkan gelişmesi oldu.<br><br>Takım tarafından paylaşılan bilgilendirmeye göre İspanyol pilot, emeklilik kararına ilişkin ayrıntıları bugün saat 12.15'te Circuit Ricardo Tormo'da düzenlenecek basın toplantısında aktaracak. Valensiya'daki sezon kapanış yarışı, Marquez'in hem 10. şampiyonluğunu taçlandıracağı hem de pistlere veda edeceği yarış niteliği taşıyor.",
+                "img": "Resimler/MotoGP Haberler/1795774843429_IMG_1574.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 415,
                 "title": "ACOSTA, MARQUEZ'İN 10. DÜNYA ŞAMPİYONLUĞUNU DEĞERLENDİRDİ: \"ŞAMPİYON OLMASI KAÇINILMAZDI\"",
                 "cat": "motogp",
