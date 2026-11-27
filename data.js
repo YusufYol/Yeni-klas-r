@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 432,
+                "title": "2026 KATAR GP 2. ANTRENMAN: MERCEDES İLK İKİ SIRADA, HAMILTON MOTOR ARIZASIYLA DURDU",
+                "cat": "formula 1",
+                "date": "2026-11-27 21:46",
+                "content": "Katar'da gece ışıklarının altında koşulan cuma gününün ikinci antrenman seansında en hızlı tur zamanına imza atan isim Kimi Antonelli oldu. Seans boyunca yaşanan spinler, kırmızı ve sanal güvenlik aracı müdahaleleri ile Lewis Hamilton'ın yaşadığı teknik arıza tempo ve olay yoğunluğu açısından dikkat çekici anlar barındırdı.<br><br>Açılış bölümünde George Russell 1:23.715'lik zamanıyla liderlik koltuğuna otururken, takım arkadaşı Antonelli onu ikinci sıradan takip etti. Henüz erken dakikalarda Charles Leclerc ikinci viraj çıkışında spin atarak piste dönmeyi başarsa da kısa süre sonra garaja yöneldi ve kokpitten çıktı. İlk 20 dakikalık dilim geride kalırken Aston Martin ile Cadillac cephesinden henüz tur zamanı kaydedilmemişti; bu sırada Antonelli turunu 1:23.077'ye çekerek en iyi dereceyi ele geçirdi.<br><br>Seansın ilerleyen bölümünde telsizden otomobilinin dengesizliğinden yakınan Hamilton'ın ardından, tam orta noktada pist yüzeyindeki çakıllar nedeniyle kırmızı bayrak sallandı. Yaklaşık beş dakikalık beklemenin ardından yeniden yeşil ışık yandı ve takımlar vakit kaybetmeden piste döndü.<br><br>Yeniden başlayan bölümde çakıl alana çıkan Pierre Gasly spin atarak aracını burada bıraktı. Alpine sürücüsünün yolda kalması sarı bayrakların devreye girmesine yol açtı. Bitime 15 dakika kala pist yeniden temizlenip seans normale döndüğünde Antonelli liderliğini korurken, Hamilton ve Max Verstappen arasındaki kısa pist üstü kapışma hakemler tarafından inceleme gerektirecek bir ihlal olarak değerlendirilmedi.<br><br>Son dört dakikaya girilirken Lewis Hamilton güç ünitesi kaynaklı bir arıza nedeniyle aracını güvenli bir noktaya çekmek zorunda kaldı ve seansı erken noktaladı. Bu gelişmeyle birlikte sanal güvenlik aracı uygulamasına geçildi.<br><br>Sanal güvenlik aracı altında tamamlanan seansın sonunda 1:23.077'lik derecesiyle Kimi Antonelli ilk sırada yer aldı. George Russell takım arkadaşının 0.127 saniye arkasında ikinci olurken, McLaren ikilisi seansı üçüncü ve dördüncü basamakta tamamladı.",
+                "img": "Resimler/Formula 1 Haberler/1795805186375_IMG_1605.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 431,
                 "title": "TOTO WOLFF: “BENİ MERCEDES’TEN KOPARAMAYACAKLARINI BİLİRLER”",
                 "cat": "formula 1",
