@@ -8964,6 +8964,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 425,
+                "title": "2026 MOTOGP VALENSİYA GP 1. ANTRENMAN: BEZZECCHI ZİRVEDE, EMEKLİLİK KARARI AÇIKLAYAN MARC MARQUEZ İKİNCİ",
+                "cat": "motogp",
+                "date": "2026-11-27 15:49",
+                "content": "MotoGP 2026 sezonunun final durağı Valensiya Grand Prix'si, pistteki rekabetin yanı sıra tarihi bir veda duyurusuyla başladı. Hafta sonunun ilk serbest antrenman seansını Marco Bezzecchi lider tamamlarken, sezonun dünya şampiyonu Marc Marquez'in 2026 sonunda kariyerini noktalayacağını açıklaması güne damgasını vurdu.<br><br>Seans başlamadan önce hava sıcaklığının 13, asfalt sıcaklığının ise yalnızca 8 derece olarak ölçülmesi pistteki yol tutuşunu ciddi oranda düşürdü. Düşük sıcaklıkların belirleyici olduğu seans öncesinde Marc Marquez, garajında kameralara sırayla gösterdiği pankartlarla Valensiya'nın kariyerindeki son yarışı olacağını ve sezon bitiminde emekliye ayrılacağını ilan etti.<br><br>Yeşil ışıkların yanmasıyla birlikte soğuk asfalta çıkan isimler arasında erken tempoyu 1:30.793'lük derecesiyle Raul Fernandez belirledi. Fermin Aldeguer sadece 0.008 saniye farkla ikinci sıraya yerleşirken, emeklilik kararını duyuran Marc Marquez ilk bölümde üçüncü basamakta yer aldı. Açılış turlarının ardından takımlar soğuk pist verilerini incelemek üzere sürücülerini garaja çağırdı.<br><br>Bitime yaklaşık 26 dakika kala yeniden hareketlenen pistte Pedro Acosta, Marc Marquez ve Fermin Aldeguer sürüş hissiyatını artırmaya odaklandı ancak ilk denemelerde dereceler gelişmedi. Sonraki turunda vites artıran Marc Marquez, 1:30.691 ile liderliği devraldı. Ancak Marco Bezzecchi bu hamleye 1:30.681'lik turuyla gecikmeden yanıt vererek birincilik koltuğuna oturdu.<br><br>Seansın ilerleyen dakikalarında Alex Marquez ilk iki sektörde en iyi zamanları yakalamasına karşın son bölümlerde tempo kaybedince 1:30.820 ile beşinci sırada kaldı. Son çeyreğe girilirken derecesini geliştirmeye çok yaklaşan Marc Marquez, bir virajda zaman kaybetmesinin ardından turunu yarıda bırakıp garaja yöneldi. Aynı dakikalarda Jack Miller ise 2. virajda tutuşunu kaybederek çakıl havuzuna çıktı.<br><br>Kalan sürede zirve sıralamasını değiştiren başka bir tur gelmedi ve damalı bayrak sallandığında Marco Bezzecchi ilk antrenman seansını en hızlı isim olarak noktaladı. Liderin hemen arkasında ikinci sırayı alan Marc Marquez'in sürpriz veda açıklaması seansın önüne geçerken, ilk üçü Raul Fernandez tamamladı.",
+                "img": "Resimler/MotoGP Haberler/1795783765459_IMG_1594.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 424,
                 "title": "MARC MARQUEZ, 2026 SEZONUNUN ARDINDAN EMEKLİ OLACAĞINI AÇIKLADI!",
                 "cat": "motogp",
