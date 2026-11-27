@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 423,
+                "title": "LIAM LAWSON: 27 TURLUK LASTİK SINIRI STRATEJİ ESNEKLİĞİNİ AZALTTI, SIRALAMA TURLARI KİLİT ROL OYNUYOR",
+                "cat": "formula 1",
+                "date": "2026-11-27 13:04",
+                "content": "Katar Grand Prix’si hafta sonunda devreye giren lastik kullanım kuralı, takımların yarış planlarını doğrudan etkileyen yeni bir tablo ortaya çıkardı. Güvenlik gerekçesiyle Pirelli ve FIA tarafından belirlenen ve bir lastik setinin en fazla 27 tur dayanmasına imkan tanıyan düzenleme, 57 turluk yarışta en az iki pit stopu zorunlu kılıyor.<br><br>Racing Bulls sürücüsü Liam Lawson, söz konusu sınırın takımların alternatif strateji üretme alanını daralttığını ve dikkatleri doğrudan otomobilin temposuna çevirdiğini ifade etti. Lawson, yeni düzenlemenin yarış kurgusuna etkisini şu sözlerle değerlendirdi: \"Bu kural strateji konusunda elimizi biraz kısıtlıyor.”<br><br>Kısıtlamanın tek bir ana plan etrafında şekilleneceğini belirten Lawson, hafta sonu yaklaşımında saf süratin belirleyici olacağını dile getirdi: “Bu yüzden en önemlisi hızlı bir araca sahip olmamız, iyi bir sıralama seansı geçirmeye çalışmamız ve performansı doğrudan pist üstünde, saf hızımızla ortaya koymamız gerekiyor çünkü tek bir stratejiye bağlı olacağız.”<br><br>Uygulamanın arka planındaki güvenlik gerekçesine de değinen Lawson, kararı tartışmaya açmadığını şu ifadelerle aktardı: “Açıkçası bu güvenlik amacıyla yapılmış bir uygulama, dolayısıyla üzerine söylenecek pek fazla bir şey yok.\"<br><br>Katar’daki geçiş şartlarının henüz netleşmediğini kaydeden genç pilot, ilk turun ve sıralama performansının ağırlığına dikkat çekerek sözlerini şöyle noktaladı: “Yarışta geçiş yapmanın ne kadar kolay ya da zor olacağını henüz bilmiyorum, bunu antrenman seanslarında göreceğiz. Ancak sıralama turlarının ve ilk turun çok ama çok önemli olacak.\"",
+                "img": "Resimler/Formula 1 Haberler/1795773848080_IMG_1573.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 422,
                 "title": "LECLERC’TEN BAĞLILIK VURGUSU: “BU TAKIMA DUYDUĞUM SEVGİDEN DAHA NET BİR ŞEY YOK”",
                 "cat": "formula 1",
