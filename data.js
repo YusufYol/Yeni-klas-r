@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 426,
+                "title": "SEBASTIAN VETTEL’DEN FERRARİ İTİRAFI: “DEĞİŞİKLİK YAPMA CESARETİNDEN YOKSUNDUK”",
+                "cat": "formula 1",
+                "date": "2026-11-27 15:53",
+                "content": "Dört kez Formula 1 dünya şampiyonu Sebastian Vettel, Ferrari’de geçirdiği yıllara ve İtalyan takımının iç işleyişine dair çarpıcı değerlendirmelerde bulundu. Maranello ekibinde altı sezon yarışan Alman pilot, kritik anlarda gereken dönüşümü gerçekleştiremediklerini dile getirdi.<br><br>Kırmızı tulumla 14 yarış galibiyeti ve 12 pole pozisyonu kazanmasına rağmen dünya şampiyonluğuna uzanamayan Vettel, özellikle turbo-hibrit çağının başlangıcında Mercedes’in kurduğu üstünlüğün önünde büyük bir engel oluşturduğunu hatırlattı. Berlin’deki bir organizasyon kapsamında Auto Bild’e konuşan eski pilot, takımdan ayrılmasının ardından geçen sürede Ferrari’deki çalışma kültürüne ilişkin farklı bakış açıları edindiğini belirtti.<br><br>Maranello günlerine dair gözlemlerini aktaran Vettel, şu ifadeleri kullandı:<br><br>\"Yıllar içinde öğrendiğim şey, Ferrari'nin bu konuda değişiklik yapma cesaretinden biraz yoksun kaldığı.\"<br><br>\"Her zaman geleceği düşünüyorduk, daha iyisini yapmaya ve o son adımı atmaya fazlasıyla odaklanmıştık. Belirleyici anlarda takım olarak cesaretten yoksunduk.\"<br><br>\"Fabrikadaki birçok kişiyle konuştuğumu hatırlıyorum ve artık bunu sürdüremiyorduk. Hepimiz tükenmiştik çünkü giderek daha hızlı çalışıyor, daha fazlasını yapıyor ve daha uzun saatler çalışıyorduk. Ancak verimlilik aynı ölçüde artmıyordu.\"<br><br>\"Çok gergindik, rahat değildik, keyif almıyorduk... Takım içinde dayanışma da güven de yoktu.\"",
+                "img": "Resimler/Formula 1 Haberler/1795783975671_IMG_1595.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 423,
                 "title": "LIAM LAWSON: 27 TURLUK LASTİK SINIRI STRATEJİ ESNEKLİĞİNİ AZALTTI, SIRALAMA TURLARI KİLİT ROL OYNUYOR",
                 "cat": "formula 1",
