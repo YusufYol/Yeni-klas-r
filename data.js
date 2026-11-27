@@ -8994,6 +8994,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 430,
+                "title": "VALENSİYA GP ANA ANTRENMANDA ZİRVE MARC MARQUEZ'İN",
+                "cat": "motogp",
+                "date": "2026-11-27 18:13",
+                "content": "MotoGP 2026 sezonunun Valensiya ayağında gerçekleştirilen ana antrenman seansını Marc Marquez ilk sırada tamamladı.<br><br>Cuma programının kapanış seansı öncesinde yükselen sıcaklıklarla birlikte hava 16°C, asfalt ise 20°C seviyelerinde ölçüldü.<br><br>Seansın başlamasıyla ilk hızlı derece 1:29.683’lük turuyla Johann Zarco’dan geldi. Bitime 40 dakika kala arka lastiğini yeni bir yumuşak hamurla değiştiren Marc Marquez, Zarco’ya yaklaşık yarım saniye fark atarak liderliği devraldı. Bu hamlenin hemen sonrasında Fabio Di Giannantonio ikinci basamağa tırmandı.<br><br>Antrenmanın ilerleyen bölümünde peş peşe kazalar yaşandı. Önce Alex Marquez 6. virajda düşerek garajın yolunu tuttu, kısa bir süre sonra da Pedro Acosta kaza yaparak pite dönmek zorunda kaldı.<br><br>Seansın orta noktası geçilirken Marco Bezzecchi, 1:28.890’lık derecesiyle zaman çizelgesinin en üstüne adını yazdırdı. Enea Bastianini’nin 11. virajda yaşadığı kazanın ardından piste geri dönen Pedro Acosta ise yeniden tempo bularak ikinciliğe yükseldi.<br><br>Son 10 dakikaya girildiğinde Raul Fernandez 1:28.791 ile liderlik koltuğuna otururken, Fabio Di Giannantonio motosikletinde meydana gelen teknik sorun nedeniyle garaja çekildi.<br><br>Bir saatlik mücadelenin sonunda damalı bayrak sallandığında 1:28.483’lük en iyi tur zamanına imza atan Marc Marquez günü zirvede noktaladı. Marco Bezzecchi ikinci sırada yer alırken, liderin 0.291 saniye gerisindeki Ai Ogura üçüncü, Raul Fernandez ise dördüncü oldu.",
+                "img": "Resimler/MotoGP Haberler/1795792420576_IMG_1600.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 428,
                 "title": "MARC MÁRQUEZ EMEKLİLİK KARARINI AÇIKLADI: VALENCIA SON YARIŞ HAFTA SONU OLACAK",
                 "cat": "motogp",
