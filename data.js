@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 422,
+                "title": "LECLERC’TEN BAĞLILIK VURGUSU: “BU TAKIMA DUYDUĞUM SEVGİDEN DAHA NET BİR ŞEY YOK”",
+                "cat": "formula 1",
+                "date": "2026-11-27 10:52",
+                "content": "Katar Grand Prix’si hafta sonu öncesinde basın karşısına geçen Charles Leclerc, sözleşmesinde birinci pilot önceliği yer aldığı yönündeki söylentileri net bir dille yalanladı. Monakolu sürücü, 2019’dan bu yana sürdürdüğü Ferrari kariyerinde takımına olan sadakatinin tartışma konusu yapılmasının kendisini kırdığını ifade etti.<br><br>Genellikle kontrat maddelerini gizli tuttuğunu dile getiren Leclerc, ortaya atılan iddialar nedeniyle bu konuyu açıkça konuşma gereği duyduğunu vurguladı.<br><br>Leclerc açıklamasında şu ifadelere yer verdi: “Normalde sözleşmemde nelerin yer aldığını asla açıklamam ama bunun artık üzerinde konuşulması gereken önemli bir konu olduğunu düşünüyorum.”<br><br>Takım içinde imtiyazlı bir konum talep etmediğini belirten deneyimli pilot, söylentilerin yarattığı rahatsızlığı şöyle anlattı: “Kontratımda böyle bir şeyi ifade eden tek bir madde bile kesinlikle yok. Bu hiçbir zaman ilgimi çeken ya da kişisel olarak istediğim bir şey olmadı. Günün sonunda bu iddialar işimizin bir parçası ama en çok üzüldüğüm şey, insanların takıma olan dürüstlüğümü ve Ferrari'ye olan bağlılığımı sorgulaması.”<br><br>İtalyan ekibindeki geçmişine ve hedeflerine dikkat çeken Leclerc, sözlerini şöyle sürdürdü: “2019'dan beri Ferrari'deyim ve bu takıma duyduğum sevgiden daha net hiçbir şey olmadığını düşünüyorum. Ferrari'yi yeniden zirveye taşımak için kesinlikle her şeyi yapacağım. Elbette bu yolda hatalar olabiliyor ve her zaman da olacak. Özellikle takım arkadaşları arasındaki hataları en aza indirmeye çalışmalıyız.”<br><br>Kısa süre önce Ferrari ile imzaladığı yeni uzun vadeli anlaşmayı anımsatan Leclerc, ilerleyen dönemlerde başka bir takıma transfer olabileceği yönündeki soruları da kapattı.<br><br>Leclerc’in gelecek planlarına dair açıklaması ise şöyle oldu: “Daha birkaç ay önce yeni bir sözleşme imzaladım.”<br><br>“Dolayısıyla şu an itibarıyla böyle bir şey elbette söz konusu değil çünkü burası sevdiğim takım ve önümüzdeki yıllarda en iyi konumda olacağımıza güveniyorum.”<br><br>“Bu yüzden hayır, şu an için başka bir takımda yarışmayı düşünmüyorum.”",
+                "img": "Resimler/Formula 1 Haberler/1795765924176_IMG_1571.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 421,
                 "title": "2026 KATAR GRAND PRIX PROGRAMI, SEANS SAATLERİ VE YAYIN KANALLARI",
                 "cat": "formula 1",
