@@ -9024,6 +9024,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 434,
+                "title": "2026 MOTOGP VALENSİYA GP 2. ANTRENMAN: MARCO BEZZECCHI SEZONUN SON SEANSINI ZİRVEDE TAMAMLADI",
+                "cat": "motogp",
+                "date": "2026-11-28 12:59",
+                "content": "MotoGP'de 2026 sezonunun final durağı olan Valensiya Grand Prix'si kapsamında gerçekleştirilen 2. antrenman seansı sona erdi. 30 dakikalık bu son hazırlık bölümünde piste çıkan sürücüler arasında günün en hızlı derecesine imza atan isim Marco Bezzecchi oldu.<br><br>Pit yolunun açılması ve lastiklerin ideal çalışma sıcaklığına ulaşmasıyla birlikte sürücüler zaman turlarına hız verdi. Seansın açılış bölümünde 1:30.439’luk derecesiyle ilk referans turunu Marco Bezzecchi belirledi. Pedro Acosta’nın hemen arkasında yer aldığı ilk turların ardından Bezzecchi süresini 1:30.340’a çekti. Kısa süreliğine Acosta liderliği devralsa da ikinci sektörde vites yükselten Marc Marquez, 1:30.068 ile zirveye oturdu.<br><br>Seansın orta bölümünde hız kesmeyen Marc Marquez, tur zamanını 1:29.646 seviyesine indirerek farkı açmaya çalıştı. Bu dakikalarda Raul Fernandez ise 1:29.976’lık performansıyla ikinci sıraya kadar tırmanmayı başardı.<br><br>Damalı bayrağa 10 dakika kala temposunu yeniden artıran Marco Bezzecchi, 1:29.646 ile Marc Marquez’in derecesini yakalayarak liderliği geri aldı. Arka sıralarda Iker Lecuona 1:30.537 ile 15. basamağa çıkarken, genç yetenek Fermin Aldeguer 1:29.778’lik turuyla ikinci sıraya yerleşti. Alex Marquez ise derecesini geliştiremeyerek 9. sırada kaldı.<br>İlk 10 içerisine girmek için son bir hamle yapan Jorge Martin, 1:30.449 ile kişisel en iyi zamanını geliştirse de 14. sıradan yukarı çıkamadı.<br><br>Kapanış turlarında bir kez daha sınırları zorlayan Marco Bezzecchi, 1:29.596’lık derecesiyle seansın en hızlı turunu kaydetti ve liderliğini perçinledi. Damalı bayrağın sallanmasıyla birlikte sezonun son antrenman seansı Bezzecchi'nin liderliğinde tamamlanırken, Pedro Acosta 2., Fermin Aldeguer ise 3. sırada yer aldı.",
+                "img": "Resimler/MotoGP Haberler/1795859942240_IMG_1427.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 430,
                 "title": "VALENSİYA GP ANA ANTRENMANDA ZİRVE MARC MARQUEZ'İN",
                 "cat": "motogp",
