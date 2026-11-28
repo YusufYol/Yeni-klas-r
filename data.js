@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 440,
+                "title": "2026 KATAR GP 3. ANTRENMAN SEANSI: KIMI ANTONELLI LİDERLİĞİ BIRAKMADI, MERCEDES DUBLE YAPTI",
+                "cat": "formula 1",
+                "date": "2026-11-28 18:40",
+                "content": "2026 Formula 1 Katar Grand Prix'si hafta sonunun son antrenman seansı, Luseyl Uluslararası Pisti'nde gerçekleştirildi. Sıralama turları öncesindeki son hazırlık bölümünde en hızlı zamanı kaydeden isim Mercedes pilotu Kimi Antonelli oldu.<br><br>Seans başlamadan hemen önce pistteki hava sıcaklığı 25 derece, asfalt sıcaklığı ise 29 derece olarak kaydedildi. Yeşil ışıkların yanmasıyla birlikte sessizliği bozan ilk sürücü, cuma günkü ikinci antrenman seansında spin yaşayan Alpine pilotu Pierre Gasly oldu. Yumuşak hamurlu lastiklerle piste çıkan Fransız pilot, ilk 10 dakikalık bölümde pistteki tek araç olarak toplam beş tur attı ve 1:26.284'lük bir derece elde etti.<br><br>Seansın orta bölümüne doğru garajlardaki hareketlilik arttı ve diğer pilotlar da kademeli olarak piste çıkmaya başladı. Bu bölümde McLaren pilotu Lando Norris kısa süreli bir pist dışı ziyareti yaşadı. Ardından hızlanan Mercedes cephesinde George Russell, 1:22.983'lük turuyla zaman tablosunun ilk sırasına yerleşirken, takım arkadaşı Kimi Antonelli 0.146 saniye geride ikinci sırayı aldı.<br><br>Luseyl'in projektörleri altında pist koşullarının iyileşmesiyle birlikte tur zamanları hızla aşağı çekildi ve seans boyunca liderlik birçok kez el değiştirdi. Damalı bayrak sallandığında ise 1:22.400'lük derecesiyle zirvenin sahibi Kimi Antonelli oldu. Takım arkadaşı George Russell, 0.249 saniye farkla ikinci sırada yer alarak Mercedes adına seansı ilk iki sırada tamamladı.<br><br>Mercedes ikilisinin hemen arkasında Red Bull pilotları sıralanırken, beşinci basamakta Charles Leclerc yer aldı. McLaren sürücüleri Lando Norris ve Oscar Piastri ise sırasıyla altıncı ve yedinci olarak seansı noktaladı. Günün ilk 10'unu tamamlayan diğer isimler Racing Bulls pilotları ve Lewis Hamilton oldu.",
+                "img": "Resimler/Formula 1 Haberler/1795880452028_IMG_1627.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 438,
                 "title": "MEKIES: \"VERSTAPPEN'İN TAKIMDA KALMA KARARI DÖNÜM NOKTAMIZ OLDU\"",
                 "cat": "formula 1",
