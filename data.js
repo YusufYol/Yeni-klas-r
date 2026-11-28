@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 436,
+                "title": "FERNANDO ALONSO'DAN EMEKLİLİK KARARI ALAN MARC MARQUEZ'E DUYGUSAL MESAJ: \"PAZAR GÜNLERİM ARTIK EKSİK KALACAK\"",
+                "cat": "formula 1",
+                "date": "2026-11-28 16:36",
+                "content": "Motor sporları dünyasının İspanyol efsanesi Marc Marquez'in şok emeklilik kararı ardından duygusal anlara sahne oldu. Sekizinci MotoGP dünya şampiyonluğuna ulaştıktan yalnızca günler sonra pistlere veda edeceğini duyuran Marquez'e, Formula 1'in tecrübeli pilotu Fernando Alonso'dan anlamlı bir veda mesajı geldi.<br><br>Cuma günü gerçekleştirilen antrenman seansında kariyerini noktalayacağını açıklayan Ducati sürücüsü, padokta adeta şok etkisi yarattı. Henüz geçtiğimiz haziran ayında takımıyla olan kontratını 2028 yılının sonuna kadar uzatan Marquez'in, bu hafta sonu Valensiya'da koşulacak sezon finaliyle birlikte kaskını asacak olması motor sporları camiasında büyük bir sürpriz olarak karşılandı.<br><br>Kısa süre önce kazandığı zaferle Valentino Rossi'yi geride bırakıp Giacomo Agostini'nin sekiz şampiyonlukluk tarihi rekorunu egale eden Marquez'in bu ani vedasına kayıtsız kalmayan isimlerden biri de Fernando Alonso oldu.<br><br>Sosyal medya hesabı üzerinden Marquez'e seslenen Aston Martin pilotu, İspanyol sürücünün pistteki öngörülemez stiline hayranlığını dile getirerek şu ifadeleri kullandı:<br><br>\"Seni pistte izlerken bana en büyük keyfi veren şey, bir sonraki hamlenin ne olacağını asla kestirememekti. Yarışın artık bittiğini ve sonuçlandığını düşündüğümüz anlarda bile, senin neler yapacağını görmek için gözümü ekrandan ayırmadan izlemeye devam ediyordum. Pazar günlerimi bu heyecandan mahrum geçirmeye alışmak benim için gerçekten zor olacak.\"<br><br>Mesajının sonunda efsane isme yeni hayatında mutluluklar dileyen Alonso, sözlerini şöyle noktaladı:<br><br>\"Marc, seni yarışırken izleyebilmiş olmak benim için büyük bir şanstı. Bize yaşattığın her şey için teşekkürler, yeni hayatının tadını doyasıya çıkar! Her şey için 10 kez teşekkürler!\"",
+                "img": "Resimler/Formula 1 Haberler/1795873004655_IMG_1621.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 433,
                 "title": "LECLERC: \"BEKLEDİĞİMİZDEN ÇOK DAHA KÖTÜ VE ANLAMLANDIRAMADIĞIMIZ BİR GÜN OLDU\"",
                 "cat": "formula 1",
