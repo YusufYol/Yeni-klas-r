@@ -9024,6 +9024,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 435,
+                "title": "VALENSİYA'DA NEFES KESEN SIRALAMA SEANSI: POLE POZİSYONU MARCO BEZZECCHI'NİN!",
+                "cat": "motogp",
+                "date": "2026-11-28 14:45",
+                "content": "2026 MotoGP sezonunun Valensiya ayağında gerçekleştirilen sıralama turları büyük bir rekabete sahne oldu. Circuit Ricardo Tormo'da piste çıkan sürücüler arasında günün en hızlı ismine imza atan Aprilia pilotu Marco Bezzecchi, yarışa ilk cepten başlama hakkını elde etti.<br><br>Sıralama mücadelesinin ilk bölümü olan Q1 seansında pist üstündeki ilk hareketlilikle birlikte Joan Mir, 1:29.205'lik derecesiyle liderlik koltuğuna oturdu ve Brad Binder onu ikinci sıradan takip etti. Pit garajlarına yapılan kısa dönüşlerin ardından yeniden piste çıkan sürücülerden, Francesco Bagnaia'nın koltuğunda mücadele eden Iker Lecuona temposunu artırarak Binder'ı geride bıraktı ve ikinciliğe tırmandı. Seansın son bölümünde derecelerin iyice hızlanmasıyla birlikte Enea Bastianini ilk, Joan Mir ise ikinci sırada yer alarak adlarını Q2'ye yazdıran isimler oldu.<br><br>Pole pozisyonunun sahibini belirleyen 15 dakikalık Q2 seansında ise tempo bir an olsun düşmedi. İlk hızlı turların tamamlanmasının ardından Marc Marquez 1:28.606 ile zirveye yerleşirken, Raul Fernandez liderin yalnızca 0.005 saniye arkasında ikinci sırayı aldı. Mücadelenin kızıştığı dakikalarda Marco Bezzecchi, 1:28.478'lik derecesiyle liderliği Marquez'den devraldı ancak Raul Fernandez pist rekorunu kırarak zirveyi hemen geri aldı.<br><br>Seansın final bölümünde Marc Marquez yeniden en iyi zamanı kaydetse de son sözü Marco Bezzecchi söyledi. İtalyan sürücü, 1:27 barajının altına inen olağanüstü bir turla zirveye adını yazdırdı. Seansın bu kritik anlarında kaza yapan Ai Ogura ve Pol Espargaro ise mücadeleyi tamamlayamadı.<br><br>Dama bayrağı sallandığında Bezzecchi'nin derecesini geride bırakabilen bir isim çıkmadı ve Aprilia sürücüsü pole pozisyonunu cebine koydu. Marc Marquez sıralama turlarını ikinci sırada tamamlarken, üçüncü cep Raul Fernandez'in oldu. İlk üç sıranın ardından Alex Marquez dördüncü, Jorge Martin ise beşinci en iyi dereceyi elde ederek yarışa ikinci çizgiden başlama hakkı kazandı.",
+                "img": "Resimler/MotoGP Haberler/1795866320974_IMG_1615.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 434,
                 "title": "2026 MOTOGP VALENSİYA GP 2. ANTRENMAN: MARCO BEZZECCHI SEZONUN SON SEANSINI ZİRVEDE TAMAMLADI",
                 "cat": "motogp",
