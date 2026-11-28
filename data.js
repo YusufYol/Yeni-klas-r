@@ -2,6 +2,16 @@ const APP_DATA = {
     "formula 1": {
         "news": [
             {
+                "id": 437,
+                "title": "FORMULA 1 TÜRKİYE GRAND PRİX'SİNE REKOR İLGİ: 2027 TAKVİMİNDE ZİRVEYE YERLEŞTİ",
+                "cat": "formula 1",
+                "date": "2026-11-28 17:39",
+                "content": "Motor sporlarının zirvesi Formula 1, 2027 yılında Türkiye’ye görkemli bir dönüş yapmaya hazırlanıyor. 1-3 Ekim 2027 tarihleri arasında TOSFED İstanbul Park’ta koşulacak olan Türkiye Grand Prix’si, biletler henüz genel satışa çıkmadan aldığı 150 binin üzerindeki ön kayıt başvurusuyla dikkatleri üzerine çekti. İstanbul, bu etkileyici rakamla 2027 sezonunda yer alan 24 yarışlık dev takvimde en çok talep gören organizasyon unvanını elde etti.<br><br>Dev organizasyonun küresel çapta yarattığı bu heyecanın arkasında kapsamlı tanıtım faaliyetleri de yer alıyor. Kültür ve Turizm Bakanlığı bünyesindeki Türkiye Turizm Tanıtım ve Geliştirme Ajansı (TGA), yarışı dünya vitrinine çıkarmak için yoğun bir iletişim kampanyası yürütüyor. GoTürkiye’nin dijital mecraları başta olmak üzere uluslararası televizyon reklamları ve çeşitli dijital platformlar üzerinden yapılan tanıtımlarla motor sporları tutkunlarının ilgisi İstanbul'a çekiliyor.<br><br>Akdeniz Turistik Otelciler ve İşletmeciler Birliği (AKTOB) tarafından organize edilen 16. Uluslararası Resort Turizm Kongresi’nde konuya dair değerlendirmelerde bulunan Kültür ve Turizm Bakanı Mehmet Nuri Ersoy, yakalanan bu başarıya vurgu yaptı. İstanbul'un diğer ev sahibi şehirleri geride bıraktığını belirten Bakan Ersoy, \"2027'de yapılacak olan Formula 1'e açık ara en fazla kayıt alan şehir İstanbul oldu.\" ifadelerini kullandı.<br><br>Yarışa gösterilen bu yoğun talebin ülke turizmine büyük bir ivme kazandıracağını belirten Ersoy, organizasyonun etkisini sadece İstanbul ile sınırlı tutmak istemediklerini dile getirdi. Yarış için Türkiye'ye gelecek misafirleri ülkenin diğer gözde tatil merkezlerine de davet eden Ersoy, \"Bunu Ege ve Antalya gibi daha geniş destinasyonlara yaymayı hedefliyoruz. Bu kapsamda bir hafta erken gelin ya da tatilinizi bir hafta uzatın, Antalya ve Bodrum'u görün.\" çağrısında bulundu.<br><br>TOSFED’in ev sahipliğinde gerçekleşecek 2027 Formula 1 Türkiye Grand Prix’sinin, hem küresel marka değerine hem de sonbahar dönemindeki turizm hareketliliğine güçlü bir katkı sunması bekleniyor.",
+                "img": "Resimler/Formula 1 Haberler/1795876761801_IMG_1624.jpeg",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 436,
                 "title": "FERNANDO ALONSO'DAN EMEKLİLİK KARARI ALAN MARC MARQUEZ'E DUYGUSAL MESAJ: \"PAZAR GÜNLERİM ARTIK EKSİK KALACAK\"",
                 "cat": "formula 1",
