@@ -9054,6 +9054,16 @@ const APP_DATA = {
     "motogp": {
         "news": [
             {
+                "id": 439,
+                "title": "VALENSİYA’DA ŞOK ANLAR: MARQUEZ’İN MOTORU STARTTA ALEV ALDI, SPRINT ZAFERİ BEZZECCHI’NİN OLDU!",
+                "cat": "motogp",
+                "date": "2026-11-28 18:34",
+                "content": "2026 MotoGP sezonunun final durağı olan Valensiya GP’nin sprint yarışında zafer Marco Bezzecchi’nin oldu. Ancak mücadeleye damgasını vuran asıl gelişme, start öncesinde 2026 dünya şampiyonu Marc Marquez’in motosikletinin alev almasıydı.<br><br>Formasyon turlarının tamamlanıp pilotların başlangıç çizgisindeki yerlerini almasıyla birlikte yarışın başlaması beklenirken, MotoGP tarihine geçecek nadir bir olay yaşandı. Start anını bekleyen Marc Marquez’in motosikleti, henüz hareket dahi etmeden alevler içinde kaldı.<br><br>Durumu fark eder etmez görevlilerden yardım isteyen İspanyol pilot, motosikletini pist dışına çıkarmaya çalışsa da alevlerin hızla büyümesi üzerine aracı yere bırakmak zorunda kaldı. Motosikletten indikten sonra sağ bacağında ağrı hissettiği görülen Marquez, hızla garajına yöneldi. Yaşanan bu kaotik anların ardından yarış yönetimi startı 20 dakika erteledi ve sprint mesafesini 12 tura düşürdü. Kurallar gereği yedek motosikletle yarışa dönen Marquez’e ise iki uzun tur cezası kesildi.<br><br>Gecikmeli startın ardından ışıkların sönmesiyle birlikte pole pozisyonundan kalkan Marco Bezzecchi, ilk viraja lider girmeyi başardı. Yedek motosikletiyle piste çıkan Marquez ise ilk anlarda üçüncü sıraya yerleşerek önündeki Jorge Martin’i zorlamaya başladı. İlk turda Martin savunmada başarılı olurken, ikinci turda Raul Fernandez 2. virajda düşerek yarış dışı kaldı.<br><br>Üçüncü turda Marquez, Martin’i geçmeyi başarsa da viraj içinde yaptığı fren hatası nedeniyle yerini rakibine geri kaptırdı. İspanyol şampiyon için yarışın kırılma anı ise cezalarını çektiği turlar oldu. Altıncı turda ilk uzun tur cezasını uygulayarak 8. sıraya gerileyen Marquez, bir sonraki turda ikinci cezasını da tamamlayınca 14. sıraya kadar düştü.<br><br>Yarışın son bölümüne girilirken Marco Bezzecchi temposunu iyice artırdı. 10. turda arka arkaya attığı en hızlı turlarla en yakın takipçisi Jorge Martin ile arasındaki farkı açan İtalyan sürücü, liderliğini tamamen güvence altına aldı. Aynı turda Fermin Aldeguer’in hızlı 8. virajda kontrolünü kaybedip çakıl havuzuna savrulması, pistte kısa süreli sarı bayrakların sallanmasına yol açtı.<br><br>Kalan turlarda hata yapmayan Marco Bezzecchi, sezonun son sprint yarışında damalı bayrağı ilk sırada görerek zafere ulaştı. Jorge Martin mücadeleyi ikinci sırada noktalarken, Enea Bastianini üçüncü olarak podyumu tamamlayan son isim oldu.",
+                "img": "Resimler/MotoGP Haberler/1795880084800_IMG_1626.webp",
+                "author": "Azra Şahin",
+                "authorImg": "Resimler/Haber Yazarı Fotoğrafları/Azra Şahin.png"
+            },
+            {
                 "id": 435,
                 "title": "VALENSİYA'DA NEFES KESEN SIRALAMA SEANSI: POLE POZİSYONU MARCO BEZZECCHI'NİN!",
                 "cat": "motogp",
